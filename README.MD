@@ -1,0 +1,39 @@
+# DDD East Midlands
+
+## Setup
+
+Install it:
+
+`npm install`
+
+## Running the site
+
+To run a local version of the site with hot reload run:
+
+`npm run dev`
+
+To run a local copy of the site _without_ hot reloading, mimicking a live
+environment run:
+
+`npm run start`
+
+
+## Exporting the site
+
+Run the following 2 commands
+
+`npm run build`
+`npm run export`
+
+This will build all assets and pages followed by exporting all to the
+`out` folder.
+
+This can then be uploaded into any static site hosting.
+
+If you want to test the exported site you can install the `serve` module
+
+`npm install -g serve`
+
+The `cd out` and run
+
+`serve -p 8080`
