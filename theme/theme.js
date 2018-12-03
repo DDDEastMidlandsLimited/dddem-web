@@ -26,11 +26,11 @@ theme.font = {
             headline2: '2.4rem'
         },
         desktop: {
-            body: '1rem',
-            subtitle1: '1.2rem',
-            subtitle2: '1.4rem',
-            headline1: '2rem',
-            headline2: '2.4rem'
+            body: '1.2rem',
+            subtitle1: '1.6rem',
+            subtitle2: '1.8rem',
+            headline1: '2.2rem',
+            headline2: '2.6rem'
         }
     }
 }

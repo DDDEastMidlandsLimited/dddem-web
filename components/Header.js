@@ -20,7 +20,7 @@ const Header = (props) => (
             .image {
                 margin-top: -100px;
                 border-radius: ${ theme.sizes.borderRadius };
-                padding: 20px;
+                padding: 20px 30px;
                 background-color: ${ theme.palette.primary };
             }
             `}
