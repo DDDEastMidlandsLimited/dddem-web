@@ -9,26 +9,6 @@ const Footer = () => (
                     <a>Home</a>
                 </Link>
             </li>
-            <li>
-                <Link href="/about">
-                    <a>About</a>
-                </Link>
-            </li>
-            <li>
-                <Link href="/venue">
-                    <a>Venue</a>
-                </Link>
-            </li>
-            <li>
-                <Link href="/notable-companies">
-                    <a>Notable Companies</a>
-                </Link>
-            </li>
-            <li>
-                <Link href="/sponsorship">
-                    <a>Sponsorship</a>
-                </Link>
-            </li>
         </ul>
         <style jsx>
             {`

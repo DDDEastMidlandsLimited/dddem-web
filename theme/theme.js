@@ -12,7 +12,8 @@ theme.palette = {
 theme.sizes = {
     maxContentWidth: '940px',
     contentPadding: '20px 20px',
-    borderRadius: '25px;'
+    borderRadius: '25px;',
+    borderRadiusMobile: '15px;'
 }
 
 theme.font = {

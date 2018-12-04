@@ -3,6 +3,7 @@ import Header from "../components/Header";
 import theme from "../theme/theme";
 import FullWidthImage from "../components/FullWidthImage";
 import Head from "next/head";
+import Link from "next/link";
 
 export default () => (
     <Layout>
@@ -16,8 +17,14 @@ export default () => (
                 a situation that makes you uncomfortable at a DDD East Midlands event, if the event itself is creating
                 an unsafe or inappropriate environment or you are made to feel uncomfortable by anyone at any of our
                 events or in our online communities, please let a member of the event team know or contact
-                <a href="mailto:jessica@dddeastmidlands.com">jessica@dddeastmidlands.com</a> or
-                <a href="moreton@dddeastmidlands.com">moreton@dddeastmidlands.com</a>
+                &nbsp;
+                <Link href="mailto:jessica@dddeastmidlands.com">
+                    <a>jessica@dddeastmidlands.com</a>
+                </Link>
+                &nbsp;or&nbsp;
+                <Link href="mailto:moreton@dddeastmidlands.com">
+                    <a>moreton@dddeastmidlands.com</a>
+                </Link>
             </p>
         </section>
         <section>
@@ -51,9 +58,14 @@ export default () => (
             </p>
             <p>
                 If you are being harassed, notice that someone else is being harassed, or have any other concerns,
-                please let a member of the event team know or contact
-                <a href="mailto:jessica@dddeastmidlands.com">jessica@dddeastmidlands.com</a> and
-                <a href="moreton@dddeastmidlands.com">moreton@dddeastmidlands.com</a>
+                please let a member of the event team know or contact&nbsp;
+                <Link href="mailto:jessica@dddeastmidlands.com">
+                    <a>jessica@dddeastmidlands.com</a>
+                </Link>
+                &nbsp;and&nbsp;
+                <Link href="mailto:moreton@dddeastmidlands.com">
+                    <a>moreton@dddeastmidlands.com</a>
+                </Link>
             </p>
             <p>
                 DDD East Midlands representatives will be happy to help participants contact venue security or

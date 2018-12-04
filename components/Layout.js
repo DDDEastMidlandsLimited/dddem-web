@@ -5,7 +5,7 @@ import theme from "../theme/theme";
 import GlobalHead from "./Head";
 
 const Layout = (props) => (
-    <div>
+    <div className="container">
         <GlobalHead />
         <Navigation />
         {props.children}
@@ -24,7 +24,10 @@ const Layout = (props) => (
                 text-align: center;
             }
             p {
-            font-size: ${ theme.font.sizes.desktop.body };
+                font-size: ${ theme.font.sizes.desktop.body };
+            }
+            .container {
+                width: 100vw;
             }
         `}</style>
 

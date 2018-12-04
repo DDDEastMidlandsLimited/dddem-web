@@ -5,8 +5,9 @@ const FullWidthImage = (props) => (
             section {
                 width: 100vw;
                 background-image: url("${ props.url }");
-                height: 400px;
-                background-size: cover;
+    height: 500px;
+    background-size: cover;
+    background-position: center;
             }
             `}
         </style>
