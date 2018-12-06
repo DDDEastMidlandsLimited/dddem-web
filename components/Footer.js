@@ -1,12 +1,23 @@
 import Link from 'next/link'
 import theme from '../theme/theme.js'
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 
 const Footer = () => (
     <footer>
         <ul>
             <li>
-                <Link href="/">
-                    <a>Home</a>
+                <Link href="/code-of-conduct">
+                    <a>Code of Conduct</a>
+                </Link>
+            </li>
+            <li>
+                <Link href="https://twitter.com/dddeastmidlands">
+                    <a><FontAwesomeIcon icon={["fab", "twitter"]} /></a>
+                </Link>
+            </li>
+            <li>
+                <Link href="mailto:jessica@dddeastmidlands.com">
+                    <a>Contact</a>
                 </Link>
             </li>
         </ul>
@@ -21,22 +32,24 @@ const Footer = () => (
             ul {
                 display: flex;
                 margin: 0;
-                padding: 20px;
+                padding: 10px;
                 flex-flow: row;
                 justify-content: space-evenly;
                 flex-wrap: nowrap;
             }
             li {
                 margin: 0;
-                padding: 0;
+                padding: 10px;
                 list-style: none;
                 list-style-type: none;
+                text-align: center;
+                flex-basis: 0;
+                flex-grow: 1;
             }
             a {
                 text-decoration: none;
-                padding: 20px;
                 font-family: ${ theme.font.default };
-                color: ${ theme.palette.primary };
+                color: ${ theme.palette.light };
             }
             `}
         </style>

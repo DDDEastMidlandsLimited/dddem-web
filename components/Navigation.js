@@ -160,7 +160,6 @@ const Navigation = () => (
 
                 .main-menu a:hover,
                 .main-menu a:focus {
-                    background: ${ theme.palette.light };
                     text-decoration: underline;
                 }
 

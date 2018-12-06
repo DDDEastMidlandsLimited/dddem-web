@@ -7,10 +7,12 @@ import { library } from '@fortawesome/fontawesome-svg-core'
 import { faBars, faTimes } from '@fortawesome/free-solid-svg-icons'
 import { faInstagram, faTwitter } from '@fortawesome/free-brands-svg-icons'
 
-library.add(faBars);
-library.add(faTimes);
-library.add(faInstagram);
-library.add(faTwitter);
+library.add(
+    faBars,
+    faTimes,
+    faInstagram,
+    faTwitter
+);
 
 import GlobalHead from "./Head";
 
@@ -38,6 +40,12 @@ const Layout = (props) => (
             }
             a {
                 color: ${ theme.palette.primary };
+            }
+
+            a:before,
+            a:after
+            {
+                content: ' ';
             }
 
             .container {

@@ -21,18 +21,16 @@ export default () => (
             <p>
                 This conference follows these DDD principles:
             </p>
-            <p>
-                <ul>
-                    <li>The event is hosted on a Saturday so that attendees do not have to take time from work.</li>
-                    <li>Tickets to attend the event are free.</li>
-                    <li>All talk submissions are anonymous.</li>
-                    <li>There is a democratic selection process for talks involving attendees voting for what they want
-                        to
-                        see.
-                    </li>
-                    <li>The event is arranged with the community in mind.</li>
-                </ul>
-            </p>
+            <ul>
+                <li>The event is hosted on a Saturday so that attendees do not have to take time from work.</li>
+                <li>Tickets to attend the event are free.</li>
+                <li>All talk submissions are anonymous.</li>
+                <li>There is a democratic selection process for talks involving attendees voting for what they want
+                    to
+                    see.
+                </li>
+                <li>The event is arranged with the community in mind.</li>
+            </ul>
             <p>
                 To find out more, see our About Page. If you are interested in sponsoring the event email
                 <a href="mailto:sponsor@dddeastmdlands.com">sponsor@dddeastmdlands.com</a>
