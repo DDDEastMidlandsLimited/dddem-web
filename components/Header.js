@@ -37,7 +37,7 @@ const Header = (props) => (
                     color: ${theme.palette.primary};
                 }
                 .background {
-                    height: 500px;
+                    height: 300px;
                 }
                 .logo {
                 }
