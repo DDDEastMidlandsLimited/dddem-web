@@ -1,7 +1,10 @@
 import Layout from '../components/Layout.js'
-import theme from '../theme/theme.js'
 import Head from "next/head";
 import Header from "../components/Header";
+import SponsorList from "../components/SponsorsList";
+import sponsors from "../data/sponsors";
+import extraopportunities from "../data/extraopportunities";
+import theme from '../theme/theme.js'
 
 export default () => (
     <Layout>
@@ -9,11 +12,26 @@ export default () => (
             <title>Sponsorship</title>
         </Head>
         <Header title={'Sponsorship'}/>
-        <style jsx>{`
-      h1, a, p {
-        font-family: ${ theme.font.default };
-        color: ${ theme.palette.primary };
-      }
-    `}</style>
+
+
+        <section>
+            <h2>Sponsors</h2>
+            <SponsorList sponsors={sponsors}/>
+        </section>
+
+        <section>
+            <h2>Extra Opportunities</h2>
+            <SponsorList sponsors={extraopportunities}/>
+        </section>
+
+        <style jsx>
+        {`
+            section {
+                max-width: ${theme.sizes.maxContentWidth};
+                padding: ${theme.sizes.contentPadding};
+                margin: auto;
+            }
+        `}
+        </style>
     </Layout>
 )

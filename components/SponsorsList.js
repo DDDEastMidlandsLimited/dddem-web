@@ -1,12 +1,10 @@
 import Sponsor from './Sponsor';
 
 const SponsorList = (props) => (
-    <section>
+    <section className="boxedItems">
         {
             props.sponsors.map(sponsor =>
-                <div>
-                    <Sponsor sponsor={ sponsor } />
-                </div>
+                <Sponsor key={sponsor.id} sponsor={ sponsor } />
             )
         }
          <style jsx>

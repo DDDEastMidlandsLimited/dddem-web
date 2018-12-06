@@ -17,20 +17,21 @@ export default () => (
                 is reflected in DDD East Midlands. It is part of the multi-national DDD conference community, but with a
                 focus on promoting the talent, companies and the amazing tech community the East Midlands has to offer.
             </p>
-            <p>The event follows these DDD Principles:</p>
-            <p>
-                <ul>
-                    <li>The event is hosted on a Saturday so that attendees do not have to take time from work.</li>
-                    <li> Tickets to attend the event are free.</li>
-                    <li>All talk submissions are anonymous.</li>
-                    <li>There is a democratic selection process for talks involving attendees voting for what they want
-                        to
-                        see.
-                    </li>
-                    <li>The event is arranged with the community in mind.
-                    </li>
-                </ul>
-            </p>
+        </section>
+        <section>
+            <h2>The event follows these DDD Principles:</h2>
+
+            <ul>
+                <li>The event is hosted on a Saturday so that attendees do not have to take time from work.</li>
+                <li> Tickets to attend the event are free.</li>
+                <li>All talk submissions are anonymous.</li>
+                <li>There is a democratic selection process for talks involving attendees voting for what they want
+                    to
+                    see.
+                </li>
+                <li>The event is arranged with the community in mind.
+                </li>
+            </ul>
         </section>
         <section>
             <h2>Inclusivity</h2>
@@ -47,13 +48,12 @@ export default () => (
         </section>
         <section>
             <h2>Making speaking accessible</h2>
-            <p>
-                <ul>
-                    <li>Offering mentors for speakers that are selected and request extra help.</li>
-                    <li>Organisers are speaking at meetups about how to submit a good abstract.</li>
-                    <li>Arranging an optional workshop for all speakers to help them construct their talk.</li>
-                </ul>
-            </p>
+
+            <ul>
+                <li>Offering mentors for speakers that are selected and request extra help.</li>
+                <li>Organisers are speaking at meetups about how to submit a good abstract.</li>
+                <li>Arranging an optional workshop for all speakers to help them construct their talk.</li>
+            </ul>
         </section>
         <section>
             <h2>Inclusivity Sponsorship Option</h2>

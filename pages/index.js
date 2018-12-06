@@ -8,9 +8,9 @@ import ImportantDatesList from "../components/ImportantDatesList";
 export default () => (
     <Layout>
         <Head>
-            <title>Home</title>
+            <title>DDD East Midlands</title>
         </Head>
-        <Header title={'Home'}/>
+        <Header title={'DDD East Midlands'}/>
 
         <section>
             <p>

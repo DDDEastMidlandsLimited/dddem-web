@@ -2,11 +2,9 @@ import Layout from '../components/Layout.js'
 import theme from '../theme/theme.js'
 import Header from "../components/Header";
 import ImportantDatesList from "../components/ImportantDatesList";
-import SponsorList from "../components/SponsorsList";
 import PartnerList from "../components/PartnersList";
 
 import dates from "../data/dates.js"
-import sponsors from "../data/sponsors.js"
 import partners from "../data/partners.js"
 import Head from "next/head";
 
@@ -18,9 +16,9 @@ export default (props) => (
         <Header title={'Venue'}/>
 
         <section>
-            <p>
+            <h2>
                 Directions to Nottingham Conference Centre
-            </p>
+            </h2>
         </section>
 
         <section>
@@ -79,11 +77,11 @@ export default (props) => (
                 Street car park. For satellite navigation systems please use the following information:
             </p>
             <p>
-                Trinity Square car park: postcode NG1 4BR<br />
+                <strong>Trinity Square car park:</strong> postcode NG1 4BR<br />
                 co-ordinates 52.956785,-1.149316
             </p>
             <p>
-                Talbot Street car park: postcode NG1 5GG<br />
+                <strong>Talbot Street car park:</strong> postcode NG1 5GG<br />
                 co-ordinates 52.956143,-1.154433
             </p>
         </section>
@@ -92,16 +90,6 @@ export default (props) => (
         <section>
             <h2>Important Dates</h2>
             <ImportantDatesList dates={dates}/>
-        </section>
-
-        <section>
-            <h2>Sponsors</h2>
-            <SponsorList sponsors={sponsors}/>
-        </section>
-
-        <section>
-            <h2>Partners</h2>
-            <PartnerList partners={partners}/>
         </section>
 
         <style jsx>

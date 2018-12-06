@@ -15,19 +15,52 @@ const Layout = (props) => (
                 margin: 0;
                 padding: 0;
                 font-family: ${ theme.font.default };
-            }
-            h2, a, p {
-                color: ${ theme.palette.primary };
-            }
-            h2 {
-                font-size: ${ theme.font.sizes.desktop.subtitle2 };
-                text-align: center;
-            }
-            p {
                 font-size: ${ theme.font.sizes.desktop.body };
             }
+            h2 {
+                font-size: ${ theme.font.sizes.desktop.subtitle1 };
+                text-align: left;
+                color: ${ theme.palette.secondary };
+            }
+            p, a {
+                font-size: ${ theme.font.sizes.desktop.body };
+                color: ${ theme.palette.dark };
+            }
+            a {
+                color: ${ theme.palette.primary };
+            }
+
             .container {
                 width: 100vw;
+            }
+
+            .boxedItems {
+                display: flex;
+                margin: 0;
+                padding: 20px;
+                flex-flow: row;
+                justify-content: space-evenly;
+                flex-wrap: wrap;
+                justify-content: center;
+            }
+
+            .boxItem {
+                width: 170px;
+                height: 90px;
+                text-align: center;
+                border-radius: ${theme.sizes.borderRadiusMobile};
+                background-color: ${theme.palette.primary};
+                padding: 40px 15px;
+                margin: 10px;
+                display: flex;
+                flex-direction: column;
+            }
+
+            @media (min-width: 600px) {
+                .boxItem {
+
+                        border-radius: ${theme.sizes.borderRadius};
+                }
             }
         `}</style>
 

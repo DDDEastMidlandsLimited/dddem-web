@@ -28,7 +28,7 @@ theme.font = {
         },
         desktop: {
             body: '1.2rem',
-            subtitle1: '1.6rem',
+            subtitle1: '1.4rem',
             subtitle2: '1.8rem',
             headline1: '2.2rem',
             headline2: '2.6rem'

@@ -1,12 +1,10 @@
 import Partner from './Partner';
 
 const PartnerList = (props) => (
-    <section>
+    <section className="boxedItems">
         {
             props.partners.map(partner =>
-                <div>
-                    <Partner partner={ partner } />
-                </div>
+                <Partner key={partner.id} partner={ partner } />
             )
         }
          <style jsx>
