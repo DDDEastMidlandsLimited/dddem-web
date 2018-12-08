@@ -9,7 +9,7 @@
 
 [Setup](#setup)
 
-[Style Guide](#style-guide)
+[Branding Guide](#branding-guide)
 
 [Contribution Guidelines](./.github/contributing.md)
 
@@ -53,7 +53,7 @@ The `cd out` and run
 
 `serve -p 8080`
 
-# Style Guide
+# Branding Guide
 
 When making aesthetic changes to the site, please try to keep to our branding.
 
