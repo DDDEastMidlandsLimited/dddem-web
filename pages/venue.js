@@ -16,9 +16,9 @@ export default (props) => (
         <Header title={'Venue'}/>
 
         <section>
-            <h1>
+            <h2>
                 We are super excited to announce that we will be hosted by <a href="http://www.nottinghamconferencecentre.co.uk/">The Nottingham Conference Centre</a>.
-            </h1>
+            </h2>
         </section>
 
         <section>
