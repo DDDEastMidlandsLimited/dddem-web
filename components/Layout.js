@@ -67,7 +67,7 @@ const Layout = (props) => (
                 height: 90px;
                 text-align: center;
                 border-radius: ${theme.sizes.borderRadiusMobile};
-                background-color: ${theme.palette.primary};
+                background-color: ${theme.palette.quaternary};
                 padding: 40px 15px;
                 margin: 10px;
                 display: flex;
