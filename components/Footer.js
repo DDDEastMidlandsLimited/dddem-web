@@ -16,6 +16,16 @@ const Footer = () => (
                 </Link>
             </li>
             <li>
+                <Link href="https://www.instagram.com/dddeastmidlands/?hl=en">
+                    <a><FontAwesomeIcon icon={["fab", "instagram"]} /></a>
+                </Link>
+            </li>
+            <li>
+                <Link href="https://www.linkedin.com/company/ddd-east-midlands-limited/">
+                    <a><FontAwesomeIcon icon={["fab", "linkedin"]} /></a>
+                </Link>
+            </li>
+            <li>
                 <Link href="mailto:jessica@dddeastmidlands.com">
                     <a>Contact</a>
                 </Link>
