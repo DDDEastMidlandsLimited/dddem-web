@@ -1,11 +1,8 @@
 import Layout from '../components/Layout.js'
 import theme from '../theme/theme.js'
 import Header from "../components/Header";
-import ImportantDatesList from "../components/ImportantDatesList";
-import PartnerList from "../components/PartnersList";
+import FullWidthImage from "../components/FullWidthImage";
 
-import dates from "../data/dates.js"
-import partners from "../data/partners.js"
 import Head from "next/head";
 
 export default (props) => (
@@ -20,7 +17,7 @@ export default (props) => (
                 We are super excited to announce that we will be hosted by <a href="http://www.nottinghamconferencecentre.co.uk/">The Nottingham Conference Centre</a>.
             </h2>
         </section>
-
+        <FullWidthImage url={'/static/banners/thencc.jpg'}/>
         <section>
             <h1>
                 Directions to Nottingham Conference Centre
