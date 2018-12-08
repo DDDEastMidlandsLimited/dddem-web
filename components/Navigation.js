@@ -160,6 +160,8 @@ const Navigation = () => (
 
                 .main-menu a:hover,
                 .main-menu a:focus {
+                    background: ${theme.palette.primary};
+                    color: ${theme.palette.light} !important;
                     text-decoration: underline;
                 }
 
@@ -251,8 +253,9 @@ const Navigation = () => (
 
                     .main-menu a:hover,
                     .main-menu a:focus {
-                        background: none; /* Remove background from off-canvas styling */
-                        color: ${theme.palette.light};
+                        background: ${theme.palette.primary};
+                        color: ${theme.palette.light} !important;
+                        text-decoration: underline;
                     }
                 }
             `}
