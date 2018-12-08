@@ -16,6 +16,11 @@ const Footer = () => (
                 </Link>
             </li>
             <li>
+                <Link href="https://github.com/DDDEastMidlandsLimited/dddem-web">
+                    <a><FontAwesomeIcon icon={["fab", "github-square"]} /></a>
+                </Link>
+            </li>
+            <li>
                 <Link href="https://www.instagram.com/dddeastmidlands/?hl=en">
                     <a><FontAwesomeIcon icon={["fab", "instagram"]} /></a>
                 </Link>
