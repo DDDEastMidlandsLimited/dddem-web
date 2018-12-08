@@ -2,6 +2,7 @@ import Layout from '../components/Layout.js'
 import Header from "../components/Header";
 import theme from "../theme/theme";
 import FullWidthImage from "../components/FullWidthImage";
+import RestrictedHeightImage from "../components/RestrictedHeightImage";
 import Head from "next/head";
 
 export default () => (
@@ -46,6 +47,7 @@ export default () => (
                 </li>
             </ul>
         </section>
+        <RestrictedHeightImage url={'/static/banners/ticketinfo.jpg'}/>
         <section>
             <h1>Promoting Inclusivity</h1>
             <p>
@@ -165,19 +167,19 @@ export default () => (
         </section>
         <FullWidthImage url={'/static/banners/dasorganizers.jpg'}/>
         <section>
-            <h2>Moreton Brockley</h2>
-            <p>
-                A Delivery Manager and Developer, Moreton is the sensible head of the co-founders. He is the number
-                whizz and the fashion guru. Seriously, check out his Ninja Turtle Doc Martens. You may (not) recognise Moreton from his performance at 2018's Hack24 as Mr Blobby.
-            </p>
-        </section>
-        <section>
             <h2>Jessica White</h2>
             <p>
-                Fully caffeinated, Jessica is more whirling dervish than person. Having founded Women In Tech Nottingham
+                Fully caffeinated, Jessica is more whirling dervish than person. Having founded <a href="">Women In Tech Nottingham</a>
                 back in 2015, and running it for nearly 2 years, she has previous experience with running an inclusive
                 event. You will be in touch with Jessica if you are considering sponsoring the event or have any awesome
                 ideas for the event or related social media.
+            </p>
+        </section>
+        <section>
+            <h2>Moreton Brockley</h2>
+            <p>
+                A Delivery Manager and developer, Moreton is the sensible head of the co-founders. He is the number
+                whizz and the fashion guru. Seriously, check out his Ninja Turtle Doc Martens. You may (not) recognise Moreton from his performance at 2018's Hack24 as Mr Blobby.
             </p>
         </section>
         <section>
@@ -186,7 +188,7 @@ export default () => (
                 look in need. They will both be running around on the day of the event making sure your experience of it is the best they can possibly make it.
             </p>
         </section>
-        
+
         <style jsx>
             {`
             section {
