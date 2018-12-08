@@ -1,7 +1,6 @@
 <p align="center">
-  <img src="https://s3.eu-west-2.amazonaws.com/ddd-images/ddd_avatar_400x400.jpg" />
+  <img src="https://s3.eu-west-2.amazonaws.com/ddd-images/ddd_avatar_200x200.jpg" />
 </p>
-<br/>
 
 # DDD East Midlands
 
