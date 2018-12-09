@@ -17,7 +17,9 @@ export default (props) => (
                 We are super excited to announce that we will be hosted by <a href="http://www.nottinghamconferencecentre.co.uk/">The Nottingham Conference Centre</a>.
             </h2>
         </section>
-        <FullWidthImage url={'/static/banners/thencc.jpg'}/>
+        <section>
+            <FullWidthImage url={'/static/banners/thencc.jpg'}/>
+        </section>
         <section>
             <h1>
                 Directions to Nottingham Conference Centre

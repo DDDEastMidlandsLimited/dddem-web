@@ -114,7 +114,9 @@ export default () => (
                 This is our very first event of this size, so if you feel we miss anything this year, get in touch so that we can improve it in the future.
             </p>
         </section>
-        <FullWidthImage url={'/static/banners/citycenter.jpg'}/>
+        <section>
+            <FullWidthImage url={'/static/banners/citycenter.jpg'}/>
+        </section>
         <section>
             <h1>About Developer! Developer! Developer! (DDD)</h1>
             <p>
@@ -165,7 +167,9 @@ export default () => (
 
             </p>
         </section>
-        <FullWidthImage url={'/static/banners/dasorganizers.jpg'}/>
+        <section>
+            <FullWidthImage url={'/static/banners/dasorganizers.jpg'}/>
+        </section>           
         <section>
             <h2>Jessica White</h2>
             <p>
