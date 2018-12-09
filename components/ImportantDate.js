@@ -22,6 +22,7 @@ const ImportantDate = (props) => (
 
                 .bottom {
                         color: ${theme.palette.light};
+                        margin-left: -30px;
                 }
 
                 .bottomBackground{
