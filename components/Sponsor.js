@@ -21,6 +21,7 @@ const Sponsor = (props) => (
 
                 .bottom {
                         color: ${theme.palette.light};
+                        margin-left: -25px;
                 }
 
                 .bottomBackground{
