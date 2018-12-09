@@ -52,6 +52,10 @@ const Layout = (props) => (
                 width: 100vw;
             }
 
+            .aligncenter{
+                text-align: center;
+            }
+
             .boxedItems {
                 display: flex;
                 margin: 0;

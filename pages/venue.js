@@ -1,6 +1,7 @@
 import Layout from '../components/Layout.js'
 import theme from '../theme/theme.js'
 import Header from "../components/Header";
+import VenueButton from '../components/VenueButton.js';
 import FullWidthImage from "../components/FullWidthImage";
 
 import Head from "next/head";
@@ -13,8 +14,10 @@ export default (props) => (
         <Header title={'Venue'}/>
 
         <section>
-            <h2>
-                We are super excited to announce that we will be hosted by <a href="http://www.nottinghamconferencecentre.co.uk/">The Nottingham Conference Centre</a>.
+            <h2 class="aligncenter">
+                We are super excited to announce that we will be hosted by 
+                <br/>
+                <a href="http://www.nottinghamconferencecentre.co.uk/">The Nottingham Conference Centre</a>.
             </h2>
         </section>
         <section>
@@ -25,7 +28,7 @@ export default (props) => (
                 Directions to Nottingham Conference Centre
             </h1>
         </section>
-
+        <VenueButton/>
         <section>
             <h2>
                 By rail
@@ -101,7 +104,6 @@ export default (props) => (
                 co-ordinates 52.956143,-1.154433
             </p>
         </section>
-
         <style jsx>
             {`
             section {
