@@ -5,6 +5,7 @@ import SponsorList from "../components/SponsorsList";
 import sponsors from "../data/sponsors";
 import extraopportunities from "../data/extraopportunities";
 import theme from '../theme/theme.js'
+import SponsorButton from '../components/SponsorButton.js';
 
 export default () => (
     <Layout>
@@ -13,6 +14,7 @@ export default () => (
         </Head>
         <Header title={'Sponsorship'}/>
 
+        <SponsorButton/>
 
         <section>
             <h2>Sponsors</h2>
