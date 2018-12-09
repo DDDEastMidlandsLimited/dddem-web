@@ -62,6 +62,11 @@ const Navigation = () => (
                     </Link>
                 </li>
                 <li>
+                    <Link href="/faq">
+                        <a>FAQ</a>
+                    </Link>
+                </li>
+                <li>
                     <Link href="/code-of-conduct">
                         <a>Code of Conduct</a>
                     </Link>

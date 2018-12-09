@@ -1,7 +1,6 @@
 import Layout from '../components/Layout.js'
 import Header from "../components/Header";
 import theme from "../theme/theme";
-import FullWidthImage from "../components/FullWidthImage";
 import Head from "next/head";
 import Link from "next/link";
 

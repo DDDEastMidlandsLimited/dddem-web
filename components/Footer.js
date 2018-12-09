@@ -17,7 +17,7 @@ const Footer = () => (
             </li>
             <li>
                 <Link href="https://github.com/DDDEastMidlandsLimited/dddem-web">
-                    <a><FontAwesomeIcon icon={["fab", "github-square"]} /></a>
+                    <a><FontAwesomeIcon icon={["fab", "github"]} /></a>
                 </Link>
             </li>
             <li>
