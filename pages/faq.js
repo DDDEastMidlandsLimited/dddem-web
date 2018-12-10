@@ -32,63 +32,72 @@ export default () => (
             </ul>
         </section>
 
-        <section name="whenandwhere">
+        <section>
+            <a name="whenandwhere"/>
             <h2>Q: When and where is the event?</h2>
             <p>
                 <strong>A: </strong> The event is on the 26th October 2019 at <a href="http://www.nottinghamconferencecentre.co.uk/">The Nottingham Conference Centre</a>
             </p>
         </section>
 
-        <section name="agelimit">
+        <section>
+            <a name="agelimit"/>
             <h2>Q: Is there an age limit for attending DDD East Midlands</h2>
             <p>
                 <strong>A: </strong> For insurance reasons, only people over the age of 18 can attend DDD East Midlands. We would love to bring this age limit down in the future, but for the first event we want to keep some of the cost and organisational overhead relatively low.
             </p>
         </section>
 
-        <section name="ticketcost">
+        <section>
+            <a name="ticketcost"/>
             <h2>Q: How much will tickets cost?</h2>
             <p>
                 <strong>A: </strong> Tickets for the event will be free but limited in availability. We wanted to ensure that price wouldn't be a barrier for those wanting to attend.
             </p>
         </section>
 
-        <section name="ticketrelease">
+        <section>
+            <a name="ticketrelease"/>
             <h2>Q: When will tickets be released?</h2>
             <p>
                 <strong>A: </strong> We hope to release tickets on Eventbrite on the 23rd March 2019.
             </p>
         </section>
 
-        <section name="applicationdate">
+        <section>
+            <a name="applicationdate"/>
             <h2>Q: When can I apply to talk?</h2>
             <p>
                 <strong>A: </strong> We aim to open applications 26th January 2016.
             </p>
         </section>
 
-        <section name="applicationhow">
+        <section>
+            <a name="applicationhow"/>
             <h2>Q: How do I apply to talk?</h2>
             <p>
                 <strong>A: </strong> To ensure all talk submissions are anonomised we are used Sessionize for talk submissions. A link and details for submitting to the conference will be made available on the website from that date.
             </p>
         </section>
 
-        <section name="tande">
+        <section>
+            <a name="tande"/>
             <h2>Q: Are travel and accomodation expenses provided for speakers?</h2>
             <p>
                 <strong>A: </strong> As we want to encourage local speakers and keep our costs low, we cannot provide expenses (i.e. travel and accomodation costs) to speakers.
             </p>
         </section>
 
-        <section name="dddmeaning">
+        <section>
+            <a name="dddmeaning"/>
             <h2>Q: What does DDD stand for?</h2>
             <p>
                 <strong>A: </strong> Developer! Developer! Developer! See more details on our <a href="/about">About page</a>. 
             </p>
         </section>
 
-        <section name="dddprinciples">
+        <section>
+            <a name="dddprinciples"/>
             <h2>Q: What are the DDD principles you are abiding to?</h2>
             <p>
                 <strong>A: </strong> 
@@ -104,49 +113,56 @@ export default () => (
             </p>
         </section>
 
-        <section name="refreshments">
+        <section>
+            <a name="refreshments"/>
             <h2>Q: Will refreshments be provided?</h2>
             <p>
                 <strong>A: </strong> Yes. There will be catering at the event which will include options for eating restrictions (vegetarian, ceoliac, vegan). Get in touch before the event if you have specific requirements and we will try to cater for you.
             </p>
         </section>
 
-        <section name="wifi">
+        <section>
+            <a name="wifi"/>
             <h2>Q: Is there WiFi access at the venue?</h2>
             <p>
                 <strong>A: </strong> Yes there will be public wifi at the event.
             </p>
         </section>
 
-        <section name="childcare">
+        <section>
+            <a name="childcare"/>
             <h2>Q: Will childcare be available?</h2>
             <p>
                 <strong>A: </strong> Unfortunately we will not be able to provide childcare at this first event. The overhead and cost were too high on this instance, but we would love to find a way in the future. Accessibility is important to us and we would love to make it easier for parents to attend the conference.
             </p>
         </section>
 
-        <section name="hashtag">
+        <section>
+            <a name="hashtag"/>
             <h2>Q: Whats the hashtag?</h2>
             <p>
                 <strong>A: </strong> #DDDEM
             </p>
         </section>
 
-        <section name="coordinators">
+        <section>
+            <a name="coordinators"/>
             <h2>Q: Who is coordinating the event?</h2>
             <p>
                 <strong>A: </strong> Jessica White and Moreton Brockley. For more information see the bottom of the <a href="/about">About page</a>. 
             </p>
         </section>
 
-        <section name="imagery">
+        <section>
+            <a name="imagery"/>
             <h2>Q: Can I say if I don't want to appear in photos or videos at the event?</h2>
             <p>
                 <strong>A: </strong> Yes. Our skilled photographers will not include any person wearing a red lanyard in their imagery. We will provide coloured lanyards at the event.
             </p>
         </section>
 
-        <section name="sponsors">
+        <section>
+            <a name="sponsors"/>
             <h2>Q: Are you still looking for sponsors?</h2>
             <p>
                 <strong>A: </strong> Yes! We would love to here from interested sponsors and partners. Get in touch: <a href="mailto:sponsor@dddeastmidlands.com">sponsor@dddeastmidlands.com</a>
