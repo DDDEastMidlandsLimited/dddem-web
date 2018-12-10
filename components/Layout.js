@@ -78,6 +78,7 @@ const Layout = (props) => (
                 margin: 10px;
                 display: flex;
                 flex-direction: column;
+                position: relative;
             }
 
             @media (min-width: 600px) {
