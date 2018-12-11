@@ -4,8 +4,6 @@ import theme from "../theme/theme";
 import FullWidthImage from "../components/FullWidthImage";
 import RestrictedHeightImage from "../components/RestrictedHeightImage";
 import Head from "next/head";
-import CompanyList from '../components/CompanyList.js';
-import communitypartners from "../data/communitypartners";
 
 export default () => (
     <Layout>
@@ -201,11 +199,6 @@ export default () => (
                 Give them a follow on Twitter, say hi at the local events, offer them a coffee or some chocolate if they
                 look in need. They will both be running around on the day of the event making sure your experience of it is the best they can possibly make it.
             </p>
-        </section>
-
-        <section>
-            <h1>Community Sponsors</h1>
-            <CompanyList partners={communitypartners}/>
         </section>
 
         <style jsx>
