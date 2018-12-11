@@ -3,12 +3,12 @@ const FullWidthImage = (props) => (
         <style jsx>
             {`
             section {
-                width: 100vw;
                 background-image: url("${ props.url }");
-    height: 500px;
-    //background-size: cover;
-    background-repeat: no-repeat;
-    background-position: center;
+                height: 500px;
+                background-repeat: no-repeat;
+                background-position: center;
+                background-size: cover; 
+                text-align:center;
             }
             `}
         </style>

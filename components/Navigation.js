@@ -62,6 +62,11 @@ const Navigation = () => (
                     </Link>
                 </li>
                 <li>
+                    <Link href="/faq">
+                        <a>FAQ</a>
+                    </Link>
+                </li>
+                <li>
                     <Link href="/code-of-conduct">
                         <a>Code of Conduct</a>
                     </Link>
@@ -160,6 +165,8 @@ const Navigation = () => (
 
                 .main-menu a:hover,
                 .main-menu a:focus {
+                    background: ${theme.palette.primary};
+                    color: ${theme.palette.light} !important;
                     text-decoration: underline;
                 }
 
@@ -251,8 +258,9 @@ const Navigation = () => (
 
                     .main-menu a:hover,
                     .main-menu a:focus {
-                        background: none; /* Remove background from off-canvas styling */
-                        color: ${theme.palette.light};
+                        background: ${theme.palette.primary};
+                        color: ${theme.palette.light} !important;
+                        text-decoration: underline;
                     }
                 }
             `}
