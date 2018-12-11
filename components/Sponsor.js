@@ -4,22 +4,13 @@ import SponsorDescription from './SponsorDescription.js';
 
 const Sponsor = (props) => (
     <div className="boxItem">
-        <div className="top">
-            {props.sponsor.name}
-        </div>
-
         {props.sponsor.soldOutImage  
             ? <SponsorImage image={props.sponsor.soldOutImage} />
-            : <SponsorDescription description={props.sponsor.description} />
+            : <SponsorDescription description={props.sponsor.description} name={props.sponsor.name} />
         }       
         <style jsx>
             {`
-                .top {
-                    color: ${theme.palette.tertiary};
-                    font-weight: bold;
-                    font-size: ${theme.font.sizes.mobile.subtitle1};
-                    flex-grow: 1;
-                }
+                
             `}
         </style>
     </div>
