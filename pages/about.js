@@ -178,12 +178,20 @@ export default () => (
                 event. You will be in touch with Jessica if you are considering sponsoring the event or have any awesome
                 ideas for the event or related social media.
             </p>
+            <p>
+                <a class="smallspace" href="https://twitter.com/JessPWhite" target="_blank">Twitter</a>
+                <a href="https://www.linkedin.com/in/jessica-white-67917883/" target="_blank">LinkedIn</a>
+            </p>
         </section>
         <section>
             <h2>Moreton Brockley</h2>
             <p>
                 A Delivery Manager and developer, Moreton is the sensible head of the co-founders. He is the number
                 whizz and the fashion guru. Seriously, check out his Ninja Turtle Doc Martens. You may (not) recognise Moreton from his performance at 2018's Hack24 as Mr Blobby.
+            </p>
+            <p>
+                <a class="smallspace" href="https://twitter.com/allmobro" target="_blank">Twitter</a>
+                <a href="https://www.linkedin.com/in/moreton-brockley-06253538/" target="_blank">LinkedIn</a>
             </p>
         </section>
         <section>
