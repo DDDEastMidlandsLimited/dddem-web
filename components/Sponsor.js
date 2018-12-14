@@ -1,4 +1,3 @@
-import theme from '../theme/theme.js'
 import SponsorImage from './SponsorImage.js';
 import SponsorDescription from './SponsorDescription.js';
 

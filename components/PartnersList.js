@@ -1,10 +1,10 @@
-import Partner from './Partner';
+import PartnerWithDescription from './PartnerWithDescription';
 
 const PartnerList = (props) => (
     <section className="boxedItems">
         {
             props.partners.map(partner =>
-                <Partner key={partner.id} partner={ partner } />
+                <PartnerWithDescription key={partner.id} partner={ partner }/>
             )
         }
          <style jsx>
