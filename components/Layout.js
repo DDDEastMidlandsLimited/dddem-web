@@ -36,10 +36,13 @@ const Layout = (props) => (
                 text-align: left;
                 color: ${ theme.palette.secondary };
             }
+            p{
+                line-height: 1.5;
+            }
             p, a {
                 font-size: ${ theme.font.sizes.desktop.body };
                 color: ${ theme.palette.dark };
-                padding-bottom:3px;
+                line-height: 1.5;
             }
             a {
                 color: ${ theme.palette.primary };
@@ -49,6 +52,10 @@ const Layout = (props) => (
             a:after
             {
                 content: ' ';
+            }
+
+            li{
+                line-height: 1.5;
             }
 
             .container {
