@@ -179,7 +179,7 @@ export default () => (
                 ideas for the event or related social media.
             </p>
             <p>
-                <a class="smallspace" href="https://twitter.com/JessPWhite" target="_blank">Twitter</a>
+                <a className="smallspace" href="https://twitter.com/JessPWhite" target="_blank">Twitter</a>
                 <a href="https://www.linkedin.com/in/jessica-white-67917883/" target="_blank">LinkedIn</a>
             </p>
         </section>
@@ -190,7 +190,7 @@ export default () => (
                 whizz and the fashion guru. Seriously, check out his Ninja Turtle Doc Martens. You may (not) recognise Moreton from his performance at 2018's Hack24 as Mr Blobby.
             </p>
             <p>
-                <a class="smallspace" href="https://twitter.com/allmobro" target="_blank">Twitter</a>
+                <a className="smallspace" href="https://twitter.com/allmobro" target="_blank">Twitter</a>
                 <a href="https://www.linkedin.com/in/moreton-brockley-06253538/" target="_blank">LinkedIn</a>
             </p>
         </section>

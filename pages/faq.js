@@ -99,8 +99,7 @@ export default () => (
         <section>
             <a name="dddprinciples"/>
             <h2>Q: What are the DDD principles you are abiding to?</h2>
-            <p>
-                <strong>A: </strong> 
+            <p><strong>A: </strong></p> 
                 <ul>
                     <li>The event is hosted on a Saturday so that attendees do not have to take time from work.</li>
                     <li> Tickets to attend the event are free.</li>
@@ -110,7 +109,6 @@ export default () => (
                     <li>The event is arranged with the community in mind.
                     </li>
                 </ul>
-            </p>
         </section>
 
         <section>

@@ -14,7 +14,7 @@ export default (props) => (
         <Header title={'Venue'}/>
 
         <section>
-            <h2 class="aligncenter">
+            <h2 className="aligncenter">
                 We are super excited to announce that we will be hosted by 
                 <br/>
                 <a href="http://www.nottinghamconferencecentre.co.uk/">The Nottingham Conference Centre</a>.

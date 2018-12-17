@@ -3,6 +3,9 @@ import theme from '../theme/theme.js'
 import Header from "../components/Header";
 import Head from "next/head";
 import dates from "../data/dates";
+import gold from "../data/gold";
+import silver from "../data/silver";
+import CompanyList from '../components/CompanyList.js';
 import ImportantDatesList from "../components/ImportantDatesList";
 
 export default () => (
@@ -40,6 +43,18 @@ export default () => (
         <section>
             <h2>Important Dates</h2>
             <ImportantDatesList dates={ dates } />
+        </section>
+
+        <section>
+            <h2>Gold Sponsors</h2>
+            <h3>Coming Soon...</h3>
+            <CompanyList partners={gold}/>
+        </section>
+
+        <section>
+            <h2>Silver Sponsors</h2>
+            <h3>Coming Soon...</h3>
+            <CompanyList partners={silver}/>
         </section>
 
         <style jsx>
