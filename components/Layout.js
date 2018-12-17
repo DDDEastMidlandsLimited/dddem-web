@@ -39,6 +39,7 @@ const Layout = (props) => (
             p, a {
                 font-size: ${ theme.font.sizes.desktop.body };
                 color: ${ theme.palette.dark };
+                padding-bottom:3px;
             }
             a {
                 color: ${ theme.palette.primary };
