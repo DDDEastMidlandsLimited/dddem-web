@@ -6,9 +6,9 @@ const RestrictedHeightImage = (props) => (
                 width: 100vw;
                 background-image: url("${ props.url }");
     height: 250px;
-    //background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
+    background-size: contain;
             }
             `}
         </style>
