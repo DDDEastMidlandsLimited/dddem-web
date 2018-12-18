@@ -6,27 +6,27 @@ const Footer = () => (
     <footer>
         <ul>
             <li>
-                <Link href="/code-of-conduct">
+                <Link href="/code-of-conduct" target="_blank">
                     <a>Code of Conduct</a>
                 </Link>
             </li>
             <li>
-                <Link href="https://twitter.com/dddeastmidlands">
+                <Link href="https://twitter.com/dddeastmidlands" target="_blank">
                     <a><FontAwesomeIcon icon={["fab", "twitter"]} /></a>
                 </Link>
             </li>
             <li>
-                <Link href="https://github.com/DDDEastMidlandsLimited/dddem-web">
+                <Link href="https://github.com/DDDEastMidlandsLimited/dddem-web" target="_blank">
                     <a><FontAwesomeIcon icon={["fab", "github"]} /></a>
                 </Link>
             </li>
             <li>
-                <Link href="https://www.instagram.com/dddeastmidlands/?hl=en">
+                <Link href="https://www.instagram.com/dddeastmidlands/?hl=en" target="_blank">
                     <a><FontAwesomeIcon icon={["fab", "instagram"]} /></a>
                 </Link>
             </li>
             <li>
-                <Link href="https://www.linkedin.com/company/ddd-east-midlands-limited/">
+                <Link href="https://www.linkedin.com/company/ddd-east-midlands-limited/" target="_blank">
                     <a><FontAwesomeIcon icon={["fab", "linkedin"]} /></a>
                 </Link>
             </li>
