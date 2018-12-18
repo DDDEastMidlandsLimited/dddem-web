@@ -12,7 +12,7 @@ export default () => (
             <meta name="twitter:site" content="https://www.dddeastmidlands.com/" />
             <meta name="twitter:title" content="DDD East Midlands Website" />
             <meta name="twitter:description" content="A technology conference for the community, by the community. Celebrates all the tech community, businesses and talent have to offer through collaboration & innovation." />
-            <meta name="twitter:image" content="/static/banners/ddd_backround_1500x500.jpg" />
+            <meta name="twitter:image" content="/static/ddd_avatar_400x400.jpg" />
             <meta name="twitter:image:alt" content="a blued out imaged of a large open spaced venue." />
             <link href="https://fonts.googleapis.com/css?family=Raleway:400,700" rel="stylesheet" />
             <link rel="apple-touch-icon" sizes="57x57" href="/static/favicon/apple-icon-57x57.png"/>
