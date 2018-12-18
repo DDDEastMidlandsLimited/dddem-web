@@ -92,7 +92,7 @@ export default () => (
             <a name="dddmeaning"/>
             <h2>Q: What does DDD stand for?</h2>
             <p>
-                <strong>A: </strong> Developer! Developer! Developer! See more details on our <a href="/about">About page</a>. 
+                <strong>A: </strong> Developer! Developer! Developer! See more details on our <a href="/about/">About page</a>. 
             </p>
         </section>
 
@@ -147,7 +147,7 @@ export default () => (
             <a name="coordinators"/>
             <h2>Q: Who is coordinating the event?</h2>
             <p>
-                <strong>A: </strong> Jessica White and Moreton Brockley. For more information see the bottom of the <a href="/about">About page</a>. 
+                <strong>A: </strong> Jessica White and Moreton Brockley. For more information see the bottom of the <a href="/about/">About page</a>. 
             </p>
         </section>
 

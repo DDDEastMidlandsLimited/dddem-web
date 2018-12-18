@@ -64,7 +64,7 @@ export default () => (
                 As mentioned, attendees will get to vote on the talks they wish to see. Talks will be selected by popular vote, but with some discretion by the organisors of the conference. The discretion is to ensure variety at the conference. If two or more talks are nearly exactly the same, the most popular will continue through and the next most popular, different talk will replace the one with identical content. 
             </p>
             <p>
-                We also ask that all talk submissions abide to the <a href="/code-of-conduct">Code of Conduct</a>. We want all attendees to feel comfortable at the event, so ask that no submissions or talks contain content of a graphic, voilent or sexual nature or contain any language that may be considered marginalising or hateful. If you wouldn't want to say it to someone you respect, please don't include it in your submission. Organisers hold the right to remove anything that may be thought to cause distress.
+                We also ask that all talk submissions abide to the <a href="/code-of-conduct/">Code of Conduct</a>. We want all attendees to feel comfortable at the event, so ask that no submissions or talks contain content of a graphic, voilent or sexual nature or contain any language that may be considered marginalising or hateful. If you wouldn't want to say it to someone you respect, please don't include it in your submission. Organisers hold the right to remove anything that may be thought to cause distress.
             </p>
         </section>
         <section>
