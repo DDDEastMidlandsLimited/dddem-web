@@ -10,7 +10,7 @@ const SponsorImage = (props) => (
                 position: absolute;
                 top: 0;
                 left: 0;
-                border: 5px solid white;
+                border: 20px solid white;
                 background: white;
             
             }
