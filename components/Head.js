@@ -8,6 +8,12 @@ export default () => (
             <meta name="msapplication-TileColor" content="#ffffff"/>
             <meta name="msapplication-TileImage" content="/static/favicon/ms-icon-144x144.png"/>
             <meta name="theme-color" content="#ffffff"/>
+            <meta name="twitter:card" content="summary" />
+            <meta name="twitter:site" content="https://www.dddeastmidlands.com/" />
+            <meta name="twitter:title" content="DDD East Midlands Website" />
+            <meta name="twitter:description" content="A technology conference for the community, by the community. Celebrates all the tech community, businesses and talent have to offer through collaboration & innovation." />
+            <meta name="twitter:image" content="/static/banners/ddd_backround_1500x500.jpg" />
+            <meta name="twitter:image:alt" content="a blued out imaged of a large open spaced venue." />
             <link href="https://fonts.googleapis.com/css?family=Raleway:400,700" rel="stylesheet" />
             <link rel="apple-touch-icon" sizes="57x57" href="/static/favicon/apple-icon-57x57.png"/>
             <link rel="apple-touch-icon" sizes="60x60" href="/static/favicon/apple-icon-60x60.png"/>
