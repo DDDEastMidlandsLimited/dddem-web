@@ -36,7 +36,7 @@ export default () => (
             </ul>
             <p>
                 To find out more, see our About Page. If you are interested in sponsoring the event email
-                <a href="mailto:sponsor@dddeastmdlands.com">sponsor@dddeastmdlands.com</a>
+                <a href="mailto:sponsor@dddeastmidlands.com">sponsor@dddeastmidlands.com</a>
             </p>
         </section>
 

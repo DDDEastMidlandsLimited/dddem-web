@@ -26,7 +26,7 @@ export default () => (
                 DDD stands for (in this case) <b>Developer! Developer! Developer!</b>
             </p>
             <p>
-               It's often asked if we are a conference centered around Domain Driven Design or some other acroymn that fits, that is not the case. We are a general technology conference. This means that we will accept talk submissions relating to technology no matter the language, the discipline or otherwise. Unfortunately us technologist (particularly the ones that program) love acroymns containing the letter D.
+               It's often asked if we are a conference centered around Domain Driven Design or some other acroymn that fits, that is not the case. We are a general technology conference. This means that we will accept talk submissions relating to technology no matter the language, the discipline or otherwise. Unfortunately us technologists (particularly the ones that program) love acroymns containing the letter D.
             </p>
             <p>
                Developer! Developer! Developer! is an umbrella, open-source conference format. By naming ourselves DDD, and associating ourselves with similar events, we abide by certain principles. Other than that, this conference is by the East Midlands community for the East Midlands community and is unique in it's own right. There is more information about Developer! Developer! Developer! further down this page for those interested.
