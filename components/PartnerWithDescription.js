@@ -15,6 +15,8 @@ const PartnerWithDescription = (props) => (
                     padding: 10px;
                     width: 45%;
                     flex:1;
+                    font-size: 18px;
+                    line-height: 1.4;
                 }
 
                 .notablebox{
