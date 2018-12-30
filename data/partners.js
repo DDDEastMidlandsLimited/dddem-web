@@ -1,5 +1,9 @@
 const partners = [
-    { id: 1, name: 'Partner 1', image: '/static/partners/technott.png', link: 'https://www.technottingham.com/', description: 'bliflwhfhfla' }
+    { id: 1, name: 'Blenheim Chalcot', image: '/static/sponsors/gold/BC-RGB.png', link: 'https://www.blenheimchalcot.com/', description: "Blenheim Chalcot is the UK’s leading digital venture builder. \n Founded in 1998, it has portfolio sales of over £350m, 3,000 employees, and a successful track record of launching over 40 companies across sectors such as IT, education, software, financial services, sport and media. \n For its ventures, Blenheim Chalcot brings more than just investment; it supports businesses from inception to exit through venture building services, such as shared offices, IT, finance, legal and marketing. It also connects ventures with its global networks. The partners at Blenheim Chalcot have held senior roles at Google, Capital One and Monitor and play an active role in the portfolio of companies on a daily basis." },
+    //{ id: 2, name: 'BJSS', image: '/static/sponsors/gold/BJSS-RGB.png', link: '', description: "" },
+    { id: 7, name: 'Tech Notts', image: '/static/partners/technott.png', link: 'https://www.technottingham.com/', description: "Tech Nottingham is an organisation dedicated to improving Nottingham as a place to live and work in technology. They do this by building a community of smart people in and around Nottingham and then providing an environment in which they can work together, share ideas and get better at what they do. For seven years they\'ve been running wildly popular events like Tech Nottingham, Hack24, Tech on Toast, and Women in Tech and also host a large and very active online community. \n Tech Nottingham is the largest tech community in Nottingham and one of the largest outside of London - thousands have attended their events, participate in their online community and subscribe to their content. It\'s a place where people have shared and learned, friendships have been formed, business ventures have been hatched and new career paths have been forged." }
 ];
 
 export default partners;
+
+

@@ -17,15 +17,16 @@ const PartnerWithDescription = (props) => (
                 }
 
                 .notablebox{
-                    width:84%;
-                    height:150px;
-                    border: 2px solid ${theme.palette.quaternary};
+                    width:100%;
+                    border: 1px dotted ${theme.palette.quaternary};
                     margin-bottom: 15px;
                 }
 
                 .column img {
                     margin-top: 20px;
+                    margin-left: 15%;
                     width: 250px;
+                    display: inline-block;
                 }
             `}
         </style>

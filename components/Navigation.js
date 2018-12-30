@@ -52,6 +52,11 @@ const Navigation = () => (
                     </Link>
                 </li>
                 <li>
+                    <Link href="/notable-companies">
+                        <a>Notable Companies</a>
+                    </Link>
+                </li>
+                <li>
                     <Link href="/sponsorship">
                         <a>Sponsorship</a>
                     </Link>
