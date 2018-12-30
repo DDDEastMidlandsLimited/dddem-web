@@ -13,13 +13,17 @@ const PartnerWithDescription = (props) => (
                 .column {
                     float: left;
                     padding: 10px;
-                    width: 45%
+                    width: 45%;
+                    flex:1;
                 }
 
                 .notablebox{
                     width:100%;
                     border: 1px dotted ${theme.palette.quaternary};
-                    margin-bottom: 15px;
+                    margin-bottom: 15px;    
+                    display: flex;
+                    flex-flow: row wrap;
+                    justify-content: center;
                 }
 
                 .column img {
