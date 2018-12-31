@@ -10,13 +10,7 @@ script:
   - npm run export
   
 deploy:
-  provider: s3
-  access_key_id: "$AWS_ACCESS_KEY"
-  secret_access_key: "$AWS_SECRET_KEY"
-  bucket: "www.dddeastmidlands.com"
-  skip_cleanup: true
-  region: eu-west-2
-  local_dir: out
-  
+  provider: script
+  script: bash aws_deploy
   on:
     branch: master
