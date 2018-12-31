@@ -8,4 +8,9 @@ script:
   - npm install
   - npm run build
   - npm run export
-  - bash aws_deploy
+  
+deploy:
+  provider: script
+  script: bash aws_deploy
+  on:
+    branch: master

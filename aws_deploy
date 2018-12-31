@@ -1,7 +1,6 @@
 sudo pip install --upgrade pip
 echo "pip upgraded"
 pip install --user awscli
-export PATH=$PATH:$HOME/.local/bin
 echo "AWS CLI installed"
 
 aws configure set aws_access_key_id "$AWS_ACCESS_KEY"
@@ -9,8 +8,6 @@ aws configure set aws_secret_access_key "$AWS_SECRET_KEY"
 aws configure set region eu-west-2
 aws configure set output json
 echo "AWS CLI configured"
-
-ls
 
 aws s3 sync ./out s3://www.dddeastmidlands.com --delete
 echo "Deployed to S3"
