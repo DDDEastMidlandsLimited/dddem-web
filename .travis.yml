@@ -10,6 +10,7 @@ script:
   - npm run export
   
 deploy:
+  skip_cleanup: true
   provider: script
   script: bash aws_deploy
   on:
