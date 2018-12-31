@@ -1,4 +1,4 @@
-sudo: false
+sudo: true
 
 language: node_js
 node_js:
@@ -8,9 +8,4 @@ script:
   - npm install
   - npm run build
   - npm run export
-  
-deploy:
-  provider: script
-  script: bash aws_deploy
-  on:
-    branch: master
+  - bash aws_deploy
