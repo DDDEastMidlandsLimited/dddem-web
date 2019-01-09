@@ -55,10 +55,15 @@ const Navigation = () => (
                     <Link href="/sponsorship">
                         <a>Sponsorship</a>
                     </Link>
-                </li>
+                </li>                
                 <li>
                     <Link href="/faq">
                         <a>FAQ</a>
+                    </Link>
+                </li>
+                <li>
+                    <Link href="https://medium.com/dddeastmidlands" target="_blank">
+                        <a>Blog</a>
                     </Link>
                 </li>
                 <li>
