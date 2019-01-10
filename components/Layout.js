@@ -1,3 +1,5 @@
+import React from 'react'
+import { initGA, logPageView } from '../utils/analytics'
 import Navigation from './Navigation.js'
 import Footer from './Footer.js'
 import theme from "../theme/theme";
@@ -18,91 +20,104 @@ library.add(
 
 import GlobalHead from "./Head";
 
-const Layout = (props) => (
-    <div className="container">
-        <GlobalHead />
-        <Navigation />
-        {props.children}
-        <Footer />
-        <style jsx global>{`
-            body {
-                margin: 0;
-                padding: 0;
-                font-family: ${ theme.font.default };
-                font-size: ${ theme.font.sizes.desktop.body };
-            }
-            h2 {
-                font-size: ${ theme.font.sizes.desktop.subtitle1 };
-                text-align: left;
-                color: ${ theme.palette.secondary };
-            }
-            p{
-                line-height: 1.5;
-            }
-            p, a {
-                font-size: ${ theme.font.sizes.desktop.body };
-                color: ${ theme.palette.dark };
-                line-height: 1.5;
-            }
-            a {
-                color: ${ theme.palette.primary };
-            }
+export default class Layout extends React.Component {
+    constructor(props) {
+        super(props);
+    }
 
-            a:before,
-            a:after
-            {
-                content: ' ';
-            }
+    componentDidMount() {
+        if (!window.GA_INITIALIZED) {
+            initGA()
+            window.GA_INITIALIZED = true
+        }
+        logPageView()
+    }
 
-            li{
-                line-height: 1.5;
-            }
+    render() {
+        return (
+            <div className="container">
+                <GlobalHead />
+                <Navigation />
+                {this.props.children}
+                <Footer />
+                <style jsx global>{`
+                    body {
+                        margin: 0;
+                        padding: 0;
+                        font-family: ${ theme.font.default};
+                        font-size: ${ theme.font.sizes.desktop.body};
+                    }
+                    h2 {
+                        font-size: ${ theme.font.sizes.desktop.subtitle1};
+                        text-align: left;
+                        color: ${ theme.palette.secondary};
+                    }
+                    p{
+                        line-height: 1.5;
+                    }
+                    p, a {
+                        font-size: ${ theme.font.sizes.desktop.body};
+                        color: ${ theme.palette.dark};
+                        line-height: 1.5;
+                    }
+                    a {
+                        color: ${ theme.palette.primary};
+                    }
 
-            .container {
-                width: 100vw;
-            }
+                    a:before,
+                    a:after
+                    {
+                        content: ' ';
+                    }
 
-            .aligncenter{
-                text-align: center;
-            }
+                    li{
+                        line-height: 1.5;
+                    }
 
-            .smallspace{
-                margin-right: 15px;
-            }
-            
-            .boxedItems {
-                display: flex;
-                margin: 0;
-                padding: 20px;
-                flex-flow: row;
-                justify-content: space-evenly;
-                flex-wrap: wrap;
-                justify-content: center;
-            }
+                    .container {
+                        width: 100vw;
+                    }
 
-            .boxItem {
-                width: 170px;
-                height: 90px;
-                text-align: center;
-                border-radius: ${theme.sizes.borderRadiusMobile};
-                background-color: ${theme.palette.quaternary};
-                padding: 40px 15px;
-                margin: 10px;
-                display: flex;
-                flex-direction: column;
-                position: relative;
-            }
+                    .aligncenter{
+                        text-align: center;
+                    }
 
-            @media (min-width: 600px) {
-                .boxItem {
+                    .smallspace{
+                        margin-right: 15px;
+                    }
+                    
+                    .boxedItems {
+                        display: flex;
+                        margin: 0;
+                        padding: 20px;
+                        flex-flow: row;
+                        justify-content: space-evenly;
+                        flex-wrap: wrap;
+                        justify-content: center;
+                    }
 
-                        border-radius: ${theme.sizes.borderRadius};
-                }
-            }
-        `}</style>
+                    .boxItem {
+                        width: 170px;
+                        height: 90px;
+                        text-align: center;
+                        border-radius: ${theme.sizes.borderRadiusMobile};
+                        background-color: ${theme.palette.quaternary};
+                        padding: 40px 15px;
+                        margin: 10px;
+                        display: flex;
+                        flex-direction: column;
+                        position: relative;
+                    }
 
-    </div>
+                    @media (min-width: 600px) {
+                        .boxItem {
 
-)
+                                border-radius: ${theme.sizes.borderRadius};
+                        }
+                    }
+                `}</style>
 
-export default Layout
+            </div>
+        )
+    }
+}
