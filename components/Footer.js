@@ -6,33 +6,33 @@ const Footer = () => (
     <footer>
         <ul>
             <li>
-                <Link href="/code-of-conduct" target="_blank">
-                    <a>Code of Conduct</a>
+                <Link href="/code-of-conduct">
+                    <a target="_blank">Code of Conduct</a>
                 </Link>
             </li>
             <li>
-                <Link href="https://twitter.com/dddeastmidlands" target="_blank">
-                    <a><FontAwesomeIcon icon={["fab", "twitter"]} /></a>
+                <Link href="https://twitter.com/dddeastmidlands">
+                    <a target="_blank"><FontAwesomeIcon icon={["fab", "twitter"]} /></a>
                 </Link>
             </li>
             <li>
-                <Link href="https://github.com/DDDEastMidlandsLimited/dddem-web" target="_blank">
-                    <a><FontAwesomeIcon icon={["fab", "github"]} /></a>
+                <Link href="https://github.com/DDDEastMidlandsLimited/dddem-web">
+                    <a target="_blank"><FontAwesomeIcon icon={["fab", "github"]} /></a>
                 </Link>
             </li>
             <li>
-                <Link href="https://www.instagram.com/dddeastmidlands/?hl=en" target="_blank">
-                    <a><FontAwesomeIcon icon={["fab", "instagram"]} /></a>
+                <Link href="https://www.instagram.com/dddeastmidlands/?hl=en">
+                    <a target="_blank"><FontAwesomeIcon icon={["fab", "instagram"]} /></a>
                 </Link>
             </li>
             <li>
-                <Link href="https://www.linkedin.com/company/ddd-east-midlands-limited/" target="_blank">
-                    <a><FontAwesomeIcon icon={["fab", "linkedin"]} /></a>
+                <Link href="https://www.linkedin.com/company/ddd-east-midlands-limited/">
+                    <a target="_blank"><FontAwesomeIcon icon={["fab", "linkedin"]} /></a>
                 </Link>
             </li>
             <li>
                 <Link href="mailto:jessica@dddeastmidlands.com">
-                    <a>Contact</a>
+                    <a target="_blank">Contact</a>
                 </Link>
             </li>
         </ul>
