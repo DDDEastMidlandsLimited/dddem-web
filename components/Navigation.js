@@ -1,5 +1,6 @@
 import Link from 'next/link'
 import theme from '../theme/theme.js'
+import { initGA, logEvent } from '../utils/analytics'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 
 const Navigation = () => (
@@ -62,7 +63,7 @@ const Navigation = () => (
                     </Link>
                 </li>
                 <li>
-                    <Link href="https://medium.com/dddeastmidlands" target="_blank">
+                    <Link href="https://medium.com/dddeastmidlands" target="_blank" onclick="logEvent('navigation','blog');" >
                         <a>Blog</a>
                     </Link>
                 </li>
