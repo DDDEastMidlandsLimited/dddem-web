@@ -1,10 +1,10 @@
 import { withRouter } from 'next/router'
 import { logEvent } from '../utils/analytics'
 
-const ExternalLink = ({ children, router, href, target, eventType }) => {
+const ExternalLink = ({ children, router, href, target, category, eventType }) => {
 
   const handleClick = (e) => {
-    logEvent('navigation', eventType)
+    logEvent(category, eventType)
   }
 
   return (

@@ -63,7 +63,7 @@ const Navigation = () => (
                     </Link>
                 </li>
                 <li>
-                    <ExternalLink href="https://medium.com/dddeastmidlands" target="_blank" eventType="blog">
+                    <ExternalLink href="https://medium.com/dddeastmidlands" target="_blank" category="navigation" eventType="blog">
                         Blog
                     </ExternalLink>
                 </li>
