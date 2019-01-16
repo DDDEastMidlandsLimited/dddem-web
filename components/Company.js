@@ -1,9 +1,11 @@
+import ExternalLink from './ExternalLink'
 
 const Company = (props) => (
     <div>
-
-        <img src={props.image} />
-
+         <ExternalLink href={props.link} target="_blank" category="logo" eventType={props.name}>
+            <img src={props.image}/>
+         </ExternalLink>
+         
         <style jsx>
         {`
             div {
