@@ -62,7 +62,7 @@ const Navigation = () => (
                         <a>FAQ</a>
                     </Link>
                 </li>
-                <li>
+                <li className="external-link">
                     <ExternalLink href="https://medium.com/dddeastmidlands" target="_blank" category="navigation" eventType="blog">
                         Blog
                     </ExternalLink>
@@ -103,6 +103,13 @@ const Navigation = () => (
                     color: ${theme.palette.primary};
                 }
 
+                .main-menu .external-link:hover,
+                .main-menu .external-link:focus
+                 {                    
+                    background: ${theme.palette.primary};
+                    color: ${theme.palette.light}  !important;;
+                    text-decoration: underline;
+                }
 
                 /* Screen reader only */
                 .sr-only {
