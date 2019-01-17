@@ -107,7 +107,7 @@ const Navigation = () => (
                 .main-menu .external-link:focus
                  {                    
                     background: ${theme.palette.primary};
-                    color: ${theme.palette.light}  !important;;
+                    color: ${theme.palette.light};
                     text-decoration: underline;
                 }
 
@@ -173,6 +173,7 @@ const Navigation = () => (
 
                 .main-menu a:hover,
                 .main-menu a:focus {
+                    padding: .75em 15px;
                     background: ${theme.palette.primary};
                     color: ${theme.palette.light} !important;
                     text-decoration: underline;

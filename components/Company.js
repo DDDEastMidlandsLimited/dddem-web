@@ -11,17 +11,16 @@ const Company = (props) => (
         {`
             div {
                 width: 33%;
-                border: 5px solid white;
-                background: white;
+                border: 5px solid  ${theme.palette.light};
+                background:  ${theme.palette.light};
             }
             img {   
                 width: 100%;         
                 margin-top: 4px;
             }
 
-            div:hover {                    
-                background: ${theme.palette.light}!important;
-                border: 3px solid ${theme.palette.primary}!important;
+            div:hover {       
+                background: ${theme.palette.quaternary};
                 border-radius: 16px;
             }
         `}

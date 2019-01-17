@@ -24,7 +24,7 @@ const ExternalLink = ({ children, router, href, target, category, eventType }) =
                 }
 
                 a:hover {                    
-                    color:  ${theme.palette.light} !important;
+                    color:  ${theme.palette.light};
                     text-decoration: underline;
                 }
 
