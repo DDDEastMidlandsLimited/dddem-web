@@ -43,6 +43,11 @@ const Navigation = () => (
                     </Link>
                 </li>
                 <li>
+                    <Link href="/notable-companies">
+                        <a>Notable Companies</a>
+                    </Link>
+                </li>
+                <li>
                     <Link href="/about">
                         <a>About</a>
                     </Link>
