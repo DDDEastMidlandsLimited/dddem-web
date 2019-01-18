@@ -1,4 +1,5 @@
 import { withRouter } from 'next/router'
+import theme from '../theme/theme.js'
 import { logEvent } from '../utils/analytics'
 
 const ExternalLink = ({ children, router, href, target, category, eventType }) => {
@@ -14,7 +15,7 @@ const ExternalLink = ({ children, router, href, target, category, eventType }) =
             {`
                 a {
                     text-decoration: none;      
-                    color: #FFFFFF;                 
+                    color:  ${theme.palette.light};                 
                     display: block;
                     padding: .75em 15px;
                     line-height: 1em;
@@ -23,14 +24,13 @@ const ExternalLink = ({ children, router, href, target, category, eventType }) =
                 }
 
                 a:hover {                    
-                    background: #1A7D87;
-                    color: #FFFFFF !important;
+                    color:  ${theme.palette.light};
                     text-decoration: underline;
                 }
 
                 @media (min-width: 768px) {
                     a {              
-                        color: #1A7D87;
+                        color: ${theme.palette.primary};
                         border: 0 !important;   
                         border-bottom: none;
                     }

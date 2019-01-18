@@ -53,7 +53,6 @@ export default () => (
         <section>
             <h2>Silver Sponsors</h2>
             <h3>Coming Soon...</h3>
-            <CompanyList partners={silver}/>
         </section>
 
         <style jsx>
