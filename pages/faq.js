@@ -223,14 +223,14 @@ export default () => (
                 <a name="applicationdate"/>
                 <h2>Q: When can I apply to talk?</h2>
                 <p>
-                    <strong>A: </strong> We aim to open applications 26th January 2016.
+                    <strong>A: </strong> We aim to open applications 26th January 2016. Applications close 27th April.
                 </p>
             </div>
             <div>
                 <a name="applicationhow"/>
                 <h2>Q: How do I apply to talk?</h2>
                 <p>
-                    <strong>A: </strong> To ensure all talk submissions are anonomised we are used Sessionize for talk submissions. A link and details for submitting to the conference will be made available on the website from that date.
+                    <strong>A: </strong> The CFP link on this webpages navigation bar will open the link to the submission form in a new tab. To ensure all talk submissions are anonomised we are used Sessionize for talk submissions.
                 </p>
             </div>
             <div>
