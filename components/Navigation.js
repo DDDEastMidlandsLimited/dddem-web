@@ -57,6 +57,11 @@ const Navigation = () => (
                         <a>Sponsorship</a>
                     </Link>
                 </li>                
+                <li className="external-link">
+                    <ExternalLink href="https://sessionize.com/dddeastmidlands/" target="_blank" category="navigation" eventType="cfp">
+                        CFP
+                    </ExternalLink>
+                </li>
                 <li>
                     <Link href="/faq">
                         <a>FAQ</a>
