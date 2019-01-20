@@ -20,7 +20,6 @@ const ExternalLink = ({ children, router, href, target, category, eventType }) =
                     padding: .75em 15px;
                     line-height: 1em;
                     font-size: 1em;
-                    border-bottom: 1px solid #383838;
                 }
 
                 a:hover {                    

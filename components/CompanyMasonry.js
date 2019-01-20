@@ -7,7 +7,8 @@ export default class CompanyMasonry extends React.PureComponent {
         super(props, context);
 
         this._cache = new CellMeasurerCache({
-            defaultHeight: 100,
+            defaultHeight: 120,
+            fixedHeight: true,
             defaultWidth: 200,
             fixedWidth: true,
         });
@@ -26,11 +27,9 @@ export default class CompanyMasonry extends React.PureComponent {
 
     render() {
         return (
-            <section>
-                <WindowScroller overscanByPixels={this._overscanByPixels}>
-                    {this._renderAutoSizer}
-                </WindowScroller>
-            </section>
+            <WindowScroller overscanByPixels={this._overscanByPixels}>
+                {this._renderAutoSizer}
+            </WindowScroller>
         );
     }
 
@@ -40,7 +39,6 @@ export default class CompanyMasonry extends React.PureComponent {
 
     _cellRenderer({index, key, parent, style}) {
         const {companies} = this.props;
-        const {columnWidth} = this._columnWidth;
         const company = companies[index];
 
         return (
@@ -48,7 +46,7 @@ export default class CompanyMasonry extends React.PureComponent {
             <div
               style={{
                 ...style,
-                width: columnWidth,
+                width: this._columnWidth,
               }}>
               <Company key={company.id} partner={ company } image={company.image} />
             </div>

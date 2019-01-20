@@ -16,7 +16,9 @@ export default () => (
         </Head>
         <Header title={'Notable Companies'}/>
 
-        <CompanyMasonry companies={[...gold, ...silver, ...bronze, ...partners, ...standard]}/>
+        <section>
+            <CompanyMasonry companies={[...gold, ...silver, ...bronze, ...partners, ...standard]}/>
+        </section>
 
         <style jsx>
             {`

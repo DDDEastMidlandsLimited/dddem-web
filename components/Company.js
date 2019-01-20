@@ -10,7 +10,6 @@ const Company = (props) => (
         <style jsx>
         {`
             div {
-                width: 33%;
                 border: 5px solid  ${theme.palette.light};
                 background:  ${theme.palette.light};
             }
@@ -18,7 +17,6 @@ const Company = (props) => (
                 width: 100%;         
                 margin-top: 4px;
             }
-
             div:hover {       
                 background: ${theme.palette.quaternary};
                 border-radius: 16px;
