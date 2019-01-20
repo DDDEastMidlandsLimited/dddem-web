@@ -12,6 +12,8 @@ const Company = (props) => (
             div {
                 border: 5px solid  ${theme.palette.light};
                 background:  ${theme.palette.light};
+                height:120px;
+                margin-top: 10px;
             }
             img {   
                 width: 100%;         

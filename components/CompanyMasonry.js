@@ -32,7 +32,7 @@ export default class CompanyMasonry extends React.PureComponent {
 
     render() {
         return (
-            <div>
+            <div id="company-text">
                 <div className="company-desc" dangerouslySetInnerHTML={{ __html: this.state.description }} />
                 <WindowScroller overscanByPixels={this._overscanByPixels}>
                     {this._renderAutoSizer}
@@ -61,6 +61,10 @@ export default class CompanyMasonry extends React.PureComponent {
         const {companies} = this.props;
         const company = companies[index];
 
+        const handleClick = (e) => {
+            this.setState({ description: company.description });
+        }
+
         return (
           <CellMeasurer cache={this._cache} index={index} key={key} parent={parent}>
             <div
@@ -69,7 +73,7 @@ export default class CompanyMasonry extends React.PureComponent {
                     width: this._columnWidth,
                 }}>
                 <Company key={company.id} partner={ company } image={company.image} />
-                <button onClick={() => this.setState({ description: company.description })}>see details</button>
+                <button onClick={handleClick}>see details</button>
                 <style jsx>
                 {`
                     button {
@@ -96,6 +100,7 @@ export default class CompanyMasonry extends React.PureComponent {
             </div>
           </CellMeasurer>
         );
+        
     }
 
     _initCellPositioner() {
