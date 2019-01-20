@@ -7,11 +7,15 @@ export default class CompanyMasonry extends React.PureComponent {
         super(props, context);
 
         this._cache = new CellMeasurerCache({
-            defaultHeight: 120,
+            defaultHeight: 160,
             fixedHeight: true,
             defaultWidth: 200,
             fixedWidth: true,
         });
+
+        this.state = {
+            description: '',
+        }
 
         this._columnCount = 0;
         this._columnWidth = 200;
@@ -27,9 +31,17 @@ export default class CompanyMasonry extends React.PureComponent {
 
     render() {
         return (
-            <WindowScroller overscanByPixels={this._overscanByPixels}>
-                {this._renderAutoSizer}
-            </WindowScroller>
+            <div>
+                <p>{this.state.description}</p>
+                <WindowScroller overscanByPixels={this._overscanByPixels}>
+                    {this._renderAutoSizer}
+                </WindowScroller>
+                <style jsx>
+                {`
+                    
+                `}
+                </style>
+            </div>
         );
     }
 
@@ -44,11 +56,19 @@ export default class CompanyMasonry extends React.PureComponent {
         return (
           <CellMeasurer cache={this._cache} index={index} key={key} parent={parent}>
             <div
-              style={{
-                ...style,
-                width: this._columnWidth,
-              }}>
-              <Company key={company.id} partner={ company } image={company.image} />
+                style={{
+                    ...style,
+                    width: this._columnWidth,
+                }}>
+                <Company key={company.id} partner={ company } image={company.image} />
+                <button onClick={() => this.setState({ description: company.description })}>see details</button>
+                <style jsx>
+                {`
+                    button {
+                        
+                    }
+                `}
+                </style>
             </div>
           </CellMeasurer>
         );
