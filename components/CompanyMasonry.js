@@ -1,4 +1,5 @@
 import Company from './Company';
+import theme from '../theme/theme.js'
 import { WindowScroller, CellMeasurerCache, AutoSizer, Masonry, CellMeasurer } from 'react-virtualized'
 import cellPositionerFactory from '../utils/cellPositionerFactory';
 
@@ -32,13 +33,20 @@ export default class CompanyMasonry extends React.PureComponent {
     render() {
         return (
             <div>
-                <p>{this.state.description}</p>
+                <div className="company-desc" dangerouslySetInnerHTML={{ __html: this.state.description }} />
                 <WindowScroller overscanByPixels={this._overscanByPixels}>
                     {this._renderAutoSizer}
                 </WindowScroller>
                 <style jsx>
                 {`
-                    
+                    div{
+                        margin: 10px 10px 10px 10px;
+                    }
+                    div .company-desc{
+                        border: 2px solid ${theme.palette.quaternary}!important;
+                        padding: 10px 10px 10px 10px;
+                        border-radius: 16px;
+                    }  
                 `}
                 </style>
             </div>
@@ -65,8 +73,24 @@ export default class CompanyMasonry extends React.PureComponent {
                 <style jsx>
                 {`
                     button {
-                        
+                        border-radius: 12px;
+                        border: none;
+                        color:  ${theme.palette.tertiary};
+                        padding: 15px 32px;
+                        text-align: center;
+                        text-decoration: none;
+                        display: inline-block;
+                        font-size: 16px;
+                        background-color:  ${theme.palette.quaternary};
                     }
+                    button:hover {
+                        box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+                    }
+
+                    div{
+                        text-align: center;
+                    }
+
                 `}
                 </style>
             </div>
