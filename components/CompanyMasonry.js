@@ -8,7 +8,7 @@ export default class CompanyMasonry extends React.PureComponent {
         super(props, context);
 
         this._cache = new CellMeasurerCache({
-            defaultHeight: 160,
+            defaultHeight: 200,
             fixedHeight: true,
             defaultWidth: 200,
             fixedWidth: true,
@@ -93,6 +93,7 @@ export default class CompanyMasonry extends React.PureComponent {
 
                     div{
                         text-align: center;
+                        margin-top: 20px
                     }
 
                 `}

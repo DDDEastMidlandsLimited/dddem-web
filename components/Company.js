@@ -12,12 +12,12 @@ const Company = (props) => (
             div {
                 border: 5px solid  ${theme.palette.light};
                 background:  ${theme.palette.light};
-                height:120px;
-                margin-top: 10px;
+                height:130px;
+                margin-bottom: 10px;
             }
             img {   
                 width: 100%;         
-                margin-top: 4px;
+                margin-top: 30px;
             }
             div:hover {       
                 background: ${theme.palette.quaternary};
