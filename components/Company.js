@@ -10,7 +10,6 @@ const Company = (props) => (
         <style jsx>
         {`
             div {
-                width: 33%;
                 border: 5px solid  ${theme.palette.light};
                 background:  ${theme.palette.light};
             }
