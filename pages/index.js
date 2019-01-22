@@ -5,6 +5,7 @@ import Head from "next/head";
 import dates from "../data/dates";
 import gold from "../data/gold";
 import silver from "../data/silver";
+import bronze from "../data/bronze";
 import CompanyList from '../components/CompanyList.js';
 import ImportantDatesList from "../components/ImportantDatesList";
 
@@ -47,7 +48,9 @@ export default () => (
 
         <section>
             <h2>Gold Sponsors</h2>
-            <CompanyList partners={gold}/>
+            <div className="gold">
+                <CompanyList partners={gold}/>
+            </div>
         </section>
 
         <section>
@@ -55,12 +58,28 @@ export default () => (
             <h3>Coming Soon...</h3>
         </section>
 
+        <section>
+            <h2>Bronze Sponsors</h2>
+            <div className="bronze">
+                <CompanyList partners={bronze}/>    
+            </div>
+        </section>
+
+
         <style jsx>
             {`
             section {
                 max-width: ${theme.sizes.maxContentWidth};
                 padding: ${theme.sizes.contentPadding};
                 margin: auto;
+            }
+
+            .gold{
+                width: 375px;
+            }
+
+            .bronze{
+                width: 300px;
             }
         `}
         </style>
