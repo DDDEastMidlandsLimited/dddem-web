@@ -223,7 +223,7 @@ export default () => (
                 <a name="applicationdate"/>
                 <h2>Q: When can I apply to talk?</h2>
                 <p>
-                    <strong>A: </strong> We aim to open applications 26th January 2016. Applications close 27th April.
+                    <strong>A: </strong> Applications open on the 26th January 2019. Applications close 27th April.
                 </p>
             </div>
             <div>
