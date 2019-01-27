@@ -17,7 +17,6 @@ const Company = (props) => (
                 width: 100%;         
                 margin-top: 4px;
             }
-
             div:hover {       
                 background: ${theme.palette.quaternary};
                 border-radius: 16px;

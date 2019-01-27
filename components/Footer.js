@@ -41,8 +41,8 @@ const Footer = () => (
             footer {
                 width: 100vw;
                 background-color: ${ theme.palette.primary };
-                padding: 50px 0;
-                margin-top: 50px;
+                padding: 20px 0;
+                margin-top: 30px;
             }
             ul {
                 display: flex;

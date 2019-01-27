@@ -43,6 +43,11 @@ const Navigation = () => (
                     </Link>
                 </li>
                 <li>
+                    <Link href="/notable-companies">
+                        <a>Notable Companies</a>
+                    </Link>
+                </li>
+                <li>
                     <Link href="/about">
                         <a>About</a>
                     </Link>
@@ -114,6 +119,10 @@ const Navigation = () => (
                     background: ${theme.palette.primary};
                     color: ${theme.palette.light};
                     text-decoration: underline;
+                }
+
+                .main-menu .external-link {
+                    border-bottom: 1px solid #383838;
                 }
 
                 /* Screen reader only */
@@ -268,6 +277,10 @@ const Navigation = () => (
                     .main-menu a {
                         color: ${theme.palette.primary};
                         border: 0 !important; /* Remove borders from off-canvas styling */
+                    }
+
+                    .main-menu .external-link {
+                        border-bottom: 0px !important;
                     }
 
                     .main-menu a:hover,

@@ -4,14 +4,9 @@ const GoldList = (props) => (
     <section>
         {
             props.partners.map(partner =>
-                <Company key={partner.id} partner={ partner } image={partner.image} />
+                <div key={partner.id}><Company key={partner.id} partner={ partner } image={partner.image} /></div>
             )
         }
-         <style jsx>
-            {`
-
-            `}
-        </style>
     </section>
 )
 
