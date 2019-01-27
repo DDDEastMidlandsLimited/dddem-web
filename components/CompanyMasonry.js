@@ -1,5 +1,5 @@
 import Company from './Company';
-import theme from '../theme/theme.js'
+import CompanyDetailsButton from './CompanyDetailsButton';
 import { WindowScroller, CellMeasurerCache, AutoSizer, Masonry, CellMeasurer } from 'react-virtualized'
 import cellPositionerFactory from '../utils/cellPositionerFactory';
 
@@ -8,7 +8,7 @@ export default class CompanyMasonry extends React.PureComponent {
         super(props, context);
 
         this._cache = new CellMeasurerCache({
-            defaultHeight: 200,
+            defaultHeight: 220,
             fixedHeight: true,
             defaultWidth: 200,
             fixedWidth: true,
@@ -28,12 +28,13 @@ export default class CompanyMasonry extends React.PureComponent {
         this._renderAutoSizer = this._renderAutoSizer.bind(this);
         this._renderMasonry = this._renderMasonry.bind(this);
         this._setMasonryRef = this._setMasonryRef.bind(this);
+        this.updateDescription = this.updateDescription.bind(this);
     }
 
     render() {
         return (
-            <div id="company-text">
-                <div className="company-desc" dangerouslySetInnerHTML={{ __html: this.state.description }} />
+            <div>
+                <div dangerouslySetInnerHTML={{ __html: this.state.description }} />
                 <WindowScroller overscanByPixels={this._overscanByPixels}>
                     {this._renderAutoSizer}
                 </WindowScroller>
@@ -42,11 +43,6 @@ export default class CompanyMasonry extends React.PureComponent {
                     div{
                         margin: 10px 10px 10px 10px;
                     }
-                    div .company-desc{
-                        border: 2px solid ${theme.palette.quaternary}!important;
-                        padding: 10px 10px 10px 10px;
-                        border-radius: 16px;
-                    }  
                 `}
                 </style>
             </div>
@@ -61,8 +57,9 @@ export default class CompanyMasonry extends React.PureComponent {
         const {companies} = this.props;
         const company = companies[index];
 
-        const handleClick = (e) => {
-            this.setState({ description: company.description });
+        let detailsButton;
+        if (company.description.length !== 0){
+            detailsButton = <CompanyDetailsButton updateDescription={this.updateDescription(company.description)} />;
         }
 
         return (
@@ -72,36 +69,23 @@ export default class CompanyMasonry extends React.PureComponent {
                     ...style,
                     width: this._columnWidth,
                 }}>
-                <Company key={company.id} partner={ company } image={company.image} />
-                <button onClick={handleClick}>see details</button>
+                <Company key={company.id} partner={company} image={company.image} />
+                {detailsButton}
                 <style jsx>
                 {`
-                    button {
-                        border-radius: 12px;
-                        border: none;
-                        color:  ${theme.palette.tertiary};
-                        padding: 15px 32px;
-                        text-align: center;
-                        text-decoration: none;
-                        display: inline-block;
-                        font-size: 16px;
-                        background-color:  ${theme.palette.quaternary};
-                    }
-                    button:hover {
-                        box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
-                    }
-
                     div{
                         text-align: center;
                         margin-top: 20px
                     }
-
                 `}
                 </style>
             </div>
           </CellMeasurer>
         );
-        
+    }
+
+    updateDescription (description) {
+        return () => this.setState({ description: description });
     }
 
     _initCellPositioner() {
