@@ -2,12 +2,7 @@ import Layout from '../components/Layout.js'
 import theme from '../theme/theme.js'
 import Header from "../components/Header";
 import Head from "next/head";
-import gold from "../data/gold";
-import silver from "../data/silver";
-import bronze from "../data/bronze";
-import partners from "../data/partners";
-import standard from "../data/standard";
-import CompanyMasonry from '../components/CompanyMasonry.js';
+import NotableCompanies from '../components/NotableCompanies';
 
 export default () => (
     <Layout>
@@ -17,7 +12,7 @@ export default () => (
         <Header title={'Notable Companies'}/>
 
         <section>
-            <CompanyMasonry companies={[...gold, ...silver, ...bronze, ...partners, ...standard]}/>
+            <NotableCompanies/>
         </section>
 
         <style jsx>
