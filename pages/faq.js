@@ -31,11 +31,13 @@ export default () => (
                 <li><a href="#genderbathrooms">Are bathrooms gender neutral?</a></li>
                 <li><a href="#wheelchairaccessoutside">What is wheelchair access like outside the venue? I.e. Are kerbs high?</a></li>
                 <li><a href="#wheelchairaccessinside">What is wheelchair access like inside the venue? Is it easy to get in/around the building?</a></li>
+                <li><a href="#wheelchairbathrooms">Are there accessible bathrooms for wheelchair users?</a></li>
                 <li><a href="#largeprint">Do you have large print versions of your materials, flyers, resources etc?</a></li>
                 <li><a href="#audiodescribed">Will you have audio-described resources?</a></li>
                 <li><a href="#captionedtalks">Will talks be captioned?</a></li>
                 <li><a href="#ownfood">Are people welcome to bring their own food?</a></li>
                 <li><a href="#alcohol">Are people going to be using alcohol?</a></li>
+                <li><a href="#assistanceanimals">Are assistance animals allowed in the venue?</a></li>
             </ul>
             <p><strong>Ticket Information</strong></p>
             <ul>
@@ -150,16 +152,23 @@ export default () => (
             </div>
             <div>
                 <a name="wheelchairaccessoutside"/>
-                <h2>Q: What is wheelchair access like outside the venue? I.e. Are kerbs high?</h2>
+                <h2>Q: What is wheelchair access like outside the venue?</h2>
                 <p>
-                    <strong>A: </strong> TBD                
+                    <strong>A: </strong> Both the Goldsmith Street entrance and the Burton street entrance are accessible and there are lifts to all levels. The wheelchair door on Burton Street is a push button entrance door            
                 </p>           
             </div>
             <div>
                 <a name="wheelchairaccessinside"/>
                 <h2>Q:  What is wheelchair access like inside the venue? Is it easy to get in/around the building?</h2>
                 <p>
-                    <strong>A: </strong> TBD
+                    <strong>A: </strong> Wheelchair access is good. There are no steps/lips on doors to watch out for.
+                </p>           
+            </div>
+            <div>
+                <a name="wheelchairbathrooms"/>
+                <h2>Q:  Are there accessible bathrooms for wheelchair users?</h2>
+                <p>
+                    <strong>A: </strong> There are on each level.
                 </p>           
             </div>
             <div>
@@ -195,6 +204,13 @@ export default () => (
                 <h2>Q: Are people going to be using alcohol?</h2>
                 <p>
                     <strong>A: </strong> We won't be providing alcohol at the event.
+                </p>           
+            </div>
+            <div>
+                <a name="assistanceanimals"/>
+                <h2>Q: Are assistance animals allowed in the venue?</h2>
+                <p>
+                    <strong>A: </strong> They are yes - but only official assistance dogs.
                 </p>           
             </div>
         </section>
