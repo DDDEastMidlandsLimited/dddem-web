@@ -7,13 +7,6 @@ const GoldList = (props) => (
                 <div key={partner.id}><Company key={partner.id} partner={ partner } image={partner.image} /></div>
             )
         }
-         <style jsx>
-            {`
-                div {
-                    width: 33%;
-                }
-            `}
-        </style>
     </section>
 )
 
