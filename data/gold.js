@@ -2,6 +2,7 @@ const bjssDesc = '<h1>BJSS</h1><p>The UK’S leading privately owned IT, Digital
 
 const gold = [
     { id: 1, name: 'BJSS', image: '/static/sponsors/BJSS-870x460.png', link: 'https://www.bjss.com/', description: bjssDesc },
+    { id: 1, name: 'Blenheim Chalcot', image: '/static/sponsors/BC-1455x944.png', link: '', description: '' },
 ];
 
 
