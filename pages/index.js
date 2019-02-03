@@ -71,6 +71,12 @@ export default () => (
                 padding: ${theme.sizes.contentPadding};
                 margin: auto;
             }
+            h2 {
+                text-align: center;
+            }
+            h3 {
+                text-align: center;
+            }
         `}
         </style>
     </Layout>
