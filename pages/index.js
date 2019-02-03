@@ -6,7 +6,6 @@ import dates from "../data/dates";
 import gold from "../data/gold";
 import silver from "../data/silver";
 import bronze from "../data/bronze";
-import CompanyList from '../components/CompanyList.js';
 import ImportantDatesList from "../components/ImportantDatesList";
 import TieredCompanies from '../components/TieredCompanies';
 
