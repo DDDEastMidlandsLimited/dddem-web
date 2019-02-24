@@ -17,6 +17,7 @@ export default class Details extends React.PureComponent {
                         display: inline-block;
                         font-size: 16px;
                         background-color:  ${theme.palette.quaternary};
+                        margin-bottom: 15px;
                     }
 
                     button:hover {
