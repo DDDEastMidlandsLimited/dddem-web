@@ -2,6 +2,7 @@ const technott = '<h1>Tech Nottingham</h1><p>An organisation dedicated to improv
 
 const partners = [
     { id: 1, name: 'Tech Nottingham', image: '/static/partners/technott.png', link: 'https://www.technottingham.com/', description: technott },
+    { id: 2, name: 'JetBrains', image: '/static/partners/jetbrains-variant-3.png', link: 'https://www.jetbrains.com/', description: '' }
 ];
 
 export default partners;
