@@ -10,7 +10,7 @@ export default () => (
         </Head>
         <Header title={'Frequently Asked Questions'}/>
 
-        <section name="Thing">
+        <section name="Contents">
             <h1>Contents of Questions</h1>
             <p><strong>Event Information</strong></p>
             <ul>
@@ -20,7 +20,6 @@ export default () => (
                 <li><a href="#dddprinciples">What are the DDD principles you are abiding to?</a></li>
                 <li><a href="#refreshments">Will refreshments be provided?</a></li>
                 <li><a href="#wifi">Is there WiFi access at the venue?</a></li>
-                <li><a href="#childcare">Will childcare be available?</a></li>
                 <li><a href="#hashtag">Whats the hashtag?</a></li>
                 <li><a href="#coordinators">Who is coordinating the event?</a></li>
                 <li><a href="#imagery">Can I say if I don't want to appear in photos or videos at the event?</a></li>
@@ -28,6 +27,8 @@ export default () => (
             </ul>
             <p><strong>Accessibility Information</strong></p>
             <ul>
+                <li><a href="#prayerroom">Will there be a prayer room available?</a></li>
+                <li><a href="#childcare">Will childcare be available?</a></li>
                 <li><a href="#genderbathrooms">Are bathrooms gender neutral?</a></li>
                 <li><a href="#wheelchairaccessoutside">What is wheelchair access like outside the venue? I.e. Are kerbs high?</a></li>
                 <li><a href="#wheelchairaccessinside">What is wheelchair access like inside the venue? Is it easy to get in/around the building?</a></li>
@@ -105,13 +106,6 @@ export default () => (
                 </p>
             </div>
             <div>
-                <a name="childcare"/>
-                <h2>Q: Will childcare be available?</h2>
-                <p>
-                    <strong>A: </strong> Unfortunately we will not be able to provide childcare at this first event. The overhead and cost were too high on this instance, but we would love to find a way in the future. Accessibility is important to us and we would love to make it easier for parents to attend the conference.
-                </p>
-            </div>
-            <div>
                 <a name="hashtag"/>
                 <h2>Q: Whats the hashtag?</h2>
                 <p>
@@ -143,6 +137,23 @@ export default () => (
 
         <section>
             <h1>Accessibility Information</h1>
+
+            <li><a href="#prayerroom">Will there be a prayer room available?</a></li>
+            
+            <div>
+                <a name="prayerroom"/>
+                <h2>Q: Will there be a prayer room available?</h2>
+                <p>
+                    <strong>A: </strong> There will be a prayer room available on the day. It will be marked on the maps and all volunteers will know where it will be located.
+                </p>           
+            </div>   
+            <div>
+                <a name="childcare"/>
+                <h2>Q: Will childcare be available?</h2>
+                <p>
+                    <strong>A: </strong> Unfortunately we will not be able to provide childcare at this first event. The overhead and cost were too high on this instance, but we would love to find a way in the future. Accessibility is important to us and we would love to make it easier for parents to attend the conference.
+                </p>
+            </div>         
             <div>
                 <a name="genderbathrooms"/>
                 <h2>Q: Are bathrooms gender neutral?</h2>
