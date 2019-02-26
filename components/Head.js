@@ -30,6 +30,8 @@ export default () => (
             <link rel="icon" type="image/png" sizes="96x96" href="/static/favicon/favicon-96x96.png"/>
             <link rel="icon" type="image/png" sizes="16x16" href="/static/favicon/favicon-16x16.png"/>
             <link rel="manifest" href="/static/favicon/manifest.json"/>
+            <link href="/theme/bootstrap/css/bootstrap.min.css" media="all" rel="stylesheet"/>
+            <link href="/theme/bootstrap/js/bootstrap.min.js" media="all" rel="stylesheet"/>
         </Head>
     </div>
     
