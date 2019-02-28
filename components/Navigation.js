@@ -32,7 +32,6 @@ class Navigation extends Component {
     </Navbar>
     <style jsx>
     {`
-        
     `}
     </style>
     </div>
