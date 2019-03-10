@@ -33,6 +33,12 @@ export default () => (
                 take part in DDD East Midlands events and online communities in a safe and welcoming environment.
             </p>
             <p>
+                In order to avoid any situtations where an attendee may feel uncomfortable we ask that you not only treat others in
+                the manner that you would expect to be treated, but also to respect what makes other people feel comfortable. As part of 
+                this we ask that speakers and representatives of the event try to refrain from language or actions that may be considered 
+                offensive. This includes swearing. 
+            </p>
+            <p>
                 Harassment includes but is not limited to offensive verbal or written comments related to gender,
                 age, sexual orientation, sexual behaviour, disability, physical appearance, body size, race, religion,
                 sexual images in public spaces, deliberate intimidation, stalking, following, harassing photography or

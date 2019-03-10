@@ -54,7 +54,7 @@ export default () => (
 
         <section>
             <h2>Silver Sponsors</h2>
-            <h3>Coming Soon...</h3>
+            <TieredCompanies partners={silver}/>
         </section>
 
         <section>
