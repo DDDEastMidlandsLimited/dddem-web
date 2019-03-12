@@ -35,11 +35,6 @@
   --font-family-monospace: SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
 }
 
-*,
-*::before,
-*::after {
-  box-sizing: border-box;
-}
 
 html {
   font-family: sans-serif;
@@ -65,12 +60,6 @@ body {
 
 [tabindex="-1"]:focus {
   outline: 0 !important;
-}
-
-hr {
-  box-sizing: content-box;
-  height: 0;
-  overflow: visible;
 }
 
 h1, h2, h3, h4, h5, h6 {
@@ -268,12 +257,6 @@ button::-moz-focus-inner,
 [type="submit"]::-moz-focus-inner {
   padding: 0;
   border-style: none;
-}
-
-input[type="radio"],
-input[type="checkbox"] {
-  box-sizing: border-box;
-  padding: 0;
 }
 
 input[type="date"],
@@ -535,45 +518,6 @@ pre code {
   overflow-y: scroll;
 }
 
-.container {
-  width: 100%;
-  padding-right: 15px;
-  padding-left: 15px;
-  margin-right: auto;
-  margin-left: auto;
-}
-
-@media (min-width: 576px) {
-  .container {
-    max-width: 540px;
-  }
-}
-
-@media (min-width: 768px) {
-  .container {
-    max-width: 720px;
-  }
-}
-
-@media (min-width: 992px) {
-  .container {
-    max-width: 960px;
-  }
-}
-
-@media (min-width: 1200px) {
-  .container {
-    max-width: 1140px;
-  }
-}
-
-.container-fluid {
-  width: 100%;
-  padding-right: 15px;
-  padding-left: 15px;
-  margin-right: auto;
-  margin-left: auto;
-}
 
 .row {
   display: -ms-flexbox;
@@ -3234,6 +3178,7 @@ input[type="button"].btn-block {
 
 .dropdown-item {
   display: block;
+  box-sizing: border-box;
   width: 100%;
   padding: 0.25rem 1.5rem;
   clear: both;
@@ -9848,9 +9793,6 @@ a.text-dark:hover, a.text-dark:focus {
     size: a3;
   }
   body {
-    min-width: 992px !important;
-  }
-  .container {
     min-width: 992px !important;
   }
   .navbar {
