@@ -1,7 +1,6 @@
 import React, { Component } from "react";
 import {Nav,Navbar, NavDropdown} from 'react-bootstrap';
 import '../theme/bootstrap.css';
-import '../theme/bootstrap-theme.css';
 
 class Navigation extends Component {
     state = {
