@@ -3083,7 +3083,7 @@ input[type="button"].btn-block {
 .nav-link {
   display: block;
   padding: 0.5rem 1rem;
-  margin: 0px 25px;
+  margin: 0px 15px;
   color: #1A7D87;
   border: 0 !important; /* Remove borders from off-canvas styling */
 }
@@ -3380,8 +3380,8 @@ input[type="button"].btn-block {
     position: absolute;
   }
   .navbar-expand-lg .navbar-nav .nav-link {
-    padding-right: 0.5rem;
-    padding-left: 0.5rem;
+    padding-right: 1rem;
+    padding-left: 1rem;
   }
   .navbar-expand-lg > .container,
   .navbar-expand-lg > .container-fluid {

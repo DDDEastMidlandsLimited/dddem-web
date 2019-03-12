@@ -25,6 +25,7 @@ class Navigation extends Component {
           <NavDropdown title="About" id="basic-nav-dropdown">
             <NavDropdown.Item  href="/about">About</NavDropdown.Item>
             <NavDropdown.Item  href="/venue">Venue</NavDropdown.Item>
+            <NavDropdown.Item href="/accessibility">Accessibility</NavDropdown.Item>
             <NavDropdown.Item href="/sponsorship">Sponsorship</NavDropdown.Item>
           </NavDropdown>
           <Nav.Link href="/faq">FAQ</Nav.Link>
