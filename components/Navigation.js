@@ -1,9 +1,7 @@
 import React, { Component } from "react";
-import bootstrap from 'bootstrap/dist/css/bootstrap.min.css';
-import Nav from 'react-bootstrap/Nav';
-import NavDropdown from 'react-bootstrap/NavDropdown';
-import Navbar from 'react-bootstrap/Navbar';
-
+import {Nav,Navbar, NavDropdown} from 'react-bootstrap';
+import '../theme/bootstrap.css';
+import '../theme/bootstrap-theme.css';
 
 class Navigation extends Component {
     state = {
@@ -16,7 +14,6 @@ class Navigation extends Component {
 
     render() {
         return (
-    <div className={bootstrap}>
     <Navbar bg="light" expand="lg">
       <Navbar.Toggle aria-controls="basic-navbar-nav" />
       <Navbar.Collapse id="basic-navbar-nav">
@@ -42,17 +39,6 @@ class Navigation extends Component {
         </Nav>
       </Navbar.Collapse>
     </Navbar>
-    <style jsx>
-    {`
-    `}
-    </style>
-{/*       <link
-        rel="stylesheet"
-        href="https://maxcdn.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css"
-        integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS"
-        crossorigin="anonymous"
-      /> */}
-    </div>
     );
     }
 
