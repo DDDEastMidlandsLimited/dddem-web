@@ -1,5 +1,9 @@
 import React, { Component } from "react";
-import { Navbar, Nav, NavDropdown } from 'react-bootstrap';
+import bootstrap from 'bootstrap/dist/css/bootstrap.min.css';
+import Nav from 'react-bootstrap/Nav';
+import NavDropdown from 'react-bootstrap/NavDropdown';
+import Navbar from 'react-bootstrap/Navbar';
+
 
 class Navigation extends Component {
     state = {
@@ -12,21 +16,29 @@ class Navigation extends Component {
 
     render() {
         return (
-    <div>
+    <div className={bootstrap}>
     <Navbar bg="light" expand="lg">
-      <Navbar.Brand href="#home">React-Bootstrap</Navbar.Brand>
       <Navbar.Toggle aria-controls="basic-navbar-nav" />
       <Navbar.Collapse id="basic-navbar-nav">
         <Nav className="mr-auto" variant="pills" defaultActiveKey="/home">
-          <Nav.Link href="#home">Home</Nav.Link>
-          <Nav.Link href="#link">Link</Nav.Link>
-          <NavDropdown title="Dropdown" id="basic-nav-dropdown">
-            <NavDropdown.Item href="#action/3.1">Action</NavDropdown.Item>
-            <NavDropdown.Item href="#action/3.2">Another action</NavDropdown.Item>
-            <NavDropdown.Item href="#action/3.3">Something</NavDropdown.Item>
-            <NavDropdown.Divider />
-            <NavDropdown.Item href="#action/3.4">Separated link</NavDropdown.Item>
+          <Nav.Link href="/">Home</Nav.Link>
+          <Nav.Link href="/notable-companies">Notable Companies</Nav.Link>
+          <NavDropdown title="About" id="basic-nav-dropdown">
+            <NavDropdown.Item  href="/about">About</NavDropdown.Item>
+            <NavDropdown.Item  href="/venue">Venue</NavDropdown.Item>
+            <Nav.Link href="/sponsorship">Sponsorship</Nav.Link>
           </NavDropdown>
+          <Nav.Link href="/faq">FAQ</Nav.Link>
+
+
+          {/* <ExternalLink href="https://sessionize.com/dddeastmidlands/" target="_blank" category="navigation" eventType="cfp">
+            CFP
+          </ExternalLink>
+          <ExternalLink href="https://medium.com/dddeastmidlands" target="_blank" category="navigation" eventType="blog">
+            Blog
+          </ExternalLink> */}
+
+          <Nav.Link href="/code-of-conduct">Code of Conduct</Nav.Link>
         </Nav>
       </Navbar.Collapse>
     </Navbar>
@@ -34,9 +46,15 @@ class Navigation extends Component {
     {`
     `}
     </style>
+{/*       <link
+        rel="stylesheet"
+        href="https://maxcdn.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css"
+        integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS"
+        crossorigin="anonymous"
+      /> */}
     </div>
     );
     }
 
-}
+  }
 export default Navigation;
