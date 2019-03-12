@@ -3083,7 +3083,7 @@ input[type="button"].btn-block {
 .nav-link {
   display: block;
   padding: 0.5rem 1rem;
-  margin: 0px 15px;
+  margin: 0px 25px;
   color: #1A7D87;
   border: 0 !important; /* Remove borders from off-canvas styling */
 }
@@ -3182,6 +3182,7 @@ input[type="button"].btn-block {
   -ms-flex-pack: justify;
   justify-content: space-between;
   padding: 0.5rem 1rem;
+  margin-left: 20px;
 }
 
 .navbar > .container,
