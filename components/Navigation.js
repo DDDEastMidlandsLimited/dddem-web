@@ -13,6 +13,7 @@ class Navigation extends Component {
 
     render() {
         return (
+          <div>
     <Navbar bg="light" expand="lg">
       <Navbar.Toggle aria-controls="basic-navbar-nav" />
       <Navbar.Collapse id="basic-navbar-nav">
@@ -22,7 +23,7 @@ class Navigation extends Component {
           <NavDropdown title="About" id="basic-nav-dropdown">
             <NavDropdown.Item  href="/about">About</NavDropdown.Item>
             <NavDropdown.Item  href="/venue">Venue</NavDropdown.Item>
-            <Nav.Link href="/sponsorship">Sponsorship</Nav.Link>
+            <NavDropdown.Item href="/sponsorship">Sponsorship</NavDropdown.Item>
           </NavDropdown>
           <Nav.Link href="/faq">FAQ</Nav.Link>
 
@@ -38,6 +39,12 @@ class Navigation extends Component {
         </Nav>
       </Navbar.Collapse>
     </Navbar>
+            <style jsx>
+            {`
+          
+            `}
+            </style>
+    </div>
     );
     }
 
