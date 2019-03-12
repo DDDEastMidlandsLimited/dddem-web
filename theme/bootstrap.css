@@ -3075,7 +3075,8 @@ input[type="button"].btn-block {
   display: flex;
   -ms-flex-wrap: wrap;
   flex-wrap: wrap;
-  padding-left: 0;
+  padding-left: 10px;
+  margin-left: 15px;
   margin-bottom: 0;
   list-style: none;
 }
@@ -3083,7 +3084,7 @@ input[type="button"].btn-block {
 .nav-link {
   display: block;
   padding: 0.5rem 1rem;
-  margin: 0px 15px;
+  margin: 0px 20px;
   color: #1A7D87;
   border: 0 !important; /* Remove borders from off-canvas styling */
 }
