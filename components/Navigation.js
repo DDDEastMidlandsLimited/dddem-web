@@ -1,6 +1,7 @@
 import React, { Component } from "react";
 import {Nav,Navbar, NavDropdown} from 'react-bootstrap';
 import '../theme/bootstrap.css';
+import { logEvent } from '../utils/analytics'
 
 class Navigation extends Component {
     state = {
@@ -10,6 +11,7 @@ class Navigation extends Component {
     toggleCollapse = () => {
         this.setState({ isOpen: !this.state.isOpen });
       }
+      
 
     render() {
         return (
@@ -26,14 +28,14 @@ class Navigation extends Component {
             <NavDropdown.Item href="/sponsorship">Sponsorship</NavDropdown.Item>
           </NavDropdown>
           <Nav.Link href="/faq">FAQ</Nav.Link>
-
-
-          {/* <ExternalLink href="https://sessionize.com/dddeastmidlands/" target="_blank" category="navigation" eventType="cfp">
-            CFP
-          </ExternalLink>
-          <ExternalLink href="https://medium.com/dddeastmidlands" target="_blank" category="navigation" eventType="blog">
-            Blog
-          </ExternalLink> */}
+          <Nav.Link href="https://sessionize.com/dddeastmidlands/"
+            onSelect={event => {
+              logEvent("navigation", "cfp")
+            }}>CFP</Nav.Link>
+            <Nav.Link href="https://medium.com/dddeastmidlands"
+            onSelect={event => {
+              logEvent("navigation", "blog")
+            }}>Blog</Nav.Link>
 
           <Nav.Link href="/code-of-conduct">Code of Conduct</Nav.Link>
         </Nav>
