@@ -28,11 +28,11 @@ class Navigation extends Component {
             <NavDropdown.Item href="/sponsorship">Sponsorship</NavDropdown.Item>
           </NavDropdown>
           <Nav.Link href="/faq">FAQ</Nav.Link>
-          <Nav.Link href="https://sessionize.com/dddeastmidlands/"
+          <Nav.Link target="_blank" href="https://sessionize.com/dddeastmidlands/"
             onSelect={event => {
               logEvent("navigation", "cfp")
             }}>CFP</Nav.Link>
-            <Nav.Link href="https://medium.com/dddeastmidlands"
+            <Nav.Link target="_blank" href="https://medium.com/dddeastmidlands"
             onSelect={event => {
               logEvent("navigation", "blog")
             }}>Blog</Nav.Link>
