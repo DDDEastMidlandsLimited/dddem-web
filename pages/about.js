@@ -47,7 +47,7 @@ export default () => (
             </ul>
         </section>
         <section>
-        <FullWidthImage url={'/static/banners/ticketinfo.jpg'}/>
+            <FullWidthImage url={'/static/banners/ticketinfo.jpg'}/>
         </section>
         <section>
             <h1>Promoting Inclusivity</h1>
