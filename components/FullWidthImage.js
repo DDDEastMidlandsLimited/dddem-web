@@ -10,6 +10,11 @@ const FullWidthImage = (props) => (
                 background-size: cover; 
                 text-align:center;
             }
+
+            @media (max-width: 992px) {	
+                height: 250px !important;
+                width: 100%;
+            }
             `}
         </style>
     </section>
