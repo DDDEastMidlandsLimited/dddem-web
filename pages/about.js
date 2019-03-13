@@ -2,7 +2,6 @@ import Layout from '../components/Layout.js'
 import Header from "../components/Header";
 import theme from "../theme/theme";
 import FullWidthImage from "../components/FullWidthImage";
-import RestrictedHeightImage from "../components/RestrictedHeightImage";
 import Head from "next/head";
 
 export default () => (
@@ -47,7 +46,9 @@ export default () => (
                 </li>
             </ul>
         </section>
-        <RestrictedHeightImage url={'/static/banners/ticketinfo.jpg'}/>
+        <section>
+            <FullWidthImage url={'/static/banners/ticketinfo.jpg'}/>
+        </section>
         <section>
             <h1>Promoting Inclusivity</h1>
             <p>

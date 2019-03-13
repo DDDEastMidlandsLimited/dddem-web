@@ -2051,6 +2051,8 @@ input[type="button"].btn-block {
 }
 
 .dropdown-menu {
+  width: 98%;
+  margin-left: 10%;
   position: absolute;
   top: 100%;
   left: 0;
@@ -3366,7 +3368,7 @@ input[type="button"].btn-block {
   }
 }
 
-@media (min-width: 992px) {
+@media (min-width: 1054px) {
   .navbar-expand-lg {
     -ms-flex-flow: row nowrap;
     flex-flow: row nowrap;
