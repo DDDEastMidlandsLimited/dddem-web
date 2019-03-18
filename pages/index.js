@@ -6,6 +6,7 @@ import dates from "../data/dates";
 import gold from "../data/gold";
 import silver from "../data/silver";
 import bronze from "../data/bronze";
+import TicketButton from '../components/TicketButton';
 import ImportantDatesList from "../components/ImportantDatesList";
 import TieredCompanies from '../components/TieredCompanies';
 
@@ -16,6 +17,10 @@ export default () => (
             <title>DDD East Midlands</title>
         </Head>
         <Header title={'DDD East Midlands'}/>
+
+
+        <h2 className="ticket-header">First Wave Of Tickets Go Live: Saturday 23rd March at 9am!</h2>
+        <TicketButton/>
 
         <section>
             <p>
