@@ -3086,7 +3086,7 @@ input[type="button"].btn-block {
 .nav-link {
   display: block;
   padding: 0.5rem 1rem;
-  margin: 0px 20px;
+  margin: 0px 15px;
   color: #1A7D87;
   border: 0 !important; /* Remove borders from off-canvas styling */
 }
