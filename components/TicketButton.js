@@ -5,7 +5,7 @@ const Button = (props) => (
             <button className="contactButton">
              <a href="https://www.eventbrite.co.uk/e/ddd-east-midlands-tickets-58629047058" target="_blank" onSelect={event => {
               logEvent("home", "eventbrite")
-            }}>Order Tickets</a>
+            }}>Go To Eventbrite</a>
             </button>
         <style jsx>
             {`

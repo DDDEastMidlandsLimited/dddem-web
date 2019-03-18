@@ -19,6 +19,7 @@ export default () => (
         <Header title={'DDD East Midlands'}/>
 
 
+        <h2 className="ticket-header">First Wave Of Tickets Go Live: Saturday 23rd March at 9am!</h2>
         <TicketButton/>
 
 
