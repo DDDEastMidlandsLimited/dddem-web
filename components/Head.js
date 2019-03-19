@@ -30,6 +30,7 @@ export default () => (
             <link rel="icon" type="image/png" sizes="96x96" href="/static/favicon/favicon-96x96.png"/>
             <link rel="icon" type="image/png" sizes="16x16" href="/static/favicon/favicon-16x16.png"/>
             <link rel="manifest" href="/static/favicon/manifest.json"/>
+            <script src="/static/client/object-assign-auto.min.js"></script>
         </Head>
     </div>
     
