@@ -52,6 +52,10 @@ export default class Layout extends React.Component {
                         text-align: left;
                         color: ${ theme.palette.secondary};
                     }
+                    .ticket-header{
+                        margin-top: 5%;
+                        margin-bottom: 2%;
+                    }
                     p{
                         line-height: 1.5;
                     }
