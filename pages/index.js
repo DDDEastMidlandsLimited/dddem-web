@@ -18,10 +18,6 @@ export default () => (
         </Head>
         <Header title={'DDD East Midlands'}/>
 
-
-        <h2 className="ticket-header">First Wave Of Tickets Go Live: Saturday 23rd March at 9am!</h2>
-        <TicketButton/>
-
         <section>
             <p>
                 DDD East Midlands is an inclusive, not-for-profit technology conference that celebrates the unique tech,
