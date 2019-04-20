@@ -1,8 +1,8 @@
-import SponsorGrid from "./SponsorGrid";
+import CompanyGrid from "./CompanyGrid"
 
 export default class TieredCompanies extends React.PureComponent {
     constructor(props, context) {
-        super(props, context);
+        super(props, context)
 
         this.state = {
             partners: props.partners,
@@ -10,10 +10,8 @@ export default class TieredCompanies extends React.PureComponent {
     }
     
     render () {
-        return (
-            <div>
-                <SponsorGrid companies={[... this.state.partners]}/>
-            </div>
-        );
+        return <div>
+            <CompanyGrid companies={[... this.state.partners]}/>
+        </div>
     }
 }

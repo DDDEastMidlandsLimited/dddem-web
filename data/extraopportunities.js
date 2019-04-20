@@ -5,6 +5,6 @@ const extraopportunities = [
     { id: 8, name: 'Inclusivity Sponsor', soldOutImage: null, description: 'Available' },
     { id: 9, name: 'Bathroom Basket', soldOutImage: null, description: 'Available' },
     { id: 10, name: 'Notable Company Logo', soldOutImage: null, description: 'Available' }
-];
+]
 
-export default extraopportunities;
+export default extraopportunities

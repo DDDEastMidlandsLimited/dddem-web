@@ -3,6 +3,6 @@ const sponsors = [
     { id: 2, name: 'Silver', soldOutImage: '/static/soldout/silversold.png', description: '' },
     { id: 3, name: 'Bronze', soldOutImage: null, description: 'Four Remaining' },
     { id: 4, name: 'Standard', soldOutImage: null, description: 'Unlimited' }
-];
+]
 
-export default sponsors;
+export default sponsors

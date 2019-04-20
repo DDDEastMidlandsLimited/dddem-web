@@ -1,8 +1,8 @@
 import React from 'react'
 import { initGA, logPageView } from '../utils/analytics'
-import Navigation from './Navigation.js'
-import Footer from './Footer.js'
-import theme from "../theme/theme";
+import Navigation from './Navigation'
+import Footer from './Footer'
+import theme from "../theme/theme"
 
 // TODO: Add to application config start
 import { library } from '@fortawesome/fontawesome-svg-core'
@@ -16,13 +16,13 @@ library.add(
     faTwitter,
     faGithub,
     faLinkedin
-);
+)
 
-import GlobalHead from "./Head";
+import GlobalHead from "./Head"
 
 export default class Layout extends React.Component {
     constructor(props) {
-        super(props);
+        super(props)
     }
 
     componentDidMount() {

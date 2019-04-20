@@ -1,14 +1,13 @@
-import Layout from '../components/Layout.js'
-import theme from '../theme/theme.js'
-import Header from "../components/Header";
-import Head from "next/head";
-import dates from "../data/dates";
-import gold from "../data/gold";
-import silver from "../data/silver";
-import bronze from "../data/bronze";
-import TicketButton from '../components/TicketButton';
-import ImportantDatesList from "../components/ImportantDatesList";
-import TieredCompanies from '../components/TieredCompanies';
+import Layout from '../components/Layout'
+import theme from '../theme/theme'
+import Header from "../components/Header"
+import Head from "next/head"
+import dates from "../data/dates"
+import gold from "../data/gold"
+import silver from "../data/silver"
+import bronze from "../data/bronze"
+import ImportantDatesList from "../components/home/ImportantDatesList"
+import TieredCompanies from '../components/companies/TieredCompanies'
 
 
 export default () => (

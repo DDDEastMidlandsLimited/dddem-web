@@ -1,4 +1,4 @@
-import theme from '../theme/theme.js'
+import theme from '../../theme/theme'
 
 const SponsorButton = (props) => (
         <div align="center">

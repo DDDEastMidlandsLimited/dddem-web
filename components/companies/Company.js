@@ -1,5 +1,5 @@
-import theme from '../theme/theme.js'
-import ExternalLink from './ExternalLink'
+import theme from '../../theme/theme'
+import ExternalLink from '../ExternalLink'
 
 const Company = (props) => (
     <div>

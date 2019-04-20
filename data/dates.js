@@ -6,6 +6,6 @@ const dates = [
     { id: 5, date: '28th May', name: 'Voting Closes' },
     { id: 6, date: '28th September', name: 'Agenda Published' },
     { id: 7, date: '26th October', name: 'The Big Day' }
-];
+]
 
-export default dates;
+export default dates

@@ -1,8 +1,8 @@
-import Layout from '../components/Layout.js'
-import Header from "../components/Header";
-import theme from "../theme/theme";
-import Head from "next/head";
-import Link from "next/link";
+import Layout from '../components/Layout'
+import Header from "../components/Header"
+import theme from "../theme/theme"
+import Head from "next/head"
+import Link from "next/link"
 
 export default () => (
     <Layout>

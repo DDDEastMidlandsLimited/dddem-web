@@ -2,17 +2,17 @@ import Layout from '../components/Layout'
 import theme from '../theme/theme'
 import Header from "../components/Header"
 import Head from "next/head"
-import NotableCompanies from '../components/companies/NotableCompanies'
+import Talks from '../components/talks/Talks'
 
 export default () => (
     <Layout>
         <Head>
-            <title>Notable Companies</title>
+            <title>Talks</title>
         </Head>
-        <Header title={'Notable Companies'}/>
+        <Header title={'Talks'}/>
 
         <section>
-            <NotableCompanies/>
+            <Talks/>
         </section>
 
         <style jsx>

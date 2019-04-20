@@ -3,6 +3,6 @@ const frflDesc = '<h1>First Response Finance Limited</h1><p>We’re an award win
 
 const bronze = [
     { id: 1, name: 'First Response Finance', image: '/static/sponsors/FirstResponseFinance_693x242.png', link: 'https://www.firstresponsefinance.co.uk/about/', description: frflDesc },
-];
+]
 
-export default bronze;
+export default bronze

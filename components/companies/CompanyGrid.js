@@ -1,15 +1,16 @@
-import Company from './Company';
+import Company from './Company'
+import CompanyDetailsButton from './CompanyDetailsButton'
 import { SizeMe } from 'react-sizeme'
 
 export default class CompanyGrid extends React.PureComponent {
     constructor(props, context) {
-        super(props, context);
+        super(props, context)
     
-        this._columnWidth = 200;
+        this._columnWidth = 200
         
-        this._renderList = this._renderList.bind(this);
-        this._renderRow = this._renderRow.bind(this);
-        this._renderCell = this._renderCell.bind(this);
+        this._renderList = this._renderList.bind(this)
+        this._renderRow = this._renderRow.bind(this)
+        this._renderCell = this._renderCell.bind(this)
     }
 
     render() {
@@ -19,14 +20,14 @@ export default class CompanyGrid extends React.PureComponent {
     }
 
     _renderList({width}){
-        const rows = [];
+        const rows = []
 
-        const itemsPerRow = Math.floor(width / this._columnWidth);
-        const rowCount = Math.ceil(this.props.companies.length / itemsPerRow);
+        const itemsPerRow = Math.floor(width / this._columnWidth)
+        const rowCount = Math.ceil(this.props.companies.length / itemsPerRow)
 
         for (let i = 0; i < rowCount; i++) {
-            let row = this._renderRow(i, itemsPerRow);
-            rows.push(row);
+            let row = this._renderRow(i, itemsPerRow)
+            rows.push(row)
         }
 
         return <div>
@@ -35,13 +36,13 @@ export default class CompanyGrid extends React.PureComponent {
     }
 
     _renderRow(index, itemsPerRow){
-        const cells = [];
-        const fromIndex = index * itemsPerRow;
-        const toIndex = Math.min(fromIndex + itemsPerRow, this.props.companies.length);
+        const cells = []
+        const fromIndex = index * itemsPerRow
+        const toIndex = Math.min(fromIndex + itemsPerRow, this.props.companies.length)
 
         for (let i = fromIndex; i < toIndex; i++) {
-            let cell = this._renderCell(i);
-            cells.push(cell);
+            let cell = this._renderCell(i)
+            cells.push(cell)
         }
 
         return <div key={index}>
@@ -60,11 +61,17 @@ export default class CompanyGrid extends React.PureComponent {
     }
 
     _renderCell(index) {
-        const {companies} = this.props;
-        const company = companies[index];
+        const {companies} = this.props
+        const company = companies[index]
+
+        let detailsButton
+        if (company.description.length !== 0 && this.props.updateDescription){
+            detailsButton = <CompanyDetailsButton updateDescription={this.props.updateDescription(company.description)} />
+        }
 
         return <div key={index}>
             <Company key={company.id} partner={company} image={company.image} />
+            {detailsButton}
             <style jsx>
             {`
                 div{

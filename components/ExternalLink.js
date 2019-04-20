@@ -1,5 +1,5 @@
 import { withRouter } from 'next/router'
-import theme from '../theme/theme.js'
+import theme from '../theme/theme'
 import { logEvent } from '../utils/analytics'
 
 const ExternalLink = ({ children, router, href, target, category, eventType }) => {
@@ -8,10 +8,9 @@ const ExternalLink = ({ children, router, href, target, category, eventType }) =
     logEvent(category, eventType)
   }
 
-  return (
-    <a href={href} onClick={handleClick} target={target}>
-      {children}
-      <style jsx>
+    return <a href={href} onClick={handleClick} target={target}>
+        {children}
+        <style jsx>
             {`
                 a {
                     text-decoration: none;      
@@ -37,8 +36,6 @@ const ExternalLink = ({ children, router, href, target, category, eventType }) =
             `}
         </style>
     </a>
-    
-  )
 }
 
 export default withRouter(ExternalLink)

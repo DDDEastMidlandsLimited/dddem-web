@@ -1,5 +1,5 @@
-import SponsorImage from './SponsorImage.js';
-import SponsorDescription from './SponsorDescription.js';
+import SponsorImage from './SponsorImage'
+import SponsorDescription from './SponsorDescription'
 
 const Sponsor = (props) => (
     <div className="boxItem">
@@ -7,11 +7,6 @@ const Sponsor = (props) => (
             ? <SponsorImage image={props.sponsor.soldOutImage} />
             : <SponsorDescription description={props.sponsor.description} name={props.sponsor.name} />
         }       
-        <style jsx>
-            {`
-                
-            `}
-        </style>
     </div>
 )
 

@@ -1,4 +1,4 @@
-import theme from '../theme/theme.js'
+import theme from '../theme/theme'
 
 const Header = (props) => (
     <section>

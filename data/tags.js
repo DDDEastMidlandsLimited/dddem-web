@@ -1,0 +1,3 @@
+const tags = ["devops","observability","metrics","dashboarding","functional programming","dotnet","iot","cloud","hardware","softskills/workskills","business startup","machine learning","artificial intelligence","mobile","web development","javascript","ux","design","user research","software methodology/process","architecture","serverless","demo","testing","systems thinking","teamwork","audio","history","energy","cloud native","management","personal development","api","ui","tools","database performance","augmented reality/virtual reality","microservices","vim","docker","kubernetes","big data","career development","quality assurance","security","blockchain","programming languages","software licensing","free software","privacy"]
+
+export default tags
