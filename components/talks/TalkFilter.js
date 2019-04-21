@@ -11,10 +11,19 @@ export default class TalkFilter extends React.PureComponent {
 
     render() {
         return <div>
+            <h2>Level</h2>
+            {this._renderItems(this.props.levels, this._renderLevel)}            
+            <h2>Topic</h2>
             {this._renderItems(this.props.tags, this._renderTag)}
-            {this._renderItems(this.props.levels, this._renderLevel)}
+            <style jsx>
+                {`
+                    div{
+                        margin-right: 2%;
+                    }
+                `}
+            </style>
         </div>
-    }
+        }
 
     _renderItems(items, renderItem){
         const elements = items.map((item, index) => {
