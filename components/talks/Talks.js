@@ -51,7 +51,7 @@ export default class Talks extends React.PureComponent {
             return containsFilteredTags && containsFilteredLevels
         })
 
-        return <div>
+        return <div >
             <TalkFilter tags={tags} levels={levels} addTag={this.addTag} removeTag={this.removeTag} addLevel={this.addLevel} removeLevel={this.removeLevel} />
             <TalkList talks={filteredTalks}/>
             <style jsx>

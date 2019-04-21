@@ -10,7 +10,7 @@ export default class TalkFilter extends React.PureComponent {
     }
 
     render() {
-        return <div>
+        return <div className="column">
             <h2>Level</h2>
             {this._renderItems(this.props.levels, this._renderLevel)}            
             <h2>Topic</h2>
@@ -19,6 +19,10 @@ export default class TalkFilter extends React.PureComponent {
                 {`
                     div{
                         margin-right: 2%;
+                    }
+                    .column{
+                        float: left;
+                        width: 30%;
                     }
                 `}
             </style>

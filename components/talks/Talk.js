@@ -1,3 +1,4 @@
+import theme from '../../theme/theme'
 export default class TalkList extends React.PureComponent {
     constructor(props, context) {
         super(props, context)
@@ -6,7 +7,7 @@ export default class TalkList extends React.PureComponent {
             displayDescription: false,
         }
     
-        this._renderTitleAndTags = this._renderTitleAndTags.bind(this)
+        this._renderTitle = this._renderTitle.bind(this)
         this._renderTags = this._renderTags.bind(this)
         this._renderTag = this._renderTag.bind(this)
         this._renderDescriptionAndLevel = this._renderDescriptionAndLevel.bind(this)
@@ -22,24 +23,35 @@ export default class TalkList extends React.PureComponent {
     render() {
         const {talk} = this.props
 
-        return <div>
-            {this._renderTitleAndTags(talk.title, talk.tags)}
-            {this.state.displayDescription ? this._renderDescriptionAndLevel(talk.description, talk.level) : null }
+        return <div className="talk-title">
+            {this._renderTitle(talk.title) }
+            {this.state.displayDescription ? this._renderDescriptionAndLevel(talk.description, talk.level, talk.tags) : null }
             <style jsx>
                 {`
                     div{
                         padding: 10px;
+                    }
+
+                    .talk-title{
+                        border-radius: 12px;
+                        color:  ${theme.palette.dark};
+                        display: inline-block;
+                        border: 2px solid ${theme.palette.quaternary};
+                        border-radius: 5px;
+                        margin-bottom:5px;
+                        width: 100%;
+                    }
+                    .talk-title:hover{
+                        background-color:  ${theme.palette.quaternary};     
                     }
                 `}
             </style>
         </div>
     }
 
-    _renderTitleAndTags(title, tags){
+    _renderTitle(title){
         return <div>
-            <div onClick={this._toggleVisibility()}>{title}</div>
-            <div>
-                {this._renderTags(tags)}
+            <div onClick={this._toggleVisibility()}>{title}
             </div>
             <style jsx>
                 {`
@@ -62,7 +74,7 @@ export default class TalkList extends React.PureComponent {
             <style jsx>
                 {`
                     div{
-                        display: flex;
+                        display: inline-flex;
                         flex-direction: row;
                     }
                 `}
@@ -84,18 +96,24 @@ export default class TalkList extends React.PureComponent {
         </div>
     }
 
-    _renderDescriptionAndLevel(description, level){
+    _renderDescriptionAndLevel(description, level, tags){
         const paragraphs = description.replace("\n\n", "\n").split("\n").map((paragraph, index) => {
             return this._renderParagraph(index, paragraph)
         })
 
         return <div>
-            <div>Level: {level}</div>
+            <hr/>
+            <div className="sub-title">Level: {level}</div>
+            <div className="sub-title">Tags: {this._renderTags(tags)} </div>
+            <div><strong>Description:</strong></div>
             {paragraphs}
             <style jsx>
                 {`
                     div{
                         padding-top: 10px;
+                    }
+                    .sub-title{
+                        color: ${theme.palette.secondary}; 
                     }
                 `}
             </style>
