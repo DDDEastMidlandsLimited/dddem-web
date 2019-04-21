@@ -12,6 +12,7 @@ export default () => (
         <Header title={'Talks'}/>
 
         <section>
+            <h2 >We advise using this page on desktop for a good experience.</h2>
             <h3>Filtering</h3>
             <ul>
                 <li>To filter talks down select a <strong>level</strong> or <strong>tag</strong>.</li>
@@ -37,6 +38,10 @@ export default () => (
                 max-width: ${theme.sizes.maxContentWidth};
                 padding: ${theme.sizes.contentPadding};
                 margin: auto;
+            }
+            section h2{
+                text-align: center;
+                padding-bottom: 15px;
             }
         `}
         </style>
