@@ -1,10 +1,9 @@
-import Layout from '../components/Layout.js'
-import theme from '../theme/theme.js'
-import Header from "../components/Header";
-import VenueButton from '../components/VenueButton.js';
-import FullWidthImage from "../components/FullWidthImage";
-
-import Head from "next/head";
+import Layout from '../components/Layout'
+import theme from '../theme/theme'
+import Header from "../components/Header"
+import VenueButton from '../components/VenueButton'
+import FullWidthImage from "../components/FullWidthImage"
+import Head from "next/head"
 
 export default (props) => (
     <Layout>

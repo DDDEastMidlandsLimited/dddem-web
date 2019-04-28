@@ -4,7 +4,7 @@ const bcDesc = '<h1>Blenheim Chalcot is the UK’s leading digital venture build
 const gold = [
     { id: 1, name: 'BJSS', image: '/static/sponsors/BJSS-870x460.png', link: 'https://www.bjss.com/', description: bjssDesc },
     { id: 1, name: 'Blenheim Chalcot', image: '/static/sponsors/BC-1455x944.png', link: 'https://www.blenheimchalcot.com/', description: bcDesc },
-];
+]
 
 
-export default gold;
+export default gold

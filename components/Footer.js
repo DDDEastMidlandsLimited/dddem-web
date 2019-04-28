@@ -1,5 +1,5 @@
 import Link from 'next/link'
-import theme from '../theme/theme.js'
+import theme from '../theme/theme'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 
 const Footer = () => (

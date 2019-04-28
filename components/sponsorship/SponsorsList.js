@@ -1,4 +1,4 @@
-import Sponsor from './Sponsor';
+import Sponsor from './Sponsor'
 
 const SponsorList = (props) => (
     <section className="boxedItems">
@@ -7,11 +7,6 @@ const SponsorList = (props) => (
                 <Sponsor key={sponsor.id} sponsor={ sponsor } />
             )
         }
-         <style jsx>
-            {`
-
-            `}
-        </style>
     </section>
 )
 

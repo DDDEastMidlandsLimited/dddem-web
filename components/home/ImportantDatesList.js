@@ -1,4 +1,4 @@
-import ImportantDate from './ImportantDate';
+import ImportantDate from './ImportantDate'
 
 const ImportantDatesList = (props) => (
     <section className="boxedItems">
@@ -7,11 +7,6 @@ const ImportantDatesList = (props) => (
                 <ImportantDate key={date.id} dates={ date } />
             )
         }
-         <style jsx>
-            {`
-
-            `}
-        </style>
     </section>
 )
 

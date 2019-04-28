@@ -1,11 +1,11 @@
-import Layout from '../components/Layout.js'
-import Head from "next/head";
-import Header from "../components/Header";
-import SponsorList from "../components/SponsorsList";
-import sponsors from "../data/sponsors";
-import extraopportunities from "../data/extraopportunities";
-import theme from '../theme/theme.js'
-import SponsorButton from '../components/SponsorButton.js';
+import Layout from '../components/Layout'
+import Head from "next/head"
+import Header from "../components/Header"
+import SponsorList from "../components/sponsorship/SponsorsList"
+import sponsors from "../data/sponsors"
+import extraopportunities from "../data/extraopportunities"
+import theme from '../theme/theme'
+import SponsorButton from '../components/sponsorship/SponsorButton'
 
 export default () => (
     <Layout>
