@@ -9,8 +9,8 @@ export default class TalkList extends React.PureComponent {
 
     render() {
         const {talks} = this.props
-        const talkElements = talks.map((talk, index) => {
-            return this._renderTalk(index, talk)
+        const talkElements = talks.map((talk) => {
+            return this._renderTalk(talk)
         })
 
         return <div className="column">
@@ -26,8 +26,8 @@ export default class TalkList extends React.PureComponent {
         </div>
     }
 
-    _renderTalk(index, talk){
-        return <div key={index}>
+    _renderTalk(talk){
+        return <div key={talk.id}>
             <Talk talk={talk} />
         </div>
     }

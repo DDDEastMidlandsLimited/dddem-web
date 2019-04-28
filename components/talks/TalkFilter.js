@@ -30,8 +30,8 @@ export default class TalkFilter extends React.PureComponent {
         }
 
     _renderItems(items, renderItem){
-        const elements = items.map((item, index) => {
-            return renderItem(index, item)
+        const elements = items.map((item) => {
+            return renderItem(item)
         })
 
         return <div>
@@ -39,11 +39,11 @@ export default class TalkFilter extends React.PureComponent {
         </div>
     }
 
-    _renderTag(index, tag){
-        return <FilterItem key={index} item={tag} addItem={this.props.addTag} removeItem={this.props.removeTag} />
+    _renderTag(tag){
+        return <FilterItem key={tag.name} item={tag} addItem={this.props.addTag} removeItem={this.props.removeTag} />
     }
 
-    _renderLevel(index, level){
-        return <FilterItem key={index} item={level} addItem={this.props.addLevel} removeItem={this.props.removeLevel} />
+    _renderLevel(level){
+        return <FilterItem key={level.name} item={level} addItem={this.props.addLevel} removeItem={this.props.removeLevel} />
     }
 }
