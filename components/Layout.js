@@ -21,7 +21,7 @@ library.add(
 import GlobalHead from "./Head"
 
 export default class Layout extends React.Component {
-    constructor(props) {
+    constructor (props) {
         super(props)
     }
 
@@ -46,6 +46,7 @@ export default class Layout extends React.Component {
                         padding: 0;
                         font-family: ${ theme.font.default};
                         font-size: ${ theme.font.sizes.desktop.body};
+                        overflow-x: hidden;
                     }
                     h2 {
                         font-size: ${ theme.font.sizes.desktop.subtitle1};
