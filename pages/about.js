@@ -30,6 +30,11 @@ export default () => (
             <p>
                Developer! Developer! Developer! is an umbrella, open-source conference format. By naming ourselves DDD, and associating ourselves with similar events, we abide by certain principles. Other than that, this conference is by the East Midlands community for the East Midlands community and is unique in it's own right. There is more information about Developer! Developer! Developer! further down this page for those interested.
             </p>
+        </section> 
+        <section className="center-video">
+                <div className="iframe-container">
+                    <iframe src="https://player.vimeo.com/video/337010371" width="640" height="341" frameBorder="0" allow="autoplay; fullscreen" allowFullScreen></iframe>
+                </div>
         </section>
         <section>
             <h2>The event follows these DDD Principles:</h2>
@@ -208,6 +213,23 @@ export default () => (
                 max-width: ${theme.sizes.maxContentWidth};
                 padding: ${theme.sizes.contentPadding};
                 margin: auto;
+            }
+            section center-video{
+                text-align: center;
+            }
+            .iframe-container {
+                position: relative;
+                overflow: hidden;
+                padding-top: 56.25%;
+                margin: 10px 10px;
+            }
+            .iframe-container iframe {
+                position: absolute;
+                  top: 0;
+                  left: 0;
+                  width: 100%;
+                  height: 100%;
+                  border: 0;
             }
         `}
         </style>
