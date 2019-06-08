@@ -20,7 +20,7 @@ class Navigation extends Component {
                 <Nav className="mr-auto" variant="pills" defaultActiveKey="/home">
                     <Nav.Link href="/">Home</Nav.Link>
                     <Nav.Link href="/notable-companies">Notable Companies</Nav.Link>
-                    <Nav.Link href="/talks">Talks</Nav.Link>
+                    {/* <Nav.Link href="/talks">Talks</Nav.Link> */}
                     <NavDropdown title="About" id="basic-nav-dropdown">
                         <NavDropdown.Item  href="/about">About</NavDropdown.Item>
                         <NavDropdown.Item  href="/venue">Venue</NavDropdown.Item>
