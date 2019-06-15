@@ -4,6 +4,7 @@ const microliseDesc = '<h1>Microlise.</h1><p>Founded in 1982, Microlise is an in
 const silver = [
     { id: 1, name: 'UNiDAYS', image: '/static/sponsors/UNiDAYS_200.png', link: 'https://www.myunidays.com/GB/en-GB/careers', description: unidaysDesc },
     { id: 2, name: 'Microlise', image: '/static/sponsors/Microlise_800.png', link: 'https://www.microlise.com/careers/', description: microliseDesc },
+    { id: 3, name: 'Experian', image: '/static/sponsors/Experian.png', link: 'https://www.experian.co.uk/careers/our-opportunities.html', description: '' }
 ]
 
 export default silver
