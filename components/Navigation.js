@@ -27,6 +27,7 @@ class Navigation extends Component {
                         <NavDropdown.Item href="/accessibility">Accessibility</NavDropdown.Item>
                         <NavDropdown.Item href="/sponsorship">Sponsorship</NavDropdown.Item>
                     </NavDropdown>
+                    <Nav.Link href="/speakers">Speakers</Nav.Link>
                     <Nav.Link href="/faq">FAQ</Nav.Link>
                     <Nav.Link target="_blank" href="https://sessionize.com/dddeastmidlands/" onSelect={event => {
                         logEvent("navigation", "cfp")
