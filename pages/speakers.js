@@ -24,10 +24,6 @@ export default () => (
                     logEvent("twitter", "brunty")}}>
                         <a target="_blank"><FontAwesomeIcon icon={["fab", "twitter"]} /></a>
                 </Link>
-                <Link target="_blank" href="https://mfyu.co.uk/" onSelect={event => {
-                    logEvent("blog", "brunty")}}>
-                        <a target="_blank"><faCoffee icon={["fas", "pen"]} /></a>
-                </Link>
             </h2>
             <h3>Talk: <i>Think like a hacker</i></h3>
             <p>
@@ -90,11 +86,11 @@ export default () => (
         <section name="anthony-dang">
             <h2>Anthony Dang                
                 <Link target="_blank" href="https://twitter.com/AnthonyDotNet" onSelect={event => {
-                    logEvent("speakers", "anthonydang")}}>
+                    logEvent("twitter", "anthonydang")}}>
                         <a target="_blank"><FontAwesomeIcon icon={["fab", "twitter"]} /></a>
                 </Link>
                 <Link target="_blank" href="https://www.linkedin.com/in/anthony-dang79/" onSelect={event => {
-                    logEvent("speakers", "anthonydang")}}>
+                    logEvent("linkedin", "anthonydang")}}>
                         <a target="_blank"><FontAwesomeIcon icon={["fab", "linkedin"]} /></a>
                 </Link>
             </h2>
@@ -128,11 +124,11 @@ export default () => (
         <section name="cara-holland">
             <h2>Cara Holland
                 <Link target="_blank" href="https://twitter.com/GraphicChange" onSelect={event => {
-                    logEvent("speakers", "caraholland")}}>
+                    logEvent("twitter", "caraholland")}}>
                         <a target="_blank"><FontAwesomeIcon icon={["fab", "twitter"]} /></a>
                 </Link>
                 <Link target="_blank" href="https://www.linkedin.com/in/cara-holland-71240b7/" onSelect={event => {
-                    logEvent("speakers", "caraholland")}}>
+                    logEvent("linkedin", "caraholland")}}>
                         <a target="_blank"><FontAwesomeIcon icon={["fab", "linkedin"]} /></a>
                 </Link>
             </h2>
@@ -167,7 +163,7 @@ export default () => (
         <section name="mark-towndrow">
             <h2>Mark Towndrow
                 <Link target="_blank" href="https://twitter.com/mark_towndrow" onSelect={event => {
-                    logEvent("speakers", "marktowndrow")}}>
+                    logEvent("twitter", "marktowndrow")}}>
                         <a target="_blank"><FontAwesomeIcon icon={["fab", "twitter"]} /></a>
                 </Link>
             </h2>
@@ -198,11 +194,11 @@ export default () => (
         <section name="galiya-warrier">
             <h2>Galiya Warrier
                 <Link target="_blank" href="https://twitter.com/galiyawarrier" onSelect={event => {
-                    logEvent("speakers", "galiya-warrier")}}>
+                    logEvent("twitter", "galiya-warrier")}}>
                         <a target="_blank"><FontAwesomeIcon icon={["fab", "twitter"]} /></a>
                 </Link>
                 <Link target="_blank" href="https://www.linkedin.com/in/galiyawarrier/" onSelect={event => {
-                    logEvent("speakers", "galiya-warrier")}}>
+                    logEvent("linkedin", "galiya-warrier")}}>
                         <a target="_blank"><FontAwesomeIcon icon={["fab", "linkedin"]} /></a>
                 </Link>
             </h2>
@@ -259,7 +255,7 @@ export default () => (
         <section name="ian-johnson">
             <h2>Ian Johnson
                 <Link target="_blank" href="https://twitter.com/ijohnson_tnf" onSelect={event => {
-                    logEvent("speakers", "ianjohnson")}}>
+                    logEvent("twitter", "ianjohnson")}}>
                         <a target="_blank"><FontAwesomeIcon icon={["fab", "twitter"]} /></a>
                 </Link>
             </h2>
@@ -300,7 +296,7 @@ export default () => (
         <section name="samathy-barratt">
             <h2>Samathy Barratt
                 <Link target="_blank" href="https://twitter.com/samathy_barratt" onSelect={event => {
-                    logEvent("speakers", "samathybarratt")}}>
+                    logEvent("twitter", "samathybarratt")}}>
                         <a target="_blank"><FontAwesomeIcon icon={["fab", "twitter"]} /></a>
                 </Link>
             </h2>
@@ -332,11 +328,11 @@ export default () => (
         <section name="ian-cooper">
             <h2>Ian Cooper
                 <Link target="_blank" href="https://twitter.com/icooper" onSelect={event => {
-                    logEvent("speakers", "iancooper")}}>
+                    logEvent("twitter", "iancooper")}}>
                         <a target="_blank"><FontAwesomeIcon icon={["fab", "twitter"]} /></a>
                 </Link>
                 <Link target="_blank" href="https://www.linkedin.com/in/ian-cooper-2b059b/" onSelect={event => {
-                    logEvent("speakers", "iancooper")}}>
+                    logEvent("linkedin", "iancooper")}}>
                         <a target="_blank"><FontAwesomeIcon icon={["fab", "linkedin"]} /></a>
                 </Link>
             </h2>
@@ -373,11 +369,11 @@ export default () => (
         <section name="helen-joy">
             <h2>Helen Joy
                 <Link target="_blank" href="https://twitter.com/LittleHelli" onSelect={event => {
-                    logEvent("speakers", "helenjoy")}}>
+                    logEvent("twitter", "helenjoy")}}>
                         <a target="_blank"><FontAwesomeIcon icon={["fab", "twitter"]} /></a>
                 </Link>
                 <Link target="_blank" href="https://www.linkedin.com/in/helencjoy/" onSelect={event => {
-                    logEvent("speakers", "helenjoy")}}>
+                    logEvent("linkedin", "helenjoy")}}>
                         <a target="_blank"><FontAwesomeIcon icon={["fab", "linkedin"]} /></a>
                 </Link>
             </h2>
@@ -408,11 +404,11 @@ export default () => (
         <section name="joel-hammond-turner">
             <h2>Joel Hammond-Turner
                 <Link target="_blank" href="https://twitter.com/Rammesses" onSelect={event => {
-                    logEvent("speakers", "joelhammondturner")}}>
+                    logEvent("twitter", "joelhammondturner")}}>
                         <a target="_blank"><FontAwesomeIcon icon={["fab", "twitter"]} /></a>
                 </Link>
                 <Link target="_blank" href="https://www.linkedin.com/in/joelht/" onSelect={event => {
-                    logEvent("speakers", "joelhammondturner")}}>
+                    logEvent("linkedin", "joelhammondturner")}}>
                         <a target="_blank"><FontAwesomeIcon icon={["fab", "linkedin"]} /></a>
                 </Link>
             </h2>
@@ -440,11 +436,11 @@ export default () => (
         <section name="zac-braddy">
             <h2>Zac Braddy
                 <Link target="_blank" href="https://twitter.com/ZackerTheHacker" onSelect={event => {
-                    logEvent("speakers", "zacbraddy")}}>
+                    logEvent("twitter", "zacbraddy")}}>
                         <a target="_blank"><FontAwesomeIcon icon={["fab", "twitter"]} /></a>
                 </Link>
                 <Link target="_blank" href="https://www.linkedin.com/in/zac-braddy-17a81b22/" onSelect={event => {
-                    logEvent("speakers", "zacbraddy")}}>
+                    logEvent("linkedin", "zacbraddy")}}>
                         <a target="_blank"><FontAwesomeIcon icon={["fab", "linkedin"]} /></a>
                 </Link>
             </h2>
@@ -521,11 +517,11 @@ export default () => (
         <section name="simon-painter">
             <h2>Simon Painter
                 <Link target="_blank" href="https://twitter.com/madSimonJ" onSelect={event => {
-                    logEvent("speakers", "simonpainter")}}>
+                    logEvent("twitter", "simonpainter")}}>
                         <a target="_blank"><FontAwesomeIcon icon={["fab", "twitter"]} /></a>
                 </Link>
                 <Link target="_blank" href="https://www.linkedin.com/in/simon-painter-45a05217/" onSelect={event => {
-                    logEvent("speakers", "simonpainter")}}>
+                    logEvent("linkedin", "simonpainter")}}>
                         <a target="_blank"><FontAwesomeIcon icon={["fab", "linkedin"]} /></a>
                 </Link>
             </h2>
@@ -639,6 +635,10 @@ export default () => (
                 } 
                 .columnright{
                     width: 100%;
+                    padding-top:0px;
+                }
+                .columnleft{
+                    padding-top:0px;
                 }
             }
         `}
