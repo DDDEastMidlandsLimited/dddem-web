@@ -18,8 +18,13 @@ export default () => (
             </p>
         </section>
 
-        <section>
-            <h2>Matt Brunt</h2>
+        <section name="matt-brunt">
+            <h2>Matt Brunt
+                <Link target="_blank" href="https://twitter.com/Brunty" onSelect={event => {
+                    logEvent("speakers", "brunty")}}>
+                        <a target="_blank"><FontAwesomeIcon icon={["fab", "twitter"]} /></a>
+                </Link>
+            </h2>
             <h3>Talk: <i>Think like a hacker</i></h3>
             <p>
                 Much in the same way that to secure a house it helps to know how to break in, knowing how to attack our systems will help us secure them. You have a lot of data in your organisations. Whether you think it's sensitive or not, it has value. Whether an attacker wants data for profit, a grudge, or just for fun we need to ensure that we don't just leave the door open for them to take what they want.            </p>
@@ -39,19 +44,17 @@ export default () => (
                     <p>
                         When not tinkering with code he can be found reading comics, fighting monsters in dungeons and dragons, or drinking tea and eating jaffa-cakes.
                     </p>
-                    <ul>
-                        <li>
-                            <Link href="https://twitter.com/Brunty">
-                                <a target="_blank"><FontAwesomeIcon icon={["fab", "twitter"]} /></a>
-                            </Link>
-                        </li>
-                    </ul>
                 </div>
             </div>
         </section> 
         
-        <section>
-            <h2>Jessica Salisbury</h2>
+        <section name="jessica-salisbury">
+            <h2>Jessica Salisbury                
+                <Link target="_blank" href="https://twitter.com/JessSalisburyy" onSelect={event => {
+                    logEvent("speakers", "jesssalisbury")}}>
+                        <a target="_blank"><FontAwesomeIcon icon={["fab", "twitter"]} /></a>
+                </Link>
+            </h2>
             <h3>Talk: <i>The Power of the Feedback Loop</i></h3>
             <p>
                 From how the body knows when to stop growing to saving lives from speeding cars, the feedback loop is a mechanism that secretly underlies every corner of our existence. The concept spans schools of thought in psychology, economics, biology and neuroscience and is now emerging in the intersection of technology and behavioural science. 
@@ -72,19 +75,17 @@ export default () => (
                     <p>
                         Jess is a Behavioural Psychologist and the Project Manager of Money Coaching at Tully, a business created to help people who are worried about money. Jess leads on Tully’s Money Coaching product which uses Open Banking data to engage consumers in positive financial decision making to improve their financial wellbeing. From helping those in debt manage their money to providing early intervention for those displaying detrimental patterns of behaviour, Jess is using her academic background in psychology to create highly personalised, data led Money Coaching that drives long term, financial behavioural change for Tully customers.                    
                     </p>
-                    <ul>
-                        <li>
-                            <Link href="https://twitter.com/JessSalisburyy">
-                                <a target="_blank"><FontAwesomeIcon icon={["fab", "twitter"]} /></a>
-                            </Link>
-                        </li>
-                    </ul>
                 </div>
             </div>
         </section> 
         
-        <section>
-            <h2>Anthony Dang</h2>
+        <section name="anthony-dang">
+            <h2>Anthony Dang                
+                <Link target="_blank" href="https://twitter.com/AnthonyDotNet" onSelect={event => {
+                    logEvent("speakers", "anthonydang")}}>
+                        <a target="_blank"><FontAwesomeIcon icon={["fab", "twitter"]} /></a>
+                </Link>
+            </h2>
             <h3>Talk: <i>Cache me outside - Caching Methodologies and Architectures</i></h3>
             <p>
                 Caching can be your best-friend or your worst best-friend. A poor cache implementation can mean the difference between experiencing blazing fast performance or unexplained random slowness, or both! It can even result in random stale (out of date) content which you can’t explain.
@@ -108,19 +109,17 @@ export default () => (
                     <p>
                         As Head of Development at The Cogworks he was key in creating a high performing production team spanning London, Manchester, Barcelona, Warsaw, and Krakow. He is an Agile/Scum/Kanban enthusiast, and is always looking for ways to make development more efficient and enjoyable. Originally from Sydney, Australia, he is now based in London. 
                     </p>
-                    <ul>
-                        <li>
-                            <Link href="https://twitter.com/AnthonyDotNet">
-                                <a target="_blank"><FontAwesomeIcon icon={["fab", "twitter"]} /></a>
-                            </Link>
-                        </li>
-                    </ul>
                 </div>
             </div>
         </section> 
         
-        <section>
-            <h2>Cara Holland</h2>
+        <section name="cara-holland">
+            <h2>Cara Holland
+                <Link target="_blank" href="https://twitter.com/GraphicChange" onSelect={event => {
+                    logEvent("speakers", "caraholland")}}>
+                        <a target="_blank"><FontAwesomeIcon icon={["fab", "twitter"]} /></a>
+                </Link>
+            </h2>
             <h3>Talk: <i>Draw UX (or how to get your visual thinking groove on)</i></h3>
             <p>
                 Working visually is a super power. It increases your ability to understand and share complex information, think creatively and collaborate effectively. But for lots of adults drawing at work is a huge step outside of their comfort zone.
@@ -145,19 +144,17 @@ export default () => (
                         Founder, trainer and author of best selling book Draw a Better Business, Cara Holland has been working visually with companies as varied as Google and the NHS for the last 13 years. 
                         She also co-runs the Graphic Change Academy which has trained people in over 69 countries how to start drawing at work.                    
                     </p>
-                    <ul>
-                        <li>
-                            <Link href="https://twitter.com/GraphicChange">
-                                <a target="_blank"><FontAwesomeIcon icon={["fab", "twitter"]} /></a>
-                            </Link>
-                        </li>
-                    </ul>
                 </div>
                 </div>
         </section> 
         
-        <section>
-            <h2>Mark Towndrow</h2>
+        <section name="mark-towndrow">
+            <h2>Mark Towndrow
+                <Link target="_blank" href="https://twitter.com/mark_towndrow" onSelect={event => {
+                    logEvent("speakers", "marktowndrow")}}>
+                        <a target="_blank"><FontAwesomeIcon icon={["fab", "twitter"]} /></a>
+                </Link>
+            </h2>
             <h3>Talk: <i>How to be a better developer - without learning another JavaScript framework</i></h3>
             <p>
                 It’s increasingly important to make time for self-improvement and career development, but it’s hard to know where to focus your efforts. As developers we’re often attracted to learning new technologies and languages, however I’d like to make the case for a number of non-technical areas of development that I believe can give you a huge advantage in your career.
@@ -179,11 +176,16 @@ export default () => (
                         Gained a Software Engineering degree at Nottingham Trent University, worked at TDX Group then Equifax before moving to Bizfitech / OpenWrks. Enjoy coding primarily in .NET (Core) and React but love playing with new technologies                   
                     </p>
                 </div>
-                </div>
+            </div>
         </section> 
                 
-        <section>
-            <h2>Galiya Warrier</h2>
+        <section name="galiya-warrier">
+            <h2>Galiya Warrier
+                <Link target="_blank" href="https://twitter.com/galiyawarrier" onSelect={event => {
+                    logEvent("speakers", "galiya-warrier")}}>
+                        <a target="_blank"><FontAwesomeIcon icon={["fab", "twitter"]} /></a>
+                </Link>
+            </h2>
             <h3>Talk: <i>Deep Learning in the world of little ponies</i></h3>
             <p>
                 In this talk, we will discuss computer vision, one of the most common real-world applications of machine learning. We will deep dive into various state-of-the-art concepts around building custom image classifiers - application of deep neural networks, specifically convolutional neural networks and transfer learning. We will demonstrate how those approaches could be used to create your own image classifier to recognise the characters of "My Little Pony" TV Series [or Pokemon, or Superheroes, or your custom images].
@@ -198,18 +200,11 @@ export default () => (
                     <p>
                         I'm a Cloud Solution Architect at Microsoft, where I help enterprise customers adopt Advanced Analytics and Artifical Intelligence services on Microsoft Azure cloud.
                     </p>
-                    <ul>
-                        <li>
-                            <Link href="https://twitter.com/galiyawarrier">
-                                <a target="_blank"><FontAwesomeIcon icon={["fab", "twitter"]} /></a>
-                            </Link>
-                        </li>
-                    </ul>
                 </div>
-                </div>
+            </div>
         </section> 
                         
-        <section>
+        <section name="robin-ninan">
             <h2>Robin Ninan</h2>
             <h3>Talk: <i>Ditching the test pyramid in a microservices era</i></h3>
             <p>
@@ -241,8 +236,13 @@ export default () => (
                 </div>
         </section> 
         
-        <section>
-            <h2>Ian Johnson</h2>
+        <section name="ian-johnson">
+            <h2>Ian Johnson
+                <Link target="_blank" href="https://twitter.com/ijohnson_tnf" onSelect={event => {
+                    logEvent("speakers", "ianjohnson")}}>
+                        <a target="_blank"><FontAwesomeIcon icon={["fab", "twitter"]} /></a>
+                </Link>
+            </h2>
             <h3>Talk: <i>Reasonable Code</i></h3>
             <p>
                 In a reasonable a system (i.e. a system that helps me to understand it, to reason about it) I should be able to understand how to make a change without holding the entire system in my head. I should be able to reason where the change needs to be made and reason about the impact it will have.
@@ -277,8 +277,13 @@ export default () => (
                 </div>
         </section> 
 
-        <section>
-            <h2>Samathy Barratt</h2>
+        <section name="samathy-barratt">
+            <h2>Samathy Barratt
+                <Link target="_blank" href="https://twitter.com/samathy_barratt" onSelect={event => {
+                    logEvent("speakers", "samathybarratt")}}>
+                        <a target="_blank"><FontAwesomeIcon icon={["fab", "twitter"]} /></a>
+                </Link>
+            </h2>
             <h3>Talk: <i>This is a talk about Nothing.</i></h3>
             <p>
                 NULL, None, 0, nullptr, nil, NaN. Every programming language represents the concept of nothing, zero or just 'not a thing' in a different way.
@@ -299,19 +304,18 @@ export default () => (
                     <p>
                         A Python programmer by day, and a passionate D programmer by night, she likes good challenges, good code and good coffee.
                     </p>
-                    <ul>
-                        <li>
-                            <Link href="https://twitter.com/samathy_barratt">
-                                <a target="_blank"><FontAwesomeIcon icon={["fab", "twitter"]} /></a>
-                            </Link>
-                        </li>
-                    </ul>
+
                 </div>
-                </div>
+            </div>
         </section> 
 
-        <section>
-            <h2>Ian Cooper</h2>
+        <section name="ian-cooper">
+            <h2>Ian Cooper
+                <Link target="_blank" href="https://twitter.com/icooper" onSelect={event => {
+                    logEvent("speakers", "iancooper")}}>
+                        <a target="_blank"><FontAwesomeIcon icon={["fab", "twitter"]} /></a>
+                </Link>
+            </h2>
             <h3>Talk: <i>How to Escape The Distributed Monolith</i></h3>
             <p>
                 Microservices were all the rage, so you broke up your monolith. The services talk to each other by gRPC, you use a service mesh to route and load balance, and provide reliability oriented computing, you are fully buzzword compliant.
@@ -338,19 +342,17 @@ export default () => (
                     <p>
                         Polyglot Coding Architect in London, founder of #ldnug, speaker, tabletop gamer, geek. Tattooed, pierced, and bearded. The 'guv' on @BrighterCommand
                     </p>
-                    <ul>
-                        <li>
-                            <Link href="https://twitter.com/icooper">
-                                <a target="_blank"><FontAwesomeIcon icon={["fab", "twitter"]} /></a>
-                            </Link>
-                        </li>
-                    </ul>
                 </div>
-                </div>
+            </div>
         </section> 
 
-        <section>
-            <h2>Helen Joy</h2>
+        <section name="helen-joy">
+            <h2>Helen Joy
+                <Link target="_blank" href="https://twitter.com/LittleHelli" onSelect={event => {
+                    logEvent("speakers", "helenjoy")}}>
+                        <a target="_blank"><FontAwesomeIcon icon={["fab", "twitter"]} /></a>
+                </Link>
+            </h2>
             <h3>Talk: <i>Whose Design is it Anyway? - In introduction to inclusive design and research</i></h3>
             <p>
                 As creators of products and services, we’re pretty good at thinking we’ve got it all sussed. We map user journeys, we create roadmaps, we write user stories. We know what we want people to do; what actions we want them to take. But do we really know who these people are? Do we really know what they need? Do we take the time to find out, or are we building products and services based on our own assumptions and biases?
@@ -371,19 +373,17 @@ export default () => (
                     <p>
                         Helen Joy is a UX consultant and user researcher at SPARCK with a focus on universal and inclusive design practices. She's an organiser of Women in Tech Nottingham, working to promote inclusivity within the tech industry and raise the profile of talented female and gender minority speakers. When not consulting or speaking at events, Helen is an avid coffee drinker and hot yoga fan.
                     </p>
-                    <ul>
-                        <li>
-                            <Link href="https://twitter.com/LittleHelli">
-                                <a target="_blank"><FontAwesomeIcon icon={["fab", "twitter"]} /></a>
-                            </Link>
-                        </li>
-                    </ul>
                 </div>
-                </div>
+            </div>
         </section> 
 
-        <section>
-            <h2>Joel Hammond-Turner</h2>
+        <section name="joel-hammond-turner">
+            <h2>Joel Hammond-Turner
+                <Link target="_blank" href="https://twitter.com/Rammesses" onSelect={event => {
+                    logEvent("speakers", "joelhammondturner")}}>
+                        <a target="_blank"><FontAwesomeIcon icon={["fab", "twitter"]} /></a>
+                </Link>
+            </h2>
             <h3>Talk: <i>You're the Tech Lead - *you* fix it!</i></h3>
             <p>
                 Over the last couple of years, I've presented 20 tricks and tips that I've found invaluable as a Tech Lead. But in this session, I want to turn things around and look at applying some of those to solving specific issues that are common within many software development teams.
@@ -401,19 +401,17 @@ export default () => (
                     <p>
                         Personable and professional, I revel in complex challenges, but always make time to coach and mentor team members.
                     </p>
-                    <ul>
-                        <li>
-                            <Link href="https://twitter.com/Rammesses">
-                                <a target="_blank"><FontAwesomeIcon icon={["fab", "twitter"]} /></a>
-                            </Link>
-                        </li>
-                    </ul>
                 </div>
-                </div>
+            </div>
         </section> 
 
-        <section>
-            <h2>Zac Braddy</h2>
+        <section name="zac-braddy">
+            <h2>Zac Braddy
+                <Link target="_blank" href="https://twitter.com/ZackerTheHacker" onSelect={event => {
+                    logEvent("speakers", "zacbraddy")}}>
+                        <a target="_blank"><FontAwesomeIcon icon={["fab", "twitter"]} /></a>
+                </Link>
+            </h2>
             <h3>Talk: <i>All the mistakes I've made trying to implement Microservices</i></h3>
             <p>
                 We're now entering the next age of Microservices. For about a decade now we've been doing battle with the pointy haired bosses of the world to convince them of what seems so painfully obvious to us; that there are many varied virtues of microservices architecture. 
@@ -443,19 +441,17 @@ export default () => (
                     <p>
                         On the side Zac is active in the developer community writing blog posts, doing talks and mentoring other developers through their journeys in meet ups and online. When he isn't in front of his computer at work he is out geocaching with his sons and wife, playing D and D with friends or......let's face it probably on the computer still coding or gaming.
                     </p>
-                    <ul>
-                        <li>
-                            <Link href="https://twitter.com/ZackerTheHacker">
-                                <a target="_blank"><FontAwesomeIcon icon={["fab", "twitter"]} /></a>
-                            </Link>
-                        </li>
-                    </ul>
                 </div>
-                </div>
+            </div>
         </section> 
 
-        <section>
-            <h2>Neil O'Connor</h2>
+        <section name="neil-oconnor">
+            <h2>Neil O'Connor
+                <Link target="_blank" href="https://twitter.com/1stmanonthesun" onSelect={event => {
+                    logEvent("speakers", "neiloconnor")}}>
+                        <a target="_blank"><FontAwesomeIcon icon={["fab", "twitter"]} /></a>
+                </Link>
+            </h2>
             <h3>Talk: <i>CTO secrets: How to get the best companies fighting to hire you</i></h3>
             <p>
                 As a CTO, I spend a lot of my time hiring talent and building high performance development teams. I have hired hundreds of software professionals over the years, and I still insist on interviewing every candidate personally. I think I’ve got a pretty good hit rate: my teams have all had great reputations in their local tech community, and I would rehire - in a heartbeat - almost everyone I’ve hired in the past.
@@ -486,8 +482,13 @@ export default () => (
                 </div>
         </section> 
 
-        <section>
-            <h2>Simon Painter</h2>
+        <section name="simon-painter">
+            <h2>Simon Painter
+                <Link target="_blank" href="https://twitter.com/madSimonJ" onSelect={event => {
+                    logEvent("speakers", "simonpainter")}}>
+                        <a target="_blank"><FontAwesomeIcon icon={["fab", "twitter"]} /></a>
+                </Link>
+            </h2>
             <h3>Talk: <i>Hacking C#: Development for the Truly Lazy</i></h3>
             <p>
                 I don't know about you, but I'm a lazy developer. What do I mean by lazy? I don't mean I don't want to do my work - far from it - I mean that I hate to write out a great deal of code to get the job done. I want to accomplish my goals with as little effort as possible.
@@ -523,15 +524,8 @@ export default () => (
                     <p>
                         When I'm not coding, or running after my two small children, I have been known to enjoy the classic series of Doctor Who, Fighting Fantasy Gamebooks, Cryptic Crosswords, and rather more coffee than is probably good for me.
                     </p>
-                    <ul>
-                        <li>
-                            <Link href="https://twitter.com/madSimonJ">
-                                <a target="_blank"><FontAwesomeIcon icon={["fab", "twitter"]} /></a>
-                            </Link>
-                        </li>
-                    </ul>
                 </div>
-                </div>
+            </div>
         </section> 
 
         <style jsx>
