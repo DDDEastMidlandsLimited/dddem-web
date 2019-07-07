@@ -112,10 +112,7 @@ export default () => (
                 <div className="columnright">
                     <p><i>Head of Development</i></p>
                     <p>
-                        Anthony has worked in web development since 2007. He is active in the open source community, in particular the Umbraco CMS, writes tech articles (including for Microsoft Tech Blog), and is a regular organiser & presenter at conferences and tech meetups. He lives and breathes automation and development processes, and is a vocal proponent of Behaviour/Test Driven Development. 
-                    </p>
-                    <p>
-                        As Head of Development at The Cogworks he was key in creating a high performing production team spanning London, Manchester, Barcelona, Warsaw, and Krakow. He is an Agile/Scum/Kanban enthusiast, and is always looking for ways to make development more efficient and enjoyable. Originally from Sydney, Australia, he is now based in London. 
+                        Anthony is the Technical Director at Radley Yeldar (London, UK). He writes tech articles, and is a regular presenter at conferences and meetups. He loves automation and development processes, experienced in scaling high performing teams across multiple countries, a Scrum certified Agile enthusiast, and a vocal proponent of Behaviour Driven Development. Originally from Sydney, Australia, he is now based in London.
                     </p>
                 </div>
             </div>
