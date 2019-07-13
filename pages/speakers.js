@@ -13,7 +13,7 @@ export default () => (
         <Header title={'Speakers'}/>
         <section>
             <h1>Keynote By Dylan Beattie
-                <Link target="_blank" href="dylanbeattie" onSelect={event => {
+                <Link target="_blank" href="https://twitter.com/dylanbeattie" onSelect={event => {
                     logEvent("twitter", "dylanbeattie")}}>
                         <a target="_blank"><FontAwesomeIcon icon={["fab", "twitter"]} /></a>
                 </Link>
@@ -28,6 +28,18 @@ export default () => (
             <p>
                 Join Dylan Beattie - programmer, musician, and creator of the Rockstar programming language - for an entertaining look at the art of code. We’ll look at the origins of programming as an art form, from Conway's Game of Life to the 1970s demoscene and the earliest Obfuscated C competitions. We’ll talk about esoteric languages and quines - how DO you create a program that prints its own source code? We’ll look at quine relays, code golf and generative art, and we’ll explore the phenomenon of live coding as performance - from the pioneers of electronic music to modern algoraves and live coding platforms like Sonic Pi. 
             </p>
+            <h3>Bio</h3>
+            <div className="row">
+                <div className="columnleft">
+                    <img src="/static/speakers/Dylan_Beattie.png" alt="Smiley face" className="speakerpic"/>
+                </div>
+                <div className="columnright">
+                    <p><i>Software Architect</i></p>
+                    <p>
+                        Dylan wrote his first web page in 1992 and never looked back. He's been building data-driven web applications since the late 1990s, and has worked on everything from tiny standalone websites to complex distributed systems. He's the CTO at Skills Matter in London, he's a Microsoft MVP, and he's a regular speaker at conferences and user groups, where he's spoken about topics from continuous delivery and Conway's Law to the history of the web, federated authentication and hypermedia APIs. When he's not wrangling code, Dylan plays guitar and writes songs about code. He's online at <a target="_blank" href="https://www.dylanbeattie.net">www.dylanbeattie.net</a> and on Twitter as <a target="_blank" href="https://twitter.com/dylanbeattie">@dylanbeattie</a>.
+                    </p>
+                </div>
+            </div>
         </section>
 
         <section name="matt-brunt">
