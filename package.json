@@ -22,11 +22,11 @@
     "bootstrap": "^3.4.1",
     "jquery": "^3.4.1",
     "next": "^7.0.3",
-    "npm": "^6.9.0",
+    "npm": "^6.10.1",
     "react": "^16.8.6",
     "react-bootstrap": "^1.0.0-beta.9",
     "react-dom": "^16.8.6",
-    "react-ga": "^2.5.7",
+    "react-ga": "^2.6.0",
     "react-sizeme": "^2.6.7",
     "reactstrap": "^7.1.0"
   },
