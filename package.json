@@ -1,7 +1,7 @@
 {
   "name": "dddeastmidlands",
   "version": "1.0.0",
-  "description": "",
+  "description": "<p align=\"center\">   <img src=\"https://s3.eu-west-2.amazonaws.com/ddd-images/ddd_avatar_200x200.jpg\" /> </p>",
   "main": "index.js",
   "scripts": {
     "dev": "next",
@@ -19,6 +19,8 @@
     "@fortawesome/free-solid-svg-icons": "^5.9.0",
     "@fortawesome/react-fontawesome": "^0.1.4",
     "@zeit/next-css": "^1.0.1",
+    "babel-cli": "^6.26.0",
+    "babel-preset-react-app": "^3.1.2",
     "bootstrap": "^3.4.1",
     "jquery": "^3.4.1",
     "next": "^7.0.3",
@@ -30,5 +32,13 @@
     "react-sizeme": "^2.6.7",
     "reactstrap": "^7.1.0"
   },
-  "devDependencies": {}
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/DDDEastMidlandsLimited/dddem-web.git"
+  },
+  "bugs": {
+    "url": "https://github.com/DDDEastMidlandsLimited/dddem-web/issues"
+  },
+  "homepage": "https://github.com/DDDEastMidlandsLimited/dddem-web#readme"
 }
