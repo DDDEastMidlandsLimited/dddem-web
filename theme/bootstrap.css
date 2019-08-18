@@ -2051,7 +2051,6 @@ input[type="button"].btn-block {
 }
 
 .dropdown-menu {
-  width: 98%;
   margin-left: 10%;
   position: absolute;
   top: 100%;
@@ -2075,12 +2074,14 @@ input[type="button"].btn-block {
 .dropdown-menu-right {
   right: 0;
   left: auto;
+  width: 98%;
 }
 
 @media (min-width: 576px) {
   .dropdown-menu-sm-right {
     right: 0;
     left: auto;
+    width: 98%;
   }
 }
 
@@ -2088,6 +2089,7 @@ input[type="button"].btn-block {
   .dropdown-menu-md-right {
     right: 0;
     left: auto;
+    width: 98%;
   }
 }
 
@@ -2095,6 +2097,7 @@ input[type="button"].btn-block {
   .dropdown-menu-lg-right {
     right: 0;
     left: auto;
+    width: 98%;
   }
 }
 
@@ -2114,6 +2117,7 @@ input[type="button"].btn-block {
   .dropdown-menu-sm-left {
     right: auto;
     left: 0;
+    width: 98%;
   }
 }
 
@@ -2121,6 +2125,7 @@ input[type="button"].btn-block {
   .dropdown-menu-md-left {
     right: auto;
     left: 0;
+    width: 98%;
   }
 }
 
@@ -2128,6 +2133,7 @@ input[type="button"].btn-block {
   .dropdown-menu-lg-left {
     right: auto;
     left: 0;
+    width: 98%;
   }
 }
 

@@ -20,15 +20,20 @@ class Navigation extends Component {
                 <Nav className="mr-auto" variant="pills" defaultActiveKey="/home">
                     <Nav.Link href="/">Home</Nav.Link>
                     <Nav.Link href="/notable-companies">Notable Companies</Nav.Link>
-                    {/* <Nav.Link href="/talks">Talks</Nav.Link> */}
+                    
                     <NavDropdown title="About" id="basic-nav-dropdown">
-                        <NavDropdown.Item  href="/about">About</NavDropdown.Item>
+                        <NavDropdown.Item  href="/about">About Us</NavDropdown.Item>
                         <NavDropdown.Item  href="/venue">Venue</NavDropdown.Item>
                         <NavDropdown.Item href="/accessibility">Accessibility</NavDropdown.Item>
-                        <NavDropdown.Item href="/sponsorship">Sponsorship</NavDropdown.Item>
+                        <NavDropdown.Item href="/faq">FAQ</NavDropdown.Item>
+                        <NavDropdown.Item href="/speaker-information">Speaker Information</NavDropdown.Item>
+                        {/* <NavDropdown.Item href="/sponsor-information">Sponsor Information</NavDropdown.Item> */}
+                        {/* <NavDropdown.Item href="/attendee-information">Attendee Information</NavDropdown.Item> */}
+                        {/* <NavDropdown.Item href="/contact-us">Contact Us</NavDropdown.Item> */}
                     </NavDropdown>
+
                     <Nav.Link href="/speakers">Speakers</Nav.Link>
-                    <Nav.Link href="/faq">FAQ</Nav.Link>
+
                     <Nav.Link target="_blank" href="https://sessionize.com/dddeastmidlands/" onSelect={event => {
                         logEvent("navigation", "cfp")
                     }}>CFP</Nav.Link>
