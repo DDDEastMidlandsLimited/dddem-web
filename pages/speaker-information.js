@@ -51,11 +51,18 @@ export default () => (
         <h1>General</h1> 
             <h2>Rooms</h2>
             <a name="rooms"/>
-            <h4></h4>
+            <h4>Lecture Theatre 2</h4>
             <p>
 
             </p>
+            <h4>Lecture Theatre 4</h4>
+            <p>
 
+            </p>
+            <h4>Lecture Theatre 5</h4>
+            <p>
+
+            </p>
             <h2>Tech</h2>
             <a name="tech"/>
 
