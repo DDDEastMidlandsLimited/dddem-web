@@ -2,6 +2,8 @@ import Layout from '../components/Layout'
 import Header from "../components/Header"
 import theme from "../theme/theme"
 import Head from "next/head"
+import FullWidthImage from "../components/FullWidthImage"
+
 
 export default () => (
     <Layout>
@@ -18,16 +20,10 @@ export default () => (
                 <li><a href="#tech">Tech</a></li>
             </ul>
 
-            <p><strong>Staying in Nottingham</strong></p>
-            <ul>
-                <li><a href="#important-contacts">Important Contacts</a></li>
-                <li><a href="#hotels">Hotels</a></li>
-                <li><a href="#resturants">Resturants</a></li>
-            </ul>
-
             <p><strong>Before The Conference</strong></p>
             <ul>
                 <li><a href="#we-need-to-know">What we need to know</a></li>
+                <li><a href="#what-to-prepare">What to prepare</a></li>
             </ul>
 
             <p><strong>The Day Of The Conference</strong></p>
@@ -38,33 +34,53 @@ export default () => (
 
             <p><strong>After The Conference</strong></p>
             <ul>
-                <li><a href="#sharing-slides">Sharing Slides</a></li>
+                <li><a href="#after-party">The Unofficial After Party</a></li>
                 <li><a href="#talk-videos">Videoed Talks</a></li>
             </ul>
 
             <p><strong>Suggestest Checklist</strong></p>
             <ul>
             </ul>
+
+            <p><strong>Staying in Nottingham</strong></p>
+            <ul>
+                <li><a href="#important-contacts">Important Contacts</a></li>
+                <li><a href="#hotels">Hotels</a></li>
+                <li><a href="#resturants">Resturants</a></li>
+            </ul>
         </section>
         
         <section id="general">
         <h1>General</h1> 
-            <h2>Rooms</h2>
             <a name="rooms"/>
+            <h2>Rooms</h2>
+        
             <h4>Lecture Theatre 2</h4>
+            <FullWidthImage url={'/static/rooms/LT2.png'}/>
             <p>
-
+                <ul>
+                    <strong>Seats:</strong> up to 470 people
+                </ul>
             </p>
+
             <h4>Lecture Theatre 4</h4>
+            <FullWidthImage url={'/static/rooms/LT4.png'}/>
             <p>
-
+                <ul>
+                    <strong>Seats:</strong> up to 100 people
+                </ul>
             </p>
+
             <h4>Lecture Theatre 5</h4>
+            <FullWidthImage url={'/static/rooms/LT5.png'}/>            
             <p>
-
+                <ul>
+                    <strong>Seats:</strong> up to 100 people
+                </ul>
             </p>
-            <h2>Tech</h2>
+            
             <a name="tech"/>
+            <h2>Tech</h2>
 
             <h4>Screen sizes/aspect ratio</h4>
             <p>
@@ -87,58 +103,137 @@ export default () => (
             </p>
             <h4>Wi-Fi</h4>
             <p>
+                We will email the Wi-Fi details shortly before the event.
+            </p>
+        </section>
 
+        <section>
+        <h1>Before The Conference</h1> 
+
+            <a name="we-need-to-know"/>
+            <h2>What we need to know</h2>
+            <li>Is there sound/video in your presentation?</li>
+
+            <a name="what-to-prepare"/>
+            <h2>What to prepare</h2>
+            <li>A copy of your presentation on a usb stick</li>
+            <li>A clicker</li>
+            <li>If possible, get any electricals you will need on the day PAT Testeds</li>
+        </section>
+
+        <section>
+        <h1>The Day Of The Conference</h1> 
+            <a name="conference-arrival"/>
+            <h2>Letting us know you have arrived</h2>
+            <h4>Check in at registration and come say hi at the information desk.</h4>
+            <p>
+                At least one of the organisers will be at the registration desk in the morning.
+            </p>
+
+            <a name="room-arrival"/>
+            <h2>Arriving at the room</h2>
+            
+            <h4>Please arrive 10 - 15 minutes before your presentation.</h4>
+            <p>
+                This is so that there is enough time to get you all set up.
+            </p>
+            
+            <h4>Introduce yourself to the crew member looking after your roomr</h4>
+            <p>
+                The crew member will make sure there is water, and will be happy to help you with your presentation
+                needs. They will also help us make sure everything is running smoothly in your room. Please let them know 
+                if there is anything we can provide to help you.
+            </p>
+            
+            <h4>Meet the AV technician and get Miced up</h4>
+            <p>
+                There are a variety of microphones available in each room. Clip-on, static and hand held are avaiable, so 
+                please let the technicians know if you have a preference.
+            </p>
+        </section>
+
+        <section>
+        <h1>After The Conference</h1> 
+
+            <a name="after-party"/>
+            <h2>The Unofficial After Party</h2>
+            <p>
+                After the conference there will be a special PubConf featuring some of our speakers and special guests. This 
+                evening event has comedy talks, music, food and beverages. It's great fun for all and we encourage you to come along.
+            </p>
+
+            <a name="talk-videos"/>
+            <h2>Videoed Talks</h2>
+            <p>
+                All the talks are being videoed by the local company ShutterSocks. These will be posted on Vimeo as soon as they are available. There are a few reasons we are videoing the talks:
+            </p>
+            <li>For future conference submissions. Often conference submissions are strengthened with the evidence of your presentation skills.</li>
+            <li>To keep the conversation going after the conference. Your talks can be shared to all those who might find them useful.</li>
+        </section>
+
+        <section>
+        <h1>Suggested Checklist</h1> 
+            <li>Twitter handle on slides</li>
+            <li>Clicker</li>
+            <li>Backup of slides</li>
+            <li>Laptop charger</li>
+            <li>Timer</li>
+            <li>The awesome <a href="https://open.spotify.com/playlist/0kTPxCiWN0kyYa8FSWpdi2?" target="_blank">Get Pumped Playlist</a></li>
+
+            <h4>Our favourite available list</h4>
+            <p>
+                <a href="https://csswizardry.com/2016/06/speakers-checklist-before-and-after-your-talk/" target="_blank">This list by csswizardry</a> 
+                is often used by us at other events. Thank you Brunty for sharing this with us.
             </p>
         </section>
 
         <section>
         <h1>Staying in Nottingham</h1> 
 
-            <h2>Important Contacts</h2>
             <a name="important-contacts"/>
-            <h4></h4>
+            <h2>Important Contacts</h2>
+            <h4>Conference</h4>
+            <p>
+                <li><strong>Co-organiser Jessica White:</strong></li>
+                    <p>Tel: number will be emailed to you </p>
+                    <p>Email: jessica@dddeastmidlands.com </p>
+                    <li><strong>Co-organiser Moreton Brockley:</strong></li> 
+                    <p>Email: moreton@dddeastmidlands.com</p>
+            </p>
 
-            <h2>Hotels</h2>
             <a name="hotels"/>
-            <h4></h4>
+            <h2>Hotels</h2>
+            <p>We don't have any partnerships or deals with any local hotels but here are a list of a few in City Center:</p>
+            <li><a href="https://www.ihg.com/crowneplaza/hotels/gb/en/nottingham/notws/hoteldetail?cm_mmc=GoogleMaps-_-CP-_-GB-_-NOTWS" target="_blank">Crowne Plaza</a></li>
+            <li><a href="https://www.accorhotels.com/gb/hotel-6160-ibis-nottingham-centre/index.shtml" target="_blank">Ibis</a></li>
+            <li><a href="https://www.roomzzz.com/locations/nottingham/" target="_blank">Roomzzz</a></li>
+            <li><a href="https://www.mercurenottingham.com/" target="_blank">Mercure</a></li>
 
-            <h2>Resturants</h2>
             <a name="resturants"/>
-            <h4></h4>
-            <h4></h4>
-            <h4></h4>
+            <h2>Resturants</h2>
+            <h4>Coffee</h4>
+            <li><a href="https://www.cartwheelcoffee.com/" target="_blank">Cartwheel</a></li>
+            <li><a href="https://www.outpost.coffee/" target="_blank">Outpost</a></li>
+            <li><a href="https://200degs.com/" target="_blank">200 Degrees</a></li>
+            <li><a href="https://www.thespecialtycoffeeshop.com/" target="_blank">Speciality</a></li>
 
-        </section>
 
-        <section>
-        <h1>Before The Conference</h1> 
-            <h2>What we need to know</h2>
-            <a name="we-need-to-know"/>
-            <h4>Is there sound/video in your presentation?</h4>
-        </section>
+            <h4>Breakfast</h4>
+            <li><a href="https://anniesburgershack.com/menu/breakfast-menu" target="_blank">Annies Burger Shack</a></li>
+            <li><a href="https://www.thepuddingpantry.co.uk/breakfast" target="_blank">Pudding Pantry</a></li>
+            
+            <h4>Dinner</h4>
+            <li><a href="http://www.oscarandrosies.com/menu" target="_blank">Oscar And Rosies</a></li>
+            <li><a href="https://anniesburgershack.com/menu/main-menu" target="_blank">Annies Burger Shack</a></li>
+            <li><a href="https://www.tripadvisor.co.uk/Restaurant_Review-g186356-d11933005-Reviews-Sexy_Mamma_Love_Spaghetti-Nottingham_Nottinghamshire_England.html" target="_blank">Sexy Mama's Spaghetti</a></li>
+            <li><a href="http://bonzai-japaneserestaurant.co.uk/" target="_blank">Bonzai</a></li>
 
-        <section>
-        <h1>The Day Of The Conference</h1> 
-            <h2>Letting us know you have arrived</h2>
-            <a name="conference-arrival"/>
+            <h4>Extra Requirements?</h4>
+            <p>
+                If you need to know about any vegan, vegetarian or gluten free resturants, get in touch and we will point
+                you in the direction of some great ones. 
+            </p>
 
-            <h2>Arriving at the room</h2>
-            <a name="room-arrival"/>
-
-        </section>
-
-        <section>
-        <h1>After The Conference</h1> 
-            <h2>Sharing Slides</h2>
-            <a name="sharing-slides"/>
-
-            <h2>Videoed Talks</h2>
-            <a name="talk-videos"/>
-
-        </section>
-
-        <section>
-        <h1>Suggested Checklist</h1> 
         </section>
 
         <style jsx>
