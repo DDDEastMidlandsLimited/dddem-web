@@ -118,7 +118,7 @@ export default () => (
             <h2>What to prepare</h2>
             <li>A copy of your presentation on a usb stick</li>
             <li>A clicker</li>
-            <li>If possible, get any electricals you will need on the day PAT Testeds</li>
+            <li>If possible, get any electricals you will need on the day PAT Tested.</li>
         </section>
 
         <section>
@@ -138,14 +138,14 @@ export default () => (
                 This is so that there is enough time to get you all set up.
             </p>
             
-            <h4>Introduce yourself to the crew member looking after your roomr</h4>
+            <h4>Introduce yourself to the crew member looking after your room.</h4>
             <p>
                 The crew member will make sure there is water, and will be happy to help you with your presentation
                 needs. They will also help us make sure everything is running smoothly in your room. Please let them know 
                 if there is anything we can provide to help you.
             </p>
             
-            <h4>Meet the AV technician and get Miced up</h4>
+            <h4>Meet the AV technician and get Mic'd up</h4>
             <p>
                 There are a variety of microphones available in each room. Clip-on, static and hand held are avaiable, so 
                 please let the technicians know if you have a preference.
@@ -183,7 +183,7 @@ export default () => (
             <h4>Our favourite available list</h4>
             <p>
                 <a href="https://csswizardry.com/2016/06/speakers-checklist-before-and-after-your-talk/" target="_blank">This list by csswizardry</a> 
-                is often used by us at other events. Thank you Brunty for sharing this with us.
+                is often used by us at other events. Thank you <a href=" https://twitter.com/Brunty" target="_blank">Brunty</a> for sharing this with us.
             </p>
         </section>
 
