@@ -200,7 +200,7 @@ export default () => (
             <h4>Our favourite available list</h4>
             <p>
                 <a href="https://csswizardry.com/2016/06/speakers-checklist-before-and-after-your-talk/" target="_blank">This list by csswizardry</a> 
-                is often used by us at other events. Thank you <a href=" https://twitter.com/Brunty" target="_blank">Brunty</a> for sharing this with us.
+                is often used by us at other events. Thank you <a href="https://twitter.com/Brunty" target="_blank">Brunty</a> for sharing this with us.
             </p>
         </section>
 
