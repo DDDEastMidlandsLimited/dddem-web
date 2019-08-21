@@ -29,6 +29,7 @@ export default () => (
             <p><strong>The Day Of The Conference</strong></p>
             <ul>
                 <li><a href="#conference-arrival">Letting us know you have arrived</a></li>
+                <li><a href="#pat-testing">PAT Testing</a></li>
                 <li><a href="#room-arrival">Arriving at the room</a></li>
             </ul>
 
@@ -40,6 +41,13 @@ export default () => (
 
             <p><strong>Suggestest Checklist</strong></p>
             <ul>
+            </ul>
+
+            <p><strong>Transport</strong></p>
+            <ul>
+                <li><a href="#train">Taking the train</a></li>
+                <li><a href="#driving">Driving</a></li>
+                <li><a href="#air">By Air</a></li>
             </ul>
 
             <p><strong>Staying in Nottingham</strong></p>
@@ -107,7 +115,7 @@ export default () => (
             </p>
         </section>
 
-        <section>
+        <section id="before">
         <h1>Before The Conference</h1> 
 
             <a name="we-need-to-know"/>
@@ -121,13 +129,22 @@ export default () => (
             <li>If possible, get any electricals you will need on the day PAT Tested.</li>
         </section>
 
-        <section>
+        <section id="day-of">
         <h1>The Day Of The Conference</h1> 
             <a name="conference-arrival"/>
             <h2>Letting us know you have arrived</h2>
             <h4>Check in at registration and come say hi at the information desk.</h4>
             <p>
                 At least one of the organisers will be at the registration desk in the morning.
+            </p>
+
+            <a name="pat-testing"/>
+            <h2>PAT Testing</h2>
+            <h4>If you can, get your charger PAT tested before the event.</h4>
+            <p>
+                We are currently looking into providing PAT testing on the day. This depends on the available budget
+                before the event. Due to venue insurance restrictions we need to be sure than anything that may be plugged 
+                into a socket on the day, has a current PAT test sticker and certificate. This includes any laptop chargers.
             </p>
 
             <a name="room-arrival"/>
@@ -152,7 +169,7 @@ export default () => (
             </p>
         </section>
 
-        <section>
+        <section id="after">
         <h1>After The Conference</h1> 
 
             <a name="after-party"/>
@@ -171,7 +188,7 @@ export default () => (
             <li>To keep the conversation going after the conference. Your talks can be shared to all those who might find them useful.</li>
         </section>
 
-        <section>
+        <section id="checklist">
         <h1>Suggested Checklist</h1> 
             <li>Twitter handle on slides</li>
             <li>Clicker</li>
@@ -185,6 +202,78 @@ export default () => (
                 <a href="https://csswizardry.com/2016/06/speakers-checklist-before-and-after-your-talk/" target="_blank">This list by csswizardry</a> 
                 is often used by us at other events. Thank you <a href=" https://twitter.com/Brunty" target="_blank">Brunty</a> for sharing this with us.
             </p>
+        </section>
+
+        <section>
+        <h1>Transport</h1> 
+            
+            <a name="train"/>
+            <h2>Taking the train</h2>
+            <h4>Head to Nottingham Train Station</h4>
+            <p>
+                Nottingham Station is the mainline train station close to Nottingham city centre. The train station is a
+                15 minute walk from Nottingham Conference Centre, but for those new to the city it might be easier to
+                take a taxi or use Nottingham’s tram NET (Nottingham Express Transit) system. Directions to the station
+                tram stop are signposted throughout the train station building. The Conference Centre is located between
+                the Royal Centre and Nottingham Trent University tram stop. Take a tram heading to either Phoenix Park
+                or Hucknall. Exit the tram at the Royal Centre, continue down Goldsmith Street taking the first right
+                turn onto Burton Street where you will find the Nottingham Conference Centre entrance on the left.
+            </p>
+
+            <a name="driving"/>
+            <h2>Driving</h2>
+            <h4>Directions to Park and Rides</h4>
+            <p>
+                From the north, exit the M1 at junction 26 and follow the signs for the A610 towards Nottingham city
+                centre.
+            </p>
+            <p>
+                There is a Park and Ride (tram) facility situated close to the M1 junction 26. The Park and Ride
+                (Phoenix Park) site is clearly sign-posted off the A610. 
+            </p>
+            <p>
+                Leave the tram at the Nottingham Trent University tram stop which is located on Goldsmith Street and walk past the main University entrance,
+                turn left on to Burton Street where you will find the Nottingham Conference Centre entrance. 
+            </p>
+            <p>
+                From the south, exit the M1 at junction 24 and follow the signs for the A453 to Nottingham city centre. 
+            </p>
+            <p>
+                The Queen’s Drive Park and Ride is located just off the A453 (Queen’s Drive), follow signs for A453 /
+                Queen’s Drive Industrial Estate and merge on to the A453 (Queen’s Drive). The Park and Ride is located
+                on the opposite side of the road to the retail park and is clearly sign-posted. 
+            </p>
+            <p>
+                Alight from the Park and Ride bus on Lower Parliament Street (Victoria Centre); Nottingham Conference Centre is a short walk
+                away.
+            </p>
+
+            <h4>Car parks</h4>
+            <p>
+                Car parks in the city centre are clearly signposted from all major approach routes. There are two car
+                parks close to Nottingham Conference Centre, Trinity Square car park on North Church Street and Talbot
+                Street car park. For satellite navigation systems please use the following information:
+            </p>
+            <p>
+                <strong><a href="http://www.nottinghamcity.gov.uk/transport-parking-and-streets/parking-and-permits/city-centre-parking/car-parks/trinity-square-car-park/" target="_blank">Trinity Square car park:</a></strong> postcode NG1 4BR<br />
+                co-ordinates 52.956785,-1.149316
+            </p>
+            <p>
+                <strong><a href="https://www.q-park.co.uk/en-gb/cities/nottingham/talbot-street/" target="_blank">Talbot Street car park:</a></strong> postcode NG1 5GG<br />
+                co-ordinates 52.956143,-1.154433
+            </p>
+
+            <a name="air"/>
+            <h2>By Air</h2>
+            <h4>From East Midlands Airport</h4>
+            <section>
+                <p>
+                    The closest airport to Nottingham is East Midlands Airport which is 15 miles (approximately 24
+                    kilometres) outside of the city. It takes about half an hour from there to travel into the city by car
+                    or bus. There is a Skylink bus service that runs every half hour from the airport into Nottingham city
+                    centre and stops a few minutes walk away from Nottingham Conference Centre.
+                </p>
+            </section>
         </section>
 
         <section>
