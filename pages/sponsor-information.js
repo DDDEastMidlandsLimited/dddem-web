@@ -27,10 +27,8 @@ export default () => (
 
             <p><strong>Setup The Day Before Conference</strong></p>
             <ul>
-                <li><a href="#vehicle">Vehicle Details</a></li>
                 <li><a href="#setup-time">Time To Setup</a></li>
                 <li><a href="#before-parking">Parking</a></li>
-                <li><a href="#venue-access">Venue Access</a></li>
                 <li><a href="#lift-restrictions">Lift Restrictions</a></li>
             </ul>
 
@@ -114,10 +112,64 @@ export default () => (
             <a name="pat-before"/>
             <h2>PAT Testing</h2>
             <p>
-
+                Any devices that will be plugged in during the day need to be PAT tested. They need to have a valid visible sticker on them or a certificate present. 
+                Where possible, please try to get your devices PAT tested before the day. This includes any laptop chargers. 
+            </p>
+            <p>
+                We are currently looking into having PAT testing available on the day. First priority will go to speakers and then to exhibitors if we do have the funding to provide this service.
             </p>
         </section> 
 
+        <section id="day-before">
+        <h1>Setup The Day Before Conference</h1> 
+    
+            <a name="setup-time"/>
+            <h2>Time To Setup</h2>
+            <p>
+                You will be emailed a time slot closer to the event, in which you can set up your exhibition stall. This time slot will be somewhere between 18.00 – 21.30 on the 25th of October (the night before the event).
+            </p>
+            <p>
+                We have to arrange this into time slots due to the limited vehicle space at the venue. If there are any restrictions you have regarding time slot, please let us know in advance.
+            </p>
+            <p>
+                On the day of the event, the organisers will be at the venue from 07.30. You may turn up any time from then. Attendee registration opens at 08.30.
+            </p>
+            
+            <a name="before-parking"/>
+            <h2>Parking</h2>
+            <p>
+                Please use the loading bay on South Sherwood Street during your alloted time.
+            </p>
+            <p>
+                The entrance to the South Sherwood Street loading bay on a busy road and right next to a bus stop. We ask that you do not obstruct this entrance, but instead, only park within the loading bay.
+            </p>
+            <p>
+                Please limit yourselves to using one vehicle at a time.  
+            </p>
+
+            <a name="lift-restrictions"/>
+            <h2>Lift Restrictions</h2>
+            <p>
+            </p>
+            <table>
+              <tr>
+                <th>Lift</th>
+                <th>Dimensions</th>
+                <th>Max Weight.</th>
+              </tr>
+              <tr>
+                <td>Loading bay lift</td>
+                <td>Open topped x 1000 mm x 1470 mm</td>
+                <td>1000 kg</td>
+              </tr>
+              <tr>
+                <td>Newton lift doors</td>
+                <td>2100 mm x 1100 mm</td>
+                <td>1000 kg</td>
+              </tr>
+            </table>
+
+        </section> 
 
         <style jsx>
             {`
@@ -128,6 +180,17 @@ export default () => (
             }
             section div{
                 padding-bottom: 10px;
+            }
+
+            table {
+                font-family: arial, sans-serif;
+                border-collapse: collapse;
+                width: 100%;
+                text-align: center;
+            }
+
+            tr th{
+                background-color: #dddddd;
             }
         `}
         </style>
