@@ -65,7 +65,7 @@ export default () => (
             <a name="rooms"/>
             <h2>Rooms</h2>
         
-            <h4>Lecture Theatre 2</h4>
+            <h4>Room 1 (Lecture Theatre 2)</h4>
             <FullWidthImage url={'/static/rooms/LT2.png'}/>
             <p>
                 <ul>
@@ -73,7 +73,7 @@ export default () => (
                 </ul>
             </p>
 
-            <h4>Lecture Theatre 4</h4>
+            <h4>Room 2 (Lecture Theatre 4)</h4>
             <FullWidthImage url={'/static/rooms/LT4.png'}/>
             <p>
                 <ul>
@@ -81,7 +81,7 @@ export default () => (
                 </ul>
             </p>
 
-            <h4>Lecture Theatre 5</h4>
+            <h4>Room 3 (Lecture Theatre 5)</h4>
             <FullWidthImage url={'/static/rooms/LT5.png'}/>            
             <p>
                 <ul>
@@ -99,7 +99,7 @@ export default () => (
             <h4>Adaptors (HMDI etc)</h4>
             <p>
                 All rooms have wireless capabilities for MAC and PC, they also have both HDMi and VGA adaptors.
-                The main lecture theatre (Lecture Theatre 2) has all of the above plus Mini Display Port and Mini HDMi. 
+                The main lecture theatre (Room 1/Lecture Theatre 2) has all of the above plus Mini Display Port and Mini HDMi. 
                 There is also a visualizer available in each Lecture Theatre.
             </p>
             <h4>PAT testing</h4>
