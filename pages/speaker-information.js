@@ -31,6 +31,8 @@ export default () => (
                 <li><a href="#conference-arrival">Letting us know you have arrived</a></li>
                 <li><a href="#pat-testing">PAT Testing</a></li>
                 <li><a href="#room-arrival">Arriving at the room</a></li>
+                <li><a href="#clickers">Clickers</a></li>
+                <li><a href="#q-and-a">Q and A space</a></li>
             </ul>
 
             <p><strong>After The Conference</strong></p>
@@ -140,13 +142,13 @@ export default () => (
 
             <a name="pat-testing"/>
             <h2>PAT Testing</h2>
-            <h4>If you can, get your charger PAT tested before the event.</h4>
+            <h4>If you can, get any devices that will be plugged in PAT tested before the event.</h4>
             <p>
-                We are currently looking into providing PAT testing on the day. This depends on the available budget
-                before the event. Due to venue insurance restrictions we need to be sure than anything that may be plugged 
+                We will provide limited PAT testing on the day, with speakers being priority candidates for this service. 
+                Please arrive in plenty of time before your talk if you need your devices PAT tested.
+                Due to venue insurance restrictions we need to be sure than anything that may be plugged 
                 into a socket on the day, has a current PAT test sticker and certificate. This includes any laptop chargers.
             </p>
-
             <a name="room-arrival"/>
             <h2>Arriving at the room</h2>
             
@@ -166,6 +168,20 @@ export default () => (
             <p>
                 There are a variety of microphones available in each room. Clip-on, static and hand held are avaiable, so 
                 please let the technicians know if you have a preference.
+            </p>
+            <a name="clickers"/>
+            <h2>Clickers</h2>
+            <h4>You can bring your own clicker or we can provide one.</h4>
+            <p>
+                We can provide 3 clickers for the day (one per room). So if you do use one of the clickers provided, please
+                make sure it stays in the room for the next speaker who might need it.
+            </p>
+            <a name="q-and-a"/>
+            <h2>Q and A space</h2>
+            <h4>Want a place where people can approach you with their questions after your talk?</h4>
+            <p>
+                We'll provide a space in the breakout area with a table and chair. Book in a time slot with Jessica, and you can advertise
+                during or at the end of your talk that you will be available there to be approached by attendees after your talk.
             </p>
         </section>
 
