@@ -30,6 +30,7 @@ export default () => (
             <ul>
                 <li><a href="#conference-arrival">Letting us know you have arrived</a></li>
                 <li><a href="#pat-testing">PAT Testing</a></li>
+                <li><a href="#green-room">Green Room</a></li>
                 <li><a href="#room-arrival">Arriving at the room</a></li>
                 <li><a href="#clickers">Clickers</a></li>
                 <li><a href="#q-and-a">Q and A space</a></li>
@@ -149,6 +150,15 @@ export default () => (
                 Due to venue insurance restrictions we need to be sure than anything that may be plugged 
                 into a socket on the day, has a current PAT test sticker and certificate. This includes any laptop chargers.
             </p>
+
+            <a name="green-room"/>
+            <h2>Green Room</h2>
+            <h4>There is a room for speakers to get some space.</h4>
+            <p>
+                On the day there will be a speakers green room. Here you can practice or prepare for your talk, or just get some peace away 
+                from the hustle and bustle of the conference.
+            </p>
+
             <a name="room-arrival"/>
             <h2>Arriving at the room</h2>
             
