@@ -39,7 +39,7 @@ export default () => (
             <p><strong>General Conference Day Information</strong></p>
             <ul>
                 <li><a href="#power">Power</a></li>
-                <li><a href="#exhibition-staff">Exhibition Staff</a></li>
+                <li><a href="#exhibition-staff">Exhibition Stall Staff</a></li>
                 <li><a href="#health-and-safety">Health and Safety</a></li>
                 <li><a href="#wifi">Wi-Fi</a></li>
                 <li><a href="#catering">Catering</a></li>
@@ -80,7 +80,7 @@ export default () => (
         <section id="code-of-conduct">
         <h1>Code of Conduct</h1> 
             <a name="code-of-conduct"/>
-            <h2>Please Familiarise yourself with the Code of Conduct.</h2>
+            <h2>Please familiarise yourself with the Code of Conduct.</h2>
             <p>
                All involved in the DDD East Midlands Conference are subject to <a href="https://www.dddeastmidlands.com/code-of-conduct/">Code Of Conduct Page.</a> 
                This is not just for the day of the event, but for all presence of DDD East Midlands including Social Media.
@@ -89,7 +89,7 @@ export default () => (
                 Please make sure you are familiar with it and adhere to it at all times to create the most inclusive and friendly event for all involved.
             </p>
             <p>
-                Should you have any concerns regarding the Code of Conduct before, during or after the event, please use the contact the organisers.  
+                Should you have any concerns regarding the Code of Conduct before, during or after the event, please contact the organisers.  
             </p>
         </section> 
 
@@ -98,13 +98,46 @@ export default () => (
             <a name="tickets"/>
             <h2>Tickets</h2>
             <p>
-                Depending on the sponsorship tier you have supported us with, you may have a number of tickets to the conference.
+                If you have supported at Gold, Silver, Bronze or Standard Tier, you will have been allotted some tickets to the conference.
             </p>
             <p>
                 If you know who your guaranteed tickets are going to be given to, please provide us with their emails so that we can send a link to Eventbrite. If this is still unsure, we can provide a code for you to access tickets with.
             </p>
             <p>
-                We suggest that 2 - 3 of your tickets are given to those managing your exhibition booth. If you have more, you can give out internally, donate to local meetups, give away in competitions - what ever you think is best.
+                <strong>If you have told us who to send your tickets to:</strong>
+            </p>
+            <ul>
+                <li>If you have an exhibition booth, please ensure that your booth will be covered by 1 - 3 of your ticket holders.</li>
+                <li>Please make sure the people assigned can still make it on the day.</li>
+            </ul>
+            <p>
+                <strong>If you haven't told us who to assign your tickets too:</strong>
+            </p>
+            <ul>
+                <li>                
+                    If you have an exhibition booth we suggest that 1 - 3 of your tickets are given to those managing your exhibition booth.
+                </li>
+                <li>
+                    If you don't have an exhibition booth or have tickets spare, you can:
+                    <ul>
+                        <li> 
+                            Give tickets out internally so your employees can benefit from the day.
+                        </li> 
+                        <li>
+                            Donate a ticket to local meetup.
+                        </li>
+                        <li>
+                            Give a tickeet away in a competition.
+                        </li> 
+                    </ul>
+                </li>
+            </ul>
+            <p>Whatever you think is best.</p>
+            <p>
+                <strong>Assigning Tickets:</strong>
+            </p>
+            <p>
+                Contact <a href="mailto:jessica@dddeastmidlands.com">Jessica </a>with the email addresses and name of your recepients. She will send an Eventbrite invite to that email address.
             </p>
             <p>
                 Any tickets you consider “extra” as part of your sponsorship, you can dispense as you wish. Contact Jessica if you want assistance with this.
@@ -116,7 +149,7 @@ export default () => (
                 Where possible, please try to get your devices PAT tested before the day. This includes any laptop chargers. 
             </p>
             <p>
-                We are currently looking into having PAT testing available on the day. First priority will go to speakers and then to exhibitors.
+               There will be a limited amount of PAT testing available on the day. First priority will go to speakers and then to exhibitors.
             </p>
         </section> 
 
@@ -236,7 +269,7 @@ export default () => (
             <a name="power"/>
             <h2>Power</h2>
             <p>
-                There will be some ports available on the day. DDD East Midlands will provide extension cables on request if you will need multiple ports on the day. 
+                There will be some electricity sockets available on the day. DDD East Midlands will provide extension cables on request if you will need multiple ports on the day. 
                 Please contact Jessica: <a href="mailto:jessica@dddeastmidlands.com">jessica@dddeastmidlands.com</a> at least two weeks prior to the event.                 
             </p>
             <p>
@@ -248,7 +281,7 @@ export default () => (
             </p>
 
             <a name="exhibition-staff"/>
-            <h2>Exhibition Staff</h2>
+            <h2>Exhibition Stall Staff</h2>
             <p>
                 We expect that you have 1-3 people working at the exhibition stall. These are included in your ticket allowance for the event.
                 Please have these people register their ticket at check-in on the day.
@@ -292,14 +325,12 @@ export default () => (
             <ul>
                 <li>Provided table size: 170 cm x 150 cm</li>
                 <li>Grey background screens.</li>
-                <li>Grey background screens.</li>
             </ul>
 
             <a name="provide"/>
             <h2>What Is Recommended To Bring?</h2>
             <ul>
                 <li>Linen</li>
-                <li>Grey background screens.</li>
                 <li>Anything for decorating your exhibition stall and background screens (swag, banners, leaflets, promotional material).</li>
                 <li><i>(If included in your sponsorship)</i> Banners away from your exhibition booth</li>
             </ul>
