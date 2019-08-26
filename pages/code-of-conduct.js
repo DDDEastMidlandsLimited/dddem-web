@@ -87,6 +87,30 @@ export default () => (
             </p>
         </section>
         <section>
+            <h2>Reporting Code Of Conduct Violations</h2>
+            <p>
+                If there is any circumstance where want to report a code of conduct violation, there are numerous people you 
+                can speak to at the event. 
+            </p>
+            <ul>
+                <li>
+                    The volunteers of the conference
+                </li>
+                <li>
+                    The conference organisers (Jessica / Moreton)
+                </li>
+            </ul>
+            <p>
+                Our volunteers are happy to listen to your concerns, though any concerns will ultimately 
+                be dealt with by the events organisers. All conversations around code of conduct violations will be dealt with 
+                sensitively and confidentially.
+            </p>
+            <p>
+                If you are uncomfortable speaking in person you can contact us on Twitter or by email, but there is 
+                no guaruntee that messages will be dealt with in a timely manner on the day.
+            </p>
+        </section>
+        <section>
             <h2>Approaching People About Jobs</h2>
             <p>
                 At our events and on our online community it is not considered acceptable to approach people unsolicited
