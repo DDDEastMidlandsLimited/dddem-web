@@ -73,7 +73,7 @@ export default () => (
                 Without your support, there wouldn’t be a DDD East Midlands event at all. This page outlines what you need to know on the day. 
             </p>
             <p>
-                This year we expect around 350 - 400 attendees to join us in a day of learning and networking for the East Midlands technology community. 
+                This year we expect around 350 - 400 attendees to join us for a day of learning and networking for the East Midlands technology community. 
             </p>
         </section>     
 
@@ -83,7 +83,7 @@ export default () => (
             <h2>Please Familiarise yourself with the Code of Conduct.</h2>
             <p>
                All involved in the DDD East Midlands Conference are subject to <a href="https://www.dddeastmidlands.com/code-of-conduct/">Code Of Conduct Page.</a> 
-               This is not just for the day of the event, but for all presence of DDD East Midlands including Soical Media.
+               This is not just for the day of the event, but for all presence of DDD East Midlands including Social Media.
             </p>
             <p>
                 Please make sure you are familiar with it and adhere to it at all times to create the most inclusive and friendly event for all involved.
@@ -138,7 +138,7 @@ export default () => (
             <a name="before-parking"/>
             <h2>Parking</h2>
             <p>
-                Please use the loading bay on South Sherwood Street during your alloted time.
+                Please use the loading bay on South Sherwood Street during your allotted time.
             </p>
             <p>
                 The entrance to the South Sherwood Street loading bay on a busy road and right next to a bus stop. We ask that you do not obstruct this entrance, but instead, only park within the loading bay.
