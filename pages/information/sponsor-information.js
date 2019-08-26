@@ -56,13 +56,11 @@ export default () => (
             <ul>
                 <li><a href="#photographs">Photographs</a></li>
                 <li><a href="#social-posts">Social Media Posts</a></li>
-                <li><a href="#dddem-social">DDD East Midlands on Social Media</a></li>
             </ul>
 
             <p><strong>Packing Up Day Of The Conference</strong></p>
             <ul>
                 <li><a href="#teardown-time">Pick Up Time</a></li>
-                <li><a href="#parking">Parking</a></li>
             </ul>
 
         </section>
@@ -316,12 +314,50 @@ export default () => (
         </section> 
 
         <section id="social-media">
-        <h1>Social Media and Photos</h1> 
+        <h1>Social Media and Photos</h1>
+            <p>
+                Feel free to take photos and post on social media before, after and during the event. There are just a few guidelines we ask you to respect.
+            </p> 
             <a name="photographs"/>
             <h2>Photographs</h2>
             <p>
+                We will have a coloured lanyard system at the event to indicate whether attendees are OK with their photo being taken and used.
             </p>
+            <ul>
+                <li className="green">Green — It’s fine for their photo to be taken</li>
+                <li className="red">Red — Do not include me in your photos or promotional material</li>
+            </ul>
+            <p>
+                We ask that you please respect this system and only use photos that have attendees with green lanyards only.
+            </p>
+            <a name="social-media"/>
+            <h2>Social Media Posts</h2>
+            <p>
+                Please use any of the below information to tag us. If using our hashtag or handles though, please avoid promoting 
+                anything that doesn’t align with our code of conduct, or advertising job roles (unless allowed as part of your sponsorship agreement).
+            </p>
+            <h3>DDD East Midlands on Social Media</h3>
+            <ul>Hashtags:   #DDDEM   |    #DDDEM2019</ul>
+            <ul>Twitter: <a href="https://twitter.com/dddeastmidlands" target="_blank">@dddeastmidlands</a></ul>
+            <ul>LinkedIn: <a href="https://www.linkedin.com/company/ddd-east-midlands-limited/" target="_blank">DDD East Midlands Limited</a></ul>
+            <ul>Instagram: <a href="https://www.instagram.com/dddeastmidlands/?hl=en" target="_blank">@dddeastmidlands</a></ul>
+        </section> 
 
+        <section id="packing-up">
+        <h1>Packing Up Day Of The Conference</h1> 
+            <a name="teardown-time"/>
+            <h2>Collecting your exhibition items.</h2>
+            <p>
+                You will be emailed a time slot closer to the event, in which you can bring a vehicle to the venue to collect any remaining items from your exhibition stall.  
+                This time slot will be somewhere between 16.30 – 18.30 on the 26th of October (the day of the event).
+            </p>
+            <p>
+                We have to arrange this into time slots due to the limited vehicle space at the venue. If there are any restrictions you have regarding time slot, 
+                or you don’t think you will need one, please let us know in advance.
+            </p>
+            <p>
+                <strong>Location: </strong>We ask that you use the loading bay on South Sherwood Street.
+            </p>
         </section> 
 
         <style jsx>
@@ -333,6 +369,14 @@ export default () => (
             }
             section div{
                 padding-bottom: 10px;
+            }
+
+            .green{
+                color: green;
+            }
+
+            .red{
+                color: red;
             }
 
             table {
