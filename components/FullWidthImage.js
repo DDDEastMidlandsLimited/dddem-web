@@ -4,16 +4,11 @@ const FullWidthImage = (props) => (
             {`
             section {
                 background-image: url("${ props.url }");
-                height: 500px;
+                height: 300px;
                 background-repeat: no-repeat;
                 background-position: center;
-                background-size: cover; 
                 text-align:center;
-            }
-
-            @media (max-width: 992px) {	
-                height: 250px !important;
-                width: 100%;
+                background-size: 100% auto;
             }
             `}
         </style>
