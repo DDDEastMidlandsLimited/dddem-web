@@ -30,5 +30,12 @@
     "react-sizeme": "^2.6.7",
     "reactstrap": "^7.1.0"
   },
-  "devDependencies": {}
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/DDDEastMidlandsLimited/dddem-web.git"
+  },
+  "bugs": {
+    "url": "https://github.com/DDDEastMidlandsLimited/dddem-web/issues"
+  }
 }
