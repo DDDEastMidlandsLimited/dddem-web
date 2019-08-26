@@ -1,9 +1,7 @@
-import Layout from '../components/Layout'
-import Header from "../components/Header"
-import theme from "../theme/theme"
+import Layout from '../../components/Layout'
+import Header from "../../components/Header"
+import theme from "../../theme/theme"
 import Head from "next/head"
-import FullWidthImage from "../components/FullWidthImage"
-
 
 export default () => (
     <Layout>
