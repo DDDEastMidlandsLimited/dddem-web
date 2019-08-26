@@ -20,6 +20,7 @@ export default () => (
             <p><strong>Before The Conference</strong></p>
             <ul>
                 <li><a href="#tickets">Tickets</a></li>
+                <li><a href="#items">Attendee Bag Items</a></li>
                 <li><a href="#pat-before">PAT Testing</a></li>
             </ul>
 
@@ -142,6 +143,18 @@ export default () => (
             <p>
                 Any tickets you consider “extra” as part of your sponsorship, you can dispense as you wish. Contact Jessica if you want assistance with this.
             </p>
+
+            <a name="items"/>
+            <h2>Attendee Bag Items</h2>
+            <p>
+                Gold and Silver Tier Sponsors can provide items and inserts for attendee bags. These bags will be given to all attendee's on the day of the conference.
+                You can provide swag and/or printed media (company adverts, job adverts etc.).
+            </p>
+            <p>
+                <strong>Attendee bag items should be provided at least one week before the conference.</strong> This is so we can prepare the bags before the conference.
+                Please make arrangements with Jessica for drop off or collection.
+            </p>
+
             <a name="pat-before"/>
             <h2>PAT Testing</h2>
             <p>
