@@ -22,6 +22,7 @@ export default () => (
                 <li><a href="#tickets">Tickets</a></li>
                 <li><a href="#items">Attendee Bag Items</a></li>
                 <li><a href="#pat-before">PAT Testing</a></li>
+                <li><a href="#gold-sponsors">Gold Representatives</a></li>
             </ul>
 
             <p><strong>Setup The Day Before Conference</strong></p>
@@ -163,6 +164,26 @@ export default () => (
             </p>
             <p>
                There will be a limited amount of PAT testing available on the day. First priority will go to speakers and then to exhibitors.
+            </p>
+
+            <a name="gold-sponsors"/>
+            <h2>Gold Representatives</h2>
+            <p>
+               This section only concerns our Gold Tier Sponsors. 
+            </p>
+            <p>
+               We will need some information from you before the event. As part of your sponsorship offering, we will say a short bit about your company but also 
+               present the details of a representative that can be approached at the conference. We will need the following:
+            </p>
+            <ul>
+                <li>A short brief about your company to be given at the opening presentation. A couple of paragraphs long.</li>
+                <li>The name of your represenative for the day.</li>
+                <li>The job title of your represenative for the day.</li>
+                <li>A photo of your represenative for the day.</li>
+                <li>Contact details that your represenative might want to share.</li>
+            </ul>
+            <p>
+                These will be presented alongside your logo in the opening ceremony.
             </p>
         </section> 
 
