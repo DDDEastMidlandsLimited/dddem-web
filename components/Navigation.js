@@ -22,7 +22,7 @@ class Navigation extends Component {
                     <Nav.Link href="/notable-companies">Notable Companies</Nav.Link>
                     
                     <NavDropdown title="About" id="basic-nav-dropdown">
-                        <NavDropdown.Item  href="/about">About Us</NavDropdown.Item>
+                        <NavDropdown.Item  href="/about">About DDDEM</NavDropdown.Item>
                         <NavDropdown.Item  href="/venue">Venue</NavDropdown.Item>
                         <NavDropdown.Item href="/accessibility">Accessibility</NavDropdown.Item>
                         <NavDropdown.Item href="/faq">FAQ</NavDropdown.Item>
