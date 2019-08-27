@@ -15,7 +15,7 @@ export default () => (
         <section name="Contents">
             <h1>Contents</h1>
 
-            <p><strong><a href="#Introduction">Introduction</a></strong></p>
+            <p><strong><a href="#introduction">Introduction</a></strong></p>
 
             <p><strong><a href="#code-of-conduct">Code of Conduct</a></strong></p>
             
