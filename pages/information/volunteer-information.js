@@ -103,9 +103,9 @@ export default () => (
                 There will be a box outside each room and cards provided for attendees to vote with.
             </p>
             <ul>
-                <strong><li className="green">Green - That talk was EPIC</li>
-                <li className="yellow">Yellow  - That talk was good, but could be improved</li>
-                <li className="red">Red  - That talk was not great. I wouldn’t recommend it.</li></strong>
+                <strong><li className="green">Green - That talk was EPIC.</li>
+                <li className="yellow">Yellow  - That talk was good.</li>
+                <li className="red">Red  -That talk wasn't for me.</li></strong>
             </ul>
             <p>
                 These are used for feedback and so that we know which talks do well. You can share the results with the speaker if they ask for them
