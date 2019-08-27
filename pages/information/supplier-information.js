@@ -38,7 +38,8 @@ export default () => (
 
             <p><strong>After The Conference</strong></p>
             <ul>
-                <li><a href="#after-party">The Unofficial After Party</a></li>
+                <li><a href="#tear-down">Tear Down</a></li>
+                <li><a href="#after-party">The Unofficial After Party- PubConf</a></li>
             </ul>
 
             <p><strong>Transport</strong></p>
@@ -154,7 +155,7 @@ export default () => (
             <p>
                 We will provide limited PAT testing on the day, with speakers being priority candidates for this service. 
                 Please arrive in plenty of time before your talk if you need your devices PAT tested.
-                Due to venue insurance restrictions we need to be sure than anything that may be plugged 
+                Due to venue insurance restrictions we need to be sure that anything that may be plugged 
                 into a socket on the day, has a current PAT test sticker and certificate. This includes any laptop chargers.
             </p>
 
@@ -169,12 +170,37 @@ export default () => (
 
         <section id="after">
         <h1>After The Conference</h1> 
-
-            <a name="after-party"/>
-            <h2>The Unofficial After Party</h2>
+            
+            <a name="tear-down"/>
+            <h2>Tear Down</h2>
             <p>
-                After the conference there will be a special PubConf featuring some of our speakers and special guests. This 
-                evening event has comedy talks, music, food and beverages. It's great fun for all and we encourage you to come along.
+                Some volunteers will be asked to stay behind after the conference to help us tear down the conference and pack up.
+            </p>
+            
+            <a name="after-party"/>
+            <h2>The Unofficial After Party - PubConf</h2>
+            <p>
+                After the conference there will be an unofficial after party at <a href="https://montysbarandsocial.co.uk" target="_blank">Montys Bar and Social</a>
+            </p>
+            <p>
+                PubConf is an evening of comedy and music. Selected speakers will give humorous talks against the clock. All talks are "Ignite" talks. Speakers have 
+                20 slides which self increment every 15 seconds. The top three presenters then go on to compete for prizes by presenting ignite decks which they have never 
+                seen before.
+            </p>
+            <p>
+                Remember with these talks, what happens at PubConf, stays at PubConf. The talks can not be photographed, filmed or quoted without the speakers express permission.
+            </p>
+            <p>
+                There will also be music from Dylan Beattie, drinks and food.
+            </p>
+            <p>
+                This is an event for over 18's as there will be alcohol present. It will be a great evening and we highly recommend you come along. 
+            </p>
+            <p>
+                Tickets are to be released soon and ANYONE can buy a ticket. You don't have to come to DDD East Midlands Conference to attend PubConf.
+            </p>
+            <p>
+                Find out more about PubConf <a href="https://pubconf.io/" target="_blank">here</a>.
             </p>
         </section>
 
