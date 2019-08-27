@@ -24,12 +24,14 @@ export default () => (
                 <li><a href="#rooms">Rooms</a></li>
                 <li><a href="#tech">Tech</a></li>
             </ul>
-
+            
             <p><strong>Before The Conference</strong></p>
             <ul>
                 <li><a href="#we-need-to-know">What we need to know</a></li>
                 <li><a href="#what-to-prepare">What to prepare</a></li>
             </ul>
+
+            <p><strong><a href="#voting">Voting</a></strong></p>
 
             <p><strong>The Day Of The Conference</strong></p>
             <ul>
@@ -65,9 +67,7 @@ export default () => (
                 <li><a href="#resturants">Resturants</a></li>
             </ul>
         </section>
-        
-        <section id="general">
-                
+                      
         <section id="introduction">
         <h1>Introduction</h1> 
             <a name="introduction"/>
@@ -93,6 +93,7 @@ export default () => (
             </p>
         </section>
 
+        <section id="general">
         <h1>General</h1> 
             <a name="rooms"/>
             <h2>Rooms</h2>
@@ -161,6 +162,28 @@ export default () => (
             <li>A copy of your presentation on a usb stick</li>
             <li>A clicker</li>
             <li>If possible, get any electricals you will need on the day PAT Tested.</li>
+        </section>
+
+        <section id="voting">
+        <h1>Voting</h1> 
+            <a name="voting"/>
+            <h2>Attendees can vote using a traffic light system.</h2>
+           <p>
+               During the day there will boxes outside each room for attendees to put their votes into. All voted will be 
+               conducted with a traffic light system:
+           </p>
+           <ul>
+                <strong><li className="green">Green - That talk was EPIC</li>
+                <li className="yellow">Yellow  - That talk was good</li>
+                <li className="red">Red  - That talk wasn't for me.</li></strong>
+            </ul>
+            <p>
+                This is mostly for us, so we can see what kinds of talks have a good reception to help us plan for our future events.
+                If you want to know what votes you recieved, you can ask at the information desk after your talk.
+            </p>
+            <p>
+                We are not offering more indepth means of feedback this year as we want to keep this first event as simple as we can.
+            </p>
         </section>
 
         <section id="day-of">
@@ -261,7 +284,7 @@ export default () => (
             </p>
         </section>
 
-        <section>
+        <section id="transport">
         <h1>Transport</h1> 
             
             <a name="train"/>
@@ -323,17 +346,15 @@ export default () => (
             <a name="air"/>
             <h2>By Air</h2>
             <h4>From East Midlands Airport</h4>
-            <section>
-                <p>
-                    The closest airport to Nottingham is East Midlands Airport which is 15 miles (approximately 24
-                    kilometres) outside of the city. It takes about half an hour from there to travel into the city by car
-                    or bus. There is a Skylink bus service that runs every half hour from the airport into Nottingham city
-                    centre and stops a few minutes walk away from Nottingham Conference Centre.
-                </p>
-            </section>
+            <p>
+                The closest airport to Nottingham is East Midlands Airport which is 15 miles (approximately 24
+                kilometres) outside of the city. It takes about half an hour from there to travel into the city by car
+                or bus. There is a Skylink bus service that runs every half hour from the airport into Nottingham city
+                centre and stops a few minutes walk away from Nottingham Conference Centre.
+            </p>
         </section>
 
-        <section>
+        <section id="nottingham">
         <h1>Staying in Nottingham</h1> 
 
             <a name="important-contacts"/>
@@ -391,6 +412,15 @@ export default () => (
             }
             section div{
                 padding-bottom: 10px;
+            }
+            .green{
+                color: green;
+            }
+             .yellow{
+                color: orange;
+            }
+             .red{
+                color: red;
             }
         `}
         </style>
