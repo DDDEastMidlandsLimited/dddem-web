@@ -29,8 +29,6 @@ class Navigation extends Component {
                         <NavDropdown.Item href="/information/attendee-information">Attendee Information</NavDropdown.Item>
                         <NavDropdown.Item href="/information/speaker-information">Speaker Information</NavDropdown.Item>
                         <NavDropdown.Item href="/information/sponsor-information">Sponsor Information</NavDropdown.Item>
-                        {/* <NavDropdown.Item href="/attendee-information">Attendee Information</NavDropdown.Item> */}
-                        {/* <NavDropdown.Item href="/contact-us">Contact Us</NavDropdown.Item> */}
                     </NavDropdown>
 
                     <Nav.Link href="/speakers">Speakers</Nav.Link>
