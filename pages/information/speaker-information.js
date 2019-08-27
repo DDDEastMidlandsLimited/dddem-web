@@ -14,17 +14,24 @@ export default () => (
 
         <section name="Contents">
             <h1>Contents</h1>
+
+            <p><strong><a href="#introduction">Introduction</a></strong></p>
+
+            <p><strong><a href="#code-of-conduct">Code of Conduct</a></strong></p>
+            
             <p><strong>General</strong></p>
             <ul>
                 <li><a href="#rooms">Rooms</a></li>
                 <li><a href="#tech">Tech</a></li>
             </ul>
-
+            
             <p><strong>Before The Conference</strong></p>
             <ul>
                 <li><a href="#we-need-to-know">What we need to know</a></li>
                 <li><a href="#what-to-prepare">What to prepare</a></li>
             </ul>
+
+            <p><strong><a href="#voting">Voting</a></strong></p>
 
             <p><strong>The Day Of The Conference</strong></p>
             <ul>
@@ -42,9 +49,7 @@ export default () => (
                 <li><a href="#talk-videos">Videoed Talks</a></li>
             </ul>
 
-            <p><strong>Suggestest Checklist</strong></p>
-            <ul>
-            </ul>
+            <p><strong><a href="#checklist">Suggested Checklist</a></strong></p>
 
             <p><strong>Transport</strong></p>
             <ul>
@@ -57,10 +62,35 @@ export default () => (
             <ul>
                 <li><a href="#important-contacts">Important Contacts</a></li>
                 <li><a href="#hotels">Hotels</a></li>
-                <li><a href="#resturants">Resturants</a></li>
+                <li><a href="#restaurants">Restaurants</a></li>
             </ul>
         </section>
-        
+                      
+        <section id="introduction">
+        <h1>Introduction</h1> 
+            <a name="introduction"/>
+            <h2>Thank you.</h2>
+            <p>
+                Without your support and effort, there wouldn’t be a DDD East Midlands event at all. This page outlines what you need to know on the day. 
+            </p>
+        </section>     
+
+        <section id="code-of-conduct">
+        <h1>Code of Conduct</h1> 
+            <a name="code-of-conduct"/>
+            <h2>Please familiarise yourself with the Code of Conduct.</h2>
+            <p>
+               All involved in the DDD East Midlands Conference are subject to the <a href="https://www.dddeastmidlands.com/code-of-conduct/">Code Of Conduct.</a> 
+               This is not just for the day of the event, but for all presence of DDD East Midlands including Social Media.
+            </p>
+            <p>
+                Please make sure you are familiar with it and adhere to it at all times to create the most inclusive and friendly event for all involved.
+            </p>
+            <p>
+                Should you have any concerns regarding the Code of Conduct before, during or after the event, please contact the organisers.  
+            </p>
+        </section>
+
         <section id="general">
         <h1>General</h1> 
             <a name="rooms"/>
@@ -97,10 +127,10 @@ export default () => (
             <p>
                 All of these screens are widescreen and are a mixture of 16:9 or 16:10 aspect ratio.
             </p>
-            <h4>Adaptors (HMDI etc)</h4>
+            <h4>Adaptors (HDMI etc)</h4>
             <p>
-                All rooms have wireless capabilities for MAC and PC, they also have both HDMi and VGA adaptors.
-                The main lecture theatre (Room 1/Lecture Theatre 2) has all of the above plus Mini Display Port and Mini HDMi. 
+                All rooms have wireless capabilities for MAC and PC, they also have both HDMI and VGA adaptors.
+                The main lecture theatre (Room 1/Lecture Theatre 2) has all of the above plus Mini Display Port and Mini HDMI. 
                 There is also a visualizer available in each Lecture Theatre.
             </p>
             <h4>PAT testing</h4>
@@ -132,6 +162,28 @@ export default () => (
             <li>If possible, get any electricals you will need on the day PAT Tested.</li>
         </section>
 
+        <section id="voting">
+        <h1>Voting</h1> 
+            <a name="voting"/>
+            <h2>Attendees can vote using a traffic light system.</h2>
+           <p>
+               During the day there will boxes outside each room for attendees to put their votes into. All voted will be 
+               conducted with a traffic light system:
+           </p>
+           <ul>
+                <strong><li className="green">Green - That talk was EPIC</li>
+                <li className="yellow">Yellow  - That talk was good</li>
+                <li className="red">Red  - That talk wasn't for me.</li></strong>
+            </ul>
+            <p>
+                This is mostly for us, so we can see what kinds of talks have a good reception to help us plan for our future events.
+                If you want to know what votes you received, you can ask at the information desk after your talk.
+            </p>
+            <p>
+                We are not offering more in-depth means of feedback this year as we want to keep this first event as simple as we can.
+            </p>
+        </section>
+
         <section id="day-of">
         <h1>The Day Of The Conference</h1> 
             <a name="conference-arrival"/>
@@ -147,7 +199,7 @@ export default () => (
             <p>
                 We will provide limited PAT testing on the day, with speakers being priority candidates for this service. 
                 Please arrive in plenty of time before your talk if you need your devices PAT tested.
-                Due to venue insurance restrictions we need to be sure than anything that may be plugged 
+                Due to venue insurance restrictions, we need to be sure that anything that may be plugged 
                 into a socket on the day, has a current PAT test sticker and certificate. This includes any laptop chargers.
             </p>
 
@@ -176,7 +228,7 @@ export default () => (
             
             <h4>Meet the AV technician and get Mic'd up</h4>
             <p>
-                There are a variety of microphones available in each room. Clip-on, static and hand held are avaiable, so 
+                There are a variety of microphones available in each room. Clip-on, static and hand held are available, so 
                 please let the technicians know if you have a preference.
             </p>
             <a name="clickers"/>
@@ -201,7 +253,7 @@ export default () => (
             <a name="after-party"/>
             <h2>The Unofficial After Party</h2>
             <p>
-                After the conference there will be a special PubConf featuring some of our speakers and special guests. This 
+                After the conference, there will be a special PubConf featuring some of our speakers and special guests. This 
                 evening event has comedy talks, music, food and beverages. It's great fun for all and we encourage you to come along.
             </p>
 
@@ -211,7 +263,7 @@ export default () => (
                 All the talks are being videoed by the local company ShutterSocks. These will be posted on Vimeo as soon as they are available. There are a few reasons we are videoing the talks:
             </p>
             <li>For future conference submissions. Often conference submissions are strengthened with the evidence of your presentation skills.</li>
-            <li>To keep the conversation going after the conference. Your talks can be shared to all those who might find them useful.</li>
+            <li>To keep the conversation going after the conference. Your talks can be shared with all those who might find them useful.</li>
         </section>
 
         <section id="checklist">
@@ -230,7 +282,7 @@ export default () => (
             </p>
         </section>
 
-        <section>
+        <section id="transport">
         <h1>Transport</h1> 
             
             <a name="train"/>
@@ -238,7 +290,7 @@ export default () => (
             <h4>Head to Nottingham Train Station</h4>
             <p>
                 Nottingham Station is the mainline train station close to Nottingham city centre. The train station is a
-                15 minute walk from Nottingham Conference Centre, but for those new to the city it might be easier to
+                15 minute walk from Nottingham Conference Centre, but for those new to the city, it might be easier to
                 take a taxi or use Nottingham’s tram NET (Nottingham Express Transit) system. Directions to the station
                 tram stop are signposted throughout the train station building. The Conference Centre is located between
                 the Royal Centre and Nottingham Trent University tram stop. Take a tram heading to either Phoenix Park
@@ -300,7 +352,7 @@ export default () => (
             </p>
         </section>
 
-        <section>
+        <section id="nottingham">
         <h1>Staying in Nottingham</h1> 
 
             <a name="important-contacts"/>
@@ -316,14 +368,14 @@ export default () => (
 
             <a name="hotels"/>
             <h2>Hotels</h2>
-            <p>We don't have any partnerships or deals with any local hotels but here are a list of a few in City Center:</p>
+            <p>We don't have any partnerships or deals with any local hotels but here is a list of a few in City Center:</p>
             <li><a href="https://www.ihg.com/crowneplaza/hotels/gb/en/nottingham/notws/hoteldetail?cm_mmc=GoogleMaps-_-CP-_-GB-_-NOTWS" target="_blank">Crowne Plaza</a></li>
             <li><a href="https://www.accorhotels.com/gb/hotel-6160-ibis-nottingham-centre/index.shtml" target="_blank">Ibis</a></li>
             <li><a href="https://www.roomzzz.com/locations/nottingham/" target="_blank">Roomzzz</a></li>
             <li><a href="https://www.mercurenottingham.com/" target="_blank">Mercure</a></li>
 
-            <a name="resturants"/>
-            <h2>Resturants</h2>
+            <a name="restaurants"/>
+            <h2>Restaurants</h2>
             <h4>Coffee</h4>
             <li><a href="https://www.cartwheelcoffee.com/" target="_blank">Cartwheel</a></li>
             <li><a href="https://www.outpost.coffee/" target="_blank">Outpost</a></li>
@@ -343,7 +395,7 @@ export default () => (
 
             <h4>Extra Requirements?</h4>
             <p>
-                If you need to know about any vegan, vegetarian or gluten free resturants, get in touch and we will point
+                If you need to know about any vegan, vegetarian or gluten-free restaurants, get in touch and we will point
                 you in the direction of some great ones. 
             </p>
 
@@ -358,6 +410,15 @@ export default () => (
             }
             section div{
                 padding-bottom: 10px;
+            }
+            .green{
+                color: green;
+            }
+             .yellow{
+                color: orange;
+            }
+             .red{
+                color: red;
             }
         `}
         </style>
