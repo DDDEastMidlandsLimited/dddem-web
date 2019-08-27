@@ -65,6 +65,13 @@ export default () => (
                 <li><a href="#teardown-time">Pick Up Time</a></li>
             </ul>
 
+            <p><strong>After The Conference</strong></p>
+            <ul>
+                <li><a href="#after-party">The Unofficial After Party- PubConf</a></li>
+            </ul>
+
+             <p><strong><a href="#contact">Contacts</a></strong></p>
+
         </section>
         
         <section id="sponsor-brief">
@@ -423,7 +430,54 @@ export default () => (
             <p>
                 <strong>Location: </strong>We ask that you use the loading bay on South Sherwood Street.
             </p>
-        </section> 
+        </section>
+
+        <section id="after">
+        <h1>After The Conference</h1>         
+            <a name="after-party"/>
+            <h2>The Unofficial After Party - PubConf</h2>
+            <p>
+                After the conference there will be an unofficial after party at <a href="https://montysbarandsocial.co.uk" target="_blank">Montys Bar and Social</a>
+            </p>
+            <p>
+                PubConf is an evening of comedy and music. Selected speakers will give humorous talks against the clock. All talks are "Ignite" talks. Speakers have 
+                20 slides which self increment every 15 seconds. The top three presenters then go on to compete for prizes by presenting ignite decks which they have never 
+                seen before.
+            </p>
+            <p>
+                Remember with these talks, what happens at PubConf, stays at PubConf. The talks can not be photographed, filmed or quoted without the speakers express permission.
+            </p>
+            <p>
+                There will also be music from Dylan Beattie, drinks and food.
+            </p>
+            <p>
+                This is an event for over 18's as there will be alcohol present. It will be a great evening and we highly recommend you come along. 
+            </p>
+            <p>
+                Tickets are to be released soon and ANYONE can buy a ticket. You don't have to come to DDD East Midlands Conference to attend PubConf.
+            </p>
+            <p>
+                Find out more about PubConf <a href="https://pubconf.io/" target="_blank">here</a>.
+            </p>
+        </section>
+
+        <section id="contact">
+        <a name="contact"/>
+        <h1>Contact</h1> 
+            <p>
+                There are a number of ways to contact the organisers before and during the event:
+            </p>
+            <h2>Slack</h2>
+            <p>
+                You will be added to a DDD East Midlands Slack Channel. Jessica and Moreton will be reachable on there. Please use their handle for anything urgent.
+            </p>
+            <h2>Email</h2>
+            <p>
+                Using the @dddeastmidlands.com email addresses:
+                <li><a href="mailto:jessica@dddeastmidlands.com">Jessica's email</a></li>
+                <li><a href="mailto:moreton@dddeastmidlands.com">Moreton's email</a></li>
+            </p>
+        </section>  
 
         <style jsx>
             {`
