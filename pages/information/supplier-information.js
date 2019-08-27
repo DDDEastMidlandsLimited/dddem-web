@@ -36,17 +36,21 @@ export default () => (
                 <li><a href="#green-room">Green Room</a></li>
             </ul>
 
-            <p><strong>After The Conference</strong></p>
-            <ul>
-                <li><a href="#tear-down">Tear Down</a></li>
-                <li><a href="#after-party">The Unofficial After Party- PubConf</a></li>
-            </ul>
-
             <p><strong>Transport</strong></p>
             <ul>
                 <li><a href="#train">Taking the train</a></li>
                 <li><a href="#driving">Driving</a></li>
                 <li><a href="#air">By Air</a></li>
+            </ul>
+
+            <p><strong>Packing Up Day Of The Conference</strong></p>
+            <ul>
+                <li><a href="#teardown-time">Pick Up Time</a></li>
+            </ul>
+
+            <p><strong>After The Conference</strong></p>
+            <ul>
+                <li><a href="#after-party">The Unofficial After Party- PubConf</a></li>
             </ul>
 
             <p><strong><a href="#contact">Contacts</a></strong></p>
@@ -168,42 +172,6 @@ export default () => (
             </p>
         </section>
 
-        <section id="after">
-        <h1>After The Conference</h1> 
-            
-            <a name="tear-down"/>
-            <h2>Tear Down</h2>
-            <p>
-                Some volunteers will be asked to stay behind after the conference to help us tear down the conference and pack up.
-            </p>
-            
-            <a name="after-party"/>
-            <h2>The Unofficial After Party - PubConf</h2>
-            <p>
-                After the conference there will be an unofficial after party at <a href="https://montysbarandsocial.co.uk" target="_blank">Montys Bar and Social</a>
-            </p>
-            <p>
-                PubConf is an evening of comedy and music. Selected speakers will give humorous talks against the clock. All talks are "Ignite" talks. Speakers have 
-                20 slides which self increment every 15 seconds. The top three presenters then go on to compete for prizes by presenting ignite decks which they have never 
-                seen before.
-            </p>
-            <p>
-                Remember with these talks, what happens at PubConf, stays at PubConf. The talks can not be photographed, filmed or quoted without the speakers express permission.
-            </p>
-            <p>
-                There will also be music from Dylan Beattie, drinks and food.
-            </p>
-            <p>
-                This is an event for over 18's as there will be alcohol present. It will be a great evening and we highly recommend you come along. 
-            </p>
-            <p>
-                Tickets are to be released soon and ANYONE can buy a ticket. You don't have to come to DDD East Midlands Conference to attend PubConf.
-            </p>
-            <p>
-                Find out more about PubConf <a href="https://pubconf.io/" target="_blank">here</a>.
-            </p>
-        </section>
-
         <section>
         <h1>Transport</h1> 
             
@@ -273,6 +241,52 @@ export default () => (
                 centre and stops a few minutes walk away from Nottingham Conference Centre.
             </p>
 
+        </section>
+
+        <section id="packing-up">
+        <h1>Packing Up Day Of The Conference</h1> 
+            <a name="teardown-time"/>
+            <h2>Collecting your exhibition items.</h2>
+            <p>
+                You will be emailed a time slot closer to the event, in which you can bring a vehicle to the venue to collect any items you need to collect by car.  
+                This time slot will be somewhere between 16.30 – 18.30 on the 26th of October (the day of the event).
+            </p>
+            <p>
+                We have to arrange this into time slots due to the limited vehicle space at the venue. If there are any restrictions you have regarding time slot, 
+                or you don’t think you will need one, please let us know in advance.
+            </p>
+            <p>
+                <strong>Location: </strong>We ask that you use the loading bay on South Sherwood Street.
+            </p>
+        </section> 
+
+        <section id="after">
+        <h1>After The Conference</h1>         
+            <a name="after-party"/>
+            <h2>The Unofficial After Party - PubConf</h2>
+            <p>
+                After the conference there will be an unofficial after party at <a href="https://montysbarandsocial.co.uk" target="_blank">Montys Bar and Social</a>
+            </p>
+            <p>
+                PubConf is an evening of comedy and music. Selected speakers will give humorous talks against the clock. All talks are "Ignite" talks. Speakers have 
+                20 slides which self increment every 15 seconds. The top three presenters then go on to compete for prizes by presenting ignite decks which they have never 
+                seen before.
+            </p>
+            <p>
+                Remember with these talks, what happens at PubConf, stays at PubConf. The talks can not be photographed, filmed or quoted without the speakers express permission.
+            </p>
+            <p>
+                There will also be music from Dylan Beattie, drinks and food.
+            </p>
+            <p>
+                This is an event for over 18's as there will be alcohol present. It will be a great evening and we highly recommend you come along. 
+            </p>
+            <p>
+                Tickets are to be released soon and ANYONE can buy a ticket. You don't have to come to DDD East Midlands Conference to attend PubConf.
+            </p>
+            <p>
+                Find out more about PubConf <a href="https://pubconf.io/" target="_blank">here</a>.
+            </p>
         </section>
 
         <section id="contact">
