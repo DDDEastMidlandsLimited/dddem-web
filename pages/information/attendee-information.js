@@ -100,7 +100,7 @@ export default () => (
             <a name="age"/>
             <h1>Age Restrictions</h1>
             <p>
-                For insurance reasons, only people over the age of 18 can attend DDD East Midlands. We would love to bring this age limit down in the future, but for the first event we want to keep some of the cost and organisational overhead relatively low.
+                For insurance reasons, only people over the age of 18 can attend DDD East Midlands. We would love to bring this age limit down in the future, but for the first event, we want to keep some of the cost and organisational overhead relatively low.
             </p>
         </section> 
 
@@ -152,7 +152,7 @@ export default () => (
             <h4>Head to Nottingham Train Station</h4>
             <p>
                 Nottingham Station is the mainline train station close to Nottingham city centre. The train station is a
-                15 minute walk from Nottingham Conference Centre, but for those new to the city it might be easier to
+                15 minute walk from Nottingham Conference Centre, but for those new to the city, it might be easier to
                 take a taxi or use Nottingham’s tram NET (Nottingham Express Transit) system. Directions to the station
                 tram stop are signposted throughout the train station building. The Conference Centre is located between
                 the Royal Centre and Nottingham Trent University tram stop. Take a tram heading to either Phoenix Park
@@ -314,9 +314,12 @@ export default () => (
                 After the conference there will be an unofficial after party at <a href="https://montysbarandsocial.co.uk" target="_blank">Montys Bar and Social</a>
             </p>
             <p>
-                PubConf is an evening of comedy and music. Selected speakers will give humerous talks against the clock. All talks are "Ignite" talks. Speakers have 
+                PubConf is an evening of comedy and music. Selected speakers will give humorous talks against the clock. All talks are "Ignite" talks. Speakers have 
                 20 slides which self increment every 15 seconds. The top three presenters then go on to compete for prizes by presenting ignite decks which they have never 
                 seen before.
+            </p>
+            <p>
+                Remember with these talks, what happens at PubConf, stays at PubConf. The talks can not be photographed, filmed or quoted without the speakers express permission.
             </p>
             <p>
                 There will also be music from Dylan Beattie, drinks and food.
