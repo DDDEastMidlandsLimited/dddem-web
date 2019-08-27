@@ -56,10 +56,10 @@ export default () => (
                 DDD stands for (in this case) <b>Developer! Developer! Developer!</b>
             </p>
             <p>
-               It's often asked if we are a conference centered around Domain Driven Design or some other acroymn that fits, that is not the case. We are a general technology conference. This means that we will accept talk submissions relating to technology no matter the language, the discipline or otherwise. Unfortunately us technologists (particularly the ones that program) love acroymns containing the letter D.
+               It's often asked if we are a conference centred around Domain Driven Design or some other acronym that fits, that is not the case. We are a general technology conference. This means that we will accept talk submissions relating to technology no matter the language, the discipline or otherwise. Unfortunately us technologists (particularly the ones that program) love acroymns containing the letter D.
             </p>
             <p>
-               Developer! Developer! Developer! is an umbrella, open-source conference format. By naming ourselves DDD, and associating ourselves with similar events, we abide by certain principles. Other than that, this conference is by the East Midlands community for the East Midlands community and is unique in it's own right. There is more information about Developer! Developer! Developer! further down this page for those interested.
+               Developer! Developer! Developer! is an umbrella, open-source conference format. By naming ourselves DDD, and associating ourselves with similar events, we abide by certain principles. Other than that, this conference is by the East Midlands community for the East Midlands community and is unique in its own right. There is more information about Developer! Developer! Developer! further down this page for those interested.
             </p>
         </section> 
 
@@ -110,10 +110,10 @@ export default () => (
                 In line with the DDD principles, the submission process is anonymous and the selection process democratic. This is a conference for the community, by the community. All talks that are submitted are anonymous. When the attendees vote on which talks they want to see, and when the organisers are sorting out the agenda, identifiable information about those who have submitted can't bee seen. This is to keep the process as fair as possible and ensure talks are picked on their advertised content, not by who is presenting.
             </p>
             <p>
-                As mentioned, attendees will get to vote on the talks they wish to see. Talks will be selected by popular vote, but with some discretion by the organisors of the conference. The discretion is to ensure variety at the conference. If two or more talks are nearly exactly the same, the most popular will continue through and the next most popular, different talk will replace the one with identical content. 
+                As mentioned, attendees will get to vote on the talks they wish to see. Talks will be selected by popular vote, but with some discretion by the organisers of the conference. The discretion is to ensure variety at the conference. If two or more talks are nearly exactly the same, the most popular will continue through and the next most popular, different talk will replace the one with identical content. 
             </p>
             <p>
-                We also ask that all talk submissions abide to the <a href="/code-of-conduct/">Code of Conduct</a>. We want all attendees to feel comfortable at the event, so ask that no submissions or talks contain content of a graphic, voilent or sexual nature or contain any language that may be considered marginalising or hateful. If you wouldn't want to say it to someone you respect, please don't include it in your submission. Organisers hold the right to remove anything that may be thought to cause distress.
+                We also ask that all talk submissions abide to the <a href="/code-of-conduct/">Code of Conduct</a>. We want all attendees to feel comfortable at the event, so ask that no submissions or talks contain content of a graphic, violent or sexual nature or contain any language that may be considered marginalising or hateful. If you wouldn't want to say it to someone you respect, please don't include it in your submission. Organisers hold the right to remove anything that may be thought to cause distress.
             </p>
 
             <a name="speaking"/>            
@@ -124,10 +124,10 @@ export default () => (
             <ul>
                 <li><b>Offering mentors for speakers that are selected and request extra help.</b></li>
                 <p>
-                    Speaking infront of a crowd of people isn't easy and we know it. There will be the option to highlight that you would like extra support, as a first time speaker, or even just as someone who feels that they would benefit from it.
+                    Speaking in front of a crowd of people isn't easy and we know it. There will be the option to highlight that you would like extra support, as a first-time speaker, or even just as someone who feels that they would benefit from it.
                 </p>
                 <p>
-                    The East Midlands is lucky to host some amazing (and incredibly generous) international and experienced speakers. Some of these fine people are donating their time to any speakers that indicate they want extra support. This support covers ways to address nerves, timing a talk, structuring the content of a talk, making sure your talk aligns to it's description and more.
+                    The East Midlands is lucky to host some amazing (and incredibly generous) international and experienced speakers. Some of these fine people are donating their time to any speakers that indicate they want extra support. This support covers ways to address nerves, timing a talk, structuring the content of a talk, making sure your talk aligns to its description and more.
                 </p>
                 <li><b>Arranging an optional workshop for all speakers to help them construct their talk.</b></li>
                 <p>
