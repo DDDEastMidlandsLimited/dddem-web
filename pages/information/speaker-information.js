@@ -292,14 +292,12 @@ export default () => (
             <a name="air"/>
             <h2>By Air</h2>
             <h4>From East Midlands Airport</h4>
-            <section>
-                <p>
-                    The closest airport to Nottingham is East Midlands Airport which is 15 miles (approximately 24
-                    kilometres) outside of the city. It takes about half an hour from there to travel into the city by car
-                    or bus. There is a Skylink bus service that runs every half hour from the airport into Nottingham city
-                    centre and stops a few minutes walk away from Nottingham Conference Centre.
-                </p>
-            </section>
+            <p>
+                The closest airport to Nottingham is East Midlands Airport which is 15 miles (approximately 24
+                kilometres) outside of the city. It takes about half an hour from there to travel into the city by car
+                or bus. There is a Skylink bus service that runs every half hour from the airport into Nottingham city
+                centre and stops a few minutes walk away from Nottingham Conference Centre.
+            </p>
         </section>
 
         <section>
