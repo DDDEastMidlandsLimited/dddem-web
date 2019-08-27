@@ -13,7 +13,7 @@ export default () => (
         <section name="Contents">
             <h1>Contents</h1>
             
-            <p><strong><a href="#attendee-brief">Attendee Brief</a></strong></p>
+            <p><strong><a href="#introduction">Introduction</a></strong></p>
             <p><strong><a href="#code-of-conduct">Code of Conduct</a></strong></p>
             <p><strong><a href="#when-and-where">When and Where?</a></strong></p>
             <p><strong><a href="#age">Age Restrictions</a></strong></p>
@@ -44,6 +44,7 @@ export default () => (
                 <li><a href="#coffee">Coffee</a></li>
             </ul>
             <p><strong><a href="#wifi">Wifi</a></strong></p>
+            <p><strong><a href="#voting">Voting</a></strong></p>
             <p><strong>Social Media and Photos</strong></p>
             <ul>
                 <li><a href="#photographs">Photographs</a></li>
@@ -54,9 +55,9 @@ export default () => (
 
         </section>
         
-        <section id="attendee-brief">
-        <h1>Attendee Brief</h1> 
-            <a name="attendee-brief"/>
+        <section id="introduction">
+        <h1>Introduction</h1> 
+            <a name="introduction"/>
             <h2>Thank you.</h2>
             <p>
                 Without your support, there wouldn’t be a DDD East Midlands Conference. Thank you for being an involved and encouraging community.
@@ -257,6 +258,24 @@ export default () => (
 
         </section> 
 
+        <section id="voting">
+        <h1>Voting</h1> 
+            <a name="voting"/>
+            <h2>You can vote on talks using a traffic light system.</h2>
+           <p>
+               During the day there will boxes outside each room for you to put your votes into. All voted will be 
+               conducted with a traffic light system:
+           </p>
+           <ul>
+                <strong><li className="green">Green - That talk was EPIC</li>
+                <li className="yellow">Yellow  - That talk was good</li>
+                <li className="red">Red  - That talk wasn't for me.</li></strong>
+            </ul>
+            <p>
+                This is mostly so we can see which talks have a good reception to help us plan for our future events.
+            </p>
+        </section> 
+
         <section id="social-media">
         <h1>Social Media and Photos</h1>
             <p>
@@ -326,6 +345,10 @@ export default () => (
 
             .green{
                 color: green;
+            }
+
+            .yellow{
+                color: orange;
             }
 
             .red{
