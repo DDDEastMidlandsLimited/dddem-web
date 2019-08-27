@@ -33,6 +33,13 @@ export default () => (
                 <li><a href="#wifi">Wifi</a></li>
                 <li><a href="#catering">Catering</a></li>
             </ul>
+            
+            <p><strong>After The Conference</strong></p>
+            <ul>
+                <li><a href="#tear-down">Tear Down</a></li>
+                <li><a href="#after-party">The Unofficial After Party- PubConf</a></li>
+            </ul>
+            
         </section>
         
         <section id="introduction">
@@ -207,6 +214,42 @@ export default () => (
             </p>
             <p>
                 All food is prepared in kitchens where nuts, gluten and other allergens could be present. As the menu descriptions cannot include all ingredients, we will try to cater depending on the details you gave on your Eventbrite order.
+            </p>
+        </section>
+
+        <section id="after">
+        <h1>After The Conference</h1> 
+
+             <a name="tear-down"/>
+            <h2>Tear Down</h2>
+            <p>
+                Some volunteers will be asked to stay behind after the conference to help us tear down the conference and pack up.
+            </p>
+
+             <a name="after-party"/>
+            <h2>The Unofficial After Party - PubConf</h2>
+            <p>
+                After the conference there will be an unofficial after party at <a href="https://montysbarandsocial.co.uk" target="_blank">Montys Bar and Social</a>
+            </p>
+            <p>
+                PubConf is an evening of comedy and music. Selected speakers will give humorous talks against the clock. All talks are "Ignite" talks. Speakers have 
+                20 slides which self increment every 15 seconds. The top three presenters then go on to compete for prizes by presenting ignite decks which they have never 
+                seen before.
+            </p>
+            <p>
+                Remember with these talks, what happens at PubConf, stays at PubConf. The talks can not be photographed, filmed or quoted without the speakers express permission.
+            </p>
+            <p>
+                There will also be music from Dylan Beattie, drinks and food.
+            </p>
+            <p>
+                This is an event for over 18's as there will be alcohol present. It will be a great evening and we highly recommend you come along. 
+            </p>
+            <p>
+                Tickets are to be released soon and ANYONE can buy a ticket. You don't have to come to DDD East Midlands Conference to attend PubConf.
+            </p>
+            <p>
+                Find out more about PubConf <a href="https://pubconf.io/" target="_blank">here</a>.
             </p>
         </section>
 
