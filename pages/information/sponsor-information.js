@@ -8,7 +8,7 @@ export default () => (
         <Head>
             <title>Sponsor Information</title>
         </Head>
-        <Header title={'Speaker Information'}/>
+        <Header title={'Sponsor Information'}/>
 
         <section name="Contents">
             <h1>Contents</h1>
