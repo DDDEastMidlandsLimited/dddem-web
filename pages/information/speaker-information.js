@@ -14,6 +14,11 @@ export default () => (
 
         <section name="Contents">
             <h1>Contents</h1>
+
+            <p><strong><a href="#Introduction">Introduction</a></strong></p>
+
+            <p><strong><a href="#code-of-conduct">Code of Conduct</a></strong></p>
+            
             <p><strong>General</strong></p>
             <ul>
                 <li><a href="#rooms">Rooms</a></li>
@@ -62,6 +67,32 @@ export default () => (
         </section>
         
         <section id="general">
+                
+        <section id="introduction">
+        <h1>Introduction</h1> 
+            <a name="introduction"/>
+            <h2>Thank you.</h2>
+            <p>
+                Without your support and effort, there wouldn’t be a DDD East Midlands event at all. This page outlines what you need to know on the day. 
+            </p>
+        </section>     
+
+        <section id="code-of-conduct">
+        <h1>Code of Conduct</h1> 
+            <a name="code-of-conduct"/>
+            <h2>Please familiarise yourself with the Code of Conduct.</h2>
+            <p>
+               All involved in the DDD East Midlands Conference are subject to the <a href="https://www.dddeastmidlands.com/code-of-conduct/">Code Of Conduct.</a> 
+               This is not just for the day of the event, but for all presence of DDD East Midlands including Social Media.
+            </p>
+            <p>
+                Please make sure you are familiar with it and adhere to it at all times to create the most inclusive and friendly event for all involved.
+            </p>
+            <p>
+                Should you have any concerns regarding the Code of Conduct before, during or after the event, please contact the organisers.  
+            </p>
+        </section>
+
         <h1>General</h1> 
             <a name="rooms"/>
             <h2>Rooms</h2>
