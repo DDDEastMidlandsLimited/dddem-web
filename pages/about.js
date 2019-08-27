@@ -7,10 +7,41 @@ import Head from "next/head"
 export default () => (
     <Layout>
         <Head>
-            <title>About</title>
+            <title>About DDDEM</title>
         </Head>
-        <Header title={'About'}/>
-        <section>
+        <Header title={'About DDDEM'}/>
+        <section name="Contents">
+            <h1>Contents</h1>
+
+            <p><strong><a href="#about">About DDD East Midlands</a></strong></p>
+            <ul>
+                <li><a href="#ddd">But what is the DDD about? What is this conference?</a></li>
+                <li><a href="#principles">DDD Principles</a></li>
+            </ul>
+
+            <p><strong><a href="#inclusivity">Promoting Inclusivity</a></strong></p>
+            <ul>
+                <li><a href="#accessibility">Accessibilty Page</a></li>
+                <li><a href="#selection">Submission And Selection Process</a></li>
+                <li><a href="#speaking">Making speaking accessible</a></li>
+            </ul>
+
+            <p><strong><a href="#ddd-about">About Developer! Developer! Developer! (DDD)</a></strong></p>
+            <ul>
+                <li><a href="#other-ddd">Other DDD Events</a></li>
+            </ul>
+
+            <p><strong><a href="#organisers">The Organisers</a></strong></p>
+            <ul>
+                <li><a href="#jessica">Jessica White</a></li>
+                <li><a href="#moreton">Moreton Brockley</a></li>
+            </ul>
+ 
+        </section>
+                    
+
+        <section id="about">
+            <a name="about"/>
             <h1>About DDD East Midlands</h1>
             <p>
                 Nottingham is the perfect blend of the professional corporates and the innovative independents and this
@@ -18,25 +49,28 @@ export default () => (
                 is reflected in DDD East Midlands. It is part of the multi-national DDD conference community, but with a
                 focus on promoting the talent, companies and the amazing tech community the East Midlands has to offer.
             </p>
-        </section>
-        <section>
+
+            <a name="ddd"/>
             <h2>But what is the DDD about? What is this conference?</h2>
             <p>
                 DDD stands for (in this case) <b>Developer! Developer! Developer!</b>
             </p>
             <p>
-               It's often asked if we are a conference centered around Domain Driven Design or some other acroymn that fits, that is not the case. We are a general technology conference. This means that we will accept talk submissions relating to technology no matter the language, the discipline or otherwise. Unfortunately us technologists (particularly the ones that program) love acroymns containing the letter D.
+               It's often asked if we are a conference centred around Domain Driven Design or some other acronym that fits, that is not the case. We are a general technology conference. This means that we will accept talk submissions relating to technology no matter the language, the discipline or otherwise. Unfortunately us technologists (particularly the ones that program) love acroymns containing the letter D.
             </p>
             <p>
-               Developer! Developer! Developer! is an umbrella, open-source conference format. By naming ourselves DDD, and associating ourselves with similar events, we abide by certain principles. Other than that, this conference is by the East Midlands community for the East Midlands community and is unique in it's own right. There is more information about Developer! Developer! Developer! further down this page for those interested.
+               Developer! Developer! Developer! is an umbrella, open-source conference format. By naming ourselves DDD, and associating ourselves with similar events, we abide by certain principles. Other than that, this conference is by the East Midlands community for the East Midlands community and is unique in its own right. There is more information about Developer! Developer! Developer! further down this page for those interested.
             </p>
         </section> 
+
         <section className="center-video">
                 <div className="iframe-container">
                     <iframe src="https://player.vimeo.com/video/337010371" width="640" height="341" frameBorder="0" allow="autoplay; fullscreen" allowFullScreen></iframe>
                 </div>
         </section>
+
         <section>
+            <a name="principles"/>
             <h2>The event follows these DDD Principles:</h2>
 
             <ul>
@@ -51,29 +85,38 @@ export default () => (
                 </li>
             </ul>
         </section>
+
         <section>
             <FullWidthImage url={'/static/banners/ticketinfo.jpg'}/>
         </section>
-        <section>
+
+        <section id="inclusivity">
+            <a name="inclusivity"/>
             <h1>Promoting Inclusivity</h1>
             <p>
                 As an embodiment of the East Midlands tech community, we want to promote inclusivity, support and
                 camaraderie. Here are just a few of the ways we ai to do this:
             </p>
-        </section>
-        <section>
+
+            <a name="accessibility"/>            
+            <h2>Accessibilty Page</h2>
+            <p>
+                In order to remain transparent, we have tried to answer as many accessibilty related questions as we could on our <a href="https://www.dddeastmidlands.com/accessibility/" target="_blank">Accessibility Page</a>.
+            </p>
+
+            <a name="selection"/>            
             <h2>Submission And Selection Process</h2>
             <p>
                 In line with the DDD principles, the submission process is anonymous and the selection process democratic. This is a conference for the community, by the community. All talks that are submitted are anonymous. When the attendees vote on which talks they want to see, and when the organisers are sorting out the agenda, identifiable information about those who have submitted can't bee seen. This is to keep the process as fair as possible and ensure talks are picked on their advertised content, not by who is presenting.
             </p>
             <p>
-                As mentioned, attendees will get to vote on the talks they wish to see. Talks will be selected by popular vote, but with some discretion by the organisors of the conference. The discretion is to ensure variety at the conference. If two or more talks are nearly exactly the same, the most popular will continue through and the next most popular, different talk will replace the one with identical content. 
+                As mentioned, attendees will get to vote on the talks they wish to see. Talks will be selected by popular vote, but with some discretion by the organisers of the conference. The discretion is to ensure variety at the conference. If two or more talks are nearly exactly the same, the most popular will continue through and the next most popular, different talk will replace the one with identical content. 
             </p>
             <p>
-                We also ask that all talk submissions abide to the <a href="/code-of-conduct/">Code of Conduct</a>. We want all attendees to feel comfortable at the event, so ask that no submissions or talks contain content of a graphic, voilent or sexual nature or contain any language that may be considered marginalising or hateful. If you wouldn't want to say it to someone you respect, please don't include it in your submission. Organisers hold the right to remove anything that may be thought to cause distress.
+                We also ask that all talk submissions abide to the <a href="/code-of-conduct/">Code of Conduct</a>. We want all attendees to feel comfortable at the event, so ask that no submissions or talks contain content of a graphic, violent or sexual nature or contain any language that may be considered marginalising or hateful. If you wouldn't want to say it to someone you respect, please don't include it in your submission. Organisers hold the right to remove anything that may be thought to cause distress.
             </p>
-        </section>
-        <section>
+
+            <a name="speaking"/>            
             <h2>Making speaking accessible</h2>
             <p>
                 We would like to encourage more people to speak and to encourage a diverse range of backgrounds, experiences and tech related roles to come and share their learnings at our event. There are a number of ways in which we are trying to make speaking more accessible:
@@ -81,10 +124,10 @@ export default () => (
             <ul>
                 <li><b>Offering mentors for speakers that are selected and request extra help.</b></li>
                 <p>
-                    Speaking infront of a crowd of people isn't easy and we know it. There will be the option to highlight that you would like extra support, as a first time speaker, or even just as someone who feels that they would benefit from it.
+                    Speaking in front of a crowd of people isn't easy and we know it. There will be the option to highlight that you would like extra support, as a first-time speaker, or even just as someone who feels that they would benefit from it.
                 </p>
                 <p>
-                    The East Midlands is lucky to host some amazing (and incredibly generous) international and experienced speakers. Some of these fine people are donating their time to any speakers that indicate they want extra support. This support covers ways to address nerves, timing a talk, structuring the content of a talk, making sure your talk aligns to it's description and more.
+                    The East Midlands is lucky to host some amazing (and incredibly generous) international and experienced speakers. Some of these fine people are donating their time to any speakers that indicate they want extra support. This support covers ways to address nerves, timing a talk, structuring the content of a talk, making sure your talk aligns to its description and more.
                 </p>
                 <li><b>Arranging an optional workshop for all speakers to help them construct their talk.</b></li>
                 <p>
@@ -99,31 +142,13 @@ export default () => (
                 </p>
             </ul>
         </section>
-        <section>
-            <h2>Inclusivity Sponsorship Option (Still Available!)</h2>
-            <p>
-                One of the options offered to our kind sponsors is to fund live captioning of all talks. This would
-                enable a whole new audience to enjoy the event and learn from the fantastic content from the speakers.
-            </p>
-            <p>
-                These captions are provided by  <a href="https://www.121captions.com/" target="_blank">121 Captions</a>, and the company (or companies, we are happy to split the costs across more than one collaborating businesses) who support this initiative will have their logo displayed on any screen showing these live captions.
-            </p>
-        </section>
-        <section>
-            <h2>I'm hooked! Tell me more!</h2>
-            <p> 
-                These are but a few of the initiatives and concerns we have covered as part of making this event as
-                accessbile and enjoyable to as many people as possible. Dietary requirements will be covered, there is a
-                code of conduct public on this webiste and more. We have tried to acheive what we can within budget, but for some things, budget is a restriction. 
-                </p>
-            <p>
-                This is our very first event of this size, so if you feel we miss anything this year, get in touch so that we can improve it in the future.
-            </p>
-        </section>
+
         <section>
             <FullWidthImage url={'/static/banners/citycenter.jpg'}/>
         </section>
-        <section>
+
+        <section id="ddd-about">
+            <a name="ddd-about"/>            
             <h1>About Developer! Developer! Developer! (DDD)</h1>
             <p>
                 DDD was first formed as a conference in 2005, the first event happening in Reading, UK. Since then it
@@ -138,15 +163,16 @@ export default () => (
                 Though the original DDD conference is focused on .NET, DDD East Midlands is going to be open to a range
                 of talks within the field of technology. It is language and technology agnostic.
             </p>
-        </section>
-        <section>
-            <h2>Other DDD Events:</h2>
+
+            <a name="ddd-about"/>            
+            <h2>Other DDD Events</h2>
             <p><b>UK</b></p>
             <ul>
                <li><a href="https://twitter.com/Reading" target="_blank">DDD Reading</a></li>
                <li><a href="https://twitter.com/dddnorth" target="_blank">DDD North</a></li>
                 <li><a href="https://www.dddeastanglia.com/" target="_blank">DDD East Anglia</a></li>
                 <li><a href="https://dddscotland.org/" target="_blank">DDD Scotland</a></li>
+                <li><a href="https://dddsouthwest.com/" target="_blank">DDD South West</a></li>
                 <li><a href="https://twitter.com/dddbelfast" target="_blank">DDD Belfast</a></li>
                 <li><a href="https://www.dddwales.com/" target="_blank">DDD Wales</a></li>
             </ul>
@@ -162,7 +188,9 @@ export default () => (
             <li><a href="https://twitter.com/DDDNetherlands" target="_blank">DDD Netherlands</a></li>
             </ul>
         </section>
-        <section>
+
+        <section id="organisers">
+            <a name="organisers"/>            
             <h1>The Organisers</h1>
             <p>
                 The very first DDD East Midlands is being organised by Moreton Brockley and Jessica White. Both have
@@ -177,6 +205,7 @@ export default () => (
             <FullWidthImage url={'/static/banners/dasorganizers.jpg'}/>
         </section>           
         <section>
+            <a name="jessica"/>            
             <h2>Jessica White</h2>
             <p>
                 Fully caffeinated, Jessica is more whirling dervish than person. Having founded <a href="">Women In Tech Nottingham</a>
@@ -188,8 +217,8 @@ export default () => (
                 <a className="smallspace" href="https://twitter.com/JessPWhite" target="_blank">Twitter</a>
                 <a href="https://www.linkedin.com/in/jessica-white-67917883/" target="_blank">LinkedIn</a>
             </p>
-        </section>
-        <section>
+
+            <a name="moreton"/>            
             <h2>Moreton Brockley</h2>
             <p>
                 A Delivery Manager and developer, Moreton is the sensible head of the co-founders. He is the number
