@@ -167,7 +167,7 @@ export default () => (
             <a name="voting"/>
             <h2>Attendees can vote using a traffic light system.</h2>
            <p>
-               During the day there will boxes outside each room for attendees to put their votes into. All voted will be 
+               During the day there will boxes outside each room for attendees to put their votes into. All votes will be 
                conducted with a traffic light system:
            </p>
            <ul>
