@@ -22,7 +22,7 @@ export default () => (
             <p><strong>General</strong></p>
             <ul>
                 <li><a href="#rooms">Rooms</a></li>
-                <li><a href="#tech">Tech</a></li>
+                <li><a href="#tech"> Available Tech</a></li>
             </ul>
             
             <p><strong>Before The Conference</strong></p>
@@ -121,7 +121,7 @@ export default () => (
             </p>
             
             <a name="tech"/>
-            <h2>Tech</h2>
+            <h2>Available Tech</h2>
 
             <h4>Screen sizes/aspect ratio</h4>
             <p>
@@ -132,11 +132,6 @@ export default () => (
                 All rooms have wireless capabilities for MAC and PC, they also have both HDMI and VGA adaptors.
                 The main lecture theatre (Room 1/Lecture Theatre 2) has all of the above plus Mini Display Port and Mini HDMI. 
                 There is also a visualizer available in each Lecture Theatre.
-            </p>
-            <h4>PAT testing</h4>
-            <p>
-                Any device which can be plugged in (including laptop chargers) needs to be less than 1 year old or PAT tested.
-                We are currently looking into details around PAT testing to share.
             </p>
             <h4>Microphones</h4>
             <p>
