@@ -38,6 +38,12 @@ export default () => (
                 <li><a href="#driving">Driving</a></li>
             </ul>
 
+            <p><strong>Setup On The Day</strong></p>
+            <ul>
+                <li><a href="#arrival">Arrival</a></li>
+                <li><a href="#signing-in">Signing In</a></li>
+            </ul>
+
             <p><strong>General Conference Day Information</strong></p>
             <ul>
                 <li><a href="#power">Power</a></li>
@@ -165,12 +171,23 @@ export default () => (
 
             <a name="pat-before"/>
             <h2>PAT Testing</h2>
+            <h4>If you can, get any devices that will be plugged in PAT tested before the event.</h4>
+            <p>            
+                Due to venue insurance restrictions, we need to be sure that anything that may be plugged 
+                into a socket on the day <strong>either:</strong>
+            </p>
+            <ul>
+                <li>Has a current PAT test sticker/certificate</li>
+                <li>Is less than one year old</li>
+            </ul>
             <p>
-                Any devices that will be plugged in during the day need to be PAT tested. They need to have a valid visible sticker on them or a certificate present. 
-                Where possible, please try to get your devices PAT tested before the day. This includes any laptop chargers. 
+                This includes any laptop chargers or phone chargers.
             </p>
             <p>
-               There will be a limited amount of PAT testing available on the day. First priority will go to speakers and then to exhibitors.
+                We will provide limited PAT testing on the day, with speakers being priority candidates for this service.
+                This service will be available between <strong>7.30am - 9.30am the day of the conference</strong>. Registration for the 
+                event opens to the general public at 8.00am so there is a window in the morning where exclusively speakers and exhibitors can 
+                queue to get their devices PAT tested.
             </p>
 
             <a name="gold-sponsors"/>
@@ -303,6 +320,28 @@ export default () => (
                 <strong><a href="https://www.q-park.co.uk/en-gb/cities/nottingham/talbot-street/" target="_blank">Talbot Street car park:</a></strong> postcode NG1 5GG<br />
                 co-ordinates 52.956143,-1.154433
             </p>
+        </section>
+
+        <section id="setup-on-day">
+        <h1>Setup On The Day</h1> 
+        
+            <a name="arrival"/>
+            <h2>Arrival</h2>
+            <p>
+                You can arrive at the venue any time after 7.15am on the day of the event. This will give you the opportunity to do 
+                any last minute set up and settle in before registration opens at 8.00am. 
+            </p>
+            <p>
+                If you need to use the PAT testing service we are providing, that opens from 7.30am. 
+            </p>
+
+            <a name="signing-in"/>
+            <h2>Signing In</h2>
+            <p>
+                All those who are looking after your exhibition booth that have a ticket through your sponsorship will have an Eventbrite ticket. On coming in, 
+                a crew member will scan the QR code on your Eventbrite ticket. You will then be directed to fill in your lanyards.
+            </p>
+
         </section>
 
         <section id="general">
