@@ -22,7 +22,7 @@ export default () => (
             <p><strong>General</strong></p>
             <ul>
                 <li><a href="#rooms">Rooms</a></li>
-                <li><a href="#tech">Tech</a></li>
+                <li><a href="#tech"> Available Tech</a></li>
             </ul>
             
             <p><strong>Before The Conference</strong></p>
@@ -121,7 +121,7 @@ export default () => (
             </p>
             
             <a name="tech"/>
-            <h2>Tech</h2>
+            <h2>Available Tech</h2>
 
             <h4>Screen sizes/aspect ratio</h4>
             <p>
@@ -132,11 +132,6 @@ export default () => (
                 All rooms have wireless capabilities for MAC and PC, they also have both HDMI and VGA adaptors.
                 The main lecture theatre (Room 1/Lecture Theatre 2) has all of the above plus Mini Display Port and Mini HDMI. 
                 There is also a visualizer available in each Lecture Theatre.
-            </p>
-            <h4>PAT testing</h4>
-            <p>
-                Any device which can be plugged in (including laptop chargers) needs to be less than 1 year old or PAT tested.
-                We are currently looking into details around PAT testing to share.
             </p>
             <h4>Microphones</h4>
             <p>
@@ -167,7 +162,7 @@ export default () => (
             <a name="voting"/>
             <h2>Attendees can vote using a traffic light system.</h2>
            <p>
-               During the day there will boxes outside each room for attendees to put their votes into. All voted will be 
+               During the day there will boxes outside each room for attendees to put their votes into. All votes will be 
                conducted with a traffic light system:
            </p>
            <ul>
@@ -176,12 +171,19 @@ export default () => (
                 <li className="red">Red  - That talk wasn't for me.</li></strong>
             </ul>
             <p>
-                This is mostly for us, so we can see what kinds of talks have a good reception to help us plan for our future events.
-                If you want to know what votes you received, you can ask at the information desk after your talk.
+                There are a couple of reasons we have this voting system in place:
             </p>
-            <p>
-                We are not offering more in-depth means of feedback this year as we want to keep this first event as simple as we can.
-            </p>
+            <ul>
+                <li>
+                    <strong>To give our speakers some light indication around the reception of their talks.</strong> We cannot offer more in-depth means of feedback this 
+                    year as it would require a level of moderation and work that, unfortunately, we don't have the time to invest in this first year.
+                </li>
+                <li>
+                    <strong>To give us an indication of which subject areas are of particular interest in the local area.</strong> This is not for any future talk 
+                    curation, but to give us more knowledge about the local area so that we can help our sponsors target their efforts appropriately, 
+                    and to aid us in our own marketing efforts.
+                </li>
+            </ul>
         </section>
 
         <section id="day-of">
@@ -196,11 +198,26 @@ export default () => (
             <a name="pat-testing"/>
             <h2>PAT Testing</h2>
             <h4>If you can, get any devices that will be plugged in PAT tested before the event.</h4>
-            <p>
-                We will provide limited PAT testing on the day, with speakers being priority candidates for this service. 
-                Please arrive in plenty of time before your talk if you need your devices PAT tested.
+            <p>            
                 Due to venue insurance restrictions, we need to be sure that anything that may be plugged 
-                into a socket on the day, has a current PAT test sticker and certificate. This includes any laptop chargers.
+                into a socket on the day <strong>either:</strong>
+            </p>
+            <ul>
+                <li>Has a current PAT test sticker/certificate</li>
+                <li>Is less than one year old</li>
+            </ul>
+            <p>
+                This includes any laptop chargers or phone chargers.
+            </p>
+            <p>
+                We will provide limited PAT testing on the day, with speakers being priority candidates for this service.
+                This service will be available between <strong>7.30am - 9.30am the day of the conference</strong>. Registration for the 
+                event opens to the general public at 8.00am so there is a window in the morning where exclusively speakers and exhibitors can 
+                queue to get their devices PAT tested.
+            </p>
+            <p>
+                If you will need your laptop cables PAT tested but cannot make it to the venue between those hours, contact Jessica to arrange 
+                dropping off your chargers the evening before.
             </p>
 
             <a name="green-room"/>
