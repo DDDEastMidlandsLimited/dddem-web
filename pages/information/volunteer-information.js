@@ -107,15 +107,31 @@ export default () => (
             <a name="voting"/>
             <h2>What is the voting about?</h2>
             <p>
-                There will be a box outside each room and cards provided for attendees to vote with.
+                There will be a box outside each room and cards provided for attendees to vote with. All votes will be 
+                conducted with a traffic light system:
             </p>
             <ul>
-                <strong><li className="green">Green - That talk was EPIC.</li>
-                <li className="yellow">Yellow  - That talk was good.</li>
-                <li className="red">Red  -That talk wasn't for me.</li></strong>
+                <strong><li className="green">Green - That talk was EPIC</li>
+                <li className="yellow">Yellow  - That talk was good</li>
+                <li className="red">Red  - That talk wasn't for me.</li></strong>
             </ul>
             <p>
-                These are used for feedback and so that we know which talks do well. You can share the results with the speaker if they ask for them
+                There are a couple of reasons we have this voting system in place:
+            </p>
+            <ul>
+                <li>
+                    <strong>To give our speakers some light indication around the reception of their talks.</strong> We cannot offer more in-depth means of feedback this 
+                    year as it would require a level of moderation and work that, unfortunately, we don't have the time to invest in this first year.
+                </li>
+                <li>
+                    <strong>To give us an indication of which subject areas are of particular interest in the local area.</strong> This is not for any future talk 
+                    curation, but to give us more knowledge about the local area so that we can help our sponsors target their efforts appropriately, 
+                    and to aid us in our own marketing efforts.
+                </li>
+            </ul>
+            <p>
+                If you are looking after a room, we ask that you count the votes at the end of each session and report the final numbers to us. 
+                You can share the results with the speaker if they ask for them or direct them to ask at the information desk.
             </p>
 
             <a name="free-time"/>
