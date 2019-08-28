@@ -216,8 +216,8 @@ export default () => (
             </p>
             <p>
                 We will provide limited PAT testing on the day, with speakers being priority candidates for this service.
-                This service will be avaiable between <strong>7.30am - 9.30am the day of the conference</strong>. Registration for the 
-                event opends to the general public at 8.00am so there is a window in the morning where exclusively speakers and exhibitors can 
+                This service will be available between <strong>7.30am - 9.30am the day of the conference</strong>. Registration for the 
+                event opens to the general public at 8.00am so there is a window in the morning where exclusively speakers and exhibitors can 
                 queue to get their devices PAT tested.
             </p>
             <p>
