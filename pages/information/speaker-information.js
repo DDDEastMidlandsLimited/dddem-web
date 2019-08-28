@@ -205,7 +205,14 @@ export default () => (
             <h4>If you can, get any devices that will be plugged in PAT tested before the event.</h4>
             <p>            
                 Due to venue insurance restrictions, we need to be sure that anything that may be plugged 
-                into a socket on the day, has a current PAT test sticker and certificate. This includes any laptop chargers.
+                into a socket on the day <strong>either:</strong>
+            </p>
+            <ul>
+                <li>Has a current PAT test sticker/certificate</li>
+                <li>Is less than one year old</li>
+            </ul>
+            <p>
+                This includes any laptop chargers or phone chargers.
             </p>
             <p>
                 We will provide limited PAT testing on the day, with speakers being priority candidates for this service.
