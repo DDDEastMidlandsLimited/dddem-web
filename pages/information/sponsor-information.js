@@ -1,5 +1,6 @@
 import Layout from '../../components/Layout'
 import Header from "../../components/Header"
+import FullWidthImage from "../../components/FullWidthImage"
 import theme from "../../theme/theme"
 import Head from "next/head"
 
