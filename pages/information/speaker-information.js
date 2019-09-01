@@ -4,7 +4,6 @@ import theme from "../../theme/theme"
 import Head from "next/head"
 import FullWidthImage from "../../components/FullWidthImage"
 
-
 export default () => (
     <Layout>
         <Head>
