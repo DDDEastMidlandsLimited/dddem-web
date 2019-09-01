@@ -43,10 +43,17 @@ export default () => (
                 <li><a href="#q-and-a">Q and A space</a></li>
             </ul>
 
-            <p><strong>After The Conference</strong></p>
+            <p><strong>After The Conference Media</strong></p>
             <ul>
-                <li><a href="#after-party">The Unofficial After Party</a></li>
                 <li><a href="#talk-videos">Videoed Talks</a></li>
+            </ul>
+
+            <p><strong>PubConf - The Unofficial After Party</strong></p>
+            <ul>
+                <li><a href="#after-party-about">About</a></li>
+                <li><a href="#after-party-rules">Rules of PubConf</a></li>
+                <li><a href="#pubconf-tickets">Be alerted about tickets</a></li>
+                <li><a href="#speak-pubconf">Fancy giving it a shot?</a></li>
             </ul>
 
             <p><strong><a href="#checklist">Suggested Checklist</a></strong></p>
@@ -204,7 +211,7 @@ export default () => (
             </p>
             <ul>
                 <li>Has a current PAT test sticker/certificate</li>
-                <li>Is less than one year old</li>
+                <li>Is less than one year old. Please ensure that where electrical items are less than a year old, evidence of this is provided.</li>
             </ul>
             <p>
                 This includes any laptop chargers or phone chargers.
@@ -226,6 +233,12 @@ export default () => (
             <p>
                 On the day there will be a speakers green room. Here you can practice or prepare for your talk, or just get some peace away 
                 from the hustle and bustle of the conference.
+            </p>
+            <p>
+               <strong>Try out the visualiser</strong> 
+            </p>
+            <p>
+                A visualiser will be set up in the Speakers Green Room so that you can try it out before you do your talk.
             </p>
 
             <a name="room-arrival"/>
@@ -265,15 +278,7 @@ export default () => (
         </section>
 
         <section id="after">
-        <h1>After The Conference</h1> 
-
-            <a name="after-party"/>
-            <h2>The Unofficial After Party</h2>
-            <p>
-                After the conference, there will be a special PubConf featuring some of our speakers and special guests. This 
-                evening event has comedy talks, music, food and beverages. It's great fun for all and we encourage you to come along.
-            </p>
-
+        <h1>After The Conference Media</h1> 
             <a name="talk-videos"/>
             <h2>Videoed Talks</h2>
             <p>
@@ -281,6 +286,86 @@ export default () => (
             </p>
             <li>For future conference submissions. Often conference submissions are strengthened with the evidence of your presentation skills.</li>
             <li>To keep the conversation going after the conference. Your talks can be shared with all those who might find them useful.</li>
+        </section>
+
+
+        <section id="pubconf">
+        <h1>PubConf - The Unofficial After Party</h1> 
+
+            <a name="after-party-about"/>
+            <h2>About</h2>
+            <p>
+                After the conference, there will be a special <a href="https://pubconf.io/events/2019/nottingham/" target="_blank">PubConf</a> featuring some of our speakers and special guests. This 
+                evening event has comedy talks, music, food and beverages. It's great fun for all and we encourage you to come along.
+            </p>
+            <p>
+                <strong>Quick about:</strong>
+                <ul>
+                    <li>
+                        The talks conducted at PubConf are 5 minute, comedy ignite talks:
+                    </li>
+                    <li>
+                        20 slides timed to increment every 15 seconds. The speakers have no control
+                    </li>
+                    <li>
+                        The top three talks will go into a final battle to win prizes. These three finalists will be presented 
+                        with a ignite deck they have never seen before and given a topic. They will then have to come up with an 
+                        impromptu talk on the spot.
+                    </li>
+                    <li>
+                        Talk topics have an emphasis on humour. Often the content is not suitable to be shared away 
+                        from the safety of PubConf.
+                    </li>
+                    <li>
+                        PubConf is a separate entity and business from DDD East Midlands. As such they have their own 
+                        Code of Conduct. Hence "Unofficial" after party. We are not involved in its organisation.
+                    </li>
+                </ul>
+            </p>
+            <p>
+                This is the first PubConf in the UK outside of London and it's going to be brilliant.
+            </p>
+            
+            <FullWidthImage url={'/static/banners/pubconf.png'}/>
+
+            <a name="after-party-rules"/>
+            <h2>Rules of PubConf</h2>
+            <p>
+                <strong>What happens at PubConf, stays at Pubconf.</strong>
+                <ul>
+                    <li>No photos or videos unless you have the speakers explicit permission.</li>
+                    <li>No quoting talks. (Taken out of context, a joke can be damaging)</li>
+                </ul>
+            </p>
+
+            <a name="pubconf-tickets"/>
+            <h2>Be alerted about tickets</h2>
+            <p>
+                Go to the <a href="https://pubconf.io/events/2019/nottingham/" target="_blank">PubConf website</a> to find out more and 
+                sign up for an email alert when tickets are released.
+            </p>
+
+            <a name="speak-pubconf"/>
+            <h2>Fancy giving it a shot?</h2>
+            <p>
+                Dylan Beattie is organising PubConf Nottingham. If you are a speaker and are interested in taking part (it's a great challenge 
+                and a lot of fun) do the following:
+            </p>
+           <ul>
+               <li>
+                   <a href="https://www.technottingham.com/slack" target="_blank">Join the Tech Nottingham Slack Group</a>
+               </li>
+               <li>
+                   Join the channel #pubconf or DM Dylan Beattie
+               </li>
+               <li>
+                   Send Dylan a photo, talk title and tagline for yourself.
+               </li>
+           </ul>
+           <p>
+               See an example of a previous PubConf talk <a href="https://youtu.be/USmUlshjcd4" target="_blank">here</a>
+            </p>
+
         </section>
 
         <section id="checklist">
