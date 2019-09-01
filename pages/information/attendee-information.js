@@ -1,5 +1,6 @@
 import Layout from '../../components/Layout'
 import Header from "../../components/Header"
+import FullWidthImage from "../../components/FullWidthImage"
 import theme from "../../theme/theme"
 import Head from "next/head"
 
@@ -233,10 +234,25 @@ export default () => (
             <a name="food"/>
             <h2>Food and Dietary Requirements</h2>
             <p>
-                Lunch and snacks will be provided on the day.
+                Lunch and snacks will be provided on the day. This will be a hot buffet lunch and the options will be chefs choice on the day.
             </p>
             <p>
                 All food is prepared in kitchens where nuts, gluten and other allergens could be present. As the menu descriptions cannot include all ingredients, we will try to cater to the requirements you listed as part of your ticket registration.
+            </p>
+            <p>
+                <strong>Here is an example menu provided by the menu to give you an idea of what might be provided for lunch:</strong>
+            </p>
+            <p>
+                <ul>
+                    <li>Stir fried vegetables and beans in a Korean style bulgogi sauce</li>
+                    <li>Chicken, leek and mushroom pie topped with shortcrust pastry</li>
+                    <li>Lamb rogan josh served with naan and mango chutney</li>
+                    <li>Parmentier potatoes</li>
+                    <li>Steamed coriander rice</li>
+                    <li>Medley of garden vegetables</li>
+                    <li>Carrot, spring onion and sultana salad</li>
+                    <li>Spiced cous cous</li>
+                </ul>
             </p>
 
             <a name="drink"/>
@@ -351,7 +367,7 @@ export default () => (
 
              <FullWidthImage url={'/static/banners/pubconf.png'}/>
 
-             <a name="after-party-rules"/>
+            <a name="after-party-rules"/>
             <h2>Rules of PubConf</h2>
             <p>
                 <strong>What happens at PubConf, stays at Pubconf.</strong>
