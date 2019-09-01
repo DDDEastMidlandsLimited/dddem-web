@@ -1,5 +1,6 @@
 import Layout from '../../components/Layout'
 import Header from "../../components/Header"
+import FullWidthImage from "../../components/FullWidthImage"
 import theme from "../../theme/theme"
 import Head from "next/head"
 
@@ -37,9 +38,14 @@ export default () => (
             <p><strong>After The Conference</strong></p>
             <ul>
                 <li><a href="#tear-down">Tear Down</a></li>
-                <li><a href="#after-party">The Unofficial After Party- PubConf</a></li>
             </ul>
-            
+
+            <p><strong>PubConf - The Unofficial After Party</strong></p>
+            <ul>
+                <li><a href="#after-party-about">About</a></li>
+                <li><a href="#after-party-rules">Rules of PubConf</a></li>
+                <li><a href="#pubconf-tickets">Be alerted about tickets</a></li>
+            </ul>
         </section>
         
         <section id="introduction">
@@ -88,7 +94,18 @@ export default () => (
                 <li>Ask you to help us set up lanyards and some of the area.</li>
             </ul>
 
-            <h4>On the day of the conference</h4> 
+            <h4>On the day of the conference</h4>
+            
+            <h5>Morning responsibilities</h5>
+            <p>
+                More detail will be given before but there are some responsibilities that you might be asked to perform 
+                as part of being part of the morning shift.
+            </p>
+            <ul>
+                <li>You may be asked to sign in attendees.</li>
+                <li>One or two of the crew members will be asked to meet attendees at Costa Coffee and escort them to the venue.</li>
+            </ul>
+
             <h5>If you are responsible for a room:</h5>
             <ul>
                 <li>Inform us if a speaker has not shown up to their session.</li>
@@ -102,6 +119,11 @@ export default () => (
                 <li>Answer attendee questions or direct them to the information desk if you can’t answer their queries.</li>
                 <li>Help us manage the Information Desk.</li>
                 <li>Help us with bits and bobs to ensure the event goes smoothly.</li>
+            </ul>
+
+            <h5>If you have an afternoon shift:</h5>
+            <ul>
+                <li>You may be asked if you can stay behind to help us tear down the conference.</li>
             </ul>
 
             <a name="voting"/>
@@ -241,33 +263,66 @@ export default () => (
             <p>
                 Some volunteers will be asked to stay behind after the conference to help us tear down the conference and pack up.
             </p>
-
-             <a name="after-party"/>
-            <h2>The Unofficial After Party - PubConf</h2>
-            <p>
-                After the conference there will be an unofficial after party at <a href="https://montysbarandsocial.co.uk" target="_blank">Montys Bar and Social</a>
-            </p>
-            <p>
-                PubConf is an evening of comedy and music. Selected speakers will give humorous talks against the clock. All talks are "Ignite" talks. Speakers have 
-                20 slides which self increment every 15 seconds. The top three presenters then go on to compete for prizes by presenting ignite decks which they have never 
-                seen before.
-            </p>
-            <p>
-                Remember with these talks, what happens at PubConf, stays at PubConf. The talks can not be photographed, filmed or quoted without the speakers express permission.
-            </p>
-            <p>
-                There will also be music from Dylan Beattie, drinks and food.
-            </p>
-            <p>
-                This is an event for over 18's as there will be alcohol present. It will be a great evening and we highly recommend you come along. 
-            </p>
-            <p>
-                Tickets are to be released soon and ANYONE can buy a ticket. You don't have to come to DDD East Midlands Conference to attend PubConf.
-            </p>
-            <p>
-                Find out more about PubConf <a href="https://pubconf.io/" target="_blank">here</a>.
-            </p>
         </section>
+
+        <section id="pubconf">
+        <h1>PubConf - The Unofficial After Party</h1> 
+
+             <a name="after-party-about"/>
+            <h2>About</h2>
+            <p>
+                After the conference, there will be a special <a href="https://pubconf.io/events/2019/nottingham/" target="_blank">PubConf</a> featuring some of our speakers and special guests. This 
+                evening event has comedy talks, music, food and beverages. It's great fun for all and we encourage you to come along.
+            </p>
+            <p>
+                <strong>Quick about:</strong>
+                <ul>
+                    <li>
+                        The talks conducted at PubConf are 5 minute, comedy ignite talks:
+                    </li>
+                    <li>
+                        20 slides timed to increment every 15 seconds. The speakers have no control
+                    </li>
+                    <li>
+                        The top three talks will go into a final battle to win prizes. These three finalists will be presented 
+                        with a ignite deck they have never seen before and given a topic. They will then have to come up with an 
+                        impromptu talk on the spot.
+                    </li>
+                    <li>
+                        Talk topics have an emphasis on humour. Often the content is not suitable to be shared away 
+                        from the safety of PubConf.
+                    </li>
+                    <li>
+                        PubConf is a separate entity and business from DDD East Midlands. As such they have their own 
+                        Code of Conduct. Hence "Unofficial" after party. We are not involved in its organisation.
+                    </li>
+                </ul>
+            </p>
+            <p>
+                This is the first PubConf in the UK outside of London and it's going to be brilliant.
+            </p>
+
+             <FullWidthImage url={'/static/banners/pubconf.png'}/>
+
+             <a name="after-party-rules"/>
+            <h2>Rules of PubConf</h2>
+            <p>
+                <strong>What happens at PubConf, stays at Pubconf.</strong>
+                <ul>
+                    <li>No photos or videos unless you have the speakers explicit permission.</li>
+                    <li>No quoting talks. (Taken out of context, a joke can be damaging)</li>
+                </ul>
+                <strong>Attendees must be 18 years old or over as alcohol is being served at the venue.</strong>
+            </p>
+
+            <a name="pubconf-tickets"/>
+            <h2>Be alerted about tickets</h2>
+            <p>
+                Go to the <a href="https://pubconf.io/events/2019/nottingham/" target="_blank">PubConf website</a> to find out more and 
+                sign up for an email alert when tickets are released.
+            </p>
+
+         </section>
 
         <style jsx>
             {`
