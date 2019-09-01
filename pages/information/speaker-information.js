@@ -43,6 +43,13 @@ export default () => (
                 <li><a href="#q-and-a">Q and A space</a></li>
             </ul>
 
+            <p><strong>Social Media and Photos</strong></p>
+            <ul>
+                <li><a href="#photographs">Photographs</a></li>
+                <li><a href="#instagram">Instagram Stories</a></li>
+                <li><a href="#social-posts">Social Media Posts</a></li>
+            </ul>
+
             <p><strong>After The Conference Media</strong></p>
             <ul>
                 <li><a href="#talk-videos">Videoed Talks</a></li>
@@ -276,6 +283,47 @@ export default () => (
                 during or at the end of your talk that you will be available there to be approached by attendees after your talk.
             </p>
         </section>
+
+        <section id="social-media">
+        <h1>Social Media and Photos</h1>
+            <p>
+                Feel free to take photos and post on social media before, after and during the event. There are just a few guidelines we ask you to respect.
+            </p> 
+            <a name="photographs"/>
+            <h2>Photographs</h2>
+            <p>
+                We will have a coloured lanyard system at the event to indicate whether attendees are OK with their photo being taken and used.
+            </p>
+            <ul>
+                <li className="green">Green — It’s fine for their photo to be taken</li>
+                <li className="red">Red — Do not include me in your photos or promotional material</li>
+            </ul>
+            <p>
+                We ask that you please respect this system and only use photos that have attendees with green lanyards only.
+            </p>
+
+            <a name="instagram"/>
+            <h2>Instagram Stories</h2>
+            <p>
+                As part of the first event, we are going to have some select volunteers run a couple of our social media accounts. 
+                If you would not mind appearing on our Instagram stories with a short video of what you have thought about the event 
+                and your experience of taking part, please let us know so our helpful volunteers can meet you at the Q and A space to record 
+                a short interview on our Instagram.
+            </p>
+
+            <a name="social-media"/>
+            <h2>Social Media Posts</h2>
+            <p>
+                Please use any of the below information to tag us. If using our hashtag or handles though, please avoid promoting 
+                anything that doesn’t align with our code of conduct.
+            </p>
+            <h3>DDD East Midlands on Social Media</h3>
+            <ul>Hashtags:   #DDDEM   |    #DDDEM2019</ul>
+            <ul>Twitter: <a href="https://twitter.com/dddeastmidlands" target="_blank">@dddeastmidlands</a></ul>
+            <ul>LinkedIn: <a href="https://www.linkedin.com/company/ddd-east-midlands-limited/" target="_blank">DDD East Midlands Limited</a></ul>
+            <ul>Instagram: <a href="https://www.instagram.com/dddeastmidlands/?hl=en" target="_blank">@dddeastmidlands</a></ul>
+
+        </section> 
 
         <section id="after">
         <h1>After The Conference Media</h1> 
