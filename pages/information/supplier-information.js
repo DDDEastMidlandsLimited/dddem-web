@@ -1,5 +1,6 @@
 import Layout from '../../components/Layout'
 import Header from "../../components/Header"
+import FullWidthImage from "../../components/FullWidthImage"
 import theme from "../../theme/theme"
 import Head from "next/head"
 
@@ -36,6 +37,13 @@ export default () => (
                 <li><a href="#green-room">Green Room</a></li>
             </ul>
 
+            <p><strong>Social Media and Photos</strong></p>
+            <ul>
+                <li><a href="#photographs">Photographs</a></li>
+                <li><a href="#social-posts">Social Media Posts</a></li>
+            </ul>
+
+
             <p><strong>Transport</strong></p>
             <ul>
                 <li><a href="#train">Taking the train</a></li>
@@ -48,9 +56,12 @@ export default () => (
                 <li><a href="#teardown-time">Pick Up Time</a></li>
             </ul>
 
-            <p><strong>After The Conference</strong></p>
+            <p><strong>PubConf - The Unofficial After Party</strong></p>
             <ul>
-                <li><a href="#after-party">The Unofficial After Party- PubConf</a></li>
+                <li><a href="#after-party-about">About</a></li>
+                <li><a href="#after-party-rules">Rules of PubConf</a></li>
+                <li><a href="#pubconf-tickets">Be alerted about tickets</a></li>
+                <li><a href="#speak-pubconf">Fancy giving it a shot?</a></li>
             </ul>
 
             <p><strong><a href="#contact">Contacts</a></strong></p>
@@ -162,7 +173,7 @@ export default () => (
             </p>
             <ul>
                 <li>Has a current PAT test sticker/certificate</li>
-                <li>Is less than one year old</li>
+                <li>Is less than one year old. Please ensure that where electrical items are less than a year old, evidence of this is provided.</li>
             </ul>
             <p>
                 This includes any laptop chargers or phone chargers.
@@ -186,6 +197,38 @@ export default () => (
                 someone at the information desk from the DDD East Midlands staff).
             </p>
         </section>
+
+        <section id="social-media">
+        <h1>Social Media and Photos</h1>
+            <p>
+                Feel free to take photos and post on social media before, after and during the event. There are just a few guidelines we ask you to respect.
+            </p> 
+            <a name="photographs"/>
+            <h2>Photographs</h2>
+            <p>
+                We will have a coloured lanyard system at the event to indicate whether attendees are OK with their photo being taken and used.
+            </p>
+            <ul>
+                <li className="green">Green — It’s fine for their photo to be taken</li>
+                <li className="red">Red — Do not include me in your photos or promotional material</li>
+            </ul>
+            <p>
+                We ask that you please respect this system and only use photos that have attendees with green lanyards only.
+            </p>
+
+            <a name="social-media"/>
+            <h2>Social Media Posts</h2>
+            <p>
+                Please use any of the below information to tag us. If using our hashtag or handles though, please avoid promoting 
+                anything that doesn’t align with our code of conduct.
+            </p>
+            <h3>DDD East Midlands on Social Media</h3>
+            <ul>Hashtags:   #DDDEM   |    #DDDEM2019</ul>
+            <ul>Twitter: <a href="https://twitter.com/dddeastmidlands" target="_blank">@dddeastmidlands</a></ul>
+            <ul>LinkedIn: <a href="https://www.linkedin.com/company/ddd-east-midlands-limited/" target="_blank">DDD East Midlands Limited</a></ul>
+            <ul>Instagram: <a href="https://www.instagram.com/dddeastmidlands/?hl=en" target="_blank">@dddeastmidlands</a></ul>
+
+         </section> 
 
         <section>
         <h1>Transport</h1> 
@@ -275,34 +318,83 @@ export default () => (
             </p>
         </section> 
 
-        <section id="after">
-        <h1>After The Conference</h1>         
-            <a name="after-party"/>
-            <h2>The Unofficial After Party - PubConf</h2>
+        <section id="pubconf">
+        <h1>PubConf - The Unofficial After Party</h1> 
+
+             <a name="after-party-about"/>
+            <h2>About</h2>
             <p>
-                After the conference there will be an unofficial after party at <a href="https://montysbarandsocial.co.uk" target="_blank">Montys Bar and Social</a>
+                After the conference, there will be a special <a href="https://pubconf.io/events/2019/nottingham/" target="_blank">PubConf</a> featuring some of our speakers and special guests. This 
+                evening event has comedy talks, music, food and beverages. It's great fun for all and we encourage you to come along.
             </p>
             <p>
-                PubConf is an evening of comedy and music. Selected speakers will give humorous talks against the clock. All talks are "Ignite" talks. Speakers have 
-                20 slides which self increment every 15 seconds. The top three presenters then go on to compete for prizes by presenting ignite decks which they have never 
-                seen before.
+                <strong>Quick about:</strong>
+                <ul>
+                    <li>
+                        The talks conducted at PubConf are 5 minute, comedy ignite talks:
+                    </li>
+                    <li>
+                        20 slides timed to increment every 15 seconds. The speakers have no control
+                    </li>
+                    <li>
+                        The top three talks will go into a final battle to win prizes. These three finalists will be presented 
+                        with a ignite deck they have never seen before and given a topic. They will then have to come up with an 
+                        impromptu talk on the spot.
+                    </li>
+                    <li>
+                        Talk topics have an emphasis on humour. Often the content is not suitable to be shared away 
+                        from the safety of PubConf.
+                    </li>
+                    <li>
+                        PubConf is a separate entity and business from DDD East Midlands. As such they have their own 
+                        Code of Conduct. Hence "Unofficial" after party. We are not involved in its organisation.
+                    </li>
+                </ul>
             </p>
             <p>
-                Remember with these talks, what happens at PubConf, stays at PubConf. The talks can not be photographed, filmed or quoted without the speakers express permission.
+                This is the first PubConf in the UK outside of London and it's going to be brilliant.
             </p>
+
+             <FullWidthImage url={'/static/banners/pubconf.png'}/>
+
+             <a name="after-party-rules"/>
+            <h2>Rules of PubConf</h2>
             <p>
-                There will also be music from Dylan Beattie, drinks and food.
+                <strong>What happens at PubConf, stays at Pubconf.</strong>
+                <ul>
+                    <li>No photos or videos unless you have the speakers explicit permission.</li>
+                    <li>No quoting talks. (Taken out of context, a joke can be damaging)</li>
+                </ul>
             </p>
+
+             <a name="pubconf-tickets"/>
+            <h2>Be alerted about tickets</h2>
             <p>
-                This is an event for over 18's as there will be alcohol present. It will be a great evening and we highly recommend you come along. 
+                Go to the <a href="https://pubconf.io/events/2019/nottingham/" target="_blank">PubConf website</a> to find out more and 
+                sign up for an email alert when tickets are released.
             </p>
+
+             <a name="speak-pubconf"/>
+            <h2>Fancy giving it a shot?</h2>
             <p>
-                Tickets are to be released soon and ANYONE can buy a ticket. You don't have to come to DDD East Midlands Conference to attend PubConf.
+                Dylan Beattie is organising PubConf Nottingham. If you are a speaker and are interested in taking part (it's a great challenge 
+                and a lot of fun) do the following:
             </p>
-            <p>
-                Find out more about PubConf <a href="https://pubconf.io/" target="_blank">here</a>.
+           <ul>
+               <li>
+                   <a href="https://www.technottingham.com/slack" target="_blank">Join the Tech Nottingham Slack Group</a>
+               </li>
+               <li>
+                   Join the channel #pubconf or DM Dylan Beattie
+               </li>
+               <li>
+                   Send Dylan a photo, talk title and tagline for yourself.
+               </li>
+           </ul>
+           <p>
+               See an example of a previous PubConf talk <a href="https://youtu.be/USmUlshjcd4" target="_blank">here</a>
             </p>
-        </section>
+         </section>
 
         <section id="contact">
         <a name="contact"/>
