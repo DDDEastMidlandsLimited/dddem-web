@@ -1,5 +1,6 @@
 import Layout from '../../components/Layout'
 import Header from "../../components/Header"
+import FullWidthImage from "../../components/FullWidthImage"
 import theme from "../../theme/theme"
 import Head from "next/head"
 
@@ -8,7 +9,7 @@ export default () => (
         <Head>
             <title>Sponsor Information</title>
         </Head>
-        <Header title={'Speaker Information'}/>
+        <Header title={'Sponsor Information'}/>
 
         <section name="Contents">
             <h1>Contents</h1>
@@ -22,6 +23,7 @@ export default () => (
                 <li><a href="#tickets">Tickets</a></li>
                 <li><a href="#items">Attendee Bag Items</a></li>
                 <li><a href="#pat-before">PAT Testing</a></li>
+                <li><a href="#gold-sponsors">Gold Representatives</a></li>
             </ul>
 
             <p><strong>Setup The Day Before Conference</strong></p>
@@ -35,6 +37,12 @@ export default () => (
             <ul>
                 <li><a href="#train">Taking the train</a></li>
                 <li><a href="#driving">Driving</a></li>
+            </ul>
+
+            <p><strong>Setup On The Day</strong></p>
+            <ul>
+                <li><a href="#arrival">Arrival</a></li>
+                <li><a href="#signing-in">Signing In</a></li>
             </ul>
 
             <p><strong>General Conference Day Information</strong></p>
@@ -63,6 +71,15 @@ export default () => (
             <ul>
                 <li><a href="#teardown-time">Pick Up Time</a></li>
             </ul>
+
+            <p><strong>PubConf - The Unofficial After Party</strong></p>
+            <ul>
+                <li><a href="#after-party-about">About</a></li>
+                <li><a href="#after-party-rules">Rules of PubConf</a></li>
+                <li><a href="#pubconf-tickets">Be alerted about tickets</a></li>
+            </ul>
+
+             <p><strong><a href="#contact">Contacts</a></strong></p>
 
         </section>
         
@@ -157,12 +174,43 @@ export default () => (
 
             <a name="pat-before"/>
             <h2>PAT Testing</h2>
+            <h4>If you can, get any devices that will be plugged in PAT tested before the event.</h4>
+            <p>            
+                Due to venue insurance restrictions, we need to be sure that anything that may be plugged 
+                into a socket on the day <strong>either:</strong>
+            </p>
+            <ul>
+                <li>Has a current PAT test sticker/certificate</li>
+                <li>Is less than one year old. Please ensure that where electrical items are less than a year old, evidence of this is provided.</li>
+            </ul>
             <p>
-                Any devices that will be plugged in during the day need to be PAT tested. They need to have a valid visible sticker on them or a certificate present. 
-                Where possible, please try to get your devices PAT tested before the day. This includes any laptop chargers. 
+                This includes any laptop chargers or phone chargers.
             </p>
             <p>
-               There will be a limited amount of PAT testing available on the day. First priority will go to speakers and then to exhibitors.
+                We will provide limited PAT testing on the day, with speakers being priority candidates for this service.
+                This service will be available between <strong>7.30am - 9.30am the day of the conference</strong>. Registration for the 
+                event opens to the general public at 8.00am so there is a window in the morning where exclusively speakers and exhibitors can 
+                queue to get their devices PAT tested.
+            </p>
+
+            <a name="gold-sponsors"/>
+            <h2>Gold Representatives</h2>
+            <p>
+               This section only concerns our Gold Tier Sponsors. 
+            </p>
+            <p>
+               We will need some information from you before the event. As part of your sponsorship offering, we will say a short bit about your company but also 
+               present the details of a representative that can be approached at the conference. We will need the following:
+            </p>
+            <ul>
+                <li>A short brief about your company to be given at the opening presentation. A couple of paragraphs long.</li>
+                <li>The name of your represenative for the day.</li>
+                <li>The job title of your represenative for the day.</li>
+                <li>A photo of your represenative for the day.</li>
+                <li>Contact details that your represenative might want to share.</li>
+            </ul>
+            <p>
+                These will be presented alongside your logo in the opening ceremony.
             </p>
         </section> 
 
@@ -275,6 +323,28 @@ export default () => (
                 <strong><a href="https://www.q-park.co.uk/en-gb/cities/nottingham/talbot-street/" target="_blank">Talbot Street car park:</a></strong> postcode NG1 5GG<br />
                 co-ordinates 52.956143,-1.154433
             </p>
+        </section>
+
+        <section id="setup-on-day">
+        <h1>Setup On The Day</h1> 
+        
+            <a name="arrival"/>
+            <h2>Arrival</h2>
+            <p>
+                You can arrive at the venue any time after 7.15am on the day of the event. This will give you the opportunity to do 
+                any last minute set up and settle in before registration opens at 8.00am. 
+            </p>
+            <p>
+                If you need to use the PAT testing service we are providing, that opens from 7.30am. 
+            </p>
+
+            <a name="signing-in"/>
+            <h2>Signing In</h2>
+            <p>
+                All those who are looking after your exhibition booth that have a ticket through your sponsorship will have an Eventbrite ticket. On coming in, 
+                a crew member will scan the QR code on your Eventbrite ticket. You will then be directed to fill in your lanyards.
+            </p>
+
         </section>
 
         <section id="general">
@@ -402,7 +472,87 @@ export default () => (
             <p>
                 <strong>Location: </strong>We ask that you use the loading bay on South Sherwood Street.
             </p>
-        </section> 
+        </section>
+
+        <section id="pubconf">
+        <h1>PubConf - The Unofficial After Party</h1> 
+
+            <a name="after-party-about"/>
+            <h2>About</h2>
+            <p>
+                After the conference, there will be a special <a href="https://pubconf.io/events/2019/nottingham/" target="_blank">PubConf</a> featuring some of our speakers and special guests. This 
+                evening event has comedy talks, music, food and beverages. It's great fun for all and we encourage you to come along.
+            </p>
+            <p>
+                <strong>Quick about:</strong>
+                <ul>
+                    <li>
+                        The talks conducted at PubConf are 5 minute, comedy ignite talks:
+                    </li>
+                    <li>
+                        20 slides timed to increment every 15 seconds. The speakers have no control
+                    </li>
+                    <li>
+                        The top three talks will go into a final battle to win prizes. These three finalists will be presented 
+                        with a ignite deck they have never seen before and given a topic. They will then have to come up with an 
+                        impromptu talk on the spot.
+                    </li>
+                    <li>
+                        Talk topics have an emphasis on humour. Often the content is not suitable to be shared away 
+                        from the safety of PubConf.
+                    </li>
+                    <li>
+                        PubConf is a separate entity and business from DDD East Midlands. As such they have their own 
+                        Code of Conduct. Hence "Unofficial" after party. We are not involved in its organisation.
+                    </li>
+                </ul>
+            </p>
+            <p>
+                This is the first PubConf in the UK outside of London and it's going to be brilliant.
+            </p>
+            
+            <FullWidthImage url={'/static/banners/pubconf.png'}/>
+
+            <a name="after-party-rules"/>
+            <h2>Rules of PubConf</h2>
+            <p>
+                <strong>What happens at PubConf, stays at Pubconf.</strong>
+                <ul>
+                    <li>No photos or videos unless you have the speakers explicit permission.</li>
+                    <li>No quoting talks. (Taken out of context, a joke can be damaging)</li>
+                </ul>
+                <strong>Age limit is over 18 years old as the venue is serving alcohol.</strong>
+            </p>
+
+            <a name="pubconf-tickets"/>
+            <h2>Be alerted about tickets</h2>
+            <p>
+                Go to the <a href="https://pubconf.io/events/2019/nottingham/" target="_blank">PubConf website</a> to find out more and 
+                sign up for an email alert when tickets are released.
+            </p>
+            <p>
+                Anyone can attend PubConf. They don't need to have gone to the DDD East Midlands Conference.
+            </p>
+        </section>
+
+
+        <section id="contact">
+        <a name="contact"/>
+        <h1>Contact</h1> 
+            <p>
+                There are a number of ways to contact the organisers before and during the event:
+            </p>
+            <h2>Slack</h2>
+            <p>
+                You will be added to a DDD East Midlands Slack Channel. Jessica and Moreton will be reachable on there. Please use their handle for anything urgent.
+            </p>
+            <h2>Email</h2>
+            <p>
+                Using the @dddeastmidlands.com email addresses:
+                <li><a href="mailto:jessica@dddeastmidlands.com">Jessica's email</a></li>
+                <li><a href="mailto:moreton@dddeastmidlands.com">Moreton's email</a></li>
+            </p>
+        </section>  
 
         <style jsx>
             {`
