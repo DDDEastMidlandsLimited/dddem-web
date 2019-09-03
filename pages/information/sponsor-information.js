@@ -226,7 +226,7 @@ export default () => (
                 We have to arrange this into time slots due to the limited vehicle space at the venue. If there are any restrictions you have regarding time slot, please let us know in advance.
             </p>
             <p>
-                On the day of the event, the organisers will be at the venue from 07.30. You may turn up any time from then. Attendee registration opens at 08.30.
+                On the day of the event, the organisers will be at the venue from 07.15. You may turn up any time from then. Attendee registration opens at 08.00.
             </p>
             
             <a name="before-parking"/>
