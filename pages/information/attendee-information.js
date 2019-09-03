@@ -49,7 +49,7 @@ export default () => (
             <p><strong>Social Media and Photos</strong></p>
             <ul>
                 <li><a href="#photographs">Photographs</a></li>
-                <li><a href="#social-posts">Social Media Posts</a></li>
+                <li><a href="#social-media">Social Media Posts</a></li>
             </ul>
 
             <p><strong><a href="#pubconf">PubConf - The Unofficial After Party</a></strong></p>
@@ -140,7 +140,7 @@ export default () => (
             <a name="pat-before"/>
             <h2>PAT Testing</h2>
             <p>
-                This point is particularly important if you are taking part in our "Hacktober Corner".
+                <strong>This point is particularly important if you are taking part in our "Hacktober Corner".</strong>
             </p>
             <p>
                 Any devices that will be plugged in during the day need to be PAT tested. They need to have a valid visible sticker on them or a certificate present. 
