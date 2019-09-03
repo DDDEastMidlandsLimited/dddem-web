@@ -11,7 +11,7 @@ export default () => (
         <Header title={'Agenda'}/>
 
         <section name="Agenda">
-            <div className="sessionize-loader" data-sessionize-load-url="https://sessionize.com/api/v2/dwsqznmo/view/gridsmart"><div className="sz-spinner"></div></div>
+            <div className="sessionize-loader" data-sessionize-load-url="https://sessionize.com/api/v2/dwsqznmo/view/GridSmart?under=True"><div className="sz-spinner"></div></div>
         </section>
        
         <style jsx>
