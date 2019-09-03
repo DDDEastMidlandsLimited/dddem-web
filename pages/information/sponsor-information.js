@@ -64,6 +64,7 @@ export default () => (
             <p><strong>Social Media and Photos</strong></p>
             <ul>
                 <li><a href="#photographs">Photographs</a></li>
+                <li><a href="#instagram">Instagram Stories</a></li>
                 <li><a href="#social-posts">Social Media Posts</a></li>
             </ul>
 
@@ -226,7 +227,7 @@ export default () => (
                 We have to arrange this into time slots due to the limited vehicle space at the venue. If there are any restrictions you have regarding time slot, please let us know in advance.
             </p>
             <p>
-                On the day of the event, the organisers will be at the venue from 07.30. You may turn up any time from then. Attendee registration opens at 08.30.
+                On the day of the event, the organisers will be at the venue from 07.15. You may turn up any time from then. Attendee registration opens at 8.00am.
             </p>
             
             <a name="before-parking"/>
@@ -444,6 +445,16 @@ export default () => (
             <p>
                 We ask that you please respect this system and only use photos that have attendees with green lanyards only.
             </p>
+
+            <a name="instagram"/>
+            <h2>Instagram Stories</h2>
+            <p>
+                As part of the first event, we are going to have some select volunteers run a couple of our social media accounts. 
+                If you would not mind appearing on our Instagram stories with a short video of what you have thought about the event 
+                and your experience of taking part, please let us know so our helpful volunteers can come to your exhibition booth to record 
+                a short interview on our Instagram.
+            </p>
+
             <a name="social-media"/>
             <h2>Social Media Posts</h2>
             <p>
