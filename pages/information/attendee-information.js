@@ -18,6 +18,8 @@ export default () => (
             <p><strong><a href="#code-of-conduct">Code of Conduct</a></strong></p>
             <p><strong><a href="#when-and-where">When and Where?</a></strong></p>
             <p><strong><a href="#age">Age Restrictions</a></strong></p>
+            <p><strong><a href="#accessibility">Accessibilty Concerns</a></strong></p>
+
             <p><strong>Tickets</strong></p>
             <ul>
                 <li><a href="#using-tickets">Using Tickets</a></li>
@@ -107,6 +109,14 @@ export default () => (
             <h1>Age Restrictions</h1>
             <p>
                 For insurance reasons, only people over the age of 18 can attend DDD East Midlands. We would love to bring this age limit down in the future, but for the first event, we want to keep some of the cost and organisational overhead relatively low.
+            </p>
+        </section> 
+
+        <section id="accessibility">
+            <a name="accessibility"/>
+            <h1>Accessibility Concerns</h1>
+            <p>
+                We have attempted to answer a number of questions around accessibilty concerns <a href="https://www.dddeastmidlands.com/accessibility/" targe="_blank">see the accessibilty page for more information.</a>
             </p>
         </section> 
 
