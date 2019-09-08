@@ -31,7 +31,7 @@ const Footer = () => (
                 </Link>
             </li>
             <li>
-                <Link href="mailto:jessica@dddeastmidlands.com">
+                <Link href="https://www.dddeastmidlands.com/contact/">
                     <a target="_blank">Contact</a>
                 </Link>
             </li>

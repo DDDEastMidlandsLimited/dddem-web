@@ -85,7 +85,7 @@ export default () => (
                 Please make sure you are familiar with it and adhere to it at all times to create the most inclusive and friendly event for all involved.
             </p>
             <p>
-                Should you have any concerns regarding the Code of Conduct before, during or after the event, please contact the organisers.  
+                Should you have any concerns regarding the Code of Conduct before, during or after the event, please contact the organisers. See the <a href="https://www.dddeastmidlands.com/contact/" target="_blank">contact page for information.</a>
             </p>
         </section> 
 
@@ -225,7 +225,7 @@ export default () => (
                 Registration opens at 8.00am with the opening ceremony starting at 9.00am. You will need your Eventbrite ticket as volunteers will be scanning the QR code.
             </p>
             <p>
-                Once you have been scanned in you will be given a lanyard (the colour of which is base don whether you are happy having your photo taken or not) and asked to fill in the information on the front (Name, Pronoun).
+                Once you have been scanned in you will be given a lanyard (the colour of which is based on whether you are happy having your photo taken or not) and asked to fill in the information on the front (Name, Pronoun).
             </p>
         </section> 
 

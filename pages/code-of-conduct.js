@@ -15,15 +15,8 @@ export default () => (
             <p>Treat everyone in a respectful and kind manner. Harassment and abuse are never tolerated. If you are in
                 a situation that makes you uncomfortable at a DDD East Midlands event, if the event itself is creating
                 an unsafe or inappropriate environment or you are made to feel uncomfortable by anyone at any of our
-                events or in our online communities, please let a member of the event team know or contact
-                &nbsp;
-                <Link href="mailto:jessica@dddeastmidlands.com">
-                    <a>jessica@dddeastmidlands.com</a>
-                </Link>
-                &nbsp;or&nbsp;
-                <Link href="mailto:moreton@dddeastmidlands.com">
-                    <a>moreton@dddeastmidlands.com</a>
-                </Link>
+                events or in our online communities,             
+                <a href="https://www.dddeastmidlands.com/contact/" target="_blank"> please let a member of the event team know or contact and organiser</a>.
             </p>
         </section>
         <section>
@@ -63,14 +56,7 @@ export default () => (
             </p>
             <p>
                 If you are being harassed, notice that someone else is being harassed, or have any other concerns,
-                please let a member of the event team know or contact&nbsp;
-                <Link href="mailto:jessica@dddeastmidlands.com">
-                    <a>jessica@dddeastmidlands.com</a>
-                </Link>
-                &nbsp;and&nbsp;
-                <Link href="mailto:moreton@dddeastmidlands.com">
-                    <a>moreton@dddeastmidlands.com</a>
-                </Link>
+                <a href="https://www.dddeastmidlands.com/contact/" target="_blank"> please let a member of the event team know or contact and organiser</a>.
             </p>
             <p>
                 DDD East Midlands representatives will be happy to help participants contact venue security or
