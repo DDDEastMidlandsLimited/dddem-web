@@ -13,7 +13,7 @@ export default () => (
         <section name="Contents">
             <h1>Contents</h1>
 
-            <p>Applying to Speak</p>
+            <p><strong>Applying to Speak</strong></p>
             <ul>
                 <li><a href="#applicationdate">When can I apply to talk?</a></li>
                 <li><a href="#applicationhow">How do I apply to talk?</a></li>

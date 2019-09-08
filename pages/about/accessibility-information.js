@@ -12,10 +12,10 @@ export default () => (
 
         <section name="Contents">
             <h1>Contents</h1>
-                <p><strong>Multi-faith/Quiet Contemplation Room</strong></p>
-                <ul>
-                    <li><a href="#prayerroom">Will be a place to pray available?</a></li>
-                </ul>
+            <p><strong>Multi-faith/Quiet Contemplation Room</strong></p>
+            <ul>
+                <li><a href="#prayerroom">Will be a place to pray available?</a></li>
+            </ul>
 
             <p><strong>Childcare</strong></p>
             <ul>

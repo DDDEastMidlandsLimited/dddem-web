@@ -13,17 +13,16 @@ export default () => (
         <section name="Contents">
             <h1>Contents</h1>
 
-            <p><a href="#ticketcost">How much do tickets cost?</a></p>
-            <p><a href="#ticketrelease">When will tickets be released?</a></p>
-            <p><a href="#soldout">What if tickets are sold out?</a></p>
-            <p><a href="#return">What do if I can't come to the event anymore?</a></p>
+            <p><strong><a href="#ticketcost">How much do tickets cost?</a></strong></p>
+            <p><strong><a href="#ticketrelease">When will tickets be released?</a></strong></p>
+            <p><strong><a href="#soldout">What if tickets are sold out?</a></strong></p>
+            <p><strong><a href="#return">What do if I can't come to the event anymore?</a></strong></p>
 
         </section>
 
         <section id="cost">
-        <h1>How much do tickets cost?</h1>
             <a name="ticketcost"/>
-            <h2>How much do tickets cost?</h2>
+            <h1>How much do tickets cost?</h1>
             <p>
                Tickets for the event will be free but limited in availability. We wanted to ensure that price wouldn't be a barrier for those wanting to attend.
             </p>
@@ -31,7 +30,7 @@ export default () => (
 
         <section>
             <a name="ticketrelease"/>
-            <h2>When will tickets be released?</h2>
+            <h1>When will tickets be released?</h1>
             <p>
                 Tickets have already been released for the 2019 event.
             </p>
@@ -39,7 +38,7 @@ export default () => (
 
         <section>
             <a name="soldout"/>
-            <h2>What if tickets are sold out?</h2>
+            <h1>What if tickets are sold out?</h1>
             <p>
                 You can sign up to the waitlist through <a href="https://www.eventbrite.co.uk/e/ddd-east-midlands-tickets-58629047058" target="_blank">registering on Eventbrite.</a>
             </p>
@@ -50,7 +49,7 @@ export default () => (
 
         <section>
             <a name="return"/>
-            <h2>What do if I can't come to the event anymore?</h2>
+            <h1>What do if I can't come to the event anymore?</h1>
             <p>
                 If you can no longer come to the event you (we are sad you can't make it!) please return your ticket so that someone else can claim it.
             </p>

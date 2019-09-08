@@ -1,7 +1,7 @@
-import Layout from '../components/Layout'
-import Header from "../components/Header"
-import theme from "../theme/theme"
-import FullWidthImage from "../components/FullWidthImage"
+import Layout from '../../components/Layout'
+import Header from "../../components/Header"
+import theme from "../../theme/theme"
+import FullWidthImage from "../../components/FullWidthImage"
 import Head from "next/head"
 
 export default () => (
@@ -101,7 +101,7 @@ export default () => (
             <a name="accessibility"/>            
             <h2>Accessibilty Page</h2>
             <p>
-                In order to remain transparent, we have tried to answer as many accessibilty related questions as we could on our <a href="/information/accessibility-information" target="_blank">Accessibility Page</a>.
+                In order to remain transparent, we have tried to answer as many accessibilty related questions as we could on our <a href="/about/accessibility-information" target="_blank">Accessibility Page</a>.
             </p>
 
             <a name="selection"/>            
