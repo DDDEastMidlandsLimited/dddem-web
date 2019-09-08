@@ -101,7 +101,7 @@ export default () => (
             <a name="accessibility"/>            
             <h2>Accessibilty Page</h2>
             <p>
-                In order to remain transparent, we have tried to answer as many accessibilty related questions as we could on our <a href="https://www.dddeastmidlands.com/accessibility/" target="_blank">Accessibility Page</a>.
+                In order to remain transparent, we have tried to answer as many accessibilty related questions as we could on our <a href="/information/accessibility" target="_blank">Accessibility Page</a>.
             </p>
 
             <a name="selection"/>            
