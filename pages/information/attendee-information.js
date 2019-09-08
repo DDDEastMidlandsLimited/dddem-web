@@ -18,6 +18,11 @@ export default () => (
             <p><strong><a href="#code-of-conduct">Code of Conduct</a></strong></p>
             <p><strong><a href="#when-and-where">When and Where?</a></strong></p>
             <p><strong><a href="#age">Age Restrictions</a></strong></p>
+<<<<<<< HEAD
+=======
+            <p><strong><a href="#accessibility">Accessibilty Concerns</a></strong></p>
+
+>>>>>>> master
             <p><strong>Tickets</strong></p>
             <ul>
                 <li><a href="#using-tickets">Using Tickets</a></li>
@@ -110,6 +115,17 @@ export default () => (
             </p>
         </section> 
 
+<<<<<<< HEAD
+=======
+        <section id="accessibility">
+            <a name="accessibility"/>
+            <h1>Accessibility Concerns</h1>
+            <p>
+                We have attempted to answer a number of questions around accessibilty concerns <a href="https://www.dddeastmidlands.com/accessibility/" targe="_blank">see the accessibilty page for more information.</a>
+            </p>
+        </section> 
+
+>>>>>>> master
         <section id="tickets">
         <h1>Tickets</h1>            
 
@@ -225,7 +241,11 @@ export default () => (
                 Registration opens at 8.00am with the opening ceremony starting at 9.00am. You will need your Eventbrite ticket as volunteers will be scanning the QR code.
             </p>
             <p>
+<<<<<<< HEAD
                 Once you have been scanned in you will be given a lanyard (the colour of which is based on whether you are happy having your photo taken or not) and asked to fill in the information on the front (Name, Pronoun).
+=======
+                Once you have been scanned in you will be given a lanyard (the colour of which is base don whether you are happy having your photo taken or not) and asked to fill in the information on the front (Name, Pronoun).
+>>>>>>> master
             </p>
         </section> 
 
