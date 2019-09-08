@@ -56,7 +56,7 @@ export default () => (
             </p>
             <p>
                 If you are being harassed, notice that someone else is being harassed, or have any other concerns,
-                <a href="https://www.dddeastmidlands.com/contact/" target="_blank"> please let a member of the event team know or contact and organiser</a>.
+                <a href="/contact" target="_blank"> please let a member of the event team know or contact and organiser</a>.
             </p>
             <p>
                 DDD East Midlands representatives will be happy to help participants contact venue security or
