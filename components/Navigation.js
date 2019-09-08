@@ -24,7 +24,7 @@ class Navigation extends Component {
                     <NavDropdown title="About" id="basic-nav-dropdown">
                         <NavDropdown.Item  href="/about">About DDDEM</NavDropdown.Item>
                         <NavDropdown.Item  href="/venue">Venue</NavDropdown.Item>
-                        <NavDropdown.Item href="/information/accessibility">Accessibility Information</NavDropdown.Item>
+                        <NavDropdown.Item href="/information/accessibility-information">Accessibility Information</NavDropdown.Item>
                         <NavDropdown.Item href="/information/application-information">Applying To Speak</NavDropdown.Item>
                         <NavDropdown.Item href="/information/attendee-information">Attendee Information</NavDropdown.Item>
                         <NavDropdown.Item href="/information/speaker-information">Speaker Information</NavDropdown.Item>
