@@ -16,6 +16,7 @@ export default () => (
             <meta name="twitter:image" content="https://s3.eu-west-2.amazonaws.com/ddd-images/ddd_avatar_400x400.jpg" />
             <meta name="twitter:image:alt" content="The DDD East Midlands Logo" />
             <link href="https://fonts.googleapis.com/css?family=Raleway:400,700" rel="stylesheet" />
+            <link href="/static/client/sessionize.css" rel="stylesheet" />
             <link rel="apple-touch-icon" sizes="57x57" href="/static/favicon/apple-icon-57x57.png"/>
             <link rel="apple-touch-icon" sizes="60x60" href="/static/favicon/apple-icon-60x60.png"/>
             <link rel="apple-touch-icon" sizes="72x72" href="/static/favicon/apple-icon-72x72.png"/>
@@ -31,6 +32,7 @@ export default () => (
             <link rel="icon" type="image/png" sizes="16x16" href="/static/favicon/favicon-16x16.png"/>
             <link rel="manifest" href="/static/favicon/manifest.json"/>
             <script src="/static/client/object-assign-auto.min.js"></script>
+            <script src="/static/client/sessionize.js"></script>
         </Head>
     </div>
     
