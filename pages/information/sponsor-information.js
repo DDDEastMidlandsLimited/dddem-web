@@ -108,7 +108,7 @@ export default () => (
                 Please make sure you are familiar with it and adhere to it at all times to create the most inclusive and friendly event for all involved.
             </p>
             <p>
-                Should you have any concerns regarding the Code of Conduct before, during or after the event, please contact the organisers.  
+                Should you have any concerns regarding the Code of Conduct before, during or after the event, please contact the organisers. See the <a href="/contact" target="_blank">contact page for information.</a>
             </p>
         </section> 
 
