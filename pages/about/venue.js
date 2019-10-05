@@ -86,9 +86,9 @@ export default (props) => (
         </section>
 
         <section>
-            <h3 tabIndex="0">
+            <h4 tabIndex="0">
                 Car parking
-            </h3>
+            </h4>
             <p tabIndex="0">
                 Car parks in the city centre are clearly signposted from all major approach routes. There are two car
                 parks close to Nottingham Conference Centre, Trinity Square car park on North Church Street and Talbot
