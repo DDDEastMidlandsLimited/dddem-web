@@ -11,9 +11,9 @@ export default () => (
         <Header title={'Application Information'}/>
 
         <section name="Contents">
-            <h1>Contents</h1>
+            <h1 tabIndex="0">Contents</h1>
 
-            <p><strong>Applying to Speak</strong></p>
+            <p tabIndex="0"><strong>Applying to Speak</strong></p>
             <ul>
                 <li><a href="#applicationdate">When can I apply to talk?</a></li>
                 <li><a href="#applicationhow">How do I apply to talk?</a></li>
@@ -22,22 +22,22 @@ export default () => (
         </section>
 
         <section id="title">
-                    <h1>Applying to Speak</h1>
+                    <h1 tabIndex="0">Applying to Speak</h1>
         </section>
 
        
         <section id="date">
             <a name="applicationdate"/>
-            <h2>When can I apply to talk?</h2>
-            <p>
+            <h2 tabIndex="0">When can I apply to talk?</h2>
+            <p tabIndex="0">
                 Applications to speak at the 2019 event have closed. 2020 applications open early next year.
             </p>
         </section>
 
         <section id="how">
             <a name="applicationhow"/>
-            <h2>How do I apply to talk?</h2>
-            <p>
+            <h2 tabIndex="0">How do I apply to talk?</h2>
+            <p tabIndex="0">
                 When applications are open <a href="https://sessionize.com/dddeastmidlands/" target="_blank"> you can submit your talk through Sessionize.</a>
             </p>
             <p>
@@ -47,8 +47,8 @@ export default () => (
 
         <section id="tande">
             <a name="tande"/>
-            <h2>Are travel and accomodation expenses provided for speakers?</h2>
-            <p>
+            <h2 tabIndex="0">Are travel and accomodation expenses provided for speakers?</h2>
+            <p tabIndex="0">
                 As we want to encourage local speakers and keep our costs low, we cannot provide expenses (i.e. travel and accomodation costs) to speakers.
             </p> 
         </section>
