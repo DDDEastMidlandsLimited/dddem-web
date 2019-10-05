@@ -288,8 +288,8 @@ export default () => (
                 We will have a coloured lanyard system at the event to indicate whether attendees are OK with their photo being taken and used.
             </p>
             <ul>
-                <li tabIndex="0" className="green"><strong>Green — It’s fine for their photo to be taken</strong></li>
-                <li tabIndex="0" className="red"><strong>Red — Do not include me in your photos or promotional material</strong></li>
+                <li tabIndex="0" className="green">Green — It’s fine for their photo to be taken</li>
+                <li tabIndex="0" className="red">Red — Do not include me in your photos or promotional material></li>
             </ul>
             <p tabIndex="0">
                 We ask that you please respect this system and only use photos that have attendees with green lanyards only.
