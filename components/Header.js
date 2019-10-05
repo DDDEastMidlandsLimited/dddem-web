@@ -5,7 +5,7 @@ const Header = (props) => (
         <div className="background"></div>
         <div className="logo">
             <img className="image" src="/static/ddd_avatar_300.jpg" alt="DDD East Midlands Logo"/>
-            <h1>{props.title}</h1>
+            <h1 tabIndex="0">{props.title}</h1>
         </div>
         <style jsx>
             {`
