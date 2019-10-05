@@ -10,7 +10,7 @@ export default () => (
         </Head>
         <Header title={'Agenda'}/>
 
-        <section name="Agenda">
+        <section tabIndex="0" name="Agenda">
             <div className="sessionize-loader" data-sessionize-load-url="https://sessionize.com/api/v2/dwsqznmo/view/GridSmart?under=True"><div className="sz-spinner"></div></div>
         </section>
        
