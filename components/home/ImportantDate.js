@@ -3,11 +3,11 @@ import theme from '../../theme/theme'
 const ImportantDate = (props) => (
 
     <div className="boxItem">
-        <div className="top">
+        <div  tabIndex="0" className="top">
             {props.dates.name}
         </div>
         <div className="bottomBackground">
-        <div className="bottom">
+        <div  tabIndex="0" className="bottom">
             {props.dates.date}
         </div>
         </div>
