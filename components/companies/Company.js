@@ -4,7 +4,7 @@ import ExternalLink from '../ExternalLink'
 const Company = (props) => (
     <div>
          <ExternalLink href={props.partner.link} target="_blank" category="logo" eventType={props.partner.name}>
-            <img src={props.image}/>
+            <img src={props.image} alt={`Click to go to the ${props.partner.name} site`}/>
          </ExternalLink>
          
         <style jsx>

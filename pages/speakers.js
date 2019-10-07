@@ -31,7 +31,7 @@ export default () => (
             <h3 tabIndex="0">Bio</h3>
             <div className="row">
                 <div className="columnleft">
-                    <img src="/static/speakers/Dylan_Beattie.png" alt="Smiley face" className="speakerpic"/>
+                    <img src="/static/speakers/Dylan_Beattie.png" alt="" className="speakerpic"/>
                 </div>
                 <div className="columnright">
                     <p tabIndex="0"><i>Software Architect</i></p>
@@ -58,7 +58,7 @@ export default () => (
             <h3 tabIndex="0">Bio</h3>
             <div className="row">
                 <div className="columnleft">
-                    <img src="/static/speakers/Matt_Brunt.png" alt="Smiley face" className="speakerpic"/>
+                    <img src="/static/speakers/Matt_Brunt.png" alt="" className="speakerpic"/>
                 </div>
                 <div className="columnright">
                     <p tabIndex="0"><i>Wizard</i></p>
@@ -96,7 +96,7 @@ export default () => (
             <h3 tabIndex="0">Bio</h3>
             <div className="row">
                 <div className="columnleft">
-                    <img src="/static/speakers/Jessica_Salisbury.png" alt="Jessica Salisbury" className="speakerpic"/>
+                    <img src="/static/speakers/Jessica_Salisbury.png" alt="" className="speakerpic"/>
                 </div>
                 <div className="columnright">
                     <p tabIndex="0"><i>Behavioural Psychologist and Money Coaching Project Manager at Tully.</i></p>
@@ -131,7 +131,7 @@ export default () => (
             <h3 tabIndex="0">Bio</h3>
             <div className="row">
                 <div className="columnleft">
-                    <img src="/static/speakers/Anthony_Dang.png" alt="Smiley face" className="speakerpic"/>
+                    <img src="/static/speakers/Anthony_Dang.png" alt="" className="speakerpic"/>
                 </div>
                 <div className="columnright">
                     <p tabIndex="0"><i>Head of Development</i></p>
@@ -169,7 +169,7 @@ export default () => (
             <h3 tabIndex="0">Bio</h3>
             <div className="row">
                 <div className="columnleft">
-                    <img src="/static/speakers/Cara_Holland.png" alt="Cara Holland" className="speakerpic"/>
+                    <img src="/static/speakers/Cara_Holland.png" alt="" className="speakerpic"/>
                 </div>
                 <div className="columnright">
                     <p tabIndex="0"><i>Founder and head doodler at Graphic Change</i></p>
@@ -201,7 +201,7 @@ export default () => (
             <h3 tabIndex="0">Bio</h3>
             <div className="row">
                 <div className="columnleft">
-                    <img src="/static/speakers/Mark_Towndrow.png" alt="Mark Towndrow" className="speakerpic"/>
+                    <img src="/static/speakers/Mark_Towndrow.png" alt="" className="speakerpic"/>
                 </div>
                 <div className="columnright">
                     <p tabIndex="0"><i>Head of Engineering at OpenWrks</i></p>
@@ -230,7 +230,7 @@ export default () => (
             <h3 tabIndex="0">Bio</h3>
             <div className="row">
                 <div className="columnleft">
-                    <img src="/static/speakers/Galiya_Warrier.png" alt="Galiya Warrier" className="speakerpic"/>
+                    <img src="/static/speakers/Galiya_Warrier.png" alt="" className="speakerpic"/>
                 </div>
                 <div className="columnright">
                     <p tabIndex="0"><i>Cloud Solution Architect (AA and AI), Microsoft</i></p>
@@ -262,7 +262,7 @@ export default () => (
             <h3 tabIndex="0">Bio</h3>
             <div className="row">
                 <div className="columnleft">
-                    <img src="/static/speakers/Robin_Ninan.png" alt="Robin Ninan" className="speakerpic"/>
+                    <img src="/static/speakers/Robin_Ninan.png" alt="" className="speakerpic"/>
                 </div>
                 <div className="columnright">
                     <p tabIndex="0"><i>Senior QA @ Koodoo.io</i></p>
@@ -290,7 +290,7 @@ export default () => (
             <h3 tabIndex="0">Bio</h3>
             <div className="row">
                 <div className="columnleft">
-                    <img src="/static/speakers/Ian_Johnson.png" alt="Ian Johnson" className="speakerpic"/>
+                    <img src="/static/speakers/Ian_Johnson.png" alt="" className="speakerpic"/>
                 </div>
                 <div className="columnright">
                     <p tabIndex="0"><i>Software developer, sketch noter</i></p>
@@ -331,7 +331,7 @@ export default () => (
             <h3 tabIndex="0">Bio</h3>
             <div className="row">
                 <div className="columnleft">
-                    <img src="/static/speakers/Samathy_Barratt.png" alt="Samathy Barratt" className="speakerpic"/>
+                    <img src="/static/speakers/Samathy_Barratt.png" alt="" className="speakerpic"/>
                 </div>
                 <div className="columnright">
                     <p tabIndex="0"><i>Magical Code Fairy</i></p>
@@ -376,7 +376,7 @@ export default () => (
             <h3 tabIndex="0">Bio</h3>
             <div className="row">
                 <div className="columnleft">
-                    <img src="/static/speakers/Ian_Cooper.png" alt="Ian Cooper" className="speakerpic"/>
+                    <img src="/static/speakers/Ian_Cooper.png" alt="" className="speakerpic"/>
                 </div>
                 <div className="columnright">
                     <p tabIndex="0"><i>Coding architect, pierced, bearded, tattooed</i></p>
@@ -411,7 +411,7 @@ export default () => (
             <h3 tabIndex="0">Bio</h3>
             <div className="row">
                 <div className="columnleft">
-                    <img src="/static/speakers/Helen_Joy.png" alt="Helen Joy" className="speakerpic"/>
+                    <img src="/static/speakers/Helen_Joy.png" alt="" className="speakerpic"/>
                 </div>
                 <div className="columnright">
                     <p tabIndex="0"><i>UX Consultant at SPARCK</i></p>
@@ -440,7 +440,7 @@ export default () => (
             <h3 tabIndex="0">Bio</h3>
             <div className="row">
                 <div className="columnleft">
-                    <img src="/static/speakers/Joel_Hammond-Turner.png" alt="Joel Hammond-Turner" className="speakerpic"/>
+                    <img src="/static/speakers/Joel_Hammond-Turner.png" alt="" className="speakerpic"/>
                 </div>
                 <div className="columnright">
                     <p tabIndex="0"><i>Tech Lead, Landmark Information Group</i></p>
@@ -481,7 +481,7 @@ export default () => (
             <h3 tabIndex="0">Bio</h3>
             <div className="row">
                 <div className="columnleft">
-                    <img src="/static/speakers/Zac_Braddy.png" alt="Zac Braddy" className="speakerpic"/>
+                    <img src="/static/speakers/Zac_Braddy.png" alt="" className="speakerpic"/>
                 </div>
                 <div className="columnright">
                     <p tabIndex="0"><i>Lead Developer @Koodoo.io</i></p>
@@ -524,7 +524,7 @@ export default () => (
             <h3 tabIndex="0">Bio</h3>
             <div className="row">
                     <div className="columnleft">
-                        <img src="/static/speakers/Neil_OConnor.png" alt="Neil O'Connor" className="speakerpic"/>
+                        <img src="/static/speakers/Neil_OConnor.png" alt="" className="speakerpic"/>
                     </div>
                     <div className="columnright">
                         <p tabIndex="0"><i>CTO at Koodoo, a Nottingham-based fintech in the Blenheim Chalcot group</i></p>
@@ -570,7 +570,7 @@ export default () => (
             <h3 tabIndex="0">Bio</h3>
             <div className="row">
                 <div className="columnleft">
-                    <img src="/static/speakers/Simon_Painter.png" alt="Simon Painter" className="speakerpic"/>
+                    <img src="/static/speakers/Simon_Painter.png" alt="" className="speakerpic"/>
                 </div>
                 <div className="columnright">
                     <p tabIndex="0"><i>Senior Software Developer at EuroFins Scientific</i></p>
