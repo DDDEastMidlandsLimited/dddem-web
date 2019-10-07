@@ -15,7 +15,7 @@ export default () => (
             <h1>Keynote By Dylan Beattie
                 <Link target="_blank" href="https://twitter.com/dylanbeattie" onSelect={event => {
                     logEvent("twitter", "dylanbeattie")}}>
-                        <a target="_blank"><FontAwesomeIcon icon={["fab", "twitter"]} /></a>
+                        <a target="_blank" aria-label="Dylan Beattie: Twitter"><FontAwesomeIcon icon={["fab", "twitter"]} /></a>
                 </Link>
             </h1>
             <h2>The Art of Code</h2>
@@ -46,7 +46,7 @@ export default () => (
             <h2>Matt Brunt
                 <Link target="_blank" href="https://twitter.com/Brunty" onSelect={event => {
                     logEvent("twitter", "brunty")}}>
-                        <a target="_blank"><FontAwesomeIcon icon={["fab", "twitter"]} /></a>
+                        <a target="_blank" aria-label="Matt Brunt: Twitter"><FontAwesomeIcon icon={["fab", "twitter"]} /></a>
                 </Link>
             </h2>
             <h3>Talk: <i>Think like a hacker</i></h3>
@@ -76,11 +76,11 @@ export default () => (
             <h2>Jessica Salisbury                
                 <Link target="_blank" href="https://twitter.com/JessSalisburyy" onSelect={event => {
                     logEvent("twitter", "jesssalisbury")}}>
-                        <a target="_blank"><FontAwesomeIcon icon={["fab", "twitter"]} /></a>
+                        <a target="_blank" aria-label="Jessica Salisbury: Twitter"><FontAwesomeIcon icon={["fab", "twitter"]} /></a>
                 </Link>
                 <Link target="_blank" href="https://www.linkedin.com/in/jessica-salisbury-2a0920102/" onSelect={event => {
                     logEvent("linkedin", "jesssalisbury")}}>
-                        <a target="_blank"><FontAwesomeIcon icon={["fab", "linkedin"]} /></a>
+                        <a target="_blank" aria-label="Jessica Salisbury: LinkedIn"><FontAwesomeIcon icon={["fab", "linkedin"]} /></a>
                 </Link>
             </h2>
             <h3>Talk: <i>The Power of the Feedback Loop</i></h3>
@@ -111,11 +111,11 @@ export default () => (
             <h2>Anthony Dang                
                 <Link target="_blank" href="https://twitter.com/AnthonyDotNet" onSelect={event => {
                     logEvent("twitter", "anthonydang")}}>
-                        <a target="_blank"><FontAwesomeIcon icon={["fab", "twitter"]} /></a>
+                        <a target="_blank" aria-label="Anthony Dang: Twitter"><FontAwesomeIcon icon={["fab", "twitter"]} /></a>
                 </Link>
                 <Link target="_blank" href="https://www.linkedin.com/in/anthony-dang79/" onSelect={event => {
                     logEvent("linkedin", "anthonydang")}}>
-                        <a target="_blank"><FontAwesomeIcon icon={["fab", "linkedin"]} /></a>
+                        <a target="_blank" aria-label="Anthony Dang: LinkedIn"><FontAwesomeIcon icon={["fab", "linkedin"]} /></a>
                 </Link>
             </h2>
             <h3>Talk: <i>Cache me outside - Caching Methodologies and Architectures</i></h3>
@@ -146,11 +146,11 @@ export default () => (
             <h2>Cara Holland
                 <Link target="_blank" href="https://twitter.com/GraphicChange" onSelect={event => {
                     logEvent("twitter", "caraholland")}}>
-                        <a target="_blank"><FontAwesomeIcon icon={["fab", "twitter"]} /></a>
+                        <a target="_blank" aria-label="Cara Holland: Twitter"><FontAwesomeIcon icon={["fab", "twitter"]} /></a>
                 </Link>
                 <Link target="_blank" href="https://www.linkedin.com/in/cara-holland-71240b7/" onSelect={event => {
                     logEvent("linkedin", "caraholland")}}>
-                        <a target="_blank"><FontAwesomeIcon icon={["fab", "linkedin"]} /></a>
+                        <a target="_blank" aria-label="Cara Holland: LinkedIn"><FontAwesomeIcon icon={["fab", "linkedin"]} /></a>
                 </Link>
             </h2>
             <h3>Talk: <i>Draw UX (or how to get your visual thinking groove on)</i></h3>
@@ -185,7 +185,7 @@ export default () => (
             <h2>Mark Towndrow
                 <Link target="_blank" href="https://twitter.com/mark_towndrow" onSelect={event => {
                     logEvent("twitter", "marktowndrow")}}>
-                        <a target="_blank"><FontAwesomeIcon icon={["fab", "twitter"]} /></a>
+                        <a target="_blank" aria-label="Mark Towndrow: Twitter"><FontAwesomeIcon icon={["fab", "twitter"]} /></a>
                 </Link>
             </h2>
             <h3>Talk: <i>How to be a better developer - without learning another JavaScript framework</i></h3>
@@ -216,11 +216,11 @@ export default () => (
             <h2>Galiya Warrier
                 <Link target="_blank" href="https://twitter.com/galiyawarrier" onSelect={event => {
                     logEvent("twitter", "galiya-warrier")}}>
-                        <a target="_blank"><FontAwesomeIcon icon={["fab", "twitter"]} /></a>
+                        <a target="_blank" aria-label="Galiya Warrier: Twitter"><FontAwesomeIcon icon={["fab", "twitter"]} /></a>
                 </Link>
                 <Link target="_blank" href="https://www.linkedin.com/in/galiyawarrier/" onSelect={event => {
                     logEvent("linkedin", "galiya-warrier")}}>
-                        <a target="_blank"><FontAwesomeIcon icon={["fab", "linkedin"]} /></a>
+                        <a target="_blank" aria-label="Galiya Warrier: LinkedIn"><FontAwesomeIcon icon={["fab", "linkedin"]} /></a>
                 </Link>
             </h2>
             <h3>Talk: <i>Deep Learning in the world of little ponies</i></h3>
@@ -277,7 +277,7 @@ export default () => (
             <h2>Ian Johnson
                 <Link target="_blank" href="https://twitter.com/ijohnson_tnf" onSelect={event => {
                     logEvent("twitter", "ianjohnson")}}>
-                        <a target="_blank"><FontAwesomeIcon icon={["fab", "twitter"]} /></a>
+                        <a target="_blank" aria-label="Ian Johnson: Twitter"><FontAwesomeIcon icon={["fab", "twitter"]} /></a>
                 </Link>
             </h2>
             <h3>Talk: <i>Reasonable Code</i></h3>
@@ -306,7 +306,7 @@ export default () => (
                     <ul>
                         <li>
                             <Link href="https://twitter.com/ijohnson_tnf">
-                                <a target="_blank"><FontAwesomeIcon icon={["fab", "twitter"]} /></a>
+                                <a target="_blank" aria-label="Ian Johnson: Twitter"><FontAwesomeIcon icon={["fab", "twitter"]} /></a>
                             </Link>
                         </li>
                     </ul>
@@ -318,7 +318,7 @@ export default () => (
             <h2>Samathy Barratt
                 <Link target="_blank" href="https://twitter.com/samathy_barratt" onSelect={event => {
                     logEvent("twitter", "samathybarratt")}}>
-                        <a target="_blank"><FontAwesomeIcon icon={["fab", "twitter"]} /></a>
+                        <a target="_blank" aria-label="Samathy Barratt: Twitter"><FontAwesomeIcon icon={["fab", "twitter"]} /></a>
                 </Link>
             </h2>
             <h3>Talk: <i>This is a talk about Nothing.</i></h3>
@@ -350,11 +350,11 @@ export default () => (
             <h2>Ian Cooper
                 <Link target="_blank" href="https://twitter.com/icooper" onSelect={event => {
                     logEvent("twitter", "iancooper")}}>
-                        <a target="_blank"><FontAwesomeIcon icon={["fab", "twitter"]} /></a>
+                        <a target="_blank" aria-label="Ian Cooper: Twitter"><FontAwesomeIcon icon={["fab", "twitter"]} /></a>
                 </Link>
                 <Link target="_blank" href="https://www.linkedin.com/in/ian-cooper-2b059b/" onSelect={event => {
                     logEvent("linkedin", "iancooper")}}>
-                        <a target="_blank"><FontAwesomeIcon icon={["fab", "linkedin"]} /></a>
+                        <a target="_blank" aria-label="Ian Cooper: LinkedIn"><FontAwesomeIcon icon={["fab", "linkedin"]} /></a>
                 </Link>
             </h2>
             <h3>Talk: <i>How to Escape The Distributed Monolith</i></h3>
@@ -391,11 +391,11 @@ export default () => (
             <h2>Helen Joy
                 <Link target="_blank" href="https://twitter.com/LittleHelli" onSelect={event => {
                     logEvent("twitter", "helenjoy")}}>
-                        <a target="_blank"><FontAwesomeIcon icon={["fab", "twitter"]} /></a>
+                        <a target="_blank" aria-label="Helen Joy: Twitter"><FontAwesomeIcon icon={["fab", "twitter"]} /></a>
                 </Link>
                 <Link target="_blank" href="https://www.linkedin.com/in/helencjoy/" onSelect={event => {
                     logEvent("linkedin", "helenjoy")}}>
-                        <a target="_blank"><FontAwesomeIcon icon={["fab", "linkedin"]} /></a>
+                        <a target="_blank" aria-label="Helen Joy: LinkedIn"><FontAwesomeIcon icon={["fab", "linkedin"]} /></a>
                 </Link>
             </h2>
             <h3>Talk: <i>Whose Design is it Anyway? - In introduction to inclusive design and research</i></h3>
@@ -426,11 +426,11 @@ export default () => (
             <h2>Joel Hammond-Turner
                 <Link target="_blank" href="https://twitter.com/Rammesses" onSelect={event => {
                     logEvent("twitter", "joelhammondturner")}}>
-                        <a target="_blank"><FontAwesomeIcon icon={["fab", "twitter"]} /></a>
+                        <a target="_blank" aria-label="Joel Hammond-Turner: Twitter"><FontAwesomeIcon icon={["fab", "twitter"]} /></a>
                 </Link>
                 <Link target="_blank" href="https://www.linkedin.com/in/joelht/" onSelect={event => {
                     logEvent("linkedin", "joelhammondturner")}}>
-                        <a target="_blank"><FontAwesomeIcon icon={["fab", "linkedin"]} /></a>
+                        <a target="_blank" aria-label="Joel Hammond-Turner: LinkedIn"><FontAwesomeIcon icon={["fab", "linkedin"]} /></a>
                 </Link>
             </h2>
             <h3>Talk: <i>You're the Tech Lead - *you* fix it!</i></h3>
@@ -458,11 +458,11 @@ export default () => (
             <h2>Zac Braddy
                 <Link target="_blank" href="https://twitter.com/ZackerTheHacker" onSelect={event => {
                     logEvent("twitter", "zacbraddy")}}>
-                        <a target="_blank"><FontAwesomeIcon icon={["fab", "twitter"]} /></a>
+                        <a target="_blank" aria-label="Zac Braddy: Twitter"><FontAwesomeIcon icon={["fab", "twitter"]} /></a>
                 </Link>
                 <Link target="_blank" href="https://www.linkedin.com/in/zac-braddy-17a81b22/" onSelect={event => {
                     logEvent("linkedin", "zacbraddy")}}>
-                        <a target="_blank"><FontAwesomeIcon icon={["fab", "linkedin"]} /></a>
+                        <a target="_blank" aria-label="Zac Braddy: LinkedIn"><FontAwesomeIcon icon={["fab", "linkedin"]} /></a>
                 </Link>
             </h2>
             <h3>Talk: <i>All the mistakes I've made trying to implement Microservices</i></h3>
@@ -502,7 +502,7 @@ export default () => (
             <h2>Neil O'Connor
                 <Link target="_blank" href="https://twitter.com/1stmanonthesun" onSelect={event => {
                     logEvent("speakers", "neiloconnor")}}>
-                        <a target="_blank"><FontAwesomeIcon icon={["fab", "twitter"]} /></a>
+                        <a target="_blank" aria-label="Neil O'Conner: Twitter"><FontAwesomeIcon icon={["fab", "twitter"]} /></a>
                 </Link>
             </h2>
             <h3>Talk: <i>CTO secrets: How to get the best companies fighting to hire you</i></h3>
@@ -539,11 +539,11 @@ export default () => (
             <h2>Simon Painter
                 <Link target="_blank" href="https://twitter.com/madSimonJ" onSelect={event => {
                     logEvent("twitter", "simonpainter")}}>
-                        <a target="_blank"><FontAwesomeIcon icon={["fab", "twitter"]} /></a>
+                        <a target="_blank" aria-label="Simon Painter: Twitter"><FontAwesomeIcon icon={["fab", "twitter"]} /></a>
                 </Link>
                 <Link target="_blank" href="https://www.linkedin.com/in/simon-painter-45a05217/" onSelect={event => {
                     logEvent("linkedin", "simonpainter")}}>
-                        <a target="_blank"><FontAwesomeIcon icon={["fab", "linkedin"]} /></a>
+                        <a target="_blank" aria-label="Simon Painter: LinkedIn"><FontAwesomeIcon icon={["fab", "linkedin"]} /></a>
                 </Link>
             </h2>
             <h3>Talk: <i>Hacking C#: Development for the Truly Lazy</i></h3>
