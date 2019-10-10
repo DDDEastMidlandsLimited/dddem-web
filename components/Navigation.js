@@ -37,9 +37,9 @@ class Navigation extends Component {
 
                     <Nav.Link href="/hacktoberfest">Hacktoberfest</Nav.Link>
 
-                    <Nav.Link target="_blank" href="https://sessionize.com/dddeastmidlands/" onSelect={event => {
+{/*                     <Nav.Link target="_blank" href="https://sessionize.com/dddeastmidlands/" onSelect={event => {
                         logEvent("navigation", "cfp")
-                    }}>CFP</Nav.Link>
+                    }}>CFP</Nav.Link> */}
                     
                     <Nav.Link target="_blank" href="https://blog.dddeastmidlands.com/" onSelect={event => {
                         logEvent("navigation", "blog")
