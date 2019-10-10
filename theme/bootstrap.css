@@ -2285,6 +2285,8 @@ input[type="button"].btn-block {
 }
 
 .dropdown-menu.show {
+  margin-right: 3%;
+  margin-left: 2%;
   display: block;
 }
 
