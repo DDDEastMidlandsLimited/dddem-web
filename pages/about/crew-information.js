@@ -17,8 +17,10 @@ export default () => (
             <p><strong><a href="#introduction">Introduction</a></strong></p>
             <p><strong><a href="#code-of-conduct">Code of Conduct</a></strong></p>
             <p><strong><a href="#when-and-where">When and Where?</a></strong></p>
+            <p><strong><a href="#absence">Absence</a></strong></p>
             <p><strong>Duties</strong></p>
             <ul>
+                <li><a href="#code-of-conduct-duty">Code of conduct</a></li>
                 <li><a href="#setup-and-orienteering">Setup and orienteering</a></li>
                 <li><a href="#registration">Registration</a></li>
                 <li><a href="#standby">Standby</a></li>
@@ -78,7 +80,7 @@ export default () => (
                 Please make sure you are familiar with it and adhere to it at all times to create the most inclusive and friendly event for all involved.
             </p>
             <p>
-                Should you have any concerns regarding the Code of Conduct before, during or after the event, please raise this in our shared crew slack (#code-of-conduct). Additionally, if you are approached with any concerns, communicate these as soon as possible in slack.
+                Should you have any concerns regarding the Code of Conduct before, during or after the event, please raise this in our shared crew slack (#code-of-conduct).
             </p>
         </section> 
 
@@ -107,8 +109,28 @@ export default () => (
             </p>
         </section>
 
+        <section id="absence">
+            <a name="absence"/>
+            <h1>Absence</h1>
+            <p>
+              If you can't make your shift/will be late please let the organisers know as soon as possible via the crew slack.
+            </p>
+        </section>
+
         <section id="duties">
         <h1>Duties</h1> 
+            <a name="code-of-conduct-duty"/>
+            <h2>Code of conduct</h2>
+            <p>
+                More specifically this relates to occasions where attendees or others approach you to report code of conduct issues. 
+                In all circumstances:
+                <ul>
+                    <li>Raise these as soon as possible in the crew slack (#code-of-conduct)</li>
+                    <li>Tag in the organisers</li>
+                    <li>Let them handle the issue</li>
+                </ul>
+                We take conduct issues seriously and will treat them as our top priority.
+            </p>
             <a name="setup-and-orienteering"/>
             <h2>Setup and orienteering</h2>
             <p>
@@ -125,7 +147,7 @@ export default () => (
             <p>
                 If you are in the morning shift you will be helping people register. This involves:
                 <ul>
-                    <li>Scanning people into eventbrite with one of the devices provided</li>
+                    <li>Scanning people into eventbrite</li>
                     <li>Ensuring they have a lanyard with the correct colour</li>
                     <li>Ensuring they receive an attendee bag</li>
                     <li>Ensuring they know that the lanyard slip contains information about the day</li>
@@ -155,7 +177,7 @@ export default () => (
             <p>
                 In this role you will:
                 <ul>
-                    <li>Have some fun taking part and engaging with attendees, exhibitors, etc. Promote this with consent via Twitter/Instagram.</li>
+                    <li>Have some fun taking part and engaging with attendees, exhibitors, etc.</li>
                     <li>Be visible as a potential escalation point for any questions/concerns in the space</li>
                     <li>Support exhibitors and suppliers in space</li>
                     <li>Communicate the arrival of catering</li>
@@ -172,6 +194,7 @@ export default () => (
                     <li>Count votes and reset after a talk. Communicate results via slack (#evaluations). You may need to ask some people if they want to vote who are still in the room</li>
                     <li>Ensure the next speaker has room/time to set up. You might need to gently herd people if there are a lot of questions or gently remind the current speaker about the time if things are running on</li>
                 </ul>
+                If you have any queries about the voting system or what the votes are used for, there is a section in the <a href="https://www.dddeastmidlands.com/about/attendee-information/#voting">attendee information</a> that goes over this in a bit more detail.
             </p>
             <a name="packing-up"/>
             <h2>Packing up</h2>
