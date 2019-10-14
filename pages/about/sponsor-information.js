@@ -56,6 +56,7 @@ export default () => (
 
             <p tabIndex="0"><strong>Exhibition Stalls</strong></p>
             <ul>
+                <li><a href="#space">Space</a></li>
                 <li><a href="#provided">What Is Provided?</a></li>
                 <li><a href="#provide">What To Bring</a></li>
                 <li><a href="#booth-restrictions">Restrictions</a></li>
@@ -404,11 +405,18 @@ export default () => (
 
         <section id="stalls">
         <h1 tabIndex="0">Exhibition Stalls</h1> 
+
+            <a name="space"/>
+            <h2 tabIndex="0">Space</h2>
+            <p tabIndex="0">
+                The exhibition space you will have will be 3 meters x 2 meters.
+            </p>
+
             <a name="provided"/>
             <h2 tabIndex="0">What Is Provided?</h2>
             <ul>
                 <li tabIndex="0">Provided table size: 170 cm x 150 cm</li>
-                <li tabIndex="0">Grey background screens.</li>
+                <li tabIndex="0">Grey poster boards. 7 foot tall by 3 foot wide.</li>
             </ul>
 
             <a name="provide"/>
