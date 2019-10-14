@@ -26,7 +26,7 @@ export default () => (
             <h3 tabIndex="0">About Hacktoberfest</h3>
             <div className="row">
                 <div className="columnleft">
-                    <img src="static/hacktoberfest.svg" alt="Hacktoberfest 2019 Logo" className="speakerpic"/>
+                    <img src="/static/hacktoberfest.svg" alt="Hacktoberfest 2019 Logo" className="speakerpic"/>
                 </div>
                 <div className="columnright">
                     <p tabIndex="0"><i>Hacktoberfest</i></p>
