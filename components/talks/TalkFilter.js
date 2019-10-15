@@ -1,49 +1,63 @@
-import FilterItem from "./FilterItem"
+import FilterItem from './FilterItem';
 
 export default class TalkFilter extends React.PureComponent {
-    constructor(props, context) {
-        super(props, context)
-    
-        this._renderItems = this._renderItems.bind(this)
-        this._renderTag = this._renderTag.bind(this)
-        this._renderLevel = this._renderLevel.bind(this)
-    }
+  constructor(props, context) {
+    super(props, context);
 
-    render() {
-        return <div className="column">
-            <h2>Level</h2>
-            {this._renderItems(this.props.levels, this._renderLevel)}            
-            <h2>Topic</h2>
-            {this._renderItems(this.props.tags, this._renderTag)}
-            <style jsx>
-                {`
-                    div{
-                        margin-right: 2%;
-                    }
-                    .column{
-                        float: left;
-                        width: 30%;
-                    }
-                `}
-            </style>
-        </div>
-        }
+    this._renderItems = this._renderItems.bind(this);
+    this._renderTag = this._renderTag.bind(this);
+    this._renderLevel = this._renderLevel.bind(this);
+  }
 
-    _renderItems(items, renderItem){
-        const elements = items.map((item) => {
-            return renderItem(item)
-        })
+  render() {
+    return (
+      <div className="column">
+        <h2>Level</h2>
+        {this._renderItems(this.props.levels, this._renderLevel)}
+        <h2>Topic</h2>
+        {this._renderItems(this.props.tags, this._renderTag)}
+        <style jsx>
+          {`
+            div {
+              margin-right: 2%;
+            }
+            .column {
+              float: left;
+              width: 30%;
+            }
+          `}
+        </style>
+      </div>
+    );
+  }
 
-        return <div>
-            {elements}
-        </div>
-    }
+  _renderItems(items, renderItem) {
+    const elements = items.map(item => {
+      return renderItem(item);
+    });
 
-    _renderTag(tag){
-        return <FilterItem key={tag.name} item={tag} addItem={this.props.addTag} removeItem={this.props.removeTag} />
-    }
+    return <div>{elements}</div>;
+  }
 
-    _renderLevel(level){
-        return <FilterItem key={level.name} item={level} addItem={this.props.addLevel} removeItem={this.props.removeLevel} />
-    }
+  _renderTag(tag) {
+    return (
+      <FilterItem
+        key={tag.name}
+        item={tag}
+        addItem={this.props.addTag}
+        removeItem={this.props.removeTag}
+      />
+    );
+  }
+
+  _renderLevel(level) {
+    return (
+      <FilterItem
+        key={level.name}
+        item={level}
+        addItem={this.props.addLevel}
+        removeItem={this.props.removeLevel}
+      />
+    );
+  }
 }

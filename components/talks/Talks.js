@@ -1,112 +1,139 @@
-import talks from "../../data/talks"
-import levels from "../../data/levels"
-import TalkList from "./TalkList"
-import TalkFilter from "./TalkFilter"
-
+import talks from '../../data/talks';
+import levels from '../../data/levels';
+import TalkList from './TalkList';
+import TalkFilter from './TalkFilter';
 
 export default class Talks extends React.PureComponent {
-    constructor(props, context) {
-        super(props, context)
+  constructor(props, context) {
+    super(props, context);
 
-        this.state = {
-            filterTags: [],
-            filterLevels: [],
-        }
-        
-        this.addTag = this.addTag.bind(this)
-        this.removeTag = this.removeTag.bind(this)
-        this.addLevel = this.addLevel.bind(this)
-        this.removeLevel = this.removeLevel.bind(this)
-        this._filterTalks = this._filterTalks.bind(this)
-        this._filterTags = this._filterTags.bind(this)
-        this._projectLevels = this._projectLevels.bind(this)
-    }
+    this.state = {
+      filterTags: [],
+      filterLevels: [],
+    };
 
-    addTag(tag) {
-        this.setState({ filterTags: this.state.filterTags.concat(tag) })
-    }
+    this.addTag = this.addTag.bind(this);
+    this.removeTag = this.removeTag.bind(this);
+    this.addLevel = this.addLevel.bind(this);
+    this.removeLevel = this.removeLevel.bind(this);
+    this._filterTalks = this._filterTalks.bind(this);
+    this._filterTags = this._filterTags.bind(this);
+    this._projectLevels = this._projectLevels.bind(this);
+  }
 
-    removeTag(tag) {
-        this.setState({ filterTags: this.state.filterTags.filter((t) => { return t !== tag }) })
-    }
+  addTag(tag) {
+    this.setState({ filterTags: this.state.filterTags.concat(tag) });
+  }
 
-    addLevel(level) {
-        this.setState({ filterLevels: this.state.filterLevels.concat(level) })
-    }
+  removeTag(tag) {
+    this.setState({
+      filterTags: this.state.filterTags.filter(t => {
+        return t !== tag;
+      }),
+    });
+  }
 
-    removeLevel(level) {
-        this.setState({ filterLevels: this.state.filterLevels.filter((l) => { return l !== level }) })
-    }
+  addLevel(level) {
+    this.setState({
+      filterLevels: this.state.filterLevels.concat(level),
+    });
+  }
 
-    render () {
-        const filteredTalks = this._filterTalks()
-        const projectedFilteredAndOrderedTags = this._filterTags(filteredTalks)
-        const projectedLevels = this._projectLevels()
-        
-        return <div>
-            <TalkFilter tags={projectedFilteredAndOrderedTags} levels={projectedLevels} addTag={this.addTag} removeTag={this.removeTag} addLevel={this.addLevel} removeLevel={this.removeLevel} />
-            <TalkList talks={filteredTalks}/>
-            <style jsx>
-            {`
-                div{
-                    display: flex;
-                    flex-direction: row;
-                }
-            `}
-            </style>
-        </div>
-    }
+  removeLevel(level) {
+    this.setState({
+      filterLevels: this.state.filterLevels.filter(l => {
+        return l !== level;
+      }),
+    });
+  }
 
-    _filterTalks() {
-        return talks.filter((talk) => {
-            const containsFilteredTags = this.state.filterTags.every((filterTag) => {
-                return talk.tags.includes(filterTag)
-            })
-            
-            let containsFilteredLevels = true
-            if (this.state.filterLevels.length > 0) {
-                containsFilteredLevels = this.state.filterLevels.includes(talk.level)
+  render() {
+    const filteredTalks = this._filterTalks();
+    const projectedFilteredAndOrderedTags = this._filterTags(
+      filteredTalks,
+    );
+    const projectedLevels = this._projectLevels();
+
+    return (
+      <div>
+        <TalkFilter
+          tags={projectedFilteredAndOrderedTags}
+          levels={projectedLevels}
+          addTag={this.addTag}
+          removeTag={this.removeTag}
+          addLevel={this.addLevel}
+          removeLevel={this.removeLevel}
+        />
+        <TalkList talks={filteredTalks} />
+        <style jsx>
+          {`
+            div {
+              display: flex;
+              flex-direction: row;
             }
+          `}
+        </style>
+      </div>
+    );
+  }
 
-            return containsFilteredTags && containsFilteredLevels
-        })
-    }
+  _filterTalks() {
+    return talks.filter(talk => {
+      const containsFilteredTags = this.state.filterTags.every(
+        filterTag => {
+          return talk.tags.includes(filterTag);
+        },
+      );
 
-    _filterTags(filteredTalks) {
-        const filteredTags = filteredTalks.reduce((accumulator, current) => {
-            current.tags.forEach(tag => {
-                if(!accumulator.includes(tag)) accumulator.push(tag)
-            })
-            return accumulator
-        }, [])
+      let containsFilteredLevels = true;
+      if (this.state.filterLevels.length > 0) {
+        containsFilteredLevels = this.state.filterLevels.includes(
+          talk.level,
+        );
+      }
 
-        const projectedTags = filteredTags.map((tag) => {
-            return {
-                "name" : tag,
-                "selected" : this.state.filterTags.includes(tag)
-            }
-        })
-        
-        const sortedTags = projectedTags.sort((a, b) => {          
-            if (a.selected === b.selected) {
-               return a.name > b.name ? 1 : -1
-            }
+      return containsFilteredTags && containsFilteredLevels;
+    });
+  }
 
-            var aselected = a.selected ? 1 : 0
-            var bselected = b.selected ? 1 : 0
+  _filterTags(filteredTalks) {
+    const filteredTags = filteredTalks.reduce(
+      (accumulator, current) => {
+        current.tags.forEach(tag => {
+          if (!accumulator.includes(tag)) accumulator.push(tag);
+        });
+        return accumulator;
+      },
+      [],
+    );
 
-            return bselected > aselected ? 1 : -1
-        })
+    const projectedTags = filteredTags.map(tag => {
+      return {
+        name: tag,
+        selected: this.state.filterTags.includes(tag),
+      };
+    });
 
-        return sortedTags
-    }
+    const sortedTags = projectedTags.sort((a, b) => {
+      if (a.selected === b.selected) {
+        return a.name > b.name ? 1 : -1;
+      }
 
-    _projectLevels() {
-        return levels.map((level) => {
-            return {
-                "name" : level,
-                "selected" : this.state.filterLevels.includes(level)
-            }
-        })
-    }
+      var aselected = a.selected ? 1 : 0;
+      var bselected = b.selected ? 1 : 0;
+
+      return bselected > aselected ? 1 : -1;
+    });
+
+    return sortedTags;
+  }
+
+  _projectLevels() {
+    return levels.map(level => {
+      return {
+        name: level,
+        selected: this.state.filterLevels.includes(level),
+      };
+    });
+  }
 }
