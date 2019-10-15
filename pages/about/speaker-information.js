@@ -261,12 +261,23 @@ export default () => (
       <h2 tabIndex="0">Presentation Tech</h2>
       <h4 tabIndex="0">Presenting from your own machine</h4>
       <p tabIndex="0">
-        We won't be providing machines to present from and we ask that you bring your own. 
-        There are a number of things that we ask you to check before presenting.
+        We won't be providing machines to present from and we ask that
+        you bring your own. There are a number of things that we ask
+        you to check before presenting.
         <ul>
-          <li>Check <a href="#tech">the adaptors section</a> about to make sure one of these can be used with your machine.</li>
-          <li>Make sure your laptop charger meets the <a href="#pat-testing">PAT Testing requirements</a>. If not, make sure your laptop is 
-            fully charged, or <a href="#pat-testing">get your laptop charger PAT tested at the venue in the morning</a>.
+          <li>
+            Check <a href="#tech">the adaptors section</a> about to
+            make sure one of these can be used with your machine.
+          </li>
+          <li>
+            Make sure your laptop charger meets the{' '}
+            <a href="#pat-testing">PAT Testing requirements</a>. If
+            not, make sure your laptop is fully charged, or{' '}
+            <a href="#pat-testing">
+              get your laptop charger PAT tested at the venue in the
+              morning
+            </a>
+            .
           </li>
         </ul>
       </p>
@@ -274,9 +285,16 @@ export default () => (
       <h2 tabIndex="0">Slide Requirements</h2>
       <h4 tabIndex="0">What presentation software should you use?</h4>
       <p tabIndex="0">
-        You can use any presentation software of your preference. As you will be using your own machine 
-        we only ask that the slides are made to be clear on a 16:9 or 16:10 aspect ratio screen and that 
-        your slides abide to our <a href="https://www.dddeastmidlands.com/code-of-conduct" target="_blank">code of conduct</a>
+        You can use any presentation software of your preference. As
+        you will be using your own machine we only ask that the slides
+        are made to be clear on a 16:9 or 16:10 aspect ratio screen
+        and that your slides abide to our{' '}
+        <a
+          href="https://www.dddeastmidlands.com/code-of-conduct"
+          target="_blank"
+        >
+          code of conduct
+        </a>
       </p>
     </section>
 
