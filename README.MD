@@ -33,7 +33,6 @@ environment run:
 
 `npm run start`
 
-
 ### Exporting the site
 
 Run the following 2 commands
@@ -72,3 +71,9 @@ theme.palette = {
     dark: '#000000',
 }
 ```
+
+# ESLint and Prettier
+
+We use ESLinting rules to maintain an unopinioated codebase. You can set this up to automatically format your code in you IDE easily.
+
+We also use `pretty-quick` via a `husky` git hook which will fix your formatting automatically or warn you if it can't before you commit your work so even if you don't have it on save then this will prevent any errors.
