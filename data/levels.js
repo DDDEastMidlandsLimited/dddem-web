@@ -1,3 +1,7 @@
-const levels = ["Introductory and overview","Intermediate","Advanced"]
+const levels = [
+  'Introductory and overview',
+  'Intermediate',
+  'Advanced',
+];
 
-export default levels
+export default levels;
