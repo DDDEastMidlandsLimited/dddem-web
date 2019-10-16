@@ -2,13 +2,14 @@ sudo: true
 
 language: node_js
 node_js:
-  - "stable"
-  
+  - 'stable'
+
 script:
+  - npm run prettier:check
   - npm install
   - npm run build
   - npm run export
-  
+
 deploy:
   skip_cleanup: true
   provider: script
