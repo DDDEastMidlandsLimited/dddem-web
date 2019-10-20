@@ -1,6 +1,6 @@
 // styles/ContentSection.js
-import css from 'styled-jsx/css'
-import theme from "../theme/theme"
+import css from 'styled-jsx/css';
+import theme from '../theme/theme';
 
 export default css.contentsection`
     section {
@@ -34,4 +34,4 @@ export default css.contentsection`
     tr th {
         background-color: #dddddd;
     }
-`
+`;
