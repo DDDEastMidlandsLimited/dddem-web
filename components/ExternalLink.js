@@ -1,41 +1,49 @@
-import { withRouter } from 'next/router'
-import theme from '../theme/theme'
-import { logEvent } from '../utils/analytics'
+import { withRouter } from 'next/router';
+import theme from '../theme/theme';
+import { logEvent } from '../utils/analytics';
 
-const ExternalLink = ({ children, router, href, target, category, eventType }) => {
+const ExternalLink = ({
+  children,
+  router,
+  href,
+  target,
+  category,
+  eventType,
+}) => {
+  const handleClick = e => {
+    logEvent(category, eventType);
+  };
 
-  const handleClick = (e) => {
-    logEvent(category, eventType)
-  }
+  return (
+    <a href={href} onClick={handleClick} target={target}>
+      {children}
+      <style jsx>
+        {`
+          a {
+            text-decoration: none;
+            color: ${theme.palette.light};
+            display: block;
+            padding: 0.75em 15px;
+            line-height: 1em;
+            font-size: 1em;
+          }
 
-    return <a href={href} onClick={handleClick} target={target}>
-        {children}
-        <style jsx>
-            {`
-                a {
-                    text-decoration: none;      
-                    color:  ${theme.palette.light};                 
-                    display: block;
-                    padding: .75em 15px;
-                    line-height: 1em;
-                    font-size: 1em;
-                }
+          a:hover {
+            color: ${theme.palette.light};
+            text-decoration: underline;
+          }
 
-                a:hover {                    
-                    color:  ${theme.palette.light};
-                    text-decoration: underline;
-                }
-
-                @media (min-width: 768px) {
-                    a {              
-                        color: ${theme.palette.primary};
-                        border: 0 !important;   
-                        border-bottom: none;
-                    }
-                }
-            `}
-        </style>
+          @media (min-width: 768px) {
+            a {
+              color: ${theme.palette.primary};
+              border: 0 !important;
+              border-bottom: none;
+            }
+          }
+        `}
+      </style>
     </a>
-}
+  );
+};
 
-export default withRouter(ExternalLink)
+export default withRouter(ExternalLink);
