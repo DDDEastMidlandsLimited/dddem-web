@@ -24,6 +24,14 @@ export default () => (
         amazing tech community that has already grown in the East
         Midlands.
       </p>
+    </section>
+
+    <section>
+      <h2 tabIndex="0">Important Dates</h2>
+      <ImportantDatesList dates={dates} />
+    </section>
+
+    <section>
       <p tabIndex="0">
         This conference follows these DDD principles:
       </p>
@@ -43,17 +51,13 @@ export default () => (
         </li>
       </ul>
       <p tabIndex="0">
-        To find out more, see our About Page. If you are interested in
-        sponsoring the event email
-        <a href="mailto:sponsor@dddeastmidlands.com">
-          sponsor@dddeastmidlands.com
+        To find out more, see our{' '}
+        <a href="/about/about">information pages</a>. If you are
+        interested in sponsoring the event please
+        <a href="/2020/sponsor">
+          fill in the sponsorship interest form.
         </a>
       </p>
-    </section>
-
-    <section>
-      <h2 tabIndex="0">Important Dates</h2>
-      <ImportantDatesList dates={dates} />
     </section>
 
     <style jsx>

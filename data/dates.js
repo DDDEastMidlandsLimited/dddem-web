@@ -9,7 +9,7 @@ const dates = [
   {
     id: 8,
     date: '3rd October',
-    name: 'DDD East Midlands Conference',
+    name: 'The Conference',
   },
 ];
 
