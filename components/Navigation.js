@@ -24,9 +24,6 @@ class Navigation extends Component {
               defaultActiveKey="/home"
             >
               <Nav.Link href="/">Home</Nav.Link>
-              <Nav.Link href="/notable-companies">
-                Notable Companies
-              </Nav.Link>
 
               <NavDropdown title="About" id="basic-nav-dropdown">
                 <NavDropdown.Item href="/about/about">
@@ -57,13 +54,16 @@ class Navigation extends Component {
                   Ticket Information
                 </NavDropdown.Item>
               </NavDropdown>
-              <Nav.Link href="/agenda">Agenda</Nav.Link>
 
-              <Nav.Link href="/speakers">Speakers</Nav.Link>
+              {/*  <Nav.Link href="/speakers">Speakers</Nav.Link> */}
 
-              <Nav.Link href="/hacktoberfest">Hacktoberfest</Nav.Link>
+              <Nav.Link href="/2020/sponsor">Sponsor 2020</Nav.Link>
 
-              <Nav.Link href="/2020/sponsor">Sponsor</Nav.Link>
+              <NavDropdown title="Past Talks" id="basic-nav-dropdown">
+                <NavDropdown.Item href="/2019/speakers">
+                  2019
+                </NavDropdown.Item>
+              </NavDropdown>
 
               <Nav.Link
                 target="_blank"

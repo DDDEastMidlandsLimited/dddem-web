@@ -3,11 +3,7 @@ import theme from '../theme/theme';
 import Header from '../components/Header';
 import Head from 'next/head';
 import dates from '../data/dates';
-import gold from '../data/gold';
-import silver from '../data/silver';
-import bronze from '../data/bronze';
 import ImportantDatesList from '../components/home/ImportantDatesList';
-import TieredCompanies from '../components/companies/TieredCompanies';
 
 export default () => (
   <Layout>
@@ -55,21 +51,6 @@ export default () => (
     <section>
       <h2 tabIndex="0">Important Dates</h2>
       <ImportantDatesList dates={dates} />
-    </section>
-
-    <section>
-      <h2 tabIndex="0">Gold Sponsors</h2>
-      <TieredCompanies partners={gold} />
-    </section>
-
-    <section>
-      <h2 tabIndex="0">Silver Sponsors</h2>
-      <TieredCompanies partners={silver} />
-    </section>
-
-    <section>
-      <h2 tabIndex="0">Bronze Sponsors</h2>
-      <TieredCompanies partners={bronze} />
     </section>
 
     <style jsx>
