@@ -1,8 +1,6 @@
 import Layout from '../../components/Layout';
 import theme from '../../theme/theme';
 import Header from '../../components/Header';
-import VenueButton from '../../components/VenueButton';
-import FullWidthImage from '../../components/FullWidthImage';
 import Head from 'next/head';
 
 export default props => (
@@ -10,25 +8,11 @@ export default props => (
     <Head>
       <title>Venue</title>
     </Head>
-    <Header title={'Venue'} />
+    <Header title={'Venue'} banner="/static/banners/thencc.jpg" />
 
-    <section>
-      <h2 tabIndex="0" className="aligncenter">
-        We are super excited to announce that we will be hosted by
-        <br />
-        <a href="http://www.nottinghamconferencecentre.co.uk/">
-          The Nottingham Conference Centre
-        </a>
-        .
-      </h2>
-    </section>
-    <section>
-      <FullWidthImage url={'/static/banners/thencc.jpg'} />
-    </section>
     <section>
       <h1 tabIndex="0">Directions to Nottingham Conference Centre</h1>
     </section>
-    <VenueButton />
     <section>
       <h2 tabIndex="0">By rail</h2>
       <p tabIndex="0">

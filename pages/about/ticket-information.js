@@ -8,7 +8,10 @@ export default () => (
     <Head>
       <title>Ticket Information</title>
     </Head>
-    <Header title={'Ticket Information'} />
+    <Header
+      title={'Ticket Information'}
+      banner="/static/banners/ticket.jpg"
+    />
 
     <section name="Contents">
       <h1 tabIndex="0">Contents</h1>

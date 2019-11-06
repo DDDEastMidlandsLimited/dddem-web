@@ -14,7 +14,10 @@ export default () => (
     <Head>
       <title>Sponsor Information</title>
     </Head>
-    <Header title={'Sponsor Information'} />
+    <Header
+      title={'Sponsor Information'}
+      banner="/static/banners/sponsor.jpg"
+    />
 
     <section name="Contents">
       <h1 tabIndex="0">Contents</h1>

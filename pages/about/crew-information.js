@@ -17,7 +17,10 @@ export default () => (
     <Head>
       <title>Crew Information</title>
     </Head>
-    <Header title={'Crew Information'} />
+    <Header
+      title={'Crew Information'}
+      banner="/static/banners/crew.jpg"
+    />
 
     <section name="Contents">
       <h1>Contents</h1>

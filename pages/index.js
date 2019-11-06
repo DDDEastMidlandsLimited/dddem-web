@@ -10,7 +10,10 @@ export default () => (
     <Head>
       <title>DDD East Midlands</title>
     </Head>
-    <Header title={'DDD East Midlands'} />
+    <Header
+      title={'DDD East Midlands'}
+      banner="/static/banners/home.jpg"
+    />
 
     <section>
       <p tabIndex="0">

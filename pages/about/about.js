@@ -11,69 +11,86 @@ export default () => (
     </Head>
     <Header title={'Information Pages'} />
 
-    <section>
-      <div class=" overlay-image _9p ">
+    <section id="about-the-conference">
+      <div>
         <a
           tabIndex="0"
-          href="/about/speaker-information"
-          target="_blank"
+          href="/about/about-the-conference"
           title="Link to Speaker Information Page"
         >
+          <img src="/static/banners/home.jpg" alt="Alt text" />
+          <div className="text">Conference Information</div>
+        </a>
+      </div>
+    </section>
+
+    <section id="venue">
+      <div>
+        <a
+          tabIndex="0"
+          href="/about/venue"
+          title="Link to Speaker Information Page"
+        >
+          <img src="/static/banners/thencc.jpg" alt="Alt text" />
+          <div className="text">Venue Information</div>
+        </a>
+      </div>
+    </section>
+
+    <section id="tickets">
+      <div>
+        <a
+          tabIndex="0"
+          href="/about/ticket-information"
+          title="Link to Ticket Information Page"
+        >
           <img
-            class=" image _9q "
             src="/static/information/speakers.jpg"
             alt="Alt text"
           />
-          <div class=" text _2 ">Image + text NO HOVER</div>
+          <div className="text">Ticket Information</div>
+        </a>
+      </div>
+    </section>
+
+    <section id="speaker-information">
+      <div>
+        <a
+          tabIndex="0"
+          href="/about/speaker-information"
+          title="Link to Speaker Information Page"
+        >
+          <img
+            src="/static/information/speakers.jpg"
+            alt="Alt text"
+          />
+          <div className="text">Speaker Information</div>
         </a>
       </div>
     </section>
 
     <style jsx>
       {`
-      .overlay-image {
-        position: relative;
-        width: 100%;
-       }
-       /* Original image */
-       .overlay-image .image {
-        display: block;
-        width: 100%;
-        height: auto;
-       }
-       /* Original text overlay */
-       .overlay-image .text {
-        color: #fff;
-        font-size: 30px;
-        line-height: 1.5em;
-        text-shadow: 2px 2px 2px #000;
-        text-align: center;
-        position: absolute;
-        top: 50%;
-        left: 50%;
-        transform: translate(-50%, -50%);
-        width: 100%;
-       }
-        .container {
-          position: relative;
-        }
-
-        /* Bottom right text */
-        .text-block {
-          position: absolute;
-          bottom: 20px;
-          right: 20px;
-          background-color: black;
-          color: white;
-          padding-left: 20px;
-          padding-right: 20px;
-        }
-
         img {
           height: 200px;
           width 100%;
-          text-align:center;
+          object-fit: cover;
+          object-position: center;
           overflow: hidden;
+        }
+
+        .text {
+          color: white;
+          margin-top: -100px;
+          background: ${theme.palette.dark};
+          font-size: 24px;
+          position: absolute;
+          padding: 5px 5px;
+          left: 50%;
+          -webkit-transform: translate(-50%, -50%);
+          -ms-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+          text-align: center;
         }
 
         section {
