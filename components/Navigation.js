@@ -38,9 +38,9 @@ class Navigation extends Component {
                 <NavDropdown.Item href="/about/accessibility-information">
                   Accessibility Information
                 </NavDropdown.Item>
-                <NavDropdown.Item href="/about/application-information">
+                {/*                 <NavDropdown.Item href="/about/application-information">
                   Applying To Speak
-                </NavDropdown.Item>
+                </NavDropdown.Item> */}
                 <NavDropdown.Item href="/about/attendee-information">
                   Attendee Information
                 </NavDropdown.Item>
