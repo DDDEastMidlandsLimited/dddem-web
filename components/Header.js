@@ -2,14 +2,14 @@ import theme from '../theme/theme';
 
 const Header = props => (
   <section>
-    <div className="background">
-      <div className="logo">
-        <img
-          className="image"
-          src="/static/ddd_avatar_300.jpg"
-          alt="DDD East Midlands Logo"
-        />
-      </div>
+    <div className="background"></div>
+
+    <div className="logo">
+      <img
+        className="image"
+        src="/static/ddd_avatar_300.jpg"
+        alt="DDD East Midlands Logo"
+      />
     </div>
 
     <div className="logo">
@@ -35,9 +35,10 @@ const Header = props => (
           text-align: center;
         }
         .image {
-          margin-top: 50px;
+          margin-top: -80px;
           padding: 20px 30px;
-          width: 100px;
+          background-color: #1a7d87;
+          width: 250px;
           border-radius: ${theme.sizes.borderRadiusMobile};
           background-color: ${theme.palette.primary};
         }
@@ -52,10 +53,10 @@ const Header = props => (
           .logo {
           }
           .image {
-            margin-top: 50px;
-            margin-left: -65%;
+            margin-top: -80px;
             padding: 20px 30px;
-            width: 200px;
+            background-color: #1a7d87;
+            width: 250px;
           }
         }
       `}
