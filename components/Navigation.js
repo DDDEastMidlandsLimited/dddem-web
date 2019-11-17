@@ -30,9 +30,15 @@ class Navigation extends Component {
 
               <Nav.Link href="/2020/sponsor">Sponsor 2020</Nav.Link>
 
-              <NavDropdown title="Past Talks" id="basic-nav-dropdown">
+              <NavDropdown
+                title="Past Events"
+                id="basic-nav-dropdown"
+              >
                 <NavDropdown.Item href="/2019/speakers">
-                  2019
+                  Speakers 2019
+                </NavDropdown.Item>
+                <NavDropdown.Item href="/2019/album">
+                  Photos 2019
                 </NavDropdown.Item>
               </NavDropdown>
 
