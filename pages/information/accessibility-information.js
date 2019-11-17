@@ -8,7 +8,10 @@ export default () => (
     <Head>
       <title>Accessibility Information</title>
     </Head>
-    <Header title={'Accessibility Information'} />
+    <Header
+      title={'Accessibility Information'}
+      banner="/static/information/accessibility.jpg"
+    />
 
     <section name="Contents">
       <h1 tabIndex="0">Contents</h1>

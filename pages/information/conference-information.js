@@ -9,7 +9,7 @@ export default () => (
     <Head>
       <title>About DDDEM</title>
     </Head>
-    <Header title={'About DDDEM'} />
+    <Header title={'About DDDEM'} banner="/static/banners/home.jpg" />
     <section name="Contents">
       <h1 tabIndex="0">Contents</h1>
 
@@ -31,33 +31,11 @@ export default () => (
 
       <p>
         <strong>
-          <a href="#inclusivity">Promoting Inclusivity</a>
-        </strong>
-      </p>
-      <ul>
-        <li>
-          <a href="#accessibility">Accessibilty Page</a>
-        </li>
-        <li>
-          <a href="#selection">Submission And Selection Process</a>
-        </li>
-        <li>
-          <a href="#speaking">Making speaking accessible</a>
-        </li>
-      </ul>
-
-      <p>
-        <strong>
           <a href="#ddd-about">
             About Developer! Developer! Developer! (DDD)
           </a>
         </strong>
       </p>
-      <ul>
-        <li>
-          <a href="#other-ddd">Other DDD Events</a>
-        </li>
-      </ul>
 
       <p>
         <strong>
@@ -70,6 +48,26 @@ export default () => (
         </li>
         <li>
           <a href="#moreton">Moreton Brockley</a>
+        </li>
+        <li>
+          <a href="#moreton">Rachel Watson</a>
+        </li>
+      </ul>
+
+      <p>
+        <strong>
+          <a href="#inclusivity">Promoting Inclusivity</a>
+        </strong>
+      </p>
+      <ul>
+        <li>
+          <a href="#accessibility">Accessibilty Page</a>
+        </li>
+        <li>
+          <a href="#selection">Submission And Selection Process</a>
+        </li>
+        <li>
+          <a href="#speaking">Making speaking accessible</a>
         </li>
       </ul>
     </section>
@@ -87,6 +85,7 @@ export default () => (
         and the amazing tech community the East Midlands has to offer.
       </p>
 
+      <br />
       <a name="ddd" />
       <h2 tabIndex="0">
         But what is the DDD about? What is this conference?
@@ -94,15 +93,6 @@ export default () => (
       <p tabIndex="0">
         DDD stands for (in this case){' '}
         <b>Developer! Developer! Developer!</b>
-      </p>
-      <p tabIndex="0">
-        It's often asked if we are a conference centred around Domain
-        Driven Design or some other acronym that fits, that is not the
-        case. We are a general technology conference. This means that
-        we will accept talk submissions relating to technology no
-        matter the language, the discipline or otherwise.
-        Unfortunately us technologists (particularly the ones that
-        program) love acroymns containing the letter D.
       </p>
       <p tabIndex="0">
         Developer! Developer! Developer! is an umbrella, open-source
@@ -114,19 +104,6 @@ export default () => (
         Developer! Developer! further down this page for those
         interested.
       </p>
-    </section>
-
-    <section className="center-video">
-      <div className="iframe-container">
-        <iframe
-          src="https://player.vimeo.com/video/337010371"
-          width="640"
-          height="341"
-          frameBorder="0"
-          allow="autoplay; fullscreen"
-          allowFullScreen
-        ></iframe>
-      </div>
     </section>
 
     <section>
@@ -150,8 +127,144 @@ export default () => (
       </ul>
     </section>
 
+    <section id="ddd-about">
+      <a name="ddd-about" />
+      <h1 tabIndex="0">
+        About Developer! Developer! Developer! (DDD)
+      </h1>
+      <p tabIndex="0">
+        DDD was first formed as a conference in 2005, the first event
+        happening in Reading, UK. Since then it has generated many
+        spin-off events across the world.
+      </p>
+      <p tabIndex="0">
+        The aims of the original DDD was to provide free technical
+        education. During it’s more than 10-year history, it has
+        nurtured talented speakers, who have gone on to become
+        Microsoft Most Valuable Professionals, Microsoft FTEs and to
+        present at National and International Conferences.
+      </p>
+      <p tabIndex="0">
+        Though the original DDD conference is focused on .NET, DDD
+        East Midlands is going to be open to a range of talks within
+        the field of technology. It is language and technology
+        agnostic.
+      </p>
+    </section>
+
+    <section id="organisers">
+      <a name="organisers" />
+      <h1 tabIndex="0">The Organisers</h1>
+      <p tabIndex="0">
+        The very first DDD East Midlands is being organised by Moreton
+        Brockley and Jessica White. Both have been active members of
+        the East Midlands tech scene for a number of years and have
+        benefited through making lifelong friends, experiencing
+        awesome events and learning. They are eager to celebrate the
+        East Midlands tech community, give back where they can and
+        encourage more people from other places to come and join them
+        here.
+      </p>
+      <p>
+        For DDD East Midlands 2020 we have a new addition to the team
+        - Rachel Watson. Rachel did a fantastic job helping us host
+        the Speakers Workshop and will be helping with correspondance
+        in 2020.
+      </p>
+    </section>
     <section>
-      <FullWidthImage url={'/static/banners/ticketinfo.jpg'} />
+      <FullWidthImage url={'/static/information/organisers.jpg'} />
+    </section>
+    <section>
+      <br />
+      <a name="jessica" />
+      <h2 tabIndex="0">Jessica White</h2>
+      <p tabIndex="0">
+        Fully caffeinated, Jessica is more whirling dervish than
+        person. Having founded <a href="">Women In Tech Nottingham</a>
+        back in 2015, and running it for nearly 2 years, she has
+        previous experience with running an inclusive event. You will
+        be in touch with Jessica if you are considering sponsoring the
+        event or have any awesome ideas for the event or related
+        social media.
+      </p>
+      <p>
+        <a
+          className="smallspace"
+          href="https://twitter.com/JessPWhite"
+          target="_blank"
+        >
+          Twitter
+        </a>
+        <a
+          href="https://www.linkedin.com/in/jessica-white-67917883/"
+          target="_blank"
+        >
+          LinkedIn
+        </a>
+      </p>
+
+      <br />
+      <a name="moreton" />
+      <h2 tabIndex="0">Moreton Brockley</h2>
+      <p tabIndex="0">
+        A Delivery Manager and developer, Moreton is the sensible head
+        of the co-founders. He is the number whizz and the fashion
+        guru. Seriously, check out his Ninja Turtle Doc Martens. You
+        may (not) recognise Moreton from his performance at 2018's
+        Hack24 as Mr Blobby.
+      </p>
+      <p>
+        <a
+          className="smallspace"
+          href="https://twitter.com/allmobro"
+          target="_blank"
+        >
+          Twitter
+        </a>
+        <a
+          href="https://www.linkedin.com/in/moreton-brockley-06253538/"
+          target="_blank"
+        >
+          LinkedIn
+        </a>
+      </p>
+
+      <br />
+      <a name="rachel" />
+      <h2 tabIndex="0">Rachel Watson</h2>
+      <p tabIndex="0">
+        The newest member of the team, Rachel will be helping with all
+        the DDD East Midlands correspondance, making sure the
+        experience is as seamless as possible for sponsors and
+        partners. She works for Distinct Recruitment and you can find
+        her at a lot of the local meetups.
+      </p>
+      <p>
+        <a
+          className="smallspace"
+          href="https://twitter.com/missracheybaby"
+          target="_blank"
+        >
+          Twitter
+        </a>
+        <a
+          href="https://www.linkedin.com/in/rachelwatsondistinct/"
+          target="_blank"
+        >
+          LinkedIn
+        </a>
+      </p>
+    </section>
+
+    <section>
+      <p tabIndex="0">
+        Give them a follow on Twitter, say hi at the local events,
+        offer them a coffee or some chocolate if they look in need.
+        They will both be running around on the day of the event
+        making sure your experience of it is the best they can
+        possibly make it.
+      </p>
     </section>
 
     <section id="inclusivity">
@@ -281,196 +394,6 @@ export default () => (
           blog to increase the ease of access to the content.
         </p>
       </ul>
-    </section>
-
-    <section>
-      <FullWidthImage url={'/static/banners/citycenter.jpg'} />
-    </section>
-
-    <section id="ddd-about">
-      <a name="ddd-about" />
-      <h1 tabIndex="0">
-        About Developer! Developer! Developer! (DDD)
-      </h1>
-      <p tabIndex="0">
-        DDD was first formed as a conference in 2005, the first event
-        happening in Reading, UK. Since then it has generated many
-        spin-off events across the world.
-      </p>
-      <p tabIndex="0">
-        The aims of the original DDD was to provide free technical
-        education. During it’s more than 10-year history, it has
-        nurtured talented speakers, who have gone on to become
-        Microsoft Most Valuable Professionals, Microsoft FTEs and to
-        present at National and International Conferences.
-      </p>
-      <p tabIndex="0">
-        Though the original DDD conference is focused on .NET, DDD
-        East Midlands is going to be open to a range of talks within
-        the field of technology. It is language and technology
-        agnostic.
-      </p>
-
-      <a name="ddd-about" />
-      <h2 tabIndex="0">Other DDD Events</h2>
-      <p tabIndex="0">
-        <b>UK</b>
-      </p>
-      <ul>
-        <li>
-          <a href="https://twitter.com/Reading" target="_blank">
-            DDD Reading
-          </a>
-        </li>
-        <li>
-          <a href="https://twitter.com/dddnorth" target="_blank">
-            DDD North
-          </a>
-        </li>
-        <li>
-          <a href="https://www.dddeastanglia.com/" target="_blank">
-            DDD East Anglia
-          </a>
-        </li>
-        <li>
-          <a href="https://dddscotland.org/" target="_blank">
-            DDD Scotland
-          </a>
-        </li>
-        <li>
-          <a href="https://dddsouthwest.com/" target="_blank">
-            DDD South West
-          </a>
-        </li>
-        <li>
-          <a href="https://twitter.com/dddbelfast" target="_blank">
-            DDD Belfast
-          </a>
-        </li>
-        <li>
-          <a href="https://www.dddwales.com/" target="_blank">
-            DDD Wales
-          </a>
-        </li>
-      </ul>
-      <p tabIndex="0">
-        <b>Australia</b>
-      </p>
-      <ul>
-        <li>
-          <a href="https://www.dddmelbourne.com/" target="_blank">
-            DDD Melbourne
-          </a>
-        </li>
-        <li>
-          <a href="http://next.dddsydney.com.au/" target="_blank">
-            DDD Sydney
-          </a>
-        </li>
-        <li>
-          <a href="https://www.dddbrisbane.com/" target="_blank">
-            DDD Brisbane
-          </a>
-        </li>
-        <li>
-          <a href="https://www.dddperth.com/" target="_blank">
-            DDD Perth
-          </a>
-        </li>
-      </ul>
-      <p tabIndex="0">
-        <b>Netherlands</b>
-      </p>
-      <ul>
-        <li>
-          <a
-            href="https://twitter.com/DDDNetherlands"
-            target="_blank"
-          >
-            DDD Netherlands
-          </a>
-        </li>
-      </ul>
-    </section>
-
-    <section id="organisers">
-      <a name="organisers" />
-      <h1 tabIndex="0">The Organisers</h1>
-      <p tabIndex="0">
-        The very first DDD East Midlands is being organised by Moreton
-        Brockley and Jessica White. Both have been active members of
-        the East Midlands tech scene for a number of years and have
-        benefited through making lifelong friends, experiencing
-        awesome events and learning. They are eager to celebrate the
-        East Midlands tech community, give back where they can and
-        encourage more people from other places to come and join them
-        here.
-      </p>
-    </section>
-    <section>
-      <FullWidthImage url={'/static/banners/dasorganizers.jpg'} />
-    </section>
-    <section>
-      <a name="jessica" />
-      <h2 tabIndex="0">Jessica White</h2>
-      <p tabIndex="0">
-        Fully caffeinated, Jessica is more whirling dervish than
-        person. Having founded <a href="">Women In Tech Nottingham</a>
-        back in 2015, and running it for nearly 2 years, she has
-        previous experience with running an inclusive event. You will
-        be in touch with Jessica if you are considering sponsoring the
-        event or have any awesome ideas for the event or related
-        social media.
-      </p>
-      <p>
-        <a
-          className="smallspace"
-          href="https://twitter.com/JessPWhite"
-          target="_blank"
-        >
-          Twitter
-        </a>
-        <a
-          href="https://www.linkedin.com/in/jessica-white-67917883/"
-          target="_blank"
-        >
-          LinkedIn
-        </a>
-      </p>
-
-      <a name="moreton" />
-      <h2 tabIndex="0">Moreton Brockley</h2>
-      <p tabIndex="0">
-        A Delivery Manager and developer, Moreton is the sensible head
-        of the co-founders. He is the number whizz and the fashion
-        guru. Seriously, check out his Ninja Turtle Doc Martens. You
-        may (not) recognise Moreton from his performance at 2018's
-        Hack24 as Mr Blobby.
-      </p>
-      <p>
-        <a
-          className="smallspace"
-          href="https://twitter.com/allmobro"
-          target="_blank"
-        >
-          Twitter
-        </a>
-        <a
-          href="https://www.linkedin.com/in/moreton-brockley-06253538/"
-          target="_blank"
-        >
-          LinkedIn
-        </a>
-      </p>
-    </section>
-    <section>
-      <p tabIndex="0">
-        Give them a follow on Twitter, say hi at the local events,
-        offer them a coffee or some chocolate if they look in need.
-        They will both be running around on the day of the event
-        making sure your experience of it is the best they can
-        possibly make it.
-      </p>
     </section>
 
     <style jsx>

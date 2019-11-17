@@ -2,6 +2,7 @@ import theme from '../../theme/theme';
 
 const SponsorButton = props => (
   <div align="center">
+    <br />
     <button>
       <a href="https://forms.gle/UBCpBRao8BCPGa7W8" target="_blank">
         Submit Interest In Sponsoring

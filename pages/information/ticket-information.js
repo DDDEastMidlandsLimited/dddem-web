@@ -10,7 +10,7 @@ export default () => (
     </Head>
     <Header
       title={'Ticket Information'}
-      banner="/static/banners/ticket.jpg"
+      banner="/static/information/swagbag.jpg"
     />
 
     <section name="Contents">

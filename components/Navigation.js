@@ -24,39 +24,9 @@ class Navigation extends Component {
               defaultActiveKey="/home"
             >
               <Nav.Link href="/">Home</Nav.Link>
-              <Nav.Link href="/about/about">Information</Nav.Link>
-
-              {/*               <NavDropdown title="About" id="basic-nav-dropdown">
-                <NavDropdown.Item href="/about/about">
-                  About DDDEM
-                </NavDropdown.Item>
-                <NavDropdown.Item href="/about/venue">
-                  Venue
-                </NavDropdown.Item>
-                <NavDropdown.Item href="/about/accessibility-information">
-                  Accessibility Information
-                </NavDropdown.Item> */}
-              {/*                 <NavDropdown.Item href="/about/application-information">
-                  Applying To Speak
-                </NavDropdown.Item> */}
-              {/*                 <NavDropdown.Item href="/about/attendee-information">
-                  Attendee Information
-                </NavDropdown.Item>
-                <NavDropdown.Item href="/about/speaker-information">
-                  Speaker Information
-                </NavDropdown.Item>
-                <NavDropdown.Item href="/about/sponsor-information">
-                  Sponsor Information
-                </NavDropdown.Item>
-                <NavDropdown.Item href="/about/crew-information">
-                  Crew Information
-                </NavDropdown.Item>
-                <NavDropdown.Item href="/about/ticket-information">
-                  Ticket Information
-                </NavDropdown.Item>
-              </NavDropdown>
- */}
-              {/*  <Nav.Link href="/speakers">Speakers</Nav.Link> */}
+              <Nav.Link href="/information/about">
+                Information
+              </Nav.Link>
 
               <Nav.Link href="/2020/sponsor">Sponsor 2020</Nav.Link>
 
@@ -76,7 +46,7 @@ class Navigation extends Component {
                 Blog
               </Nav.Link>
 
-              <Nav.Link
+              {/* <Nav.Link
                 target="_blank"
                 href="https://www.eventbrite.co.uk/e/ddd-east-midlands-tickets-58629047058"
                 onSelect={event => {
@@ -84,7 +54,7 @@ class Navigation extends Component {
                 }}
               >
                 Tickets
-              </Nav.Link>
+              </Nav.Link> */}
 
               <Nav.Link href="/code-of-conduct">
                 Code of Conduct

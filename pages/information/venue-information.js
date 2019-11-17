@@ -8,7 +8,7 @@ export default props => (
     <Head>
       <title>Venue</title>
     </Head>
-    <Header title={'Venue'} banner="/static/banners/thencc.jpg" />
+    <Header title={'Venue'} banner="/static/information/thencc.jpg" />
 
     <section>
       <h1 tabIndex="0">Directions to Nottingham Conference Centre</h1>

@@ -59,7 +59,7 @@ export default () => (
       <div className="row">
         <div className="columnleft">
           <img
-            src="/static/speakers/Dylan_Beattie.png"
+            src="/static/2019/speakers/Dylan_Beattie.png"
             alt=""
             className="speakerpic"
           />
@@ -133,7 +133,7 @@ export default () => (
       <div className="row">
         <div className="columnleft">
           <img
-            src="/static/speakers/Matt_Brunt.png"
+            src="/static/2019/speakers/Matt_Brunt.png"
             alt=""
             className="speakerpic"
           />
@@ -209,7 +209,7 @@ export default () => (
       <div className="row">
         <div className="columnleft">
           <img
-            src="/static/speakers/Jessica_Salisbury.png"
+            src="/static/2019/speakers/Jessica_Salisbury.png"
             alt=""
             className="speakerpic"
           />
@@ -295,7 +295,7 @@ export default () => (
       <div className="row">
         <div className="columnleft">
           <img
-            src="/static/speakers/Anthony_Dang.png"
+            src="/static/2019/speakers/Anthony_Dang.png"
             alt=""
             className="speakerpic"
           />
@@ -373,7 +373,7 @@ export default () => (
       <div className="row">
         <div className="columnleft">
           <img
-            src="/static/speakers/Cara_Holland.png"
+            src="/static/2019/speakers/Cara_Holland.png"
             alt=""
             className="speakerpic"
           />
@@ -444,7 +444,7 @@ export default () => (
       <div className="row">
         <div className="columnleft">
           <img
-            src="/static/speakers/Mark_Towndrow.png"
+            src="/static/2019/speakers/Mark_Towndrow.png"
             alt=""
             className="speakerpic"
           />
@@ -507,7 +507,7 @@ export default () => (
       <div className="row">
         <div className="columnleft">
           <img
-            src="/static/speakers/Galiya_Warrier.png"
+            src="/static/2019/speakers/Galiya_Warrier.png"
             alt=""
             className="speakerpic"
           />
@@ -568,7 +568,7 @@ export default () => (
       <div className="row">
         <div className="columnleft">
           <img
-            src="/static/speakers/Robin_Ninan.png"
+            src="/static/2019/speakers/Robin_Ninan.png"
             alt=""
             className="speakerpic"
           />
@@ -623,7 +623,7 @@ export default () => (
       <div className="row">
         <div className="columnleft">
           <img
-            src="/static/speakers/Ian_Johnson.png"
+            src="/static/2019/speakers/Ian_Johnson.png"
             alt=""
             className="speakerpic"
           />
@@ -695,7 +695,7 @@ export default () => (
       <div className="row">
         <div className="columnleft">
           <img
-            src="/static/speakers/Samathy_Barratt.png"
+            src="/static/2019/speakers/Samathy_Barratt.png"
             alt=""
             className="speakerpic"
           />
@@ -779,7 +779,7 @@ export default () => (
       <div className="row">
         <div className="columnleft">
           <img
-            src="/static/speakers/Ian_Cooper.png"
+            src="/static/2019/speakers/Ian_Cooper.png"
             alt=""
             className="speakerpic"
           />
@@ -857,7 +857,7 @@ export default () => (
       <div className="row">
         <div className="columnleft">
           <img
-            src="/static/speakers/Helen_Joy.png"
+            src="/static/2019/speakers/Helen_Joy.png"
             alt=""
             className="speakerpic"
           />
@@ -925,7 +925,7 @@ export default () => (
       <div className="row">
         <div className="columnleft">
           <img
-            src="/static/speakers/Joel_Hammond-Turner.png"
+            src="/static/2019/speakers/Joel_Hammond-Turner.png"
             alt=""
             className="speakerpic"
           />
@@ -1014,7 +1014,7 @@ export default () => (
       <div className="row">
         <div className="columnleft">
           <img
-            src="/static/speakers/Zac_Braddy.png"
+            src="/static/2019/speakers/Zac_Braddy.png"
             alt=""
             className="speakerpic"
           />
@@ -1123,7 +1123,7 @@ export default () => (
       <div className="row">
         <div className="columnleft">
           <img
-            src="/static/speakers/Neil_OConnor.png"
+            src="/static/2019/speakers/Neil_OConnor.png"
             alt=""
             className="speakerpic"
           />
@@ -1227,7 +1227,7 @@ export default () => (
       <div className="row">
         <div className="columnleft">
           <img
-            src="/static/speakers/Simon_Painter.png"
+            src="/static/2019/speakers/Simon_Painter.png"
             alt=""
             className="speakerpic"
           />

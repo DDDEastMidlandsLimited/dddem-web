@@ -4,7 +4,7 @@ const FullWidthImage = props => (
       {`
             p {
                 background-image: url("${props.url}");
-                height: 300px;
+                height: 500px;
                 background-repeat: no-repeat;
                 background-position: center;
                 text-align:center;
