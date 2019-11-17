@@ -40,8 +40,7 @@ export default () => (
       >
         <img
           src="https://live.staticflickr.com/65535/49079034673_f15192235f_c.jpg"
-          width="800"
-          height="400"
+          width="100%"
           alt="DDD2019_Websize(63of351)"
         />
       </a>
