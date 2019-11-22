@@ -34,8 +34,14 @@ class Navigation extends Component {
                 title="Past Events"
                 id="basic-nav-dropdown"
               >
-                <NavDropdown.Item href="/2019/speakers">
-                  Speakers 2019
+                <NavDropdown.Item
+                  target="_blank"
+                  href="https://www.youtube.com/channel/UC5TNH43dpYqmw3ggv9OGIKw"
+                  onSelect={event => {
+                    logEvent('navigation', 'youtube');
+                  }}
+                >
+                  Videos 2019
                 </NavDropdown.Item>
                 <NavDropdown.Item href="/2019/album">
                   Photos 2019
