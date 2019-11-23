@@ -56,20 +56,6 @@ export default () => (
         </div>
       </section>
 
-      <section id="apply-to-speak">
-        <div>
-          <a
-            tabIndex="0"
-            href="/information/application-information"
-            title="Link to Information About Applying To Speak"
-          >
-            <div className="apply-button">
-              <h2>Applying To Speak Information</h2>
-            </div>
-          </a>
-        </div>
-      </section>
-
       <section id="tickets">
         <div>
           <a
@@ -79,6 +65,33 @@ export default () => (
           >
             <div className="ticket-button">
               <h2>Ticket Information</h2>
+            </div>
+          </a>
+        </div>
+      </section>
+      <section id="sponsor-information">
+        <div>
+          <a
+            tabIndex="0"
+            href="/information/sponsor-information"
+            title="Link to Sponsor Information Page"
+          >
+            <div className="sponsor-button">
+              <h2>Sponsor Information</h2>
+            </div>
+          </a>
+        </div>
+      </section>
+
+      <section id="apply-to-speak">
+        <div>
+          <a
+            tabIndex="0"
+            href="/information/application-information"
+            title="Link to Information About Applying To Speak"
+          >
+            <div className="apply-button">
+              <h2>Applying To Speak Information</h2>
             </div>
           </a>
         </div>
@@ -98,7 +111,7 @@ export default () => (
         </div>
       </section>
 
-      {/*       <section id="speaker-information">
+      <section id="speaker-information">
         <div>
           <a
             tabIndex="0"
@@ -110,7 +123,7 @@ export default () => (
             </div>
           </a>
         </div>
-      </section> */}
+      </section>
 
       <section id="crew-information">
         <div>
@@ -126,26 +139,24 @@ export default () => (
         </div>
       </section>
 
-      <section id="sponsor-information">
+      <section id="hacktober-information">
         <div>
           <a
             tabIndex="0"
-            href="/information/sponsor-information"
-            title="Link to Sponsor Information Page"
+            href="/information/hacktoberfest-information"
+            title="Link to Hacktoberfest Information Page"
           >
-            <div className="sponsor-button">
-              <h2>Sponsor Information</h2>
+            <div className="hacktober-button">
+              <h2>Hacktoberfest Information</h2>
             </div>
           </a>
         </div>
       </section>
+
+      {/* Exhibition Information*/}
+
+      {/* PubConf Information */}
     </article>
-
-    {/* Hacktoberfest Information */}
-
-    {/* Exhibition Information*/}
-
-    {/* PubConf Information */}
 
     <style jsx>
       {`
@@ -302,6 +313,22 @@ export default () => (
           padding: 10px 10px;
         }
 
+        .hacktober-button {
+          background-image: url('/static/banners/information/hacktober.jpg');
+          background-size: cover;
+          width: 100%;
+          height: 200px;
+          background-position: center;
+        }
+
+        .hacktober-button h2 {
+          color: white;
+          background: ${theme.palette.dark};
+          font-size: 24px;
+          text-align: center;
+          position: absolute;
+          padding: 10px 10px;
+        }
         article {
           -webkit-columns: 2 400px;
           -moz-columns: 2 400px;
