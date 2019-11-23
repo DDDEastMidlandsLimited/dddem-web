@@ -18,7 +18,7 @@ export default () => (
     </Head>
     <Header
       title={'Speaker Information'}
-      banner="/static/information/speakers.jpg"
+      banner="/static/banners/information/speakers.jpg"
     />
 
     <section name="Contents">

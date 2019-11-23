@@ -10,7 +10,7 @@ export default () => (
     </Head>
     <Header
       title={'DDD East Midlands'}
-      banner="/static/2019/album.jpg"
+      banner="/static/banners/album.jpg"
     />
 
     <section>

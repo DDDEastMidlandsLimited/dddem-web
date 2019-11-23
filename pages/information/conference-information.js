@@ -173,7 +173,9 @@ export default () => (
       </p>
     </section>
     <section>
-      <FullWidthImage url={'/static/information/organisers.jpg'} />
+      <FullWidthImage
+        url={'/static/banners/information/organisers.jpg'}
+      />
     </section>
     <section>
       <br />
@@ -281,7 +283,10 @@ export default () => (
       <p tabIndex="0">
         In order to remain transparent, we have tried to answer as
         many accessibilty related questions as we could on our{' '}
-        <a href="/about/accessibility-information" target="_blank">
+        <a
+          href="/information/accessibility-information"
+          target="_blank"
+        >
           Accessibility Page
         </a>
         .

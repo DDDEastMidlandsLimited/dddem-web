@@ -24,7 +24,7 @@ class Navigation extends Component {
               defaultActiveKey="/home"
             >
               <Nav.Link href="/">Home</Nav.Link>
-              <Nav.Link href="/information/about">
+              <Nav.Link href="/information/main-page">
                 Information
               </Nav.Link>
 

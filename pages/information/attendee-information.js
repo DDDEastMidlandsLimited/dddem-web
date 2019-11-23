@@ -20,7 +20,7 @@ export default () => (
     </Head>
     <Header
       title={'Attendee Information'}
-      banner="/static/information/attendee.jpg"
+      banner="/static/banners/information/attendee.jpg"
     />
 
     <section name="Contents">
@@ -174,7 +174,10 @@ export default () => (
       <p tabIndex="0">
         We have attempted to answer a number of questions around
         accessibilty concerns{' '}
-        <a href="/about/accessibility-information" targe="_blank">
+        <a
+          href="/information/accessibility-information"
+          targe="_blank"
+        >
           see the accessibilty page for more information.
         </a>
       </p>

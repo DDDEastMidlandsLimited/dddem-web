@@ -10,7 +10,7 @@ export default () => (
     </Head>
     <Header
       title={'Information Pages'}
-      banner="/static/information/header.jpg"
+      banner="/static/banners/information/header.jpg"
     />
 
     <article>
@@ -19,7 +19,7 @@ export default () => (
           <a
             tabIndex="0"
             href="/information/conference-information"
-            title="Link to Speaker Information Page"
+            title="Link to Conference Information Page"
           >
             <div className="conference-button">
               <h2>DDD East Midlands Information</h2>
@@ -33,7 +33,7 @@ export default () => (
           <a
             tabIndex="0"
             href="/information/venue-information"
-            title="Link to Speaker Information Page"
+            title="Link to Venue Information Page"
           >
             <div className="venue-button">
               <h2>Venue Information</h2>
@@ -51,6 +51,20 @@ export default () => (
           >
             <div className="accessibility-button">
               <h2>Accessibility Information</h2>
+            </div>
+          </a>
+        </div>
+      </section>
+
+      <section id="apply-to-speak">
+        <div>
+          <a
+            tabIndex="0"
+            href="/information/application-information"
+            title="Link to Information About Applying To Speak"
+          >
+            <div className="apply-button">
+              <h2>Applying To Speak Information</h2>
             </div>
           </a>
         </div>
@@ -84,7 +98,7 @@ export default () => (
         </div>
       </section>
 
-      <section id="speaker-information">
+      {/*       <section id="speaker-information">
         <div>
           <a
             tabIndex="0"
@@ -96,7 +110,7 @@ export default () => (
             </div>
           </a>
         </div>
-      </section>
+      </section> */}
 
       <section id="crew-information">
         <div>
@@ -147,7 +161,7 @@ export default () => (
         }
 
         .venue-button {
-          background-image: url('/static/information/thencc.jpg');
+          background-image: url('/static/banners/information/thencc.jpg');
           background-size: cover;
           width: 100%;
           height: 200px;
@@ -164,7 +178,7 @@ export default () => (
         }
 
         .accessibility-button {
-          background-image: url('/static/information/accessibility.jpg');
+          background-image: url('/static/banners/information/accessibility.jpg');
           background-size: cover;
           width: 100%;
           height: 200px;
@@ -180,8 +194,25 @@ export default () => (
           padding: 10px 10px;
         }
 
+        .apply-button {
+          background-image: url('/static/banners/information/apply.jpg');
+          background-size: cover;
+          width: 100%;
+          height: 200px;
+          background-position: center;
+        }
+
+        .apply-button h2 {
+          color: white;
+          background: ${theme.palette.dark};
+          font-size: 24px;
+          text-align: center;
+          position: absolute;
+          padding: 10px 10px;
+        }
+
         .ticket-button {
-          background-image: url('/static/information/swagbag.jpg');
+          background-image: url('/static/banners/information/swagbag.jpg');
           background-size: cover;
           width: 100%;
           height: 200px;
@@ -198,7 +229,7 @@ export default () => (
         }
 
         .attendee-button {
-          background-image: url('/static/information/attendee.jpg');
+          background-image: url('/static/banners/information/attendee.jpg');
           background-size: cover;
           width: 100%;
           height: 200px;
@@ -215,7 +246,7 @@ export default () => (
         }
 
         .speaker-button {
-          background-image: url('/static/information/speakers.jpg');
+          background-image: url('/static/banners/information/speakers.jpg');
           background-size: cover;
           width: 100%;
           height: 200px;
@@ -232,7 +263,7 @@ export default () => (
         }
 
         .crew-button {
-          background-image: url('/static/information/crew.jpg');
+          background-image: url('/static/banners/information/crew.jpg');
           background-size: cover;
           width: 100%;
           height: 200px;
@@ -249,7 +280,7 @@ export default () => (
         }
 
         .sponsor-button {
-          background-image: url('/static/information/sponsor.jpg');
+          background-image: url('/static/banners/information/sponsor.jpg');
           background-size: cover;
           width: 100%;
           height: 200px;

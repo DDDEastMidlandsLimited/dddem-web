@@ -52,8 +52,8 @@ export default () => (
       </ul>
       <p tabIndex="0">
         To find out more, see our{' '}
-        <a href="/about/about">information pages</a>. If you are
-        interested in sponsoring the event please
+        <a href="/information/main-page">information pages</a>. If you
+        are interested in sponsoring the event please
         <a href="/2020/sponsor">
           fill in the sponsorship interest form.
         </a>
