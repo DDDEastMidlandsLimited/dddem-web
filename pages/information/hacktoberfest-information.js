@@ -9,10 +9,13 @@ export default () => (
     <Head>
       <title>Hacktoberfest</title>
     </Head>
-    <Header title={'Hacktoberfest'} />
+    <Header
+      title={'Hacktoberfest'}
+      banner="/static/banners/information/hacktober.jpg"
+    />
 
     <section>
-      <h1 tabIndex="0">Hacktoberfest</h1>
+      <h1 tabIndex="0">The Hacktoberfest Corner</h1>
       <p tabIndex="0">
         Join{' '}
         <a target="_blank" href="https://annadodson.co.uk">
@@ -64,6 +67,36 @@ export default () => (
           </p>
         </div>
       </div>
+    </section>
+
+    <section>
+      <h1 tabIndex="0">Want to take part?</h1>
+      <p tabIndex="0">
+        If you would like to contribute there is a lot of opportunity
+        to do so. At the 2020 event Anna and Jamie will be promoting a
+        lot of great opportunities - including (hopefully) a sponsor
+        challenge. There are also numerous ways in which you can
+        contribute to the DDD East Midlands website and blog. To find
+        out more information about how to contribute to the DDD East
+        Midlands pages
+        <a
+          target="_blank"
+          href="https://blog.dddeastmidlands.com/2019/10/10/how-to-pr-with-your-post.html"
+        >
+          {' '}
+          read through this blog post by Marcus Noble.
+        </a>
+      </p>
+      <p tabIndex="0">
+        <a
+          target="_blank"
+          href="https://blog.dddeastmidlands.com/2019/10/26/hacktoberfest-corner.html"
+        >
+          {' '}
+          You can also see some peoples contributions from DDD East
+          Midlands Conference here.
+        </a>
+      </p>
     </section>
 
     <style jsx>
