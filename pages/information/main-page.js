@@ -141,6 +141,12 @@ export default () => (
       </section>
     </article>
 
+    {/* Hacktoberfest Information */}
+
+    {/* Exhibition Information*/}
+
+    {/* PubConf Information */}
+
     <style jsx>
       {`
         .conference-button {
