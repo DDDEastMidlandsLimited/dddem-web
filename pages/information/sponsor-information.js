@@ -397,21 +397,23 @@ export default () => (
         anything you are bringing for your exhibition stall.
       </p>
       <table>
-        <tr tabIndex="0">
-          <th>Lift</th>
-          <th>Dimensions</th>
-          <th>Max Weight.</th>
-        </tr>
-        <tr tabIndex="0">
-          <td>Loading bay lift</td>
-          <td>Open topped x 1000 mm x 1470 mm</td>
-          <td>1000 kg</td>
-        </tr>
-        <tr tabIndex="0">
-          <td>Newton lift doors</td>
-          <td>2100 mm x 1100 mm</td>
-          <td>1000 kg</td>
-        </tr>
+        <tbody>
+          <tr tabIndex="0">
+            <th>Lift</th>
+            <th>Dimensions</th>
+            <th>Max Weight.</th>
+          </tr>
+          <tr tabIndex="0">
+            <td>Loading bay lift</td>
+            <td>Open topped x 1000 mm x 1470 mm</td>
+            <td>1000 kg</td>
+          </tr>
+          <tr tabIndex="0">
+            <td>Newton lift doors</td>
+            <td>2100 mm x 1100 mm</td>
+            <td>1000 kg</td>
+          </tr>
+        </tbody>
       </table>
     </section>
 
@@ -615,17 +617,20 @@ export default () => (
       <h2 tabIndex="0">Email</h2>
       <p tabIndex="0">
         Using the @dddeastmidlands.com email addresses:
-        <li>
-          <a href="mailto:jessica@dddeastmidlands.com">
-            Jessica's email
-          </a>
-        </li>
-        <li>
-          <a href="mailto:moreton@dddeastmidlands.com">
-            Moreton's email
-          </a>
-        </li>
       </p>
+      <li>
+        <a href="mailto:rachel@dddeastmidlands.com">Rachel's email</a>
+      </li>
+      <li>
+        <a href="mailto:jessica@dddeastmidlands.com">
+          Jessica's email
+        </a>
+      </li>
+      <li>
+        <a href="mailto:moreton@dddeastmidlands.com">
+          Moreton's email
+        </a>
+      </li>
     </section>
 
     <style jsx>
