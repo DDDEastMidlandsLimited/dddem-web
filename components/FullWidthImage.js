@@ -1,10 +1,10 @@
 const FullWidthImage = props => (
-  <section>
+  <p>
     <style jsx>
       {`
-            section {
+            p {
                 background-image: url("${props.url}");
-                height: 300px;
+                height: 500px;
                 background-repeat: no-repeat;
                 background-position: center;
                 text-align:center;
@@ -12,7 +12,7 @@ const FullWidthImage = props => (
             }
             `}
     </style>
-  </section>
+  </p>
 );
 
 export default FullWidthImage;

@@ -9,7 +9,10 @@ export default () => (
     <Head>
       <title>Sponsor 2020</title>
     </Head>
-    <Header title={'Sponsor 2020'} />
+    <Header
+      title={'Sponsor 2020'}
+      banner="/static/banners/sponsor.jpg"
+    />
 
     <section id="when-and-where">
       <h1 tabIndex="0">When and Where?</h1>

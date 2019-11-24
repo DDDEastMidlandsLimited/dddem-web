@@ -4,7 +4,7 @@ const withCSS = require('@zeit/next-css');
     exportPathMap: function() {
       return {
         '/': { page: '/' },
-        '/about/': { page: '/about' },
+        '/information/': { page: '/information' },
         '/venue/': { page: '/venue' },
         '/sponsorship/': { page: '/sponsorship' },
         '/faq/': { page: '/faq' },

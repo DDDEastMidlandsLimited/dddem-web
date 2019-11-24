@@ -8,27 +8,32 @@ export default () => (
     <Head>
       <title>Contact</title>
     </Head>
-    <Header title={'Contact'} />
+    <Header title={'Contact'} banner="/static/banners/contact.jpg" />
 
     <section name="Contents">
-      <h1>Contents</h1>
+      <h1 tabIndex="0">Contents</h1>
 
-      <p>
+      <p tabIndex="0">
         <strong>
           <a href="#ontheday">On The Day</a>
         </strong>
       </p>
-      <p>
+      <p tabIndex="0">
         <strong>
           <a href="#dddem">DDD East Midlands Accounts</a>
         </strong>
       </p>
-      <p>
+      <p tabIndex="0">
+        <strong>
+          <a href="#rachelwatson">Rachel Watson</a>
+        </strong>
+      </p>
+      <p tabIndex="0">
         <strong>
           <a href="#jessicawhite">Jessica White</a>
         </strong>
       </p>
-      <p>
+      <p tabIndex="0">
         <strong>
           <a href="#moretonbrockley">Moreton Brockley</a>
         </strong>
@@ -36,22 +41,22 @@ export default () => (
     </section>
 
     <section id="ontheday">
-      <h1>On The Day</h1>
+      <h1 tabIndex="0">On The Day</h1>
       <a name="dddem" />
-      <p>
+      <p tabIndex="0">
         The two best ways to get in contact with the organisers on the
         day are:
       </p>
       <ul>
-        <li>At the information desk.</li>
-        <li>Through the volunteers.</li>
+        <li tabIndex="0">At the information desk.</li>
+        <li tabIndex="0">Through the volunteers.</li>
       </ul>
-      <p>
+      <p tabIndex="0">
         We will try our upmost to always have one of us available at
         the information desk with the exception of during the opening
         and closing ceremonies.
       </p>
-      <p>
+      <p tabIndex="0">
         If you want to get to one of us in particular on the day, the
         best way to reach us it through a volunteer. The volunteers
         will have contact details for the organisers which aren't
@@ -61,14 +66,14 @@ export default () => (
     </section>
 
     <section id="dddem">
-      <h1>DDD East Midlands Accounts</h1>
+      <h1 tabIndex="0">DDD East Midlands Accounts</h1>
       <a name="dddem" />
-      <h2>Accounts Run By The Co-Organisers</h2>
+      <h2 tabIndex="0">Accounts Run By The Co-Organisers</h2>
       <ul>
-        <li>
+        <li tabIndex="0">
           <strong>Hashtags:</strong> #DDDEM | #DDDEM2019
         </li>
-        <li>
+        <li tabIndex="0">
           <strong>Twitter:</strong>{' '}
           <a
             href="https://twitter.com/dddeastmidlands"
@@ -77,7 +82,7 @@ export default () => (
             @dddeastmidlands
           </a>
         </li>
-        <li>
+        <li tabIndex="0">
           <strong>LinkedIn:</strong>{' '}
           <a
             href="https://www.linkedin.com/company/ddd-east-midlands-limited/"
@@ -86,7 +91,7 @@ export default () => (
             DDD East Midlands Limited
           </a>
         </li>
-        <li>
+        <li tabIndex="0">
           <strong>Instagram:</strong>{' '}
           <a
             href="https://www.instagram.com/dddeastmidlands/?hl=en"
@@ -98,68 +103,140 @@ export default () => (
       </ul>
     </section>
 
+    <section id="rachelwatson">
+      <h1 tabIndex="0">Rachel Watson</h1>
+      <a name="rachelwatson" />
+      <div className="row">
+        <div className="columnleft">
+          <img
+            src="/static/organisers/rachel.jpg"
+            alt=""
+            className="picture"
+          />
+        </div>
+        <div className="columnright">
+          <h2 tabIndex="0">Co-Organiser</h2>
+          <ul tabIndex="0">
+            <li tabIndex="0">
+              <strong>Email:</strong>{' '}
+              <a
+                href="mailto:rachel@dddeastmidlands.com"
+                target="_blank"
+              >
+                Rachel At DDD East Midalands
+              </a>
+            </li>
+            <li tabIndex="0">
+              <strong>Twitter:</strong>{' '}
+              <a
+                href="https://twitter.com/missracheybaby"
+                target="_blank"
+              >
+                @missracheybaby
+              </a>
+            </li>
+            <li tabIndex="0">
+              <strong>LinkedIn:</strong>{' '}
+              <a
+                href="https://www.linkedin.com/in/rachelwatsondistinct/"
+                target="_blank"
+              >
+                Rachel Watson
+              </a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
     <section id="jessicawhite">
       <h1>Jessica White</h1>
+
       <a name="jessicawhite" />
-      <h2>Co-Founder and Co-Organiser</h2>
-      <ul>
-        <li>
-          <strong>Email:</strong>{' '}
-          <a
-            href="mailto:jessica@dddeastmidlands.com"
-            target="_blank"
-          >
-            Jessica At DDD East Midalands
-          </a>
-        </li>
-        <li>
-          <strong>Twitter:</strong>{' '}
-          <a href="https://twitter.com/JessPWhite" target="_blank">
-            @JessPWhite
-          </a>
-        </li>
-        <li>
-          <strong>LinkedIn:</strong>{' '}
-          <a
-            href="https://www.linkedin.com/in/jessica-white-67917883/"
-            target="_blank"
-          >
-            Jessica White
-          </a>
-        </li>
-      </ul>
+      <div className="row">
+        <div className="columnleft">
+          <img
+            src="/static/organisers/jess.jpg"
+            alt=""
+            className="picture"
+          />
+        </div>
+        <div className="columnright">
+          <h2 tabIndex="0">Co-Founder and Co-Organiser</h2>
+          <ul tabIndex="0">
+            <li tabIndex="0">
+              <strong>Email:</strong>{' '}
+              <a
+                href="mailto:jessica@dddeastmidlands.com"
+                target="_blank"
+              >
+                Jessica At DDD East Midalands
+              </a>
+            </li>
+            <li tabIndex="0">
+              <strong>Twitter:</strong>{' '}
+              <a
+                href="https://twitter.com/JessPWhite"
+                target="_blank"
+              >
+                @JessPWhite
+              </a>
+            </li>
+            <li tabIndex="0">
+              <strong>LinkedIn:</strong>{' '}
+              <a
+                href="https://www.linkedin.com/in/jessica-white-67917883/"
+                target="_blank"
+              >
+                Jessica White
+              </a>
+            </li>
+          </ul>
+        </div>
+      </div>
     </section>
 
     <section id="moretonbrockley">
-      <h1>Moreton Brockley</h1>
+      <h1 tabIndex="0">Moreton Brockley</h1>
       <a name="moretonbrockley" />
-      <h2>Co-Founder and Co-Organiser</h2>
-      <ul>
-        <li>
-          <strong>Email:</strong>{' '}
-          <a
-            href="mailto:moreton@dddeastmidlands.com"
-            target="_blank"
-          >
-            Moreton At DDD East Midalands
-          </a>
-        </li>
-        <li>
-          <strong>Twitter:</strong>{' '}
-          <a href="https://twitter.com/allmobro" target="_blank">
-            @allmobro
-          </a>
-        </li>
-        <li>
-          <strong>LinkedIn:</strong>{' '}
-          <a
-            href="https://www.linkedin.com/in/moreton-brockley-06253538/"
-            target="_blank"
-          >
-            Moreton Brockley
-          </a>
-        </li>
-      </ul>
+      <div className="row">
+        <div className="columnleft">
+          <img
+            src="/static/organisers/mort.jpg"
+            alt=""
+            className="picture"
+          />
+        </div>
+        <div className="columnright">
+          <h2 tabIndex="0">Co-Founder and Co-Organiser</h2>
+          <ul tabIndex="0">
+            <li tabIndex="0">
+              <strong>Email:</strong>{' '}
+              <a
+                href="mailto:moreton@dddeastmidlands.com"
+                target="_blank"
+              >
+                Moreton At DDD East Midalands
+              </a>
+            </li>
+            <li>
+              <strong>Twitter:</strong>{' '}
+              <a href="https://twitter.com/allmobro" target="_blank">
+                @allmobro
+              </a>
+            </li>
+            <li>
+              <strong>LinkedIn:</strong>{' '}
+              <a
+                href="https://www.linkedin.com/in/moreton-brockley-06253538/"
+                target="_blank"
+              >
+                Moreton Brockley
+              </a>
+            </li>
+          </ul>
+        </div>
+      </div>
     </section>
 
     <style jsx>
@@ -180,6 +257,17 @@ export default () => (
         }
         .red {
           color: red;
+        }
+
+        .picture {
+          width: 200px;
+          border-radius: 50%;
+        }
+
+        @media only screen and (max-width: 810px) {
+          .picture {
+            display: none;
+          }
         }
       `}
     </style>

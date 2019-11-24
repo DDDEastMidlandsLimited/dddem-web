@@ -2,14 +2,16 @@ import Layout from '../components/Layout';
 import Header from '../components/Header';
 import theme from '../theme/theme';
 import Head from 'next/head';
-import Link from 'next/link';
 
 export default () => (
   <Layout>
     <Head>
       <title>Code of Conduct</title>
     </Head>
-    <Header title={'Code of Conduct'} />
+    <Header
+      title={'Code of Conduct'}
+      banner="/static/banners/coc.jpg"
+    />
     <section>
       <h2 tabIndex="0">TL;DR</h2>
       <p tabIndex="0">

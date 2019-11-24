@@ -3,18 +3,17 @@ import theme from '../theme/theme';
 import Header from '../components/Header';
 import Head from 'next/head';
 import dates from '../data/dates';
-import gold from '../data/gold';
-import silver from '../data/silver';
-import bronze from '../data/bronze';
 import ImportantDatesList from '../components/home/ImportantDatesList';
-import TieredCompanies from '../components/companies/TieredCompanies';
 
 export default () => (
   <Layout>
     <Head>
       <title>DDD East Midlands</title>
     </Head>
-    <Header title={'DDD East Midlands'} />
+    <Header
+      title={'DDD East Midlands'}
+      banner="/static/banners/home.jpg"
+    />
 
     <section>
       <p tabIndex="0">
@@ -25,6 +24,14 @@ export default () => (
         amazing tech community that has already grown in the East
         Midlands.
       </p>
+    </section>
+
+    <section>
+      <h2 tabIndex="0">Important Dates</h2>
+      <ImportantDatesList dates={dates} />
+    </section>
+
+    <section>
       <p tabIndex="0">
         This conference follows these DDD principles:
       </p>
@@ -44,32 +51,13 @@ export default () => (
         </li>
       </ul>
       <p tabIndex="0">
-        To find out more, see our About Page. If you are interested in
-        sponsoring the event email
-        <a href="mailto:sponsor@dddeastmidlands.com">
-          sponsor@dddeastmidlands.com
+        To find out more, see our{' '}
+        <a href="/information/main-page">information pages</a>. If you
+        are interested in sponsoring the event please
+        <a href="/2020/sponsor">
+          fill in the sponsorship interest form.
         </a>
       </p>
-    </section>
-
-    <section>
-      <h2 tabIndex="0">Important Dates</h2>
-      <ImportantDatesList dates={dates} />
-    </section>
-
-    <section>
-      <h2 tabIndex="0">Gold Sponsors</h2>
-      <TieredCompanies partners={gold} />
-    </section>
-
-    <section>
-      <h2 tabIndex="0">Silver Sponsors</h2>
-      <TieredCompanies partners={silver} />
-    </section>
-
-    <section>
-      <h2 tabIndex="0">Bronze Sponsors</h2>
-      <TieredCompanies partners={bronze} />
     </section>
 
     <style jsx>

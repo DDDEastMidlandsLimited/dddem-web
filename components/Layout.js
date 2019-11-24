@@ -111,7 +111,8 @@ export default class Layout extends React.Component {
             height: 90px;
             text-align: center;
             border-radius: ${theme.sizes.borderRadiusMobile};
-            background-color: ${theme.palette.quaternary};
+            border: #b5c6c4;
+            border-style: dotted;
             padding: 40px 15px;
             margin: 10px;
             display: flex;

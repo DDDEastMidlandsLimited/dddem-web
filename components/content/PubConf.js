@@ -1,63 +1,85 @@
 import ContentSection from '../../styles/ContentSection';
+import FullWidthImage from '../../components/FullWidthImage';
 
 const PubConf = props => (
-  <section id="social-media">
-    <h1 tabIndex="0">Social Media and Photos</h1>
-    <p tabIndex="0">
-      Feel free to take photos and post on social media before, after
-      and during the event. There are just a few guidelines we ask you
-      to respect.
+  <section id="pubconf">
+    <h1>PubConf - The Unofficial After Party</h1>
+    <a name="after-party-about" />
+    <h2>About</h2>
+    <p>
+      After the conference, there will be a special{' '}
+      <a href="https://pubconf.io/" target="_blank">
+        PubConf
+      </a>{' '}
+      featuring some of our speakers and special guests. This evening
+      event has comedy talks, music, food and beverages. It's great
+      fun for all and we encourage you to come along.
     </p>
-    <a name="photographs" />
-    <h2 tabIndex="0">Photographs</h2>
-    <p tabIndex="0">
-      We will have a coloured lanyard system at the event to indicate
-      whether attendees are OK with their photo being taken and used.
+    <p>
+      <strong>Quick about:</strong>
     </p>
     <ul>
-      <li tabIndex="0" className="green">
-        Green — It’s fine for their photo to be taken
+      <li>
+        The talks conducted at PubConf are 5 minute, comedy ignite
+        talks:
       </li>
-      <li tabIndex="0" className="red">
-        Red — Do not include me in your photos or promotional material
+      <li>
+        20 slides timed to increment every 15 seconds. The speakers
+        have no control
+      </li>
+      <li>
+        The top three talks will go into a final battle to win prizes.
+        These three finalists will be presented with a ignite deck
+        they have never seen before and given a topic. They will then
+        have to come up with an impromptu talk on the spot.
+      </li>
+      <li>
+        Talk topics have an emphasis on humour. Often the content is
+        not suitable to be shared away from the safety of PubConf.
+      </li>
+      <li>
+        PubConf is a separate entity and business from DDD East
+        Midlands. As such they have their own Code of Conduct. Hence
+        "Unofficial" after party. We are not involved in its
+        organisation.
       </li>
     </ul>
-    <p tabIndex="0">
-      You will be able to pick your lanyard on registration.
+    <p>
+      <strong>
+        <a
+          href="https://blog.dddeastmidlands.com/2019/10/15/pubconf-nottingham-faq.html"
+          target="_blank"
+        >
+          Find out more about PubConf in this blog post by Dylan
+          Beattie
+        </a>
+      </strong>
     </p>
-    <a name="social-media" />
-    <h2 tabIndex="0">Social Media Posts</h2>
-    <p tabIndex="0">
-      Please use any of the below information to tag us. If using our
-      hashtag or handles though, please avoid promoting anything that
-      doesn’t align with our code of conduct.
+    <img
+      src="/static/banners/pubconf.png"
+      alt="PubConf Nottingham Banner"
+      className="picture"
+    />
+    <a name="after-party-rules" />
+    <h2>Rules of PubConf</h2>
+    <strong>What happens at PubConf, stays at Pubconf.</strong>
+    <ul>
+      <li>
+        No photos or videos unless you have the speakers explicit
+        permission.
+      </li>
+      <li>
+        No quoting talks. (Taken out of context, a joke can be
+        damaging)
+      </li>
+    </ul>
+    <p>
+      <strong>
+        Age limit is over 18 years old as the venue is serving
+        alcohol.
+      </strong>
     </p>
-    <h3 tabIndex="0">DDD East Midlands on Social Media</h3>
-    <ul tabIndex="0">Hashtags: #DDDEM | #DDDEM2019</ul>
-    <ul tabIndex="0">
-      Twitter:{' '}
-      <a href="https://twitter.com/dddeastmidlands" target="_blank">
-        @dddeastmidlands
-      </a>
-    </ul>
-    <ul tabIndex="0">
-      LinkedIn:{' '}
-      <a
-        href="https://www.linkedin.com/company/ddd-east-midlands-limited/"
-        target="_blank"
-      >
-        DDD East Midlands Limited
-      </a>
-    </ul>
-    <ul tabIndex="0">
-      Instagram:{' '}
-      <a
-        href="https://www.instagram.com/dddeastmidlands/?hl=en"
-        target="_blank"
-      >
-        @dddeastmidlands
-      </a>
-    </ul>
+
     <style jsx>{ContentSection}</style>
   </section>
 );
