@@ -47,7 +47,7 @@ export default () => (
       <script
         async
         src="//embedr.flickr.com/assets/client-code.js"
-        charset="utf-8"
+        charSet="utf-8"
       ></script>
     </section>
 
