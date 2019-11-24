@@ -1,8 +1,8 @@
-import Layout from '../components/Layout';
-import theme from '../theme/theme';
-import Header from '../components/Header';
+import Layout from '../../components/Layout';
+import theme from '../../theme/theme';
+import Header from '../../components/Header';
 import Head from 'next/head';
-import NotableCompanies from '../components/companies/NotableCompanies';
+import NotableCompanies from '../../components/companies/NotableCompanies';
 
 export default () => (
   <Layout>
