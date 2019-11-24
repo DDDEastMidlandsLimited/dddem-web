@@ -21,25 +21,23 @@ const Catering = props => (
         idea of what might be provided for lunch:
       </strong>
     </p>
-    <p>
-      <ul>
-        <li tabIndex="0">
-          Stir fried vegetables and beans in a Korean style bulgogi
-          sauce
-        </li>
-        <li tabIndex="0">
-          Chicken, leek and mushroom pie topped with shortcrust pastry
-        </li>
-        <li tabIndex="0">
-          Lamb rogan josh served with naan and mango chutney
-        </li>
-        <li tabIndex="0">Parmentier potatoes</li>
-        <li tabIndex="0">Steamed coriander rice</li>
-        <li tabIndex="0">Medley of garden vegetables</li>
-        <li tabIndex="0">Carrot, spring onion and sultana salad</li>
-        <li tabIndex="0">Spiced cous cous</li>
-      </ul>
-    </p>
+    <ul>
+      <li tabIndex="0">
+        Stir fried vegetables and beans in a Korean style bulgogi
+        sauce
+      </li>
+      <li tabIndex="0">
+        Chicken, leek and mushroom pie topped with shortcrust pastry
+      </li>
+      <li tabIndex="0">
+        Lamb rogan josh served with naan and mango chutney
+      </li>
+      <li tabIndex="0">Parmentier potatoes</li>
+      <li tabIndex="0">Steamed coriander rice</li>
+      <li tabIndex="0">Medley of garden vegetables</li>
+      <li tabIndex="0">Carrot, spring onion and sultana salad</li>
+      <li tabIndex="0">Spiced cous cous</li>
+    </ul>
 
     <a name="drink" />
     <h2 tabIndex="0">Alcohol</h2>
