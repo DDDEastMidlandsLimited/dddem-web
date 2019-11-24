@@ -126,12 +126,6 @@ export default () => (
         <li>
           <a href="#after-party-rules">Rules of PubConf</a>
         </li>
-        <li>
-          <a href="#pubconf-tickets">Be alerted about tickets</a>
-        </li>
-        <li>
-          <a href="#speak-pubconf">Fancy giving it a shot?</a>
-        </li>
       </ul>
 
       <p>

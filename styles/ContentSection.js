@@ -24,6 +24,11 @@ export default css.contentsection`
         color: red;
     }
 
+    
+    .picture {
+        width: 95%;
+    }
+
     table {
         font-family: arial, sans-serif;
         border-collapse: collapse;

@@ -144,9 +144,6 @@ export default () => (
         <li>
           <a href="#after-party-rules">Rules of PubConf</a>
         </li>
-        <li>
-          <a href="#pubconf-tickets">Be alerted about tickets</a>
-        </li>
       </ul>
     </section>
 
