@@ -6,7 +6,7 @@ import Head from 'next/head';
 export default () => (
   <Layout>
     <Head>
-      <title>About DDDEM</title>
+      <title>Information Pages</title>
     </Head>
     <Header
       title={'Information Pages'}
