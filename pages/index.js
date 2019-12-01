@@ -41,6 +41,9 @@ export default () => (
           have to take time from work.
         </li>
         <li tabIndex="0">Tickets to attend the event are free.</li>
+      </ul>
+      <p tabIndex="0">As well as these following principles:</p>
+      <ul>
         <li tabIndex="0">All talk submissions are anonymous.</li>
         <li tabIndex="0">
           There is a democratic selection process for talks involving

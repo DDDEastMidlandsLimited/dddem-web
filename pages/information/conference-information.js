@@ -25,7 +25,10 @@ export default () => (
           </a>
         </li>
         <li>
-          <a href="#principles">DDD Principles</a>
+          <a href="#ddd-principles">DDD Principles</a>
+        </li>
+        <li>
+          <a href="#our-principles">Our Principles</a>
         </li>
       </ul>
 
@@ -107,15 +110,19 @@ export default () => (
     </section>
 
     <section>
-      <a name="principles" />
+      <a name="ddd-principles" />
       <h2 tabIndex="0">The event follows these DDD Principles:</h2>
-
       <ul>
         <li tabIndex="0">
           The event is hosted on a Saturday so that attendees do not
           have to take time from work.
         </li>
-        <li tabIndex="0"> Tickets to attend the event are free.</li>
+        <li tabIndex="0">Tickets to attend the event are free.</li>
+      </ul>
+      <br />
+      <a name="our-principles" />
+      <h2 tabIndex="0">As well as our own following principles:</h2>
+      <ul>
         <li tabIndex="0">All talk submissions are anonymous.</li>
         <li tabIndex="0">
           There is a democratic selection process for talks involving
@@ -172,15 +179,63 @@ export default () => (
         in 2020.
       </p>
     </section>
-    <section>
-      <FullWidthImage
-        url={'/static/banners/information/organisers.jpg'}
-      />
-    </section>
-    <section>
+
+    <section id="rachelwatson">
+      <h2 tabIndex="0">Rachel Watson: Co-organiser</h2>
+      <a name="rachel" />
+      <p tabIndex="0">
+        The newest member of the team, Rachel will be helping with all
+        the DDD East Midlands correspondance, making sure the
+        experience is as seamless as possible for sponsors and
+        partners. She works for Distinct Recruitment and you can find
+        her at a lot of the local meetups.
+      </p>
       <br />
+      <div className="row">
+        <div className="columnleft">
+          <img
+            src="/static/organisers/rachel.jpg"
+            alt=""
+            className="picture"
+          />
+        </div>
+        <div className="columnright">
+          <ul tabIndex="0">
+            <li tabIndex="0">
+              <strong>Email:</strong>{' '}
+              <a
+                href="mailto:rachel@dddeastmidlands.com"
+                target="_blank"
+              >
+                Rachel At DDD East Midalands
+              </a>
+            </li>
+            <li tabIndex="0">
+              <strong>Twitter:</strong>{' '}
+              <a
+                href="https://twitter.com/missracheybaby"
+                target="_blank"
+              >
+                @missracheybaby
+              </a>
+            </li>
+            <li tabIndex="0">
+              <strong>LinkedIn:</strong>{' '}
+              <a
+                href="https://www.linkedin.com/in/rachelwatsondistinct/"
+                target="_blank"
+              >
+                Rachel Watson
+              </a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <section id="jessicawhite">
+      <h2 tabIndex="0">Jessica White: Co-Founder and Co-Organiser</h2>
       <a name="jessica" />
-      <h2 tabIndex="0">Jessica White</h2>
       <p tabIndex="0">
         Fully caffeinated, Jessica is more whirling dervish than
         person. Having founded <a href="">Women In Tech Nottingham</a>
@@ -190,25 +245,54 @@ export default () => (
         event or have any awesome ideas for the event or related
         social media.
       </p>
-      <p>
-        <a
-          className="smallspace"
-          href="https://twitter.com/JessPWhite"
-          target="_blank"
-        >
-          Twitter
-        </a>
-        <a
-          href="https://www.linkedin.com/in/jessica-white-67917883/"
-          target="_blank"
-        >
-          LinkedIn
-        </a>
-      </p>
-
       <br />
+      <div className="row">
+        <div className="columnleft">
+          <img
+            src="/static/organisers/jess.jpg"
+            alt=""
+            className="picture"
+          />
+        </div>
+        <div className="columnright">
+          <ul tabIndex="0">
+            <li tabIndex="0">
+              <strong>Email:</strong>{' '}
+              <a
+                href="mailto:jessica@dddeastmidlands.com"
+                target="_blank"
+              >
+                Jessica At DDD East Midalands
+              </a>
+            </li>
+            <li tabIndex="0">
+              <strong>Twitter:</strong>{' '}
+              <a
+                href="https://twitter.com/JessPWhite"
+                target="_blank"
+              >
+                @JessPWhite
+              </a>
+            </li>
+            <li tabIndex="0">
+              <strong>LinkedIn:</strong>{' '}
+              <a
+                href="https://www.linkedin.com/in/jessica-white-67917883/"
+                target="_blank"
+              >
+                Jessica White
+              </a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <section id="moretonbrockley">
+      <h2 tabIndex="0">
+        Moreton Brockley: Co-Founder and Co-Organiser
+      </h2>
       <a name="moreton" />
-      <h2 tabIndex="0">Moreton Brockley</h2>
       <p tabIndex="0">
         A Delivery Manager and developer, Moreton is the sensible head
         of the co-founders. He is the number whizz and the fashion
@@ -216,47 +300,44 @@ export default () => (
         may (not) recognise Moreton from his performance at 2018's
         Hack24 as Mr Blobby.
       </p>
-      <p>
-        <a
-          className="smallspace"
-          href="https://twitter.com/allmobro"
-          target="_blank"
-        >
-          Twitter
-        </a>
-        <a
-          href="https://www.linkedin.com/in/moreton-brockley-06253538/"
-          target="_blank"
-        >
-          LinkedIn
-        </a>
-      </p>
-
       <br />
-      <a name="rachel" />
-      <h2 tabIndex="0">Rachel Watson</h2>
-      <p tabIndex="0">
-        The newest member of the team, Rachel will be helping with all
-        the DDD East Midlands correspondance, making sure the
-        experience is as seamless as possible for sponsors and
-        partners. She works for Distinct Recruitment and you can find
-        her at a lot of the local meetups.
-      </p>
-      <p>
-        <a
-          className="smallspace"
-          href="https://twitter.com/missracheybaby"
-          target="_blank"
-        >
-          Twitter
-        </a>
-        <a
-          href="https://www.linkedin.com/in/rachelwatsondistinct/"
-          target="_blank"
-        >
-          LinkedIn
-        </a>
-      </p>
+      <div className="row">
+        <div className="columnleft">
+          <img
+            src="/static/organisers/mort.jpg"
+            alt=""
+            className="picture"
+          />
+        </div>
+        <div className="columnright">
+          <ul tabIndex="0">
+            <li tabIndex="0">
+              <strong>Email:</strong>{' '}
+              <a
+                href="mailto:moreton@dddeastmidlands.com"
+                target="_blank"
+              >
+                Moreton At DDD East Midalands
+              </a>
+            </li>
+            <li>
+              <strong>Twitter:</strong>{' '}
+              <a href="https://twitter.com/allmobro" target="_blank">
+                @allmobro
+              </a>
+            </li>
+            <li>
+              <strong>LinkedIn:</strong>{' '}
+              <a
+                href="https://www.linkedin.com/in/moreton-brockley-06253538/"
+                target="_blank"
+              >
+                Moreton Brockley
+              </a>
+            </li>
+          </ul>
+        </div>
+      </div>
     </section>
 
     <section>
@@ -295,15 +376,15 @@ export default () => (
       <a name="selection" />
       <h2 tabIndex="0">Submission And Selection Process</h2>
       <p tabIndex="0">
-        In line with the DDD principles, the submission process is
-        anonymous and the selection process democratic. This is a
-        conference for the community, by the community. All talks that
-        are submitted are anonymous. When the attendees vote on which
-        talks they want to see, and when the organisers are sorting
-        out the agenda, identifiable information about those who have
-        submitted can't bee seen. This is to keep the process as fair
-        as possible and ensure talks are picked on their advertised
-        content, not by who is presenting.
+        The submission process is anonymous and the selection process
+        democratic. This is a conference for the community, by the
+        community. All talks that are submitted are anonymous. When
+        the attendees vote on which talks they want to see, and when
+        the organisers are sorting out the agenda, identifiable
+        information about those who have submitted can't bee seen.
+        This is to keep the process as fair as possible and ensure
+        talks are picked on their advertised content, not by who is
+        presenting.
       </p>
       <p tabIndex="0">
         As mentioned, attendees will get to vote on the talks they
@@ -424,6 +505,17 @@ export default () => (
           width: 100%;
           height: 100%;
           border: 0;
+        }
+
+        .picture {
+          width: 200px;
+          border-radius: 50%;
+        }
+
+        @media only screen and (max-width: 810px) {
+          .picture {
+            display: none;
+          }
         }
       `}
     </style>
