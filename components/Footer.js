@@ -13,28 +13,36 @@ const Footer = () => (
       <li>
         <Link href="https://twitter.com/dddeastmidlands">
           <a target="_blank" aria-label="Twitter">
-            <FontAwesomeIcon icon={['fab', 'twitter']} size="xs" />
+            {' '}
+            Twitter
+            {/* <FontAwesomeIcon icon={['fab', 'twitter']} size="xs" /> */}
           </a>
         </Link>
       </li>
       <li>
         <Link href="https://github.com/DDDEastMidlandsLimited/dddem-web">
           <a target="_blank" aria-label="GitHub">
-            <FontAwesomeIcon icon={['fab', 'github']} size="xs" />
+            {' '}
+            GitHub
+            {/* <FontAwesomeIcon icon={['fab', 'github']} size="xs" /> */}
           </a>
         </Link>
       </li>
       <li>
         <Link href="https://www.instagram.com/dddeastmidlands/?hl=en">
           <a target="_blank" aria-label="Instagram">
-            <FontAwesomeIcon icon={['fab', 'instagram']} size="xs" />
+            {' '}
+            Instagram
+            {/* <FontAwesomeIcon icon={['fab', 'instagram']} size="xs" /> */}
           </a>
         </Link>
       </li>
       <li>
         <Link href="https://www.linkedin.com/company/ddd-east-midlands-limited/">
           <a target="_blank" aria-label="LinkedIn">
-            <FontAwesomeIcon icon={['fab', 'linkedin']} size="xs" />
+            {' '}
+            LinkedIn
+            {/* <FontAwesomeIcon icon={['fab', 'linkedin']}  size="xs" /> */}
           </a>
         </Link>
       </li>
