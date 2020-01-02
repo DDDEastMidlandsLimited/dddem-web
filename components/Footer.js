@@ -14,8 +14,7 @@ const Footer = () => (
         <Link href="https://twitter.com/dddeastmidlands">
           <a target="_blank" aria-label="Twitter">
             {' '}
-            Twitter
-            {/* <FontAwesomeIcon icon={['fab', 'twitter']} size="xs" /> */}
+            <FontAwesomeIcon icon={['fab', 'twitter']} size="sm" />
           </a>
         </Link>
       </li>
@@ -23,8 +22,7 @@ const Footer = () => (
         <Link href="https://github.com/DDDEastMidlandsLimited/dddem-web">
           <a target="_blank" aria-label="GitHub">
             {' '}
-            GitHub
-            {/* <FontAwesomeIcon icon={['fab', 'github']} size="xs" /> */}
+            <FontAwesomeIcon icon={['fab', 'github']} size="sm" />
           </a>
         </Link>
       </li>
@@ -32,8 +30,7 @@ const Footer = () => (
         <Link href="https://www.instagram.com/dddeastmidlands/?hl=en">
           <a target="_blank" aria-label="Instagram">
             {' '}
-            Instagram
-            {/* <FontAwesomeIcon icon={['fab', 'instagram']} size="xs" /> */}
+            <FontAwesomeIcon icon={['fab', 'instagram']} size="sm" />
           </a>
         </Link>
       </li>
@@ -41,14 +38,13 @@ const Footer = () => (
         <Link href="https://www.linkedin.com/company/ddd-east-midlands-limited/">
           <a target="_blank" aria-label="LinkedIn">
             {' '}
-            LinkedIn
-            {/* <FontAwesomeIcon icon={['fab', 'linkedin']}  size="xs" /> */}
+            <FontAwesomeIcon icon={['fab', 'linkedin']} size="sm" />
           </a>
         </Link>
       </li>
       <li>
         <Link href="/contact">
-          <a target="_blank">Contact</a>
+          <a>Contact</a>
         </Link>
       </li>
     </ul>
