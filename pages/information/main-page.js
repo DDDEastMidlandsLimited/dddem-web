@@ -175,6 +175,7 @@ export default () => (
           text-align: center;
           position: absolute;
           padding: 10px 10px;
+          width: 30%;
         }
 
         .venue-button {
@@ -345,6 +346,12 @@ export default () => (
 
         section:hover {
           opacity: 0.4;
+        }
+
+        @media (max-width: 1020px) {
+          .conference-button h2 {
+            width: 50%;
+          }
         }
       `}
     </style>
