@@ -350,7 +350,53 @@ export default () => (
 
         @media (max-width: 1020px) {
           .conference-button h2 {
+            width: 60%;
+            font-size: 20px;
+          }
+
+          .venue-button h2 {
             width: 50%;
+            font-size: 20px;
+          }
+
+          .accessibility-button h2 {
+            width: 60%;
+            font-size: 20px;
+          }
+
+          .apply-button h2 {
+            width: 60%;
+            font-size: 20px;
+          }
+
+          .ticket-button h2 {
+            width: 60%;
+            font-size: 20px;
+          }
+
+          .attendee-button h2 {
+            width: 60%;
+            font-size: 20px;
+          }
+
+          .speaker-button h2 {
+            width: 60%;
+            font-size: 20px;
+          }
+
+          .crew-button h2 {
+            width: 60%;
+            font-size: 20px;
+          }
+
+          .sponsor-button h2 {
+            width: 60%;
+            font-size: 20px;
+          }
+
+          .hacktober-button h2 {
+            width: 60%;
+            font-size: 20px;
           }
         }
       `}
