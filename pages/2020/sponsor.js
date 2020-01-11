@@ -29,22 +29,118 @@ export default () => (
     <section id="indicating-interest">
       <h1 tabIndex="0">Indicating Interest to Sponsor</h1>
       <a name="submitting-interest" />
-      <h2 tabIndex="0">First come first served</h2>
+      <h2 tabIndex="0">Get in touch with Rachel</h2>
       <p tabIndex="0">
-        Please indicate your interest and we will get in touch. We
-        will get in touch with companies in the order that they have
-        submitted their interest.
+        Rachel is the newest member of our team and will be the point
+        of contact for all sponsors and partners. Get in touch with
+        her and she will work with you to ensure you get what you need
+        while supporting the conference. There are a number of tiers,
+        with different benefits and price tags, so there should be
+        something that is right for you.
       </p>
-      <a name="submitting-interest" />
-      <h2 tabIndex="0">We are changing the format for the better</h2>
+      {/* Rachel pic and links */}
+      <div className="row">
+        <div className="columnleft">
+          <img
+            src="/static/organisers/rachel.jpg"
+            alt=""
+            className="picture"
+          />
+        </div>
+        <div className="columnright">
+          <ul tabIndex="0">
+            <li tabIndex="0">
+              <strong>Email:</strong>{' '}
+              <a
+                href="mailto:rachel@dddeastmidlands.com"
+                target="_blank"
+              >
+                Rachel At DDD East Midalands
+              </a>
+            </li>
+            <li tabIndex="0">
+              <strong>Twitter:</strong>{' '}
+              <a
+                href="https://twitter.com/missracheybaby"
+                target="_blank"
+              >
+                @missracheybaby
+              </a>
+            </li>
+            <li tabIndex="0">
+              <strong>LinkedIn:</strong>{' '}
+              <a
+                href="https://www.linkedin.com/in/rachelwatsondistinct/"
+                target="_blank"
+              >
+                Rachel Watson
+              </a>
+            </li>
+          </ul>
+        </div>
+      </div>
+
+      {/* is there a pack? */}
+      <a name="sponsorship-pack" />
+      <h2 tabIndex="0">Is there a sponsorship pack?</h2>
       <p tabIndex="0">
-        We are taking lessons from the first year and iterating. Part
-        of this form is to help us do that. Let us know what benefits
-        you are interested in, so that we can tailor our sponsorship
-        pack to the majorities needs.
+        The sponsorship pack is being put together at the moment and
+        will be available by email and online by the end of January.
+      </p>
+
+      {/* when sponsorship available */}
+      <a name="when-sponsorship-is-available" />
+      <h2 tabIndex="0">
+        What happens when sponsorship becomes available?
+      </h2>
+      <p tabIndex="0">
+        Rachel is the newest member of our team and will be the point
+        of contact for all sponsors and partners. Get in touch with
+        her and she will work with you to ensure you get what you need
+        while supporting the conference. There are a number of tiers,
+        with different benefits and price tags, so there should be
+        something that is right for you.
       </p>
       <br />
-      <SponsorButton />
+    </section>
+
+    <section id="sponsorship-agreed">
+      <h1 tabIndex="0">
+        Once your support level has been confirmed.
+      </h1>
+      <a name="contract" />
+      <h2 tabIndex="0">
+        The process of becoming a sponsor or partner.
+      </h2>
+      <p tabIndex="0">
+        <ol>
+          <li>
+            {' '}
+            Send Rachel the opportunity you want to take up and your
+            Companies House details/link.
+          </li>
+          <li> If available, we will send you a contract to sign</li>
+          <li>
+            {' '}
+            Send back the signed contract and the payment method you
+            want to use.
+          </li>
+          <li> We will send you back a co-signed contract.</li>
+          <li> An invoice for the agreed amount will be sent.</li>
+          <li>
+            {' '}
+            Once the amount has been paid - you will recieve the
+            benefits outlined by the agreement.
+          </li>
+          <li>
+            {' '}
+            Your support will be announced on our social media
+            channels.
+          </li>
+        </ol>
+      </p>
+      <br />
+      {/* <SponsorButton /> */}
     </section>
 
     <style jsx>
@@ -56,6 +152,17 @@ export default () => (
         }
         section div {
           padding-bottom: 10px;
+        }
+
+        .picture {
+          width: 150px;
+          border-radius: 50%;
+        }
+
+        @media only screen and (max-width: 810px) {
+          .picture {
+            display: none;
+          }
         }
       `}
     </style>
