@@ -113,13 +113,15 @@ export default () => (
         The process of becoming a sponsor or partner.
       </h2>
       <p tabIndex="0">
+        <strong>
+          Once your company and Rachel have agreed on the sponsorship
+          opportunity and terms:
+        </strong>
+      </p>
+      <p tabIndex="0">
         <ol>
-          <li>
-            {' '}
-            Send Rachel the opportunity you want to take up and your
-            Companies House details/link.
-          </li>
-          <li> If available, we will send you a contract to sign</li>
+          <li> Send Rachel your Companies House details/link.</li>
+          <li> We will send you a contract to sign.</li>
           <li>
             {' '}
             Send back the signed contract and the payment method you
@@ -127,6 +129,12 @@ export default () => (
           </li>
           <li> We will send you back a co-signed contract.</li>
           <li> An invoice for the agreed amount will be sent.</li>
+          <li>
+            {' '}
+            There may be assets we have asked for such as logos or
+            company description. Please send these over early so that
+            we can make any website and social media changes.
+          </li>
           <li>
             {' '}
             Once the amount has been paid - you will recieve the
