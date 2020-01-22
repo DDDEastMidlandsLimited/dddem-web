@@ -53,9 +53,14 @@ export default () => (
     <section>
       <a name="ticketrelease" />
       <h1 tabIndex="0">When will tickets be released?</h1>
-      <p tabIndex="0">
-        Tickets have already been released for the 2019 event.
-      </p>
+      <ul tabIndex="0">
+        <li>
+          <strong>First wave:</strong> 20th March
+        </li>
+        <li>
+          <strong>Second wave:</strong> 10th April
+        </li>
+      </ul>
     </section>
 
     <section>

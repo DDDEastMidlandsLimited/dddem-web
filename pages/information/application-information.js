@@ -43,8 +43,8 @@ export default () => (
       <a name="applicationdate" />
       <h2 tabIndex="0">When can I apply to talk?</h2>
       <p tabIndex="0">
-        Applications to speak at the 2019 event have closed. 2020
-        applications open early next year.
+        Applications to speak open on the 7th Feburary 2020 and close
+        16th March 2020.
       </p>
     </section>
 
@@ -54,7 +54,7 @@ export default () => (
       <p tabIndex="0">
         When applications are open{' '}
         <a
-          href="https://sessionize.com/dddeastmidlands/"
+          href="https://sessionize.com/dddeastmidlands-2020/"
           target="_blank"
         >
           {' '}

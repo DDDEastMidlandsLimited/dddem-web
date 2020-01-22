@@ -33,7 +33,7 @@ const SocialMedia = props => (
       doesn’t align with our code of conduct.
     </p>
     <h3 tabIndex="0">DDD East Midlands on Social Media</h3>
-    <ul tabIndex="0">Hashtags: #DDDEM | #DDDEM2019</ul>
+    <ul tabIndex="0">Hashtags: #DDDEM | #DDDEM2020</ul>
     <ul tabIndex="0">
       Twitter:{' '}
       <a href="https://twitter.com/dddeastmidlands" target="_blank">

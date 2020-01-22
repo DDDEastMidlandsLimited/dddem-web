@@ -360,7 +360,7 @@ export default () => (
       <p tabIndex="0">
         You will be emailed a time slot closer to the event, in which
         you can set up your exhibition stall. This time slot will be
-        somewhere between 18.00 – 21.30 on the 25th of October (the
+        somewhere between 18.00 – 21.30 on the 2nd of October (the
         night before the event).
       </p>
       <p tabIndex="0">
@@ -584,8 +584,8 @@ export default () => (
         You will be emailed a time slot closer to the event, in which
         you can bring a vehicle to the venue to collect any remaining
         items from your exhibition stall. This time slot will be
-        somewhere between 16.30 – 18.30 on the 26th of October (the
-        day of the event).
+        somewhere between 16.30 – 18.30 on the 3rd of October (the day
+        of the event).
       </p>
       <p tabIndex="0">
         We have to arrange this into time slots due to the limited
