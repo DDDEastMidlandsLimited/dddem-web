@@ -9,7 +9,7 @@ import {
   Catering,
   SocialMedia,
   Wifi,
-  PubConf,
+  //PubConf,
 } from '../../components/content';
 
 export default () => (
@@ -187,7 +187,7 @@ export default () => (
 
     <SocialMedia />
 
-    <PubConf />
+    {/* <PubConf /> */}
 
     <style jsx>
       {`

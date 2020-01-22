@@ -6,7 +6,7 @@ import {
   Transport,
   SocialMedia,
   CodeOfConduct,
-  PubConf,
+  //PubConf,
 } from '../../components/content';
 
 export default () => (
@@ -154,7 +154,7 @@ export default () => (
         </li>
       </ul>
 
-      <p tabIndex="0">
+      {/* <p tabIndex="0">
         <strong>PubConf - The Unofficial After Party</strong>
       </p>
       <ul>
@@ -164,7 +164,7 @@ export default () => (
         <li>
           <a href="#after-party-rules">Rules of PubConf</a>
         </li>
-      </ul>
+      </ul> */}
 
       <p>
         <strong>
@@ -599,7 +599,7 @@ export default () => (
       </p>
     </section>
 
-    <PubConf />
+    {/* <PubConf /> */}
 
     <section id="contact">
       <a name="contact" />

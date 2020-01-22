@@ -10,7 +10,7 @@ import {
   Catering,
   Wifi,
   SocialMedia,
-  PubConf,
+  //PubConf,
 } from '../../components/content';
 
 export default () => (
@@ -132,7 +132,7 @@ export default () => (
         </li>
       </ul>
 
-      <p>
+      {/* <p>
         <strong>
           <a href="#pubconf">PubConf - The Unofficial After Party</a>
         </strong>
@@ -144,7 +144,7 @@ export default () => (
         <li>
           <a href="#after-party-rules">Rules of PubConf</a>
         </li>
-      </ul>
+      </ul>*/}
     </section>
 
     <Introduction />
@@ -304,7 +304,7 @@ export default () => (
 
     <SocialMedia />
 
-    <PubConf />
+    {/* <PubConf /> */}
 
     <style jsx>
       {`
