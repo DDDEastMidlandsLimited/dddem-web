@@ -48,6 +48,16 @@ class Navigation extends Component {
                 </NavDropdown.Item>
               </NavDropdown>
 
+              {/* <Nav.Link
+                target="_blank"
+                href="https://sessionize.com/dddeastmidlands-2020/"
+                onSelect={event => {
+                  logEvent('navigation', 'cfp');
+                }}
+              >
+                Apply To Speak
+              </Nav.Link> */}
+
               <Nav.Link
                 target="_blank"
                 href="https://blog.dddeastmidlands.com/"
@@ -57,16 +67,6 @@ class Navigation extends Component {
               >
                 Blog
               </Nav.Link>
-
-              {/* <Nav.Link
-                target="_blank"
-                href="https://www.eventbrite.co.uk/e/ddd-east-midlands-tickets-58629047058"
-                onSelect={event => {
-                  logEvent('navigation', 'eventbrite');
-                }}
-              >
-                Tickets
-              </Nav.Link> */}
 
               <Nav.Link href="/code-of-conduct">
                 Code of Conduct
