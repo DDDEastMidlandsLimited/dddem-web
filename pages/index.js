@@ -12,7 +12,8 @@ export default () => (
     </Head>
     <Header
       title={'DDD East Midlands'}
-      banner="/static/banners/home.jpg"
+      banner="
+      /static/banners/home.jpg"
     />
 
     <section>
@@ -25,13 +26,37 @@ export default () => (
         Midlands.
       </p>
     </section>
-
     <section>
-      <h2 tabIndex="0">Important Dates</h2>
-      <ImportantDatesList dates={dates} />
+      <hr />
+      <div className="emphasisItem">
+        <h2 tabIndex="0">Call For Speakers Open</h2>
+        <p tabIndex="0" className="subheader">
+          <i>Until 16th March</i>
+        </p>
+        <a
+          target="_blank"
+          className="infolink"
+          href="https://sessionize.com/dddeastmidlands-2020/"
+          onSelect={event => {
+            logEvent('homepage', 'cfp');
+          }}
+        >
+          <strong>Apply To Speak</strong>
+        </a>
+        <a
+          target="_blank"
+          className="infolink"
+          href="https://www.dddeastmidlands.com/information/application-information/"
+        >
+          <strong>Application FAQ</strong>
+        </a>
+      </div>
+      <br />
+      <hr />
     </section>
 
     <section>
+      <h2 tabIndex="0">Principles</h2>
       <p tabIndex="0">
         This conference follows these DDD principles:
       </p>
@@ -61,6 +86,13 @@ export default () => (
           fill in the sponsorship interest form.
         </a>
       </p>
+      <br />
+      <hr />
+    </section>
+
+    <section>
+      <h2 tabIndex="0">Important Dates</h2>
+      <ImportantDatesList dates={dates} />
     </section>
 
     <style jsx>
@@ -75,6 +107,13 @@ export default () => (
         }
         h3 {
           text-align: center;
+        }
+        .subheader {
+          margin: 0px;
+          padding-bottom: 15px;
+        }
+        .infolink {
+          margin: 10px;
         }
       `}
     </style>
