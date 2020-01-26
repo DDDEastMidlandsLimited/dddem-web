@@ -55,7 +55,7 @@ export default () => (
                 href="mailto:rachel@dddeastmidlands.com"
                 target="_blank"
               >
-                Rachel At DDD East Midalands
+                Rachel At DDD East Midlands
               </a>
             </li>
             <li tabIndex="0">

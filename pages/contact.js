@@ -123,7 +123,7 @@ export default () => (
                 href="mailto:rachel@dddeastmidlands.com"
                 target="_blank"
               >
-                Rachel At DDD East Midalands
+                Rachel At DDD East Midlands
               </a>
             </li>
             <li tabIndex="0">
@@ -170,7 +170,7 @@ export default () => (
                 href="mailto:jessica@dddeastmidlands.com"
                 target="_blank"
               >
-                Jessica At DDD East Midalands
+                Jessica At DDD East Midlands
               </a>
             </li>
             <li tabIndex="0">
@@ -216,7 +216,7 @@ export default () => (
                 href="mailto:moreton@dddeastmidlands.com"
                 target="_blank"
               >
-                Moreton At DDD East Midalands
+                Moreton At DDD East Midlands
               </a>
             </li>
             <li>
