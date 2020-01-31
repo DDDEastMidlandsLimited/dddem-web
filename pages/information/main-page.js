@@ -21,7 +21,7 @@ export default () => (
             href="/information/conference-information"
             title="Link to Conference Information Page"
           >
-            <div className="conference-button">
+            <div className="conference-button image-button">
               <h2>DDD East Midlands Information</h2>
             </div>
           </a>
@@ -35,7 +35,7 @@ export default () => (
             href="/information/venue-information"
             title="Link to Venue Information Page"
           >
-            <div className="venue-button">
+            <div className="venue-button image-button">
               <h2>Venue Information</h2>
             </div>
           </a>
@@ -49,7 +49,7 @@ export default () => (
             href="/information/accessibility-information"
             title="Link to Accessibility Information Page"
           >
-            <div className="accessibility-button">
+            <div className="accessibility-button image-button">
               <h2>Accessibility Information</h2>
             </div>
           </a>
@@ -63,12 +63,13 @@ export default () => (
             href="/information/ticket-information"
             title="Link to Ticket Information Page"
           >
-            <div className="ticket-button">
+            <div className="ticket-button image-button">
               <h2>Ticket Information</h2>
             </div>
           </a>
         </div>
       </section>
+
       <section id="sponsor-information">
         <div>
           <a
@@ -76,7 +77,7 @@ export default () => (
             href="/information/sponsor-information"
             title="Link to Sponsor Information Page"
           >
-            <div className="sponsor-button">
+            <div className="sponsor-button image-button">
               <h2>Sponsor Information</h2>
             </div>
           </a>
@@ -90,7 +91,7 @@ export default () => (
             href="/information/application-information"
             title="Link to Information About Applying To Speak"
           >
-            <div className="apply-button">
+            <div className="apply-button image-button">
               <h2>Applying To Speak Information</h2>
             </div>
           </a>
@@ -104,7 +105,7 @@ export default () => (
             href="/information/attendee-information"
             title="Link to Attendee Information Page"
           >
-            <div className="attendee-button">
+            <div className="attendee-button image-button">
               <h2>Attendee Information</h2>
             </div>
           </a>
@@ -118,7 +119,7 @@ export default () => (
             href="/information/speaker-information"
             title="Link to Speaker Information Page"
           >
-            <div className="speaker-button">
+            <div className="speaker-button image-button">
               <h2>Speaker Information</h2>
             </div>
           </a>
@@ -132,7 +133,7 @@ export default () => (
             href="/information/crew-information"
             title="Link to Crew Information Page"
           >
-            <div className="crew-button">
+            <div className="crew-button image-button">
               <h2>Crew Information</h2>
             </div>
           </a>
@@ -146,7 +147,7 @@ export default () => (
             href="/information/hacktoberfest-information"
             title="Link to Hacktoberfest Information Page"
           >
-            <div className="hacktober-button">
+            <div className="hacktober-button image-button">
               <h2>Hacktoberfest Information</h2>
             </div>
           </a>
@@ -162,167 +163,52 @@ export default () => (
       {`
         .conference-button {
           background-image: url('/static/banners/home.jpg');
-          background-size: cover;
-          width: 100%;
-          height: 200px;
-          background-position: center;
-        }
-
-        .conference-button h2 {
-          color: white;
-          background: ${theme.palette.dark};
-          font-size: 24px;
-          text-align: center;
-          position: absolute;
-          padding: 10px 10px;
-          width: 30%;
         }
 
         .venue-button {
           background-image: url('/static/banners/information/thencc.jpg');
-          background-size: cover;
-          width: 100%;
-          height: 200px;
-          background-position: center;
-        }
-
-        .venue-button h2 {
-          color: white;
-          background: ${theme.palette.dark};
-          font-size: 24px;
-          text-align: center;
-          position: absolute;
-          padding: 10px 10px;
         }
 
         .accessibility-button {
           background-image: url('/static/banners/information/accessibility.jpg');
-          background-size: cover;
-          width: 100%;
-          height: 200px;
-          background-position: center;
-        }
-
-        .accessibility-button h2 {
-          color: white;
-          background: ${theme.palette.dark};
-          font-size: 24px;
-          text-align: center;
-          position: absolute;
-          padding: 10px 10px;
         }
 
         .apply-button {
           background-image: url('/static/banners/information/apply.jpg');
-          background-size: cover;
-          width: 100%;
-          height: 200px;
-          background-position: center;
-        }
-
-        .apply-button h2 {
-          color: white;
-          background: ${theme.palette.dark};
-          font-size: 24px;
-          text-align: center;
-          position: absolute;
-          padding: 10px 10px;
         }
 
         .ticket-button {
           background-image: url('/static/banners/information/swagbag.jpg');
-          background-size: cover;
-          width: 100%;
-          height: 200px;
-          background-position: center;
-        }
-
-        .ticket-button h2 {
-          color: white;
-          background: ${theme.palette.dark};
-          font-size: 24px;
-          text-align: center;
-          position: absolute;
-          padding: 10px 10px;
         }
 
         .attendee-button {
           background-image: url('/static/banners/information/attendee.jpg');
-          background-size: cover;
-          width: 100%;
-          height: 200px;
-          background-position: center;
-        }
-
-        .attendee-button h2 {
-          color: white;
-          background: ${theme.palette.dark};
-          font-size: 24px;
-          text-align: center;
-          position: absolute;
-          padding: 10px 10px;
         }
 
         .speaker-button {
           background-image: url('/static/banners/information/speakers.jpg');
-          background-size: cover;
-          width: 100%;
-          height: 200px;
-          background-position: center;
-        }
-
-        .speaker-button h2 {
-          color: white;
-          background: ${theme.palette.dark};
-          font-size: 24px;
-          text-align: center;
-          position: absolute;
-          padding: 10px 10px;
         }
 
         .crew-button {
           background-image: url('/static/banners/information/crew.jpg');
-          background-size: cover;
-          width: 100%;
-          height: 200px;
-          background-position: center;
-        }
-
-        .crew-button h2 {
-          color: white;
-          background: ${theme.palette.dark};
-          font-size: 24px;
-          text-align: center;
-          position: absolute;
-          padding: 10px 10px;
         }
 
         .sponsor-button {
           background-image: url('/static/banners/information/sponsor.jpg');
-          background-size: cover;
-          width: 100%;
-          height: 200px;
-          background-position: center;
-        }
-
-        .sponsor-button h2 {
-          color: white;
-          background: ${theme.palette.dark};
-          font-size: 24px;
-          text-align: center;
-          position: absolute;
-          padding: 10px 10px;
         }
 
         .hacktober-button {
           background-image: url('/static/banners/information/hacktober.jpg');
+        }
+
+        .image-button {
           background-size: cover;
           width: 100%;
           height: 200px;
           background-position: center;
         }
 
-        .hacktober-button h2 {
+        .image-button h2 {
           color: white;
           background: ${theme.palette.dark};
           font-size: 24px;
@@ -330,6 +216,7 @@ export default () => (
           position: absolute;
           padding: 10px 10px;
         }
+
         article {
           -webkit-columns: 2 400px;
           -moz-columns: 2 400px;
@@ -344,57 +231,12 @@ export default () => (
           margin: auto;
         }
 
-        section:hover {
+        div:hover {
           opacity: 0.4;
         }
 
-        @media (max-width: 1020px) {
-          .conference-button h2 {
-            width: 60%;
-            font-size: 20px;
-          }
-
-          .venue-button h2 {
-            width: 50%;
-            font-size: 20px;
-          }
-
-          .accessibility-button h2 {
-            width: 60%;
-            font-size: 20px;
-          }
-
-          .apply-button h2 {
-            width: 60%;
-            font-size: 20px;
-          }
-
-          .ticket-button h2 {
-            width: 60%;
-            font-size: 20px;
-          }
-
-          .attendee-button h2 {
-            width: 60%;
-            font-size: 20px;
-          }
-
-          .speaker-button h2 {
-            width: 60%;
-            font-size: 20px;
-          }
-
-          .crew-button h2 {
-            width: 60%;
-            font-size: 20px;
-          }
-
-          .sponsor-button h2 {
-            width: 60%;
-            font-size: 20px;
-          }
-
-          .hacktober-button h2 {
+        @media (max-width: ${theme.sizes.maxContentWidth}) {
+          .image-button h2 {
             width: 60%;
             font-size: 20px;
           }
