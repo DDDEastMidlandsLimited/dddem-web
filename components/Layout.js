@@ -120,6 +120,14 @@ export default class Layout extends React.Component {
             position: relative;
           }
 
+          .emphasisItem {
+            text-align: center;
+            margin: 5px;
+            display: flex;
+            flex-direction: column;
+            position: relative;
+          }
+
           @media (min-width: 600px) {
             .boxItem {
               border-radius: ${theme.sizes.borderRadius};

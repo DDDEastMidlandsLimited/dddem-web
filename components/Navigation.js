@@ -48,7 +48,7 @@ class Navigation extends Component {
                 </NavDropdown.Item>
               </NavDropdown>
 
-              {/* <Nav.Link
+              <Nav.Link
                 target="_blank"
                 href="https://sessionize.com/dddeastmidlands-2020/"
                 onSelect={event => {
@@ -56,7 +56,7 @@ class Navigation extends Component {
                 }}
               >
                 Apply To Speak
-              </Nav.Link> */}
+              </Nav.Link>
 
               <Nav.Link
                 target="_blank"
