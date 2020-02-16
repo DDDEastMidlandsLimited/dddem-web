@@ -9,7 +9,10 @@ export default () => (
     <Head>
       <title>Notable Companies</title>
     </Head>
-    <Header title={'Notable Companies'} />
+    <Header
+      title={'Notable Companies'}
+      banner="/static/banners/notable.jpg"
+    />
 
     <section>
       <NotableCompanies />

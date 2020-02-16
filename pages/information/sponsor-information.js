@@ -6,7 +6,6 @@ import {
   Transport,
   SocialMedia,
   CodeOfConduct,
-  //PubConf,
 } from '../../components/content';
 
 export default () => (

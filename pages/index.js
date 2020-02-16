@@ -1,9 +1,11 @@
-import Layout from '../components/Layout';
 import theme from '../theme/theme';
-import Header from '../components/Header';
 import Head from 'next/head';
-import dates from '../data/dates';
+import Header from '../components/Header';
+import Layout from '../components/Layout';
 import ImportantDatesList from '../components/home/ImportantDatesList';
+import TieredCompanies from '../components/companies/TieredCompanies';
+import dates from '../data/dates';
+import gold from '../data/sponsors/gold';
 
 export default () => (
   <Layout>
@@ -26,8 +28,9 @@ export default () => (
         Midlands.
       </p>
     </section>
+
+    {/* CFP Open */}
     <section>
-      <hr />
       <div className="emphasisItem">
         <h2 tabIndex="0">Call For Speakers Open</h2>
         <p tabIndex="0" className="subheader">
@@ -55,7 +58,25 @@ export default () => (
       <hr />
     </section>
 
+    {/* Gold Sponsors */}
     <section>
+      <h2>Gold Sponsors</h2>
+      <TieredCompanies partners={gold} />
+    </section>
+
+    {/* Important Dates */}
+    <section>
+      <br />
+      <hr />
+      <br />
+      <h2 tabIndex="0">Important Dates</h2>
+      <ImportantDatesList dates={dates} />
+    </section>
+
+    {/* Principles */}
+    <section>
+      <hr />
+      <br />
       <h2 tabIndex="0">Principles</h2>
       <p tabIndex="0">
         This conference follows these DDD principles:
@@ -87,12 +108,6 @@ export default () => (
         </a>
       </p>
       <br />
-      <hr />
-    </section>
-
-    <section>
-      <h2 tabIndex="0">Important Dates</h2>
-      <ImportantDatesList dates={dates} />
     </section>
 
     <style jsx>
