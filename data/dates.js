@@ -12,7 +12,7 @@ const dates = [
     name: 'Second Wave Of Tickets Released',
   },
   { id: 5, date: '13th April', name: 'Voting Opens' },
-  { id: 6, date: '11th May', name: 'Voting Closes' },
+  { id: 6, date: '1st May', name: 'Voting Closes' },
   { id: 7, date: '3rd September', name: 'Agenda Published' },
   {
     id: 8,
