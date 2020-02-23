@@ -15,7 +15,7 @@ const ImportantDate = props => (
       <div
         tabIndex="0"
         className={
-          props.dates.past == true ? 'strike-bottom' : 'bottom'
+          props.dates.past == true ? 'strikeBottom' : 'bottom'
         }
       >
         {props.dates.date}
@@ -35,7 +35,7 @@ const ImportantDate = props => (
                         margin-left: -30px;
                 }
             
-                .strike-bottom {
+                .strikeBottom {
                   color: ${theme.palette.light};
                   margin-left: -30px;
                   text-decoration: line-through;
