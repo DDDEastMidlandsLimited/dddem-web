@@ -1,5 +1,10 @@
 const dates = [
-  { id: 1, date: '7th Feburary', name: 'Call For Speakers Opens' },
+  {
+    id: 1,
+    date: '7th Feburary',
+    name: 'Call For Speakers Opens',
+    current: true,
+  },
   { id: 2, date: '16th March', name: 'Call For Speakers Closes' },
   {
     id: 3,
