@@ -3,6 +3,8 @@ const dates = [
     id: 1,
     date: '7th Feburary',
     name: 'Call For Speakers Opens',
+    current: true,
+    past: true,
   },
   {
     id: 2,
@@ -26,7 +28,7 @@ const dates = [
   },
   {
     id: 6,
-    date: '11th May',
+    date: '1st May',
     name: 'Voting Closes',
   },
   {
