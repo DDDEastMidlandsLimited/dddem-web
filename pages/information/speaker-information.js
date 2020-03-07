@@ -116,18 +116,6 @@ export default () => (
         </li>
       </ul>
 
-      {/* <p tabIndex="0">
-        <strong>PubConf - The Unofficial After Party</strong>
-      </p>
-      <ul>
-        <li>
-          <a href="#after-party-about">About</a>
-        </li>
-        <li>
-          <a href="#after-party-rules">Rules of PubConf</a>
-        </li>
-      </ul> */}
-
       <p>
         <strong>
           <a href="#checklist">Suggested Checklist</a>

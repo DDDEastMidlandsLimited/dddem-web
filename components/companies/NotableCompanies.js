@@ -1,8 +1,7 @@
-import gold from '../../data/gold';
-import silver from '../../data/silver';
-import bronze from '../../data/bronze';
-import partners from '../../data/partners';
-import standard from '../../data/standard';
+import gold from '../../data/sponsors/gold';
+//import silver from '../../data/sponsors/silver';
+//import partners from '../../data/sponsors/partners';
+//import standard from '../../data/sponsors/standard';
 import CompanyGrid from './CompanyGrid';
 
 export default class NotableCompanies extends React.PureComponent {
@@ -35,10 +34,9 @@ export default class NotableCompanies extends React.PureComponent {
         <CompanyGrid
           companies={[
             ...gold,
-            ...silver,
-            ...bronze,
-            ...partners,
-            ...standard,
+            // ...silver,
+            //...partners,
+            //...standard,
           ]}
           updateDescription={this.updateDescription}
         />

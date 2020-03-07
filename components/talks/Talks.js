@@ -1,5 +1,5 @@
-import talks from '../../data/talks';
-import levels from '../../data/levels';
+import talks from '../../data/talks/talks';
+import levels from '../../data/talks/levels';
 import TalkList from './TalkList';
 import TalkFilter from './TalkFilter';
 
