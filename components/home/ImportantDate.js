@@ -5,8 +5,19 @@ const ImportantDate = props => (
     <div tabIndex="0" className="top">
       {props.dates.name}
     </div>
-    <div className="bottomBackground">
-      <div tabIndex="0" className="bottom">
+    <div
+      className={
+        props.dates.current == true
+          ? 'pastBottomBackground'
+          : 'bottomBackground'
+      }
+    >
+      <div
+        tabIndex="0"
+        className={
+          props.dates.past == true ? 'strikeBottom' : 'bottom'
+        }
+      >
         {props.dates.date}
       </div>
     </div>
@@ -23,9 +34,22 @@ const ImportantDate = props => (
                         color: ${theme.palette.light};
                         margin-left: -30px;
                 }
+            
+                .strikeBottom {
+                  color: ${theme.palette.light};
+                  margin-left: -30px;
+                  text-decoration: line-through;
+                }
 
                 .bottomBackground{
                     background-color: ${theme.palette.primary};
+                    padding: 5px 0px 5px 30px;
+                    width 100%;
+                    margin-left: -15px;
+                }
+
+                .pastBottomBackground{
+                    background-color: ${theme.palette.secondary};
                     padding: 5px 0px 5px 30px;
                     width 100%;
                     margin-left: -15px;
