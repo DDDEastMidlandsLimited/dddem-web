@@ -13,7 +13,7 @@ const dates = [
   },
   {
     id: 3,
-    date: '20th March',
+    date: '27th March',
     name: 'First Wave Of Tickets Released',
   },
   {
