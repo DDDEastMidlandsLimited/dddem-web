@@ -36,16 +36,6 @@ class Navigation extends Component {
 
               <Nav.Link
                 target="_blank"
-                href="https://sessionize.com/dddeastmidlands-2020/"
-                onSelect={event => {
-                  logEvent('navigation', 'cfp');
-                }}
-              >
-                Speak
-              </Nav.Link>
-
-              <Nav.Link
-                target="_blank"
                 href="https://www.eventbrite.co.uk/e/ddd-east-midlands-2020-tickets-95834801471"
                 onSelect={event => {
                   logEvent('navigation', 'eventbrite');
