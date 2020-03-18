@@ -10,6 +10,8 @@ const dates = [
     id: 2,
     date: '16th March',
     name: 'Call For Speakers Closes',
+    current: true,
+    past: true,
   },
   {
     id: 3,
