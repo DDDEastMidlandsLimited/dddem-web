@@ -11,7 +11,10 @@ const Footer = () => (
         </Link>
       </li>
       <li>
-        <Link href="https://twitter.com/dddeastmidlands">
+        <Link
+          href="https://twitter.com/dddeastmidlands"
+          prefetch={false}
+        >
           <a target="_blank" aria-label="Twitter">
             {' '}
             <FontAwesomeIcon icon={['fab', 'twitter']} size="sm" />
@@ -19,7 +22,10 @@ const Footer = () => (
         </Link>
       </li>
       <li>
-        <Link href="https://github.com/DDDEastMidlandsLimited/dddem-web">
+        <Link
+          href="https://github.com/DDDEastMidlandsLimited/dddem-web"
+          prefetch={false}
+        >
           <a target="_blank" aria-label="GitHub">
             {' '}
             <FontAwesomeIcon icon={['fab', 'github']} size="sm" />
@@ -27,7 +33,10 @@ const Footer = () => (
         </Link>
       </li>
       <li>
-        <Link href="https://www.instagram.com/dddeastmidlands/?hl=en">
+        <Link
+          href="https://www.instagram.com/dddeastmidlands/?hl=en"
+          prefetch={false}
+        >
           <a target="_blank" aria-label="Instagram">
             {' '}
             <FontAwesomeIcon icon={['fab', 'instagram']} size="sm" />
@@ -35,7 +44,10 @@ const Footer = () => (
         </Link>
       </li>
       <li>
-        <Link href="https://www.linkedin.com/company/ddd-east-midlands-limited/">
+        <Link
+          href="https://www.linkedin.com/company/ddd-east-midlands-limited/"
+          prefetch={false}
+        >
           <a target="_blank" aria-label="LinkedIn">
             {' '}
             <FontAwesomeIcon icon={['fab', 'linkedin']} size="sm" />
