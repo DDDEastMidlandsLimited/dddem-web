@@ -21,41 +21,12 @@ export default () => (
     <section>
       <p tabIndex="0">
         DDD East Midlands is an inclusive, not-for-profit technology
-        conference that celebrates the unique tech, talent and
-        companies that the East Midlands has to offer. This event is
-        run by community members to promote collaboration and the
-        amazing tech community that has already grown in the East
-        Midlands.
+        conference happening on <b>3rd October 2020</b> that
+        celebrates the unique tech, talent and companies that the East
+        Midlands has to offer. This event is run by community members
+        to promote collaboration and the amazing tech community that
+        has already grown in the East Midlands.
       </p>
-    </section>
-
-    {/* CFP Open */}
-    <section>
-      <div className="emphasisItem">
-        <h2 tabIndex="0">Call For Speakers Open</h2>
-        <p tabIndex="0" className="subheader">
-          <i>Until 16th March</i>
-        </p>
-        <a
-          target="_blank"
-          className="infolink"
-          href="https://sessionize.com/dddeastmidlands-2020/"
-          onSelect={event => {
-            logEvent('homepage', 'cfp');
-          }}
-        >
-          <strong>Apply To Speak</strong>
-        </a>
-        <a
-          target="_blank"
-          className="infolink"
-          href="https://www.dddeastmidlands.com/information/application-information/"
-        >
-          <strong>Application FAQ</strong>
-        </a>
-      </div>
-      <br />
-      <hr />
     </section>
 
     {/* Gold Sponsors */}
@@ -67,7 +38,6 @@ export default () => (
     {/* Important Dates */}
     <section>
       <br />
-      <hr />
       <br />
       <h2 tabIndex="0">Important Dates</h2>
       <ImportantDatesList dates={dates} />
@@ -75,7 +45,6 @@ export default () => (
 
     {/* Principles */}
     <section>
-      <hr />
       <br />
       <h2 tabIndex="0">Principles</h2>
       <p tabIndex="0">
