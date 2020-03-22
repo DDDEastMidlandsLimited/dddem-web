@@ -2,6 +2,7 @@ const withCSS = require('@zeit/next-css');
 const glob = require('glob');
 
 module.exports = withCSS({
+  exportTrailingSlash: true,
   exportPathMap: async function(
     defaultPathMap,
     { dev, dir, outDir, distDir, buildId },
