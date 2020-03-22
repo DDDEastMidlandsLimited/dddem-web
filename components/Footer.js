@@ -17,7 +17,8 @@ const Footer = () => (
         >
           <a target="_blank" aria-label="Twitter">
             {' '}
-            <FontAwesomeIcon icon={['fab', 'twitter']} size="sm" />
+            Twitter
+            {/*  <FontAwesomeIcon icon={["fab", "twitter"]} size="sm" /> */}
           </a>
         </Link>
       </li>
@@ -28,7 +29,8 @@ const Footer = () => (
         >
           <a target="_blank" aria-label="GitHub">
             {' '}
-            <FontAwesomeIcon icon={['fab', 'github']} size="sm" />
+            GitHub
+            {/*  <FontAwesomeIcon icon={['fab', 'github']} size="sm" /> */}
           </a>
         </Link>
       </li>
@@ -39,7 +41,8 @@ const Footer = () => (
         >
           <a target="_blank" aria-label="Instagram">
             {' '}
-            <FontAwesomeIcon icon={['fab', 'instagram']} size="sm" />
+            Instagram
+            {/* <FontAwesomeIcon icon={['fab', 'instagram']} size="sm" /> */}
           </a>
         </Link>
       </li>
@@ -50,7 +53,8 @@ const Footer = () => (
         >
           <a target="_blank" aria-label="LinkedIn">
             {' '}
-            <FontAwesomeIcon icon={['fab', 'linkedin']} size="sm" />
+            LinkedIn
+            {/*  <FontAwesomeIcon icon={['fab', 'linkedin']} size="sm" /> */}
           </a>
         </Link>
       </li>
