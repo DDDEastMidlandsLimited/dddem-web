@@ -23,36 +23,49 @@ class Navigation extends Component {
               variant="pills"
               defaultActiveKey="/home"
             >
-              <Nav.Link href="/">Home</Nav.Link>
-              <Nav.Link href="/information/main-page">
-                Information
-              </Nav.Link>
+              <Nav.Item>
+                <Nav.Link href="/">Home</Nav.Link>
+              </Nav.Item>
 
-              <Nav.Link href="/2020/notable-companies">
-                Notable Companies
-              </Nav.Link>
+              <Nav.Item>
+                <Nav.Link href="/information/main-page">
+                  Information
+                </Nav.Link>
+              </Nav.Item>
 
-              <Nav.Link href="/2020/sponsor">Sponsor</Nav.Link>
+              <Nav.Item>
+                <Nav.Link href="/2020/notable-companies">
+                  Notable Companies
+                </Nav.Link>
+              </Nav.Item>
 
-              <Nav.Link
-                target="_blank"
-                href="https://www.eventbrite.co.uk/e/ddd-east-midlands-2020-tickets-95834801471"
-                onSelect={event => {
-                  logEvent('navigation', 'eventbrite');
-                }}
-              >
-                Tickets
-              </Nav.Link>
+              <Nav.Item>
+                <Nav.Link href="/2020/sponsor">Sponsor</Nav.Link>
+              </Nav.Item>
 
-              <Nav.Link
-                target="_blank"
-                href="https://blog.dddeastmidlands.com/"
-                onSelect={event => {
-                  logEvent('navigation', 'blog');
-                }}
-              >
-                Blog
-              </Nav.Link>
+              <Nav.Item>
+                <Nav.Link
+                  target="_blank"
+                  href="https://www.eventbrite.co.uk/e/ddd-east-midlands-2020-tickets-95834801471"
+                  onSelect={event => {
+                    logEvent('navigation', 'eventbrite');
+                  }}
+                >
+                  Tickets
+                </Nav.Link>
+              </Nav.Item>
+
+              <Nav.Item>
+                <Nav.Link
+                  target="_blank"
+                  href="https://blog.dddeastmidlands.com/"
+                  onSelect={event => {
+                    logEvent('navigation', 'blog');
+                  }}
+                >
+                  Blog
+                </Nav.Link>
+              </Nav.Item>
 
               <NavDropdown
                 title="Past Events"
@@ -72,9 +85,11 @@ class Navigation extends Component {
                 </NavDropdown.Item>
               </NavDropdown>
 
-              <Nav.Link href="/code-of-conduct">
-                Code of Conduct
-              </Nav.Link>
+              <Nav.Item>
+                <Nav.Link href="/code-of-conduct">
+                  Code of Conduct
+                </Nav.Link>
+              </Nav.Item>
             </Nav>
           </Navbar.Collapse>
         </Navbar>
