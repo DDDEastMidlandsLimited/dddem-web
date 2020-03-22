@@ -1,14 +1,16 @@
 const withCSS = require('@zeit/next-css');
-(module.exports = withCSS()),
-  {
-    exportPathMap: function() {
-      return {
-        '/': { page: '/' },
-        '/information/': { page: '/information' },
-        '/venue/': { page: '/venue' },
-        '/sponsorship/': { page: '/sponsorship' },
-        '/faq/': { page: '/faq' },
-        '/code-of-conduct/': { page: '/code-of-conduct' },
-      };
-    },
-  };
+const glob = require('glob');
+
+module.exports = withCSS({
+  exportPathMap: async function(
+    defaultPathMap,
+    { dev, dir, outDir, distDir, buildId },
+  ) {
+    const pathMap = {};
+    glob.sync('pages/**/*.js').forEach(s => {
+      const path = s.split(/(pages|\.)/)[2].replace(/^\/index$/, '/');
+      pathMap[path] = { page: path };
+    });
+    return pathMap;
+  },
+});
