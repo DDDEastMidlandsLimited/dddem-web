@@ -118,35 +118,32 @@ export default () => (
           opportunity and terms:
         </strong>
       </p>
-      <p tabIndex="0">
-        <ol>
-          <li> Send Rachel your Companies House details/link.</li>
-          <li> We will send you a contract to sign.</li>
-          <li>
-            {' '}
-            Send back the signed contract and the payment method you
-            want to use.
-          </li>
-          <li> We will send you back a co-signed contract.</li>
-          <li> An invoice for the agreed amount will be sent.</li>
-          <li>
-            {' '}
-            There may be assets we have asked for such as logos or
-            company description. Please send these over early so that
-            we can make any website and social media changes.
-          </li>
-          <li>
-            {' '}
-            Once the amount has been paid - you will recieve the
-            benefits outlined by the agreement.
-          </li>
-          <li>
-            {' '}
-            Your support will be announced on our social media
-            channels.
-          </li>
-        </ol>
-      </p>
+      <ul tabIndex="0">
+        <li> Send Rachel your Companies House details/link.</li>
+        <li> We will send you a contract to sign.</li>
+        <li>
+          {' '}
+          Send back the signed contract and the payment method you
+          want to use.
+        </li>
+        <li> We will send you back a co-signed contract.</li>
+        <li> An invoice for the agreed amount will be sent.</li>
+        <li>
+          {' '}
+          There may be assets we have asked for such as logos or
+          company description. Please send these over early so that we
+          can make any website and social media changes.
+        </li>
+        <li>
+          {' '}
+          Once the amount has been paid - you will recieve the
+          benefits outlined by the agreement.
+        </li>
+        <li>
+          {' '}
+          Your support will be announced on our social media channels.
+        </li>
+      </ul>
       <br />
       {/* <SponsorButton /> */}
     </section>
