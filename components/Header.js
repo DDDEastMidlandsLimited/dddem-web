@@ -17,11 +17,23 @@ const Header = props => (
       <h1 tabIndex="0">{props.title}</h1>
     </div>
 
+    <div className="covid">
+      <h3 tabIndex="0">
+        {' '}
+        <a href="" target="_blank">
+          Click here to read about our COVID-19 precautions
+        </a>{' '}
+      </h3>
+    </div>
+
     <style jsx>
       {`
         h1 {
           font-size: ${theme.font.sizes.mobile.headline1};
           color: ${theme.palette.primary};
+        }
+        h3 a {
+          color: ${theme.palette.light};
         }
         .background {
           width: 100vw;
@@ -43,6 +55,12 @@ const Header = props => (
           border-radius: ${theme.sizes.borderRadiusMobile};
           background-color: ${theme.palette.primary};
         }
+        .covid {
+          text-align: center;
+          padding: 10px 10px;
+          background: ${theme.palette.secondary};
+        }
+
         @media (min-width: 600px) {
           h1 {
             font-size: ${theme.font.sizes.desktop.headline1};
