@@ -587,32 +587,11 @@ export default () => (
       <a name="contact" />
       <h1 tabIndex="0">Contact</h1>
       <p tabIndex="0">
-        There are a number of ways to contact the organisers before
-        and during the event:
-      </p>
-      <h2 tabIndex="0">Slack</h2>
-      <p tabIndex="0">
-        You will be added to a DDD East Midlands Slack Channel.
-        Jessica and Moreton will be reachable on there. Please use
-        their handle for anything urgent.
-      </p>
-      <h2 tabIndex="0">Email</h2>
-      <p tabIndex="0">
-        Using the @dddeastmidlands.com email addresses:
-      </p>
-      <li>
-        <a href="mailto:rachel@dddeastmidlands.com">Rachel's email</a>
-      </li>
-      <li>
-        <a href="mailto:jessica@dddeastmidlands.com">
-          Jessica's email
+        <a href="https://www.dddeastmidlands.com/contact/">
+          See the ways to contact the team on the Contact Us page.
         </a>
-      </li>
-      <li>
-        <a href="mailto:moreton@dddeastmidlands.com">
-          Moreton's email
-        </a>
-      </li>
+      </p>
+      <br />
     </section>
 
     <style jsx>
