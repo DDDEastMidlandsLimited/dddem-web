@@ -25,10 +25,9 @@ export default () => (
 
     <section name="Contents">
       <h1 tabIndex="0">Contents</h1>
-
       <p>
         <strong>
-          <a href="#introduction">Introduction</a>
+          <a href="#covid19">COVID-19</a>
         </strong>
       </p>
       <p>
@@ -53,7 +52,9 @@ export default () => (
       </p>
 
       <p tabIndex="0">
-        <strong>Tickets</strong>
+        <strong>
+          <a href="#tickets">Tickets</a>
+        </strong>
       </p>
       <ul>
         <li>
@@ -67,7 +68,9 @@ export default () => (
         </li>
       </ul>
       <p tabIndex="0">
-        <strong>Before The Day</strong>
+        <strong>
+          <a href="#before-the-day">Before The Day</a>
+        </strong>
       </p>
       <ul>
         <li>
@@ -86,7 +89,9 @@ export default () => (
         </li>
       </ul>
       <p tabIndex="0">
-        <strong>Coming To The Event</strong>
+        <strong>
+          <a href="#registration">Coming To The Event</a>
+        </strong>
       </p>
       <ul>
         <li>
@@ -131,23 +136,39 @@ export default () => (
           <a href="#social-media">Social Media Posts</a>
         </li>
       </ul>
-
-      {/* <p>
-        <strong>
-          <a href="#pubconf">PubConf - The Unofficial After Party</a>
-        </strong>
-      </p>
-      <ul>
-        <li>
-          <a href="#after-party-about">About</a>
-        </li>
-        <li>
-          <a href="#after-party-rules">Rules of PubConf</a>
-        </li>
-      </ul>*/}
     </section>
 
-    <Introduction />
+    <a name="covid19" />
+    <section id="covid19">
+      <h1 tabIndex="0">COVID-19</h1>
+      <p tabIndex="0">
+        With the current state of play, we understand that you may be
+        curious as to what our plans are around COVID-19. Your safety
+        is our greatest concern, so we have put plans into place.
+      </p>
+      <h4>Plan A: Conference Goes Ahead</h4>
+      <p tabIndex="0">
+        As the event is happening in October, we are far enough ahead
+        in the future that the pandemic _might_ not effect our event.
+        If that is the case, we will be going ahead as planned on
+        October the 3rd 2020.
+      </p>
+      <p tabIndex="0">
+        The safety of all involved is our greatest concern. If
+        isolation or social distancing are still in place or there is
+        still any risk of COVID-19 affecting anyone, we will move to
+        Plan B.
+      </p>
+      <h4>Plan B: Postpone to 2021</h4>
+      <p tabIndex="0">
+        If it gets closer to the event and Plan A doesn't look
+        possible, we will postpone the event to 2021.
+        <a href="" target="_blank">
+          You can read more details around the decision and how it
+          affects your tickets and experience in this blog post.
+        </a>
+      </p>
+    </section>
 
     <CodeOfConduct />
 
@@ -181,8 +202,8 @@ export default () => (
     </section>
 
     <section id="tickets">
+      <a name="tickets" />
       <h1 tabIndex="0">Tickets</h1>
-
       <a name="using-tickets" />
       <h2 tabIndex="0">Using Tickets</h2>
       <p tabIndex="0">
@@ -216,6 +237,7 @@ export default () => (
     </section>
 
     <section id="before-the-day">
+      <a name="before-the-day" />
       <h1 tabIndex="0">Before The Day</h1>
       <a name="pat-before" />
       <h2 tabIndex="0">PAT Testing</h2>
@@ -242,6 +264,7 @@ export default () => (
     <Transport />
 
     <section id="registration">
+      <a name="registration" />
       <h1 tabIndex="0">Coming To The Event</h1>
       <a name="coffee-meet" />
       <h2 tabIndex="0">Coffee Meet</h2>
@@ -303,8 +326,6 @@ export default () => (
     </section>
 
     <SocialMedia />
-
-    {/* <PubConf /> */}
 
     <style jsx>
       {`
