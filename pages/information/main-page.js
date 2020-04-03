@@ -28,6 +28,20 @@ export default () => (
         </div>
       </section>
 
+      <section id="sponsor-information">
+        <div>
+          <a
+            tabIndex="0"
+            href="/information/sponsor-information"
+            title="Link to Sponsor Information Page"
+          >
+            <div className="sponsor-button image-button">
+              <h2>Sponsor Information</h2>
+            </div>
+          </a>
+        </div>
+      </section>
+
       <section id="venue">
         <div>
           <a
@@ -65,34 +79,6 @@ export default () => (
           >
             <div className="ticket-button image-button">
               <h2>Ticket Information</h2>
-            </div>
-          </a>
-        </div>
-      </section>
-
-      <section id="sponsor-information">
-        <div>
-          <a
-            tabIndex="0"
-            href="/information/sponsor-information"
-            title="Link to Sponsor Information Page"
-          >
-            <div className="sponsor-button image-button">
-              <h2>Sponsor Information</h2>
-            </div>
-          </a>
-        </div>
-      </section>
-
-      <section id="apply-to-speak">
-        <div>
-          <a
-            tabIndex="0"
-            href="/information/application-information"
-            title="Link to Information About Applying To Speak"
-          >
-            <div className="apply-button image-button">
-              <h2>Applying To Speak Information</h2>
             </div>
           </a>
         </div>
@@ -149,6 +135,20 @@ export default () => (
           >
             <div className="hacktober-button image-button">
               <h2>Hacktoberfest Information</h2>
+            </div>
+          </a>
+        </div>
+      </section>
+
+      <section id="apply-to-speak">
+        <div>
+          <a
+            tabIndex="0"
+            href="/information/application-information"
+            title="Link to Information About Applying To Speak"
+          >
+            <div className="apply-button image-button">
+              <h2>Applying To Speak Information</h2>
             </div>
           </a>
         </div>
