@@ -26,7 +26,7 @@ export default () => (
 
       <p>
         <strong>
-          <a href="#introduction">Introduction</a>
+          <a href="#covid19">COVID-19</a>
         </strong>
       </p>
 
@@ -153,7 +153,40 @@ export default () => (
       </ul>
     </section>
 
-    <Introduction />
+    <a name="covid19" />
+    <section id="covid19">
+      <h1 tabIndex="0">COVID-19</h1>
+      <p tabIndex="0">
+        With the current state of play, we understand that you may be
+        curious as to what our plans are around COVID-19. We want to
+        ensure everyones safety, while providing a good experience for
+        our sponsors.
+      </p>
+      <h4>Plan A: Conference Goes Ahead</h4>
+      <p tabIndex="0">
+        As the event is happening in October, we are far enough ahead
+        in the future that the pandemic <i>might</i> not effect our
+        event. If that is the case, we will be going ahead as planned
+        on October the 3rd 2020.
+      </p>
+      <p tabIndex="0">
+        The safety of all involved is our greatest concern. If
+        isolation or social distancing are still in place or there is
+        still any risk of COVID-19 affecting anyone involved, we will
+        move to Plan B.
+      </p>
+      <h4>Plan B: Postpone to 2021</h4>
+      <p tabIndex="0">
+        If it gets closer to the event and Plan A doesn't look
+        possible, we will postpone the event to 2021. Unfortunately,
+        as part of this we would reset applications for talks for
+        2021.
+        <a href="" target="_blank">
+          You can read more details around the decision and how it
+          affects tickets and talks in this blog post.
+        </a>
+      </p>
+    </section>
 
     <CodeOfConduct />
 

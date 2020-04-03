@@ -178,9 +178,9 @@ export default () => (
       <h4>Plan A: Conference Goes Ahead</h4>
       <p tabIndex="0">
         As the event is happening in October, we are far enough ahead
-        in the future that the pandemic _might_ not effect our event.
-        If that is the case, we will be going ahead as planned on
-        October the 3rd 2020.
+        in the future that the pandemic <i>might</i> not effect our
+        event. If that is the case, we will be going ahead as planned
+        on October the 3rd 2020.
       </p>
       <p tabIndex="0">
         The safety of all involved is our greatest concern. If
