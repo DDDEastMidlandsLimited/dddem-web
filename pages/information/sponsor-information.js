@@ -169,7 +169,12 @@ export default () => (
     <a name="covid19" />
     <section id="covid19">
       <h1 tabIndex="0">COVID-19</h1>
-      <p tabIndex="0"></p>
+      <p tabIndex="0">
+        With the current state of play, we understand that you may be
+        curious as to what our plans are around COVID-19. We want to
+        ensure everyones safety, while providing a good experience for
+        our sponsors.
+      </p>
       <h4>Plan A: Conference Goes Ahead</h4>
       <p tabIndex="0">
         As the event is happening in October, we are far enough ahead
