@@ -45,13 +45,12 @@ export default () => (
         <li>
           <a href="#pat-before">PAT Testing</a>
         </li>
-        <li>
-          <a href="#gold-sponsors">Gold Representatives</a>
-        </li>
       </ul>
 
       <p tabIndex="0">
-        <strong>Setup The Day Before Conference</strong>
+        <strong>
+          <a href="#day-before">Setup The Day Before Conference</a>
+        </strong>
       </p>
       <ul>
         <li>
@@ -78,7 +77,9 @@ export default () => (
       </ul>
 
       <p tabIndex="0">
-        <strong>Setup On The Day</strong>
+        <strong>
+          <a href="#setup-on-day">Setup On The Day</a>
+        </strong>
       </p>
       <ul>
         <li>
@@ -90,7 +91,9 @@ export default () => (
       </ul>
 
       <p tabIndex="0">
-        <strong>General Conference Day Information</strong>
+        <strong>
+          <a href="#general">General Conference Day Information</a>
+        </strong>
       </p>
       <ul>
         <li>
@@ -111,7 +114,9 @@ export default () => (
       </ul>
 
       <p tabIndex="0">
-        <strong>Exhibition Stalls</strong>
+        <strong>
+          <a href="#stalls">Exhibition Stalls</a>
+        </strong>
       </p>
       <ul>
         <li>
@@ -144,7 +149,9 @@ export default () => (
       </ul>
 
       <p tabIndex="0">
-        <strong>Packing Up Day Of The Conference</strong>
+        <strong>
+          <a href="#packing-up">Packing Up Day Of The Conference</a>
+        </strong>
       </p>
       <ul>
         <li>
@@ -285,43 +292,9 @@ export default () => (
         speakers and exhibitors can queue to get their devices PAT
         tested.
       </p>
-
-      <a name="gold-sponsors" />
-      <h2 tabIndex="0">Gold Representatives</h2>
-      <p tabIndex="0">
-        This section only concerns our Gold Tier Sponsors.
-      </p>
-      <p tabIndex="0">
-        We will need some information from you before the event. As
-        part of your sponsorship offering, we will say a short bit
-        about your company but also present the details of a
-        representative that can be approached at the conference. We
-        will need the following:
-      </p>
-      <ul>
-        <li tabIndex="0">
-          A short brief about your company to be given at the opening
-          presentation. A couple of paragraphs long.
-        </li>
-        <li tabIndex="0">
-          The name of your represenative for the day.
-        </li>
-        <li tabIndex="0">
-          The job title of your represenative for the day.
-        </li>
-        <li tabIndex="0">
-          A photo of your represenative for the day.
-        </li>
-        <li tabIndex="0">
-          Contact details that your represenative might want to share.
-        </li>
-      </ul>
-      <p tabIndex="0">
-        These will be presented alongside your logo in the opening
-        ceremony.
-      </p>
     </section>
 
+    <a name="day-before" />
     <section id="day-before">
       <h1 tabIndex="0">Setup The Day Before Conference</h1>
 
@@ -389,6 +362,7 @@ export default () => (
 
     <Transport />
 
+    <a name="setup-on-day" />
     <section id="setup-on-day">
       <h1 tabIndex="0">Setup On The Day</h1>
 
@@ -416,6 +390,7 @@ export default () => (
       </p>
     </section>
 
+    <a name="general" />
     <section id="general">
       <h1 tabIndex="0">General Conference Day Information</h1>
       <a name="power" />
@@ -497,6 +472,7 @@ export default () => (
       </p>
     </section>
 
+    <a name="stalls" />
     <section id="stalls">
       <h1 tabIndex="0">Exhibition Stalls</h1>
 
@@ -546,6 +522,7 @@ export default () => (
 
     <SocialMedia />
 
+    <a name="packing-up" />
     <section id="packing-up">
       <h1 tabIndex="0">Packing Up Day Of The Conference</h1>
       <a name="teardown-time" />
@@ -568,8 +545,6 @@ export default () => (
         on South Sherwood Street.
       </p>
     </section>
-
-    {/* <PubConf /> */}
 
     <section id="contact">
       <a name="contact" />
