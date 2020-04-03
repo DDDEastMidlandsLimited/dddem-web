@@ -166,6 +166,43 @@ export default () => (
       </p>
     </section>
 
+    <a name="covid19" />
+    <section id="covid19">
+      <h1 tabIndex="0">COVID-19</h1>
+      <p tabIndex="0"></p>
+      <h4>Plan A: Conference Goes Ahead</h4>
+      <p tabIndex="0">
+        As the event is happening in October, we are far enough ahead
+        in the future that the pandemic _might_ not effect our event.
+        If that is the case, we will be going ahead as planned on
+        October the 3rd 2020.
+      </p>
+      <p tabIndex="0">
+        The safety of all involved is our greatest concern. If
+        isolation or social distancing are still in place or there is
+        still any risk of COVID-19 affecting attendees, we will move
+        to Plan B.
+      </p>
+      <h4>Plan B: Postpone to 2021</h4>
+      <p tabIndex="0">
+        If it gets closer to the event and Plan A doesn't look
+        possible, we will postpone the event to 2021. You will be
+        offered the opportunity to carry over your sponsorship. We
+        appreciate your support over this time, so don't want you to
+        miss out. Though this is not the preferred plan, it will give
+        us a great opportunity to work on the event for a further 12
+        months.
+      </p>
+      <p tabIndex="0">
+        <strong>
+          <a href="" target="_blank">
+            You can read more details around the decision and how it
+            affects attendees in this blog post.
+          </a>
+        </strong>
+      </p>
+    </section>
+
     <CodeOfConduct />
 
     <a name="before-the-conference" />
