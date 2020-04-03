@@ -23,7 +23,7 @@ export default () => (
 
       <p>
         <strong>
-          <a href="#sponsor-brief">Sponsor Brief</a>
+          <a href="#covid19">COVID-19</a>
         </strong>
       </p>
 
@@ -34,14 +34,13 @@ export default () => (
       </p>
 
       <p tabIndex="0">
-        <strong>Before The Conference</strong>
+        <strong>
+          <a href="#before-the-conference">Before The Conference</a>
+        </strong>
       </p>
       <ul>
         <li>
           <a href="#tickets">Tickets</a>
-        </li>
-        <li>
-          <a href="#items">Attendee Bag Items</a>
         </li>
         <li>
           <a href="#pat-before">PAT Testing</a>
@@ -153,18 +152,6 @@ export default () => (
         </li>
       </ul>
 
-      {/* <p tabIndex="0">
-        <strong>PubConf - The Unofficial After Party</strong>
-      </p>
-      <ul>
-        <li>
-          <a href="#after-party-about">About</a>
-        </li>
-        <li>
-          <a href="#after-party-rules">Rules of PubConf</a>
-        </li>
-      </ul> */}
-
       <p>
         <strong>
           <a href="#contact">Contacts</a>
@@ -172,114 +159,98 @@ export default () => (
       </p>
     </section>
 
-    <section id="sponsor-brief">
-      <h1 tabIndex="0">Sponsor Brief</h1>
-      <a name="sponsor-brief" />
-      <h2 tabIndex="0">Thank you.</h2>
-      <p tabIndex="0">
-        Without your support, there wouldn’t be a DDD East Midlands
-        event at all. This page outlines what you need to know on the
-        day.
-      </p>
-      <p tabIndex="0">
-        This year we expect around 350 - 400 attendees to join us for
-        a day of learning and networking for the East Midlands
-        technology community.
-      </p>
-    </section>
-
     <CodeOfConduct />
 
+    <a name="before-the-conference" />
     <section id="before-the-conference">
       <h1 tabIndex="0">Before The Conference</h1>
       <a name="tickets" />
       <h2 tabIndex="0">Tickets</h2>
       <p tabIndex="0">
-        If you have supported at Gold, Silver, Bronze or Standard
-        Tier, you will have been allotted some tickets to the
-        conference.
+        Certain tiers get guaranteed tickets to the conference. How
+        many depends on the tier that you are sponsoring at. Rachel
+        will provide you with your custom Eventbrite code to access
+        your tickets with.
+      </p>
+      <a name="tickets" />
+      <h4 tabIndex="0">What to do with the tickets</h4>
+      <p tabIndex="0">
+        If you have an exhibition booth we suggest you use tickets to
+        ensure there are{' '}
+        <strong> 2 - 3 people managing the booth.</strong>
       </p>
       <p tabIndex="0">
-        If you know who your guaranteed tickets are going to be given
-        to, please provide us with their emails so that we can send a
-        link to Eventbrite. If this is still unsure, we can provide a
-        code for you to access tickets with.
+        There are a number of ways you can use your remaining tickets:
       </p>
+      <li tabIndex="0">
+        <i>Give them to internal employees.</i>
+        <p>
+          This conference is a great way for your employees to get
+          free training, take part in valueable networking and have a
+          lot of fun.
+        </p>
+      </li>
+      <li tabIndex="0">
+        <i>Run a competition.</i>
+        <p>
+          You could do this online using social media or something
+          else. Use this opportunity to promote your company and give
+          people a great impression.
+        </p>
+      </li>
+      <li tabIndex="0">
+        <i>Sponsor a diverse candidate.</i>
+        <p>
+          You could run a diversity scheme, to support people who want
+          to come to the conference but haven't been able to get a
+          ticket.
+        </p>
+      </li>
+      <li tabIndex="0">
+        <i>Donate to a meetup as a "sponsor prize".</i>
+        <p>
+          There are a multitude of meetups in the East Midlands who
+          would love to give tickets to their attendees. To promote
+          your own business and provide a great opportunity to someone
+          you could provide tickets to a meetup as a prize.
+        </p>
+      </li>
+
+      <br />
+      <a name="tickets" />
+      <h4 tabIndex="0">How to access tickets</h4>
+      <li tabIndex="0">
+        <a
+          href="https://www.eventbrite.co.uk/e/ddd-east-midlands-2020-tickets-95834801471"
+          target="_blank"
+        >
+          Head to eventbrite using this link
+        </a>
+      </li>
+      <li tabIndex="0">Click the Register button</li>
+      <li tabIndex="0">
+        Click where it says "Enter promo code" (see the image below)
+        and enter the code we have provided to you.
+      </li>
+      <div className="imagecenter">
+        <br />
+        <img
+          src="/static/info/sponsors/promo.png"
+          alt="Screenshot of EventBrite screen"
+          className="screenshot"
+        />
+      </div>
+      <li tabIndex="0">
+        A new category of ticket should be displayed to you. Select
+        the number you want and fill in the details on the form.
+      </li>
       <p tabIndex="0">
-        <strong>
-          If you have told us who to send your tickets to:
-        </strong>
-      </p>
-      <ul>
-        <li tabIndex="0">
-          If you have an exhibition booth, please ensure that your
-          booth will be covered by 1 - 3 of your ticket holders.
-        </li>
-        <li tabIndex="0">
-          Please make sure the people assigned can still make it on
-          the day.
-        </li>
-      </ul>
-      <p tabIndex="0">
-        <strong>
-          If you haven't told us who to assign your tickets too:
-        </strong>
-      </p>
-      <ul>
-        <li tabIndex="0">
-          If you have an exhibition booth we suggest that 1 - 3 of
-          your tickets are given to those managing your exhibition
-          booth.
-        </li>
-        <li tabIndex="0">
-          If you don't have an exhibition booth or have tickets spare,
-          you can:
-          <ul>
-            <li tabIndex="0">
-              Give tickets out internally so your employees can
-              benefit from the day.
-            </li>
-            <li tabIndex="0">Donate a ticket to local meetup.</li>
-            <li tabIndex="0">
-              Give a tickeet away in a competition.
-            </li>
-          </ul>
-        </li>
-      </ul>
-      <p tabIndex="0">Whatever you think is best.</p>
-      <p tabIndex="0">
-        <strong>Assigning Tickets:</strong>
-      </p>
-      <p tabIndex="0">
-        Contact{' '}
-        <a href="mailto:jessica@dddeastmidlands.com">Jessica </a>with
-        the email addresses and name of your recepients. She will send
-        an Eventbrite invite to that email address.
-      </p>
-      <p tabIndex="0">
-        Any tickets you consider “extra” as part of your sponsorship,
-        you can dispense as you wish. Contact Jessica if you want
-        assistance with this.
+        If you are giving away tickets away as part of a promotion,
+        competition or donation to meetup; then you can pass this code
+        on to those who are taking the ticket.
       </p>
 
-      <a name="items" />
-      <h2 tabIndex="0">Attendee Bag Items</h2>
-      <p tabIndex="0">
-        Gold and Silver Tier Sponsors can provide items and inserts
-        for attendee bags. These bags will be given to all attendee's
-        on the day of the conference. You can provide swag and/or
-        printed media (company adverts, job adverts etc.).
-      </p>
-      <p tabIndex="0">
-        <strong>
-          Attendee bag items should be provided at least one week
-          before the conference.
-        </strong>{' '}
-        This is so we can prepare the bags before the conference.
-        Please make arrangements with Jessica for drop off or
-        collection.
-      </p>
-
+      <br />
       <a name="pat-before" />
       <h2 tabIndex="0">PAT Testing</h2>
       <h4 tabIndex="0">
@@ -649,6 +620,14 @@ export default () => (
 
         .red {
           color: red;
+        }
+
+        .screenshot {
+          width: 70%;
+        }
+
+        .imagecenter {
+          text-align: center;
         }
 
         table {
