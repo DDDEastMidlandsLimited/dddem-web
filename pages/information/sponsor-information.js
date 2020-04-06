@@ -200,7 +200,10 @@ export default () => (
       </p>
       <p tabIndex="0">
         <strong>
-          <a href="" target="_blank">
+          <a
+            href="https://blog.dddeastmidlands.com/2020/04/06/covid-19.html"
+            target="_blank"
+          >
             You can read more details around the decision and how it
             affects attendees in this blog post.
           </a>

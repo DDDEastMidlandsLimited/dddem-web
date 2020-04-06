@@ -20,7 +20,10 @@ const Header = props => (
     <div className="covid">
       <h3 tabIndex="0">
         {' '}
-        <a href="" target="_blank">
+        <a
+          href="https://blog.dddeastmidlands.com/2020/04/06/covid-19.html"
+          target="_blank"
+        >
           Click here to read about our COVID-19 precautions
         </a>{' '}
       </h3>

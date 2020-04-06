@@ -163,7 +163,10 @@ export default () => (
       <p tabIndex="0">
         If it gets closer to the event and Plan A doesn't look
         possible, we will postpone the event to 2021.
-        <a href="" target="_blank">
+        <a
+          href="https://blog.dddeastmidlands.com/2020/04/06/covid-19.html"
+          target="_blank"
+        >
           You can read more details around the decision and how it
           affects your tickets and experience in this blog post.
         </a>
