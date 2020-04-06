@@ -26,18 +26,75 @@ export default () => (
       </p>
     </section>
 
+    <a name="covid19" />
+    <section id="covid19">
+      <h1 tabIndex="0"> How Will COVID-19 Affect Sponsorship?</h1>
+      <p tabIndex="0">
+        With the current state of play, we understand that you may be
+        curious as to what our plans are around COVID-19. We want to
+        ensure everyones safety, while providing a good experience for
+        our sponsors.
+      </p>
+      <h4>Plan A: Conference Goes Ahead</h4>
+      <p tabIndex="0">
+        As the event is happening in October, we are far enough ahead
+        in the future that the pandemic <i>might</i> not effect our
+        event. If that is the case, we will be going ahead as planned
+        on October the 3rd 2020.
+      </p>
+      <p tabIndex="0">
+        The safety of all involved is our greatest concern. If
+        isolation or social distancing are still in place or there is
+        still any risk of COVID-19 affecting attendees, we will move
+        to Plan B.
+      </p>
+      <h4>Plan B: Postpone to 2021</h4>
+      <p tabIndex="0">
+        If it gets closer to the event and Plan A doesn't look
+        possible, we will postpone the event to 2021. You will be
+        offered the opportunity to carry over your sponsorship. We
+        appreciate your support over this time, so don't want you to
+        miss out. Though this is not the preferred plan, it will give
+        us a great opportunity to work on the event for a further 12
+        months.
+      </p>
+      <p tabIndex="0">
+        <strong>
+          <a href="" target="_blank">
+            You can read more details around the decision and how it
+            affects attendees in this blog post.
+          </a>
+        </strong>
+      </p>
+    </section>
+
     <section id="indicating-interest">
       <h1 tabIndex="0">Indicating Interest to Sponsor</h1>
+
+      {/* is there a pack? */}
+      <a name="sponsor" />
+      <h2 tabIndex="0">Are there still opportunities to sponsor?</h2>
+      <p tabIndex="0">Yes there is!</p>
+
+      {/* is there a pack? */}
+      <a name="sponsorship-pack" />
+      <h2 tabIndex="0">Is there a sponsorship pack?</h2>
+      <p tabIndex="0">
+        Yes! Get in touch with Rachel. She will let you know which
+        sponsorship tiers and opportunities are still available and
+        will send you a copy of the sponsorship pack.
+      </p>
+
       <a name="submitting-interest" />
       <h2 tabIndex="0">Get in touch with Rachel</h2>
       <p tabIndex="0">
-        Rachel is the newest member of our team and will be the point
-        of contact for all sponsors and partners. Get in touch with
-        her and she will work with you to ensure you get what you need
-        while supporting the conference. There are a number of tiers,
-        with different benefits and price tags, so there should be
-        something that is right for you.
+        Rachel is the point of contact for all sponsors and partners.
+        Get in touch with her and she will work with you to ensure you
+        get what you need while supporting the conference. There are a
+        number of tiers, with different benefits and price tags, so
+        there should be something that is right for you.
       </p>
+
       {/* Rachel pic and links */}
       <div className="row">
         <div className="columnleft">
@@ -79,28 +136,7 @@ export default () => (
           </ul>
         </div>
       </div>
-
-      {/* is there a pack? */}
-      <a name="sponsorship-pack" />
-      <h2 tabIndex="0">Is there a sponsorship pack?</h2>
-      <p tabIndex="0">
-        The sponsorship pack is being put together at the moment and
-        will be available by email and online by the end of January.
-      </p>
-
-      {/* when sponsorship available */}
-      <a name="when-sponsorship-is-available" />
-      <h2 tabIndex="0">
-        What happens when sponsorship becomes available?
-      </h2>
-      <p tabIndex="0">
-        Rachel is the newest member of our team and will be the point
-        of contact for all sponsors and partners. Get in touch with
-        her and she will work with you to ensure you get what you need
-        while supporting the conference. There are a number of tiers,
-        with different benefits and price tags, so there should be
-        something that is right for you.
-      </p>
+      <SponsorButton />
       <br />
     </section>
 
@@ -145,7 +181,7 @@ export default () => (
         </li>
       </ul>
       <br />
-      {/* <SponsorButton /> */}
+      <br />
     </section>
 
     <style jsx>

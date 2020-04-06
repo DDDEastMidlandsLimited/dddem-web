@@ -4,8 +4,8 @@ const SponsorButton = props => (
   <div align="center">
     <br />
     <button>
-      <a href="https://forms.gle/UBCpBRao8BCPGa7W8" target="_blank">
-        Submit Interest In Sponsoring
+      <a href="mailto:rachel@dddeastmidlands.com" target="_blank">
+        Email Rachel
       </a>
     </button>
     <style jsx>
