@@ -17,6 +17,8 @@ const dates = [
     id: 3,
     date: '27th March',
     name: 'First Wave Of Tickets Released',
+    current: true,
+    past: true,
   },
   {
     id: 4,
@@ -40,8 +42,13 @@ const dates = [
   },
   {
     id: 8,
-    date: '3rd October',
-    name: 'The Conference',
+    date: '3rd October 2020',
+    name: 'The 2020 Conference',
+  },
+  {
+    id: 9,
+    date: '2nd October 2021',
+    name: 'The 2021 Conference',
   },
 ];
 
