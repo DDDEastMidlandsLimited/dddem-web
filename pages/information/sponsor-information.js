@@ -23,7 +23,7 @@ export default () => (
 
       <p>
         <strong>
-          <a href="#sponsor-brief">Sponsor Brief</a>
+          <a href="#covid19">COVID-19</a>
         </strong>
       </p>
 
@@ -34,25 +34,23 @@ export default () => (
       </p>
 
       <p tabIndex="0">
-        <strong>Before The Conference</strong>
+        <strong>
+          <a href="#before-the-conference">Before The Conference</a>
+        </strong>
       </p>
       <ul>
         <li>
           <a href="#tickets">Tickets</a>
         </li>
         <li>
-          <a href="#items">Attendee Bag Items</a>
-        </li>
-        <li>
           <a href="#pat-before">PAT Testing</a>
-        </li>
-        <li>
-          <a href="#gold-sponsors">Gold Representatives</a>
         </li>
       </ul>
 
       <p tabIndex="0">
-        <strong>Setup The Day Before Conference</strong>
+        <strong>
+          <a href="#day-before">Setup The Day Before Conference</a>
+        </strong>
       </p>
       <ul>
         <li>
@@ -79,7 +77,9 @@ export default () => (
       </ul>
 
       <p tabIndex="0">
-        <strong>Setup On The Day</strong>
+        <strong>
+          <a href="#setup-on-day">Setup On The Day</a>
+        </strong>
       </p>
       <ul>
         <li>
@@ -91,7 +91,9 @@ export default () => (
       </ul>
 
       <p tabIndex="0">
-        <strong>General Conference Day Information</strong>
+        <strong>
+          <a href="#general">General Conference Day Information</a>
+        </strong>
       </p>
       <ul>
         <li>
@@ -112,7 +114,9 @@ export default () => (
       </ul>
 
       <p tabIndex="0">
-        <strong>Exhibition Stalls</strong>
+        <strong>
+          <a href="#stalls">Exhibition Stalls</a>
+        </strong>
       </p>
       <ul>
         <li>
@@ -145,25 +149,15 @@ export default () => (
       </ul>
 
       <p tabIndex="0">
-        <strong>Packing Up Day Of The Conference</strong>
+        <strong>
+          <a href="#packing-up">Packing Up Day Of The Conference</a>
+        </strong>
       </p>
       <ul>
         <li>
           <a href="#teardown-time">Pick Up Time</a>
         </li>
       </ul>
-
-      {/* <p tabIndex="0">
-        <strong>PubConf - The Unofficial After Party</strong>
-      </p>
-      <ul>
-        <li>
-          <a href="#after-party-about">About</a>
-        </li>
-        <li>
-          <a href="#after-party-rules">Rules of PubConf</a>
-        </li>
-      </ul> */}
 
       <p>
         <strong>
@@ -172,114 +166,143 @@ export default () => (
       </p>
     </section>
 
-    <section id="sponsor-brief">
-      <h1 tabIndex="0">Sponsor Brief</h1>
-      <a name="sponsor-brief" />
-      <h2 tabIndex="0">Thank you.</h2>
+    <a name="covid19" />
+    <section id="covid19">
+      <h1 tabIndex="0">COVID-19</h1>
       <p tabIndex="0">
-        Without your support, there wouldn’t be a DDD East Midlands
-        event at all. This page outlines what you need to know on the
-        day.
+        With the current state of play, we understand that you may be
+        curious as to what our plans are around COVID-19. We want to
+        ensure everyones safety, while providing a good experience for
+        our sponsors.
+      </p>
+      <h4>Plan A: Conference Goes Ahead</h4>
+      <p tabIndex="0">
+        As the event is happening in October, we are far enough ahead
+        in the future that the pandemic <i>might</i> not effect our
+        event. If that is the case, we will be going ahead as planned
+        on October the 3rd 2020.
       </p>
       <p tabIndex="0">
-        This year we expect around 350 - 400 attendees to join us for
-        a day of learning and networking for the East Midlands
-        technology community.
+        The safety of all involved is our greatest concern. If
+        isolation or social distancing are still in place or there is
+        still any risk of COVID-19 affecting attendees, we will move
+        to Plan B.
+      </p>
+      <h4>Plan B: Postpone to 2021</h4>
+      <p tabIndex="0">
+        If it gets closer to the event and Plan A doesn't look
+        possible, we will postpone the event to 2021. You will be
+        offered the opportunity to carry over your sponsorship. We
+        appreciate your support over this time, so don't want you to
+        miss out. Though this is not the preferred plan, it will give
+        us a great opportunity to work on the event for a further 12
+        months.
+      </p>
+      <p tabIndex="0">
+        <strong>
+          <a
+            href="https://blog.dddeastmidlands.com/2020/04/06/covid-19.html"
+            target="_blank"
+          >
+            You can read more details around the decision and how it
+            affects attendees in this blog post.
+          </a>
+        </strong>
       </p>
     </section>
 
     <CodeOfConduct />
 
+    <a name="before-the-conference" />
     <section id="before-the-conference">
       <h1 tabIndex="0">Before The Conference</h1>
       <a name="tickets" />
       <h2 tabIndex="0">Tickets</h2>
       <p tabIndex="0">
-        If you have supported at Gold, Silver, Bronze or Standard
-        Tier, you will have been allotted some tickets to the
-        conference.
+        Certain tiers get guaranteed tickets to the conference. How
+        many depends on the tier that you are sponsoring at. Rachel
+        will provide you with your custom Eventbrite code to access
+        your tickets with.
+      </p>
+      <a name="tickets" />
+      <h4 tabIndex="0">What to do with the tickets</h4>
+      <p tabIndex="0">
+        If you have an exhibition booth we suggest you use tickets to
+        ensure there are{' '}
+        <strong> 2 - 3 people managing the booth.</strong>
       </p>
       <p tabIndex="0">
-        If you know who your guaranteed tickets are going to be given
-        to, please provide us with their emails so that we can send a
-        link to Eventbrite. If this is still unsure, we can provide a
-        code for you to access tickets with.
+        There are a number of ways you can use your remaining tickets:
       </p>
+      <li tabIndex="0">
+        <i>Give them to internal employees.</i>
+        <p>
+          This conference is a great way for your employees to get
+          free training, take part in valueable networking and have a
+          lot of fun.
+        </p>
+      </li>
+      <li tabIndex="0">
+        <i>Run a competition.</i>
+        <p>
+          You could do this online using social media or something
+          else. Use this opportunity to promote your company and give
+          people a great impression.
+        </p>
+      </li>
+      <li tabIndex="0">
+        <i>Sponsor a diverse candidate.</i>
+        <p>
+          You could run a diversity scheme, to support people who want
+          to come to the conference but haven't been able to get a
+          ticket.
+        </p>
+      </li>
+      <li tabIndex="0">
+        <i>Donate to a meetup as a "sponsor prize".</i>
+        <p>
+          There are a multitude of meetups in the East Midlands who
+          would love to give tickets to their attendees. To promote
+          your own business and provide a great opportunity to someone
+          you could provide tickets to a meetup as a prize.
+        </p>
+      </li>
+
+      <br />
+      <a name="tickets" />
+      <h4 tabIndex="0">How to access tickets</h4>
+      <li tabIndex="0">
+        <a
+          href="https://www.eventbrite.co.uk/e/ddd-east-midlands-2020-tickets-95834801471"
+          target="_blank"
+        >
+          Head to eventbrite using this link
+        </a>
+      </li>
+      <li tabIndex="0">Click the Register button</li>
+      <li tabIndex="0">
+        Click where it says "Enter promo code" (see the image below)
+        and enter the code we have provided to you.
+      </li>
+      <div className="imagecenter">
+        <br />
+        <img
+          src="/static/info/sponsors/promo.png"
+          alt="Screenshot of EventBrite screen"
+          className="screenshot"
+        />
+      </div>
+      <li tabIndex="0">
+        A new category of ticket should be displayed to you. Select
+        the number you want and fill in the details on the form.
+      </li>
       <p tabIndex="0">
-        <strong>
-          If you have told us who to send your tickets to:
-        </strong>
-      </p>
-      <ul>
-        <li tabIndex="0">
-          If you have an exhibition booth, please ensure that your
-          booth will be covered by 1 - 3 of your ticket holders.
-        </li>
-        <li tabIndex="0">
-          Please make sure the people assigned can still make it on
-          the day.
-        </li>
-      </ul>
-      <p tabIndex="0">
-        <strong>
-          If you haven't told us who to assign your tickets too:
-        </strong>
-      </p>
-      <ul>
-        <li tabIndex="0">
-          If you have an exhibition booth we suggest that 1 - 3 of
-          your tickets are given to those managing your exhibition
-          booth.
-        </li>
-        <li tabIndex="0">
-          If you don't have an exhibition booth or have tickets spare,
-          you can:
-          <ul>
-            <li tabIndex="0">
-              Give tickets out internally so your employees can
-              benefit from the day.
-            </li>
-            <li tabIndex="0">Donate a ticket to local meetup.</li>
-            <li tabIndex="0">
-              Give a tickeet away in a competition.
-            </li>
-          </ul>
-        </li>
-      </ul>
-      <p tabIndex="0">Whatever you think is best.</p>
-      <p tabIndex="0">
-        <strong>Assigning Tickets:</strong>
-      </p>
-      <p tabIndex="0">
-        Contact{' '}
-        <a href="mailto:jessica@dddeastmidlands.com">Jessica </a>with
-        the email addresses and name of your recepients. She will send
-        an Eventbrite invite to that email address.
-      </p>
-      <p tabIndex="0">
-        Any tickets you consider “extra” as part of your sponsorship,
-        you can dispense as you wish. Contact Jessica if you want
-        assistance with this.
+        If you are giving away tickets away as part of a promotion,
+        competition or donation to meetup; then you can pass this code
+        on to those who are taking the ticket.
       </p>
 
-      <a name="items" />
-      <h2 tabIndex="0">Attendee Bag Items</h2>
-      <p tabIndex="0">
-        Gold and Silver Tier Sponsors can provide items and inserts
-        for attendee bags. These bags will be given to all attendee's
-        on the day of the conference. You can provide swag and/or
-        printed media (company adverts, job adverts etc.).
-      </p>
-      <p tabIndex="0">
-        <strong>
-          Attendee bag items should be provided at least one week
-          before the conference.
-        </strong>{' '}
-        This is so we can prepare the bags before the conference.
-        Please make arrangements with Jessica for drop off or
-        collection.
-      </p>
-
+      <br />
       <a name="pat-before" />
       <h2 tabIndex="0">PAT Testing</h2>
       <h4 tabIndex="0">
@@ -314,43 +337,9 @@ export default () => (
         speakers and exhibitors can queue to get their devices PAT
         tested.
       </p>
-
-      <a name="gold-sponsors" />
-      <h2 tabIndex="0">Gold Representatives</h2>
-      <p tabIndex="0">
-        This section only concerns our Gold Tier Sponsors.
-      </p>
-      <p tabIndex="0">
-        We will need some information from you before the event. As
-        part of your sponsorship offering, we will say a short bit
-        about your company but also present the details of a
-        representative that can be approached at the conference. We
-        will need the following:
-      </p>
-      <ul>
-        <li tabIndex="0">
-          A short brief about your company to be given at the opening
-          presentation. A couple of paragraphs long.
-        </li>
-        <li tabIndex="0">
-          The name of your represenative for the day.
-        </li>
-        <li tabIndex="0">
-          The job title of your represenative for the day.
-        </li>
-        <li tabIndex="0">
-          A photo of your represenative for the day.
-        </li>
-        <li tabIndex="0">
-          Contact details that your represenative might want to share.
-        </li>
-      </ul>
-      <p tabIndex="0">
-        These will be presented alongside your logo in the opening
-        ceremony.
-      </p>
     </section>
 
+    <a name="day-before" />
     <section id="day-before">
       <h1 tabIndex="0">Setup The Day Before Conference</h1>
 
@@ -418,6 +407,7 @@ export default () => (
 
     <Transport />
 
+    <a name="setup-on-day" />
     <section id="setup-on-day">
       <h1 tabIndex="0">Setup On The Day</h1>
 
@@ -445,6 +435,7 @@ export default () => (
       </p>
     </section>
 
+    <a name="general" />
     <section id="general">
       <h1 tabIndex="0">General Conference Day Information</h1>
       <a name="power" />
@@ -526,6 +517,7 @@ export default () => (
       </p>
     </section>
 
+    <a name="stalls" />
     <section id="stalls">
       <h1 tabIndex="0">Exhibition Stalls</h1>
 
@@ -575,6 +567,7 @@ export default () => (
 
     <SocialMedia />
 
+    <a name="packing-up" />
     <section id="packing-up">
       <h1 tabIndex="0">Packing Up Day Of The Conference</h1>
       <a name="teardown-time" />
@@ -598,38 +591,15 @@ export default () => (
       </p>
     </section>
 
-    {/* <PubConf /> */}
-
     <section id="contact">
       <a name="contact" />
       <h1 tabIndex="0">Contact</h1>
       <p tabIndex="0">
-        There are a number of ways to contact the organisers before
-        and during the event:
-      </p>
-      <h2 tabIndex="0">Slack</h2>
-      <p tabIndex="0">
-        You will be added to a DDD East Midlands Slack Channel.
-        Jessica and Moreton will be reachable on there. Please use
-        their handle for anything urgent.
-      </p>
-      <h2 tabIndex="0">Email</h2>
-      <p tabIndex="0">
-        Using the @dddeastmidlands.com email addresses:
-      </p>
-      <li>
-        <a href="mailto:rachel@dddeastmidlands.com">Rachel's email</a>
-      </li>
-      <li>
-        <a href="mailto:jessica@dddeastmidlands.com">
-          Jessica's email
+        <a href="https://www.dddeastmidlands.com/contact/">
+          See the ways to contact the team on the Contact Us page.
         </a>
-      </li>
-      <li>
-        <a href="mailto:moreton@dddeastmidlands.com">
-          Moreton's email
-        </a>
-      </li>
+      </p>
+      <br />
     </section>
 
     <style jsx>
@@ -649,6 +619,14 @@ export default () => (
 
         .red {
           color: red;
+        }
+
+        .screenshot {
+          width: 70%;
+        }
+
+        .imagecenter {
+          text-align: center;
         }
 
         table {
