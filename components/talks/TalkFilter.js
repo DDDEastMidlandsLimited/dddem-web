@@ -7,6 +7,7 @@ export default class TalkFilter extends React.PureComponent {
     this._renderItems = this._renderItems.bind(this);
     this._renderTag = this._renderTag.bind(this);
     this._renderLevel = this._renderLevel.bind(this);
+    this._renderLength = this._renderLength.bind(this);
   }
 
   render() {
@@ -14,6 +15,8 @@ export default class TalkFilter extends React.PureComponent {
       <div className="column">
         <h2>Level</h2>
         {this._renderItems(this.props.levels, this._renderLevel)}
+        <h2>Length</h2>
+        {this._renderItems(this.props.lengths, this._renderLength)}
         <h2>Topic</h2>
         {this._renderItems(this.props.tags, this._renderTag)}
         <style jsx>
@@ -57,6 +60,17 @@ export default class TalkFilter extends React.PureComponent {
         item={level}
         addItem={this.props.addLevel}
         removeItem={this.props.removeLevel}
+      />
+    );
+  }
+
+  _renderLength(length) {
+    return (
+      <FilterItem
+        key={length.name}
+        item={length}
+        addItem={this.props.addLength}
+        removeItem={this.props.removeLength}
       />
     );
   }
