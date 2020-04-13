@@ -207,7 +207,7 @@ const talks = [
     title:
       'How to make security pervasive without falling into the DevSecOps trap',
     description:
-      'It’s all about labels these days – AI, Containers, DevSecOps. Many people claim to ‘do it’, very few *actually* do.\n\nTake DevSecOps: on face value it’s about adding Security practices to DevOps. But how do you measure the value derived from it? And also – how do you make sure you are not disrupting your team in the process?\n\nIn this session Matteo Emili (Azure DevOps MVP) will show why you don’t need a label to add these practices, and how to introduce sustainable solutions to implement in your build and release pipelines in order to achieve a higher security standard across your projects without hampering your teams.',
+      'It’s all about labels these days – AI, Containers, DevSecOps. Many people claim to ‘do it’, very few *actually* do.\n\nTake DevSecOps: on face value it’s about adding Security practices to DevOps. But how do you measure the value derived from it? And also – how do you make sure you are not disrupting your team in the process?\n\nIn this session the speaker will show why you don’t need a label to add these practices, and how to introduce sustainable solutions to implement in your build and release pipelines in order to achieve a higher security standard across your projects without hampering your teams.',
     level: 'Intermediate',
     tags: [
       'security',
