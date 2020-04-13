@@ -8,9 +8,9 @@ export default class TalkList extends React.PureComponent {
     };
 
     this._renderTitle = this._renderTitle.bind(this);
-    this._renderTags = this._renderTags.bind(this);
-    this._renderTag = this._renderTag.bind(this);
-    this._renderDescriptionAndLevel = this._renderDescriptionAndLevel.bind(
+    this._renderTagsOrLengths = this._renderTagsOrLengths.bind(this);
+    this._renderTagOrLength = this._renderTagOrLength.bind(this);
+    this._renderDescriptionLevelTagsAndLength = this._renderDescriptionLevelTagsAndLength.bind(
       this,
     );
     this._renderParagraph = this._renderParagraph.bind(this);
@@ -31,10 +31,11 @@ export default class TalkList extends React.PureComponent {
       <div className="talk-title">
         {this._renderTitle(talk.title)}
         {this.state.displayDescription
-          ? this._renderDescriptionAndLevel(
+          ? this._renderDescriptionLevelTagsAndLength(
               talk.description,
               talk.level,
               talk.tags,
+              talk.lengths,
             )
           : null}
         <style jsx>
@@ -77,14 +78,14 @@ export default class TalkList extends React.PureComponent {
     );
   }
 
-  _renderTags(tags) {
-    const tagElements = tags.map((tag, index) => {
-      return this._renderTag(index, tag);
+  _renderTagsOrLengths(items) {
+    const itemElements = items.map((item, index) => {
+      return this._renderTagOrLength(index, item);
     });
 
     return (
       <div>
-        {tagElements}
+        {itemElements}
         <style jsx>
           {`
             div {
@@ -97,10 +98,10 @@ export default class TalkList extends React.PureComponent {
     );
   }
 
-  _renderTag(index, tag) {
+  _renderTagOrLength(index, item) {
     return (
       <div key={index}>
-        {tag}
+        {item}
         <style jsx>
           {`
             div {
@@ -113,7 +114,12 @@ export default class TalkList extends React.PureComponent {
     );
   }
 
-  _renderDescriptionAndLevel(description, level, tags) {
+  _renderDescriptionLevelTagsAndLength(
+    description,
+    level,
+    tags,
+    lengths,
+  ) {
     const paragraphs = description
       .replace('\n\n', '\n')
       .split('\n')
@@ -126,7 +132,10 @@ export default class TalkList extends React.PureComponent {
         <hr />
         <div className="sub-title">Level: {level}</div>
         <div className="sub-title">
-          Tags: {this._renderTags(tags)}{' '}
+          Lengths: {this._renderTagsOrLengths(lengths)}{' '}
+        </div>
+        <div className="sub-title">
+          Tags: {this._renderTagsOrLengths(tags)}{' '}
         </div>
         <div>
           <strong>Description:</strong>
