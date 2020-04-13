@@ -22,13 +22,17 @@ const dates = [
   },
   {
     id: 4,
-    date: '10th April',
+    date: '13th April',
     name: 'Second Wave Of Tickets Released',
+    current: true,
+    past: true,
   },
   {
     id: 5,
     date: '13th April',
     name: 'Voting Opens',
+    current: true,
+    past: true,
   },
   {
     id: 6,
