@@ -10,14 +10,18 @@ export default class Talks extends React.PureComponent {
     this.state = {
       filterTags: [],
       filterLevels: [],
+      filterLengths: [],
     };
 
     this.addTag = this.addTag.bind(this);
     this.removeTag = this.removeTag.bind(this);
     this.addLevel = this.addLevel.bind(this);
     this.removeLevel = this.removeLevel.bind(this);
+    this.addLength = this.addLength.bind(this);
+    this.removeLength = this.removeLength.bind(this);
     this._filterTalks = this._filterTalks.bind(this);
     this._filterTags = this._filterTags.bind(this);
+    this._filterLengths = this._filterLengths.bind(this);
     this._projectLevels = this._projectLevels.bind(this);
   }
 
@@ -47,22 +51,42 @@ export default class Talks extends React.PureComponent {
     });
   }
 
+  addLength(length) {
+    this.setState({
+      filterLengths: this.state.filterLengths.concat(length),
+    });
+  }
+
+  removeLength(length) {
+    this.setState({
+      filterLengths: this.state.filterLengths.filter(l => {
+        return l !== length;
+      }),
+    });
+  }
+
   render() {
     const filteredTalks = this._filterTalks();
     const projectedFilteredAndOrderedTags = this._filterTags(
       filteredTalks,
     );
     const projectedLevels = this._projectLevels();
+    const projectedFilteredAndOrderedLengths = this._filterLengths(
+      filteredTalks,
+    );
 
     return (
       <div>
         <TalkFilter
           tags={projectedFilteredAndOrderedTags}
           levels={projectedLevels}
+          lengths={projectedFilteredAndOrderedLengths}
           addTag={this.addTag}
           removeTag={this.removeTag}
           addLevel={this.addLevel}
           removeLevel={this.removeLevel}
+          addLength={this.addLength}
+          removeLength={this.removeLength}
         />
         <TalkList talks={filteredTalks} />
         <style jsx>
@@ -92,7 +116,17 @@ export default class Talks extends React.PureComponent {
         );
       }
 
-      return containsFilteredTags && containsFilteredLevels;
+      const containsFilteredLengths = this.state.filterLengths.every(
+        filterLength => {
+          return talk.lengths.includes(filterLength);
+        },
+      );
+
+      return (
+        containsFilteredTags &&
+        containsFilteredLevels &&
+        containsFilteredLengths
+      );
     });
   }
 
@@ -126,6 +160,38 @@ export default class Talks extends React.PureComponent {
     });
 
     return sortedTags;
+  }
+
+  _filterLengths(filteredTalks) {
+    const filteredLengths = filteredTalks.reduce(
+      (accumulator, current) => {
+        current.lengths.forEach(length => {
+          if (!accumulator.includes(length)) accumulator.push(length);
+        });
+        return accumulator;
+      },
+      [],
+    );
+
+    const projectedLengths = filteredLengths.map(length => {
+      return {
+        name: length,
+        selected: this.state.filterLengths.includes(length),
+      };
+    });
+
+    const sortedLengths = projectedLengths.sort((a, b) => {
+      if (a.selected === b.selected) {
+        return a.name > b.name ? 1 : -1;
+      }
+
+      var aselected = a.selected ? 1 : 0;
+      var bselected = b.selected ? 1 : 0;
+
+      return bselected > aselected ? 1 : -1;
+    });
+
+    return sortedLengths;
   }
 
   _projectLevels() {

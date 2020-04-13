@@ -1,1164 +1,1459 @@
 const talks = [
   {
     id: 1,
-    title: 'Logging, Metrics and Events in ASP.NET Core',
+    title: '.Net Configuration is Easy ... Right?',
     description:
-      "Providing decent monitoring of your applications has always been considered the boring part of development, with tons of boilerplate code, and making upfront decisions around how it will be done, or retrofit afterwards.  However, with dotnet core, things have changed, it's never been easier to implement effective visibility into how your application is performing in production.\n\nIn this session I will cover the fundamental differences between Metrics and Logs, and Events and look at where one is useful over the other.\n\nWe’ll look at some of the things Microsoft has done in dotnet core to make logging easier, and some of the third-party libraries and tools that aim to make it easier to navigate.\n\nWe’ll cover tools like Serilog and Log4Net, along with AppMetrics for capturing application information. We’ll then take a quick look at Grafana, and see how we can make some sense of that information.  Finally, we'll look at Honeycomb.io and how they're providing actionable insights for distributed systems using events, enabling testing in production.",
-    level: 'Introductory and overview',
+      "Let's face it, we've all done it at some point. You have a value in your code that you don't want to hard code as it will vary in different environments or needs to change in a runtime environment, so you want to make it configurable in a file. That's where the fun begins.\n\nIn the.NET Framework, you usually create an XML configuration file and reference it using some static methods. Or maybe you use the designer in Visual Studio to do the work for you? In .NET Core, you are given a JSON file by default and access it through the IConfiguration interface. Job done ...or so you think.\n\n•\tHow do you code the keys to access the values?\n•\tHow do you unit test it and what if you need to test different values?\n•\tWhat if you want to store values other than primitive types?\n•\tWhat if you want to have secure passwords, but don't want them in your source control?\n•\tWhat if you don't want to use JSON files ... or come to that, don't want to use files at all?\n•\tWhat if you want to change values in a Docker container\n.. and the questions go on and on.\n\nIn this talk, we start with a brief overview of the history of configuration in .NET Framework and how Microsoft handed developers a loaded gun to shoot themselves in the foot. Moving on to .NET Core, things are much better, but there are still some gotchas.\n\nLastly, the talk goes on to deal with the questions raised above with a \"SOLID\" based approach that makes configuration not only fully testable, but adds enhancements to handle encrypted configuration values (because you're not storing passwords as clear text in source control are you?) and validation of the configuration data before it hits your code.\n\nThe talk aims to help new and intermediate developers avoid the pitfalls that others have fallen down and give experienced developers some food for thought as to how they might want to reconsider how they do configuration.",
+    level: 'Intermediate',
     tags: [
-      'devops',
-      'observability',
-      'metrics/dashboarding',
-      'monitoring',
+      'software methodology/process',
+      'architecture',
+      'language specific',
+      '.net',
     ],
+    lengths: ['60 minute talk'],
   },
   {
     id: 2,
-    title: 'Functional Programming with C#',
+    title: '.NET Core Dependency Injection – The Booster Jab',
     description:
-      "Functional Programming is becoming increasingly popular and relevant with each year that goes by.  With so much discussion around languages such as F#, Haskell and Erlang, it can seem as though getting started with Functional programming would mean first learning a whole new syntax...but what if it didn't?\n\nMost .NET developers are familiar with the use of Linq, and basic constructs such as IEnumerable, Func delegates, arrow functions and ternary expressions, but did you know that you can use all of this to implement some of the most powerful patterns and techniques from the world of functional programming?\n\nThis talk will demonstrate how, using only familiar features available in out-of-the-box C#, to write Functional code that is:\n\n* More robust\n* Easier to read\n* Easier to maintain\n\nAs well as these benefits, Functional code is a great enabler for the use of concurrency with Async functions and Serverless applications with technologies such as Azure Functions.  \n\nThis talk might be of interest to anyone looking into moving to a new platform, or in improving the scalability of an existing application, or even just interested in seeing what Functional Programming is all about, but all within the comfort of a familiar language.  \n\nWe might even attempt the impossible, and explain what a Monad is!",
+      'With the release of .NET Core 3.x  and the promise of a unified .NET 5 based on it, more developers have now got to grips with the basics of using the default Microsoft Dependency Injection container that comes with .NET Core. However, the story does not end there... \n\nThis talk will take you beyond the basics and cover more complex topics such as \n\n* Avoiding unintended multiple registrations  \n* Conflicts between service lifetimes \n* Understanding the Root and Scoped service providers \n* Automated service registration packages\n* Registering and resolving open generics, classes with multiple interfaces; and interfaces with multiple class implementation   \n* Integrating with other DI containers \n* Key named registrations are not supported ... but I need it! \n* Getting better startup performance from your registered services \n* Thread safety and avoiding memory leaks \n* Validating and unit testing your service registrations \n\nThe talk assumes that you have already had an initial dose of DI knowledge and are now ready for a top up to avoid some nasty bugs.',
     level: 'Intermediate',
-    tags: ['functional programming', '.net'],
+    tags: [
+      'software methodology/process',
+      'architecture',
+      'language specific',
+      '.net',
+    ],
+    lengths: ['60 minute talk', '30 minute talk'],
   },
   {
     id: 3,
-    title: 'IoT with nothing but your laptop',
+    title: 'Serverless Architectural Patterns and Best Practices',
     description:
-      "Although the cost of IoT hardware has reduced dramatically over the last few years, you still need to choose the right IoT option, figure out what accessories it needs, order it all from Amazon and wait for it to arrive. By that point, you’ve moved on to something else entirely, so it sits in a cupboard drawer for a year and a half before you get back around to thinking about it…. Then you realise that you need some components and wires… Back in the drawer, it goes!\n\nWith the advent of HTML 5, so comes the ability to simulate a lot of IoT kit right there in your web browser. We'll walk through a few of the best online simulators for IoT technology, which will give you a head start into the world of IoT. This way you can forgo all the procrastinating, and get to (virtually) creating!",
-    level: 'Intermediate',
-    tags: ['iot', 'cloud', 'hardware'],
+      'Get to know Serverless from square one!\n\nThe Serverless architectural style empowers you to rapidly create scalable and cost-effective applications without the overhead of managing servers. It eliminates infrastructure management tasks such as server or cluster provisioning, patching, operating system maintenance, and capacity provisioning. This session will take you on a guided tour of serverless terrain and get you building your own serverless solution on your favorite cloud providers like AWS, GCP and AZURE.\n\n\nYou will get to know:\n\nFoundational knowledge to architect Serverless Systems\n\nCapabilities of the popular Serverless Platform\n\nBest practices for developing Serverless Architectures\n\nServerless Patterns and Architectures\n\nPlatform Providers and ecosystem of services and tools\n\nSecurity, Cost and Economics of Serverless Solutions\n\nServerless Application use cases\n\nBy the end of this session, you will have the knowledge needed to start designing serverless systems.',
+    level: 'Introductory and overview',
+    tags: ['cloud', 'architecture', 'serverless'],
+    lengths: ['60 minute talk'],
   },
   {
     id: 4,
-    title: '27 days latter',
+    title: 'Complex systems design in nature',
     description:
-      "As developers, we have all developed sites, products and services for other people and business, but how many of us develop our own?\n\nFollowing the 'Side Hustle' guide and its 27 day process I will document and report back on what happens for each of these days.   Using free services and my development experience to build something for myself?\n\nThe talk will go through each day, what happened and what I learnt.",
+      'Nature is full of highly complex systems, way more complicated than the systems we build. In the process, life has found solutions for many of the problems that we face today:\n\n* Architecture of large-scale systems\n* Communication at a distance \n* Eventual consistency\n* Security\n* Fault tolerance\n* Multivariate testing strategies\n* Adaptive algorithms for learning\n\nI will explore how nature has solved these issues, the parallels with our systems, what we can learn from the natural world, and what we could do differently.',
     level: 'Introductory and overview',
-    tags: ['softskills/workskills', 'business startup'],
+    tags: ['architecture', 'software methodology/process'],
+    lengths: ['60 minute talk'],
   },
   {
     id: 5,
-    title: 'The History of AI',
+    title: 'The Big I.D.E.A',
     description:
-      'Nowadays AI is all the hype, but what many might not know is that AI is an established discipline originating from a paper from Alan Turing in the 1950s. In this talk I will present the historical milestones of AI from the originating paper up until present days.  In addition we will look into the crystal ball in order to see what the future might have in store.\n\nWe will start out our journey by looking at what happened in a workshop in Dartmouth in the 1950’s which started it all. Then we’ll be reviewing a number of areas where AI initially was put to use between 1950-1970. We’ll cover the AI winter in the 1980’s and its’ reasons. \n\nIn the second part of the talk we’ll cover applications and milestones from the 1990’s and onwards. Finally we’ll look into the crystal ball and try to see where AI might takes us in the future.',
+      'In this short session, we will examine the I.D.E.A framework -  Imagine Design Execute Amplify  -  This is a great little design-centred framework that can be pointed at everything from a product or campaign to a start-up or business model',
     level: 'Introductory and overview',
-    tags: ['machine learning', 'artificial intelligence'],
+    tags: ['leadership', 'design', 'change management'],
+    lengths: ['30 minute talk'],
   },
   {
     id: 6,
-    title: 'Affective Computing - What is it and why should I care?',
+    title: 'Businesses, Cities & Ecosystems',
     description:
-      'Research have shown that emotions play an integral role in decision making, cognition, perception, learning and more. If we want our computers to be intelligent and be able to interact with us we need to ensure that they are able to recognize, understand and express emotions. This is the basic assumption of the field of Affective Computing. In this talk I will give an overview of Affective computing and how it can be applied. \n\nFirst I will give an introduction to the field starting with established findings from the field of psychology on how we best can measure emotions.\n\nThen I will describe how the field of Affective Computing has transformed from its origin in the 90’s until now when it is an established research field. I will highlight some of the technology enablers that has made Affective Computing a hot topic nowadays and give some examples of API and services that we as developers can use as of today. \n\nIn the second part of my talk I will give some examples on application scenarios across various fields (retail, medical, education and social). After that I will be show casing what is in the front line now. I will conclude my presentation with some recommendations on how this affects us as developers going forward.',
-    level: 'Introductory and overview',
-    tags: ['machine learning', 'artificial intelligence'],
+      'In this talk, we discuss the similarities between businesses and cities and how designing a human-centred business ecosystem helps grow our organisations in 3 ways, employee experience, customer experience, & economic growth.',
+    level: 'Advanced',
+    tags: ['leadership', 'design', 'change management'],
+    lengths: ['30 minute talk', '60 minute talk'],
   },
   {
     id: 7,
-    title:
-      'How to make a multi-lingual chatbot and use it in a Xamarin Forms application',
+    title: 'The power of questions',
     description:
-      'Chatbots are commonly used in a wide range of user scenarios such as ordering pizzas, product suggestions, schedule meetings or customer support. But how can we as Microsoft developers make our own chatbot? \n\nIn this session I will demonstrate how you can make a chatbot by using the Microsoft Bot Framework together with LUIS (Language Understanding Intelligent Services). The chatbot will be multi-lingual meaning it will adapt in real-time according to the user’s language (i.e. switching from English->Spanish->Norwegian).\n\nFinally we will integrate our chatbot in Xamarin Forms application and demonstrate how we can use this in a mobile scenario.',
+      'In this short took we look at how questions power everything and asking good questions help us design better everything',
     level: 'Introductory and overview',
-    tags: ['machine learning', 'mobile'],
+    tags: ['leadership', 'design', 'change management'],
+    lengths: ['15 minute lightning talk'],
   },
   {
     id: 8,
-    title:
-      'Why you should consider Web Assembly in your next frontend project',
+    title: '.NET Core Data Security : Hope is not a Strategy',
     description:
-      'During the last decades a growing trend has been to put more and more functionality into the client by using the latest and greatest JavaScript framework. But what if we could be using native code in the browser in order to run computations faster and potentially reuse code from the backend in the frontend. \n\nEnter Web Assembly. Web assembly is a new web standard which enables you to run native code as part of your current JavaScript framework. This talk will give you a thorough understanding of what web assembly is and how you can use it in your project. \n\nWe will cover a practical example writing our web assembly using Rust. We will go through everything from writing your web assembly code to publish it as a npm package and finally use it in an existing web application.',
+      "Not encrypting your data is a risky move and just relying on the hope that you won't get hacked and compromised is not a strategy.\n\nAs a software developer, you have a duty to your employer to secure and protect their data. In this talk, you will learn how to use the .NET Framework to protect your data to satisfy confidentiality, integrity, non-repudiation, and authentication.\n\nThis talk covers random number generation, hashing, authenticated hashing, and password-based key derivation functions. The talk also covers both symmetric and asymmetric encryption using DES, Triple DES, AES (ECB and GCM), and RSA. You then learn how to combine these all together to produce a hybrid encryption scheme which includes AES, RSA, HMACS, and Digital Signatures.",
     level: 'Intermediate',
-    tags: ['web development', 'javascript'],
+    tags: ['security', 'software methodology/process', '.net'],
+    lengths: ['60 minute talk'],
   },
   {
     id: 9,
     title:
-      'Whose Design is it Anyway? - In introduction to inclusive design and research',
+      'Fighting Back Against a Distracted World - Increasing your Focus and Self-motivation',
     description:
-      'As creators of products and services, we’re pretty good at thinking we’ve got it all sussed. We map user journeys, we create roadmaps, we write user stories. We know what we want people to do; what actions we want them to take. But do we really know who these people are? Do we really know what they need? Do we take the time to find out, or are we building products and services based on our own assumptions and biases?\n\nAnd what about those who lack our digital privilege? Digital exclusion is a reality for many people. It’s our responsibility to look out for everyone, not just those who are the most visible or the easiest to design for.\n\nAs technologists, we have the power to massively hinder or improve lives; not those of ‘users’ but of people. This talk looks at what it means to be digitally excluded and how by adopting a practical user research-led attitude to design, we can create products that are not just appealing to us, but life-changing to those who use them.',
+      'We live in an age of technical wonder with the internet, high-end games, and streaming service all vying for our attention. We have never had so many significant innovations available at our fingertips, accessible 24 by 7. There is a big problem, though. With all these systems, we are becoming increasingly distracted, making it hard to focus on issues for an extended period. If left unchecked, this can affect our work, careers, and self-confidence. We need to be able to break this cycle from throwing us into a spiral of distraction while still being able to enjoy all these innovations.\n \nWhen I first went self-employed, I thought I had the ultimate freedom to do what I wanted, when I wanted. To a degree, I did, but I didn’t have anyone looking over me, holding me to account. I started to become distracted. After I while, I decided things had to change. I started on a quest to become more productive, focused, and increase my motivation; while still enjoy the occasional Netflix binge.\n \nIn this talk, I want to share my story of personal distraction, low motivation, and increased project anxiety. I will share how I broke this cycle and got my creative and productive mojo back.\n \nThis talk is aimed at anyone that strives to be more productive but struggles with distractions daily. In the talk, I will cover subjects such as\n \n- Distraction and procrastination\n- Finding meaning in your work\n- Increasing self-motivation\n- Understanding your locus of control\n- Productivity and time management\n- Controlling social media addiction\n \nI consider myself now to be very productive, but it was a battle getting there. Let me share my story, in the hope that I can also help you be productive and confident.',
     level: 'Introductory and overview',
-    tags: ['ux', 'design', 'user research'],
+    tags: ['coreskills/softskills'],
+    lengths: ['60 minute talk'],
   },
   {
     id: 10,
-    title: 'Developer who empathises or empathiser who develops',
+    title:
+      'Blockchain Internals : A Developers View of How Blockchain Works',
     description:
-      'Answering an often missed question. Which are you first? A developer with empathy. Or an empathiser who happens to develop. Looking at what the difference is and why empathy is more important than many people think in developing. Whether that’s front end back end Devops full stack or anything else. Covers the Keys to empathy and why planning your code with empathy helps you your colleagues your customers and the end user.',
+      'The blockchain is described as the next revolution in computing as it solves the problem of distributed trust when there is no trust on the internet (Byzantine Generals Problem).  Blockchain technology is generating an enormous amount of interest and is a current hot topic with financial institutions, insurance companies or any industry that works with transactional data that could benefit from the distributed trust it gives. The blockchain is also generating lots of investment from Venture Capital funds, so learning about this technology could certainly be career changing.\n \nIn this talk, we will explore what blockchain is in some detail from the conceptual use cases for it through to looking under the covers at how it works in detail. As the talk progresses, we will build up a sample implementation that will help developers form their mental model of what a blockchain is and how it works.\n \nIn this talk, I will cover\n \n    •    Blockchain quick overview \n    •    Cryptographic principles used by blockchain\n    •    How transactions are stored in a block\n    •    How transactions are hashed in Merkle trees\n    •    Authorising transactions\n    •    Verifying transactions in a block\n    •    Solving the Byzantine Generals Problem\n    •    Proof of work vs Proof of stake\n    •    Maintaining consistency and consensus\n \nYou will leave this talk with a very good understanding of how the blockchain technology works and how it helps you solve the problem of trust on a trust-less internet. I will be demonstrating code written in C# and .NET Core 2 (Standard 2) specifically.',
     level: 'Introductory and overview',
-    tags: ['softskills/workskills'],
+    tags: ['blockchain', 'architecture', 'security'],
+    lengths: ['60 minute talk'],
   },
   {
     id: 11,
-    title: 'You should add more Speech API in your bot!',
+    title: 'Building Fantasy Worlds in Code',
     description:
-      "Your bot is doing well but what if you add some more intelligence to it such as speaking? Or speaking and translating at the same time? Isn't this be great for your clients or your employees?\nCome and see how to add Microsoft Speech API to your bot and what to add more to find your business requirements for speaking and translating bot!",
-    level: 'Intermediate',
-    tags: ['cloud', 'artificial intelligence'],
+      "Modern video game entertainment is designed to be a complete assault on your senses with high-resolution computer graphics and immersive spacial sound, so much so that they leave little left to the players' imagination. Back in the 1980s, the humble text adventure was tearing up sales charts with games by companies such as Infocom. These games were great as they required the player to use their imagination to visualize what is happening, much like a novel but more interactive. I would argue that your imagination provides the highest resolution graphics available.\n\nIn this session, we are going to look at the entertainment and technical roots of text adventures and look at how to create a fantasy world with interactive fiction built with code. I will look at developing the parser that you use to navigate and interact with the world, how I have tried to overcome some of the problems of the older games like ‘verb hunting,’ interactive sparsity, impossible puzzles, and how we can develop modern interactive fiction for a new generation.\n\nThis talk is ideal for OO developers (especially C# and .NET Core), fans of interactive fiction and anyone nostalgic for the 1980s. As a group, we will also play through a simple game I have developed specifically for the conference. Hopefully, we won’t be eaten by a Grue!!\n\nI will cover:\n\n- The brief history of text adventures\n- Building an object-oriented text adventure engine\n- Integration testing of game paths\n- Parser and simple natural language processing development\n- Building games for different age groups and abilities\n- Applying accessibility techniques to interactive fiction. \n- Using profanity detection to drive gameplay and story instead of just censorship.\n\nCome along if you are interested in pop culture, software design, natural language parsing, accessibility, and a little adventure..",
+    level: 'Introductory and overview',
+    tags: [
+      'software methodology/process',
+      'architecture',
+      'cross discipline',
+      'fun',
+    ],
+    lengths: ['60 minute talk'],
   },
   {
     id: 12,
-    title: 'Cognitive Services Extravaganza!',
+    title:
+      'Hacking Humans : Social Engineering Techniques and How to Protect Against Them',
     description:
-      'Machine Learning, Data Science, Artificial Intelligence. These all big words we hear coming into our businesses lately - but what does it all really mean?! \nMicrosoft has created a set of simple and scalable tools that any developer can use and integrate into their applications super quickly!!\nThis session will focus on the various Cognitive Service offerings and show you plenty of demos on how to use them in your apps such as ASP.NET Core, SharePoint Framework and Flow.\nCome and learn how to take advantage of these awesome services for your everyday work!',
+      'Social engineering is one of the biggest threats to our organisations as attackers use manipulation techniques to coerce people into revealing secrets about our companies to allow attackers to gain access to critical systems.\n\nIn this talk we will look at some of the techniques used in social engineering and look at how to guard yourself against them. We will cover subjects like pre-texting, elicitation and body language as techniques for manipulating people.',
     level: 'Introductory and overview',
-    tags: ['cloud', 'artificial intelligence'],
+    tags: ['security', 'coreskills/softskills'],
+    lengths: ['60 minute talk'],
   },
   {
     id: 13,
-    title: 'You don’t need a bot for your organization, Do you?',
+    title: 'The UX of Community Building',
     description:
-      'Bots are exciting and they can be very helpful tools that you can use to communicate inside your organization or with your clients. They can answer frequently asked questions, create meetings with your co-workers or remind you that you need to follow up with a client.\nDuring this session we will cover how to create a bot using the Microsoft Bot Framework, what development options we have, how to add more intelligence into the bot using various Cognitive Services and then finally, how to install the bot into your environment (SharePoint Online, MS Teams, Skype for Business) and then some general tips for long-term maintenance.\nCome and join the bot revolution! Or at least join this session…',
+      'This brief talk tells the story of how a virtual collaboration  went on to co-found a new, online, skills-focussed community. When everything can be considered a ‘product’, the talk considers the experiences and challenges of the creators’ journey and how they set out a new stall for their community.',
     level: 'Introductory and overview',
-    tags: ['cloud', 'artificial intelligence'],
+    tags: ['ux', 'design', 'community'],
+    lengths: ['30 minute talk'],
   },
   {
     id: 14,
-    title: 'Hacking C#: Development for the Truly Lazy',
+    title: 'A Future Experience Landscape',
     description:
-      "I don't know about you, but I'm a lazy developer.  What do I mean by lazy?  I don't mean I don't want to do my work - far from it - I mean that I hate to write out a great deal of code to get the job done.  I want to accomplish my goals with as little effort as possible.\n\nOne of my pet hates is writing enhancements that involve copying and pasting blocks of code, changing a variable name, then leaving everything else the same.  I hate having to consider each and every possible null reference exception, and adding in a whole ton of boilerplate to handle it.  I hate having to spent ages jumping back and forth in a legacy codebase, trying to understand what it actually does!\n\nWhat's the alternative?  In this talk, I'll demonstrate a way of working that avoids all this unneccesary work, and gives you more time to do something more productive.\n\nWe'll look at:\n* Functional Programming - what benefits does this increasingly popular paradigm bring us to cut down coding effort\n* Linq & Generics - These have been a part of C# for a long time now, and are some of the most powerful features available in the language, but hardly anyone seems to be using them effectively\n* MetaProgramming - break open C# and take it to the next level with code that describes how to generate code\n\nOur goal is to write code in as few lines as possible that provides the greatest amount of impact.  We also want code that's readable, and easily maintainable.   We want to think smart, and think...Lazy.",
-    level: 'Advanced',
-    tags: [
-      'software methodology/process',
-      'functional programming',
-      '.net',
-    ],
+      'With digital tools becoming a foundation of our personal ecosystems, the level of trust and dependency people place on their software and devices is increasing exponentially.\n\nHow can the rate of change in tech and in user expectation be balanced to create digital experiences with real purpose?\n\nIn 2020, we are entering a new decade of UX. What might our user experience landscape look like in another 10 years?',
+    level: 'Introductory and overview',
+    tags: ['ux', 'design'],
+    lengths: ['30 minute talk'],
   },
   {
     id: 15,
-    title: 'Elasticsearch: Mining Metrics from Logs',
+    title: 'A tour of Azure Vision using Azure Notebooks and Python',
     description:
-      "With an increasing amount of log data from software & systems it can be hard to see the 'wood for the trees'. Big data has a risk of being overwhelming in size and harder to manipulate. Metrics offer us a chance to digest and see trends at a higher level.\n\nIn this session, we'll learn how features in Elasticsearch has helped unlock numerical insights in log data & we'll share advice on finding an efficient combination of both approaches.",
+      "There's so much built in to Azure's Vision Cognitive Services API! \n\nThis session will run you through all of the different options available to you using Azure Notebooks and Python.\n\nWe'll have a practical code based demos of everything from Face Recognition, through Object recognition to Emotion Detection and everything in between.\n\nWhen you leave you'll have a greater understanding of the possibilities for recognising the world around you.",
     level: 'Introductory and overview',
-    tags: ['devops', 'software methodology/process'],
+    tags: [
+      'machine learning',
+      'artificial intelligence',
+      'python',
+      'azure',
+    ],
+    lengths: ['60 minute talk'],
   },
   {
     id: 16,
-    title: 'Developing with .NET Core on AWS',
+    title: 'Dot NET Core 3 with Raspberry Pi',
     description:
-      'In this demonstration-heavy session, we illustrate our latest techniques, tools, and libraries for developing end-to-end applications with .NET Core. We focus on serverless applications, but the techniques are broadly relevant. We start by showing you some useful features and best practices for authoring your serverless application, including debugging locally from the IDE and in production. From there, we demonstrate some helpful tools that make it easy to set up your CI/CD workflow from the start. Finally, we deploy our application with AWS Lambda.',
-    level: 'Intermediate',
-    tags: ['cloud', 'architecture', 'devops', 'serverless'],
+      "In this talk, I take attendees through the basics of the Dot Net Framework, Dot NET Standard, Dot NET Core, what it is and it’s place in the Microsoft Ecosystem.\n\nI then explain how to install Dot NET Core on the Pi and deploy a Dot NET Core Console App.\n\nOnce the basics are covered, I move on to adding GPIO functionality to the Console app to provide some real world interaction.\n\nWe then add a connection to an Azure IoT Hub.\n\nFinally I show how to spin up a Blazor app.\n\nWhat you'll learn by attending this session;\n\nHow to get Dot NET Core 3 up and running on Raspberry Pi, Controlling electronics through GPIO with Dot NET Core 3, Azure IoT Hubs with Dot NET Core 3, Blazor with Raspberry Pi and Dot NET Core 3.\n\nWho this talk is suitable for;\n\nThis talk is suitable for anybody with basic programming experience and an interest in using their C# experience in the world of IoT",
+    level: 'Introductory and overview',
+    tags: ['iot', 'cloud', 'hardware', '.net'],
+    lengths: ['60 minute talk'],
   },
   {
     id: 17,
-    title: 'The Secret of Container Island',
+    title: 'DevOps in an IoT World',
     description:
-      'Guy Beebs Threepwood arrives on Cloudy Island wanting to be a pirate. After speaking to three old pirate captains, he discovers the only opening is as a Webmaster for Groganddash web store. The pirates set him three trials. During the perilous pirate trials Guy, Modernizes a Legacy ASP.NET 3.5 website and containerises the application, scales the site using AWS and reduces the cost and complication of running the business for the pirates. Things, however, are not simple, the audience through via a real-time voting app will decide how Guy completes the trails in an adventure that would chill the bones of even the most bloodthirsty buccaneer.',
+      "In this talk I take you through how we can integrate DevOps patterns into IoT Workflows. \n\nWe’ll begin by setting up a simple IoT Application that sends data to an Azure Web App which we deploy using Azure App Service.\n\nNext we’ll look at how we can create an Azure IoT Edge solution, publishing components to a registry and seeing how the IoT Edge process keeps itself in sync with remote code changes.\n\nWe'll then explore an open source alternative with Jenkins and Docker.\n\nWho is this session for:\n\nThis session is for beginner to intermediate developers with an interest in IoT and how to apply DevOps patterns.\n\nWhat you'll learn:\n\nYou'll leave this session with an understanding of the various options for applying DevOps patterns to IoT. This will include IoT Hubs, Web Apps, IoT Edge and Azure Devops Projects.",
     level: 'Introductory and overview',
-    tags: ['cloud'],
+    tags: ['iot', 'devops', 'cloud', 'infrastructure'],
+    lengths: ['60 minute talk'],
   },
   {
     id: 18,
-    title: 'Automating AWS Infrastructure with PowerShell',
+    title:
+      'Azure IoT Hubs from End to End with Raspberry Pi and Node.js',
     description:
-      'In this session we will present a deep dive into techniques and services to create and manage AWS cloud infrastructure. We will demonstrate using just the AWS Tools for PowerShell as well as cover approaches using PowerShell in conjunction with other AWS services and technologies such as Systems Manager, CloudFormation and Serverless approaches. Once created, we will also discuss and demonstrate options and best practices for monitoring your infrastructure.',
+      "Do you want to put your Raspberry pi to use and remotely monitor the temperature in your loft to save energy? Or perhaps send a tweet out when someone comes into your office? \n\nAnything is possible with Azure IoT Hubs, a little Node.js, a Raspberry Pi and a few electronic components.\n\nUsing a Raspberry Pi and a really basic circuit containing a switch, some LEDs and a Temperature / Humidity Sensor, and Node.js… \n\nWe’ll go about connecting the whole thing to an Azure IoT Hub and getting Messaging working between the two!\n\nAfter attending this session you'll understand;\n\nBasic Electronics with Raspberry Pi, Azure IoT Hubs, Message Routing, Device to Cloud / Cloud to Device Messages, Service Bus and Azure Logic Apps.\n\nWho this talk is suitable for;\n\nThis talk is suitable for anybody with basic programming experience and an interest in making a fully functional IoT Solution.",
     level: 'Introductory and overview',
-    tags: ['devops'],
+    tags: ['iot', 'hardware', 'cloud', 'azure', 'javascript'],
+    lengths: ['60 minute talk'],
   },
   {
     id: 19,
-    title: 'Embrace the pitfalls (Our stop start journey to Change)',
+    title: 'GitHub, Azure DevOps, so much confusion… or maybe not?',
     description:
-      "As developers we want to work in a modern way, to get fast feedback on what we are building to make sure that we are building the right things in the right way. \n\nHowever, many companies are still at the start of their journey. Things take longer than we would like to get moving, sometimes change can seem to happen at glacial pace and whilst you are ready to try and run, others are finding their feet - or even digging in their heels! \n\nIn this talk I will go over some of the pitfalls that have happened to me, and the lessons that I have learned from them. What I don't really have are magic solutions to make the problems go away, but hopefully you can look at the mistakes I made and go away to make your own new ones to learn from!",
+      'We live in a fast-paced industry. Today we get a brilliant new feature for Azure DevOps, the day after a new GitHub Actions enhancement comes out. Why two platforms? What’s the need?\n\nIs it confusing? Perhaps – I was in a situation where I had to deal with both, let’s try to shed some light on how to get the best of these two!',
     level: 'Introductory and overview',
-    tags: ['softskills/workskills', 'software methodology/process'],
+    tags: [
+      'devops',
+      'change management',
+      'cross discipline',
+      'testing',
+      'software methodology/process',
+      'devsecops',
+      'azure',
+    ],
+    lengths: ['60 minute talk'],
   },
   {
     id: 20,
-    title: 'Who Will Test The Tests?',
+    title:
+      'How to make security pervasive without falling into the DevSecOps trap',
     description:
-      "Do you lack confidence in your tests? Maybe you practice test driven development rigorously but still feel there's something missing?\n\nI know I felt this way, which was why I was intrigued to hear about mutation testing. It's a powerful, yet under-utilised technique that highlights gaps in your testing that code coverage cannot.\n\nJoin me to hear how mutation testing has increased quality across different code-bases and teams. We'll cover the details of how it works under the hood as well as practical tips to get the most out of your mutants.\n\nBy the end I hope that you'll be inspired and ready to give mutation testing a try in your own projects.",
+      'It’s all about labels these days – AI, Containers, DevSecOps. Many people claim to ‘do it’, very few *actually* do.\n\nTake DevSecOps: on face value it’s about adding Security practices to DevOps. But how do you measure the value derived from it? And also – how do you make sure you are not disrupting your team in the process?\n\nIn this session Matteo Emili (Azure DevOps MVP) will show why you don’t need a label to add these practices, and how to introduce sustainable solutions to implement in your build and release pipelines in order to achieve a higher security standard across your projects without hampering your teams.',
     level: 'Intermediate',
-    tags: ['demo', 'software methodology/process', 'testing'],
+    tags: [
+      'security',
+      'devsecops',
+      'secops',
+      'cloud',
+      'software methodology/process',
+      'automated testing',
+      'devops',
+      'operations',
+      'cross discipline',
+    ],
+    lengths: ['60 minute talk'],
   },
   {
     id: 21,
-    title:
-      'Bounded rationality, complex Systems and Agile principles',
+    title: 'Let’s move to pipelines as code, it’s about time!',
     description:
-      'Human beings make quite reasonably decisions, but only based on the information they have." This is the concept of bounded rationality, as defined by Nobel prize Herbert Simon. If we look at Agile principles and practices from a systemic perspective, they focus on maximize rationality boundaries related to the product we are building. However, the whole organization and its teams are interacting complex systems which follow the very same principles of Systems Theory. Bounded rationality plays a subtle but fundamental role in every System, beyond just development teams. In this talk I will try to explain how Systems Theory can help organizations and why motivation is the key of success in complex Systems made by human beings.',
+      'We started with CI, then we introduced Configuration Management, evolved towards Infrastructure as Code – but we still lag behind on pipelines, we are too reliant on the tools we use and we don’t really apply the best practices of the industry.\n\nIs it difficult to move to Pipelines as Code? What should I do to start the journey? If I am already there, what can I do to make it scale at an organisational level?\n\nThese questions (and many more!) will find answers in this session, shedding light on how and why we should move to Pipelines as Code and the benefits that come out of this migration.',
     level: 'Intermediate',
-    tags: ['systems thinking', 'teamwork'],
+    tags: ['devsecops', 'cloud', 'devops'],
+    lengths: ['60 minute talk'],
   },
   {
     id: 22,
-    title: 'Making a noise with F#',
+    title:
+      'Automations and a touch of DevOps for a fully resilient IaaS cloud estate',
     description:
-      'Interest in functional languages, including F#, is growing, but there are still many impediments to its wider adoption. One problem is the (wrong) perception that F# is language for financial applications.\n\nIn this talk I will attempt to dispel that myth, and show that F# is a true general purpose language. I will show how F# can be used to create a simple audio synthesis application, and how the functional approach (single assignment, immutable data, recursion) provides a great way to model the audio domain.',
+      "Nothing wrong with running IaaS workloads in the cloud - but just don't use it as someone else's datacentre!\n\nThere are a number of techniques we can apply to keep costs under control and get most of the benefits of the public cloud while still running your own virtual machines. Let's take a look at a real world scenario where all of these were applied with great success.",
     level: 'Intermediate',
-    tags: ['demo', 'functional programming', 'audio'],
+    tags: [
+      'cloud',
+      'software methodology/process',
+      'devops',
+      'operations',
+      'change management',
+    ],
+    lengths: ['60 minute talk'],
   },
   {
     id: 23,
-    title:
-      'GraphQL and Dapper : The quick route to flexible and efficient mobile APIs',
+    title: 'Transforming the impossible - a successful Lean story',
     description:
-      'GraphQL is alternative to REST for providing powerful, flexible, bandwidth-efficient web APIs. It was originally developed by Facebook, but is now an open standard.\n\nDapper is a lightweight Object/Relational Mapping library for the .NET platform. It combines speed and efficiency with access to native SQL.\n\nIn this talk I will discuss the concepts behind GraphQL, and why you should consider it if you need an efficient, accessible API for you project. I will demonstrate how to design a simple GraphQL API, and how to use the graphql-dotnet and Dapper.GraphQL open-source libraries to implement this API for an existing application database.',
-    level: 'Introductory and overview',
-    tags: ['mobile', 'design', 'demo'],
+      'A short story on a real world case of Agile transformation, where waterfall and command-and-control were not only used but also loved. Now they also love Lean, probably even more than before.\n\nTo get there I embarked on a long and tortuous journey, with eventually a positive result. It was unpredictable, difficult, but we got there in the end. \n\nThis session looks at the learnings from that experience, and how to re-use them in everyday situations.',
+    level: 'Intermediate',
+    tags: [
+      'coreskills/softskills',
+      'software methodology/process',
+      'management',
+      'leadership',
+      'change management',
+    ],
+    lengths: ['60 minute talk'],
   },
   {
     id: 24,
-    title: 'The Analytical Engine',
+    title: 'Startuplife',
     description:
-      'Charles Babbage was a true polymath and the pioneer in the discipline of mechanical (as opposed to human) computing. His Difference Engine could automatically generate error-free mathematical tables, but his greatest achievement would have been the Analytical Engine, possibly the first programmable computing device ever designed.\n\nThis talk will explain the structure of the Analytical Engine, highlight some of the design features that made the machine so innovative, and show how we can start to simulate this ground-breaking machine.',
+      "So you are thinking of working for a startup.  Nervous about paying the rent/mortgage?  Wondering who works at startups?\n\nIf you are thinking of making the move, what should you be looking for?  Are there fringe benefits on offer like share options, pensions, health benefits, free meals and where should you rank them?  Oh, and what craziness might you have to put up with?\n\nBased on the real world experience of working in four different startups, you'll get an idea of the different funding models, how that changes the pressures on the business, and what makes for a happy atmosphere in which to work.\n\nAlthough working at startups can be infuriating at times, it can also be fun and a great way of learning new skills and responsibilities much faster than at MegaCorp plc.\n\n'And they all go\nFlat white in hand\nFlat white in hand through their\nStartuplife'\n(c) Blur-ish",
     level: 'Introductory and overview',
-    tags: ['hardware', 'architecture', 'design', 'demo', 'history'],
+    tags: [
+      'software methodology/process',
+      'management',
+      'operations',
+    ],
+    lengths: ['60 minute talk'],
   },
   {
     id: 25,
-    title: 'The Monolith of Microservices',
+    title:
+      'Getting Started with Unity and AR/VR for the .NET Developer',
     description:
-      'Microservices are an interesting architectural style, they provide scalability and flexibility in how we deliver software. Yet, there are plenty of monolithic applications out there. \n\nThe microservice architecture emerged out of the pains of the monolith, tightly coupled code, inflexibility of deployments, etc. Yet they can come with their own issues, their own problems from monitoring to versioning to discovery. \n\nI will propose that we can get many of the benefits by building a monolith of microservices. How this can benefit the speed of development, or just be a way-point from a monolithic to microservice architecture.',
-    level: 'Intermediate',
-    tags: ['architecture'],
+      "We all see the cool demos of how augmented and virtual reality are going to be the future of our interaction with devices, but it often feels like there’s a significant barrier to getting started in building these types of apps.\n\nThis session is here to help. If you’ve ever thought about developing for Oculus Rift S, HTC VIVE or the Windows Mixed Reality headsets, but haven’t known where to start, this is the session for you.\n\nAt DDD, I will present what I learned building a small game, set in a mysterious dungeon using Unity and the SteamVR plugin. We'll explore how to import assets from the Unity store, how to implement locomotion techniques and interactions using the motion/touch controllers, including some tips for optimising performance and avoid motion sickness.\n\nCome along, there’ll be .NET code, demos and we’ll have some fun looking at how you can get started on your first VR/AR project.",
+    level: 'Introductory and overview',
+    tags: ['ar/vr', '.net'],
+    lengths: ['60 minute talk'],
   },
   {
     id: 26,
-    title: 'Reasonable Code',
+    title: 'Management is Not a Dirty Word',
     description:
-      'In a reasonable a system (i.e. a system that helps me to understand it, to reason about it) I should be able to understand how to make a change without holding the entire system in my head. I should be able to reason where the change needs to be made and reason about the impact it will have.\n\nI want to explore what reasonable means to me, from the processes of the team all the way down to an individual block of code. Along the way, we will encounter existing frameworks, tools, and patterns that our community has developed over the years to help us to reason about our code and processes; I feel that they have often been misused and end up creating the opposite effect, adding unnecessary complexity to how we work.',
-    level: 'Intermediate',
-    tags: ['software methodology/process'],
+      'In the modern days of Agile Development our goal is to have empowered self organising teams. Is the role of the humble Dev Manager as archaic as Windows 3.1?\n\nIn this talk I’ll look at what a modern day development manager actually does and why you may want to become one.',
+    level: 'Introductory and overview',
+    tags: [
+      'management',
+      'leadership',
+      'coreskills/softskills',
+      'software methodology/process',
+    ],
+    lengths: ['30 minute talk'],
   },
   {
     id: 27,
-    title: 'An Introduction to CQRS and Event Sourcing Patterns',
+    title: 'A Geek’s Guide to People',
     description:
-      'Within the DDD domain there is often much discussion about the advantages these patterns bring and how they can be used in conjunction with each other. However, there is not always great guidance on how to implement these patterns in a real world project.\n\nIn this talk I’ll take you through some of the fundementals of these patterns and show you a “first working solution” that you can use as guidance for building your own CQRS/ES based application.',
+      'People are, without doubt the most important component of any great software engineering team. But many of us look at people skills as something reserved for the extroverts. In this talk I’ll dismiss this idea, talk amateur psychology, and give you some tools to understand the operating system which we’re all running behind the scenes.',
     level: 'Introductory and overview',
-    tags: ['architecture', 'design'],
+    tags: ['coreskills/softskills', 'leadership'],
+    lengths: ['60 minute talk'],
   },
   {
     id: 28,
-    title: 'Building Successful Event Sourced Applications',
-    description:
-      'In recent years there has been a rise in the popularity of Event Sourcing as a way to persist your applications data. It brings with it many benefits such as:\n\n- Powerful audit logs.\n- The ability to combine it with CQRS to create an architecture performant in both reads and writes.\n- Works will with Domain Driven Design to help drive your application design.\n\nHowever, it won’t be long until the problems some start coming:\n\n- Where to persist the events?\n- How to guarantee consistency?\n- What about managing events in production?\n- What happens when we want to implement a new feature or changing an existing one?\n- How do we deal with eventual consistency?\n\nIn this session I will talk about what Event Sourcing is and go in to detail about how you can deal with the problems you will encountered as you start to use it. All with the aim that at the end of this talk you will be able to go forward and build your own successful Event Sourced application.',
-    level: 'Intermediate',
-    tags: ['architecture', 'design'],
-  },
-  {
-    id: 29,
-    title: 'Creating a Maintainable Codebase',
-    description:
-      'As software developer it’s not uncommon to start a new job to find the team is currently in the process of rewriting part or the whole of the application. Usually because the current codebase has become unmaintainable for a number of reasons:\n\n- Maybe the team relied too heavily upon frameworks and libraries to structure their codebase.\n- The code adhered to the DRY principle to strictly introducing strong coupling.\n- Poorly structured code where business logic spreads into multiple layers.\n- Simple architecture for a complex problem.\n- It’s become too monolithic and difficult to change.\n\nIn this talk I want to discuss a number of techniques that can help you avoid this constant cycle of rewriting the codebase. About how structuring the code so your business logic is contained. When and when not to conform to the DRY principle. Avoiding the temptation to rely on large frameworks and abandoning three tiered architectures. \n\nWe’ll also discuss how Domain Driven Design and micro services, and how they can be used in conjunction to break your application down into more maintainable modules.',
-    level: 'Introductory and overview',
-    tags: [],
-  },
-  {
-    id: 30,
-    title:
-      'Who broke the build? — Using Docker to improve local testing and release faster',
-    description:
-      'No one wants to be responsible for breaking the build. But what can you do as a developer to avoid being the bad guy? How can project leads enable their teams to reduce the occurrence of broken builds?\n\n\nIn talking within our own teams, we discovered that many developers weren’t running sufficient integration tests in their local environments because it’s too difficult to set up and administer test environments in an efficient way. \n\n\n\nThat’s why at Appfire, we decided to rethink our entire local testing process in hopes of finding a more streamlined approach that would cut down on the headaches, heartaches, and valuable time wasted. Enter Docker. In Docker, we found a solution that empowers our developers to easily configure a development environment locally that accurately matches the final test environment — with minimal investment and without needing to become an expert CI (Jenkins) admin themselves. The result is that our developers are running more tests, more often, in a way that’s more consistent with our CI (Jenkins) environment. \n\n\n\nIn this session, we’ll share a quick history of our testing challenges and what led us to Docker, why this new approach has helped us perform better local integration testing, and how we utilize Docker for more streamlined testing and fewer broken builds.\n\n\n\nThese days, we hear, “Who broke the build?” far less often — and you can too!\n\n\n\n\n\nIn this session, we’ll discuss how we use Docker to achieve more streamlined testing and fewer broken builds. We’ll cover:\n\n\n\nA quick history of our testing challenges and what led us to Docker\n\nThe benefits of our new testing approach — easy to configure and minimal investment\n\nOur experiences running over 50 docker production and testing docker images\n\nSession Key Takeaways:\n\n\n\nWhen and why we decided to rethink our local testing practices and our subsequent discovery of Docker.\n\nWhy Docker has been the perfect tool for our developers to perform better local integration testing without the burden of becoming their own CI administrators.\n\nA detailed account of how we utilize Docker  to set up development environments locally that match our final test environment in order to reduce unnecessary commits and minimize CI build breaks.',
-    level: 'Advanced',
-    tags: ['devops', 'architecture', 'software methodology/process'],
-  },
-  {
-    id: 31,
-    title:
-      'Fasten your Seatbelts ! Deployment Automation using Dockers and Ansible',
-    description:
-      "Early 2015, We at CallidusCloud (Now a SAP company) were building a Single sign-on (SSO) solution to vast majority of our customers from scratch. Our previous datacenter deployments used to take roughly 3~4 hours(scripts+manual) on a maintenance window over the weekend.\n\nOur main idea was to build robust infrastructure which includes High availability (HA) , comprehensive monitoring  solution and completely automate the production deployments and if needed we can deploy to production on daily basis. Secondly, to build a local development environment same as our HA production environment so as to debug production issues on our local DEV environment with ease.We were evaluating different tools...Dockers and Ansible came to our rescue.We started packaging all our software as RPMS , CI (Jenkins) pushing them to Artifactory and using Ansible playbooks to deploy these RPMS/code on docker containers (built using docker files) on DEV environment. Further, we enhanced our DEV setup using Single Click automation and it would setup full stack from scratch on docker containers using Ansible playbooks.\n\nPost using dockers and Ansible , Our Production deployments were completely automated, deterministic and takes less than 20mins compared to 4 hours earlier.\n\nSession Outline :\n\nIn this session, We’ll cover:\n\n* A quick history of our deployment challenges and what led us to Docker.\n* The benefits of our new deterministic deployment approach — easy to Setup and minimal investment\n* Detailed account of monitoring of our  infrastructure using Sensu\n* How we combine Docker, Ansible and the Jfrog's Artifactory for more streamlined continuous integration and deployment",
-    level: 'Intermediate',
-    tags: ['devops', 'cloud', 'architecture', 'design'],
-  },
-  {
-    id: 32,
-    title: 'Saving the World with IoT',
-    description:
-      "TL;DR Watch the presentation, go home and in 10 minutes build your IoT solution\nYou don't have to be a super hero, to make a difference to our planet. Just a bit of programming skills will suffice. We can't imagine our lives without electricity. We use it to have light and heat, keep our food fresh, we work with computers, use mobile phones, and don't forget entertainment! We need electricity for driving cars, even more now with EVs. Electricity is generated mostly with fossil fuels, we can use nuclear power and hope that nobody makes a mistake and people do make mistakes. That's why we build wind farms, solar panels, hydro power plants, but we can't force them to generate electricity when we want. They are not aware of world cup finals. So how can we make sure, we use green power more? We need to store electricity when they can generate it, and use when they produce less, but storing electricity is hard. We have to change the way we consume energy, but it has to be automatic, so people wouldn't even know. That's what we do at OVO Energy, using IoT devices to change the power usage patterns, create virtual power plant, which can be used when the demand exceeds supply. I will show you how we use Azure IoT Hub to do that, you don't have to be C or C++ developer to work with IoT.",
-    level: 'Introductory and overview',
-    tags: ['iot', 'cloud', 'energy'],
-  },
-  {
-    id: 33,
-    title:
-      'Solving microservices challenges on the Kubernetes platform',
-    description:
-      'Developing microservices based applications is a hot trend in our industry.\n However the journey to microservices is fraught with problems, by trying to solve one problem we often introduce a set of new ones.\n\nThis talk introduces a "journey" to microservices and highlights some new problems that are created by adopting such an architecture.\n\nWe then step through how we can leverage cloud native technologies such as Kubernetes and service meshes such as Istio to try and address some of these new problems.\n\nThis talk along with demos will cover many topics in an area which is rapidly evolving however we\'ll try and focus on the fundamental problems, and demonstrate tools that can help make the experience better or simply easier to manage. \n\nAttendees will learn:\nWhy microservices introduce many new challenges.\nHow cloud native technologies (such as Kubernetes, Azure Dev Spaces, Istio) can try and help address these challenges.\nSome general guidance on microservices architecture.\n\n\nSome knowledge of microservices, containers and Kubernetes is useful but not essential we\'ll cover the basic topics',
-    level: 'Introductory and overview',
-    tags: ['devops', 'cloud', 'architecture', 'cloud native'],
-  },
-  {
-    id: 34,
-    title:
-      "PDR's - How to progress your career, get a pay rise and push the business forward",
-    description:
-      "Personal Development Reports (PDR's) should not be seen as a low priority task done at the last minute. PDR's are a platform to showcase your successes highlight the issues, and a way for any business to learn from there staff and make the changes required.\n\nMy talk goes through the importance of a good PDR, what it should include and practical ways to capture the data required to make it easy to assemble (even if you do leave it till the night before!)",
-    level: 'Introductory and overview',
-    tags: [
-      'softskills/workskills',
-      'management',
-      'personal development',
-    ],
-  },
-  {
-    id: 35,
-    title:
-      'Azure In Action - CosmosDB, Functions and ServiceBus in Perfect Harmony',
-    description:
-      "There's so many parts to Azure, it's sometimes hard to decide what to use and when.\n\nDo I use TableStore or CosmosDB? Would BlobStore be better? Should I host a full-fat .Net service in a VM, or stand up an ASP.Net Core WebApi? What about functions? The choices are myriad.\n\nIn this talk I'll describe how at Landmark we made these kind of decisions as we implemented some new features in our product. I'll talk about the questions you need to ask to make those decisions, where we went wrong, and how we succeeded in the end.\n\nI'll describe in detail how we used CosmosDB, Azure Functions and Service Bus together to provide a Compliance Audit trail feature that would scale properly, work reliably, be trivial to use, and that wouldn't break the bank.",
-    level: 'Intermediate',
-    tags: ['cloud'],
-  },
-  {
-    id: 36,
-    title:
-      'Building your first dashboard with Azure PowerBI Embedded',
-    description:
-      "Users love dashboards… Dashboards give them that warm fuzzy feeling that they can see into your software and watch it working perfectly… And dashboards give you the same insight into what's actually going on.\n\nMicrosoft's new Azure PowerBI Embedded product lets you capture data, analyse it and present it on dashboards that live within your application.\n\nIn this session, I'll take an existing instrumented application, pipe the data into Azure and demonstrate just how easy it is to create a rich dashboard to monitor the application.",
-    level: 'Introductory and overview',
-    tags: [],
-  },
-  {
-    id: 37,
     title:
       "TPL Dataflow - The Best Little Async Library You've Never Heard Of",
     description:
       "From the docs:\n\n> The Task Parallel Library (TPL) provides dataflow components to help increase the robustness of concurrency-enabled applications. \n\nWhat it actually does is give you the tools to create in-process async pipelines in a simple, structured manner.\n\nAnd I'm betting that like me (until recently), this is a library you'll never even have heard of.\n\nI'll cover the basics - Sources, Targets and Blocks - and how to link them together into useful **asynchronous** and **parallel** pipelines within your programs. We'll handle error conditions, cancellation and how to control the degree of parallelism - with samples that give you a bit more than \"Hello World\".",
     level: 'Intermediate',
-    tags: [],
+    tags: ['.net'],
+    lengths: ['60 minute talk'],
+  },
+  {
+    id: 29,
+    title: 'When I Decided to Write A Technical Book',
+    description:
+      'To her credit when I told my wife that I wanted to write a technical book she only rolled her eyes slightly.\n\n“Why?” She asked.\n“I think it’d be fun!” I replied.\n\nAround 18 months later I published my book on LeanPub and have (so far) attracted a whopping 4 readers. I’m extremely pleased, I put Code Black together because I wanted to invest the time to develop my knowledge of DevOps and because I knew I’d enjoy the process (I was naive, I hadn’t started proofreading yet).\n\nIn this short talk I’ll share my experiences and tell you about how I went about going from idea to book and will try to give advice to anyone who is interested in doing the same.',
+    level: 'Introductory and overview',
+    tags: ['leadership', 'documentation'],
+    lengths: ['30 minute talk'],
+  },
+  {
+    id: 30,
+    title: 'Just what is DevOps Anyway?',
+    description:
+      'Many organisations still struggle to grasp what DevOps is, the benefits it provides or even where to get started. \n\nIn this talk, we set a definition for DevOps that can apply to every kind, shape and size of organisation along with describing the benefits, the three ways of DevOps, the four types of work and the five ideals. We also talk about starting points and how to not lose momentum, touch on anti-patterns and how to avoid them.',
+    level: 'Introductory and overview',
+    tags: [
+      'devsecops',
+      'software methodology/process',
+      'leadership',
+      'management',
+      'coreskills/softskills',
+    ],
+    lengths: ['60 minute talk'],
+  },
+  {
+    id: 31,
+    title: 'Building event driven system with Kafka',
+    description:
+      "You likely don't need Kafka. Yes, you've read that right. If your application performs without problems and you don't expect high increase in load, there is no need to look for different tools or architecture. But after 2 years of using Kafka on production, I'm still amazed by it. If you like to learn how certain tools work, we will do exactly that. I will walk you through building producers and consumers, partitioning and replication. We will have a look at retention of data and log compaction. By the end of the session you will understand principles behind Kafka and when it's a perfect tool for the job. And even if you decide to not use it, it will be based on your knowledge.",
+    level: 'Introductory and overview',
+    tags: ['architecture'],
+    lengths: ['60 minute talk'],
+  },
+  {
+    id: 32,
+    title: 'Saving the World with IoT',
+    description:
+      "Do you need to be a C/C++ developer to work with IoT?\n\nDo you need to have a bunch of IoT devices before you can get started?\n\nThe answer to those questions is no, this talk will show how you can get started building IoT solutions in minutes, with nothing more than a browser and a development environment using your favourite language like C#.\nBased on our work at Kaluza (OVO Group) where we control devices such as storage heaters, heat pumps, smart chargers for electric vehicles, integrate with renewable power generators, I will show you how you can build your own IoT system.\n\nWhat will the audience learn?\n\nWith a combination of live demos and real devices the audience will learn:\n\n    - How to create an Azure IoT Hub\n    - How to use IoT Hub toolkit for simulating devices and monitoring messages\n    - We will build end to end example including devices and a service controlling our system\n\nPre-requisites\n\nNo prior knowledge of IoT is required, I will show code samples in C#\n\nWhy should I care about IoT?\n\nYou don't have to be a super hero, to make a difference to our planet. Just a bit of programming skills will suffice.\n\nWe can't imagine our lives without electricity. Unfortunately it is generated mostly with fossil fuels and it's not good for our planet. That's why we build wind farms, solar panels, hydro power plants, but we can't force them to generate electricity when we want. We have to either use green electricity when it's available or store it. Both tasks are not easy, but with help from technology it's possible.\n\nWe can use IoT devices to change the power usage patterns, create virtual power plant, which can be used when the demand exceeds supply. This is exactly what we created over last couple years, controlling heat and car chargers using IoT. We integrated with a hydropower plant on Mull and a wind turbine on Orkney.\n\nI will show you how we use Azure IoT Hub to do that. With simple demos and easy to follow examples you will hopefully leave the presentation inspired to try it at home.",
+    level: 'Introductory and overview',
+    tags: ['iot'],
+    lengths: ['60 minute talk'],
+  },
+  {
+    id: 33,
+    title: 'Design for Developers',
+    description:
+      'Have you ever found yourself not only having to build the product, but in the absence of an actual designer, you’re the one who ends up having to design it too? Ever wondered how you gain the magical design dust to transform that ugly screen into a beautiful interface?\n\nPeople have often told me they’d never be able to do design, as it’s too subjective and a completely different mindset to coding. Well I’m here to tell you that UI design isn’t as complex as it looks when you’ve got the right tools to hand.\n\nIn this talk, I will help you understand some of the main design principles that you can apply across UI design. Including – Typography, Emphasis, Hierarchy, Layout, Spacing, Size, Depth and Colour.\n\nWe’ll be discussing these principles and through visual demonstrations show just how you can implement them across typical features such as forms, cards, dashboards and other interface elements . There may even be some *live designing* to help demonstrate.\n\nWhether you’re the ‘dev-signer’ or you’re just somebody who would like to learn some fundamental design skills to widen your knowledge – you should then leave feeling well equipped with new design skills to apply day to day!',
+    level: 'Intermediate',
+    tags: [
+      'design',
+      'ui',
+      'ux',
+      'cross discipline',
+      'software methodology/process',
+    ],
+    lengths: ['30 minute talk', '60 minute talk'],
+  },
+  {
+    id: 34,
+    title:
+      'A threat modeling paradigm to achieving security by design',
+    description:
+      'We have seen great advances in software development over the past few years. Our perception of software development has shifted for good. We now think about the quality and performance of our software from the ground up. But what about security?\n\nIRM statistics for 2019 reports that 7 out of 10 businesses are not ready for a cyber attack. What about detection? A blog that came out in the cyber defence magazine in 2019 puts it this way, “in most cases, it takes half a year to detect a breach”. The obvious question is why. An article by Adam Levin in “inc.com” titled “How Can 73 Percent of Companies Not Be Prepared for Hackers?” sheds some light. Adam highlight’s the fact that cybersecurity is a complex, continually evolving challenge. Robert Ackerman blogs about another issue in his blog titled “Too few cybersecurity professionals is a gigantic problem for 2019”. Robert points to a study by (ISC)2 in his article that highlights a gap of almost 3 million cybersecurity jobs globally. Let us supplement that with wise words from an article by Aaron Tan titled “Security remains an afterthought in DevOps”. Aaron pointed to a CyberArk finding that 94% of organisations had adopted DevOps, but only 28% had fully integrated security teams and processes throughout the application development process. The article also quotes the global security director for CyberArk, Jody Hunt  “Security is an afterthought or is actively avoided because it is perceived as a drag on innovation”. At this point it seems like there are far too many constraints to delivering a secure product faced with the facts. So am I saying that, this is a losing battle?\n\nAu contraire I want to invite you to a shift in direction and thinking. Let me introduce you to a world of security by design. One that ensures that we build secure software from the ground up. To be more specific, a world of threat modeling. A realm where everyone regardless of their role has a part to play.\n\n‘What is threat modeling and how does it result in a more secure software?’, you may ask. Stay tuned, for this is a journey I want to take you on. A workshop and an application level dive in for both the expert and novice alike into how you could put threat modeling into practice, visualise how it helps deliver more secure software and understand how it fits into your existing agile practices.',
+    level: 'Introductory and overview',
+    tags: [
+      'security',
+      'software methodology/process',
+      'cross discipline',
+      'design',
+      'testing',
+      'devops',
+      'devsecops',
+    ],
+    lengths: ['60 minute talk'],
+  },
+  {
+    id: 35,
+    title: 'Using cats to purfect your software architecture',
+    description:
+      'What have cats got to tell us about Software Architecture?  Well, most people are roughly familiar with cats, their boundaries and their input/output mechanisms.   It turns out it’s very easy to see when a use case has gone wrong when using a cat.  We’ll take a look at some typical cat use cases and see what lessons we can take back software architecture.\n\nJoin me for an irreverent look at Coupling and Cohesion, Aggregate Roots and the Point of Highest Abstraction … all using the medium of cats.',
+    level: 'Introductory and overview',
+    tags: ['architecture', 'fun'],
+    lengths: ['30 minute talk'],
+  },
+  {
+    id: 36,
+    title: 'A Day In The Life of A Data Scientist',
+    description:
+      "In this hour long session I'll walk you through a typical day in the life of a data scientist (me). We'll look at a real world question and how I go about working out the answer.",
+    level: 'Intermediate',
+    tags: ['machine learning', 'artificial intelligence'],
+    lengths: ['60 minute talk'],
+  },
+  {
+    id: 37,
+    title: 'HOW TO HACK AN ELECTION',
+    description:
+      "Think your democracy is safe? Better think again. In this session I'll demonstrate the techniques that the 'black hat data scientists' use to get the result they want from any election or referenda. In this entertaining talk, I'll demonstrate techniques, both at the macro level - how to attack an election systemically - and at the micro level - how I can manipulate individuals to do exactly as I want them to do.",
+    level: 'Advanced',
+    tags: ['machine learning', 'artificial intelligence'],
+    lengths: ['60 minute talk'],
   },
   {
     id: 38,
-    title: "You're the Tech Lead - *you* fix it!",
+    title: 'Decision Making in the Face of Uncertainty',
     description:
-      "Over the last couple of years, I've presented 20 tricks and tips that I've found invaluable as a Tech Lead. But in this session, I want to turn things around and look at applying some of those to solving specific issues that are common within many software development teams.",
-    level: 'Introductory and overview',
-    tags: ['management', 'softskills/workskills'],
+      'Decision making in the face of uncertainty is one of the hardest things to do. In this session, we\'ll borrow methods from machine learning, statistics, trading and computer science to compose a methodology which will allow you to make the best decision possible given the evidence you have to hand, and to also hedge against you being wrong. Whether you\'re a "techie" or a "civilian" everyone can benefit from learning this important methodology',
+    level: 'Advanced',
+    tags: ['machine learning', 'artificial intelligence'],
+    lengths: ['60 minute talk'],
   },
   {
     id: 39,
-    title:
-      'Solving the Travelling Surveyor problem in .Net using Google OR Tools',
+    title: 'In Retrospect - Making Retros Great Again',
     description:
-      "The \"Travelling Salesman\" problem is a computational classic - but firmly grounded in the real world.\n\nIn this session I'll discuss how at Landmark we used Google's Open-Source Optimisation & Routing (OR) Tools to generate recommended routes for hundreds of surveyors and thousands of jobs on a daily basis for one of the largest firms in the country.\n\nWe'll cover the basics of the problem, and some of the classic approaches before moving on to how to use the tools Google OR Tools library. We'll look at some pitfalls and limitations - as well as how we created a fluent API for describing general case routing problems to pass to the Google OR Tools library.",
-    level: 'Intermediate',
-    tags: [],
+      "Many of us are used to working in Agile teams. But as time goes on, do you feel like retrospectives have become boring, uninspiring and less effective? Does it seem like the team are just going through the motions, but the process is failing you? Let's start from the ground up and fix this for good.\n\nThis interactive session will take a look into the surprising cross-disciplinary history behind retrospectives, leaving you with a deep understanding of why we perform them and how feedback is the \"engine\" of Agile development. You'll learn how to engage your team in fun retrospectives and you'll leave with a renewed sense of focus to make Agile work for your team.",
+    level: 'Introductory and overview',
+    tags: [
+      'coreskills/softskills',
+      'software methodology/process',
+      'leadership',
+    ],
+    lengths: ['60 minute talk'],
   },
   {
     id: 40,
-    title: 'Level up your tests with Postman',
+    title: 'Open Policy Agent for Developers',
     description:
-      "While some UI testing will always be needed to verify that elements appear on a page and can be interacted with, API tests are much faster and more reliable than UI-based tests and can offer quicker feedback. \n\nBy pushing tests further down the stack you can gain more confidence in the software you are trying to develop and release, and shorten the feedback loops in order to adapt to change when things don't go quite to plan.\n\nJoin me in this session to learn how to get started testing APIs using Postman. Whether your totally new to Postman or API testing or you've done a little, in this session I will share how to get started as well as various hints and tips to start to hopefully help you find bugs earlier in the development process, often before the UI has been created. \n\nTakeaways:\n* Learn what API testing is and why you should care\n* Discover what Postman is and how to get started testing APIs with it\n* Learn some tips and tricks to take your Postman API testing to the next level",
+      'The Open Policy Agent (OPA) is a popular open-source tool that enables policy enforcement across the entire technical stack. Supported by the Cloud Native Computing Foundation (CNCF) is commonly used within Kubernetes but developers can use it to implement policy decisions in their applications, or in external tools. Any type of application can be secured: a small microservice offering an API as well as an LDAP or SSH server. This can greatly simplify the development effort and standardize the approach to policy enforcement in a company. In this talk, we will deep dive on OPA architecture and its implementation. We will look at the best practices and the most common drawbacks. Core of the talk will be a practical demo on how to implement OPA with a sample application.',
     level: 'Introductory and overview',
-    tags: ['software methodology/process', 'api', 'testing'],
+    tags: ['cloud', 'security'],
+    lengths: ['60 minute talk'],
   },
   {
     id: 41,
-    title: "Better the 'DevTool' you know",
+    title: 'Service Mesh for Security Engineers & Governance',
     description:
-      'Despite its name, DevTools isn’t just a tool for developers.\n\nDevTools contains many tools which can help you in your day to day development and testing of web applications. Whether you want to know how to put client validation to the test, gain a better understanding of how to identify, and debug errors, check CSS/JS code coverage or just simply run audits on your web applications, then this session is for you.\n\nPerhaps you’ve heard about DevTools but have never used it? Maybe you’ve used one or two of the tools within a few of the panels but don’t fully understand how some of the tools could help you. Throughout this session I will highlight a handful of useful tools that are available.',
-    level: 'Introductory and overview',
-    tags: [
-      'software methodology/process',
-      'ui',
-      'testing',
-      'tooling',
-    ],
+      'We’ve often heard the word: “service mesh” and the benefits in it for developers: observability, reliability, canary deployments. But what’s in it for Security engineers ? In this talk we’ll dive deep on the benefits of service meshes for security and governance. We’ll look at things such as encryption, public key infrastructure, authentication and authorization, egress policies, smart firewall rules, certificate management, workload identification, organization policies. We will deep dive on what are the best practices and the most common enterprise requirements. There will also be a practical demo on how to implement these controls with Istio, the most popular service mesh in the industry.',
+    level: 'Advanced',
+    tags: ['security', 'devsecops', 'observability'],
+    lengths: ['30 minute talk'],
   },
   {
     id: 42,
-    title: 'Teaching an old dog new tricks',
+    title: 'Whose fault is this ?',
     description:
-      'In this session, we will get down and dirty with clean code. Expanding on Uncle Bob’s teachings this session will give you practical hints and tips to help you practice clean code. We will cover what clean code is, why you should be writing it and how to write it. If you’ve been a victim of “wtf code”, or even guilty of writing it yourself, then this is a must attend talk for you.\n\nThis talk came about after attending Clean code course with Uncle Bob. So not Umbraco related but relates to Umbraco because in Umbraco we write code. Too often we make a mess accrue technical debt and just make life difficult for ourselves. The talk covers some basics things we can all implement to give us a more stable and maintainable code base.\n\nDisclaimer: there may be swearing!',
-    level: 'Intermediate',
-    tags: ['software methodology/process'],
+      'How many times have you looked at some source code and said: “Who did this?”. Managers have asked themselves the same question and the answer in most cases is “it’s the developer’s fault”. In my career as a consultant, this has happened way too many times. As an industry, we tend to blame the developers that wrote the code and/or worked on the system rather than criticizing the company that allowed this to happen. As engineers, we’re biased towards blaming the human rather than blaming the system, mostly because it’s easier. But where does the responsibility lies? Sometimes the big balls of muds we’re dealing with go beyond the simple “technical debt”. How to recognize this behavior and how to fix it? In this talk, I want to introduce ways and techniques, as an architect, to defend yourself from this and describe which cultural shift is needed in a company to ensure that responsibility is clearly defined.',
+    level: 'Introductory and overview',
+    tags: ['coreskills/softskills', 'leadership'],
+    lengths: ['30 minute talk'],
   },
   {
     id: 43,
-    title: "Kubernetes, Azure and .NET - What's it all about?",
+    title: 'Creating Games in Unlikely Places',
     description:
-      "Everyone seems to be talking about Kubernetes with companies seemingly tripping over themselves to support or adopt it.\n\nIn this talk we'll introduce Kubernetes, discuss the key concepts of the platform, it's high level architecture and how to get a Kubernetes cluster up and running in minutes in Azure. \n\nWe'll talk about and demo deploying .NET applications to Kubernetes and we'll finish with a discussion of the future where you can deploy both legacy and modern .NET applications to the same platform.\n\nIf you're interested in Kubernetes and you're not a .NET developer this session still has something for you",
+      "Game development used to be the exclusive domain of low level programmers, writing in C++ or even Assembly.  However, with the increase of hardware speed, that is no longer true, and today, you can easily use other languages to create games.\n\nIn this talk, we'll explore what the basic building blocks of creating a game are, and then we'll implement that using a .Net Console Application.  Then, we'll have a look at replicating that in front end SPA frameworks, such as React and Blazor.\n\nWe'll then talk about why this kind of kata is useful in non-game development environments, and how what we've learned can be transferred to line of business applications.",
     level: 'Introductory and overview',
-    tags: ['devops', 'cloud'],
+    tags: ['ui', 'gaming'],
+    lengths: ['60 minute talk'],
   },
   {
     id: 44,
+    title:
+      'The Future of the Windows Desktop (Using .Net Core 3 to Improve Legacy Apps)',
+    description:
+      "Do you have a WinForms or WPF app in your organisation? You know the one - it's been running for about 10 years, and nobody dare touch it in case it remembers it's due to suddenly fall apart; nobody really knows how it got deployed, or how it ever will again! Worse, when you put WinForms on the job ads, you're losing around half the candidates because, well, who wants to write WinForms apps in 2019?\n\nIn this talk, we'll discuss what Microsoft have done to try and bring these (still perfectly valid) technologies under the .Net Core umbrella. We'll talk about how you can convert existing apps over to .Net Core, how you can build and deploy them using the new available tools. We'll also see how you can improve them from the outside in, using Xaml Islands.",
+    level: 'Intermediate',
+    tags: ['maintainence', '.net'],
+    lengths: ['60 minute talk'],
+  },
+  {
+    id: 45,
+    title: 'Architectural Patterns - A Trilogy of Problems Solved',
+    description:
+      "In recent years, getting the right software architecture has become so much more important.  Gone are the days when you could simply stand up an n-tier web application and you're away - any kind of scale, latency, or connectivity issues, and you're suddenly running into problems around performance, or reliability.\n\nIn this talk, we'll look at three patterns that are widely used in the industry, and how they can solve real world problems.  First, we'll identify a specific issue: maybe you're selling tickets for a popular gig, or maybe you're stuck in a country with an unreliable internet connection, or you might be dealing with sensitive financial transactions.\n\nOnce we've successfully created our problems, we'll talk about how we can use one or more architectural patterns to solve them.  We'll discuss how, with each of these solutions, there is a price to pay, and find out what that price may be.",
+    level: 'Intermediate',
+    tags: ['architecture'],
+    lengths: ['60 minute talk'],
+  },
+  {
+    id: 46,
+    title: 'Functional Programming with C#',
+    description:
+      "Functional Programming is becoming increasingly popular and relevant with each year that goes by.  With so much discussion around languages such as F#, Haskell and Erlang, it can seem as though getting started with Functional programming would mean first learning a whole new syntax...but what if it didn't?\n\nMost .NET developers are familiar with the use of Linq, and basic constructs such as IEnumerable, Func delegates, arrow functions and ternary expressions, but did you know that you can use all of this to implement some of the most powerful patterns and techniques from the world of functional programming?\n\nThis talk will demonstrate how, using only familiar features available in out-of-the-box C#, to write Functional code that is:\n\n* More robust\n* Easier to read\n* Easier to maintain\n\nAs well as these benefits, Functional code is a great enabler for the use of concurrency with Async functions and Serverless applications with technologies such as Azure Functions.  \n\nThis talk might be of interest to anyone looking into moving to a new platform, or in improving the scalability of an existing application, or even just interested in seeing what Functional Programming is all about, but all within the comfort of a familiar language.  \n\nWe might even attempt the impossible, and explain what a Monad is!",
+    level: 'Intermediate',
+    tags: ['software methodology/process', 'functional', '.net'],
+    lengths: ['60 minute talk'],
+  },
+  {
+    id: 47,
+    title:
+      'Why is a Developer Nothing like an Enchilada? - The Weird Histories of the Words we Use in IT',
+    description:
+      "In the IT industry we're surrounded all the time by all sorts of extraordinary words in our everyday working environment - but have you ever considered their origins?\n\nSome are, of course, entirely modern.  Some though date back to the middle ages, and some even to the ancient world!  \n\nIn this talk we'll look at the stories behind the words we use at work all the time, without even realising what they might actually mean.  \n\nOn our eymologoligical travels, we'll find out how our work relates to 12th centry Welsh monsters, a 6th centry Persian mathematician and some very silly singing Vikings.\n\nWe'll answer questions such as: What are Geeks and Nerds really?  What is a C and how can it be sharp?  Was a Firewall ever actually made of fire?  What were bytes taken out of?\n\nAbove all, as the title suggests - Why is a Developer Nothing like an Enchilada?*\n\nAll these questions and more will be answered.  You aren't going to go away better at your job, but hopefully you'll gain an appreciation for computer terminology and how it fits into the larger history of the english language\n\n\n* Be warned - the answer is not as interesting as the question!",
+    level: 'Introductory and overview',
+    tags: ['fun'],
+    lengths: ['60 minute talk'],
+  },
+  {
+    id: 48,
+    title: 'MongoDB vs SQL Server',
+    description:
+      'Project Manager - “So team, what technologies are we going to use to write this great new music tracking application?”\n\nDev 1 - “blazor + .net core for the frontend, and SQL Server for the database”\nDev 2 - “SQL Server! – It’s 2020 we should be using MongoDB”\n \nIn this talk, we hope to end this debate once and for all. David and Kev will go head to head showing the advantages (and disadvantages) of their preferred database technology',
+    level: 'Introductory and overview',
+    tags: ['big data', 'cloud', 'databases'],
+    lengths: ['60 minute talk'],
+  },
+  {
+    id: 49,
+    title: 'Functional Programming in JavaScript',
+    description:
+      "Functional Programming is becoming increasingly popular and relevant with each year that goes by. With so much discussion around languages such as F#, Haskell and Erlang, it can seem as though getting started with Functional programming would mean first learning a whole new syntax...but what if it didn't?\n\nUsing just a few JavaScript libraries, such as RamdaJS, developers can implement some of the most powerful patterns and techniques from the world of functional programming?\n\nThis talk will demonstrate how, using ES6 and a few extra libraries, we can write Functional code that is:\n\nMore robust\n\nEasier to read\n\nEasier to maintain\n\nThis talk might be of interest to anyone looking into moving to a new platform, or in improving the scalability of an existing application, or even just interested in seeing what Functional Programming is all about, but all within the comfort of a familiar language.\n\nWe might even attempt the impossible, and explain what a Monad is!",
+    level: 'Intermediate',
+    tags: [
+      'software methodology/process',
+      'functional',
+      'javascript',
+    ],
+    lengths: ['60 minute talk'],
+  },
+  {
+    id: 50,
+    title: 'Automated your common processes with GitHub Actions',
+    description:
+      'In the past, we all always focused on automating our build and deploy process as part of our DevOps process, using CI/CD tools.\n\nBut why stop there? \n\nThere are plenty of other common actions a development team does every day that are candidates for automation that are not directly code related.\n\nIn this session, I discuss how GitHub Actions can be used to automate many of your processes to make your whole software development cycle more efficient and consistent.',
+    level: 'Intermediate',
+    tags: ['software methodology/process', 'devops'],
+    lengths: ['60 minute talk'],
+  },
+  {
+    id: 51,
+    title: 'Design is your new secret weapon',
+    description:
+      "Design is transforming today's organizations. The latest research shows design-led companies boast higher revenue growth and time to market than their competitors. Design is one of the most in-demand skills for growing businesses.  \n\nIn this talk, I'll show you how you can alter your design process to create better products faster, become a VIP in your company & future-proof your career.",
+    level: 'Introductory and overview',
+    tags: [
+      'design',
+      'ux',
+      'ui',
+      'user research',
+      'management',
+      'product managment',
+    ],
+    lengths: ['15 minute lightning talk'],
+  },
+  {
+    id: 52,
+    title: 'What is Blazor? And why’s it so exciting?',
+    description:
+      "What started as a prototype in 2017 has become one of the hottest technologies in the .NET ecosystem. Blazor is Microsoft’s new front-end framework for building single page applications using C#, not JavaScript. That’s right, C# running in your browser. No plugins, transpilation or voodoo magic involved - just web standards.\n\nIn this talk, you'll learn all about this game changing platform and how it brings choice back into front-end development.\n\nStarting from the beginning, you'll explore Blazor's flexible architecture and it's different rendering modes. You'll learn how C# code is able to run in the browser via a technology called WebAssembly. You'll also cover Blazor's component model, syntax, project types and more.\n\nBy the end you'll have a solid understanding of what Blazor is and how it could be the last framework you'll ever need!",
+    level: 'Introductory and overview',
+    tags: ['architecture', 'frontend'],
+    lengths: ['60 minute talk'],
+  },
+  {
+    id: 53,
+    title: 'Building next generation web apps with Blazor',
+    description:
+      "The widespread adoption of WebAssembly, by all major browsers, has opened the world of front-end development to languages other than JavaScript. The platform leading the charge is Blazor - a new client-side UI framework from the Microsoft ASP.NET team. Blazor allows developers to write client-side applications using C# which runs inside the browser without needing plugins or transpilation - how cool is that!\n\nIn this code-focused session, we'll explore the Blazor platform. Starting with the fundamentals, we'll look at how to organise our applications for better maintainability. Then we'll look at how to handle user input using forms and validation. We'll then explore some more advanced topics such as JavaScript interop and authentication and authorisation.",
+    level: 'Introductory and overview',
+    tags: ['language specific', 'demo', 'frontend'],
+    lengths: ['60 minute talk'],
+  },
+  {
+    id: 54,
+    title: 'Making a noise with F#',
+    description:
+      'Interest in functional languages, including F#, is growing, but there are still many impediments to its wider adoption. One problem is the (wrong) perception that F# is language for financial applications.\n\nIn this talk I will attempt to dispel that myth, and show that F# is a true general purpose language. I will show how F# can be used to create a simple audio synthesis application, and how the functional approach (single assignment, immutable data, recursion) provides a great way to model the audio domain.',
+    level: 'Intermediate',
+    tags: ['hardware', 'demo', 'language specific', 'functional'],
+    lengths: ['60 minute talk'],
+  },
+  {
+    id: 55,
+    title: 'Thinking Functionally',
+    description:
+      'The determined programmer can write FORTRAN programs in any language - Ed Post\n\nC# is becoming a true multi-paradigm language.  As well as being a powerful object-oriented language, it is embracing many features that originated in the functional language community.\n\nTo program effectively in a functional language, you need to discard many of the thought processes and habits that you have developed for coding in ‘curly bracket’ languages and understand a new set of idioms and ways to think about code.\n\nIn this session I will talk about some of those fundamental idioms, explain why they exist and how they interact to provide a very different framework for thinking about your code. Even if you never write any F#, these ways of thinking can be used to make your C# code more efficient and more robust.',
+    level: 'Introductory and overview',
+    tags: ['functional'],
+    lengths: ['60 minute talk'],
+  },
+  {
+    id: 56,
+    title: 'Learning a new front end framework never Svelte so good!',
+    description:
+      "Front end developer, full stack or just generally a person existing in the industry you've probably heard the meme around having to rewrite your front end every 6 weeks to keep up with the changing face of the front end framework war. But why has our industry had to endure this over past decade? Why does the war wage on and (in this speaker's opinion) why is Svelte going to win the next battle.\n\nIn this talk we're going to walk through the implementation of an extremely simple \"cat based\" (I promise) app. We'll see how it is implemented in plain HTML and CSS, Knockout.js, Angular 1, etc. etc. in an evolution of frameworks. At each stage we'll talk about why these frameworks were popular at the time and things that they did and didn't do very well.\n\nFinally we'll land on Svelte and armed with the knowledge of the rest of the talk you'll be able to understand why Svelte is such an exciting new option in the front end framework race and we'll work through the very basics of getting you started with a svelte application.\n\nWhether you're an experienced developer looking to relive some nostalgia or newly on your development journey and wishing to learn about the modern history of the front end and where it's led us to, I'm sure you'll enjoy this talk.",
+    level: 'Introductory and overview',
+    tags: ['ui', 'language specific', 'demo', 'frontend'],
+    lengths: ['60 minute talk'],
+  },
+  {
+    id: 57,
+    title: 'Agile had better Shape Up or ship out',
+    description:
+      "We've been struggling for decades to make Agile fit real world projects in a holistic fashion and what do we have? People describing their development processes with terms like Fear Driven Development, Sales Driven Development and \"Agile?! more like Fragile! AMIRITE?!\"\n\nAgile has provided us with many useful and reusable paradigms which we can implement to attempt to deliver software whilst blending customer feedback into our feedback loop. This, in theory, has reduced the feedback loop allowing us to deliver more correct and complete software. \n\nThe problem we've been finding as an industry over the past couple of decades is that is that the formula, as prescribed in the manifesto, just doesn't fit in the ways as we'd hoped in the real world.\n\nEnter Shape Up, a new and exciting way to manage software deliveries put out by the founders of basecamp Jason Fried and David Heinemeier Hansson (DHH). This new framework acknowledges a couple of key things that Agile struggles to address:\n\n1. No software design survives first contact with implementation\n2. Steady incremental progress is far more important that flash in the pan deliveries\n3. The autonomy and morale of your delivery team is the most important factor in producing a high performing team.\n\nIn this talk the speaker will walk you through the high level process of Shape Up, the key differences between it and agile, why in their opinion it works and in what ways they have implemented in their own workplace revealing the benefits and drawbacks of the process described in the book.",
+    level: 'Introductory and overview',
+    tags: [
+      'coreskills/softskills',
+      'software methodology/process',
+      'management',
+      'change management',
+    ],
+    lengths: ['60 minute talk'],
+  },
+  {
+    id: 58,
+    title: 'Moleculer is [sic]',
+    description:
+      "Moleculer is a node based microservices framework....and it's spelt wrong! The speaker stumbled upon moleculer after having tried, and almost failed, at delivering microservices using two other popular node based microserivces framework. Moleculer was exactly the shining ray of hope they needed when they realised that the other frameworks that were being used just weren't going to cut the mustard.\n\nBut why was Moleculer right for that situation? And how might it be great for your own? In this talk we are going to walk through the main capabilities of the Moleculer, how they can be implemented to great affect and the pitfalls to watch out for when it comes to implementing a Moleculer based microservices system.",
+    level: 'Introductory and overview',
+    tags: ['architecture', 'language specific', 'microservices'],
+    lengths: ['60 minute talk', '30 minute talk'],
+  },
+  {
+    id: 59,
+    title: 'I can Vim and so can you',
+    description:
+      "For at least a couple of years Vim was something that I was interested in attempting to use but I was hopelessly intimidated by the prospect of going up against what seemed like the \"end boss\" of writing code. You've probably guessed that I did finally find the courage to take on the Vim monster and by the end of this talk I think you will to.\n\nThe focus of this talk won't necessarily be for me to espouse the value of vim although you can see if you can try and stop me from doing that anyway! I also won't be giving you a history lesson from vi in the 70's right up to vim 8 now. I will assume that if you're attending that you've already seen the youtube videos that I had when I started looking into vim and you're more or less convinced that vim is something you'd like to take on the challenge of learning but don't really know how to take the first step.\n\nSo, with that in mind, during this talk I will be walking you through getting vim setup and ready for work on a machine and getting it ready for actual coding. At the end of this talk we will have a machine setup with vim along with some helpful plugins and it will be ready to be used as a real Javascript development environment. We'll build all this actually in vim so you'll also get some of your first lessons in using vim and I'll be happy to try and point out some pitfalls to avoid when you're beginning your vim journey.\n\nAt the end I can share with you a repo with the dot files we create so you can go home and set the same environment up yourself!",
+    level: 'Introductory and overview',
+    tags: [
+      'software methodology/process',
+      'language specific',
+      'demo',
+      'developer tools',
+    ],
+    lengths: ['60 minute talk', '30 minute talk'],
+  },
+  {
+    id: 60,
+    title: 'Get some clojure',
+    description:
+      "Clojure was ranked as the second highest-paying programming language in 2019. But aside from its rising rain-making status, it is also an extraordinarily elegant and powerful functional Lisp dialect that leverages the richness and maturity of the JVM. It also promises to change the way we think about coding for concurrency.\n\nIn this talk, I'll go through some of the basics and some of the more unusual features of the language, which I promise will put a smile on the face of anyone who finds true beauty in the art of code.\n\nWarning: if you've got a deep-rooted phobia of parentheses, I recommend you stay away.",
+    level: 'Introductory and overview',
+    tags: ['language specific', 'clojure'],
+    lengths: ['30 minute talk'],
+  },
+  {
+    id: 61,
+    title: 'About two weeks?": How to give better estimates',
+    description:
+      "So it's that time of the development cycle again that every software engineer hates... the moment when their manager or the product owner asks them to give an estimate. Whether it's part of a formal, well-established process, or an informal side-of-desk convo, every software developer knows that it's a Raiders of the Lost Ark of a question, fraught with hidden traps, snake pits and poisoned darts.\n\nThis is a quick-fire session to give you some tips on how to best answer that question, and some ideas on how you can help steer your company towards a more healthy attitude towards estimation.\n\nBy my best estimate, I reckon you'll give this talk a 7 or 8 out of 10. But we all know it'll probably end up being a 4 or a 5.",
+    level: 'Introductory and overview',
+    tags: ['coreskills/softskills', 'software methodology/process'],
+    lengths: ['15 minute lightning talk'],
+  },
+  {
+    id: 62,
+    title:
+      '-1 beers, 0 beers, 999999 beers, abc beers and a pack of nuts',
+    description:
+      'Choosing the right test data for can be critical for making sure you are getting the most out of QA.\n\nLooking at how using combinatorial testing along with boundary value at Koodoo has enabled us to do the equivalent of 128000 end to end tests in 158 tests run in 30s.\n\nHow this can be applied at all levels of the test pyramid.',
+    level: 'Intermediate',
+    tags: ['automated testing', 'testing', 'data analytics'],
+    lengths: ['30 minute talk'],
+  },
+  {
+    id: 63,
+    title:
+      'DAPR, CNAB, Porter, OAM, RUDR- OMG! Demystifying cloud native app development and deployment tech',
+    description:
+      "In recent years we've seen a huge uptake of cloud native technologies such as Docker & Kubernetes. In an effort to improve the development and deployment experience we've seen the release of a number of frameworks and specifications which aim to simplify developing and deploying applications which target platforms such as Kubernetes.\n\nThis talk will\n- Explain what each of these acronyms are and the problem they are trying to address.\n- Give the audience examples of where they can be used with some demos\n- Which of these technologies work together to create an overall experience for developing and deploying applications.\n\nAfter this talk the audience should have a much better understanding of the cloud native development/deployment landscape and where some of these technologies fit in.",
+    level: 'Introductory and overview',
+    tags: ['devops', 'cloud'],
+    lengths: ['60 minute talk'],
+  },
+  {
+    id: 64,
+    title: 'Provisioning your Cloud with .NET',
+    description:
+      "IAC (Infrastructure as code) has become a mainstay for teams looking to automate their infrastructure deployments however is it actually code or just text?\n\nMost cloud provider provisioning system or tools such as Terraform rely on a DSL (often expressed in JSON) to describe the infrastructure. Most of these approaches have had to shoehorn in some programming constructs (such as conditional logic and loops) into the languages to provide support for more complex scenarios.\n\nThis talk compares provisioning infrastructure using cloud provider approaches, Terraform and Pulumi using mostly Azure for demos\n\nWith a combination of slides and code we'll see how solutions like Pulumi are providing real code based approaches for provisioning infrastructure and compare this to alternatives from cloud providers. \n\nAfter this talk attendees will have a better idea of the options available for provisioning infrastructure and why they may choose one approach over another.",
+    level: 'Introductory and overview',
+    tags: ['devops', 'cloud', '.net'],
+    lengths: ['60 minute talk'],
+  },
+  {
+    id: 65,
+    title: 'Make smartphone-only banks more accessible',
+    description:
+      "The challenger banks are here! But not if you don't own a smartphone, like my 73 year old dad. I managed to sell him on the benefits of one of them, but without a smartphone there's no way he can check his balance or get notifications when payments are made. \n\nIn this talk I'll be showing how I used Twilio (and a little bit of serverless magic) can be used to make challenger banks more accessible to people (like my dad) who make the choice not to use smartphones.",
+    level: 'Introductory and overview',
+    tags: ['cloud', 'accessibility'],
+    lengths: ['30 minute talk', '15 minute lightning talk'],
+  },
+  {
+    id: 66,
+    title: 'The Power of Change: Learning to be a "Weirdo',
+    description:
+      'Being called a weirdo from an early age but never really understanding why, I talk about how I finally learnt to embrace being different. I weave my personal story with fascinating facts and unique insights into the world of neurodiversity and mental illness. I tell you how I recovered and learnt to live - not a normal life - but an authentic one.',
+    level: 'Introductory and overview',
+    tags: ['accessibility', 'neurodiversity'],
+    lengths: ['60 minute talk'],
+  },
+  {
+    id: 67,
+    title: 'The invisible walking stick',
+    description:
+      "How I built balanced tech teams, or how the myth was busted. It's not impossible, not if you mean it....",
+    level: 'Introductory and overview',
+    tags: ['leadership', 'coreskills/softskills'],
+    lengths: ['30 minute talk'],
+  },
+  {
+    id: 68,
+    title:
+      'Affective Computing – bringing humans and machines closer through emotions',
+    description:
+      'Research have shown that emotions play an integral role in decision making, cognition, perception, learning and more. If we want our computers to be intelligent and be able to interact with us we need to ensure that they are able to recognize, understand and express emotions. This is the basic assumption of the field of Affective Computing. In this talk I will give an overview of Affective computing and how it can be applied in order to make our interaction with machines more suitable to us as humans.\n\nFirst I will give an introduction to the field starting with established findings from the field of psychology on how we best can measure emotions.\n\nThen I will describe how the field of Affective Computing has transformed from its origin in the 90’s until now when it is an established research field. I will highlight some of the technology enablers that has made Affective Computing a hot topic nowadays and give some examples of API and services that we as developers can use as of today.\n\nIn the second part of my talk I will give some examples on application scenarios across various fields (retail, medical, education and social). After that I will be show casing what is in the front line now. I will conclude my presentation with some recommendations on how this affects us as developers going forward.',
+    level: 'Introductory and overview',
+    tags: ['artificial intelligence', 'machine learning'],
+    lengths: ['30 minute talk'],
+  },
+  {
+    id: 69,
+    title: 'Machine learning in the browser using TensorFlow.js',
+    description:
+      'In order to start out with machine learning you typically would need to learn Python, Tensorflow, Jupyter Notebook etc. But what if you could run your machine learning straight in the browser. This can be done through Tensorflow.js. In this session you will get an introduction so that you can use it in your own projects.\n\nThis session will give you an introduction to what Machine learning is and what types of problem you can solve. TensorFlow as a library will be introduced and then TensorFlow.js will be presented with a focus on how you can use a machine learning model in your JavaScript application. \n\nNext, we will build an image classification web app that uses a predefined TensorFlow model. \n\nFinally, some examples on how TensorFlow.js is used in commercial applications will be given.',
+    level: 'Introductory and overview',
+    tags: ['machine learning', 'javascript'],
+    lengths: ['30 minute talk'],
+  },
+  {
+    id: 70,
+    title: 'Machine Learning on the edge using TensorFlow Lite',
+    description:
+      "What if you could perform machine learning on the edge, i.e on your mobile device? This would mean that you no longer would need the roundtrip to the server, no data will leave the device and you don't even need an internet connection . In this session you will get an introduction to TensorFlow Lite so that you can use it in your own projects.\n\nIn this presentation I will demonstrate how you can take a pre-trained model for image classification and convert it to TensorFlow Lite format. Then I will go through how to deploy to model to the device and finally talk a little bit about optimization options in order to reduce the model size.",
+    level: 'Introductory and overview',
+    tags: ['machine learning', 'mobile'],
+    lengths: ['15 minute lightning talk'],
+  },
+  {
+    id: 71,
+    title: 'The History of AI - what can we learn from the past?',
+    description:
+      'Nowadays AI is all the hype, but what many might not know is that AI is an established discipline originating from a paper from Alan Turing in the 1950s. In this talk I will present the historical milestones of AI from the originating paper up until present days.  In addition we will look into the crystal ball in order to see what the future might have in store.\n\nWe will start out our journey by looking at what happened in a workshop in Dartmouth in the 1950’s which started it all. Then we’ll be reviewing a number of areas where AI initially was put to use between 1950-1970. We’ll cover the AI winter in the 1980’s and its’ reasons. \n\nIn the second part of the talk we’ll cover applications and milestones from the 1990’s and onwards. Finally we’ll look into the crystal ball and try to see where AI might takes us in the future.',
+    level: 'Introductory and overview',
+    tags: ['artificial intelligence'],
+    lengths: ['30 minute talk'],
+  },
+  {
+    id: 72,
+    title:
+      'Why you should consider Web Assembly in your next frontend project',
+    description:
+      'During the last decades a growing trend has been to put more and more functionality into the client by using the latest and greatest JavaScript framework. But what if we could be using native code in the browser in order to run computations faster and potentially reuse code from the backend in the frontend. \n\nEnter Web Assembly. Web assembly is a new web standard which enables you to run native code as part of your current JavaScript framework. This talk will give you a thorough understanding of what web assembly is and how you can use it in your project. \n\nWe will cover a practical example writing our web assembly using Rust. We will go through everything from writing your web assembly code to publish it as a npm package and finally use it in an existing web application.',
+    level: 'Intermediate',
+    tags: ['frontend'],
+    lengths: ['30 minute talk'],
+  },
+  {
+    id: 73,
+    title: "Bourdieu's social theory applied to tech",
+    description:
+      "Every workplace, every community, and in fact every social interaction, is governed by various forces, hidden power structures, implicit oppression and submission. We oppress people by accident, and we are oppressed by others by accident.\n\nBourdieu's social theory (with concepts like “symbolic violence\", “cultural capital” and “hexis”) explain what is happening. By understanding what he meant, we learn how each of us influences and is influenced by the people around us, in ways that we wouldn't expect.\n\nThis talk tries to make Bourdieu's ideas accessible. Learn how to improve your environment immediately; see why meritocracy is a dangerous lie; recognise oppression and submission when it happens; and gain the tools to fight it day to day.",
+    level: 'Introductory and overview',
+    tags: ['cross discipline', 'change management', 'leadership'],
+    lengths: ['60 minute talk'],
+  },
+  {
+    id: 74,
+    title: 'How to be remotely productive',
+    description:
+      'Rush hour\nSad meal deal lunches\nOpen plan offices\nCoronavirus?\n\nGoing to work sucks, let’s be honest. You know what the solution is - you should work from home. But how do you keep yourself productive and on task when you have all your fun toys around and no-one keeping an eye on you?\n\nManagers, you want to hire the best people for your teams, why limit yourself to whoever happens to live in your immediate area? You know what you need to do - hire remote. But how do you build a remote team and keep everyone happy and productive?\n\nLet’s talk about what we can do to make our workplaces more remote-friendly so we can all hang out on Slack in our pjs together :)',
+    level: 'Introductory and overview',
+    tags: ['coreskills/softskills', 'management'],
+    lengths: ['15 minute lightning talk'],
+  },
+  {
+    id: 75,
+    title: 'Use your source code to document your application',
+    description:
+      'As a development team, writing documentation is often not our favorite activity. And keeping it up to date after every code changes is a bigger challenge. Developers claim that the source code is the documentation itself, but do your stakeholders agree, do they actually read the code? And does it show how the part are working together?\n\nWhat if our source code would be the source of our documentation, for the team and our stakeholders?\n\nIn this session we will see how we can utilize Roslyn to generate documentation. Like creating diagrams that display the structure and relationships within an aggregate, or a sequence diagram that displays the flow throughout the application.\n\nWe will dive into the code to see how we can load projects and solutions, use syntax trees to walk through the structure of our source code, and detect branching logic to capture alternate paths. Then we will render this data to other file formats such as PlantUML, Markdown and AsciiDoc.\n\nAfter this session you will be able to let your source code speak in forms that your team and your stakeholders explain to the operation of your application.',
+    level: 'Advanced',
+    tags: [
+      'devops',
+      'software methodology/process',
+      'design',
+      'documentation',
+    ],
+    lengths: ['60 minute talk'],
+  },
+  {
+    id: 76,
+    title:
+      'Make sure no one discover your secrets, start using Azure Key Vault',
+    description:
+      "No longer store a password or connection string in your source code, configuration file or environment variable!\n\nIn this session we will discover what Azure Key Vault has to offer and how we can use secrets and keys stored in Azure Key Vault in our application without much effort.\n\nWe'll also focus on more advanced scenarios that Azure Key Vault offers us, such as automatic Storage Account Key regeneration. Because, how many times have you regenerated the key of your Azure Storage account?",
+    level: 'Intermediate',
+    tags: ['devsecops', 'cloud', 'devops', 'maintainence', 'azure'],
+    lengths: ['60 minute talk'],
+  },
+  {
+    id: 77,
+    title: 'Infrastructure As Code: Terraform 101',
+    description:
+      'As a developer, you might dread the thought of being asked to reconfigure servers or deploy new infrastructure but why? Treat your Infrastructure As Code!\n\nIn this talk, we’ll walk through how you can re-use your skills as a developer and apply those to the the concept of Infrastructure As Code. We’ll also cover the various benefits it can bring such as being able to version your infrastructure just like your application code.\n\nWe’ll then learn how we can apply this concept using Terraform by Hashicorp which allows us to manage and stand up your infrastructure using providers such as Microsoft Azure and Cloudflare with ease.\n\nAfter this talk, you’ll have learnt the concept of Infrastructure As Code and how to get started with managing your infrastructure with Terraform.',
+    level: 'Introductory and overview',
+    tags: ['cloud', 'infrastructure', 'devops', 'cross discipline'],
+    lengths: ['60 minute talk'],
+  },
+  {
+    id: 78,
+    title: 'Concerning Codepoints: Undertaking Unexpected Unicode',
+    description:
+      'Unicode has been widely successful at replacing the various different character sets available to developers before its introduction, but it is not without many pitfalls as soon as you need to deal with "non-Latin" data (and even when you don\'t!)\n\nThis talk will demonstrate a few interesting ways that uncommon and unexpected Unicode data can break even the most basic text processing routines, almost certainly including your favourite language\'s defaults.\n\nBy the end I hope you will have a greater awareness of how many edge cases there are in Unicode, and how to avoid at least some of them in your own code.',
+    level: 'Introductory and overview',
+    tags: ['software methodology/process'],
+    lengths: ['30 minute talk'],
+  },
+  {
+    id: 79,
+    title:
+      'Testing In Production: How To Know When Things Are Wrong Before Your Customers',
+    description:
+      "How great would it be to know about issues before your customers do?!\n\nIntroducing, testing in production!\n\nIn this talk, we explore how testing in production can help you find issues before your customers do and how we can keep a constant load on your production environment, allowing you to find performance issues too!\n\nWe'll also walk through building a quick demo application built on Azure, showing how we can use synthetic load on our systems.",
+    level: 'Introductory and overview',
+    tags: [
+      'testing',
+      'automated testing',
+      'operations',
+      'monitoring',
+      'observability',
+    ],
+    lengths: ['60 minute talk'],
+  },
+  {
+    id: 80,
+    title: 'Agile Engineering Live!',
+    description:
+      "We can't go on adding three-letter acronyms to DevOps as we collaborate more. 'Agile Engineering' is an alternative term & yet 'Agile' means different things to different people in software engineering. Does this word still help us work more effectively together? Has it served its purpose? \nJoin this discussion as five panel members chat through their experiences from Development, Operations, Architecture, Management, and Recruitment backgrounds. \nDon't worry, it's not a standup!",
+    level: 'Introductory and overview',
+    tags: ['devops', 'coreskills/softskills'],
+    lengths: ['60 minute talk'],
+  },
+  {
+    id: 81,
+    title: 'Accessibility and Common Sense',
+    description:
+      "Advertising in print and media shows young, healthy models and actors, laughing and smiling. Those are not real people. Real people face challenges: they squint to read; they fumble with their TV remotes; they are baffled by technology; they can't hear you; they are getting older. Studies now put people with accessibility needs as the majority. So why would we design products for people in ads? Learn about tested product design changes and feedback received, and how to build better software and websites for a more inclusive world. We'll look at good accessible design practices that are really just good design. We'll also look at assistive technologies including the use of AI to make solutions that can be used and loved by real people. Making software that's accessible has never been easier, makes commercial sense, and benefits everyone.",
+    level: 'Intermediate',
+    tags: ['accessibility', 'design', 'ui', 'user research'],
+    lengths: ['60 minute talk'],
+  },
+  {
+    id: 82,
+    title: 'Dotnet tools for the Dotnet developer',
+    description:
+      'Dotnet tools allow developers to extend the Dotnet CLI with custom integrations through the Nuget package manager.\nDevelopers are able to automate tasks by creating console applications, packaging them up and publishing them for all to use. \n\nAimed primarily at Dotnet developers, this talk will give an introduction into what Dotnet tools are and how to get started using them.',
+    level: 'Introductory and overview',
+    tags: [
+      'coreskills/softskills',
+      'accessibility',
+      '.net',
+      'developer tools',
+    ],
+    lengths: ['15 minute lightning talk', '30 minute talk'],
+  },
+  {
+    id: 83,
+    title: 'Breaking perfectionism and being yourself at work',
+    description:
+      "There is still a sense of 'I have to be perfect' in our mindset. Never failing. Worried about making mistakes. Worried what people will think of us. Feeling shame about asking stupid questions. How do we break out of this anxious state of perfectionism?",
+    level: 'Introductory and overview',
+    tags: ['leadership', 'management', 'coreskills/softskills'],
+    lengths: ['30 minute talk'],
+  },
+  {
+    id: 84,
+    title: 'Websites Live In Homes',
+    description:
+      'Explaining the different types of website hosting that are out there, using housing as a metaphor. From the student dorm that is Github to the fancy detached house that is a dedicated server to the cabin in the woods that is your in-house server, there are a lot of options for hosting your websites, and a lot of options for places to live.',
+    level: 'Introductory and overview',
+    tags: ['hardware', 'infrastructure', 'maintainence'],
+    lengths: ['15 minute lightning talk'],
+  },
+  {
+    id: 85,
+    title: 'Artificial Intelligence and the Rise of the Machines',
+    description:
+      "Artificial intelligence and machine learning are the latest thing, and have been for the last 60 years! Can AI deliver tangible business benefit this time round, or will it be followed by another winter of discontent? In this talk, we look at how far we have come in the last few decades. Then we'll look at some of the tools like Azure Machine Learning and also review some of the powerful pre-built models that comprise Microsoft Cognitive Services and see how much can be achieved in just a few minutes with the Custom Vision service. Finally, we'll look into the future of AI and machine learning to work out how relevant it is to solving practical business problems, the longer term implications, and some of the dangers. There are many ethical and diversity issues and also some worrying existential threats. Yes, it's scary!",
+    level: 'Intermediate',
+    tags: ['machine learning', 'artificial intelligence'],
+    lengths: ['60 minute talk'],
+  },
+  {
+    id: 86,
+    title:
+      'Going Serverless: Building Websites using Azure Storage and Azure Functions',
+    description:
+      'Everybody is talking about "serverless" computing, and building "static" websites is all the rage! Why have a server when you can serve static content? But most websites aren\'t really static are they? No problem - we can build client-side functionality using client-side rendering frameworks like React or Single-page Application frameworks like Angular. Our content authoring can be simplified to just editing Markdown. Any behaviour at the back-end can be implemented using AJAX and a serverless approach like Azure Functions. And to "serve" our static content we can now use a very low-cost option - Azure Storage. Serving content directly from storage (in conjunction with Azure CDN for extra performance if needed) turns out to be an incredibly inexpensive, even compared to App Service. We\'ll look at a number of popular static site generators like Jekyll, Hugo and Gatsby, and consider different approaches to continuous deployment. Then we\'ll look at a super-simple implementation of a some websites using these techniques.',
+    level: 'Advanced',
+    tags: ['cloud', 'azure'],
+    lengths: ['30 minute talk'],
+  },
+  {
+    id: 87,
+    title:
+      'Ring-fence the Chaos: When Technical Teams Meet Organisational Systems',
+    description:
+      "This is talk about production team structures, inter & intra team efficiency, workflows, and organisational constraints. If you are interested in learning how to analyse your workplace to increase happiness and efficiency of your technical delivery then this is the session for you.\n\nAn organisation's technical delivery is not just about code reviews, code maintainability, story points. These are only the day-to-day processes. There are many factors (internal & external) which may affect your team's output. Do you have inter team dependencies? Do your teams cause bottlenecks for the organisation? How do you deal with forecasting, resourcing, knowledge retention & silos? How do you know if your teams are even configured well? \n\nWhen dealing with a multiple production teams (with possible interdependencies) it is inevitable that you will need to understand which project management methodologies are appropriate for given teams & scenarios, and also be able to drive purposeful organisational change. CTOs, Head of Engineering and Technical Leads - I'm talking to you!\n\nOrganisational constraints are challenging, and your organisation's different service levels often demand that your teams work differently. In this talk we will discuss how to tackle all of these challenges and more with real world examples. This talk is aimed at technical and non-technical audiences interested in team and organisational efficiencies.",
+    level: 'Intermediate',
+    tags: [
+      'change management',
+      'management',
+      'leadership',
+      'software methodology/process',
+    ],
+    lengths: ['60 minute talk'],
+  },
+  {
+    id: 88,
+    title: '5G - Fact and Fiction Behind the Hype',
+    description:
+      "The last few years have seen all kinds of claims for 5G and its potential as a tool for entertainment and businesses alike. Most conversations could swap in 'magic' for 5G and make as much sense. But what does it really offer today, what is still a work in progress, and what kind of timeline will companies that want to use it be looking at? How does it tie in with other technology buzzwords like AI, edge computing, VR and IoT? \nJoin an industry insider for an informal, personal take on this misunderstood (and mis-advertised) substitute for magic.",
+    level: 'Introductory and overview',
+    tags: ['mobile', 'cross discipline'],
+    lengths: ['15 minute lightning talk'],
+  },
+  {
+    id: 89,
+    title: '7 Things I am ashamed to admit I still Google',
+    description:
+      'I have been a professional web developer for 7 years, you’d think I’d know what I was doing by now,\nHere’s a list of 7 very basic things I still google regularly, including stars like “how do I get the length of a string” and “I need to import a CSS file into this HTML...”.',
+    level: 'Introductory and overview',
+    tags: ['coreskills/softskills', 'cross discipline'],
+    lengths: ['15 minute lightning talk'],
+  },
+  {
+    id: 90,
     title:
       'From layers to vertical slices - simplify your code and focus on your features',
     description:
       'We\'ve all experienced that moment when your boss/customer calls you and says;\n\n"This is just a small change, I can\'t imagine it would take more than half an hour or so"\n\nAnd your heart sinks, because you know what these "small" tweaks actually entail.\n\nYou have to find the code, which means navigating all the "layers" of your application.\n\nIf you\'re lucky, you can locate the relevant ASP.NET controller, but you know that\'s only the start.\n\n3 hours later, you\'re knee-deep in your Data Access Layer, desperately trying to figure out where this "small tweak" needs to be made, wondering if it\'s lunchtime yet.\n\nIt doesn\'t have to be this way!\n\nYou can skip a lot of this pain by leveraging the idea of "vertical slices".\n\nWhen you build and architect your application around individual features, magical things start to happen;\n\nYou always know exactly where to look for the code that makes any given feature tick.\n\nYou can use tests to be confident your feature actually does what the user/customer wants it to do (imagine that!).\n\nYou get to work with (and write) simple code.\n\nYou can get all your work done in a few hours and bunk off early (OK, maybe not, but we can dream...).\n\nSo join me as we explore what vertical slices are, how you can approach any feature and specific tips and techniques for making this come to life using ASP.NET Core and MediatR.',
     level: 'Intermediate',
     tags: ['architecture', 'software methodology/process'],
-  },
-  {
-    id: 45,
-    title: 'Confessions of a Tech Lead',
-    description:
-      "Almost all technology companies around the globe have a the concept of a Tech Lead. But there’s no definition of the position in the Agile Manifesto and (at least as far as I know) I’ve never met one with an industry certification! In this talk we’ll answer the key questions. How do you become a Tech Lead? Why would you want to? And what do they actually do all day!?\n\nOnce I've convinced you that it's a great job I'll take you on a whirlwind tour of a Tech Lead's toolbox by introducing topics like Delivering Business Value, DevOps Practices, and People Skills. We'll discuss each of these and talk about why they're all important to a great team.",
-    level: 'Introductory and overview',
-    tags: [
-      'devops',
-      'softskills/workskills',
-      'software methodology/process',
-      'management',
-    ],
-  },
-  {
-    id: 46,
-    title:
-      'Save money and reduce risk by deploying your applications as Immutable Servers to EC2 Spot Instances',
-    description:
-      'Have you ever deployed an application only to have it fail? Have you then discovered that the issues were caused by a manual configuration change on the server?\n\nEphemeral environments are increasingly becoming a popular solution to challenges such as configuration drift. Whilst containerising applications may be one solution, this has the overheads of managing container hosts and clusters, which can also become victims of configuration drift.\n\nWhat if every time you built your application, you provisioned a new server image from the ground up as a first-class citizen of your build process? Fully automated, fully version controlled, tested and immutable. Deploying your application becomes a straightforward process of launching a new server image and retiring the old server.\n\nThe immutable server pattern is a practical alternative to containerising applications. In this talk, we’ll look at the benefits of using immutable servers as part of an immutable infrastructure paradigm and look at a practical example of packaging a Rails application into an immutable server.\n\nWe’ll take this a step further and look at how an Immutable Server is an ideal candidate for running as an EC2 Spot Instance on AWS, saving you up to 90% of the on-demand costs.',
-    level: 'Intermediate',
-    tags: [
-      'cloud',
-      'devops',
-      'software methodology/process',
-      'architecture',
-    ],
-  },
-  {
-    id: 47,
-    title: 'Jump into SQL Server Query Performance',
-    description:
-      "You sometimes have to write SQL Server queries and you can get what you want out of the database but sometimes it's not as fast as you would like.\n\nIn this session we'll go through the start of checking the performance of your queries and look at quick wins when it comes to making those queries run faster.\n\nWe'll cover Execution Plans and Query Statistics to give you the tools to be able to make those queries faster.",
-    level: 'Introductory and overview',
-    tags: ['database performance'],
-  },
-  {
-    id: 48,
-    title:
-      'Getting Started with Unity and AR/VR for the .NET Developer',
-    description:
-      "We all see the cool demos of how augmented and virtual reality are going to be the future of our interaction with devices, but it often feels like there’s a significant barrier to getting started in building these types of apps.\n \nThis session is here to help. If you’ve ever thought about developing for Oculus Rift, HTC Vive or the Windows Mixed Reality headsets, but haven’t known where to start, this is the session for you.\n \nAt DDD, I will present what I learned building a small game, set in a mysterious dungeon using Unity and the SteamVR plugin. We'll explore how to import assets from the Unity store, how to implement locomotion techniques and interactions using the motion/touch controllers, including some tips for optimising performance and avoid motion sickness.\n \nCome along, there’ll be .NET code, demos and we’ll have some fun looking at how you can get started on your first VR/AR project.",
-    level: 'Intermediate',
-    tags: ['augmented reality/virtual reality'],
-  },
-  {
-    id: 49,
-    title:
-      "All the mistakes I've made trying to implement Microservices",
-    description:
-      "We're now entering the next age of Microservices. For about a decade now we've been doing battle with the pointy haired bosses of the world to convince them of what seems so painfully obvious to us; that there are many varied virtues of microservices architecture. \n\nNow that they all have Netflix accounts and they've seen the benefits first hand we now seem to have those same bosses bursting into the office waving their trade magazine and asking us if we've heard about this \"micro-system\" thing. Flustered, we're having coming to terms now with how we actually deliver on our lofty promises without Amazon's finances and resources. \n\nSome people have been getting it right the first time they've tried which is great! Other people, like me, have got it right as well.....but....not before getting it wrong repeatedly for oh so many different reasons! So, I guess that makes me an expert, right?! \n\nCome listen as I shamefully regale you with all ways in which I've ham-fisted the most elegant architecture currently known to humanity in hopes that I might save you from the same sleepless nights.",
-    level: 'Intermediate',
-    tags: [
-      'architecture',
-      'software methodology/process',
-      'microservices',
-    ],
-  },
-  {
-    id: 50,
-    title: 'I can Vim and so can you',
-    description:
-      "For at least a couple of years Vim was something that I was interested in attempting to use but I was hopelessly intimidated by the prospect of going up against what seemed like the \"end boss\" of writing code. You've probably guessed that I did finally find the courage to take on the Vim monster and by the end of this talk I think you will to.\n\nThe focus of this talk won't necessarily be for me to espouse the value of vim although you can see if you can try and stop me from doing that anyway! I also won't be giving you a history lesson from vi in the 70's right up to vim 8 now. I will assume that if you're attending that you've already seen the youtube videos that I had when I started looking into vim and you're more or less convinced that vim is something you'd like to take on the challenge of learning but don't really know how to take the first step.\n\nSo, with that in mind, during this talk I will be walking you through getting vim setup and ready for work on a machine and getting it ready for actual coding. At the end of this talk we will have a machine setup with vim along with some helpful plugins and it will be ready to be used as a real Javascript development environment. We'll build all this actually in vim so you'll also get some of your first lessons in using vim and I'll be happy to try and point out some pitfalls to avoid when you're beginning your vim journey.\n\nAt the end I can share with you a repo with the dot files we create so you can go home and set the same environment up yourself!",
-    level: 'Introductory and overview',
-    tags: ['demo', 'vim'],
-  },
-  {
-    id: 51,
-    title:
-      'Unicorns, fairies, formal specification languages and other mythical beasts',
-    description:
-      "Was it just your imagination? Or do you have a vague memory of once hearing about a mythical beast called 'formal specification languages', which would one day save the world?\n\nLet’s step back a bit.\n\nWhen is the best time to catch a design flaw? Clearly it’s during the design stage, before a line of code has been written. But in reality, all too often design flaws come to light late in the development lifecycle (and this is why any self-respecting team invests in first-rate QA practices). Worse still, design flaws can emerge when the system is in live operation. If you’re building control software for aeroplanes, self-driving cars or nuclear power plants, then a simple design flaw can have catastrophic consequences.\n\nLuckily, for most of us, lives don’t depend on us getting our code right first time. But livelihoods might. If you’re a startup, you’ve typically got one shot at capturing the imagination of your target customers. If your system has a design flaw that ruins their experience, chances are that’s your opportunity missed. And as more teams adopt microservices, for all the benefits of that architectural style, one of the downsides is that it is very hard for our brains to reason about the complex operational states of distributed, concurrent systems. Potential race conditions, deadlocks and cascading failures are hard to spot in system design, and equally hard to test for. How do we reduce the risk of introducing such flaws when the system consists of large numbers of interacting, independent services?\n\nGetting better at system specification is a problem for our whole profession, whether we’re building business applications or control systems for nuclear submarines. In this talk, I will give an introduction to a formal specification language called TLA+,  which has broken out of the Computer Science lab and is now being used for real world projects at Amazon, Microsoft… and at our little Nottingham-based startup. I’ll explain why formal specification matters, even for us non-eggheads working on everyday software problems. I’ll describe how to use it alongside the other tools in your toolbox, and I’ll attempt to demystify it with a worked example.",
-    level: 'Advanced',
-    tags: ['software methodology/process', 'design', 'architecture'],
-  },
-  {
-    id: 52,
-    title: 'Developing Communication',
-    description:
-      'Few would argue the importance of good communication in modern software development. Creating a safe, creative environment is vital if we want our teams to do their best work.\n\nIn this session we will look at why communication is so important, how to encourage high quality discussion, and how to have those tough conversations we’ve all been avoiding.',
-    level: 'Intermediate',
-    tags: ['softskills/workskills', 'management'],
-  },
-  {
-    id: 53,
-    title: 'Docker, Kubernetes, Raspberry Pis, and more!',
-    description:
-      "In this session, we'll be installing Kubernetes from scratch on a cluster of Raspberry Pis (yes, real hardware!). Then we'll create a basic ASP.NET Core webapp; RabbitMQ instance; and a subscribing console app to demonstrate how easy it is to spin-up this kind of 'messaging' architecture in Kubernetes. Along the way, I'll explain some of the core concepts and benefits of Docker, Kubernetes, and message queues. This talk is suitable for both those who have never used Docker or Kubernetes before; those who have and are interested in installing Kubernetes on bare-metal; or those who just like Raspberry Pis and shiny things!",
-    level: 'Intermediate',
-    tags: ['docker', 'kubernetes', 'containers'],
-  },
-  {
-    id: 54,
-    title: 'Azure Machine Learning for Developers',
-    description:
-      "As a developer I want to understand what machine learning is all about but I'm not a mathematician. This talk introduces some of the machine learning concepts without the maths and shows you how to use the tools provided by Azure Machine Learning to build Machine Learning web services. It also discusses the role the developer can play in Machine Learning to help the mathematicians and analysts integrate their machine learning models with business applications",
-    level: 'Introductory and overview',
-    tags: [],
-  },
-  {
-    id: 55,
-    title: 'Easy Integration with Flow and Logic Apps',
-    description:
-      'Historically integrating different systems has been challenging and you have needed experts to help you build even the simplest integration. Microsoft has introduced its Azure based offerings to help take some of the complexity out of integrating to allow you to build your own personal workflows. This talk will introduce both Flow and Logic apps, show you where to use each and how you can migrate from Flow to Logic Apps.',
-    level: 'Introductory and overview',
-    tags: [],
-  },
-  {
-    id: 56,
-    title: 'BBC Micro:Bit - It does (way) more than you think!',
-    description:
-      "This diminutive device may be affordable and have the perception of being aimed at children... But we'll spend the evening changing your mind!\n\nWe'll start by introducing the basics of the Micro:Bit including how to create our first program.\n\nNext we'll move on to how to use the built in sensors and I/O.\n\nOnce we've got that sorted, we can start looking at the Radio and Serial Communications.\n\nFinally we'll cover more advanced topics including how to extend the Micro:Bit's capabilities with our own Extensions.",
-    level: 'Intermediate',
-    tags: ['iot', 'hardware', 'demo'],
-  },
-  {
-    id: 57,
-    title: 'Is your loft cold? (Azure IoT Hubs with Raspberry Pi)',
-    description:
-      'Do you want to put your Raspberry pi to use and remotely monitor the temperature in your loft (Why??)? Or perhaps send a tweet out when someone comes into your office? Anything is possible with Azure IoT hubs, a little Node.js, a Raspberry Pi and a few electronic components.\n\nUsing a Raspberry Pi and a really basic circuit containing a switch, some LEDs and a Simulated Temperature / Humidity Sensor, and  NodeJS… We’ll go about connecting the whole thing to an Azure Event Hub and getting Messaging working between the two!',
-    level: 'Intermediate',
-    tags: ['cloud', 'iot', 'hardware', 'big data', 'demo'],
-  },
-  {
-    id: 58,
-    title: 'Event Driven Collaboration',
-    description:
-      'When we move from a monolith to microservices we abandon integrating via a shared database, as each service must own its own data to allow them it to be autonomous. But now we have a new problem, our data is distributed. What happens if I need one service needs to talk to another about a shared concept such as a product, a hotel room, or an order? Does every service need to have a list of all our users? Who knows what users have permissions to the entities within the micro service? What happens if my REST endpoint needs to include data from a graph that includes other services to make it responsive? And I am not breaking the boundary of my service when all of this data leaves my service boundary in response to a request?\n\nNaive request-based solutions result in chatty calls as each service engages with multiple other services to fulfil a request, or in large message payloads as services add all the data required to process a message to each message. Neither scale well.\n\nIn 2005, Pat Helland wrote a paper ‘Data on the Inside vs. Data on the Outside’ which answers the question by distinguishing between data a service owns and reference data that it can use. Martin Fowler named the resulting architectural style; Event Driven Collaboration. This style is significant because it shifts the pattern from request to receiver-driven flow control. \n\nIn this presentation we will explain how events help us integrate our service architectures. We’ll provide examples in C#, Python and Go as well as using RMQ and Kafka.',
-    level: 'Advanced',
-    tags: ['architecture'],
-  },
-  {
-    id: 59,
-    title: 'How to Escape The Distributed Monolith',
-    description:
-      'Microservices were all the rage, so you broke up your monolith. The services talk to each other by gRPC, you use a service mesh to route and load balance, and provide reliability oriented computing, you are fully buzzword compliant.\n\nYet something seems to be wrong.\n\nYou can\'t easily release software from one team, without coordinating with teams creating other. Testing has to be end-to-end to flush out problems or risk your team creating breaking changes for another team. Your \'heavy-lifters\', whether you call the principals or architects seem to spend all their time on Docker, K8s, Istio and a whole slew of infrastructure technologies. Your system won\'t run without them, and you feel locked in.\n\nWhat happened?\n\nIn this talk we look at the emerging world of "smart proxies and dumb endpoints" and ask whatever happened to the vision of "smart endpoints and dumb pipes", and what you can do to change course and deliver on the original promises of microservices to allow your teams to release frequently and independently of each other. And become masters of your tech stack, not its servants.',
-    level: 'Advanced',
-    tags: ['architecture'],
-  },
-  {
-    id: 60,
-    title:
-      'CTO secrets: How to get the best companies fighting to hire you',
-    description:
-      'As a CTO, I spend a lot of my time hiring talent and building high performance development teams. I have hired hundreds of software professionals over the years, and I still insist on interviewing every candidate personally. I think I’ve got a pretty good hit rate: my teams have all had great reputations in their local tech community, and I would rehire - in a heartbeat - almost everyone I’ve hired in the past.\n\nIt’s never been a better time to be working in the software industry. Your skills are in demand, but that doesn’t mean that everyone gets to work on the coolest tech in the most forward thinking companies. How do you set yourself apart from the crowd and get those companies falling over themselves to hire you?\n\nIn this session, I’ll share some of my secrets about what I look for in candidates. What is it that makes a candidate stand out? What do I look for in their CV? What is it about how they approach the interview or the technical assessment that impresses me? How important is formal education? What do I look for in how the candidate spends their spare time?\n\nOne myth to clear up right here: not everyone has to be a “rockstar developer”. I look for a balanced mix of skills in every candidate, and I’m often much more impressed by the quiet one who has demonstrated great judgment, insight or a capacity to learn. To continue the rockstar analogy, I’d much rather hire the reliable drummer or the skilful backing singer over the egotistical and unpredictable frontman!\n\nThis session will offer clear, practical advice on how you can maximise your personal value in the industry. Some of it will be quick and easy to achieve, while some of it will require you to make longer term changes to your mindset. But whether you are an old hand eyeing your next career move, or you are looking for your first job in the industry, there will be something in this talk for you.',
-    level: 'Introductory and overview',
-    tags: ['softskills/workskills', 'career development'],
-  },
-  {
-    id: 61,
-    title: 'Ditching the test pyramid in a microservices era',
-    description:
-      "We have all heard tales of the infamous test pyramid. Some of us have scaled the pyramid, some camped halfway and some dare not even attempt. Time and time again, I've heard of the test pyramid in multiple talks, test articles and blog posts, but not many have dared stray away from it. Why do we often return to the same solution for every test problem? \n\nWhat if we had another way forward; one that did not involve a pyramid. I once too advocated for the test pyramid in the good old times of monoliths. Times have changed.\nWe are now in the era of microservices and like many others, I found myself on shaky grounds with the test pyramid. It baffles me how little effort has been made to redefine or re-evaluate our quality assurance strategies. Whilst advances and breakthroughs are ripe in software development, our quality assurance processes and strategies often trail behind. \n\nSo why had I found myself on shaky grounds with a test strategy that stood the test of time for so long? In this session, we unravel why the onset of microservices shook the pyramid and we explore how we could succeed without having to scale the pyramid.\n\nIf you, like me started off with the search for a better test strategy that has been tried and tested in the microservices furnace and ended up unsatisfied with the answers; let me introduce you to a new era.",
-    level: 'Intermediate',
-    tags: ['software methodology/process', 'architecture', 'testing'],
-  },
-  {
-    id: 62,
-    title: 'The Evolution of DevOps',
-    description:
-      "This talk describes the evolution of DevOps from about 1700 to now :) \nFrom the scientific method, the industrial revolution, Taylorism, Ford's production line, Deming and Lean, Goldratt, the Toyota way, to the tech revolution, Agile and Scrum, Nicholas Carr saying technology is a commodity, the first SRE team at google, to the appearance of DevOps (with DuBois and Shafer), Gene Kim, the phoenix project, CI (Dave Farley et al), cloud tech, Nicole Forsgren and DORA, and even ITIL v4 (which by then we'll know if it's BS or not...)\nIt examines what devops really is, what it consists of and what we've learned from other industries (such as manufacturing) and where it might go in the future and who we might learn from to take it to the next stage.",
-    level: 'Intermediate',
-    tags: [
-      'devops',
-      'cloud',
-      'softskills/workskills',
-      'software methodology/process',
-      'management',
-      'architecture',
-      'security',
-    ],
-  },
-  {
-    id: 63,
-    title: 'A Developer Primer on Blockchain',
-    description:
-      'Come find out how developers can use Blockchain to build software.  Understand through code how to create “smart contracts” and "chain code" and develop a different type of application that establishes trust, accountability and transparency, while streamlining business processes.',
-    level: 'Introductory and overview',
-    tags: ['blockchain'],
-  },
-  {
-    id: 64,
-    title:
-      'Infrastructure as code, but following your business rules',
-    description:
-      "Developers want autonomy to deploy resources to the cloud as and when we need them.\nIn Business there are often policy, security or legislation requirements those resources have to adhere to\nAs we scale the team and the number of stacks, ensuring those requirements can get more difficult and lead to additional learning and process. This can slow down or even stop devs deploying directly\n\nIn this talk we're going to look at the Cloud Development Kit ( CDK ), a code library from Amazon.\nWe'll see how it allows developers to create, maintain and deploy their AWS resources as easily readable code, while ensuring even your newest hire can create resource that adheres to business requirements - be that structure, process or even permissions.",
-    level: 'Introductory and overview',
-    tags: [
-      'cloud',
-      'devops',
-      'software methodology/process',
-      'architecture',
-    ],
-  },
-  {
-    id: 65,
-    title: "I want you logged in, I don't want your email address",
-    description:
-      "It seemed like a simple requirement.\nI needed my users to be logged in, I needed to know who they were, but on day one I didn't want to send them an email.\nAnd if I don't plan to send them an email - I don't want their email. Anywhere.\nIn AWS that's absolutely possible, but it's not the expected route. In this talk we look at my journey into creating a GraphQL API, asking my users to log in to use it, giving them their data, and never seeing their email address the whole time.",
-    level: 'Intermediate',
-    tags: ['security', 'cloud'],
-  },
-  {
-    id: 66,
-    title: 'Writing better textual requirements with EARS',
-    description:
-      'Whenever a customer engages with a supplier, there must be some sort of contract to define what is needed. This defines the requirements for the activity, whether this is verbal, a set of user stories, or written requirements. Requirements in whatever form are all too often ambiguous. The Easy Approach to Requirements Syntax (EARS) approach is a simple mechanism to gently constrain textual requirements. EARS has been shown to drastically reduce or even eliminate the main problems usually found in textual requirements.',
-    level: 'Introductory and overview',
-    tags: [
-      'softskills/workskills',
-      'software methodology/process',
-      'management',
-    ],
-  },
-  {
-    id: 67,
-    title: 'This is a talk about Nothing.',
-    description:
-      "NULL, None, 0, nullptr, nil, NaN. Every programming language\nrepresents the concept of nothing, zero or just 'not a thing' in a different way.\n\nThis talk looks at the various different representations\nof 'nothing' in programming languages, exploring how the concept\nhas developed over time, how representations differ and what each method has\nover another one.",
-    level: 'Intermediate',
-    tags: ['programming languages'],
-  },
-  {
-    id: 68,
-    title: 'Freedom to choose: Free Software Licensing made simple.',
-    description:
-      'Free Software licensing is a minefield which most in technology avoid\nnavigating until they really must.\n\nWhy are Open Source licenses not Free Software Licenses, apart from when they\nare? How do all these licenses differ? How might the GPL affect me as a user,\ndeveloper or business? How can I make a choice on which to use?\n\nThis talk aims to educate attendees so that they may make informed decisions\nabout the licenses of the Free Software they use, contribute to and create.\n\nWe will dispel your concerns, increase your confidence and give you the\nability to participate in and understand Free Software licensing conversations.\n\nThis talk is for those who want to learn their GPL from their MIT and comes\nwith 100% no legalese guarantee.\n\nThe speaker delivers the knowledge they learned through years of being a\npassionate Free Software creator, contributor and user.\n\nThis talk is about Free Software; Free as in Freedom, not gratis software.',
-    level: 'Introductory and overview',
-    tags: ['software licensing', 'free software'],
-  },
-  {
-    id: 69,
-    title: "D: It's an option.",
-    description:
-      "The D programming language is little used in comparison to it's competitors in\nC++, Rust and Go.\nHowever, D is a real, modern language, with a good ecosystem, great tools and a lively community.\n\nThis talk aims to inspire and excite attendees into exploring the D programming language.\nWe'll visit all of D's best features and discuss how it might be an option for\nyour next software project, whatever the scale.\n\nD is a language which can be easily picked up today by users of C-like languages,\nRust, Go and Python.",
-    level: 'Intermediate',
-    tags: ['programming languages'],
-  },
-  {
-    id: 70,
-    title: 'Mind Hacking for Sustainable Health & Wellness',
-    description:
-      'Whether we like it or not, the mind and body operate on automation. With this automation, we pick up habits all the way through our lives that can be positive and negative. As a society, we are riddled with negative habitual patterns that take control of our lives.\n\nWith chronic diseases and obesity rates significantly increasing, and mental health issues on the rise, we face a challenge that goes far deeper than simply getting a prescription from the pharmacist.\n\nInstead, we must understand how our minds and bodies work at a fundamental level so that we can understand habit formation, habit reformation and how to construct a healthy lifestyle that works on an individual level.\n\nDuring my talk, I will dive into how our automatically minds form habits, the most common negative habits and how a simple formula can begin to shift old patterns. From there, I will depict how mind hacking can be used to develop a healthy lifestyle that is long-lasting and sustainable.',
-    level: 'Intermediate',
-    tags: [],
-  },
-  {
-    id: 71,
-    title:
-      'Ad-blockers & the ad supported internet; technology, economics, & ethics',
-    description:
-      "Would you be okay with someone following you around every place you visited in town, noting what you looked at, how long you spent looking at anything, who you spoke to, and what you ate? (is this even an apt analogy to use for online trackers?)\nIs it okay to consume content for free while blocking the main (or only) monetisation strategies of the creators?\n\nThe ad-supported internet has changed a lot since the times of the Million Dollar Homepage, with online advertising worth over $85bn a year in the United States alone, and now carries serious security & privacy concerns with it.\n\nIn this talk I'll discuss the technology, economics and ethics of online adverts, and the various blockers that people use to avoid them.",
-    level: 'Introductory and overview',
-    tags: ['security', 'privacy'],
-  },
-  {
-    id: 72,
-    title:
-      'Run your ASP.NET Core solution in AKS and survive production',
-    description:
-      'Thanks to Azure Kubernetes Service, it only takes a few minutes to have your fully managed Kubernetes cluster up and running on Azure. You can quickly start experimenting with what is considered the de-facto standard to orchestrate containers solutions and understand how to leverage it and integrate it with the rest of the Azure ecosystem.\n\nHowever, this is just a first step: going to production requires an in-depth look at several aspects which we have to take into account. How do I safely roll out an update after the initial deploy? How can I bring my custom domain, and expose my website in HTTPS? How do I ensure that my cluster stays healthy over time and how do I monitor it?\n\nThese are some of the topics we are going to explore during the talk, together with some useful best practices that will guide you when productionising your first container-based application.',
-    level: 'Advanced',
-    tags: [
-      'security',
-      'cloud',
-      'devops',
-      'demo',
-      'kubernetes',
-      'containers',
-    ],
-  },
-  {
-    id: 73,
-    title: 'Distilling claims based security in ASP.NET Core',
-    description:
-      "ASP.NET Core brings, among the others, a completely revised security model, which has profound implications on how we deal with authentication, authorisation and resource management in our applications.\n\nHow do we support different identity providers? How do we implement a resource-based authorisation policy? How do we leverage multiple security protocols at the same time? \n\nDiring this talk we'll do a deep dive into the ASP.NET Core security infrastructure, answering the above questions and many more",
-    level: 'Advanced',
-    tags: ['security', 'cloud', 'demo'],
-  },
-  {
-    id: 74,
-    title:
-      'Integrate containers and Kubernetes into your Azure DevOps build and release model',
-    description:
-      'Docker has become a first class citizen in Visual Studio 2017 and porting your applications to containers is easier than ever. The advantages of this technology become really evident in Azure DevOps, when we can easily leverage the flexibility of containers in a number of areas.\n\nThis talk will showcase how Docker makes possible to build our code in Azure DevOps by using the most up-to-date SDKs, to create a fully working temporary environment to run our integration tests and to even use containers in order to run UI tests.\n\nThen we will present a possible approach to distribute the images in Azure Container Registry, isolating development images from the production ones. \n\nAs a last step, we are going to explore how Azure Kubernetes Service fits into the loop, and how PaaS services in Azure can be created on the fly, integrated with our application in Kubernetes, and monitored altogether when live.',
-    level: 'Intermediate',
-    tags: ['devops', 'cloud', 'demo'],
-  },
-  {
-    id: 75,
-    title:
-      'Use ASP.NET Core to build your API microservices infrastructure',
-    description:
-      "When it comes to building an API layer, ASP.NET Core is one of the most modern platforms in the industry.\n\nDuring this talk we'll explore the most interesting peculiarities of the framework, such as ensuring resilient communications, managing security, worldwide-scale caching or the support to OpenAPI.",
-    level: 'Introductory and overview',
-    tags: ['cloud', 'demo', 'api'],
-  },
-  {
-    id: 76,
-    title: 'Bring your ASP.NET Core solutions to Kubernetes in Azure',
-    description:
-      "Containers are one of the major breakthrough in IT of the past few years, and promise to revolutionise the way software is developed and deployed. Thanks to the support in Visual Studio 2019, time has never been more favourable to adopt them in our technological stack.\n\nThis talk will showcase a possible approach to port an existing ASP.NET Core solution to Docker, demonstrating how seamlessly Visual Studio integrates them in the development experience, while still embracing the advantages of dependency management that containers make possible.\n\nAfter executing the solution locally on the development machine, we'll explore which options we have in order to deploy it on Azure Kubernetes Service. We'll show a possible example for a CI/CD pipeline in Azure DevOps and demonstrate how we can integrate it with the PaaS offering in Azure, such as Cosmos DB and Redis Cache.",
-    level: 'Introductory and overview',
-    tags: ['devops', 'demo', 'cloud'],
-  },
-  {
-    id: 77,
-    title: "Help I'm your manager!",
-    description:
-      "Well done, you've been promoted and tomorrow you'll be managing your first ever team. Wait, what on earth do you do?! Management is a whole new skill, which all of you can be great at. But like any skill it needs to be learned and starting this learning halfway through a career can be daunting. As an experienced manager, and former engineer, benefit from my experience of the highs and lows of taking the next step. By the end of this talk you'll be ready to face your next career challenge.",
-    level: 'Intermediate',
-    tags: ['management', 'softskills/workskills'],
-  },
-  {
-    id: 78,
-    title: 'High Performance DevOps',
-    description:
-      'Adopting DevOps can enable you, your team or your company to reach performance heights you never dreamed of! Join me in a deep-dive into the cultural practices that can get you delivering harder and faster. First we define high performance. Then we built the ties to DevOps. Hear my hilarious anecdotes of this going right, and very, very wrong. Finally, get some practical tips on implementing these approaches at your company (especially against a resistive management).',
-    level: 'Intermediate',
-    tags: [
-      'devops',
-      'softskills/workskills',
-      'software methodology/process',
-    ],
-  },
-  {
-    id: 79,
-    title: 'How to write a Virtual Machine in PHP',
-    description:
-      'A completely ridiculous idea; join me on a whirlwind demo on how to design and build a Virtual Machine, a toy language and compiler. As well as being a fun and detailed introduction to  the concept of Virtual Machines this talk examines the phenomena of our passion for (and against) different programming languages. Perfect for anyone who has thought about writing their own compiled languages or who just passionately loves (and hates) PHP.',
-    level: 'Intermediate',
-    tags: ['software methodology/process', 'demo'],
-  },
-  {
-    id: 80,
-    title:
-      "Why you shouldn't really need to write a DSL and how to do it anyway.",
-    description:
-      "If you feel the need to write a Domain Specific Language for your next project then, well, you likely don't. But it's so much fun lets do it anyway! This is a detailed talk about how to design domain languages and tips on how to implement it in Python. Obviously after I've warned you not to bother in the first place....",
-    level: 'Intermediate',
-    tags: ['software methodology/process', 'demo', 'dsl'],
-  },
-  {
-    id: 81,
-    title: 'IoT in your Home?  Consequences and Countermeasures',
-    description:
-      "So, you've heard of the amazing things you can do with Internet of Things devices, and can't live without an internet-enabled toaster that toasts today's weather forecast on one side and the news headlines on the other.  Good for you!  But...like Jeff Goldlum said in Jurassic Park, could it be we were too busy asking whether we *could*, to consider whether or not we *should*!\n\nWhat are the consequences of allowing an IoT device unfettered access to your home network?  Would you be surprised to hear that they could extend from stealing the data in your laptop, all the way to threatening the very infrastructure of the internet itself!  This is no conspiracy theory either - it has already happened, and most likely will again.\n\nNaturally, we don't want to have to abandon our IoT toaster out of sheer panic, we want to know what we can do to still have our weather-patterned bread and be safe. \n\nThis talk will look into the threats that exist our there to you - the home IoT user,  and what steps you can do to mitigate them.  We'll be covering simple steps that nearly anyone can implement, as well as briefly looking at some of the more advanced steps for experts.",
-    level: 'Introductory and overview',
-    tags: ['security', 'iot'],
-  },
-  {
-    id: 82,
-    title: 'Beginning your Infrastructure as Code journey in Azure',
-    description:
-      "Infrastructure as Code allows you to consistently deploy and configure your cloud infrastructure without human interaction and the errors that come along with that. \n\nIf you're deploying into Microsofts Azure cloud there are a variety of different ways you can deploy using IaC, ARM Templates, Terraform, PowerShell DSC, Chef, Puppet, Ansible etc. In this session, we will take a look at why you might want to make use of some of these tools, when to use which tools, and what the benefits (and downsides) are for these tools.\n\nYou'll come away from this session with an overview of how to start your Infrastructure as Code journey in Azure, what tools are available, and which are best for you.",
-    level: 'Introductory and overview',
-    tags: ['cloud', 'devops'],
-  },
-  {
-    id: 83,
-    title: 'Pick a Platform - Hosting Containers in Azure',
-    description:
-      "If your looking to run container-based applications in Azure, the number of choices can be overwhelming. Azure offers a wide array of options for hosting containers in the cloud. AKS, ACI, Web Apps, Service Fabric, Functions and more. In this session, we'll look at what options are available for container hosting and explore when you would, and would not, use them. We'll look at the advantages and disadvantages of each platform and the use cases that fit them.",
-    level: 'Introductory and overview',
-    tags: ['cloud'],
-  },
-  {
-    id: 84,
-    title:
-      'Building for the Google Assistant: Voice First vs. Screen First',
-    description:
-      "Learn to build for voice first so you can easily surprise and delight your users on hundreds of millions of devices through the Google Assistant. Let’s be honest: it's quite easy to be tempted to take an existing visual-based experience and simply convert it to voice. In this talk, we’ll cover five key ways voice-first development differs from screen-first development. You’ll learn how to create engaging experiences for voice, the next major disruption in computing. By the end of this session, you should have a better understanding of what types of use cases transfer well to voice interactions and why.",
-    level: 'Introductory and overview',
-    tags: ['artificial intelligence', 'cloud'],
-  },
-  {
-    id: 85,
-    title: '10+1 Things Every Google Assistant App Should Do',
-    description:
-      'Learn to build for voice first so you can easily surprise and delight customers on hundreds of millions of devices through the Google Assistant. In this talk, we’ll cover ten key things every Action on Google should do in order to deliver a truly engaging voice experience including best practices, useful resources, high level voice design concepts, and technical tips on making Actions on Google multilingual and designing for multiple device types (think smart displays) at the same time. You’ll also learn about three most common mistakes to avoid when building for the Google Assistant to keep your users happy.',
-    level: 'Introductory and overview',
-    tags: ['artificial intelligence', 'cloud'],
-  },
-  {
-    id: 86,
-    title: 'Tech for Good: Making a Difference with Google Assistant',
-    description:
-      "It takes a little help from everyone — activists, engineers, and designers — to make the world a better place. Every day, there are new examples of how voice technology is being used to solve the world's problems. Companies around the world are bringing attention to social issues and using technology to fix them. In this talk, we’ll explore various ways to use the power of the Google Assistant for the benefit of people and society to solve the world’s most enduring challenges and generate positive social impact, and how you too can start building apps that make a difference.",
-    level: 'Introductory and overview',
-    tags: ['artificial intelligence', 'cloud'],
-  },
-  {
-    id: 87,
-    title:
-      'Crafting a Character: Create a Persona for your Google Assistant App',
-    description:
-      'Do you want to build an awesome Google Assistant app that people will not only use rather out of necessity but actually love to talk to? It all starts with creating a persona; think of it as the front end of your Action on Google, the conversational partner you design to interact directly with users. Defining a clear system persona is vital to ensuring a consistent user experience that builds user trust. In this talk, you’ll learn about useful tools, get tips, and see a few examples of how well-designed personas can completely transform voice-enabled interfaces and boost user engagement.',
-    level: 'Introductory and overview',
-    tags: ['artificial intelligence', 'cloud'],
-  },
-  {
-    id: 88,
-    title:
-      'Zero to App: Introduction to Building Apps for the Google Assistant',
-    description:
-      'Actions on Google are an exciting way to interact with your users through the Google Assistant. They provide a conversational interface between you and your user, and they are super simple to build with Dialogflow. Not sure how to start developing your very first Action on Google? In this talk, we’ll cover everything from understanding the business use case and the high level voice user interface (VUI) design best practices to implementation, testing, and, finally, publishing your app. By the end of this session, you should have a better understanding of the Assistant service ecosystem and how to get started.',
-    level: 'Introductory and overview',
-    tags: ['artificial intelligence', 'cloud'],
-  },
-  {
-    id: 89,
-    title:
-      'Beyond Smart Speakers: Get Your Google Assistant Apps Ready for Smart Displays',
-    description:
-      'In an ever-expanding world of devices for the Google Assistant (smart speaker, smartphone, tablet, smartwatch, earphones, smart TV, car, smart display, and the list goes on and on), developers face today completely new challenges in creating effective and consistent experiences for users. In this talk, we’ll take a closer look at our user’s daily journey as they’re moving from one device to another and cover some key considerations for designing Actions on Google across surfaces - with useful tips to understand when and how to leverage visuals alongside voice interactions, to create rich, delightful conversational experiences for smart displays and more.',
-    level: 'Intermediate',
-    tags: ['artificial intelligence', 'cloud'],
-  },
-  {
-    id: 90,
-    title:
-      'Google Assistant: Thriving in a New Age of Brand Engagement',
-    description:
-      'Machines are finally adapting to our conversational way of communication and people are adopting smart speakers faster than they adopted smartphones 10 years ago. At the same time, voice puts us into a whole new world, almost making obsolete years of visual UX knowledge and best practices related to screen first interactions. How do you create a brand experience when you take away visuals, imagery, colors — everything you crafted so carefully for your brand’s online presence —and make your brand available through a virtual voice assistant? In this session, we’ll discuss the challenges and opportunities that different kinds of organizations are facing when it comes to creating successful voice first experiences.',
-    level: 'Introductory and overview',
-    tags: ['artificial intelligence', 'cloud'],
+    lengths: ['60 minute talk'],
   },
   {
     id: 91,
     title:
-      'Designing Your Career: Explore a Career Change and Do What You Love',
+      'Building better ASP.NET web applications in 2020, whatever the framework...',
     description:
-      'A bioorganic chemistry turned quantum chemist turned community manager & digital marketer at Google turned women in tech advocate & UK STEM Ambassador (focused on teaching kids how to code) turned international speaker & Google Assistant developer. As a conference-speaking code-writing world-traveling breastfeeding mom, I’ll trace my career path as a woman in tech all the way from the first steps into STEM on up to being named as one of the NEXT 100 Top Influencers of the European Digital Industry and beyond and share 10 things I learned along the way to help you overcome your fears and make it happen. So if you’re still wondering, ‘Is it too late to change careers?’, the answer is no.',
-    level: 'Introductory and overview',
-    tags: ['softskills/workskills'],
+      "Keeping up\" as an ASP.NET developer in 2020 is hard...\n\nThere was a time when, as an ASP.NET developer you really didn't face many choices.\n\nYou used WebForms and the furthest you ventured into the wacky world of javascript was to employ a little JQuery here and there when you needed to spice things up!\n\nNow you face endless choices.\n\nASP.NET or ASP.NET Core?\n\nMvc or Razor Pages?\n\nBlazor or not Blazor?\n\nAnd that's before you even begin to consider the JS ecosystem and everything that comes with it.\n\nHow are you supposed to know where to begin? And what if you choose \"wrong\"? \n\nWhat if Blazor really is the next big thing and you wait too long to learn it? \n\nOn the other hand, what if it's a passing fad and you sink hours of your precious time into learning it only to discover it's another Silverlight, dead within five years?\n\nThankfully, there is no \"right\" choice, and what's more, if you architect your .NET application right you'll find UI framework choice is far less important than you might expect.\n\nIn this session we'll take a whistle-stop tour of ASP.NET development in 2020, compare the available options (MVC, Razor Pages, Blazor) and (crucially) discover how to structure your ASP.NET applications so you don't have to bet the farm on any one option, now or in the future.",
+    level: 'Intermediate',
+    tags: ['architecture', 'software methodology/process', '.net'],
+    lengths: ['60 minute talk'],
   },
   {
     id: 92,
-    title:
-      'A Culture of Flexible Working as Key to Keeping More Women in Tech',
+    title: 'Implementing reliable DDD-based microservices',
     description:
-      'Women in tech are leaving the field at alarming rates and many of them cite not having flexibility in their jobs as the main reason. That’s why work flexibility is so important to help keep women in tech engaged in the workforce. As a woman in tech who just had her child, having the ability to work remotely has been incredibly valuable to me. It allows me to spend more time with my child while still staying connected to my career. I want to be able to show my daughter the importance of working hard but also the value of spending time with your family. By not making it an either/or choice, we can expect better results at work and happier families at home.',
-    level: 'Introductory and overview',
-    tags: ['softskills/workskills'],
+      "Using a microservice architecture is a big move, but totally possible when using the right tools. DDD is one of the key concepts for the maintainability and reliability of microservices. Let's understand some new concepts and technologies that help us to create well-developed and reliable services.",
+    level: 'Intermediate',
+    tags: [
+      'architecture',
+      'software methodology/process',
+      'maintainence',
+    ],
+    lengths: ['30 minute talk'],
   },
   {
     id: 93,
-    title:
-      'Leaving No One Behind: Building Apps for The Next Billion Users',
+    title: 'How the open-source can change your life for the better',
     description:
-      'The future of the Internet is in the hands of the next billion users — the latest generation of internet users to come online on smartphones in places like Brazil, China, India, Indonesia and Nigeria. As time goes on, the average internet user will be more like these “next billion users” than the first billion who started on PCs. That means we need to look not just at Silicon Valley or London but to places like Sao Paulo, Bangalore, Shanghai, Jakarta and Lagos to truly understand where the internet is going.\nPeople in these countries are facing very different constraints to accessing the internet. In this talk, we’ll cover best practices, guidelines, and applied examples of how mobile developers can build their apps to be truly global and inclusive. Some things to consider: the next billion users have a mobile-only mindset, an instinct for ubiquitous computing, a demand for localized content; the Internet access in emerging markets is still slow and intermittent; 80% of people with disabilities live in emerging markets. Come and learn how to create great experiences that work well for billions of users around the world.',
+      "Investing time on open-source projects might improve your career. This is the history of my life, and I'm gonna share it with you. You don't have to be big to get benefits from open-source. It has changed my life, and it can change yours too.",
     level: 'Introductory and overview',
-    tags: ['mobile', 'cloud', 'architecture', 'ux'],
+    tags: ['open source', 'cross discipline'],
+    lengths: ['30 minute talk', '60 minute talk'],
   },
   {
     id: 94,
-    title:
-      'Cache me outside - Caching Methodologies and Architectures',
+    title: 'Invest in yourself. Be searchable!',
     description:
-      'Caching can be your best-friend or your worst best-friend. A poor cache implementation can mean the difference between experiencing blazing fast performance or unexplained random slowness, or both! It can even result in random stale (out of date) content which you can’t explain.\n\nIn this presentation we will demo and compare different caching methodologies, and their perceived real world uses. We will discuss Donut cache, Memory cache, Redis, Varnish, CDNs, and many more. We will dive into demos of real world implementations which can cause unpredictable problems. Some of these are horrible, and some are face-palm.\n\nAt the end of this presentation you will be aware of the different trade-offs with each caching methodology, and which might best for your situation.',
-    level: 'Intermediate',
-    tags: ['architecture'],
+      'Did you already search for you on the Web? What did you find? Did you like it? Think that a new potential employee will do the same. So, how are you being shown? Do you invest in your image? You should! You don’t have an idea how is important to invest in your own marketing as a developer.',
+    level: 'Introductory and overview',
+    tags: ['coreskills/softskills', 'management'],
+    lengths: [
+      '30 minute talk',
+      '60 minute talk',
+      '15 minute lightning talk',
+    ],
   },
   {
     id: 95,
-    title: 'Office 365 as a development platform',
+    title:
+      'Teaching a Toddler to Read and Write (well, type) with Javascript',
     description:
-      "The services that Office 365 provides are so much more than managed SharePoint and Exchange. These days there's a whole ecosystem of Office services with new lo/no code tools like Flow and PowerApps to provide the connective tissue. Not only that, but when you can't do what you want in Office 365, it's easy to reach out and consume the richness of Azure's many services to fill the gaps. What might have taken weeks to achieve in a bespoke application can be built in hours if you take full advantage of the platform.\n\nThe talk will introduce some of the key concepts behind Office 365 as a development platform, outline the tools available, and discuss some of our experiences both good and bad in doing development this way for a variety of customers. The talk will end on a discussion on the far bigger topic of how platforms like Office 365 which are made for automation and AI are not just tools we as developers can use, but also potentially represent an existential threat to the way we work as developers.",
+      "Since starting a new job working from home, my 3 year old has become very interested in joining meetings and 'helping' me work. I have a broken old Apple keyboard set up next to me so he can press buttons, but it occurred to me - he's a smarty pants, maybe he really could join in...\nThis talk is the result of a 6 month experiment of me building a simple little JS app and inflicting it on my poor child to see if he can learn to read and write (well, type).",
     level: 'Introductory and overview',
-    tags: ['cloud'],
+    tags: ['demo', 'javascript'],
+    lengths: ['60 minute talk'],
   },
   {
     id: 96,
-    title: 'Nailing down distributed workflows with microservices',
+    title:
+      'Creating a hybrid and multi-cloud strategy using Azure API Management',
     description:
-      'Workflows are present in every business. These bring up different challenges such as integration with different systems, long-lived transactions, failure recovery and more.\nIn this session we’ll learn how to address these issues with a distributed, event-driven architecture based on microservices that I’ve been using successfully in the last three years across different projects. We also learn how to implement this architecture with MassTransit and Automatonymous and run it on containers with Kubernetes.\n \nThe session broken down into three parts. In the first part of the session we’ll brush up some DDD patterns and microservices patterns such as sagas, orchestration and different communication patterns. \nOn the second part we’ll put those patterns in practice by building up the sample architecture for an imaginary business, which requires integration with external systems with different communication protocols and built with different technologies (Python, Node, …).\nOn the final part we’ll see how to implement the architecture.',
-    level: 'Advanced',
-    tags: ['architecture'],
+      'Many of us are migrating to the cloud, however this transition will take time. So how do we manage and monitor our on-premises services and APIs during this migration? And what if we can never move them to the cloud, either due to technical, procedural or security reasons? Maybe we even want to have a multi-cloud strategy, bringing together the best from all different providers. How can we ensure they are still brought under governance, in a secure manner, and adhering to the policies we want?\n\nThis is where Azure API Management comes in, allowing us to create a vibrant API ecosystem, not matter where our services live. In this session we will dive into the options to manage our APIs in Azure, on-premises in a hybrid environment, on the edge with our devices, or at any other provider in a multi-cloud scenario, all with one seamless experience. Expect a deep-dive into Azure Arc combined with API Management, with best-practices, demos and lessons learned from the field.',
+    level: 'Intermediate',
+    tags: ['cloud', 'architecture', 'infrastructure', 'azure'],
+    lengths: ['60 minute talk'],
   },
   {
     id: 97,
     title:
-      'Artificial intelligence highlights of 2019. Spot, verify, implement!',
+      'Building better security for your API platform using Azure API Management',
     description:
-      'With so much technological change, the state of AI has been difficult at times to fully grasp. How to differentiate what is progress, and what is merely hype? What has to be taken into account in the development of business strategy around AI 2019 onward? This talk has 2 goals. First, to identify the most important advancements in AI within the last 12 months. Second, to simultaneously presents factors and authorities that shape the current state of AI. Bonus: remarks and the most critical metrics from reports published by a variety of institutions including MIT, Harvard, as well as key business influencers such as OpenAI. This talk will benefit everyone interested in AI top stories and stimulate businesses to seek for robust AI driven solutions.',
-    level: 'Introductory and overview',
-    tags: [
-      'artificial intelligence',
-      'softskills/workskills',
-      'big data',
-    ],
+      'These days we use APIs to expose all our microservices , processes, and data, and all this while working in a PaaS or serverless environment. But how do we ensure this is done in a secure and governed way? \n\nThis is where Azure API Management comes in, where we can create a repository of all our APIs, and make sure to expose all of these securely in a standardized manner. In this session we will dive into the most common security hazards, and see how API Management helps us solve these. You will learn all about the strengths and weaknesses of the product, best practices, and how to harden the defenses of your services.',
+    level: 'Intermediate',
+    tags: ['security', 'cloud', 'azure'],
+    lengths: ['60 minute talk'],
   },
   {
     id: 98,
     title:
-      "Is Sophia - the World's First Robot Citizen - really a super robot? Data science driven explantion.",
+      'Building Smarter Solutions Using Azure And Cognitive Services',
     description:
-      "Sophia is considered one of the most sophisticated AI with a humanoid body designed to develop human-equivalent intelligence. It attracts controversy not only because of Audrey Hepburn resemblance, but also to be granted with a full citizenship of Saudi Arabia. Its creator- Hanson Robotics - describes the machine as being designed to use artificial intelligence to see people, understand conversations, form relationships and improve all the above based on humans body language, gestures, facial expressions, or eye contact it captures. The goal of this talk is to explain how the robot processes data (by showing parts of its open source code) and to define its status between self-conscious and being a pre-programmed chat bot with a human face. It will also include the most interesting and controversial footage from Sophia's public appearances. Suitable for everyone interested in the 'scientific mechanics' behind artificial intelligence.",
-    level: 'Introductory and overview',
-    tags: [
-      'artificial intelligence',
-      'design',
-      'machine learning',
-      'big data',
-      'blockchain',
-    ],
+      "There's a lot of discussion going on around Artificial Intelligence, and for good reason. AI and Cognitive Services are getting more powerful all the time, and it can be confronting to see all these developments. But how can we leverage this power in our own solutions, using it for making the life of our users and customers easier?\n\nIn this session, you will see learn we can get data from the real world, and use this to drive our business, and all this in a serverless manner. Thanks to Microsoft Cognitive Services it's easy to integrate and work with speech, text, images and videos into our processes. Come and learn how to use this to your own advantage, driving your business forward.",
+    level: 'Intermediate',
+    tags: ['cloud', 'artificial intelligence', 'azure'],
+    lengths: ['60 minute talk'],
   },
   {
     id: 99,
-    title: 'Turbo Charging your Mob Programming Sessions.',
+    title: 'A Guide Through The Azure Messaging Services',
     description:
-      'So you’ve heard of Mob Programming! Maybe you’ve tried it. \n\nBut even still you’re not sure how it applies to your workplace?\nOr perhaps you would like to learn what it is about or solidify your knowledge?\n\nThis talk is for you! After 60 minutes you will: \n\n* Know the rules of mob programming.\n* Be more effective working in a mob.\n* Know how to encourage others into Mob Programming.\n* Understand how Mob Programming can boost the learning of your team.\n* Use Mob Programming to turbocharge your productivity.',
+      'Almost any solution we build will have some sort of messaging in their architecture. But how do we choose what type of messaging we need? From messages to events, from streams to publish and subscribe, the options seem overwhelming. In this session we will dive into the various types of messaging, and which services we can leverage in Azure to implement them. Once finished, you the world of messaging is at your feet, and you will be able to counter any type of messaging which comes on your path.',
     level: 'Introductory and overview',
-    tags: ['software methodology/process', 'softskills/workskills'],
+    tags: ['cloud', 'architecture', 'azure'],
+    lengths: ['60 minute talk'],
   },
   {
     id: 100,
-    title: 'Design Thinking Dad*: Why I take my work home',
+    title: 'Azure Resource Manager In A Serverless World',
     description:
-      "Over the last year, Design Thinking Dad has been on a transformational personal journey — from a 'Digital Designer' trapped by Waterfall delivery, to a 'Design Thinker' working in a fast-paced Agile environment.\n\nIn this talk, he'll share what he learned and show how, armed with only an abundant supply of post-it notes, he's using Design Thinking at work to empower creative teams and in his personal life to tackle the everyday challenges of being a parent.\n\nThis refreshing and light-hearted talk will help you to:\n\n- identify your everyday ‘pain-points’ and generate creative solutions to overcome them\n- quickly and easily co-create awesome experiences with your colleagues, family and friends  \n- understand the human skills you’ll need to ensure you’re ‘robot proof’ and prepaid for the 4th Industrial Revolution...\n\n...but perhaps most importantly, he’ll attempt to answer the ultimate question — how should you respond when your kids ask \"are we nearly there yet?\"\n\nYou don’t have to be a Dad or even a parent to enjoy this talk. Design Thinking Dad will share practical tips on how you can use Design Thinking mindsets and methods to lead a more meaningful, creative and joy filled life (it just so happens that his biggest pain-points are his kids.)\n\n*Dad jokes and dancing will be kept to a minimum.",
+      'So we have heard about using Infrastructure as Code to deploy our environments and resources, but how do we apply this in a world of Platform as a Service and Serverless? What tooling can we use, and how do we ensure our templates are created correctly?\n\nIn this session you will learn tips, best practices and techniques from real customers on using Azure Resource Manager templates to make your journey as smooth as possible. We will see how to get started on creating templates, how to easily move from portal to Infrastructure as Code, and what tools are available to help us with this. And we will dive even deeper, looking into deployment strategies, template testing and other scenarios.',
     level: 'Introductory and overview',
-    tags: [
-      'softskills/workskills',
-      'design',
-      'software methodology/process',
-    ],
+    tags: ['cloud', 'devops', 'azure'],
+    lengths: ['60 minute talk'],
   },
   {
     id: 101,
-    title: 'Draw UX (or how to get your visual thinking groove on)',
+    title: 'An introduction to Blazor',
     description:
-      "Working visually is a super power. It increases your ability to understand and share complex information, think creatively and collaborate effectively. But for lots of adults drawing at work is a huge step outside of their comfort zone.\n\nI'm a business visualiser who draws, writes and trains. \n\nIn this session I will show you how to use visual skills throughout the UX journey, transforming your engagement and problem solving skills, and how you already have the functional drawing ability you need, even if you can barely draw a stick. Honest.\n\nBy the end of this session you will understand WHY working visually is so effective, but more importantly you'll get to see HOW it works by trying out visual exericises yourself.\n\ntestimonial: \"they are enthusiastic, knowledgable, funny, clear and articulate in their delivery, and bring everyone in the room along with them. They would be an asset to any event!",
+      "Run C# code on your browser, no plug-ins, no extensions and that's Blazor! Something a lot of developers have been dreaming of.\n\nBlazor is a feature of ASP.NET. It lets you build interactive web UIs using C# instead of JavaScript. Yes, you write your client-side and server-side code in C#!!! It makes use of the latest web standards and requires no additional plug-ins or add-ons to run. Its big selling point is the ability to write rich web UI experiences using HTML, CSS, and C# instead of JavaScript..\n\nMy session will give an introduction to Blazor - discussing what is Blazor, what is Blazor WebAssembly, what is Blazor Server and an overview of Blazor Components. Attendees can gain a good understanding of this game-changing platform which could offer clarity when it comes to UI.",
     level: 'Introductory and overview',
-    tags: ['softskills/workskills', 'design', 'ux'],
+    tags: ['language specific', 'frontend', '.net'],
+    lengths: ['60 minute talk'],
   },
   {
     id: 102,
-    title: 'Debugging with Visual Stduio',
+    title: 'Developing Actions on Google with .NET',
     description:
-      'Many times when debugging the F10 and F11 keys get worked overtime, and maybe the occasional breakpoint. However Visual Studio has many functions to help with debugging. In this talk I will go through the debugging features from basic breakpoints to thread and processes windows, showing how these can be used to speed up the beginning, by getting quickly to the problem code.',
-    level: 'Introductory and overview',
-    tags: ['debugging'],
+      'Do you own a Google Home? Ever wondered how clever it is? Well, then I can teach you a trick or two to build your own Action on Google.\n\nGoogle Assistant is an artificial intelligence-powered virtual assistant developed by Google that is primarily available on mobile and smart home devices. Its functionality can be extended to do anything from managing your task list, to controlling the brightness of your connected lights to a complex conversational bot which can book your next holiday. In my session I talk about how you can develop an Action on Google using .Net, leveraging the power of DialogFlow, the conversational platform which helps you design and customise your Actions.',
+    level: 'Intermediate',
+    tags: ['iot', '.net'],
+    lengths: ['60 minute talk'],
   },
   {
     id: 103,
-    title: 'Alert Fatigue: Tips to avoid cacophony',
+    title: 'Want to know about spices? Lets talk to Alexa!',
     description:
-      "You've monitored all the things, you've turned on all the alerts to make sure you don't miss a thing. You're ready to take on the world. Get the balance wrong and you might end up being deafened. Drawing on over a decade of experience of supporting software systems, we look at how the DevOps race to produce metrics from everything could lead to decision paralysis.  How much is enough? How do you empower your teams to swim not drown?",
-    level: 'Introductory and overview',
-    tags: ['devops', 'monitoring', 'observability'],
+      'Alexa is the cloud based, natural voice service from Amazon. It is an intuitive way of interacting with technology - using natural spoken language, and once you are past the learning curve, developing for Alexa can be quite fun. \n\nI come from India. Talk about my home country and you just cannot not talk about spices. Spices might be "the ingredient which adds taste and aroma to your food" but they have a variety of uses from cleaning to being used in quick home remedies. \n\nMy session will combine the two - spices and Alexa. I will talk about developing a custom Alexa skill which can tell you some interesting facts about spices. Attendees can gain knowledge on how to develop a custom skill for Alexa using .Net and of course, some knowledge on spices!',
+    level: 'Intermediate',
+    tags: ['iot'],
+    lengths: ['60 minute talk'],
   },
   {
     id: 104,
+    title:
+      'You have a blog? Lets turn it into an Alexa Flash Briefing !!!',
+    description:
+      'A blog is useful for many reasons. It can become a source of leads, it can be the place where you talk about your products/services or it can simply be the place where you have your audience and express your ideas. There are proven success stories with blogging. But what if you can have a wider outreach for your blog? What if your subscribers get to know that there is a new blog post from you while they enjoy their morning brew?\n\nAlexa Flash Briefing is a type of Alexa skill where users can subscribe to a news feed which gives them information updated periodically. In my session, I will be talking about how you can convert your blog into an Alexa Flash Briefing.',
+    level: 'Intermediate',
+    tags: ['iot'],
+    lengths: ['60 minute talk'],
+  },
+  {
+    id: 105,
+    title: 'Coding the trolley problem: Ethics in development',
+    description:
+      "As a developer, are you responsible for what you write? If you're assigned a ticket that you don't agree with, what do you do? Where does the buck stop? This talk encourages fellow professionals to examine the issues surrounding what we do and  ask who is ultimately responsible.",
+    level: 'Intermediate',
+    tags: ['management', 'coreskills/softskills', 'ethics'],
+    lengths: ['30 minute talk', '15 minute lightning talk'],
+  },
+  {
+    id: 106,
+    title:
+      "What's it worth? How to work out the value of what you're building",
+    description:
+      "As creators of software we often come up against the need to put a monetary value against what we're building. \nYou might need it to understand the value of one development versus another. You might be asked for it by people who have limited understanding of the idea and limited understanding of the software development process. You might need it so you can say \"If you spend X, you will earn Y\".\n\nIf you can't estimate the value of what you're building, how do you know it is worth building at all??\n\nIt is impossible to perfectly predict the monetary value of your hodge-podge collection of ideas and requirements, but your gut is telling you it is worth doing and that means something. With the right approach and some well reasoned assumptions you can go from gut to a sensible plan with a pretty graph.\n\nIn this session we will explore a fun, light-weight method of boiling down our idea to a set of assumptions. We will then use those assumptions to model how much a development will cost versus how much it will earn and when it will break even.\n\nAttendees will walk away with a method for turning something that feels like a valuable piece of work into a reasonable estimation of return on investment. The numbers cannot be perfectly accurate, but they will be much closer and better articulated than what your gut is telling you. \n\nThat estimate will be absolutely accurate enough for you to figure out which development is worth doing first and which pricing model makes sense. \n\nAttendees will find this a really useful process for seeing your project from a different perspective, flushing out previously unknown requirements and risks and it will allow you to create some pretty graphs with £ signs on them to appease your non-technical stakeholders.",
+    level: 'Introductory and overview',
+    tags: ['software methodology/process'],
+    lengths: ['30 minute talk', '60 minute talk'],
+  },
+  {
+    id: 107,
+    title: 'Hello Git Merging',
+    description:
+      'When I started using git, everything was fine until I wanted to merge my code. In my attempt to understand the different methods. I wrote Hello World with a bug and then added a new feature to it. This talk is about what I struggled with and learnt when I merged the bug fix and feature together, the various ways it can be done, what the outcomes were and what this meant.',
+    level: 'Introductory and overview',
+    tags: ['change management', 'software methodology/process'],
+    lengths: ['30 minute talk'],
+  },
+  {
+    id: 108,
     title: 'Dungeons, Dragons & Developers',
     description:
       'You enter the dungeon, as the echoes of your footsteps sound around you, something catches your eye - is that… oh, oh no.\n\nYou grab your trusty sword and with your fellow adventurers, you seek to overcome the mighty challenge that lays ahead of you: building software.\n\nThis talk is a look at some of the parallels between Dungeons and Dragons, and software development.\n\nWe’ll see how lessons learned through delving into dungeons and fighting monsters with a party of adventurers can help teams of developers when building software in the real world.\n\nAre you ready to join me in a mighty quest for better software?',
     level: 'Introductory and overview',
     tags: [
-      'software methodology/process',
+      'coreskills/softskills',
+      'leadership',
       'management',
-      'softskills/workskills',
+      'fun',
     ],
-  },
-  {
-    id: 105,
-    title: "Content Security Policies: Let's Break Stuff",
-    description:
-      "Content Security Policies are another tool we should have in our security toolbelt to help protect users of our sites. In this session you'll learn what they are, why they're needed, how they work and the limitations on what they can & cannot do to protect users.\n\nYou'll see a demo of attacks a CSP will block, you'll see a site broken by a CSP, show what the different CSP directives & options will do and be introduced to some of the tools available to help with implementing a CSP on your sites!",
-    level: 'Introductory and overview',
-    tags: ['security'],
-  },
-  {
-    id: 106,
-    title: 'Think like a hacker',
-    description:
-      "Much in the same way that to secure a house it helps to know how to break in, knowing how to attack our systems will help us secure them. You have a lot of data in your organisations. Whether you think it's sensitive or not, it has value. Whether an attacker wants data for profit, a grudge, or just for fun we need to ensure that we don't just leave the door open for them to take what they want.\n\nIn this session we'll start to think like a hacker. The what, why, who, where and how of an attacking mindset will leave you with practical steps you can take away and use to start protecting your systems a little better.",
-    level: 'Introductory and overview',
-    tags: ['security'],
-  },
-  {
-    id: 107,
-    title:
-      'How to be a better developer - without learning another JavaScript framework',
-    description:
-      'It’s increasingly important to make time for self-improvement and career development, but it’s hard to know where to focus your efforts. As developers we’re often attracted to learning new technologies and languages, however I’d like to make the case for a number of non-technical areas of development that I believe can give you a huge advantage in your career.\n\nIn this talk, I’ll share a number of skills that I’ve found compliment a technical toolbelt, such as generating and maintaining momentum within your team and looking beyond requirements to identify opportunities for your business. I’ll also share some tips to help fast track your progress, exploring why it’s important to seek out and identify the gaps in your skill set, and how to seize opportunities to strengthen these areas.\n\nIt’s my hope that this talk will give you a different perspective of what makes a great developer, as well as the tools and motivation to broaden your expertise so that you can make a bigger impact in your organisation.',
-    level: 'Introductory and overview',
-    tags: ['softskills/workskills'],
-  },
-  {
-    id: 108,
-    title: 'Tales of an app-y developer',
-    description:
-      "In this talk, I will discuss what it's like to be an app developer. Come and experience the highs and lows of this fast paced, constantly evolving area of tech. I will talk about the lessons I have learned, and suggest how app users can help developers to improve their apps.",
-    level: 'Introductory and overview',
-    tags: ['mobile', 'softskills/workskills'],
+    lengths: ['60 minute talk'],
   },
   {
     id: 109,
-    title: 'From Big Data to Impact in Telematics Industry',
+    title: 'Being Heboi - The Beauty of Failure',
     description:
-      'Europe’s leading provider of telematics solutions to the technology and logistics industry. Discover how with over 450,000 connected assets generating billions of messages a day, worldwide, we are evolving our platform to bring real-time analytics to our customers to improve safety, security and efficiency outcomes.\n\nIn this presentation, we are aiming to get you through the big data journey in transport industry by addressing issues in data storage and management, a distributed environment, stream data processing and machine learning. Technologies such as Kafka, HDFS, Spark and .Net Core Micro Services will be discussed using case studies.',
-    level: 'Intermediate',
-    tags: [
-      'iot',
-      'big data',
-      'software methodology/process',
-      'machine learning',
-      'artificial intelligence',
-    ],
+      "It's not uncommon to hear someone say \"Fail often, fail early\" after a project goes awry in some way. But what happens when you specifically aim to fail? Using the robot fighting phenomenon 'Hebocon' as an example we will discuss the beauty of failure, how lacking skills can empower your team, and learn the intrinsic value of useless things.",
+    level: 'Introductory and overview',
+    tags: ['coreskills/softskills', 'management', 'leadership'],
+    lengths: ['15 minute lightning talk'],
   },
   {
     id: 110,
-    title: 'Handing IoT Data at Scale',
+    title:
+      'From Under the Desk to In Your Cloud: The Rise of Low Code Solutions',
     description:
-      'Europe’s leading provider of telematics solutions to the technology and logistics industry. Discover how with over 450,000 connected assets generating billions of messages a day, worldwide, we are evolving our platform to bring real-time analytics to our customers to improve safety, security and efficiency outcomes.\n\nThe talk will cover ingesting data at high volume and high velocity using Apache Kafka (Streaming), data handling and processing using .net Core, Big Data with HDFS and Flexible data storage with Couchbase and performing analytics to provide insight.',
+      "Every company has one - a PC under a desk that runs some small yet business critical function. So what happens now in the world of low code solutions in the cloud? The traditional line between IT and Business is moving as technology further embraces users creating their own tools. \nThis talk will explore why providing a space for users to build their own tools is not only useful but essential: bridging the gap between developer and end user, and preventing those 'under desk' solutions from proliferating on your new cloud systems.",
     level: 'Introductory and overview',
-    tags: [
-      'iot',
-      'software methodology/process',
-      'architecture',
-      'big data',
-    ],
+    tags: ['cloud', 'management'],
+    lengths: ['30 minute talk'],
   },
   {
     id: 111,
-    title: 'Big Data, Big Testing',
+    title: 'The Power of Asking the Right Questions',
     description:
-      'Europe’s leading provider of telematics solutions to the technology and logistics industry. Discover how with over 450,000 connected assets generating billions of messages a day, worldwide, we are evolving our platform to bring real-time analytics to our customers to improve safety, security and efficiency outcomes.\n\nThe talk will cover Coordinating load from multiple endpoints, Stream vs Batch throughput testing, testing Spark and C# microservices.\nCovering testing data with GDPR in mind, obfuscation, ensuring quality and correct data types flow through big data solutions.',
-    level: 'Intermediate',
-    tags: ['big data', 'testing'],
+      "When we are under pressure to deliver it's easy to develop, develop, develop but what if we paused to ask; Why? What? How? \n\nWhat if we spent less energy developing solutions and more time searching for the right problems?\n\nIt may sound obvious, but asking better questions leads to better answers. \n\nBut, how do we ask the kinds of questions that enable us to *really* understand users needs, to challenge assumptions, to reframe problems and as a result create better solutions?\n \nThis talk will help you to...\n \n→ Unleash the potential of good questions to build understanding, trigger imagination, and foster collaboration\n\n→ Ask questions more effectively as a way of expressing  genuine curiosity and interest\n\n→ Develop your questioning muscles in order to become a heavy-weight 'Questionologist'\n\nAnd I'll explain why asking good questions is a uniquely powerful tool for unlocking personal insight and an essential life skill for surviving the 4th Industrial revolution.",
+    level: 'Introductory and overview',
+    tags: ['coreskills/softskills', 'user research', 'design'],
+    lengths: ['30 minute talk'],
   },
   {
     id: 112,
-    title: 'Using Big Data for Real World Application',
+    title: 'Improving the UK’s Driving Test Experience',
     description:
-      'Europe’s leading provider of telematics solutions to the technology and logistics industry. Discover how with over 450,000 connected assets generating billions of messages a day, worldwide, we are using Big Data to provide assistance to our customers with award-winning innovations and improving road safety for all.\n\nThe talk will cover combining data from external sources with IoT data to improve road safety. We will discuss the logic and intelligence behind mapping real world events to real time telematics and delivering this to the user via edge devices on the move.',
+      'The Driver and Vehicle Standards Agency (DVSA) is the Department for Transport’s executive agency responsible for ensuring drivers and vehicles may legally use the UK road networks.\n\nAs part of its five-year strategy to transform into a digitally enabled organisation, it is adopting User-Centred Design and Agile ways of working to deliver better products, services and user experiences.\n\nOver the last 2 years, I’ve been on a journey with the agency -- on a mission to improve the UK’s Driving Test Experience.\n\nEvery year over 1.8 million practical driving tests are conducted in the UK. \n\nThe completely paper-based service has seen little change over the last 25 years and was identified as an area in need of modernisation through the introduction of mobile devices.\n\nBut with a user base potentially reluctant to change and new to technology how do you bring everyone along on that digital transformation journey?\n\nIn this talk, I’ll share… \n\n⏤ the projects highs and lows and show how through continuous user engagement, extensive research and co-creation empowered teams can develop great user experiences and deliver outcomes at pace\n\n⏤ how a government agency is successfully achieving its vision of becoming a digitally enabled organization and re-inventing itself for the future\n\n⏤ why a Government Digital Services Assessment is the best thing that can happen to your project.',
     level: 'Introductory and overview',
-    tags: ['iot', 'big data', 'architecture'],
+    tags: [
+      'software methodology/process',
+      'user research',
+      'design',
+      'ui',
+      'ux',
+    ],
+    lengths: ['30 minute talk', '60 minute talk'],
   },
   {
     id: 113,
-    title: "What's In A Game?",
+    title: 'Making Operational Azure Management a breeze.',
     description:
-      'In a videogame, anything and everything in the world has been made from scratch and is a wonderful collaboration between many different disciplines. In this talk, we’ll take just one small feature – a TV screen that breaks and sparks electricity when you hit it – and look in detail at what goes into making it. What code systems are required for its functionality? What art, visual effects and audio are needed? How do you combine it all into something you can place in the game? And how can you make sure you don’t have to reinvent the wheel if you want another, similar, electrical item?\n\nYou’ll never look at a videogame in the same way again.',
+      "Have you just started using the cloud? Perhaps you've been using it for a while and have experienced the dreaded resource sprawls or a huge bill at the end of the month.\n\nThe aim of this session is to showcase the all of the components available that allow organisations to embrace power of the cloud once they have invested time in laying down the key foundations for it's use.\n\nLaying this operational governance foundation will ensure that your development team can then work in an agile way whilst enforcing that they work in accordance with all the governance, compliance & security, whilst ensuring that cost management, resource management and other cloud management aspects are implicitly adhered to as well giving your operations teams fewer headaches",
     level: 'Introductory and overview',
-    tags: ['gaming'],
+    tags: ['cloud', 'security', 'devops', 'azure'],
+    lengths: ['60 minute talk'],
   },
   {
     id: 114,
-    title: 'Securing the web with AI',
+    title:
+      'What is Azure DevOps? Why Should I use this? How do I get started',
     description:
-      'In today’s web not a week goes by without a large data breach or a website being hacked. Unlawful access to our online information can be prevented by encryption, 2FA and IP detection, but often this isn’t enough. Additionally tools like 2FA can be difficult to configure or understand for the initiated, leaving many at a disadvantage - security should be a right, not a privilege.\n\nThis session explores some interesting and experimental ways that AI could be used to improve security and protect users on the web.\n\nUsing existing AI tools like Azure Cognitive Services we’ll look at ways facial or voice recognition could be used as part of 2FA to make security more accessible to end users, including code examples in .NET and JavaScript. Then we’ll investigate some simple methods to find patterns in user behaviour, such as login times and mouse behaviour, to detect anomalies and take action.\n\nFinally, we’ll see how machine learning can be used to identify fraudulent text or photoshopped images within webpages and warn users of scams before it becomes an issue.',
-    level: 'Intermediate',
-    tags: [
-      'security',
-      'machine learning',
-      'artificial intelligence',
-      '.net',
-      'javascript',
-    ],
+      'Azure DevOps is a platform that can manage the full life cycle of your code from build to release and in this introductory session come and learn more about the power of Azure DevOps.',
+    level: 'Introductory and overview',
+    tags: ['devops', 'azure'],
+    lengths: ['60 minute talk'],
   },
   {
     id: 115,
-    title: 'Cross-platform headless .NET apps',
+    title:
+      'Using Azure as a Platform for good - The story behind mhasl.me',
     description:
-      'This session aims to demonstrate how we can use "Headless" hosted services and .NET to quickly build cross-platform applications – from backend systems in .NET Core, to mobile apps built with Xamarin, to website front-ends with the experimental Blazor framework...\n\nWith the way the .NET ecosystem has evolved in recent years, it\'s never been easier to wire up our code to work just about anywhere. .NET Standard makes it super simple to write our core libraries once and integrate them into whatever shell we choose, be it a mobile app, website, IoT device or something else. At the same time the infrastructure landscape has shifted from costly cloud systems towards "serverless" and hosted SaaS offerings, paving the way for more developers adopting off-the-shelf "Headless" / API consumed services to power their backend systems.\n\nWe\'ll look at real-world examples using a Headless CMS "Umbraco" to manage our system\'s data and tying it into a .NET Core Azure Function, an iOS app built with Xamarin, and even a single-page Blazor website to prove just how quick and easy it can be to reshape one codebase into many different end products.',
-    level: 'Introductory and overview',
-    tags: ['cloud', 'mobile', 'demo', '.net', 'xamarin'],
+      'In this session I will cover the technical background of a new site that I have developed for sharing stories related to many different aspects of Mental Health and how it is something that affects someone just like you or me\n\nIn this session I will cover\nArchitectural decisions and why I made the decisions I made\nThe Technicals behind the site and the components used as part of the building, maintaining and development of the site, from Azure DevOps to Azure Resources and how I built a repeatable deployment of the Resources that made the site a possibility from the get go \nSecurity Decisions that I made along the way and why I chose them \nLessons learned along the way \nAnd lastly why I think this is a topic that in tech we need to talk more about',
+    level: 'Intermediate',
+    tags: ['cloud', 'azure'],
+    lengths: ['60 minute talk'],
   },
   {
     id: 116,
-    title: 'Resilient global applications with Azure Front Door',
+    title: 'Mental Health: Its Time to Talk',
     description:
-      "Delivering maximum uptime and the fastest response to our end users all over the world is very important... So we deploy our application to multiple regions and route traffic to the nearest available servers. But managing and visualising each component of our infrastructure, how it everything hangs together, detecting and handling failure, as well as deployments, can all be a challenge.\n\nFor over 5 years \"Front Door\" has been the public gateway powering some much loved Microsoft services – including Bing, Office, Skype, and the Azure Portal – handling routing, load balancing, failover, and giving product teams painless control of services at scale. Recently released, Azure Front Door Service cost-effectively brings the same power to our own applications with little effort.\n\nThis session will dive in to the world of using AFD (and related Azure services) to add enterprise-grade resilience to a globally distributed application.\n\nWe'll see how easy it is to visualise and control traffic across a geo-redundant multi-cloud setup, and the performance improvements AFD can make on end users through configurable routing, caching, and SSL termination at the edge.\n\nFinally, we'll configure our failover setup to ensure our application is rarely unavailable before putting it through it's paces by simulating a range of system failures (500 errors, cold starts, DoS) to watch AFD gracefully handle it with minimal impact on end users.",
+      "Mental health affects us all, albeit at varying levels of intensity, be it from having a restless nights sleep or Bi-Polar Disorder and is still a subject that we tend to approach with caution, if we even speak about it at all, whether with our colleagues and managers, doctors and even our closest friends and family.\n\nStarting talking about our mental health is often hard, but it is one of the most powerful tools in your arsenal to managing your own and your team's mental health and should be discussed in all 1:1s.\n\nCome and gain an insight into some of the things to look out for as preliminary signs that your colleagues, friends, family and perhaps, most importantly, yourself may be suffering, plus how to broach this all-important conversation.",
     level: 'Introductory and overview',
-    tags: ['cloud', 'demo'],
+    tags: ['coreskills/softskills', 'mental health'],
+    lengths: ['60 minute talk'],
   },
   {
     id: 117,
-    title: 'The Power of the Feedback Loop',
+    title: 'Good Writers Become Great Developers',
     description:
-      "From how the body knows when to stop growing to saving lives from speeding cars, the feedback loop is a mechanism that secretly underlies every corner of our existence. The concept spans schools of thought in psychology, economics, biology and neuroscience and is now emerging in the intersection of technology and behavioural science. \n\nAs technologists we are always looking to build products that are engaging and effective, and as people we strive to reach our full personal and working potential. Could the feedback loop be the piece we're all missing?\n\nIn this talk we'll dive into the structure of the feedback loop, some impressive examples of how powerful they can be and we'll explore how you can harness their power in your work and personal life.",
+      "Good writing might not be rocket science, but it is the secret ingredient in the recipe for a great developer. If you're already an experienced developer or a only just starting on the dev journey, by the end of this talk, you'll come to appreciate the similarities between the two mediums, and be ready to arm yourself with techniques that will help you improve your writing AND development skills.",
     level: 'Introductory and overview',
     tags: [
-      'softskills/workskills',
+      'coreskills/softskills',
+      'cross discipline',
       'design',
-      'ux',
-      'behavioural science',
+      'fun',
     ],
+    lengths: ['15 minute lightning talk', '30 minute talk'],
   },
   {
     id: 118,
-    title: 'An IoT MOT - Let’s DDD it Live!',
+    title: "Help I'm your manager!",
     description:
-      'In this session, we’ll explore various Internet of Things platforms and the challenges of maintaining IoT devices and systems themselves (“Maintenance of Things”). Covering aspects such as Design, Testing, Continuous Integration and Deployment. Also includes live on stage demos.',
+      "Well done, you've been promoted and tomorrow you'll be managing your first ever team. Wait, what on earth do you do?! Management is a whole new skill, which all of you can be great at. But like any skill it needs to be learned and starting this learning halfway through a career can be daunting. As an experienced manager, and former engineer, benefit from my experience of the highs and lows of taking the next step. By the end of this talk you'll be ready to face your next career challenge.",
     level: 'Intermediate',
-    tags: [
-      'iot',
-      'hardware',
-      'cloud',
-      'architecture',
-      'demo',
-      'security',
-      'testing',
-    ],
+    tags: ['management', 'leadership'],
+    lengths: ['60 minute talk'],
   },
   {
     id: 119,
-    title:
-      'Count your steps, count your blessings: A Citical Look at Self-Care Tech',
+    title: 'The Politics of Tool-Shaming',
     description:
-      'People meditate with their phones, practise yoga with their gaming consoles and let their personalised fitness tracker comment on their quality of sleep – technology-facilitated self-care is everywhere. Somewhere in between the mountains of personal data being collected, analysed and displayed to people, lies a small question: What does this actually mean for us?\n\nThis (slightly experimental & very personal) talk will explore ideas about the quantified self from a critical standpoint. It aims to shine a light on the complex implications found within self-care tech and explore the underlying research and design assumptions. Conceptualising empathy, compassion and what it means to help in/outside/through technology will form the very baseline of this talk.\n\nThis talk will draw on the speaker’s personal artistic practise and their academic research in Human Computer Interaction. It will present a range of ideas on how to engage with therapeutic technologies on a deeper, personal level, but also from a societal, justice-oriented stance.',
-    level: 'Introductory and overview',
+      'Most of us have heard it at some point. “WHAT? You use X framework/tool/OS/language?! So… you’re a bad developer then?”\n\nI did not come from a Software Development background into this industry. I was an outsider, but it’s what I wanted to do my whole life. This is my story: how I refocused and retrained in my career to be confronted with a nightmare of gatekeeping, elistism and aggression. I saw what I thought was a problem, and I’d like to propose a solution.\n\nWhat we do is hard. We’re in a young industry full of contradictions and opinions, and sometimes it excludes people, it shapes new developers’ attitudes poorly and it causes people to walk away. In this talk I’ll focus on what I’ve experienced, what others have experienced, what is harmful to your business with this culture and what can be done about it.\n\nPS. I don’t care about emacs or vim. Can you ship it?',
+    level: 'Intermediate',
     tags: [
       'software methodology/process',
-      'design',
-      'ux',
-      'ui',
-      'healthcare',
+      'coreskills/softskills',
+      'management',
     ],
+    lengths: ['60 minute talk'],
   },
   {
     id: 120,
-    title: 'Put some Wifi in my Toaster (and Call it a Day?)',
+    title: 'DevSecOps: A view from a startup',
     description:
-      'With a single tap on your phone, you can activate your washing machine remotely, have your smoke alarm tell you if your house is on fire (or not!) and use your fridge to organise your calendar meetings: Ubiquitous computing and internet-connected technology is everywhere. Gone are the days of duct-taping a battery pack and a modem to your couch: Sleekly designed products that claim to make everyday easier are being released at a fast pace. \n\nHowever, a lot of these products are very “solution-first” and do not take into account how people actually use technology – often leading to complaints and ridicule from the community down the line. This talk will explore what it means to use technology and how we can challenge and test our own assumptions about the world.\n\nDrawing on methods found in Human Computer Interaction research, this talk will introduce a toolkit to discover and test design assumptions about technology that are grounded in everyday life. It will also discuss what it means to create technology from a wider perspective and offer some ideas to develop best practises within your own work environment.',
+      'Lessons learned from a DevSecOps perspective in an 18-month old startup.',
     level: 'Introductory and overview',
-    tags: [
-      'software methodology/process',
-      'iot',
-      'ui',
-      'ux',
-      'design',
-    ],
+    tags: ['devsecops'],
+    lengths: ['30 minute talk'],
   },
   {
     id: 121,
-    title: 'Appsolutely Fabulous',
+    title: 'Fancy Bears are not your problem – real-world appsec',
     description:
-      'Whilst there is a very good cross platform client application (app) development story for .NET, its also very much built on OO patterns.\n\nFabulous is a functional first approach using F# - built on Xamarin forms that does away with the view model.\n\nThis talk aims to show just enough Fabulous to be dangerous - with a little bit of background and a little bit of live code to illustrate the possibilities - in the hope of inspiring further investigation.',
+      "Fancy Bear, Stone Panda, Lazarus, Charming Kitten and Equation Group are Advanced Persistent Threat groups. Woah, sounds scary!\n\nWhat are the threats from these groups? Do we really need to worry about them or do they just make attention-grabbing news stories?\n\nIn this talk, we will explore why APT groups might not be the thing that application developers need to worry about and the things that should get attention in application security. You'll see some tools and techniques that help find the important problems to work on and the ways to resolve those problems. This is real-world appsec.",
     level: 'Introductory and overview',
-    tags: ['functional programming', 'mobile'],
+    tags: ['security', 'software methodology/process'],
+    lengths: ['60 minute talk'],
   },
   {
     id: 122,
-    title: 'Deep Learning in the world of little ponies',
+    title: 'Authentication for Serverless',
     description:
-      'In this talk, we will discuss computer vision, one of the most common real-world applications of machine learning. We will deep dive into various state-of-the-art concepts around building custom image classifiers - application of deep neural networks, specifically convolutional neural networks and transfer learning. We will demonstrate how those approaches could be used to create your own image classifier to recognise the characters of "My Little Pony" TV Series [or Pokemon, or Superheroes, or your custom images].',
-    level: 'Introductory and overview',
-    tags: ['machine learning', 'artificial intelligence'],
+      'Authentication is a challenge at the best of times and running "serverless" adds some new challenges.\n\nThis session will demonstrate how to authenticate your users and keep your application secure. It will illustrate the threats to your system and how to avoid pitfalls. You\'ll explore some of the options for Azure Functions and considerations for when they might be used.\n\nHow do you choose between home-grown, open-source, Azure or third-party authentication systems? You\'ll learn various ways to implement Authentication for Serverless and how you choose between them.',
+    level: 'Intermediate',
+    tags: ['security', 'cloud', 'serverless'],
+    lengths: ['60 minute talk'],
   },
   {
     id: 123,
-    title:
-      'Bring your ML models to life (and production) using DevOps practices',
+    title: 'OWASP ZAP HUD WTF?',
     description:
-      'So your data science teams have been running ML experiments for some time using local or cloud environment and found some great insights? And the question now is how to take it further and bring those to the production by using known and proven DevOps practices. At this session we will look at how to build and scale such ML DevOps pipelines using various approaches.',
-    level: 'Intermediate',
-    tags: ['machine learning', 'devops'],
+      "Do you do enough security testing?\n\nOWASP Zed Attack Proxy can help you automatically find security vulnerabilities in your web applications while you are developing and testing, and now it has a Heads Up Display!\n\nIn this talk, you'll see how the features of ZAP can be used to find issues during development, as you navigate your web application so that you can deploy a better-tested app.",
+    level: 'Introductory and overview',
+    tags: ['security', 'devsecops', 'testing'],
+    lengths: ['15 minute lightning talk'],
   },
   {
     id: 124,
-    title:
-      'So what is this GraphQL thing anyway and why should I care?',
+    title: 'An app modernization story with Cloud Run',
     description:
-      'For some time the default method for access an API has been REST (or more usually CRUD over http). This can be an effective solution but its not without challenges, so what if there were another way...\n\nGraphQL is an alternative way to provide an API to your clients that addresses some of the issues commonly found with Rest.\n\nThis talk aims to provide an introduction to the GraphQL query language and to show the code needed to create a GraphQL server (in .NET).',
-    level: 'Introductory and overview',
-    tags: [],
+      "Back in 2016, I deployed an ASP.NET monolith app to IIS on Windows. It worked but it was clunky in every sense of the word. Over the years, the app was freed from Windows (thanks to .NET Core), containerized to run consistently in different environments (thanks to Docker) and decomposed into a set of loosely-coupled, event-driven, microservices (thanks to Cloud Run). The end result is a simpler and portable serverless architecture that's much cheaper to run and maintain. In this talk, we'll go through the modernization journey, explore the decision points and deep dive into the final architecture and code",
+    level: 'Intermediate',
+    tags: ['software methodology/process', 'cloud'],
+    lengths: ['30 minute talk'],
   },
   {
     id: 125,
-    title:
-      'How I won £500 at Royal Ascot And What That Can Teach You About Data Science',
+    title: 'Serverless containers with Knative and Cloud Run',
     description:
-      'Machine Learning is simple when you have lots of labelled data, but what do you do when the system you’re trying to predict is mostly stochastic in nature? In this fascinating talk I’ll explain how we can combine data science techniques to tame the stochastic nature of horse racing and make some remarkably accurate racing predictions. I’ll use these techniques to live predict the result of a race running on the day, and we’ll make a small bet on the outcome.',
+      "When you build an app, you typically need to choose agility with serverless or flexibility with containers but not both. But why does it have to be that way? Wouldn't it be nice to have the best of both worlds? \n\nIn this talk, we'll explore the open source project Knative and its managed version Cloud Run. Through a series of demos, we'll see how these projects enable you to deploy and manage containers in a serverless way on wherever you want, on-prem or in the cloud.",
     level: 'Intermediate',
-    tags: ['machine learning', 'artificial intelligence'],
+    tags: ['cloud', 'software methodology/process', 'serverless'],
+    lengths: ['60 minute talk'],
+  },
+  {
+    id: 126,
+    title: 'Just what is a pod, anyway?',
+    description:
+      'Kubernetes seems to be everywhere these days and adoption continues to grow daily. Kubernetes can take a way a lot of the hardship of running applications at scale and allow on-call engineers to get more well deserved sleep.\n\nBut as a developer, where do you start? What do you need to know about the platform that runs your code to use it effectively?\n\nKubernetes is a large and and fast-moving project, with more than enough jargon thrown in. It can be overwhelming building your first deployment. But fear not, we’ll guide you through your first steps with Kubernetes and provide you with a groundwork of understanding that can be built on.\n\nBy the end of this talk you’ll no longer be wondering “just what is a pod?“, instead you’ll have an understanding of the building blocks that make up a Kubernetes deployment and be well placed to start your Kubernetes journey.',
+    level: 'Introductory and overview',
+    tags: ['cloud', 'devops', 'operations', 'infrastructure'],
+    lengths: ['15 minute lightning talk', '30 minute talk'],
+  },
+  {
+    id: 127,
+    title: 'Mutant Pods',
+    description:
+      "Kubernetes gives the ability for code to control policy, automating away a lot of that manual deployment checklist. Kubernetes administrators have a lot of power at their fingertips. By leveraging some of the built-in functionality you can give your cluster superpowers.\nAdmission controllers give us the power to validate resources added to Kubernetes against our own custom logic. They also allow us to mutate resources as they are created.\n\nSo just what can we do with this power?\n- Inject values directly into containers at runtime\n- Rewrite all image URLs to pull from a local cache that can be security scanned\n- Ensure resources are appropriately labelled or annotated\nThe list goes on.\n\nWe'll take a deep dive into how these controllers operate and walk through how they can be used to make things easier for both application developers and cluster administrators.",
+    level: 'Advanced',
+    tags: ['infrastructure', 'operations', 'devops'],
+    lengths: ['60 minute talk'],
+  },
+  {
+    id: 128,
+    title: 'Removing application complexity with sidecars',
+    description:
+      "Modern applications are complex things. It's not just your business logic you need to think about.\nYou need to collect logs for debugging, you need to collect metrics for performance monitoring, network reties, service discovery, error recovery... the list goes on and seems to keep growing.\n\nBut what if it didn't need to be like this? What if our applications could be just that and leave the rest to something else.\n\nSay hello to Kubernetes sidecars!\nThis development pattern can offload a lot of this functionality onto standalone applications focused on that one task. Need logs captured and sent off to ElasticSearch? There's a sidecar for that! Need to scrape and collate metrics from all your applications? Yup, there's a sidecar for that. Worried about flakey external services and need to build in some retry logic? Sidecars to the rescue!\n\nIn this talk we'll show some of the off-the-shelf sidecar options available today as well as giving you a run-through on how to build your own.",
+    level: 'Intermediate',
+    tags: ['devops', 'architecture', 'cloud'],
+    lengths: ['30 minute talk', '60 minute talk'],
+  },
+  {
+    id: 129,
+    title: 'Surviving the Appocalypse',
+    description:
+      "It's Saturday night, 8pm, you're just about to head out for a lovely meal with friends when suddenly your phone buzzes. You remember with dread that you're the current on-call engineer. With hesitation you look at your phone...\n\nNo one wants their weekend ruined by application failures. Thankfully Kubernetes provides a lot of fault tolerance and resilience out of the box. Automatic scheduling, enforceable resource limits and automatic application restarts to name just a few.\n\nBut this isn't magic. For it to really work for you you'll need to understand how it works and build your applications appropriately.\nTogether we'll go through each of these features and look at how we can get the best out of them, pulling from real world examples. By the end you should be able to handle just about anything, even an accidental deletion of an cluster control plane in production (yes, this happened to me)!",
+    level: 'Intermediate',
+    tags: [
+      'cloud',
+      'architecture',
+      'devops',
+      'infrastructure',
+      'operations',
+      'fun',
+    ],
+    lengths: ['60 minute talk', '30 minute talk'],
+  },
+  {
+    id: 130,
+    title: 'Getting started with Web Accessibility Testing',
+    description:
+      'We all know accessibility is incredibly important, but a lot of us don’t know where to start. The most prevalent accessibility issues are quite easy to fix, and can be caught by automated testing.\n\nIn this short session I’ll go over a few different approaches for accessibility testing in your web application. I’ll cover manual checks, and tools you can use locally or in your CI/CD pipeline.\n\nThis session aimed at everyone that works on the web, and wants to make it a better place. You’ll walk away with some practical steps you can take to start testing and improving your apps’ accessibility.',
+    level: 'Introductory and overview',
+    tags: ['testing', 'automated testing', 'accessibility'],
+    lengths: ['15 minute lightning talk'],
+  },
+  {
+    id: 131,
+    title:
+      'Machine Learning in C#?! Building Machine Learning pipelines and models using ML.NET',
+    description:
+      "If you're a .NET developer, you may be forgiven for thinking that in order to build awesome machine learning applications, you'll need to brush up on your Python skills in order to use ML libraries, or even worse, buy food for that data scientist in your team until they've built an ML model for you.\n\nWith the release of ML.NET, this is no longer the case!\n\nIn this session, I'll cover what ML.NET is and how you can use it to add machine learning capabilities to your .NET applications. I'll cover the capabilities that the API offers in terms of preparing our data and evaluating our models. I'll also talk about the capabilities that the ML.NET Model builder and how that can simplify how we choose what type of model we want to build and I'll also talk about how we can deploy our models into production.\n\nSo ditch that data scientist (in a nice way of course) and come and see how you can leverage your existing .NET skills to use ML.NET to build some interesting machine learning applications!",
+    level: 'Intermediate',
+    tags: [
+      'machine learning',
+      'artificial intelligence',
+      'big data',
+      'data analytics',
+      'language specific',
+      'software methodology/process',
+      '.net',
+    ],
+    lengths: ['60 minute talk'],
+  },
+  {
+    id: 132,
+    title:
+      'Building Event-driven applications using Azure Cosmos DB and Azure Functions',
+    description:
+      "Developing event-driven applications using Azure Functions is relatively straight forward. We can also use Cosmos DB as our data-store for our Functions thanks to Cosmos DB supported Triggers and Bindings, as well as use different types of Cosmos DB API's thanks to Dependency Injection support in Azure Functions.\n\nIn this session, I will show you how you can integrate Cosmos DB into your Azure Functions using Triggers, Bindings and dependency injection. I'll talk about which situations you would opt for dependency injection and vice-versa. I'll also cover the do's and don'ts when developing Azure Functions that use Cosmos DB.\n\nAfter attending this session, you'll know how you can build event driven applications using Azure Functions and Cosmos DB.",
+    level: 'Intermediate',
+    tags: [
+      'cloud',
+      'software methodology/process',
+      'big data',
+      'language specific',
+      'azure',
+      'serverless',
+    ],
+    lengths: ['60 minute talk'],
+  },
+  {
+    id: 133,
+    title: 'Agile and Outsourcing: A How-To Guide',
+    description:
+      "I have worked in an environment relying heavily on the use of additional resource via supply chain, external suppliers or outsourced teams for several years (the naming convention\nchanges, but the purpose remains the same – gaining the ability to quickly expand and flex our development capacity). I've experienced several different types of supplier: some on-site sat with our teams, some off-site but in-country, some in Europe just an hour’s flight away, and some far-shore.\n\nI'll use this experience in this session to provide a rule book for how to work with outsourced teams: some basic dos and don’ts of how to be successful. We'll also look at what happens when the rules are broken, and finally, some real world examples of where I did (and didn’t) follow my own rules.\n\nThe following questions will be explored:\n- how many meetings is too many?\n- are fixed price contracts necessary and can they work?\n- how can you build trust in a supplier/customer relationship?\n- how much travel does there need to be?",
+    level: 'Introductory and overview',
+    tags: ['software methodology/process'],
+    lengths: ['30 minute talk'],
+  },
+  {
+    id: 134,
+    title: 'Learning from our Serverless mistakes',
+    description:
+      'From zero experience to building two highly scalable Serverless systems on AWS in .NET  - I dive into the mistakes made and lessons learnt on our journey.',
+    level: 'Introductory and overview',
+    tags: ['architecture', 'devops', 'cloud', 'serverless'],
+    lengths: ['30 minute talk', '15 minute lightning talk'],
+  },
+  {
+    id: 135,
+    title: 'Lambdas and streams in practice',
+    description:
+      'Starting with a brief overview of lambdas and streams, this talk aims to give an in-depth overview of the benefits they can bring to developers in practice. You’re probably familiar with the concept to some degree or other: introduced in Java 8, lambdas and streams were heralded as the revolution that would make Functional Programming practical in Java. But what benefits and pitfalls do they actually bring to developers? How do lambdas differ from anonymous classes? When and how can they improve legibility, maintainability and performance and what pitfalls lurk behind the alluring syntax? When can we use parallel streams to greatest effect, and when are they detrimental? And faced with a panoply of subtly different functional interfaces and associated API calls, not to mention the option of rolling our own, what tips and rules of thumb can help us see the wood for the trees?\n\nThis talk aims to provide concise and pragmatic pointers to those relatively new to the topic, whilst offering some more advanced performance and maintainability guidance for more experienced developers. The talk focuses specifically on Java, but some of the material is likely to be transferrable to other languages.',
+    level: 'Intermediate',
+    tags: [
+      'architecture',
+      'performance',
+      'language specific',
+      'java',
+      'serverless',
+    ],
+    lengths: ['60 minute talk'],
+  },
+  {
+    id: 136,
+    title: 'Improving System Resiliency via Chaos Engineering',
+    description:
+      "Advances in Cloud technology means systems are becoming increasingly more distributed and complex. Large monoliths are being split up into microservices, we're depending on more remote services and Functions as a Service (FaaS)/Serverless are becoming increasingly common. The very nature of distributed systems mean they're far more prone to failures than similarly-scoped monoliths; this makes predicting or preventing possible failure modes increasingly more difficult.\n\nIn this talk we'll look at how we can harness Chaos Engineering, a discipline pioneered by Netflix, to better understand our systems, their failure modes and how we can use this information to improve system overall resiliency and reliability.",
+    level: 'Intermediate',
+    tags: ['architecture', 'software methodology/process'],
+    lengths: ['60 minute talk'],
+  },
+  {
+    id: 137,
+    title:
+      'Monitoring your Microservics and Infrastructure in a Cloud Native world using Prometheus',
+    description:
+      "So you've deployed your microservices and infrastructure changes, but how do you know they're functioning as expected? How do you know they're not causing your users pain?\n\nSince its initial inception in 2012, Prometheus has quickly established itself as the canonical monitoring and alerting tool within the Cloud Native space.\n\nIn this talk we'll take a hands on approach to monitoring a whole range of applications and services, including:\n\n.NET Core applications\nDocker containers\nDatabases\nEven GitHub repositories and other external APIs",
+    level: 'Introductory and overview',
+    tags: ['cloud', 'monitoring', 'observability', 'microservices'],
+    lengths: ['60 minute talk'],
+  },
+  {
+    id: 138,
+    title: 'The State of Resiliency Engineering in Software Systems',
+    description:
+      "People often believe patterns such as circuit breakers, timeouts and bulkheads to be synonymous with resiliency engineering. Whilst part of the picture, resiliency engineering is a large interesting field that's slowly changing the way we build software.\n\nIn this talk we'll look at the current state of affairs of resiliency in the software field and look how pioneering organisations such as Netflix are leaning on the Resiliency Engineering principles and practises to improve greater system robustness and resiliency.",
+    level: 'Introductory and overview',
+    tags: ['software methodology/process', 'cross discipline'],
+    lengths: ['60 minute talk'],
   },
 ];
 

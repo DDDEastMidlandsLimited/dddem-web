@@ -9,7 +9,11 @@ export default () => (
     <Head>
       <title>Talks</title>
     </Head>
-    <Header title={'Talks'} />
+    <Header
+      title={'Talks'}
+      banner="
+    /static/banners/talks.jpg"
+    />
 
     <section>
       <h2>
