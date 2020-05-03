@@ -38,6 +38,8 @@ const dates = [
     id: 6,
     date: '1st May',
     name: 'Voting Closes',
+    current: true,
+    past: true,
   },
   {
     id: 7,
