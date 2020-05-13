@@ -19,6 +19,13 @@ const gold = [
     link: 'https://www.experian.co.uk/careers/our-opportunities.html',
     description: experianDesc,
   },
+  {
+    id: 3,
+    name: 'ERT',
+    image: '/static/sponsors/ERT.png',
+    link: 'https://www.ert.com/about/careers/',
+    description: '',
+  },
 ];
 
 export default gold;
