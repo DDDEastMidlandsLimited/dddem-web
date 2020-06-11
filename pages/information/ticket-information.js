@@ -55,10 +55,10 @@ export default () => (
       <h1 tabIndex="0">When will tickets be released?</h1>
       <ul tabIndex="0">
         <li>
-          <strong>First wave:</strong> 20th March
+          <strong>First wave:</strong> 20th March 2021
         </li>
         <li>
-          <strong>Second wave:</strong> 10th April
+          <strong>Second wave:</strong> 10th April 2021
         </li>
       </ul>
     </section>

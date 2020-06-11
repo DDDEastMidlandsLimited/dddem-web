@@ -18,6 +18,8 @@ export default () => (
       /static/banners/home.jpg"
     />
 
+    <br />
+
     <section>
       <p tabIndex="0">
         DDD East Midlands is an inclusive, not-for-profit technology

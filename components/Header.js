@@ -20,11 +20,13 @@ const Header = props => (
     <div className="covid">
       <h3 tabIndex="0">
         {' '}
+        DDD East Midlands has been postponed to 2021
+        <br />
         <a
-          href="https://blog.dddeastmidlands.com/2020/04/06/covid-19.html"
+          href="https://blog.dddeastmidlands.com/2020/06/15/covid-announcement.html"
           target="_blank"
         >
-          Click here to read about our COVID-19 precautions
+          Read more about this decision here
         </a>{' '}
       </h3>
     </div>
@@ -34,6 +36,9 @@ const Header = props => (
         h1 {
           font-size: ${theme.font.sizes.mobile.headline1};
           color: ${theme.palette.primary};
+        }
+        h3 {
+          color: ${theme.palette.light};
         }
         h3 a {
           color: ${theme.palette.light};

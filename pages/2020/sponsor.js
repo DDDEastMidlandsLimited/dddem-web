@@ -7,18 +7,15 @@ import SponsorButton from '../../components/sponsorship/SponsorButton';
 export default () => (
   <Layout>
     <Head>
-      <title>Sponsor 2020</title>
+      <title>Sponsor</title>
     </Head>
-    <Header
-      title={'Sponsor 2020'}
-      banner="/static/banners/sponsor.jpg"
-    />
+    <Header title={'Sponsor'} banner="/static/banners/sponsor.jpg" />
 
     <section id="when-and-where">
       <h1 tabIndex="0">When and Where?</h1>
       <a name="when" />
       <h2 tabIndex="0">When</h2>
-      <p tabIndex="0">October 3rd 2020</p>
+      <p tabIndex="0">October 2nd 2021</p>
       <a name="where" />
       <h2 tabIndex="0">When</h2>
       <p tabIndex="0">
@@ -40,7 +37,7 @@ export default () => (
         As the event is happening in October, we are far enough ahead
         in the future that the pandemic <i>might</i> not effect our
         event. If that is the case, we will be going ahead as planned
-        on October the 3rd 2020.
+        on October the 2nd 2021.
       </p>
       <p tabIndex="0">
         The safety of all involved is our greatest concern. If

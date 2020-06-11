@@ -157,11 +157,11 @@ export default () => (
         down.
       </p>
       <h2>Setup and orienteering</h2>
-      <p>2nd October 2020 6:00pm - 8:00pm.</p>
+      <p>1st October 2021 6:00pm - 8:00pm.</p>
       <h2>Morning shift</h2>
-      <p>3rd October 2020 7:30am - 1:00pm.</p>
+      <p>2nd October 2021 7:30am - 1:00pm.</p>
       <h2>Afternoon shift</h2>
-      <p>3rd October 2020 1:00pm - 7:00pm.</p>
+      <p>2nd October 2021 1:00pm - 7:00pm.</p>
       <h2>Where</h2>
       <p>
         <a href="http://www.nottinghamconferencecentre.co.uk/">

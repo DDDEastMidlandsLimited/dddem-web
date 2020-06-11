@@ -71,7 +71,7 @@ export default () => (
       <h2 tabIndex="0">Accounts Run By The Co-Organisers</h2>
       <ul>
         <li tabIndex="0">
-          <strong>Hashtags:</strong> #DDDEM | #DDDEM2020
+          <strong>Hashtags:</strong> #DDDEM | #DDDEM2021
         </li>
         <li tabIndex="0">
           <strong>Twitter:</strong>{' '}

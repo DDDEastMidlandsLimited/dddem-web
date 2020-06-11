@@ -173,10 +173,9 @@ export default () => (
         here.
       </p>
       <p>
-        For DDD East Midlands 2020 we have a new addition to the team
-        - Rachel Watson. Rachel did a fantastic job helping us host
-        the Speakers Workshop and will be helping with correspondance
-        in 2020.
+        Rachel did a fantastic job helping us host the Speakers
+        Workshop and will be helping with correspondance in 2020, and
+        has been a key part of the team this last year.
       </p>
     </section>
 

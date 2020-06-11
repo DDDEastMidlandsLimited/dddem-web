@@ -73,7 +73,7 @@ export default () => (
       <h1 tabIndex="0">Want to take part?</h1>
       <p tabIndex="0">
         If you would like to contribute there is a lot of opportunity
-        to do so. At the 2020 event Anna and Jamie will be promoting a
+        to do so. At the 2021 event Anna and Jamie will be promoting a
         lot of great opportunities - including (hopefully) a sponsor
         challenge. There are also numerous ways in which you can
         contribute to the DDD East Midlands website and blog. To find
