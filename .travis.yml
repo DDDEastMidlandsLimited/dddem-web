@@ -16,4 +16,4 @@ deploy:
   provider: script
   script: bash aws_deploy
   on:
-    branch: master
+    branch: main
