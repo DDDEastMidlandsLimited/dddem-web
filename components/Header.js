@@ -23,7 +23,7 @@ const Header = props => (
         DDD East Midlands has been postponed to 2021
         <br />
         <a
-          href="https://blog.dddeastmidlands.com/2020/06/15/covid-announcement.html"
+          href="https://blog.dddeastmidlands.com/2020/06/21/covid-announcement.html"
           target="_blank"
         >
           Read more about this decision here
