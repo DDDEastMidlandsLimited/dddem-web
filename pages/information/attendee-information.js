@@ -151,7 +151,7 @@ export default () => (
         As the event is happening in October, we are far enough ahead
         in the future that the pandemic <i>might</i> not effect our
         event. If that is the case, we will be going ahead as planned
-        on October the 3rd 2020.
+        on October the 2nd 2021.
       </p>
       <p tabIndex="0">
         The safety of all involved is our greatest concern. If

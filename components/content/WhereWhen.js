@@ -5,7 +5,7 @@ const WhereWhen = props => (
     <a name="when-and-where" />
     <h1 tabIndex="0">When and Where?</h1>
     <h2 tabIndex="0">When</h2>
-    <p tabIndex="0">3rd October 2020 8:00am - 6:00pm.</p>
+    <p tabIndex="0">2nd October 2021 8:00am - 6:00pm.</p>
     <h2 tabIndex="0">Where</h2>
     <p>
       <a href="http://www.nottinghamconferencecentre.co.uk/">

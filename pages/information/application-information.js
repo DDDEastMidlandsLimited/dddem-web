@@ -71,13 +71,13 @@ export default () => (
     <section id="applicationopen">
       <a name="applicationopen" />
       <h2 tabIndex="0">When does the CFP Open?</h2>
-      <p tabIndex="0">7th February 2020</p>
+      <p tabIndex="0">TBC 2021</p>
     </section>
 
     <section id="applicationclose">
       <a name="applicationclose" />
       <h2 tabIndex="0">When does the CFP Close?</h2>
-      <p tabIndex="0">16th March 2020.</p>
+      <p tabIndex="0">TBC 2021.</p>
     </section>
 
     <section id="applicationhow">

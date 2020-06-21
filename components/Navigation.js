@@ -34,10 +34,6 @@ class Navigation extends Component {
               </Nav.Item>
 
               <Nav.Item>
-                <Nav.Link href="/talks">Talks</Nav.Link>
-              </Nav.Item>
-
-              <Nav.Item>
                 <Nav.Link href="/2020/notable-companies">
                   Notable Companies
                 </Nav.Link>
@@ -47,7 +43,7 @@ class Navigation extends Component {
                 <Nav.Link href="/2020/sponsor">Sponsor</Nav.Link>
               </Nav.Item>
 
-              <Nav.Item>
+              {/*               <Nav.Item>
                 <Nav.Link
                   target="_blank"
                   href="https://www.eventbrite.co.uk/e/ddd-east-midlands-2020-tickets-95834801471"
@@ -57,7 +53,7 @@ class Navigation extends Component {
                 >
                   Tickets
                 </Nav.Link>
-              </Nav.Item>
+              </Nav.Item> */}
 
               <Nav.Item>
                 <Nav.Link
