@@ -4,7 +4,7 @@
 
 # DDD East Midlands
 
-[![Build Status](https://travis-ci.org/DDDEastMidlandsLimited/dddem-web.svg?branch=master)](https://travis-ci.org/DDDEastMidlandsLimited/dddem-web)
+[![Build Status](https://travis-ci.org/DDDEastMidlandsLimited/dddem-web.svg?branch=main)](https://travis-ci.org/DDDEastMidlandsLimited/dddem-web)
 
 ## Contents
 

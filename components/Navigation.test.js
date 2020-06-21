@@ -36,15 +36,6 @@ describe('Given the Navigation is rendered', () => {
     );
   });
 
-  test('it should display a Tickets link', () => {
-    const { getByText } = render(<Navigation />);
-    expect(getByText('Tickets')).toBeInTheDocument();
-    expect(getByText('Tickets')).toHaveAttribute(
-      'href',
-      'https://www.eventbrite.co.uk/e/ddd-east-midlands-2020-tickets-95834801471',
-    );
-  });
-
   test('it should display a Blog link', () => {
     const { getByText } = render(<Navigation />);
     expect(getByText('Blog')).toBeInTheDocument();
