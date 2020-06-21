@@ -23,7 +23,7 @@ export default () => (
     <section>
       <p tabIndex="0">
         DDD East Midlands is an inclusive, not-for-profit technology
-        conference happening on <b>3rd October 2020</b> that
+        conference happening on <b>2nd October 2021</b> that
         celebrates the unique tech, talent and companies that the East
         Midlands has to offer. This event is run by community members
         to promote collaboration and the amazing tech community that
