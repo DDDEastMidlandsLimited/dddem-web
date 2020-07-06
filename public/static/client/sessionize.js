@@ -7,7 +7,7 @@ function sessionize_load() {
     file = elmnt.getAttribute('data-sessionize-load-url');
     if (file) {
       xhttp = new XMLHttpRequest();
-      xhttp.onreadystatechange = function() {
+      xhttp.onreadystatechange = function () {
         if (this.readyState === 4 && this.status === 200) {
           elmnt.innerHTML = this.responseText;
           elmnt.removeAttribute('data-sessionize-load-url');
@@ -25,7 +25,7 @@ function sessionize_load() {
 
 if (typeof sessionize_loaded === 'undefined') {
   sessionize_loaded = true;
-  document.addEventListener('DOMContentLoaded', function(event) {
+  document.addEventListener('DOMContentLoaded', function (event) {
     sessionize_load();
   });
 }
@@ -38,7 +38,7 @@ function sessionize_showmodal(n, t, i) {
     (r.innerHTML =
       '<div class="sz-modal-overlay"><div class="sz-spinner"></div></div>'),
     r.classList.remove('is-hidden'),
-    (u.onreadystatechange = function() {
+    (u.onreadystatechange = function () {
       var t, n;
       if (this.readyState === 4 && this.status === 200)
         for (
@@ -51,7 +51,7 @@ function sessionize_showmodal(n, t, i) {
           n < t.length;
           n++
         )
-          t[n].onclick = function() {
+          t[n].onclick = function () {
             document
               .getElementById('sz-modal-container')
               .classList.add('is-hidden');
@@ -129,7 +129,7 @@ function sessionize_onload() {
   ) {
     var n = document.getElementById(window.location.hash.substr(1));
     n &&
-      setTimeout(function() {
+      setTimeout(function () {
         document.location = window.location.hash;
       }, 1e3);
   }
