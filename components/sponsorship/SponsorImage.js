@@ -1,4 +1,4 @@
-const SponsorImage = props => (
+const SponsorImage = (props) => (
   <div>
     <img src={props.image} />
 

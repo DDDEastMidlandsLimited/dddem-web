@@ -1,8 +1,8 @@
 import Sponsor from './Sponsor';
 
-const SponsorList = props => (
+const SponsorList = (props) => (
   <section className="boxedItems">
-    {props.sponsors.map(sponsor => (
+    {props.sponsors.map((sponsor) => (
       <Sponsor key={sponsor.id} sponsor={sponsor} />
     ))}
   </section>

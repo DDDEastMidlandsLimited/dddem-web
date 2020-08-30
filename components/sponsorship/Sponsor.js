@@ -1,7 +1,7 @@
 import SponsorImage from './SponsorImage';
 import SponsorDescription from './SponsorDescription';
 
-const Sponsor = props => (
+const Sponsor = (props) => (
   <div className="boxItem">
     {props.sponsor.soldOutImage ? (
       <SponsorImage image={props.sponsor.soldOutImage} />

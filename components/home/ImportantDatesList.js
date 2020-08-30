@@ -1,8 +1,8 @@
 import ImportantDate from './ImportantDate';
 
-const ImportantDatesList = props => (
+const ImportantDatesList = (props) => (
   <section className="boxedItems">
-    {props.dates.map(date => (
+    {props.dates.map((date) => (
       <ImportantDate key={date.id} dates={date} />
     ))}
   </section>

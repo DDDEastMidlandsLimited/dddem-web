@@ -1,4 +1,4 @@
-const FullWidthImage = props => (
+const FullWidthImage = (props) => (
   <p>
     <style jsx>
       {`

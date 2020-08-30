@@ -3,7 +3,7 @@ import theme from '../../theme/theme';
 import Header from '../../components/Header';
 import Head from 'next/head';
 
-export default props => (
+export default (props) => (
   <Layout>
     <Head>
       <title>Venue</title>

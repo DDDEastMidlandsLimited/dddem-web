@@ -11,7 +11,7 @@ const ExternalLink = ({
   category,
   eventType,
 }) => {
-  const handleClick = e => {
+  const handleClick = (e) => {
     logEvent(category, eventType);
   };
 

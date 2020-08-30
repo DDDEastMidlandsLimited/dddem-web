@@ -1,6 +1,6 @@
 import theme from '../../theme/theme';
 
-const SponsorButton = props => (
+const SponsorButton = (props) => (
   <div align="center">
     <br />
     <button>

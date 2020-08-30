@@ -1,6 +1,6 @@
 import ContentSection from '../../styles/ContentSection';
 
-const WhereWhen = props => (
+const WhereWhen = (props) => (
   <section id="where-and-when">
     <a name="when-and-where" />
     <h1 tabIndex="0">When and Where?</h1>

@@ -1,7 +1,7 @@
 import React from 'react';
 import theme from '../theme/theme';
 
-const Button = props => (
+const Button = (props) => (
   <div align="center">
     <button className="contactButton">
       <a

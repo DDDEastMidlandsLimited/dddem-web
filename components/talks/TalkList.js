@@ -9,7 +9,7 @@ export default class TalkList extends React.PureComponent {
 
   render() {
     const { talks } = this.props;
-    const talkElements = talks.map(talk => {
+    const talkElements = talks.map((talk) => {
       return this._renderTalk(talk);
     });
 
