@@ -4,7 +4,7 @@
 
 # DDD East Midlands
 
-[![Build Status](https://travis-ci.org/DDDEastMidlandsLimited/dddem-web.svg?branch=main)](https://travis-ci.org/DDDEastMidlandsLimited/dddem-web)
+![DDDEMWeb Build](https://github.com/DDDEastMidlandsLimited/dddem-web/workflows/DDDEMWeb%20Build/badge.svg)
 
 ## Contents
 
