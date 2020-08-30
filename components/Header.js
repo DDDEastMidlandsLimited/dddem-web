@@ -1,7 +1,7 @@
 import React from 'react';
 import theme from '../theme/theme';
 
-const Header = props => (
+const Header = (props) => (
   <section>
     <div className="background"></div>
 

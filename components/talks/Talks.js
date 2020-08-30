@@ -31,7 +31,7 @@ export default class Talks extends React.PureComponent {
 
   removeTag(tag) {
     this.setState({
-      filterTags: this.state.filterTags.filter(t => {
+      filterTags: this.state.filterTags.filter((t) => {
         return t !== tag;
       }),
     });
@@ -45,7 +45,7 @@ export default class Talks extends React.PureComponent {
 
   removeLevel(level) {
     this.setState({
-      filterLevels: this.state.filterLevels.filter(l => {
+      filterLevels: this.state.filterLevels.filter((l) => {
         return l !== level;
       }),
     });
@@ -59,7 +59,7 @@ export default class Talks extends React.PureComponent {
 
   removeLength(length) {
     this.setState({
-      filterLengths: this.state.filterLengths.filter(l => {
+      filterLengths: this.state.filterLengths.filter((l) => {
         return l !== length;
       }),
     });
@@ -102,9 +102,9 @@ export default class Talks extends React.PureComponent {
   }
 
   _filterTalks() {
-    return talks.filter(talk => {
+    return talks.filter((talk) => {
       const containsFilteredTags = this.state.filterTags.every(
-        filterTag => {
+        (filterTag) => {
           return talk.tags.includes(filterTag);
         },
       );
@@ -117,7 +117,7 @@ export default class Talks extends React.PureComponent {
       }
 
       const containsFilteredLengths = this.state.filterLengths.every(
-        filterLength => {
+        (filterLength) => {
           return talk.lengths.includes(filterLength);
         },
       );
@@ -133,7 +133,7 @@ export default class Talks extends React.PureComponent {
   _filterTags(filteredTalks) {
     const filteredTags = filteredTalks.reduce(
       (accumulator, current) => {
-        current.tags.forEach(tag => {
+        current.tags.forEach((tag) => {
           if (!accumulator.includes(tag)) accumulator.push(tag);
         });
         return accumulator;
@@ -141,7 +141,7 @@ export default class Talks extends React.PureComponent {
       [],
     );
 
-    const projectedTags = filteredTags.map(tag => {
+    const projectedTags = filteredTags.map((tag) => {
       return {
         name: tag,
         selected: this.state.filterTags.includes(tag),
@@ -165,7 +165,7 @@ export default class Talks extends React.PureComponent {
   _filterLengths(filteredTalks) {
     const filteredLengths = filteredTalks.reduce(
       (accumulator, current) => {
-        current.lengths.forEach(length => {
+        current.lengths.forEach((length) => {
           if (!accumulator.includes(length)) accumulator.push(length);
         });
         return accumulator;
@@ -173,7 +173,7 @@ export default class Talks extends React.PureComponent {
       [],
     );
 
-    const projectedLengths = filteredLengths.map(length => {
+    const projectedLengths = filteredLengths.map((length) => {
       return {
         name: length,
         selected: this.state.filterLengths.includes(length),
@@ -195,7 +195,7 @@ export default class Talks extends React.PureComponent {
   }
 
   _projectLevels() {
-    return levels.map(level => {
+    return levels.map((level) => {
       return {
         name: level,
         selected: this.state.filterLevels.includes(level),

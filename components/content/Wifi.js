@@ -1,6 +1,6 @@
 import ContentSection from '../../styles/ContentSection';
 
-const Wifi = props => (
+const Wifi = (props) => (
   <section id="wifi">
     <a name="wifi" />
     <h1 tabIndex="0">Wifi</h1>

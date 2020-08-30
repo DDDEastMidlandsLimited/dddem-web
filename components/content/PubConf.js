@@ -1,7 +1,7 @@
 import ContentSection from '../../styles/ContentSection';
 import FullWidthImage from '../../components/FullWidthImage';
 
-const PubConf = props => (
+const PubConf = (props) => (
   <section id="pubconf">
     <h1>PubConf - The Unofficial After Party</h1>
     <a name="after-party-about" />

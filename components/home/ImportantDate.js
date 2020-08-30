@@ -1,6 +1,6 @@
 import theme from '../../theme/theme';
 
-const ImportantDate = props => (
+const ImportantDate = (props) => (
   <div className="boxItem">
     <div tabIndex="0" className="top">
       {props.dates.name}

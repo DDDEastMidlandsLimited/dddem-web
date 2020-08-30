@@ -1,6 +1,6 @@
 import theme from '../../theme/theme';
 
-const SponsorDescription = props => (
+const SponsorDescription = (props) => (
   <div className="holder">
     <div className="top">{props.name}</div>
     <div className="bottomBackground">
