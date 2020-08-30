@@ -1,6 +1,6 @@
 import ContentSection from '../../styles/ContentSection';
 
-const Catering = props => (
+const Catering = (props) => (
   <section id="catering">
     <h1 tabIndex="0">Catering</h1>
     <a name="food" />

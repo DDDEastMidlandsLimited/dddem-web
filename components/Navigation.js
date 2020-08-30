@@ -59,7 +59,7 @@ class Navigation extends Component {
                 <Nav.Link
                   target="_blank"
                   href="https://blog.dddeastmidlands.com/"
-                  onSelect={event => {
+                  onSelect={(event) => {
                     logEvent('navigation', 'blog');
                   }}
                 >
@@ -74,7 +74,7 @@ class Navigation extends Component {
                 <NavDropdown.Item
                   target="_blank"
                   href="https://www.youtube.com/channel/UC5TNH43dpYqmw3ggv9OGIKw"
-                  onSelect={event => {
+                  onSelect={(event) => {
                     logEvent('navigation', 'youtube');
                   }}
                 >

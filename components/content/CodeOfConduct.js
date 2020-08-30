@@ -1,6 +1,6 @@
 import ContentSection from '../../styles/ContentSection';
 
-const CodeOfConduct = props => (
+const CodeOfConduct = (props) => (
   <section id="code-of-conduct">
     <h1 tabIndex="0">Code of Conduct</h1>
     <a name="code-of-conduct" />

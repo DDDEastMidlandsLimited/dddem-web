@@ -21,9 +21,6 @@ jobs:
       - name: Install packages
         run: npm install
 
-      - name: Run Prettier Fix
-        run: npm run prettier:fix
-
       - name: Run Prettier Check
         run: npm run prettier:check
 

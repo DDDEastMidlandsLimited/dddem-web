@@ -1,7 +1,7 @@
 import theme from '../../theme/theme';
 import ExternalLink from '../ExternalLink';
 
-const Company = props => (
+const Company = (props) => (
   <div>
     <ExternalLink
       href={props.partner.link}

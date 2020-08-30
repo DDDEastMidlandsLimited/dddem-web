@@ -17,7 +17,7 @@ export default () => (
         <Link
           target="_blank"
           href="https://twitter.com/dylanbeattie"
-          onSelect={event => {
+          onSelect={(event) => {
             logEvent('twitter', 'dylanbeattie');
           }}
         >
@@ -102,7 +102,7 @@ export default () => (
         <Link
           target="_blank"
           href="https://twitter.com/Brunty"
-          onSelect={event => {
+          onSelect={(event) => {
             logEvent('twitter', 'brunty');
           }}
         >
@@ -162,7 +162,7 @@ export default () => (
         <Link
           target="_blank"
           href="https://twitter.com/JessSalisburyy"
-          onSelect={event => {
+          onSelect={(event) => {
             logEvent('twitter', 'jesssalisbury');
           }}
         >
@@ -173,7 +173,7 @@ export default () => (
         <Link
           target="_blank"
           href="https://www.linkedin.com/in/jessica-salisbury-2a0920102/"
-          onSelect={event => {
+          onSelect={(event) => {
             logEvent('linkedin', 'jesssalisbury');
           }}
         >
@@ -245,7 +245,7 @@ export default () => (
         <Link
           target="_blank"
           href="https://twitter.com/AnthonyDotNet"
-          onSelect={event => {
+          onSelect={(event) => {
             logEvent('twitter', 'anthonydang');
           }}
         >
@@ -256,7 +256,7 @@ export default () => (
         <Link
           target="_blank"
           href="https://www.linkedin.com/in/anthony-dang79/"
-          onSelect={event => {
+          onSelect={(event) => {
             logEvent('linkedin', 'anthonydang');
           }}
         >
@@ -324,7 +324,7 @@ export default () => (
         <Link
           target="_blank"
           href="https://twitter.com/GraphicChange"
-          onSelect={event => {
+          onSelect={(event) => {
             logEvent('twitter', 'caraholland');
           }}
         >
@@ -335,7 +335,7 @@ export default () => (
         <Link
           target="_blank"
           href="https://www.linkedin.com/in/cara-holland-71240b7/"
-          onSelect={event => {
+          onSelect={(event) => {
             logEvent('linkedin', 'caraholland');
           }}
         >
@@ -400,7 +400,7 @@ export default () => (
         <Link
           target="_blank"
           href="https://twitter.com/mark_towndrow"
-          onSelect={event => {
+          onSelect={(event) => {
             logEvent('twitter', 'marktowndrow');
           }}
         >
@@ -469,7 +469,7 @@ export default () => (
         <Link
           target="_blank"
           href="https://twitter.com/galiyawarrier"
-          onSelect={event => {
+          onSelect={(event) => {
             logEvent('twitter', 'galiya-warrier');
           }}
         >
@@ -480,7 +480,7 @@ export default () => (
         <Link
           target="_blank"
           href="https://www.linkedin.com/in/galiyawarrier/"
-          onSelect={event => {
+          onSelect={(event) => {
             logEvent('linkedin', 'galiya-warrier');
           }}
         >
@@ -591,7 +591,7 @@ export default () => (
         <Link
           target="_blank"
           href="https://twitter.com/ijohnson_tnf"
-          onSelect={event => {
+          onSelect={(event) => {
             logEvent('twitter', 'ianjohnson');
           }}
         >
@@ -668,7 +668,7 @@ export default () => (
         <Link
           target="_blank"
           href="https://twitter.com/samathy_barratt"
-          onSelect={event => {
+          onSelect={(event) => {
             logEvent('twitter', 'samathybarratt');
           }}
         >
@@ -724,7 +724,7 @@ export default () => (
         <Link
           target="_blank"
           href="https://twitter.com/icooper"
-          onSelect={event => {
+          onSelect={(event) => {
             logEvent('twitter', 'iancooper');
           }}
         >
@@ -735,7 +735,7 @@ export default () => (
         <Link
           target="_blank"
           href="https://www.linkedin.com/in/ian-cooper-2b059b/"
-          onSelect={event => {
+          onSelect={(event) => {
             logEvent('linkedin', 'iancooper');
           }}
         >
@@ -803,7 +803,7 @@ export default () => (
         <Link
           target="_blank"
           href="https://twitter.com/LittleHelli"
-          onSelect={event => {
+          onSelect={(event) => {
             logEvent('twitter', 'helenjoy');
           }}
         >
@@ -814,7 +814,7 @@ export default () => (
         <Link
           target="_blank"
           href="https://www.linkedin.com/in/helencjoy/"
-          onSelect={event => {
+          onSelect={(event) => {
             logEvent('linkedin', 'helenjoy');
           }}
         >
@@ -885,7 +885,7 @@ export default () => (
         <Link
           target="_blank"
           href="https://twitter.com/Rammesses"
-          onSelect={event => {
+          onSelect={(event) => {
             logEvent('twitter', 'joelhammondturner');
           }}
         >
@@ -899,7 +899,7 @@ export default () => (
         <Link
           target="_blank"
           href="https://www.linkedin.com/in/joelht/"
-          onSelect={event => {
+          onSelect={(event) => {
             logEvent('linkedin', 'joelhammondturner');
           }}
         >
@@ -955,7 +955,7 @@ export default () => (
         <Link
           target="_blank"
           href="https://twitter.com/ZackerTheHacker"
-          onSelect={event => {
+          onSelect={(event) => {
             logEvent('twitter', 'zacbraddy');
           }}
         >
@@ -966,7 +966,7 @@ export default () => (
         <Link
           target="_blank"
           href="https://www.linkedin.com/in/zac-braddy-17a81b22/"
-          onSelect={event => {
+          onSelect={(event) => {
             logEvent('linkedin', 'zacbraddy');
           }}
         >
@@ -1060,7 +1060,7 @@ export default () => (
         <Link
           target="_blank"
           href="https://twitter.com/1stmanonthesun"
-          onSelect={event => {
+          onSelect={(event) => {
             logEvent('speakers', 'neiloconnor');
           }}
         >
@@ -1154,7 +1154,7 @@ export default () => (
         <Link
           target="_blank"
           href="https://twitter.com/madSimonJ"
-          onSelect={event => {
+          onSelect={(event) => {
             logEvent('twitter', 'simonpainter');
           }}
         >
@@ -1165,7 +1165,7 @@ export default () => (
         <Link
           target="_blank"
           href="https://www.linkedin.com/in/simon-painter-45a05217/"
-          onSelect={event => {
+          onSelect={(event) => {
             logEvent('linkedin', 'simonpainter');
           }}
         >

@@ -35,7 +35,7 @@ export default class TalkFilter extends React.PureComponent {
   }
 
   _renderItems(items, renderItem) {
-    const elements = items.map(item => {
+    const elements = items.map((item) => {
       return renderItem(item);
     });
 

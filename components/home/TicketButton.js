@@ -1,12 +1,12 @@
 import theme from '../../theme/theme';
 
-const Button = props => (
+const Button = (props) => (
   <div align="center">
     <button className="contactButton">
       <a
         href="https://www.eventbrite.co.uk/e/ddd-east-midlands-tickets-58629047058"
         target="_blank"
-        onSelect={event => {
+        onSelect={(event) => {
           logEvent('home', 'eventbrite');
         }}
       >

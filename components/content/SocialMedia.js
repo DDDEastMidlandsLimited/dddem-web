@@ -1,6 +1,6 @@
 import ContentSection from '../../styles/ContentSection';
 
-const SocialMedia = props => (
+const SocialMedia = (props) => (
   <section id="social-media">
     <h1 tabIndex="0">Social Media and Photos</h1>
     <p tabIndex="0">
