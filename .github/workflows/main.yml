@@ -1,0 +1,44 @@
+name: DDDEMWeb Deploy
+
+on:
+  push:
+    branches:
+      - main
+
+jobs:
+  linux:
+    name: Linux build on node ${{ matrix.node_version }}
+    runs-on: ubuntu-latest
+    strategy:
+      matrix:
+        node_version: [8.x, 10.x]
+
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v1
+
+      - name: Set Node.js version ${{ matrix.node_version }}
+        uses: actions/setup-node@v1
+        with:
+          node-version: ${{ matrix.node_version }}
+
+      - name: Run Prettier Check
+        run: npm run prettier:check
+
+      - name: Run Prettier Fix
+        run: npm run prettier:fix
+
+      - name: Install packages
+        run: npm install
+
+      - name: Run Tests
+        run: npm run test
+
+      - name: Run build
+        run: npm run build:linux
+
+      - name: Run Export
+        run: npm run export
+
+      - name: Deploy
+        run: bash aws_deploy
