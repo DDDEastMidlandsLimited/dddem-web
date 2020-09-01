@@ -1,9 +1,8 @@
 ---
 name: Feature Request
 about: Suggest an idea for the code of this project
-title: 'Feature Request:'
-labels: enhancement, up-for-grabs, help wanted
-assignees: ''
+title: 'Hacktober Feature Request:'
+labels: hacktober, hacktoberfest, up-for-grabs, help wanted, enhancement
 ---
 
 ### Describe the feature
