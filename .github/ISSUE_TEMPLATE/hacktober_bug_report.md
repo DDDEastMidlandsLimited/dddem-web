@@ -1,5 +1,5 @@
 ---
-name: Bug report
+name: Hacktober Bug report
 about: Create a report to help us improve
 title: 'Bug:'
 labels: bug, up-for-grabs, help wanted, hacktober, hacktoberfest
