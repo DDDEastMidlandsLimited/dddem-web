@@ -6,6 +6,7 @@ import ImportantDatesList from '../components/home/ImportantDatesList';
 import TieredCompanies from '../components/companies/TieredCompanies';
 import dates from '../data/dates';
 import gold from '../data/sponsors/gold';
+import silver from '../data/sponsors/silver';
 
 export default () => (
   <Layout>
@@ -35,6 +36,12 @@ export default () => (
     <section>
       <h2>Gold Sponsors</h2>
       <TieredCompanies partners={gold} />
+    </section>
+
+    {/* Silver Sponsors */}
+    <section>
+      <h2>Silver Sponsors</h2>
+      <TieredCompanies partners={silver} />
     </section>
 
     {/* Important Dates */}

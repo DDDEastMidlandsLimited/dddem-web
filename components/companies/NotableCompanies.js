@@ -1,4 +1,5 @@
 import gold from '../../data/sponsors/gold';
+import silver from '../../data/sponsors/silver';
 import partners from '../../data/sponsors/partners';
 import CompanyGrid from './CompanyGrid';
 
@@ -32,7 +33,7 @@ export default class NotableCompanies extends React.PureComponent {
         <CompanyGrid
           companies={[
             ...gold,
-            // ...silver,
+            ...silver,
             ...partners,
             //...standard,
           ]}
