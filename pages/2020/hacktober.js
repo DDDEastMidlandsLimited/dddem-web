@@ -41,7 +41,30 @@ export default () => (
           </p>
         </div>
       </div>
-      <p tabIndex="0"></p>
+      <p tabIndex="0">
+        HacktoberFest is there to encourage you to take part in Open
+        Source. If you are beginner there are many ways to find issues
+        you can help with <a>which you can read about here.</a> In
+        return for braving the world of OSS (Open Source Software),
+        you get some awesome Hacktoberfest swag including t-shirts and
+        stickers.
+      </p>
+      <div align="center">
+        <br />
+        <button>
+          <a
+            href="https://hacktoberfest.digitalocean.com/"
+            target="_blank"
+          >
+            Sign Up Here
+          </a>
+        </button>
+      </div>
+      <p tabIndex="0">
+        Below is a great challenge set by one of the awesome DDD East
+        Midlands sponsors and links to where you can find DDD East
+        Midlands related HacktoberFest issues.
+      </p>
     </section>
 
     <section id="challenge">
@@ -69,6 +92,19 @@ export default () => (
     <section id="take-part">
       <h1 tabIndex="0">Contribute to DDD East Midlands</h1>
       <a name="take-part" />
+      <p tabIndex="0">
+        There are a number of issues that can be picked up on the DDD
+        East Midlands repositories. We have labelled the issues with{' '}
+        <i>up-for-grabs, hacktober, hacktoberfest</i> if we think they
+        are small enough to be picked up for a PR.
+      </p>
+      <li>Pick up an issue.</li>
+      <li>Write a blog post.</li>
+      <li>Fix spelling mistakes.</li>
+      <li>Raise an issue.</li>
+      <p tabIndex="0">
+        Below are links to the DDD East Midlands repositories.
+      </p>
 
       <h2 tabIndex="0">DDD East Midlands Website Repository</h2>
       <p tabIndex="0"></p>
@@ -113,8 +149,8 @@ export default () => (
           Check out the GitHub issues here.
         </a>{' '}
       </li>
+      <br />
     </section>
-
     <style jsx>
       {`
         section {
@@ -140,6 +176,29 @@ export default () => (
         .speakerpic {
           width: 95%;
           border-radius: 50%;
+        }
+
+        button {
+          border-radius: 12px;
+          border: none;
+          color: ${theme.palette.dark};
+          padding: 15px 32px;
+          text-align: center;
+          text-decoration: none;
+          display: inline-block;
+          font-size: 18px;
+          background-color: #ff8ae2;
+          margin-bottom: 15px;
+        }
+
+        button a {
+          color: ${theme.palette.dark};
+        }
+
+        button:hover {
+          box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2),
+            0 6px 20px 0 rgba(0, 0, 0, 0.19);
+          color: ${theme.palette.tertiary};
         }
 
         .columnright {
