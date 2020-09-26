@@ -54,7 +54,15 @@ jobs:
           aws configure set output json
 
       - name: Deploy To S3
-        run: aws s3 sync ./out s3://www.dddeastmidlands.com --delete
+        env:
+          AWS_ACCESS_KEY_ID: ${{ secrets.AWS_ACCESS_KEY }}
+          AWS_SECRET_ACCESS_KEY: ${{ secrets.AWS_SECRET_KEY }}
+        run: |
+          aws s3 sync ./out s3://www.dddeastmidlands.com --delete
 
       - name: Invalidate Cache
-        run: aws cloudfront create-invalidation --distribution-id E337487SP9DI6L --paths "/*"
+        env:
+          AWS_ACCESS_KEY_ID: ${{ secrets.AWS_ACCESS_KEY }}
+          AWS_SECRET_ACCESS_KEY: ${{ secrets.AWS_SECRET_KEY }}
+        run: |
+          aws cloudfront create-invalidation --distribution-id E337487SP9DI6L --paths "/*"
