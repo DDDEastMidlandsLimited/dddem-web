@@ -9,8 +9,12 @@ module.exports = withCSS({
   ) {
     const pathMap = {};
     glob.sync('pages/**/*.js').forEach((s) => {
-      const path = s.split(/(pages|\.)/)[2].replace(/^\/index$/, '/');
-      pathMap[path] = { page: path };
+      if (s.indexOf('_') === -1) {
+        const path = s
+          .split(/(pages|\.)/)[2]
+          .replace(/^\/index$/, '/');
+        pathMap[path] = { page: path };
+      }
     });
     return pathMap;
   },
