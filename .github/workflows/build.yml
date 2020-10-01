@@ -29,3 +29,9 @@ jobs:
 
       - name: Run build
         run: npm run build
+
+      - name: Run Export
+        run: npm run export
+
+      - name: Run pa11y
+        run: npm run pa11y
