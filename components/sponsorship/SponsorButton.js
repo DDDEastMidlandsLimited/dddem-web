@@ -1,7 +1,7 @@
 import theme from '../../theme/theme';
 
 const SponsorButton = (props) => (
-  <div align="center">
+  <div>
     <br />
     <button>
       <a href="mailto:rachel@dddeastmidlands.com" target="_blank">
@@ -10,6 +10,10 @@ const SponsorButton = (props) => (
     </button>
     <style jsx>
       {`
+        div {
+          text-align: center;
+        }
+
         button {
           border-radius: 12px;
           border: none;
