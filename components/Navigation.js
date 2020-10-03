@@ -34,6 +34,12 @@ class Navigation extends Component {
               </Nav.Item>
 
               <Nav.Item>
+                <Nav.Link href="/2020/hacktober">
+                  Hacktoberfest
+                </Nav.Link>
+              </Nav.Item>
+
+              <Nav.Item>
                 <Nav.Link href="/2020/notable-companies">
                   Notable Companies
                 </Nav.Link>

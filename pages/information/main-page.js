@@ -126,8 +126,8 @@ export default () => (
         </div>
       </section>
 
-      <section id="hacktober-information">
-        <div>
+      {/*      <section id="hacktober-information">
+         <div>
           <a
             tabIndex="0"
             href="/information/hacktoberfest-information"
@@ -138,7 +138,7 @@ export default () => (
             </div>
           </a>
         </div>
-      </section>
+      </section> */}
 
       <section id="apply-to-speak">
         <div>
