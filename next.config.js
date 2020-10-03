@@ -2,7 +2,7 @@ const withCSS = require('@zeit/next-css');
 const glob = require('glob');
 
 module.exports = withCSS({
-  exportTrailingSlash: true,
+  trailingSlash: true,
   exportPathMap: async function (
     defaultPathMap,
     { dev, dir, outDir, distDir, buildId },
@@ -13,5 +13,12 @@ module.exports = withCSS({
       pathMap[path] = { page: path };
     });
     return pathMap;
+  },
+  webpack: (config, { isServer }) => {
+    if (isServer) {
+      require('./utils/generateSiteMap');
+    }
+
+    return config;
   },
 });

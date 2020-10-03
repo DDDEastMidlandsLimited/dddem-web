@@ -11,7 +11,7 @@ jobs:
     runs-on: ubuntu-latest
     strategy:
       matrix:
-        node_version: [10.x, 12.x]
+        node_version: [12.x]
 
     steps:
       - name: Checkout
@@ -37,5 +37,33 @@ jobs:
       - name: Run Export
         run: npm run export
 
-      - name: Deploy
-        run: bash aws_deploy
+      - name: Upgrade Pip
+        run: sudo pip install --upgrade pip
+
+      - name: Install AWS CLI
+        run: pip install --user awscli
+
+      - name: Configure AWS
+        env:
+          AWS_ACCESS_KEY_ID: ${{ secrets.AWS_ACCESS_KEY }}
+          AWS_SECRET_ACCESS_KEY: ${{ secrets.AWS_SECRET_KEY }}
+        run: |
+          aws configure set aws_access_key_id "$AWS_ACCESS_KEY"
+          aws configure set aws_secret_access_key "$AWS_SECRET_KEY"
+          aws configure set region eu-west-2
+          aws configure set output json
+
+      - name: Deploy To S3
+        env:
+          AWS_ACCESS_KEY_ID: ${{ secrets.AWS_ACCESS_KEY }}
+          AWS_SECRET_ACCESS_KEY: ${{ secrets.AWS_SECRET_KEY }}
+        run: |
+          aws s3 sync ./out s3://www.dddeastmidlands.com --delete
+
+      - name: Invalidate Cache
+        env:
+          AWS_ACCESS_KEY_ID: ${{ secrets.AWS_ACCESS_KEY }}
+          AWS_SECRET_ACCESS_KEY: ${{ secrets.AWS_SECRET_KEY }}
+          DISTRIBUTION_ID: ${{ secrets.DISTRIBUTION_ID}}
+        run: |
+          aws cloudfront create-invalidation --distribution-id "$DISTRIBUTION_ID" --paths "/*"
