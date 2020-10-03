@@ -20,8 +20,7 @@ export default () => (
    */}
 
     {(() => {
-      let abc = 123;
-      let monthNumber = new Date().getMonth() + 1;
+      const monthNumber = new Date().getMonth() + 1;
       switch (monthNumber) {
         case 6:
           return (
