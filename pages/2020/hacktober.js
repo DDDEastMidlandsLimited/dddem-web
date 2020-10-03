@@ -2,11 +2,6 @@ import Layout from '../../components/Layout';
 import Header from '../../components/Header';
 import theme from '../../theme/theme';
 import Head from 'next/head';
-import {
-  Transport,
-  SocialMedia,
-  CodeOfConduct,
-} from '../../components/content';
 
 export default () => (
   <Layout>
@@ -59,33 +54,6 @@ export default () => (
             Sign Up Here
           </a>
         </button>
-      </div>
-      <p tabIndex="0">
-        Below is a great challenge set by one of the awesome DDD East
-        Midlands sponsors and links to where you can find DDD East
-        Midlands related HacktoberFest issues.
-      </p>
-    </section>
-
-    <section id="challenge">
-      <h1 tabIndex="0">Sponsored Challenge</h1>
-      <a name="challenge" />
-      <h2 tabIndex="0">The Challenge and How To Enter</h2>
-      <p tabIndex="0"></p>
-      <h2 tabIndex="0">Prizes</h2>
-      <p tabIndex="0"></p>
-      <h2 tabIndex="0">Sponsored By Dead Happy</h2>
-      <div className="row">
-        <div className="columnleft">
-          <img
-            src="/static/hacktoberfest/hacktoberfest.png"
-            alt="Hacktoberfest 2020 Logo"
-            className="speakerpic"
-          />
-        </div>
-        <div className="columnright">
-          <p tabIndex="0"></p>
-        </div>
       </div>
     </section>
 
@@ -150,6 +118,97 @@ export default () => (
         </a>{' '}
       </li>
       <br />
+    </section>
+
+    <section id="first-pr">
+      <h1 tabIndex="0">First PR?</h1>
+      <a name="first-pr" />
+      <h2 tabIndex="0">
+        Tell us what you love about the East Midlands Tech Community
+      </h2>
+      <p tabIndex="0">
+        Add a list element to the below with your name and a sentence
+        or two about what you love about the East Midlands tech scene.
+      </p>
+      <h2 tabIndex="0">How to do this?</h2>
+      <p>
+        Some information about HacktoberFest and how to contribute can
+        be read about{' '}
+        <a
+          href="https://jesswhite.co.uk/2020/09/20/hacktober-post.html"
+          target="_blank"
+        >
+          in this linked blog post.
+        </a>{' '}
+        Below are some instructions on how to make changes to this
+        page.
+      </p>
+      <h3 tabIndex="0">Fork the repository</h3>
+      <p>
+        <a
+          href="https://guides.github.com/activities/forking/"
+          target="_blank"
+        >
+          Fork the repository
+        </a>{' '}
+        and clone it locally.{' '}
+        <a
+          href="https://docs.github.com/en/github/collaborating-with-issues-and-pull-requests/configuring-a-remote-for-a-fork"
+          target="_blank"
+        >
+          Configure your remote fork to have the original projects
+          main branch as it’s upstream.
+        </a>
+        If you regularly pull in changes from this remote “upstream”
+        repository, your fork will remain up to date, reducing the
+        chance of later complex merge conflicts.
+      </p>
+      <h3 tabIndex="0">Create a branch</h3>
+      <p>
+        In your forked repository create a branch, which is named
+        according to the contribution guidelines for the repository.
+        If there are no guidelines available, give your branch a short
+        name that summarises your changes.
+      </p>
+      <h3 tabIndex="0">Add your change to this page</h3>
+      <p>
+        In the `pages/2020/hacktober.js` file you will see the section
+        "Why we like the East Midlands Tech Community:". Add your name
+        and reason why you like the East Midlands tech community to
+        the list.
+      </p>
+      <div align="center">
+        <img
+          src="/static/hacktoberfest/screenshot.png"
+          alt="Screen shot of code to add to"
+        />
+      </div>
+      <h3 tabIndex="0">Run prettier</h3>
+      <p>
+        In your terminal of choice (command line, bash etc) run the
+        command `npm run prettier fix`. This will fix the formatting
+        in your changes.
+      </p>
+      <h3 tabIndex="0">Commit, push and raise a Pull Request</h3>
+      <p>
+        Commit your changes with a message describing your change and
+        push your changes up. You can then raise a Pull Request using
+        the GitHub UI.
+      </p>
+    </section>
+
+    <section id="list">
+      <h1 tabIndex="0">
+        Why we like the East Midlands Tech Community:
+      </h1>
+      <a name="list" />
+      <li>
+        <a href="https://twitter.com/JessPWhite" target="_blank">
+          Jessica White
+        </a>{' '}
+        - The people who are part of the East Midlands Tech Community
+        are amazing.
+      </li>
     </section>
     <style jsx>
       {`
