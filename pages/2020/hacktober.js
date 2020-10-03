@@ -44,7 +44,7 @@ export default () => (
         you get some awesome Hacktoberfest swag including t-shirts and
         stickers.
       </p>
-      <div align="center">
+      <div className="align-center">
         <br />
         <button>
           <a
@@ -177,7 +177,7 @@ export default () => (
         and reason why you like the East Midlands tech community to
         the list.
       </p>
-      <div align="center">
+      <div className="align-center">
         <img
           src="/static/hacktoberfest/screenshot.png"
           alt="Screen shot of code to add to"
@@ -270,6 +270,10 @@ export default () => (
           padding: 10px;
           float: left;
           width: 35%;
+        }
+
+        .align-center {
+          text-align: center;
         }
 
         tr th {

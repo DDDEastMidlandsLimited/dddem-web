@@ -12,7 +12,8 @@
     "prettier:fix": "prettier --write \"**/*.js\"",
     "test": "jest",
     "test:watch": "jest --watch",
-    "test:coverage": "jest --coverage"
+    "test:coverage": "jest --coverage",
+    "pa11y": "node ./pa11y/index.js"
   },
   "keywords": [],
   "author": "",
@@ -52,6 +53,8 @@
     "husky": "^4.3.0",
     "jest": "^26.4.2",
     "jest-transform-css": "^2.0.0",
+    "pa11y": "^5.3.0",
+    "pa11y-ci": "^2.4.0",
     "prettier": "^2.1.1",
     "pretty-quick": "^2.0.2"
   },
