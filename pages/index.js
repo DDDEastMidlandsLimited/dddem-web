@@ -13,11 +13,54 @@ export default () => (
     <Head>
       <title>DDD East Midlands</title>
     </Head>
-    <Header
-      title={'DDD East Midlands'}
-      banner="
-      /static/banners/home.jpg"
-    />
+
+    {/* Switch stamement takes the number of month as an expression.
+  More number of cases can be added based on new banners that are supposed
+  to be added for the months that are left out.
+   */}
+
+    {(() => {
+      const monthNumber = new Date().getMonth() + 1;
+      switch (monthNumber) {
+        case 6:
+          return (
+            <Header
+              title={'DDD East Midlands'}
+              banner="
+        /static/banners/pride.png"
+            />
+          );
+          break;
+        case 9:
+        case 10:
+        case 11:
+          return (
+            <Header
+              title={'DDD East Midlands'}
+              banner="
+            /static/banners/autumn-header.jpg"
+            />
+          );
+          break;
+        case 12:
+          return (
+            <Header
+              title={'DDD East Midlands'}
+              banner="
+        /static/banners/christmas.png"
+            />
+          );
+          break;
+        default:
+          return (
+            <Header
+              title={'DDD East Midlands'}
+              banner="
+        /static/banners/home.jpg"
+            />
+          );
+      }
+    })()}
 
     <br />
 
