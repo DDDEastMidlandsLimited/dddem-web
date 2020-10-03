@@ -32,29 +32,13 @@ export default () => (
           );
           break;
         case 9:
-          return (
-            <Header
-              title={'DDD East Midlands'}
-              banner="
-        /static/banners/autumn-header.jpg"
-            />
-          );
-          break;
         case 10:
-          return (
-            <Header
-              title={'DDD East Midlands'}
-              banner="
-      /static/banners/autumn-header.jpg"
-            />
-          );
-          break;
         case 11:
           return (
             <Header
               title={'DDD East Midlands'}
               banner="
-        /static/banners/autumn-header.jpg"
+            /static/banners/autumn-header.jpg"
             />
           );
           break;
