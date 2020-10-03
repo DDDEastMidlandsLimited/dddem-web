@@ -28,6 +28,12 @@ async function pa11yCheck() {
   });
 
   if (issuesList.length > 0) {
+    for (let i = 0; i < issuesList.length; i++) {
+      const issue = issuesList[i];
+      console.log('---');
+      console.log(issue.pageUrl);
+      console.log(issue.issues);
+    }
     process.exit(2);
   } else {
     process.exit(0);
