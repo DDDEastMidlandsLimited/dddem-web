@@ -38,7 +38,7 @@ export default () => (
             <Header
               title={'DDD East Midlands'}
               banner="
-            /static/banners/autumn-header.jpg"
+            /static/banners/autumn.jpg"
             />
           );
           break;

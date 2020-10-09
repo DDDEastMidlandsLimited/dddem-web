@@ -48,9 +48,9 @@ const Header = (props) => (
           background-image: url(${props.banner});
           background-color: ${theme.palette.primary};
           height: 300px;
-          background-size: cover;
           background-repeat: no-repeat;
           background-position: center;
+          background-size: 1400px 400px;
         }
         .logo {
           text-align: center;
