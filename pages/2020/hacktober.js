@@ -209,6 +209,14 @@ export default () => (
         - The people who are part of the East Midlands Tech Community
         are amazing.
       </li>
+      <li>
+        <a href="" target="_blank">
+          Chirag Bolakani
+        </a>{' '}
+        - It's a great pleasure to be a part of the East Midlands Tech
+        Community as the people are very supportive and help you in
+        your overall development.
+      </li>
     </section>
     <style jsx>
       {`

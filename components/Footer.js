@@ -95,6 +95,17 @@ const Footer = () => (
           font-family: ${theme.font.default};
           color: ${theme.palette.light};
         }
+
+        @media (max-width: 567px) {
+          ul {
+            display: flex;
+            margin: 0;
+            padding: 10px;
+            flex-flow: column;
+            justify-content: space-evenly;
+            flex-wrap: nowrap;
+          }
+        }
       `}
     </style>
   </footer>
