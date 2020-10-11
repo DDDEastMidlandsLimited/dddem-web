@@ -77,7 +77,7 @@ const Footer = () => (
           display: flex;
           margin: 0;
           padding: 10px;
-          flex-flow: row;
+          flex-flow: column;
           justify-content: space-evenly;
           flex-wrap: nowrap;
         }
@@ -95,7 +95,6 @@ const Footer = () => (
           font-family: ${theme.font.default};
           color: ${theme.palette.light};
         }
-
         @media (max-width: 567px) {
           ul {
             display: flex;
