@@ -1,4 +1,5 @@
 import React from 'react';
+import dynamic from 'next/dynamic';
 import { initGA, logPageView } from '../utils/analytics';
 import Navigation from './Navigation';
 import Footer from './Footer';
@@ -25,6 +26,11 @@ library.add(
 
 import GlobalHead from './Head';
 
+const PerformanceAnalytics = dynamic(
+  () => import('./PerformanceAnalytics'),
+  { ssr: false },
+);
+
 export default class Layout extends React.Component {
   constructor(props) {
     super(props);
@@ -35,6 +41,7 @@ export default class Layout extends React.Component {
       initGA();
       window.GA_INITIALIZED = true;
     }
+
     logPageView();
   }
 
@@ -43,6 +50,7 @@ export default class Layout extends React.Component {
       <div className="container">
         <GlobalHead />
         <Navigation />
+        <PerformanceAnalytics />
         {this.props.children}
         <Footer />
         <style jsx global>{`
