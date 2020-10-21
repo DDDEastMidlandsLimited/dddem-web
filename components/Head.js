@@ -110,7 +110,7 @@ export default () => (
         sizes="16x16"
         href="/static/favicon/favicon-16x16.png"
       />
-      <link rel="manifest" href="/static/favicon/manifest.json" />
+      <link rel="manifest" href="/manifest.json" />
       <script src="/static/client/object-assign-auto.min.js"></script>
       <script src="/static/client/sessionize.js"></script>
     </Head>
