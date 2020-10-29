@@ -217,6 +217,13 @@ export default () => (
         Community as the people are very supportive and help you in
         your overall development.
       </li>
+      <li>
+        <a href="https://twitter.com/MRJulian97" target="_blank">
+          Julian Merida
+        </a>{' '}
+        - Everyone in East Midlands Tech Community are really amazing!
+        I've learnt a lot from the content they share!
+      </li>
     </section>
     <style jsx>
       {`
