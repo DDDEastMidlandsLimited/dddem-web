@@ -27,7 +27,7 @@ export default () => (
             <Header
               title={'DDD East Midlands'}
               banner="
-        /static/banners/pride.png"
+        /static/banners/pride-header.png"
             />
           );
           break;
@@ -47,7 +47,7 @@ export default () => (
             <Header
               title={'DDD East Midlands'}
               banner="
-        /static/banners/christmas.png"
+        /static/banners/christmas-header.png"
             />
           );
           break;
