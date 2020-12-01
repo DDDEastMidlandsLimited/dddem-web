@@ -56,7 +56,7 @@ const PubConf = (props) => (
       </strong>
     </p>
     <img
-      src="/static/banners/pubconf.png"
+      src="/static/banners/pubconf.jpg"
       alt="PubConf Nottingham Banner"
       className="picture"
     />

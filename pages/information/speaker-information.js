@@ -154,19 +154,19 @@ export default () => (
       <h2 tabIndex="0">Rooms</h2>
 
       <h4 tabIndex="0">Room 1 (Lecture Theatre 2)</h4>
-      <FullWidthImage url={'/static/rooms/LT2.png'} />
+      <FullWidthImage url={'/static/rooms/LT2.jpg'} />
       <p tabIndex="0">
         <strong>Seats:</strong> up to 470 people
       </p>
 
       <h4 tabIndex="0">Room 2 (Lecture Theatre 4)</h4>
-      <FullWidthImage url={'/static/rooms/LT4.png'} />
+      <FullWidthImage url={'/static/rooms/LT4.jpg'} />
       <p tabIndex="0">
         <strong>Seats:</strong> up to 100 people
       </p>
 
       <h4 tabIndex="0">Room 3 (Lecture Theatre 5)</h4>
-      <FullWidthImage url={'/static/rooms/LT5.png'} />
+      <FullWidthImage url={'/static/rooms/LT5.jpg'} />
       <p tabIndex="0">
         <strong>Seats:</strong> up to 100 people
       </p>
