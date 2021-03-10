@@ -71,13 +71,13 @@ export default () => (
     <section id="applicationopen">
       <a name="applicationopen" />
       <h2 tabIndex="0">When does the CFP Open?</h2>
-      <p tabIndex="0">TBC 2021</p>
+      <p tabIndex="0">2nd April 2021</p>
     </section>
 
     <section id="applicationclose">
       <a name="applicationclose" />
       <h2 tabIndex="0">When does the CFP Close?</h2>
-      <p tabIndex="0">TBC 2021.</p>
+      <p tabIndex="0">30th April 2021.</p>
     </section>
 
     <section id="applicationhow">
@@ -86,7 +86,7 @@ export default () => (
       <p tabIndex="0">
         We use{' '}
         <a
-          href="https://sessionize.com/dddeastmidlands-2020/"
+          href="https://sessionize.com/ddd-east-midlands-conference-2021/"
           target="_blank"
         >
           Sessionise
