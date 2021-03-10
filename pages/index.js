@@ -14,7 +14,7 @@ export default () => (
       <title>DDD East Midlands</title>
     </Head>
 
-    {/* Switch stamement takes the number of month as an expression.
+    {/* Switch statement takes the number of month as an expression.
   More number of cases can be added based on new banners that are supposed
   to be added for the months that are left out.
    */}
@@ -62,7 +62,19 @@ export default () => (
       }
     })()}
 
-    <br />
+    <div className="banner">
+      <h3 tabIndex="0">
+        {' '}
+        Returning 2nd October 2021 at
+        <br />
+        <a
+          href="https://www.dddeastmidlands.com/information/venue-information/"
+          target="_blank"
+        >
+          the Nottingham Conference Center
+        </a>{' '}
+      </h3>
+    </div>
 
     <section>
       <p tabIndex="0">
@@ -147,6 +159,16 @@ export default () => (
         .subheader {
           margin: 0px;
           padding-bottom: 15px;
+        }
+        .banner {
+          text-align: center;
+          padding: 5px 5px;
+          background: ${theme.palette.primary};
+          color: ${theme.palette.light};
+        }
+        .banner a {
+          text-align: center;
+          color: ${theme.palette.light};
         }
         .infolink {
           margin: 10px;
