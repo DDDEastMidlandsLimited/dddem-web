@@ -451,7 +451,7 @@ export default () => (
           Sponsor. More details will be described here closer to the
           event.
         </p>
-        <li tabIndex="0">
+        {/*  <li tabIndex="0">
           <b>
             Organisers are speaking at meetups about how to submit a
             good abstract.
@@ -477,7 +477,7 @@ export default () => (
           to come across to present this talk, get in touch. We will
           also make efforts to write the content of this talk in a
           blog to increase the ease of access to the content.
-        </p>
+        </p> */}
       </ul>
     </section>
 

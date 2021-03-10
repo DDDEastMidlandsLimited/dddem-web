@@ -153,23 +153,13 @@ export default () => (
         event. If that is the case, we will be going ahead as planned
         on October the 2nd 2021.
       </p>
+      <h4>Back up plans: Social Distancing or Postponing</h4>
       <p tabIndex="0">
-        The safety of all involved is our greatest concern. If
-        isolation or social distancing are still in place or there is
-        still any risk of COVID-19 affecting anyone, we will move to
-        Plan B.
-      </p>
-      <h4>Plan B: Postpone to 2021</h4>
-      <p tabIndex="0">
-        If it gets closer to the event and Plan A doesn't look
-        possible, we will postpone the event to 2021.
-        <a
-          href="https://blog.dddeastmidlands.com/2020/04/06/covid-19.html"
-          target="_blank"
-        >
-          You can read more details around the decision and how it
-          affects your tickets and experience in this blog post.
-        </a>
+        The safety of all involved is our greatest concern. As such we
+        have also got plans for either having a social distanced
+        version of the event or postponing to March 2022 if government
+        restrictions prevent us from running a full event, or we deem
+        it not safe enough to go ahead.
       </p>
     </section>
 
