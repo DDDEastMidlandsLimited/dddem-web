@@ -11,63 +11,6 @@ export default () => (
     </Head>
     <Header title={'Sponsor'} banner="/static/banners/sponsor.jpg" />
 
-    <section id="when-and-where">
-      <h1 tabIndex="0">When and Where?</h1>
-      <a name="when" />
-      <h2 tabIndex="0">When</h2>
-      <p tabIndex="0">October 2nd 2021</p>
-      <a name="where" />
-      <h2 tabIndex="0">When</h2>
-      <p tabIndex="0">
-        The Nottingham Conference Center (same as this year)
-      </p>
-    </section>
-
-    <a name="covid19" />
-    <section id="covid19">
-      <h1 tabIndex="0"> How Will COVID-19 Affect Sponsorship?</h1>
-      <p tabIndex="0">
-        With the current state of play, we understand that you may be
-        curious as to what our plans are around COVID-19. We want to
-        ensure everyones safety, while providing a good experience for
-        our sponsors.
-      </p>
-      <h4>Plan A: Conference Goes Ahead</h4>
-      <p tabIndex="0">
-        As the event is happening in October, we are far enough ahead
-        in the future that the pandemic <i>might</i> not effect our
-        event. If that is the case, we will be going ahead as planned
-        on October the 2nd 2021.
-      </p>
-      <p tabIndex="0">
-        The safety of all involved is our greatest concern. If
-        isolation or social distancing are still in place or there is
-        still any risk of COVID-19 affecting attendees, we will move
-        to Plan B.
-      </p>
-      <h4>Plan B: Postpone to 2021</h4>
-      <p tabIndex="0">
-        If it gets closer to the event and Plan A doesn't look
-        possible, we will postpone the event to 2021. You will be
-        offered the opportunity to carry over your sponsorship. We
-        appreciate your support over this time, so don't want you to
-        miss out. Though this is not the preferred plan, it will give
-        us a great opportunity to work on the event for a further 12
-        months.
-      </p>
-      <p tabIndex="0">
-        <strong>
-          <a
-            href="https://blog.dddeastmidlands.com/2020/04/06/covid-19.html"
-            target="_blank"
-          >
-            You can read more details around the decision and how it
-            affects attendees in this blog post.
-          </a>
-        </strong>
-      </p>
-    </section>
-
     <section id="indicating-interest">
       <h1 tabIndex="0">Indicating Interest to Sponsor</h1>
 
@@ -150,19 +93,15 @@ export default () => (
       </h2>
       <p tabIndex="0">
         <strong>
-          Once your company and Rachel have agreed on the sponsorship
+          Once a company and Rachel have agreed on the sponsorship
           opportunity and terms:
         </strong>
       </p>
       <ul tabIndex="0">
         <li> Send Rachel your Companies House details/link.</li>
-        <li> We will send you a contract to sign.</li>
-        <li>
-          {' '}
-          Send back the signed contract and the payment method you
-          want to use.
-        </li>
-        <li> We will send you back a co-signed contract.</li>
+        <li> We will send you a contract to sign using Eversign</li>
+        <li> We will co-sign the contract on Eversign.</li>
+        <li> Arrange the payment you wish to use.</li>
         <li> An invoice for the agreed amount will be sent.</li>
         <li>
           {' '}
@@ -172,7 +111,7 @@ export default () => (
         </li>
         <li>
           {' '}
-          Once the amount has been paid - you will recieve the
+          Once the amount has been paid - you will receive the
           benefits outlined by the agreement.
         </li>
         <li>
@@ -180,6 +119,37 @@ export default () => (
           Your support will be announced on our social media channels.
         </li>
       </ul>
+      <br />
+    </section>
+
+    <a name="covid19" />
+    <section id="covid19">
+      <h1 tabIndex="0"> How Will COVID-19 Affect Sponsorship?</h1>
+      <p tabIndex="0">
+        With the current state of play, we understand that you may be
+        curious as to what our plans are around COVID-19. We want to
+        ensure everyone's safety, while providing a good experience
+        for our sponsors.
+      </p>
+      <h4>Plan A: Conference Goes Ahead</h4>
+      <p tabIndex="0">
+        As the event is happening in October, we are far enough ahead
+        in the future that the pandemic <i>might</i> not effect our
+        event. If that is the case, we will be going ahead as planned
+        on October the 2nd 2021.
+      </p>
+      <h4>Backup Plans: Social distance or postpone</h4>
+      <p tabIndex="0">
+        The safety of all involved is our greatest concern. We will
+        rely on our own judgement as well as government guidelines to
+        inform us if we can do a full in person event.
+      </p>
+      <p tabIndex="0">
+        In the case this is not possible, our venue has precautions in
+        place to enforce social distancing, or if we have to go into
+        another lock down, we have arranged a date to postpone to in
+        2022.
+      </p>
       <br />
       <br />
     </section>
