@@ -17,20 +17,6 @@ const Header = (props) => (
       <h1 tabIndex="0">{props.title}</h1>
     </div>
 
-    <div className="covid">
-      <h3 tabIndex="0">
-        {' '}
-        DDD East Midlands has been postponed to 2021
-        <br />
-        <a
-          href="https://blog.dddeastmidlands.com/2020/06/21/covid-decision.html"
-          target="_blank"
-        >
-          Read more about this decision here
-        </a>{' '}
-      </h3>
-    </div>
-
     <style jsx>
       {`
         h1 {
