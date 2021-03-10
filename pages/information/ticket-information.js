@@ -26,11 +26,11 @@ export default () => (
           <a href="#ticketrelease">When will tickets be released?</a>
         </strong>
       </p>
-      <p>
+      {/*       <p>
         <strong>
           <a href="#soldout">What if tickets are sold out?</a>
         </strong>
-      </p>
+      </p> */}
       <p>
         <strong>
           <a href="#return">
@@ -55,15 +55,15 @@ export default () => (
       <h1 tabIndex="0">When will tickets be released?</h1>
       <ul tabIndex="0">
         <li>
-          <strong>First wave:</strong> 20th March 2021
+          <strong>First wave:</strong> 14th May 2021
         </li>
         <li>
-          <strong>Second wave:</strong> 10th April 2021
+          <strong>Second wave:</strong> 21st May 2021
         </li>
       </ul>
     </section>
 
-    <section>
+    {/*     <section>
       <a name="soldout" />
       <h1 tabIndex="0">What if tickets are sold out?</h1>
       <p tabIndex="0">
@@ -80,7 +80,7 @@ export default () => (
         becomes available and you are next on the list, you will be
         emailed and given 24 hours to claim the ticket.
       </p>
-    </section>
+    </section> */}
 
     <section>
       <a name="return" />
