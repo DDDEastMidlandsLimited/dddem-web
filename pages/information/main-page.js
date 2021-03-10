@@ -22,13 +22,13 @@ export default () => (
             title="Link to Conference Information Page"
           >
             <div className="conference-button image-button">
-              <h2>DDD East Midlands Information</h2>
+              <h2>About DDD East Midlands</h2>
             </div>
           </a>
         </div>
       </section>
 
-      <section id="sponsor-information">
+      {/*       <section id="sponsor-information">
         <div>
           <a
             tabIndex="0"
@@ -41,7 +41,7 @@ export default () => (
           </a>
         </div>
       </section>
-
+ */}
       <section id="venue">
         <div>
           <a
@@ -50,7 +50,7 @@ export default () => (
             title="Link to Venue Information Page"
           >
             <div className="venue-button image-button">
-              <h2>Venue Information</h2>
+              <h2>Venue</h2>
             </div>
           </a>
         </div>
@@ -64,7 +64,21 @@ export default () => (
             title="Link to Accessibility Information Page"
           >
             <div className="accessibility-button image-button">
-              <h2>Accessibility Information</h2>
+              <h2>Accessibility</h2>
+            </div>
+          </a>
+        </div>
+      </section>
+
+      <section id="apply-to-speak">
+        <div>
+          <a
+            tabIndex="0"
+            href="/information/application-information"
+            title="Link to Information About Applying To Speak"
+          >
+            <div className="apply-button image-button">
+              <h2>Applying To Speak</h2>
             </div>
           </a>
         </div>
@@ -78,7 +92,7 @@ export default () => (
             title="Link to Ticket Information Page"
           >
             <div className="ticket-button image-button">
-              <h2>Ticket Information</h2>
+              <h2>Tickets</h2>
             </div>
           </a>
         </div>
@@ -92,13 +106,13 @@ export default () => (
             title="Link to Attendee Information Page"
           >
             <div className="attendee-button image-button">
-              <h2>Attendee Information</h2>
+              <h2>Attending</h2>
             </div>
           </a>
         </div>
       </section>
 
-      <section id="speaker-information">
+      {/*       <section id="speaker-information">
         <div>
           <a
             tabIndex="0"
@@ -110,9 +124,9 @@ export default () => (
             </div>
           </a>
         </div>
-      </section>
+      </section> */}
 
-      <section id="crew-information">
+      {/*       <section id="crew-information">
         <div>
           <a
             tabIndex="0"
@@ -124,7 +138,7 @@ export default () => (
             </div>
           </a>
         </div>
-      </section>
+      </section> */}
 
       {/*      <section id="hacktober-information">
          <div>
@@ -139,20 +153,6 @@ export default () => (
           </a>
         </div>
       </section> */}
-
-      <section id="apply-to-speak">
-        <div>
-          <a
-            tabIndex="0"
-            href="/information/application-information"
-            title="Link to Information About Applying To Speak"
-          >
-            <div className="apply-button image-button">
-              <h2>Applying To Speak Information</h2>
-            </div>
-          </a>
-        </div>
-      </section>
 
       {/* Exhibition Information*/}
 
