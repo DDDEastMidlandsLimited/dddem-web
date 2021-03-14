@@ -2,5 +2,6 @@ node_modules
 out
 .next
 .idea
+.public/
 _site/
 coverage
