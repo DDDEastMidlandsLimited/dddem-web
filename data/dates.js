@@ -1,37 +1,37 @@
 const dates = [
   {
     id: 1,
-    date: 'TBC',
+    date: '2nd April 2021',
     name: 'Call For Speakers Opens',
   },
   {
     id: 2,
-    date: 'TBC',
+    date: '30th April 2021',
     name: 'Call For Speakers Closes',
   },
   {
     id: 3,
-    date: 'TBC',
+    date: '7th May 2021',
     name: 'First Wave Of Tickets Released',
   },
   {
     id: 4,
-    date: 'TBC',
-    name: 'Second Wave Of Tickets Released',
-  },
-  {
-    id: 5,
-    date: 'TBC',
+    date: '14th May 2021',
     name: 'Voting Opens',
   },
   {
+    id: 5,
+    date: '21st May 2021',
+    name: 'Second Wave Of Tickets Released',
+  },
+  {
     id: 6,
-    date: 'TBC',
+    date: '31st May 2021',
     name: 'Voting Closes',
   },
   {
     id: 7,
-    date: 'TBC',
+    date: '3rd September',
     name: 'Agenda Published',
   },
   {
