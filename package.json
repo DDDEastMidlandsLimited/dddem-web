@@ -37,7 +37,7 @@
     "react-dom": "^16.13.1",
     "react-ga": "^3.3.0",
     "react-sizeme": "^3.0.1",
-    "reactstrap": "^8.5.1"
+    "reactstrap": "^8.9.0"
   },
   "devDependencies": {
     "@babel/plugin-proposal-class-properties": "^7.13.0",
