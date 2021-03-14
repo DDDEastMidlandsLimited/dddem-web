@@ -4,20 +4,21 @@
 
 # DDD East Midlands Limited Contributors Guide.
 
-:star: Thanks for taking the time to contribute :star: 
+:star: Thanks for taking the time to contribute :star:
 
 This document outlines the different ways you can contribute to the DDD East Midlands Limited repositories. If you can think of something we can change or are missing in this doc - you can even open a pull request for making that kind of change.
 
 [Code of Conduct](CODE_OF_CONDUCT.md)
 
 [How Can I Contribute?](#how-can-i-contribute)
-  * [Reporting Bugs](#reporting-bugs)
-  * [Suggesting Enhancements](#suggesting-enhancements)
-  * [Labels For Issues](#labels-for-issues)
-  * [Pull Requests](#pull-requests)
-  * [Your First Code Contribution](#your-first-code-contribution)
-  * [Git Commit Messages](#git-commit-messages)
-  * [Licencing](#licencing)
+
+- [Reporting Bugs](#reporting-bugs)
+- [Suggesting Enhancements](#suggesting-enhancements)
+- [Labels For Issues](#labels-for-issues)
+- [Pull Requests](#pull-requests)
+- [Your First Code Contribution](#your-first-code-contribution)
+- [Git Commit Messages](#git-commit-messages)
+- [Licencing](#licencing)
 
 ## How Can I Contribute?
 
@@ -33,32 +34,32 @@ First of all please do a search on the issues already present to see if it's an 
 
 ### Labels For Issues
 
-| Label | Purpose |
-| --- |--- |
-| bug | Something isn't working |
-| duplicate | This issue or pull request already exists |
-| enhancement | New feature or request |
+| Label        | Purpose                                                           |
+| ------------ | ----------------------------------------------------------------- |
+| bug          | Something isn't working                                           |
+| duplicate    | This issue or pull request already exists                         |
+| enhancement  | New feature or request                                            |
 | up-for-grabs | An issue that is ready and has enough information to be picked up |
-| help wanted | Extra attention is needed |
-| invalid | This doesn't seem right |
-| question | Further information is requested |
-| docs | An issue that only relates to writing docs |
-| beginner | Suitable for first time contributors |
+| help wanted  | Extra attention is needed                                         |
+| invalid      | This doesn't seem right                                           |
+| question     | Further information is requested                                  |
+| docs         | An issue that only relates to writing docs                        |
+| beginner     | Suitable for first time contributors                              |
 
 ### Pull Requests
 
 - Create branch. Give it a descriptive name relating to what the work covers. See some examples below.
 
-| PR-prefix | Category | Example |
-| --- | --- | --- |
-| e/| enhancement | e/improveperformanceofquery |
-| b/ | bug | bug/acceptnullsforinput |
+| PR-prefix | Category    | Example                     |
+| --------- | ----------- | --------------------------- |
+| e/        | enhancement | e/improveperformanceofquery |
+| b/        | bug         | bug/acceptnullsforinput     |
 
-* Open a Pull Request with the details listed in the [pull request template](../pull_request_template.md). The sections of this template should show in the body of any new pull request automatically.
+- Open a Pull Request with the details listed in the [pull request template](../pull_request_template.md). The sections of this template should show in the body of any new pull request automatically.
 
-* Include screenshots and animated GIFs in your pull request whenever possible.
+- Include screenshots and animated GIFs in your pull request whenever possible.
 
-* Make a comment with the pull request in any issues it relates to.
+- Make a comment with the pull request in any issues it relates to.
 
 ### Your First Code Contribution?
 
