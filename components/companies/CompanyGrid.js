@@ -1,3 +1,4 @@
+import React from 'react';
 import Company from './Company';
 import CompanyDetailsButton from './CompanyDetailsButton';
 import { SizeMe } from 'react-sizeme';
