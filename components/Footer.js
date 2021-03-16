@@ -3,6 +3,8 @@ import Link from 'next/link';
 import theme from '../theme/theme';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 
+/* enabled prettier*/
+
 const Footer = () => (
   <footer>
     <ul>
