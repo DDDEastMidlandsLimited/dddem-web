@@ -17,9 +17,7 @@ const Footer = () => (
           prefetch={false}
         >
           <a target="_blank" aria-label="Twitter">
-            {' '}
-            Twitter
-            {/*  <FontAwesomeIcon icon={["fab", "twitter"]} size="sm" /> */}
+            <FontAwesomeIcon icon={["fab", "twitter"]} size="sm" />
           </a>
         </Link>
       </li>
@@ -29,9 +27,7 @@ const Footer = () => (
           prefetch={false}
         >
           <a target="_blank" aria-label="GitHub">
-            {' '}
-            GitHub
-            {/*  <FontAwesomeIcon icon={['fab', 'github']} size="sm" /> */}
+            <FontAwesomeIcon icon={['fab', 'github']} size="sm" />
           </a>
         </Link>
       </li>
@@ -41,9 +37,7 @@ const Footer = () => (
           prefetch={false}
         >
           <a target="_blank" aria-label="Instagram">
-            {' '}
-            Instagram
-            {/* <FontAwesomeIcon icon={['fab', 'instagram']} size="sm" /> */}
+            <FontAwesomeIcon icon={['fab', 'instagram']} size="sm" />
           </a>
         </Link>
       </li>
@@ -53,9 +47,7 @@ const Footer = () => (
           prefetch={false}
         >
           <a target="_blank" aria-label="LinkedIn">
-            {' '}
-            LinkedIn
-            {/*  <FontAwesomeIcon icon={['fab', 'linkedin']} size="sm" /> */}
+            <FontAwesomeIcon icon={['fab', 'linkedin']} size="sm" />
           </a>
         </Link>
       </li>
