@@ -19,7 +19,7 @@ const Footer = () => (
           prefetch={false}
         >
           <a target="_blank" aria-label="Twitter">
-            <FontAwesomeIcon icon={["fab", "twitter"]} size="sm" />
+            <FontAwesomeIcon icon={['fab', 'twitter']} size="sm" />
           </a>
         </Link>
       </li>
