@@ -1,5 +1,5 @@
 import React from 'react';
-import { Container, Row, Col } from 'reactstrap';
+import { Row, Col } from 'reactstrap';
 import Link from 'next/link';
 import theme from '../theme/theme';
 import '@fortawesome/fontawesome-svg-core/styles.css';
