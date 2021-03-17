@@ -80,7 +80,7 @@ if (!self.define) {
     });
   };
 }
-define('./sw.js', ['./workbox-f88dbe3b'], function (workbox) {
+define('./sw.js', ['./workbox-d6d90c3a'], function (workbox) {
   'use strict';
 
   /**
@@ -96,7 +96,7 @@ define('./sw.js', ['./workbox-f88dbe3b'], function (workbox) {
    */
 
   importScripts();
-  workbox.skipWaiting();
+  self.skipWaiting();
   workbox.clientsClaim();
   workbox.registerRoute(
     /.*/i,
