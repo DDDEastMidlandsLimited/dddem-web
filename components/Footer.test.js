@@ -3,7 +3,7 @@ import { render } from '@testing-library/react';
 import Footer from './Footer';
 
 describe('Given the Footer is rendered', () => {
-  test('it should display the Code of Conduct', () => {
+  test('it should display the Code of Conduct Link', () => {
     const { getByText } = render(<Footer />);
     expect(getByText('Code of Conduct')).toBeInTheDocument();
     expect(getByText('Code of Conduct')).toHaveAttribute(
@@ -12,7 +12,7 @@ describe('Given the Footer is rendered', () => {
     );
   });
 
-  test('it should display the Code of Conduct', () => {
+  test('it should display the Contact Link', () => {
     const { getByText } = render(<Footer />);
     expect(getByText('Contact')).toBeInTheDocument();
     expect(getByText('Contact')).toHaveAttribute('href', '/contact');
