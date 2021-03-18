@@ -5,3 +5,7 @@ out/*
 .public/
 _site/
 coverage
+
+public/sw.js
+public/sw.js.map
+public/workbox*
