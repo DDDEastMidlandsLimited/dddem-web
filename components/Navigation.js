@@ -1,6 +1,5 @@
 import React, { Component } from 'react';
 import { Nav, Navbar, NavDropdown } from 'react-bootstrap';
-import '../theme/bootstrap.css';
 import { logEvent } from '../utils/analytics';
 
 class Navigation extends Component {

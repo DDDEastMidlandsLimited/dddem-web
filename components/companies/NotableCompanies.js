@@ -1,3 +1,4 @@
+import React from "react";
 import gold from '../../data/sponsors/gold';
 import silver from '../../data/sponsors/silver';
 import partners from '../../data/sponsors/partners';

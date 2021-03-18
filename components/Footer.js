@@ -2,7 +2,6 @@ import React from 'react';
 import { Row, Col } from 'reactstrap';
 import Link from 'next/link';
 import theme from '../theme/theme';
-import '@fortawesome/fontawesome-svg-core/styles.css';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 
 /* enabled prettier*/
