@@ -3,24 +3,25 @@ import Header from '../components/Header';
 import theme from '../theme/theme';
 import Head from 'next/head';
 
-export default () => (
-  <Layout>
-    <Head>
-      <title>Agenda</title>
-    </Head>
-    <Header title={'Agenda'} />
+function Agenda() {
+  return (
+    <Layout>
+      <Head>
+        <title>Agenda</title>
+      </Head>
+      <Header title={'Agenda'} />
 
-    <section tabIndex="0" name="Agenda">
-      <div
-        className="sessionize-loader"
-        data-sessionize-load-url="https://sessionize.com/api/v2/dwsqznmo/view/GridSmart?under=True"
-      >
-        <div className="sz-spinner"></div>
-      </div>
-    </section>
+      <section tabIndex="0" name="Agenda">
+        <div
+          className="sessionize-loader"
+          data-sessionize-load-url="https://sessionize.com/api/v2/dwsqznmo/view/GridSmart?under=True"
+        >
+          <div className="sz-spinner"></div>
+        </div>
+      </section>
 
-    <style jsx>
-      {`
+      <style jsx>
+        {`
         section {
           max-width: ${theme.sizes.maxContentWidth};
           padding: ${theme.sizes.contentPadding};
@@ -30,6 +31,9 @@ export default () => (
           padding-bottom: 10px;
         }
       `}
-    </style>
-  </Layout>
-);
+      </style>
+    </Layout>
+  )
+}
+
+export default Agenda;

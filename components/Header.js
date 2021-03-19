@@ -1,24 +1,25 @@
 import React from 'react';
 import theme from '../theme/theme';
 
-const Header = (props) => (
-  <section>
-    <div className="background"></div>
+function Header({ title, banner }) {
+  return (
+    <section>
+      <div className="background"></div>
 
-    <div className="logo">
-      <img
-        className="image"
-        src="/static/ddd_avatar_300.jpg"
-        alt="DDD East Midlands Logo"
-      />
-    </div>
+      <div className="logo">
+        <img
+          className="image"
+          src="/static/ddd_avatar_300.jpg"
+          alt="DDD East Midlands Logo"
+        />
+      </div>
 
-    <div className="logo">
-      <h1 tabIndex="0">{props.title}</h1>
-    </div>
+      <div className="logo">
+        <h1 tabIndex="0">{title}</h1>
+      </div>
 
-    <style jsx>
-      {`
+      <style jsx>
+        {`
         h1 {
           font-size: ${theme.font.sizes.mobile.headline1};
           color: ${theme.palette.primary};
@@ -31,7 +32,7 @@ const Header = (props) => (
         }
         .background {
           width: 100vw;
-          background-image: url(${props.banner});
+          background-image: url(${banner});
           background-color: ${theme.palette.primary};
           height: 300px;
           background-size: cover;
@@ -73,8 +74,9 @@ const Header = (props) => (
           }
         }
       `}
-    </style>
-  </section>
-);
+      </style>
+    </section>
+  )
+}
 
 export default Header;

@@ -1,15 +1,16 @@
 import theme from '../../theme/theme';
 
-const SponsorButton = (props) => (
-  <div>
-    <br />
-    <button>
-      <a href="mailto:rachel@dddeastmidlands.com" target="_blank">
-        Email Rachel
+function SponsorButton() {
+  return (
+    <div>
+      <br />
+      <button>
+        <a href="mailto:rachel@dddeastmidlands.com" target="_blank">
+          Email Rachel
       </a>
-    </button>
-    <style jsx>
-      {`
+      </button>
+      <style jsx>
+        {`
         div {
           text-align: center;
         }
@@ -36,8 +37,9 @@ const SponsorButton = (props) => (
             0 6px 20px 0 rgba(0, 0, 0, 0.19);
         }
       `}
-    </style>
-  </div>
-);
+      </style>
+    </div>
+  )
+}
 
 export default SponsorButton;

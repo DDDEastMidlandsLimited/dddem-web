@@ -1,9 +1,10 @@
-const FullWidthImage = (props) => (
-  <p>
-    <style jsx>
-      {`
+function FullWidthImage({ url }) {
+  return (
+    <p>
+      <style jsx>
+        {`
         p {
-          background-image: url('${props.url}');
+          background-image: url('${url}');
           height: 500px;
           background-repeat: no-repeat;
           background-position: center;
@@ -11,8 +12,9 @@ const FullWidthImage = (props) => (
           background-size: 100% auto;
         }
       `}
-    </style>
-  </p>
-);
+      </style>
+    </p>
+  )
+}
 
 export default FullWidthImage;

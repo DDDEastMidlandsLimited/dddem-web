@@ -1,17 +1,18 @@
 import theme from '../../theme/theme';
 import ExternalLink from '../ExternalLink';
 
-const Company = (props) => (
+function Company({ partner, image }) {
+  return (
   <div>
     <ExternalLink
-      href={props.partner.link}
+      href={partner.link}
       target="_blank"
       category="logo"
-      eventType={props.partner.name}
+      eventType={partner.name}
     >
       <img
-        src={props.image}
-        alt={`Click to go to the ${props.partner.name} site`}
+        src={image}
+        alt={`Click to go to the ${partner.name} site`}
       />
     </ExternalLink>
 
@@ -32,6 +33,7 @@ const Company = (props) => (
       `}
     </style>
   </div>
-);
+)
+      }
 
 export default Company;

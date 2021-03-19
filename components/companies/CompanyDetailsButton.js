@@ -1,14 +1,13 @@
 import theme from '../../theme/theme';
 
-export default class Details extends React.PureComponent {
-  render() {
-    return (
-      <div>
-        <button onClick={this.props.updateDescription}>
-          see details
+function CompanyDetailsButton({ updateDescription }) {
+  return (
+    <div>
+      <button onClick={updateDescription}>
+        see details
         </button>
-        <style jsx>
-          {`
+      <style jsx>
+        {`
             button {
               border-radius: 12px;
               border: none;
@@ -27,8 +26,9 @@ export default class Details extends React.PureComponent {
                 0 6px 20px 0 rgba(0, 0, 0, 0.19);
             }
           `}
-        </style>
-      </div>
-    );
-  }
+      </style>
+    </div>
+  )
 }
+
+export default CompanyDetailsButton;

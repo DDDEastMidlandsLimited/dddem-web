@@ -3,14 +3,13 @@ import { withRouter } from 'next/router';
 import theme from '../theme/theme';
 import { logEvent } from '../utils/analytics';
 
-const ExternalLink = ({
+function ExternalLink({
   children,
-  router,
   href,
   target,
   category,
   eventType,
-}) => {
+}) {
   const handleClick = (e) => {
     logEvent(category, eventType);
   };

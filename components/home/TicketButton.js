@@ -1,20 +1,21 @@
 import theme from '../../theme/theme';
 
-const Button = (props) => (
-  <div align="center">
-    <button className="contactButton">
-      <a
-        href="https://www.eventbrite.co.uk/e/ddd-east-midlands-tickets-58629047058"
-        target="_blank"
-        onSelect={(event) => {
-          logEvent('home', 'eventbrite');
-        }}
-      >
-        Go To Eventbrite
+function TicketButton() {
+  return (
+    <div align="center">
+      <button className="contactButton">
+        <a
+          href="https://www.eventbrite.co.uk/e/ddd-east-midlands-tickets-58629047058"
+          target="_blank"
+          onSelect={(event) => {
+            logEvent('home', 'eventbrite');
+          }}
+        >
+          Go To Eventbrite
       </a>
-    </button>
-    <style jsx>
-      {`
+      </button>
+      <style jsx>
+        {`
         .contactButton {
           align: ${theme.palette.quaternary};
           font-weight: bold;
@@ -38,8 +39,9 @@ const Button = (props) => (
           background-color: ${theme.palette.quaternary};
         }
       `}
-    </style>
-  </div>
-);
+      </style>
+    </div>
+  )
+}
 
 export default Button;

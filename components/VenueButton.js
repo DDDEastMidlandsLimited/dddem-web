@@ -1,19 +1,20 @@
 import React from 'react';
 import theme from '../theme/theme';
 
-const Button = (props) => (
-  <div align="center">
-    <button className="contactButton">
-      <a
-        href="https://s3.eu-west-2.amazonaws.com/ddd-pdf-downloads/NCCDirections.pdf"
-        target="_blank"
-        download
-      >
-        View Printable Travel Guide
+function VenueButton() {
+  return (
+    <div align="center">
+      <button className="contactButton">
+        <a
+          href="https://s3.eu-west-2.amazonaws.com/ddd-pdf-downloads/NCCDirections.pdf"
+          target="_blank"
+          download
+        >
+          View Printable Travel Guide
       </a>
-    </button>
-    <style jsx>
-      {`
+      </button>
+      <style jsx>
+        {`
         .contactButton {
           align: ${theme.palette.quaternary};
           font-weight: bold;
@@ -39,8 +40,9 @@ const Button = (props) => (
           color: ${theme.palette.light};
         }
       `}
-    </style>
-  </div>
-);
+      </style>
+    </div>
+  )
+}
 
-export default Button;
+export default VenueButton;

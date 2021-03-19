@@ -1,9 +1,10 @@
-const SponsorImage = (props) => (
-  <div>
-    <img src={props.image} />
+function SponsorImage({ image }) {
+  return (
+    <div>
+      <img src={image} />
 
-    <style jsx>
-      {`
+      <style jsx>
+        {`
         div {
           position: absolute;
           top: 0;
@@ -16,8 +17,9 @@ const SponsorImage = (props) => (
           margin-top: 4px;
         }
       `}
-    </style>
-  </div>
-);
+      </style>
+    </div>
+  )
+}
 
 export default SponsorImage;
