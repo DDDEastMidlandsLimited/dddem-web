@@ -26,7 +26,6 @@
     "@fortawesome/react-fontawesome": "^0.1.14",
     "@zeit/next-css": "^1.0.1",
     "bootstrap": "^4.6.0",
-    "jquery": "^3.6.0",
     "minimist": "^1.2.5",
     "next": "^9.5.3",
     "next-pwa": "^5.0.6",
