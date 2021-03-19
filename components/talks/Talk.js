@@ -1,4 +1,4 @@
-import React from "react";
+import React from 'react';
 import theme from '../../theme/theme';
 export default class TalkList extends React.PureComponent {
   constructor(props, context) {

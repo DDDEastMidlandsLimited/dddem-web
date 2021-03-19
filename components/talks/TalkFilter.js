@@ -1,4 +1,4 @@
-import React from "react";
+import React from 'react';
 import FilterItem from './FilterItem';
 
 export default class TalkFilter extends React.PureComponent {

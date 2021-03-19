@@ -1,4 +1,4 @@
-import React from "react";
+import React from 'react';
 import Talk from './Talk';
 
 export default class TalkList extends React.PureComponent {
