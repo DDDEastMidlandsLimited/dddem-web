@@ -3,6 +3,20 @@ import { Row, Col } from 'reactstrap';
 import Link from 'next/link';
 import theme from '../theme/theme';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { library } from '@fortawesome/fontawesome-svg-core';
+import {
+  faInstagram,
+  faTwitter,
+  faGithub,
+  faLinkedin,
+} from '@fortawesome/free-brands-svg-icons';
+
+library.add(
+  faInstagram,
+  faTwitter,
+  faGithub,
+  faLinkedin,
+);
 
 /* enabled prettier*/
 

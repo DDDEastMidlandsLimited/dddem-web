@@ -2,7 +2,6 @@ import Layout from '../../components/Layout';
 import Header from '../../components/Header';
 import theme from '../../theme/theme';
 import Head from 'next/head';
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 
 export default () => (
   <Layout>

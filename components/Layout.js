@@ -4,26 +4,6 @@ import { initGA, logPageView } from '../utils/analytics';
 import Navigation from './Navigation';
 import Footer from './Footer';
 import theme from '../theme/theme';
-
-// TODO: Add to application config start
-import { library } from '@fortawesome/fontawesome-svg-core';
-import { faBars, faTimes } from '@fortawesome/free-solid-svg-icons';
-import {
-  faInstagram,
-  faTwitter,
-  faGithub,
-  faLinkedin,
-} from '@fortawesome/free-brands-svg-icons';
-
-library.add(
-  faBars,
-  faTimes,
-  faInstagram,
-  faTwitter,
-  faGithub,
-  faLinkedin,
-);
-
 import GlobalHead from './Head';
 
 const PerformanceAnalytics = dynamic(
