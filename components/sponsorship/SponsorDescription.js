@@ -1,11 +1,11 @@
 import theme from '../../theme/theme';
 
-function SponsorDescription() {
+function SponsorDescription({ name, description }) {
   return (
     <div className="holder">
-      <div className="top">{props.name}</div>
+      <div className="top">{name}</div>
       <div className="bottomBackground">
-        <div className="bottom">{props.description}</div>
+        <div className="bottom">{description}</div>
       </div>
 
       <style jsx>

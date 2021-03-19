@@ -30,6 +30,10 @@ const perfume = new Perfume({
   },
 });
 
-const PerformanceAnalytics = (props) => <span></span>;
+function PerformanceAnalytics() {
+  return (
+    <span></span>
+  )
+}
 
 export default PerformanceAnalytics;

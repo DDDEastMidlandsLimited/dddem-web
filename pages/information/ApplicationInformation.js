@@ -3,7 +3,8 @@ import Header from '../../components/Header';
 import theme from '../../theme/theme';
 import Head from 'next/head';
 
-export default () => (
+function ApplicationInformation() {
+  return (
   <Layout>
     <Head>
       <title>Application Information</title>
@@ -189,4 +190,7 @@ export default () => (
       `}
     </style>
   </Layout>
-);
+) 
+}
+
+export default ApplicationInformation;
