@@ -30,8 +30,6 @@ const perfume = new Perfume({
   },
 });
 
-function PerformanceAnalytics() {
+export default function PerformanceAnalytics() {
   return <span></span>;
 }
-
-export default PerformanceAnalytics;

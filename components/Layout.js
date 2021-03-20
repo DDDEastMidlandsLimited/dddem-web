@@ -1,29 +1,8 @@
 import React from 'react';
 import dynamic from 'next/dynamic';
-import { initGA, logPageView } from '../utils/analytics';
 import Navigation from './Navigation';
 import Footer from './Footer';
 import theme from '../theme/theme';
-
-// TODO: Add to application config start
-import { library } from '@fortawesome/fontawesome-svg-core';
-import { faBars, faTimes } from '@fortawesome/free-solid-svg-icons';
-import {
-  faInstagram,
-  faTwitter,
-  faGithub,
-  faLinkedin,
-} from '@fortawesome/free-brands-svg-icons';
-
-library.add(
-  faBars,
-  faTimes,
-  faInstagram,
-  faTwitter,
-  faGithub,
-  faLinkedin,
-);
-
 import GlobalHead from './Head';
 
 const PerformanceAnalytics = dynamic(
@@ -31,27 +10,19 @@ const PerformanceAnalytics = dynamic(
   { ssr: false },
 );
 
-export default class Layout extends React.Component {
-  constructor(props) {
-    super(props);
-  }
+const GoogleAnalytics = dynamic(
+  () => import('./GoogleAnalytics'),
+  { ssr: false },
+);
 
-  componentDidMount() {
-    if (!window.GA_INITIALIZED) {
-      initGA();
-      window.GA_INITIALIZED = true;
-    }
-
-    logPageView();
-  }
-
-  render() {
+export default function Layout({ children }) {
     return (
       <div className="container">
         <GlobalHead />
         <Navigation />
         <PerformanceAnalytics />
-        {this.props.children}
+        <GoogleAnalytics />
+        {children}
         <Footer />
         <style jsx global>{`
           body {
@@ -144,5 +115,4 @@ export default class Layout extends React.Component {
         `}</style>
       </div>
     );
-  }
 }
