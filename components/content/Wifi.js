@@ -9,11 +9,11 @@ function Wifi() {
       <p tabIndex="0">
         This is provided by the venue and we will give out details on
         the day.
-    </p>
+      </p>
 
       <style jsx>{ContentSection}</style>
     </section>
-  )
+  );
 }
 
 export default Wifi;

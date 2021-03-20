@@ -10,11 +10,11 @@ function PubConf() {
         After the conference, there will be a special{' '}
         <a href="https://pubconf.io/" target="_blank">
           PubConf
-      </a>{' '}
-      featuring some of our speakers and special guests. This evening
-      event has comedy talks, music, food and beverages. It's great
-      fun for all and we encourage you to come along.
-    </p>
+        </a>{' '}
+        featuring some of our speakers and special guests. This
+        evening event has comedy talks, music, food and beverages.
+        It's great fun for all and we encourage you to come along.
+      </p>
       <p>
         <strong>Quick about:</strong>
       </p>
@@ -22,27 +22,28 @@ function PubConf() {
         <li>
           The talks conducted at PubConf are 5 minute, comedy ignite
           talks:
-      </li>
+        </li>
         <li>
           20 slides timed to increment every 15 seconds. The speakers
           have no control
-      </li>
+        </li>
         <li>
-          The top three talks will go into a final battle to win prizes.
-          These three finalists will be presented with a ignite deck
-          they have never seen before and given a topic. They will then
-          have to come up with an impromptu talk on the spot.
-      </li>
+          The top three talks will go into a final battle to win
+          prizes. These three finalists will be presented with a
+          ignite deck they have never seen before and given a topic.
+          They will then have to come up with an impromptu talk on the
+          spot.
+        </li>
         <li>
           Talk topics have an emphasis on humour. Often the content is
           not suitable to be shared away from the safety of PubConf.
-      </li>
+        </li>
         <li>
           PubConf is a separate entity and business from DDD East
           Midlands. As such they have their own Code of Conduct. Hence
           "Unofficial" after party. We are not involved in its
           organisation.
-      </li>
+        </li>
       </ul>
       <p>
         <strong>
@@ -52,7 +53,7 @@ function PubConf() {
           >
             Find out more about PubConf in this blog post by Dylan
             Beattie
-        </a>
+          </a>
         </strong>
       </p>
       <img
@@ -67,22 +68,22 @@ function PubConf() {
         <li>
           No photos or videos unless you have the speakers explicit
           permission.
-      </li>
+        </li>
         <li>
           No quoting talks. (Taken out of context, a joke can be
           damaging)
-      </li>
+        </li>
       </ul>
       <p>
         <strong>
           Age limit is over 18 years old as the venue is serving
           alcohol.
-      </strong>
+        </strong>
       </p>
 
       <style jsx>{ContentSection}</style>
     </section>
-  )
+  );
 }
 
 export default PubConf;

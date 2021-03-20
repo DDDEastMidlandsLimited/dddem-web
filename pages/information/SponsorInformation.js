@@ -173,49 +173,50 @@ function SponsorInformation() {
           many depends on the tier that you are sponsoring at. Rachel
           will provide you with your custom Eventbrite code to access
           your tickets with.
-      </p>
+        </p>
         <a name="tickets" />
         <h4 tabIndex="0">What to do with the tickets</h4>
         <p tabIndex="0">
-          If you have an exhibition booth we suggest you use tickets to
-        ensure there are{' '}
+          If you have an exhibition booth we suggest you use tickets
+          to ensure there are{' '}
           <strong> 2 - 3 people managing the booth.</strong>
         </p>
         <p tabIndex="0">
-          There are a number of ways you can use your remaining tickets:
-      </p>
+          There are a number of ways you can use your remaining
+          tickets:
+        </p>
         <li tabIndex="0">
           <i>Give them to internal employees.</i>
           <p>
             This conference is a great way for your employees to get
-            free training, take part in valueable networking and have a
-            lot of fun.
-        </p>
+            free training, take part in valueable networking and have
+            a lot of fun.
+          </p>
         </li>
         <li tabIndex="0">
           <i>Run a competition.</i>
           <p>
             You could do this online using social media or something
-            else. Use this opportunity to promote your company and give
-            people a great impression.
-        </p>
+            else. Use this opportunity to promote your company and
+            give people a great impression.
+          </p>
         </li>
         <li tabIndex="0">
           <i>Sponsor a diverse candidate.</i>
           <p>
-            You could run a diversity scheme, to support people who want
-            to come to the conference but haven't been able to get a
-            ticket.
-        </p>
+            You could run a diversity scheme, to support people who
+            want to come to the conference but haven't been able to
+            get a ticket.
+          </p>
         </li>
         <li tabIndex="0">
           <i>Donate to a meetup as a "sponsor prize".</i>
           <p>
             There are a multitude of meetups in the East Midlands who
             would love to give tickets to their attendees. To promote
-            your own business and provide a great opportunity to someone
-            you could provide tickets to a meetup as a prize.
-        </p>
+            your own business and provide a great opportunity to
+            someone you could provide tickets to a meetup as a prize.
+          </p>
         </li>
 
         <br />
@@ -227,13 +228,13 @@ function SponsorInformation() {
             target="_blank"
           >
             Head to eventbrite using this link
-        </a>
+          </a>
         </li>
         <li tabIndex="0">Click the Register button</li>
         <li tabIndex="0">
           Click where it says "Enter promo code" (see the image below)
           and enter the code we have provided to you.
-      </li>
+        </li>
         <div className="imagecenter">
           <br />
           <img
@@ -245,48 +246,48 @@ function SponsorInformation() {
         <li tabIndex="0">
           A new category of ticket should be displayed to you. Select
           the number you want and fill in the details on the form.
-      </li>
+        </li>
         <p tabIndex="0">
           If you are giving away tickets away as part of a promotion,
-          competition or donation to meetup; then you can pass this code
-          on to those who are taking the ticket.
-      </p>
+          competition or donation to meetup; then you can pass this
+          code on to those who are taking the ticket.
+        </p>
 
         <br />
         <a name="pat-before" />
         <h2 tabIndex="0">PAT Testing</h2>
         <h4 tabIndex="0">
-          If you can, get any devices that will be plugged in PAT tested
-          before the event.
-      </h4>
+          If you can, get any devices that will be plugged in PAT
+          tested before the event.
+        </h4>
         <p tabIndex="0">
           Due to venue insurance restrictions, we need to be sure that
-        anything that may be plugged into a socket on the day{' '}
+          anything that may be plugged into a socket on the day{' '}
           <strong>either:</strong>
         </p>
         <ul>
           <li tabIndex="0">
             Has a current PAT test sticker/certificate
-        </li>
+          </li>
           <li tabIndex="0">
             Is less than one year old. Please ensure that where
-            electrical items are less than a year old, evidence of this
-            is provided.
-        </li>
+            electrical items are less than a year old, evidence of
+            this is provided.
+          </li>
         </ul>
         <p tabIndex="0">
           This includes any laptop chargers or phone chargers.
-      </p>
+        </p>
         <p tabIndex="0">
-          We will provide limited PAT testing on the day, with speakers
-          being priority candidates for this service. This service will
-        be available between{' '}
+          We will provide limited PAT testing on the day, with
+          speakers being priority candidates for this service. This
+          service will be available between{' '}
           <strong>7.30am - 9.30am the day of the conference</strong>.
-        Registration for the event opens to the general public at
-        8.00am so there is a window in the morning where exclusively
-        speakers and exhibitors can queue to get their devices PAT
-        tested.
-      </p>
+          Registration for the event opens to the general public at
+          8.00am so there is a window in the morning where exclusively
+          speakers and exhibitors can queue to get their devices PAT
+          tested.
+        </p>
       </section>
 
       <a name="day-before" />
@@ -296,44 +297,44 @@ function SponsorInformation() {
         <a name="setup-time" />
         <h2 tabIndex="0">Time To Setup</h2>
         <p tabIndex="0">
-          You will be emailed a time slot closer to the event, in which
-          you can set up your exhibition stall. This time slot will be
-          somewhere between 18.00 – 21.30 on the 2nd of October (the
-          night before the event).
-      </p>
+          You will be emailed a time slot closer to the event, in
+          which you can set up your exhibition stall. This time slot
+          will be somewhere between 18.00 – 21.30 on the 2nd of
+          October (the night before the event).
+        </p>
         <p tabIndex="0">
           We have to arrange this into time slots due to the limited
-          vehicle space at the venue. If there are any restrictions you
-          have regarding time slot, please let us know in advance.
-      </p>
+          vehicle space at the venue. If there are any restrictions
+          you have regarding time slot, please let us know in advance.
+        </p>
         <p tabIndex="0">
           On the day of the event, the organisers will be at the venue
           from 07.15. You may turn up any time from then. Attendee
           registration opens at 8.00am.
-      </p>
+        </p>
 
         <a name="before-parking" />
         <h2 tabIndex="0">Parking</h2>
         <p tabIndex="0">
           Please use the loading bay on South Sherwood Street during
           your allotted time.
-      </p>
+        </p>
         <p tabIndex="0">
           The entrance to the South Sherwood Street loading bay on a
-          busy road and right next to a bus stop. We ask that you do not
-          obstruct this entrance, but instead, only park within the
-          loading bay.
-      </p>
+          busy road and right next to a bus stop. We ask that you do
+          not obstruct this entrance, but instead, only park within
+          the loading bay.
+        </p>
         <p tabIndex="0">
           Please limit yourselves to using one vehicle at a time.
-      </p>
+        </p>
 
         <a name="lift-restrictions" />
         <h2 tabIndex="0">Lift Restrictions</h2>
         <p tabIndex="0">
-          Below are the lift restrictions. Please keep these in mind for
-          anything you are bringing for your exhibition stall.
-      </p>
+          Below are the lift restrictions. Please keep these in mind
+          for anything you are bringing for your exhibition stall.
+        </p>
         <table>
           <tbody>
             <tr tabIndex="0">
@@ -366,23 +367,23 @@ function SponsorInformation() {
         <p tabIndex="0">
           You can arrive at the venue any time after 7.15am on the day
           of the event. This will give you the opportunity to do any
-          last minute set up and settle in before registration opens at
-          8.00am.
-      </p>
+          last minute set up and settle in before registration opens
+          at 8.00am.
+        </p>
         <p tabIndex="0">
           If you need to use the PAT testing service we are providing,
           that opens from 7.30am.
-      </p>
+        </p>
 
         <a name="signing-in" />
         <h2 tabIndex="0">Signing In</h2>
         <p tabIndex="0">
           All those who are looking after your exhibition booth that
-          have a ticket through your sponsorship will have an Eventbrite
-          ticket. On coming in, a crew member will scan the QR code on
-          your Eventbrite ticket. You will then be directed to fill in
-          your lanyards.
-      </p>
+          have a ticket through your sponsorship will have an
+          Eventbrite ticket. On coming in, a crew member will scan the
+          QR code on your Eventbrite ticket. You will then be directed
+          to fill in your lanyards.
+        </p>
       </section>
 
       <a name="general" />
@@ -392,24 +393,25 @@ function SponsorInformation() {
         <h2 tabIndex="0">Power</h2>
         <p tabIndex="0">
           There will be some electricity sockets available on the day.
-          DDD East Midlands will provide extension cables on request if
-          you will need multiple ports on the day. Please contact
-        Jessica:{' '}
+          DDD East Midlands will provide extension cables on request
+          if you will need multiple ports on the day. Please contact
+          Jessica:{' '}
           <a href="mailto:jessica@dddeastmidlands.com">
             jessica@dddeastmidlands.com
-        </a>{' '}
-        at least two weeks prior to the event.
-      </p>
+          </a>{' '}
+          at least two weeks prior to the event.
+        </p>
         <p tabIndex="0">
-          Due to the venues insurance policy we require that any plugged
-          in devices are PAT tested and have an in date sticker.
-      </p>
+          Due to the venues insurance policy we require that any
+          plugged in devices are PAT tested and have an in date
+          sticker.
+        </p>
         <p tabIndex="0">
-          We can provide PAT testing for a limited number of devices on
-          the day, but priority will be given to speakers for the
-          available slots. Where possible please have your devices that
-          will be plugged in on the day PAT tested.
-      </p>
+          We can provide PAT testing for a limited number of devices
+          on the day, but priority will be given to speakers for the
+          available slots. Where possible please have your devices
+          that will be plugged in on the day PAT tested.
+        </p>
 
         <a name="exhibition-staff" />
         <h2 tabIndex="0">Exhibition Stall Staff</h2>
@@ -418,12 +420,12 @@ function SponsorInformation() {
           stall. These are included in your ticket allowance for the
           event. Please have these people register their ticket at
           check-in on the day.
-      </p>
+        </p>
         <p tabIndex="0">
           Exhibitions stalls can be visited throughout the whole day,
           including during talk sessions. We expect you will be most
           busy during the breaks.
-      </p>
+        </p>
 
         <a name="health-and-safety" />
         <h2 tabIndex="0">Health and Safety</h2>
@@ -432,18 +434,18 @@ function SponsorInformation() {
           storage. Passageways, stairways and fire exits shall be kept
           free of obstruction; all loose packaging must be removed to
           keep walkways free from tripping hazards.
-      </p>
+        </p>
         <p tabIndex="0">
           Exhibitors exhibit entirely at their own risk. Nottingham
-          Conference Centre and DDD East Midlands are not liable for any
-          losses or damage to property which may occur.
-      </p>
+          Conference Centre and DDD East Midlands are not liable for
+          any losses or damage to property which may occur.
+        </p>
         <p tabIndex="0">
           In the opening ceremony, there will be a briefing about fire
-          evacuation procedures. If you are unable to attend the opening
-          ceremony please request this information from either Moreton
-          or Jessica.
-      </p>
+          evacuation procedures. If you are unable to attend the
+          opening ceremony please request this information from either
+          Moreton or Jessica.
+        </p>
 
         <a name="wifi" />
         <h2 tabIndex="0">Wifi</h2>
@@ -451,20 +453,20 @@ function SponsorInformation() {
           Free Wi-Fi is supplied by the venue. There will be separate
           access codes provided for staff/exhibitors and attendees.
           Access details are provided on the day.
-      </p>
+        </p>
 
         <a name="catering" />
         <h2 tabIndex="0">Catering</h2>
         <p tabIndex="0">
           Lunch and snacks will be provided on the day.
-      </p>
+        </p>
         <p tabIndex="0">
-          All food is prepared in kitchens where nuts, gluten and other
-          allergens could be present. As the menu descriptions cannot
-          include all ingredients, please let us know prior to arrival
-          if any of your representatives have a food allergy, and we
-          will try to cater to them.
-      </p>
+          All food is prepared in kitchens where nuts, gluten and
+          other allergens could be present. As the menu descriptions
+          cannot include all ingredients, please let us know prior to
+          arrival if any of your representatives have a food allergy,
+          and we will try to cater to them.
+        </p>
       </section>
 
       <a name="stalls" />
@@ -476,7 +478,7 @@ function SponsorInformation() {
         <p tabIndex="0">
           The exhibition space you will have will be 3 meters x 2
           meters.
-      </p>
+        </p>
 
         <a name="provided" />
         <h2 tabIndex="0">What Is Provided?</h2>
@@ -484,7 +486,7 @@ function SponsorInformation() {
           <li tabIndex="0">Provided table size: 170 cm x 150 cm</li>
           <li tabIndex="0">
             Grey poster boards. 7 foot tall by 3 foot wide.
-        </li>
+          </li>
         </ul>
 
         <a name="provide" />
@@ -492,26 +494,27 @@ function SponsorInformation() {
         <ul>
           <li tabIndex="0">Linen</li>
           <li tabIndex="0">
-            Anything for decorating your exhibition stall and background
-            screens (swag, banners, leaflets, promotional material).
-        </li>
+            Anything for decorating your exhibition stall and
+            background screens (swag, banners, leaflets, promotional
+            material).
+          </li>
           <li tabIndex="0">
             <i>(If included in your sponsorship)</i> Banners away from
-          your exhibition booth
-        </li>
+            your exhibition booth
+          </li>
         </ul>
 
         <a name="booth-restrictions" />
         <h2 tabIndex="0">Restrictions</h2>
         <ul>
           <li tabIndex="0">
-            Please avoid bringing any displays with automatically moving
-            parts, unless you can be assured that they will not be left
-            unattended
-        </li>
+            Please avoid bringing any displays with automatically
+            moving parts, unless you can be assured that they will not
+            be left unattended
+          </li>
           <li tabIndex="0">
             The height/weight restrictions of the lifts.
-        </li>
+          </li>
         </ul>
       </section>
 
@@ -523,22 +526,22 @@ function SponsorInformation() {
         <a name="teardown-time" />
         <h2 tabIndex="0">Collecting your exhibition items.</h2>
         <p tabIndex="0">
-          You will be emailed a time slot closer to the event, in which
-          you can bring a vehicle to the venue to collect any remaining
-          items from your exhibition stall. This time slot will be
-          somewhere between 16.30 – 18.30 on the 3rd of October (the day
-          of the event).
-      </p>
+          You will be emailed a time slot closer to the event, in
+          which you can bring a vehicle to the venue to collect any
+          remaining items from your exhibition stall. This time slot
+          will be somewhere between 16.30 – 18.30 on the 3rd of
+          October (the day of the event).
+        </p>
         <p tabIndex="0">
           We have to arrange this into time slots due to the limited
-          vehicle space at the venue. If there are any restrictions you
-          have regarding time slot, or you don’t think you will need
-          one, please let us know in advance.
-      </p>
+          vehicle space at the venue. If there are any restrictions
+          you have regarding time slot, or you don’t think you will
+          need one, please let us know in advance.
+        </p>
         <p tabIndex="0">
-          <strong>Location: </strong>We ask that you use the loading bay
-        on South Sherwood Street.
-      </p>
+          <strong>Location: </strong>We ask that you use the loading
+          bay on South Sherwood Street.
+        </p>
       </section>
 
       <section id="contact">
@@ -547,52 +550,52 @@ function SponsorInformation() {
         <p tabIndex="0">
           <a href="https://www.dddeastmidlands.com/contact/">
             See the ways to contact the team on the Contact Us page.
-        </a>
+          </a>
         </p>
         <br />
       </section>
 
       <style jsx>
         {`
-        section {
-          max-width: ${theme.sizes.maxContentWidth};
-          padding: ${theme.sizes.contentPadding};
-          margin: auto;
-        }
-        section div {
-          padding-bottom: 10px;
-        }
+          section {
+            max-width: ${theme.sizes.maxContentWidth};
+            padding: ${theme.sizes.contentPadding};
+            margin: auto;
+          }
+          section div {
+            padding-bottom: 10px;
+          }
 
-        .green {
-          color: green;
-        }
+          .green {
+            color: green;
+          }
 
-        .red {
-          color: red;
-        }
+          .red {
+            color: red;
+          }
 
-        .screenshot {
-          width: 70%;
-        }
+          .screenshot {
+            width: 70%;
+          }
 
-        .imagecenter {
-          text-align: center;
-        }
+          .imagecenter {
+            text-align: center;
+          }
 
-        table {
-          font-family: arial, sans-serif;
-          border-collapse: collapse;
-          width: 100%;
-          text-align: center;
-        }
+          table {
+            font-family: arial, sans-serif;
+            border-collapse: collapse;
+            width: 100%;
+            text-align: center;
+          }
 
-        tr th {
-          background-color: #dddddd;
-        }
-      `}
+          tr th {
+            background-color: #dddddd;
+          }
+        `}
       </style>
     </Layout>
-  )
+  );
 }
 
 export default SponsorInformation;

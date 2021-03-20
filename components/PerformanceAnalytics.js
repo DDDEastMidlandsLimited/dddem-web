@@ -31,9 +31,7 @@ const perfume = new Perfume({
 });
 
 function PerformanceAnalytics() {
-  return (
-    <span></span>
-  )
+  return <span></span>;
 }
 
 export default PerformanceAnalytics;

@@ -7,7 +7,7 @@ function SponsorList({ sponsors }) {
         <Sponsor key={sponsor.id} sponsor={sponsor} />
       ))}
     </section>
-  )
+  );
 }
 
 export default SponsorList;

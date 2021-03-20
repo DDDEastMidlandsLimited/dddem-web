@@ -3,18 +3,18 @@ function FullWidthImage({ url }) {
     <p>
       <style jsx>
         {`
-        p {
-          background-image: url('${url}');
-          height: 500px;
-          background-repeat: no-repeat;
-          background-position: center;
-          text-align: center;
-          background-size: 100% auto;
-        }
-      `}
+          p {
+            background-image: url('${url}');
+            height: 500px;
+            background-repeat: no-repeat;
+            background-position: center;
+            text-align: center;
+            background-size: 100% auto;
+          }
+        `}
       </style>
     </p>
-  )
+  );
 }
 
 export default FullWidthImage;

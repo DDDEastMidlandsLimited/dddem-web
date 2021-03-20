@@ -37,7 +37,7 @@ function SponsorDescription({ name, description }) {
         `}
       </style>
     </div>
-  )
+  );
 }
 
 export default SponsorDescription;

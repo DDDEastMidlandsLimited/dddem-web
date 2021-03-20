@@ -44,6 +44,6 @@ function ExternalLink({
       </style>
     </a>
   );
-};
+}
 
 export default withRouter(ExternalLink);

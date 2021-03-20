@@ -118,7 +118,7 @@ function HeadComponent() {
       <script src="/static/client/object-assign-auto.min.js"></script>
       <script src="/static/client/sessionize.js"></script>
     </Head>
-  )
+  );
 }
 
 export default HeadComponent;

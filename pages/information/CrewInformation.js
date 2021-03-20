@@ -54,7 +54,9 @@ function CrewInformation() {
             <a href="#code-of-conduct-duty">Code of conduct</a>
           </li>
           <li>
-            <a href="#setup-and-orienteering">Setup and orienteering</a>
+            <a href="#setup-and-orienteering">
+              Setup and orienteering
+            </a>
           </li>
           <li>
             <a href="#registration">Registration</a>
@@ -131,7 +133,7 @@ function CrewInformation() {
           Morning shift comprised registration through to the start of
           lunch. Afternoon shift covers lunch through to helping tear
           down.
-      </p>
+        </p>
         <h2>Setup and orienteering</h2>
         <p>1st October 2021 6:00pm - 8:00pm.</p>
         <h2>Morning shift</h2>
@@ -142,7 +144,7 @@ function CrewInformation() {
         <p>
           <a href="http://www.nottinghamconferencecentre.co.uk/">
             The Nottingham Conference Centre
-        </a>
+          </a>
         </p>
       </section>
 
@@ -152,7 +154,7 @@ function CrewInformation() {
         <p>
           If you can't make your shift/will be late please let the
           organisers know as soon as possible via the crew slack.
-      </p>
+        </p>
       </section>
 
       <Transport />
@@ -167,41 +169,41 @@ function CrewInformation() {
 
       <style jsx>
         {`
-        section {
-          max-width: ${theme.sizes.maxContentWidth};
-          padding: ${theme.sizes.contentPadding};
-          margin: auto;
-        }
-        section div {
-          padding-bottom: 10px;
-        }
+          section {
+            max-width: ${theme.sizes.maxContentWidth};
+            padding: ${theme.sizes.contentPadding};
+            margin: auto;
+          }
+          section div {
+            padding-bottom: 10px;
+          }
 
-        .green {
-          color: green;
-        }
+          .green {
+            color: green;
+          }
 
-        .yellow {
-          color: orange;
-        }
+          .yellow {
+            color: orange;
+          }
 
-        .red {
-          color: red;
-        }
+          .red {
+            color: red;
+          }
 
-        table {
-          font-family: arial, sans-serif;
-          border-collapse: collapse;
-          width: 100%;
-          text-align: center;
-        }
+          table {
+            font-family: arial, sans-serif;
+            border-collapse: collapse;
+            width: 100%;
+            text-align: center;
+          }
 
-        tr th {
-          background-color: #dddddd;
-        }
-      `}
+          tr th {
+            background-color: #dddddd;
+          }
+        `}
       </style>
     </Layout>
-  )
+  );
 }
 
 export default CrewInformation;

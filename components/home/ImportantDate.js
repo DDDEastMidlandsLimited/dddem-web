@@ -15,9 +15,7 @@ function ImportantDate({ dates }) {
       >
         <div
           tabIndex="0"
-          className={
-            dates.past == true ? 'strikeBottom' : 'bottom'
-          }
+          className={dates.past == true ? 'strikeBottom' : 'bottom'}
         >
           {dates.date}
         </div>
@@ -58,7 +56,7 @@ function ImportantDate({ dates }) {
             `}
       </style>
     </div>
-  )
+  );
 }
 
 export default ImportantDate;

@@ -9,7 +9,10 @@ function Contact() {
       <Head>
         <title>Contact</title>
       </Head>
-      <Header title={'Contact'} banner="/static/banners/contact.jpg" />
+      <Header
+        title={'Contact'}
+        banner="/static/banners/contact.jpg"
+      />
 
       <section name="Contents">
         <h1 tabIndex="0">Contents</h1>
@@ -45,25 +48,26 @@ function Contact() {
         <h1 tabIndex="0">On The Day</h1>
         <a name="dddem" />
         <p tabIndex="0">
-          The two best ways to get in contact with the organisers on the
-          day are:
-      </p>
+          The two best ways to get in contact with the organisers on
+          the day are:
+        </p>
         <ul>
           <li tabIndex="0">At the information desk.</li>
           <li tabIndex="0">Through the volunteers.</li>
         </ul>
         <p tabIndex="0">
           We will try our upmost to always have one of us available at
-          the information desk with the exception of during the opening
-          and closing ceremonies.
-      </p>
+          the information desk with the exception of during the
+          opening and closing ceremonies.
+        </p>
         <p tabIndex="0">
-          If you want to get to one of us in particular on the day, the
-          best way to reach us it through a volunteer. The volunteers
-          will have contact details for the organisers which aren't
-          available on this page that the organisers will be monitoring
-          more closely on the day than their social media accounts.
-      </p>
+          If you want to get to one of us in particular on the day,
+          the best way to reach us it through a volunteer. The
+          volunteers will have contact details for the organisers
+          which aren't available on this page that the organisers will
+          be monitoring more closely on the day than their social
+          media accounts.
+        </p>
       </section>
 
       <section id="dddem">
@@ -73,7 +77,7 @@ function Contact() {
         <ul>
           <li tabIndex="0">
             <strong>Hashtags:</strong> #DDDEM | #DDDEM2021
-        </li>
+          </li>
           <li tabIndex="0">
             <strong>Twitter:</strong>{' '}
             <a
@@ -81,7 +85,7 @@ function Contact() {
               target="_blank"
             >
               @dddeastmidlands
-          </a>
+            </a>
           </li>
           <li tabIndex="0">
             <strong>LinkedIn:</strong>{' '}
@@ -90,7 +94,7 @@ function Contact() {
               target="_blank"
             >
               DDD East Midlands Limited
-          </a>
+            </a>
           </li>
           <li tabIndex="0">
             <strong>Instagram:</strong>{' '}
@@ -99,7 +103,7 @@ function Contact() {
               target="_blank"
             >
               @dddeastmidlands
-          </a>
+            </a>
           </li>
         </ul>
       </section>
@@ -125,7 +129,7 @@ function Contact() {
                   target="_blank"
                 >
                   Rachel At DDD East Midlands
-              </a>
+                </a>
               </li>
               <li tabIndex="0">
                 <strong>Twitter:</strong>{' '}
@@ -134,7 +138,7 @@ function Contact() {
                   target="_blank"
                 >
                   @missracheybaby
-              </a>
+                </a>
               </li>
               <li tabIndex="0">
                 <strong>LinkedIn:</strong>{' '}
@@ -143,7 +147,7 @@ function Contact() {
                   target="_blank"
                 >
                   Rachel Watson
-              </a>
+                </a>
               </li>
             </ul>
           </div>
@@ -172,7 +176,7 @@ function Contact() {
                   target="_blank"
                 >
                   Jessica At DDD East Midlands
-              </a>
+                </a>
               </li>
               <li tabIndex="0">
                 <strong>Twitter:</strong>{' '}
@@ -181,7 +185,7 @@ function Contact() {
                   target="_blank"
                 >
                   @JessPWhite
-              </a>
+                </a>
               </li>
               <li tabIndex="0">
                 <strong>LinkedIn:</strong>{' '}
@@ -190,7 +194,7 @@ function Contact() {
                   target="_blank"
                 >
                   Jessica White
-              </a>
+                </a>
               </li>
             </ul>
           </div>
@@ -218,13 +222,16 @@ function Contact() {
                   target="_blank"
                 >
                   Moreton At DDD East Midlands
-              </a>
+                </a>
               </li>
               <li>
                 <strong>Twitter:</strong>{' '}
-                <a href="https://twitter.com/allmobro" target="_blank">
+                <a
+                  href="https://twitter.com/allmobro"
+                  target="_blank"
+                >
                   @allmobro
-              </a>
+                </a>
               </li>
               <li>
                 <strong>LinkedIn:</strong>{' '}
@@ -233,7 +240,7 @@ function Contact() {
                   target="_blank"
                 >
                   Moreton Brockley
-              </a>
+                </a>
               </li>
             </ul>
           </div>
@@ -242,38 +249,38 @@ function Contact() {
 
       <style jsx>
         {`
-        section {
-          max-width: ${theme.sizes.maxContentWidth};
-          padding: ${theme.sizes.contentPadding};
-          margin: auto;
-        }
-        section div {
-          padding-bottom: 10px;
-        }
-        .green {
-          color: green;
-        }
-        .yellow {
-          color: orange;
-        }
-        .red {
-          color: red;
-        }
-
-        .picture {
-          width: 200px;
-          border-radius: 50%;
-        }
-
-        @media only screen and (max-width: 810px) {
-          .picture {
-            display: none;
+          section {
+            max-width: ${theme.sizes.maxContentWidth};
+            padding: ${theme.sizes.contentPadding};
+            margin: auto;
           }
-        }
-      `}
+          section div {
+            padding-bottom: 10px;
+          }
+          .green {
+            color: green;
+          }
+          .yellow {
+            color: orange;
+          }
+          .red {
+            color: red;
+          }
+
+          .picture {
+            width: 200px;
+            border-radius: 50%;
+          }
+
+          @media only screen and (max-width: 810px) {
+            .picture {
+              display: none;
+            }
+          }
+        `}
       </style>
     </Layout>
-  )
+  );
 }
 
 export default Contact;

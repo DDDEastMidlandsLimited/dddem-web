@@ -24,7 +24,9 @@ function TicketInformation() {
         </p>
         <p>
           <strong>
-            <a href="#ticketrelease">When will tickets be released?</a>
+            <a href="#ticketrelease">
+              When will tickets be released?
+            </a>
           </strong>
         </p>
         {/*       <p>
@@ -36,7 +38,7 @@ function TicketInformation() {
           <strong>
             <a href="#return">
               What do if I can't come to the event anymore?
-          </a>
+            </a>
           </strong>
         </p>
       </section>
@@ -48,7 +50,7 @@ function TicketInformation() {
           Tickets for the event will be free but limited in
           availability. We wanted to ensure that price wouldn't be a
           barrier for those wanting to attend.
-      </p>
+        </p>
       </section>
 
       <section>
@@ -57,10 +59,10 @@ function TicketInformation() {
         <ul tabIndex="0">
           <li>
             <strong>First wave:</strong> 14th May 2021
-        </li>
+          </li>
           <li>
             <strong>Second wave:</strong> 21st May 2021
-        </li>
+          </li>
         </ul>
       </section>
 
@@ -87,39 +89,39 @@ function TicketInformation() {
         <a name="return" />
         <h1 tabIndex="0">
           What do if I can't come to the event anymore?
-      </h1>
+        </h1>
         <p tabIndex="0">
           If you can no longer come to the event you (we are sad you
-          can't make it!) please return your ticket so that someone else
-          can claim it.
-      </p>
+          can't make it!) please return your ticket so that someone
+          else can claim it.
+        </p>
         <p tabIndex="0">
           You can return your ticket through a couple of ways:
-      </p>
+        </p>
         <ul>
           <li tabIndex="0">Return it through Eventbrite.</li>
           <li>
             <a href="contact" target="_blank">
               Contact Jessica and she can sort it out for you.
-          </a>
+            </a>
           </li>
         </ul>
       </section>
 
       <style jsx>
         {`
-        section {
-          max-width: ${theme.sizes.maxContentWidth};
-          padding: ${theme.sizes.contentPadding};
-          margin: auto;
-        }
-        section div {
-          padding-bottom: 10px;
-        }
-      `}
+          section {
+            max-width: ${theme.sizes.maxContentWidth};
+            padding: ${theme.sizes.contentPadding};
+            margin: auto;
+          }
+          section div {
+            padding-bottom: 10px;
+          }
+        `}
       </style>
     </Layout>
-  )
+  );
 }
 
 export default TicketInformation;

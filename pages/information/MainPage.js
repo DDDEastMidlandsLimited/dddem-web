@@ -162,90 +162,90 @@ function MainPage() {
 
       <style jsx>
         {`
-        .conference-button {
-          background-image: url('/static/banners/home.jpg');
-        }
-
-        .venue-button {
-          background-image: url('/static/banners/information/thencc.jpg');
-        }
-
-        .accessibility-button {
-          background-image: url('/static/banners/information/accessibility.jpg');
-        }
-
-        .apply-button {
-          background-image: url('/static/banners/information/apply.jpg');
-        }
-
-        .ticket-button {
-          background-image: url('/static/banners/information/swagbag.jpg');
-        }
-
-        .attendee-button {
-          background-image: url('/static/banners/information/attendee.jpg');
-        }
-
-        .speaker-button {
-          background-image: url('/static/banners/information/speakers.jpg');
-        }
-
-        .crew-button {
-          background-image: url('/static/banners/information/crew.jpg');
-        }
-
-        .sponsor-button {
-          background-image: url('/static/banners/information/sponsor.jpg');
-        }
-
-        .hacktober-button {
-          background-image: url('/static/banners/information/hacktober.jpg');
-        }
-
-        .image-button {
-          background-size: cover;
-          width: 100%;
-          height: 200px;
-          background-position: center;
-        }
-
-        .image-button h2 {
-          color: white;
-          background: ${theme.palette.dark};
-          font-size: 24px;
-          text-align: center;
-          position: absolute;
-          padding: 10px 10px;
-        }
-
-        article {
-          -webkit-columns: 2 400px;
-          -moz-columns: 2 400px;
-          columns: 2 400px;
-          margin-left: 10%;
-          margin-right: 10%;
-        }
-
-        section {
-          max-width: ${theme.sizes.maxContentWidth};
-          padding: ${theme.sizes.contentPadding};
-          margin: auto;
-        }
-
-        div:hover {
-          opacity: 0.4;
-        }
-
-        @media (max-width: ${theme.sizes.maxContentWidth}) {
-          .image-button h2 {
-            width: 60%;
-            font-size: 20px;
+          .conference-button {
+            background-image: url('/static/banners/home.jpg');
           }
-        }
-      `}
+
+          .venue-button {
+            background-image: url('/static/banners/information/thencc.jpg');
+          }
+
+          .accessibility-button {
+            background-image: url('/static/banners/information/accessibility.jpg');
+          }
+
+          .apply-button {
+            background-image: url('/static/banners/information/apply.jpg');
+          }
+
+          .ticket-button {
+            background-image: url('/static/banners/information/swagbag.jpg');
+          }
+
+          .attendee-button {
+            background-image: url('/static/banners/information/attendee.jpg');
+          }
+
+          .speaker-button {
+            background-image: url('/static/banners/information/speakers.jpg');
+          }
+
+          .crew-button {
+            background-image: url('/static/banners/information/crew.jpg');
+          }
+
+          .sponsor-button {
+            background-image: url('/static/banners/information/sponsor.jpg');
+          }
+
+          .hacktober-button {
+            background-image: url('/static/banners/information/hacktober.jpg');
+          }
+
+          .image-button {
+            background-size: cover;
+            width: 100%;
+            height: 200px;
+            background-position: center;
+          }
+
+          .image-button h2 {
+            color: white;
+            background: ${theme.palette.dark};
+            font-size: 24px;
+            text-align: center;
+            position: absolute;
+            padding: 10px 10px;
+          }
+
+          article {
+            -webkit-columns: 2 400px;
+            -moz-columns: 2 400px;
+            columns: 2 400px;
+            margin-left: 10%;
+            margin-right: 10%;
+          }
+
+          section {
+            max-width: ${theme.sizes.maxContentWidth};
+            padding: ${theme.sizes.contentPadding};
+            margin: auto;
+          }
+
+          div:hover {
+            opacity: 0.4;
+          }
+
+          @media (max-width: ${theme.sizes.maxContentWidth}) {
+            .image-button h2 {
+              width: 60%;
+              font-size: 20px;
+            }
+          }
+        `}
       </style>
     </Layout>
-  )
+  );
 }
 
 export default MainPage;

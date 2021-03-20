@@ -38,7 +38,10 @@ function Footer() {
             prefetch={false}
           >
             <a target="_blank" aria-label="Instagram">
-              <FontAwesomeIcon icon={['fab', 'instagram']} size="sm" />
+              <FontAwesomeIcon
+                icon={['fab', 'instagram']}
+                size="sm"
+              />
             </a>
           </Link>
           <Link
@@ -58,23 +61,23 @@ function Footer() {
       </Row>
       <style jsx>
         {`
-        footer {
-          width: 100vw;
-          background-color: ${theme.palette.primary};
-          padding: 20px 0;
-          margin-top: 30px;
-          text-align: center;
-        }
-        a {
-          text-decoration: none;
-          font-family: ${theme.font.default};
-          color: ${theme.palette.light};
-          margin-left: 5%;
-        }
-      `}
+          footer {
+            width: 100vw;
+            background-color: ${theme.palette.primary};
+            padding: 20px 0;
+            margin-top: 30px;
+            text-align: center;
+          }
+          a {
+            text-decoration: none;
+            font-family: ${theme.font.default};
+            color: ${theme.palette.light};
+            margin-left: 5%;
+          }
+        `}
       </style>
     </footer>
-  )
+  );
 }
 
 export default Footer;

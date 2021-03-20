@@ -22,18 +22,18 @@ function Agenda() {
 
       <style jsx>
         {`
-        section {
-          max-width: ${theme.sizes.maxContentWidth};
-          padding: ${theme.sizes.contentPadding};
-          margin: auto;
-        }
-        section div {
-          padding-bottom: 10px;
-        }
-      `}
+          section {
+            max-width: ${theme.sizes.maxContentWidth};
+            padding: ${theme.sizes.contentPadding};
+            margin: auto;
+          }
+          section div {
+            padding-bottom: 10px;
+          }
+        `}
       </style>
     </Layout>
-  )
+  );
 }
 
 export default Agenda;

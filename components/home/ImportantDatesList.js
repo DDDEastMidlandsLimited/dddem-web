@@ -7,7 +7,7 @@ function ImportantDatesList({ dates }) {
         <ImportantDate key={date.id} dates={date} />
       ))}
     </section>
-  )
+  );
 }
 
 export default ImportantDatesList;

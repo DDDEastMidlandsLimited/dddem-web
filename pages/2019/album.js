@@ -18,7 +18,7 @@ function Album() {
         <p>
           Please do not use the images for any marketing or comercial
           purposes.
-      </p>
+        </p>
         <p>
           <i>
             Photographs by{' '}
@@ -27,7 +27,7 @@ function Album() {
               target="_blank"
             >
               Andrew Acford.
-          </a>
+            </a>
           </i>
         </p>
       </section>
@@ -54,21 +54,21 @@ function Album() {
 
       <style jsx>
         {`
-        section {
-          max-width: ${theme.sizes.maxContentWidth};
-          padding: ${theme.sizes.contentPadding};
-          margin: auto;
-        }
-        h2 {
-          text-align: center;
-        }
-        h3 {
-          text-align: center;
-        }
-      `}
+          section {
+            max-width: ${theme.sizes.maxContentWidth};
+            padding: ${theme.sizes.contentPadding};
+            margin: auto;
+          }
+          h2 {
+            text-align: center;
+          }
+          h3 {
+            text-align: center;
+          }
+        `}
       </style>
     </Layout>
-  )
+  );
 }
 
 export default Album;

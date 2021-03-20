@@ -11,11 +11,11 @@ function WhereWhen() {
       <p>
         <a href="http://www.nottinghamconferencecentre.co.uk/">
           The Nottingham Conference Centre
-      </a>
+        </a>
       </p>
       <style jsx>{ContentSection}</style>
     </section>
-  )
+  );
 }
 
 export default WhereWhen;

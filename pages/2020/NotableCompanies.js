@@ -21,15 +21,15 @@ function NotableCompaniesComponent() {
 
       <style jsx>
         {`
-      section {
-        max-width: ${theme.sizes.maxContentWidth};
-        padding: ${theme.sizes.contentPadding};
-        margin: auto;
-      }
-    `}
+          section {
+            max-width: ${theme.sizes.maxContentWidth};
+            padding: ${theme.sizes.contentPadding};
+            margin: auto;
+          }
+        `}
       </style>
     </Layout>
-  )
+  );
 }
 
 export default NotableCompaniesComponent;

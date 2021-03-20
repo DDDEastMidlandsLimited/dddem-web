@@ -65,26 +65,26 @@ function Index() {
       <div className="banner">
         <h3 tabIndex="0">
           {' '}
-        Returning 2nd October 2021 at
-        <br />
+          Returning 2nd October 2021 at
+          <br />
           <a
             href="https://www.dddeastmidlands.com/information/venue-information/"
             target="_blank"
           >
             the Nottingham Conference Center
-        </a>{' '}
+          </a>{' '}
         </h3>
       </div>
 
       <section>
         <p tabIndex="0">
           DDD East Midlands is an inclusive, not-for-profit technology
-        conference happening on <b>2nd October 2021</b> that
-        celebrates the unique tech, talent and companies that the East
-        Midlands has to offer. This event is run by community members
-        to promote collaboration and the amazing tech community that
-        has already grown in the East Midlands.
-      </p>
+          conference happening on <b>2nd October 2021</b> that
+          celebrates the unique tech, talent and companies that the
+          East Midlands has to offer. This event is run by community
+          members to promote collaboration and the amazing tech
+          community that has already grown in the East Midlands.
+        </p>
       </section>
 
       {/* Gold Sponsors */}
@@ -107,70 +107,70 @@ function Index() {
         <h2 tabIndex="0">Principles</h2>
         <p tabIndex="0">
           This conference follows these DDD principles:
-      </p>
+        </p>
         <ul>
           <li tabIndex="0">
             The event is hosted on a Saturday so that attendees do not
             have to take time from work.
-        </li>
+          </li>
           <li tabIndex="0">Tickets to attend the event are free.</li>
         </ul>
         <p tabIndex="0">As well as these following principles:</p>
         <ul>
           <li tabIndex="0">All talk submissions are anonymous.</li>
           <li tabIndex="0">
-            There is a democratic selection process for talks involving
-            attendees voting for what they want to see.
-        </li>
+            There is a democratic selection process for talks
+            involving attendees voting for what they want to see.
+          </li>
           <li tabIndex="0">
             The event is arranged with the community in mind.
-        </li>
+          </li>
         </ul>
         <p tabIndex="0">
           To find out more, see our{' '}
-          <a href="/information/main-page">information pages</a>. If you
-        are interested in sponsoring the event please
-        <a href="/2020/sponsor">
+          <a href="/information/main-page">information pages</a>. If
+          you are interested in sponsoring the event please
+          <a href="/2020/sponsor">
             fill in the sponsorship interest form.
-        </a>
+          </a>
         </p>
         <br />
       </section>
 
       <style jsx>
         {`
-        section {
-          max-width: ${theme.sizes.maxContentWidth};
-          padding: ${theme.sizes.contentPadding};
-          margin: auto;
-        }
-        h2 {
-          text-align: center;
-        }
-        h3 {
-          text-align: center;
-        }
-        .subheader {
-          margin: 0px;
-          padding-bottom: 15px;
-        }
-        .banner {
-          text-align: center;
-          padding: 5px 5px;
-          background: ${theme.palette.primary};
-          color: ${theme.palette.light};
-        }
-        .banner a {
-          text-align: center;
-          color: ${theme.palette.light};
-        }
-        .infolink {
-          margin: 10px;
-        }
-      `}
+          section {
+            max-width: ${theme.sizes.maxContentWidth};
+            padding: ${theme.sizes.contentPadding};
+            margin: auto;
+          }
+          h2 {
+            text-align: center;
+          }
+          h3 {
+            text-align: center;
+          }
+          .subheader {
+            margin: 0px;
+            padding-bottom: 15px;
+          }
+          .banner {
+            text-align: center;
+            padding: 5px 5px;
+            background: ${theme.palette.primary};
+            color: ${theme.palette.light};
+          }
+          .banner a {
+            text-align: center;
+            color: ${theme.palette.light};
+          }
+          .infolink {
+            margin: 10px;
+          }
+        `}
       </style>
     </Layout>
-  )
+  );
 }
 
 export default Index;

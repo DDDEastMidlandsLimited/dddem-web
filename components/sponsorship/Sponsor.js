@@ -13,7 +13,7 @@ function Sponsor({ sponsor }) {
         />
       )}
     </div>
-  )
+  );
 }
 
 export default Sponsor;

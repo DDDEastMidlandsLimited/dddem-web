@@ -21,7 +21,7 @@ function Navigation() {
             <Nav.Item>
               <Nav.Link href="/information/main-page">
                 Information
-                </Nav.Link>
+              </Nav.Link>
             </Nav.Item>
 
             {/* <Nav.Item>
@@ -33,7 +33,7 @@ function Navigation() {
             <Nav.Item>
               <Nav.Link href="/2020/notable-companies">
                 Notable Companies
-                </Nav.Link>
+              </Nav.Link>
             </Nav.Item>
 
             <Nav.Item>
@@ -61,13 +61,10 @@ function Navigation() {
                 }}
               >
                 Blog
-                </Nav.Link>
+              </Nav.Link>
             </Nav.Item>
 
-            <NavDropdown
-              title="Past Events"
-              id="basic-nav-dropdown"
-            >
+            <NavDropdown title="Past Events" id="basic-nav-dropdown">
               <NavDropdown.Item
                 target="_blank"
                 href="https://www.youtube.com/channel/UC5TNH43dpYqmw3ggv9OGIKw"
@@ -76,16 +73,16 @@ function Navigation() {
                 }}
               >
                 Videos 2019
-                </NavDropdown.Item>
+              </NavDropdown.Item>
               <NavDropdown.Item href="/2019/album">
                 Photos 2019
-                </NavDropdown.Item>
+              </NavDropdown.Item>
             </NavDropdown>
 
             <Nav.Item>
               <Nav.Link href="/code-of-conduct">
                 Code of Conduct
-                </Nav.Link>
+              </Nav.Link>
             </Nav.Item>
           </Nav>
         </Navbar.Collapse>
