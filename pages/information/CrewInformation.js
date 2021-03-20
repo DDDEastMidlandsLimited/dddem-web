@@ -12,7 +12,7 @@ import {
   //PubConf,
 } from '../../components/content';
 
-function CrewInformation() {
+export default function CrewInformation() {
   return (
     <Layout>
       <Head>
@@ -205,5 +205,3 @@ function CrewInformation() {
     </Layout>
   );
 }
-
-export default CrewInformation;

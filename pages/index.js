@@ -7,7 +7,7 @@ import TieredCompanies from '../components/companies/TieredCompanies';
 import dates from '../data/dates';
 import gold from '../data/sponsors/gold';
 
-function Index() {
+export default function Index() {
   return (
     <Layout>
       <Head>
@@ -172,5 +172,3 @@ function Index() {
     </Layout>
   );
 }
-
-export default Index;

@@ -1,6 +1,6 @@
 import theme from '../../theme/theme';
 
-function TicketButton() {
+export default function TicketButton() {
   return (
     <div align="center">
       <button className="contactButton">
@@ -43,5 +43,3 @@ function TicketButton() {
     </div>
   );
 }
-
-export default Button;

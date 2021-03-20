@@ -1,6 +1,6 @@
 import ContentSection from '../../styles/ContentSection';
 
-function CodeOfConduct() {
+export default function CodeOfConduct() {
   return (
     <section id="code-of-conduct">
       <h1 tabIndex="0">Code of Conduct</h1>
@@ -34,5 +34,3 @@ function CodeOfConduct() {
     </section>
   );
 }
-
-export default CodeOfConduct;

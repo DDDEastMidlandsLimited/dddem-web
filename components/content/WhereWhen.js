@@ -1,6 +1,6 @@
 import ContentSection from '../../styles/ContentSection';
 
-function WhereWhen() {
+export default function WhereWhen() {
   return (
     <section id="where-and-when">
       <a name="when-and-where" />
@@ -17,5 +17,3 @@ function WhereWhen() {
     </section>
   );
 }
-
-export default WhereWhen;

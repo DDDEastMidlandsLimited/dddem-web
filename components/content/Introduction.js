@@ -1,6 +1,6 @@
 import ContentSection from '../../styles/ContentSection';
 
-function Introduction() {
+export default function Introduction() {
   return (
     <section id="introduction">
       <h1 tabIndex="0">Introduction</h1>
@@ -20,5 +20,3 @@ function Introduction() {
     </section>
   );
 }
-
-export default Introduction;

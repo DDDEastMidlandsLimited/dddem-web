@@ -11,7 +11,7 @@ import {
   //PubConf,
 } from '../../components/content';
 
-function SpeakerInformation() {
+export default function SpeakerInformation() {
   return (
     <Layout>
       <Head>
@@ -626,5 +626,3 @@ function SpeakerInformation() {
     </Layout>
   );
 }
-
-export default SpeakerInformation;

@@ -1,6 +1,6 @@
 import theme from '../../theme/theme';
 
-function SponsorButton() {
+export default function SponsorButton() {
   return (
     <div>
       <br />
@@ -41,5 +41,3 @@ function SponsorButton() {
     </div>
   );
 }
-
-export default SponsorButton;

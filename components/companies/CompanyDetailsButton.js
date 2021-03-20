@@ -1,6 +1,6 @@
 import theme from '../../theme/theme';
 
-function CompanyDetailsButton({ updateDescription }) {
+export default function CompanyDetailsButton({ updateDescription }) {
   return (
     <div>
       <button onClick={updateDescription}>see details</button>
@@ -28,5 +28,3 @@ function CompanyDetailsButton({ updateDescription }) {
     </div>
   );
 }
-
-export default CompanyDetailsButton;

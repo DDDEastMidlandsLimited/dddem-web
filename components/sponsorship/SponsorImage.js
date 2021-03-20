@@ -1,4 +1,4 @@
-function SponsorImage({ image }) {
+export default function SponsorImage({ image }) {
   return (
     <div>
       <img src={image} />
@@ -21,5 +21,3 @@ function SponsorImage({ image }) {
     </div>
   );
 }
-
-export default SponsorImage;

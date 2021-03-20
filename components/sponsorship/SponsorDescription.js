@@ -1,6 +1,6 @@
 import theme from '../../theme/theme';
 
-function SponsorDescription({ name, description }) {
+export default function SponsorDescription({ name, description }) {
   return (
     <div className="holder">
       <div className="top">{name}</div>
@@ -39,5 +39,3 @@ function SponsorDescription({ name, description }) {
     </div>
   );
 }
-
-export default SponsorDescription;

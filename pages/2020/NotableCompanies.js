@@ -4,7 +4,7 @@ import Header from '../../components/Header';
 import Head from 'next/head';
 import NotableCompanies from '../../components/companies/NotableCompanies';
 
-function NotableCompaniesComponent() {
+export default function NotableCompaniesComponent() {
   return (
     <Layout>
       <Head>
@@ -31,5 +31,3 @@ function NotableCompaniesComponent() {
     </Layout>
   );
 }
-
-export default NotableCompaniesComponent;

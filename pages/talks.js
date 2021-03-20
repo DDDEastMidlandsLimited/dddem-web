@@ -4,7 +4,7 @@ import Header from '../components/Header';
 import Head from 'next/head';
 import TalksComponent from '../components/talks/TalksComponent';
 
-function Talks() {
+export default function Talks() {
   return (
     <Layout>
       <Head>
@@ -73,5 +73,3 @@ function Talks() {
     </Layout>
   );
 }
-
-export default Talks;

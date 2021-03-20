@@ -5,7 +5,7 @@ import Head from 'next/head';
 import Link from 'next/link';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 
-function Speakers() {
+export default function Speakers() {
   return (
     <Layout>
       <Head>
@@ -1369,5 +1369,3 @@ function Speakers() {
     </Layout>
   );
 }
-
-export default Speakers;

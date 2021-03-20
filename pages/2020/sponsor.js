@@ -4,7 +4,7 @@ import theme from '../../theme/theme';
 import Head from 'next/head';
 import SponsorButton from '../../components/sponsorship/SponsorButton';
 
-function Sponsor() {
+export default function Sponsor() {
   return (
     <Layout>
       <Head>
@@ -188,5 +188,3 @@ function Sponsor() {
     </Layout>
   );
 }
-
-export default Sponsor;

@@ -1,6 +1,6 @@
 import ContentSection from '../../styles/ContentSection';
 
-function PubConf() {
+export default function PubConf() {
   return (
     <section id="pubconf">
       <h1>PubConf - The Unofficial After Party</h1>
@@ -85,5 +85,3 @@ function PubConf() {
     </section>
   );
 }
-
-export default PubConf;

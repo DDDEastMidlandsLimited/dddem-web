@@ -1,6 +1,6 @@
 import ContentSection from '../../styles/ContentSection';
 
-function Transport() {
+export default function Transport() {
   return (
     <section id="transport">
       <h1 tabIndex="0">Transport On The Day</h1>
@@ -95,5 +95,3 @@ function Transport() {
     </section>
   );
 }
-
-export default Transport;

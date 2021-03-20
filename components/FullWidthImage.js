@@ -1,4 +1,4 @@
-function FullWidthImage({ url }) {
+export default function FullWidthImage({ url }) {
   return (
     <p>
       <style jsx>
@@ -16,5 +16,3 @@ function FullWidthImage({ url }) {
     </p>
   );
 }
-
-export default FullWidthImage;

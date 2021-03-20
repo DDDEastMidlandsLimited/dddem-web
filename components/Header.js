@@ -1,7 +1,7 @@
 import React from 'react';
 import theme from '../theme/theme';
 
-function Header({ title, banner }) {
+export default function Header({ title, banner }) {
   return (
     <section>
       <div className="background"></div>
@@ -78,5 +78,3 @@ function Header({ title, banner }) {
     </section>
   );
 }
-
-export default Header;

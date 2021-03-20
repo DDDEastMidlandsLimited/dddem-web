@@ -1,6 +1,6 @@
 import ContentSection from '../../styles/ContentSection';
 
-function SocialMedia() {
+export default function SocialMedia() {
   return (
     <section id="social-media">
       <h1 tabIndex="0">Social Media and Photos</h1>
@@ -65,5 +65,3 @@ function SocialMedia() {
     </section>
   );
 }
-
-export default SocialMedia;

@@ -1,7 +1,7 @@
 import React from 'react';
 import theme from '../theme/theme';
 
-function VenueButton() {
+export default function VenueButton() {
   return (
     <div align="center">
       <button className="contactButton">
@@ -44,5 +44,3 @@ function VenueButton() {
     </div>
   );
 }
-
-export default VenueButton;

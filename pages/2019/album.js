@@ -3,7 +3,7 @@ import theme from '../../theme/theme';
 import Header from '../../components/Header';
 import Head from 'next/head';
 
-function Album() {
+export default function Album() {
   return (
     <Layout>
       <Head>
@@ -70,5 +70,3 @@ function Album() {
     </Layout>
   );
 }
-
-export default Album;

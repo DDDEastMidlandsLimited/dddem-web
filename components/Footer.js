@@ -7,7 +7,7 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 
 /* enabled prettier*/
 
-function Footer() {
+export default function Footer() {
   return (
     <footer>
       <Row>
@@ -79,5 +79,3 @@ function Footer() {
     </footer>
   );
 }
-
-export default Footer;

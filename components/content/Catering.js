@@ -1,6 +1,6 @@
 import ContentSection from '../../styles/ContentSection';
 
-function Catering() {
+export default function Catering() {
   return (
     <section id="catering">
       <h1 tabIndex="0">Catering</h1>
@@ -61,5 +61,3 @@ function Catering() {
     </section>
   );
 }
-
-export default Catering;

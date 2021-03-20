@@ -3,7 +3,7 @@ import theme from '../../theme/theme';
 import Header from '../../components/Header';
 import Head from 'next/head';
 
-function VenueInformation() {
+export default function VenueInformation() {
   return (
     <Layout>
       <Head>
@@ -135,5 +135,3 @@ function VenueInformation() {
     </Layout>
   );
 }
-
-export default VenueInformation;

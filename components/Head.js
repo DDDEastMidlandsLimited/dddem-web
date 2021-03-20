@@ -1,6 +1,6 @@
 import Head from 'next/head';
 
-function HeadComponent() {
+export default function HeadComponent() {
   return (
     <Head>
       <meta httpEquiv="x-ua-compatible" content="ie=edge" />
@@ -120,5 +120,3 @@ function HeadComponent() {
     </Head>
   );
 }
-
-export default HeadComponent;

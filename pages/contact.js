@@ -3,7 +3,7 @@ import Header from '../components/Header';
 import theme from '../theme/theme';
 import Head from 'next/head';
 
-function Contact() {
+export default function Contact() {
   return (
     <Layout>
       <Head>
@@ -282,5 +282,3 @@ function Contact() {
     </Layout>
   );
 }
-
-export default Contact;

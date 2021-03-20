@@ -1,6 +1,6 @@
 import ContentSection from '../../styles/ContentSection';
 
-function Wifi() {
+export default function Wifi() {
   return (
     <section id="wifi">
       <a name="wifi" />
@@ -15,5 +15,3 @@ function Wifi() {
     </section>
   );
 }
-
-export default Wifi;

@@ -1,6 +1,6 @@
 import ImportantDate from './ImportantDate';
 
-function ImportantDatesList({ dates }) {
+export default function ImportantDatesList({ dates }) {
   return (
     <section className="boxedItems">
       {dates.map((date) => (
@@ -9,5 +9,3 @@ function ImportantDatesList({ dates }) {
     </section>
   );
 }
-
-export default ImportantDatesList;

@@ -3,7 +3,7 @@ import Header from '../../components/Header';
 import theme from '../../theme/theme';
 import Head from 'next/head';
 
-function ConferenceInformation() {
+export default function ConferenceInformation() {
   return (
     <Layout>
       <Head>
@@ -531,5 +531,3 @@ function ConferenceInformation() {
     </Layout>
   );
 }
-
-export default ConferenceInformation;

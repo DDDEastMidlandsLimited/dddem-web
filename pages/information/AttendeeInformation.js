@@ -13,7 +13,7 @@ import {
   //PubConf,
 } from '../../components/content';
 
-function AttendeeInformation() {
+export default function AttendeeInformation() {
   return (
     <Layout>
       <Head>
@@ -361,5 +361,3 @@ function AttendeeInformation() {
     </Layout>
   );
 }
-
-export default AttendeeInformation;

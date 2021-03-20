@@ -1,7 +1,7 @@
 import theme from '../../theme/theme';
 import ExternalLink from '../ExternalLink';
 
-function Company({ partner, image }) {
+export default function Company({ partner, image }) {
   return (
     <div>
       <ExternalLink
@@ -35,5 +35,3 @@ function Company({ partner, image }) {
     </div>
   );
 }
-
-export default Company;

@@ -3,7 +3,7 @@ import Header from '../../components/Header';
 import theme from '../../theme/theme';
 import Head from 'next/head';
 
-function TicketInformation() {
+export default function TicketInformation() {
   return (
     <Layout>
       <Head>
@@ -123,5 +123,3 @@ function TicketInformation() {
     </Layout>
   );
 }
-
-export default TicketInformation;

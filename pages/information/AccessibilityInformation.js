@@ -3,7 +3,7 @@ import Header from '../../components/Header';
 import theme from '../../theme/theme';
 import Head from 'next/head';
 
-function AccessibilityInformation() {
+export default function AccessibilityInformation() {
   return (
     <Layout>
       <Head>
@@ -277,5 +277,3 @@ function AccessibilityInformation() {
     </Layout>
   );
 }
-
-export default AccessibilityInformation;

@@ -3,7 +3,7 @@ import { Nav, Navbar, NavDropdown } from 'react-bootstrap';
 import '../theme/bootstrap.css';
 import { logEvent } from '../utils/analytics';
 
-function Navigation() {
+export default function Navigation() {
   return (
     <div>
       <Navbar expand="lg">
@@ -90,5 +90,3 @@ function Navigation() {
     </div>
   );
 }
-
-export default Navigation;

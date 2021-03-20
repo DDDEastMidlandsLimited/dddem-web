@@ -8,7 +8,7 @@ import {
   CodeOfConduct,
 } from '../../components/content';
 
-function SponsorInformation() {
+export default function SponsorInformation() {
   return (
     <Layout>
       <Head>
@@ -597,5 +597,3 @@ function SponsorInformation() {
     </Layout>
   );
 }
-
-export default SponsorInformation;

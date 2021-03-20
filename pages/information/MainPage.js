@@ -3,7 +3,7 @@ import Header from '../../components/Header';
 import theme from '../../theme/theme';
 import Head from 'next/head';
 
-function MainPage() {
+export default function MainPage() {
   return (
     <Layout>
       <Head>
@@ -247,5 +247,3 @@ function MainPage() {
     </Layout>
   );
 }
-
-export default MainPage;

@@ -3,7 +3,7 @@ import Header from '../../components/Header';
 import theme from '../../theme/theme';
 import Head from 'next/head';
 
-function HacktoberfestInformation() {
+export default function HacktoberfestInformation() {
   return (
     <Layout>
       <Head>
@@ -185,5 +185,3 @@ function HacktoberfestInformation() {
     </Layout>
   );
 }
-
-export default HacktoberfestInformation;

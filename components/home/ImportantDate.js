@@ -1,6 +1,6 @@
 import theme from '../../theme/theme';
 
-function ImportantDate({ dates }) {
+export default function ImportantDate({ dates }) {
   return (
     <div className="boxItem">
       <div tabIndex="0" className="top">
@@ -58,5 +58,3 @@ function ImportantDate({ dates }) {
     </div>
   );
 }
-
-export default ImportantDate;

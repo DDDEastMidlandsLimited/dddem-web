@@ -3,7 +3,7 @@ import Header from '../components/Header';
 import theme from '../theme/theme';
 import Head from 'next/head';
 
-function CodeOfConduct() {
+export default function CodeOfConduct() {
   return (
     <Layout>
       <Head>
@@ -165,5 +165,3 @@ function CodeOfConduct() {
     </Layout>
   );
 }
-
-export default CodeOfConduct;

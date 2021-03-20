@@ -3,7 +3,7 @@ import Header from '../components/Header';
 import theme from '../theme/theme';
 import Head from 'next/head';
 
-function Agenda() {
+export default function Agenda() {
   return (
     <Layout>
       <Head>
@@ -35,5 +35,3 @@ function Agenda() {
     </Layout>
   );
 }
-
-export default Agenda;

@@ -1,6 +1,6 @@
 import Sponsor from './Sponsor';
 
-function SponsorList({ sponsors }) {
+export default function SponsorList({ sponsors }) {
   return (
     <section className="boxedItems">
       {sponsors.map((sponsor) => (
@@ -9,5 +9,3 @@ function SponsorList({ sponsors }) {
     </section>
   );
 }
-
-export default SponsorList;

@@ -1,7 +1,7 @@
 import SponsorImage from './SponsorImage';
 import SponsorDescription from './SponsorDescription';
 
-function Sponsor({ sponsor }) {
+export default function Sponsor({ sponsor }) {
   return (
     <div className="boxItem">
       {sponsor.soldOutImage ? (
@@ -15,5 +15,3 @@ function Sponsor({ sponsor }) {
     </div>
   );
 }
-
-export default Sponsor;
