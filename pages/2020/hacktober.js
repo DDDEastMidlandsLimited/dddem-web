@@ -3,7 +3,7 @@ import Header from '../../components/Header';
 import theme from '../../theme/theme';
 import Head from 'next/head';
 
-export default HacktoberFest() {
+export default function HacktoberFest() {
   return (
     <Layout>
       <Head>
