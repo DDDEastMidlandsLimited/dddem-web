@@ -10,109 +10,108 @@ const PerformanceAnalytics = dynamic(
   { ssr: false },
 );
 
-const GoogleAnalytics = dynamic(
-  () => import('./GoogleAnalytics'),
-  { ssr: false },
-);
+const GoogleAnalytics = dynamic(() => import('./GoogleAnalytics'), {
+  ssr: false,
+});
 
 export default function Layout({ children }) {
-    return (
-      <div className="container">
-        <GlobalHead />
-        <Navigation />
-        <PerformanceAnalytics />
-        <GoogleAnalytics />
-        {children}
-        <Footer />
-        <style jsx global>{`
-          body {
-            margin: 0;
-            padding: 0;
-            font-family: ${theme.font.default};
-            font-size: ${theme.font.sizes.desktop.body};
-            overflow-x: hidden;
-          }
-          h2 {
-            font-size: ${theme.font.sizes.desktop.subtitle1};
-            text-align: left;
-            color: ${theme.palette.secondary};
-          }
-          .ticket-header {
-            margin-top: 5%;
-            margin-bottom: 2%;
-          }
-          p {
-            line-height: 1.5;
-          }
-          p,
-          a {
-            font-size: ${theme.font.sizes.desktop.body};
-            color: ${theme.palette.dark};
-            line-height: 1.5;
-          }
-          a {
-            color: ${theme.palette.primary};
-          }
+  return (
+    <div className="container">
+      <GlobalHead />
+      <Navigation />
+      <PerformanceAnalytics />
+      <GoogleAnalytics />
+      {children}
+      <Footer />
+      <style jsx global>{`
+        body {
+          margin: 0;
+          padding: 0;
+          font-family: ${theme.font.default};
+          font-size: ${theme.font.sizes.desktop.body};
+          overflow-x: hidden;
+        }
+        h2 {
+          font-size: ${theme.font.sizes.desktop.subtitle1};
+          text-align: left;
+          color: ${theme.palette.secondary};
+        }
+        .ticket-header {
+          margin-top: 5%;
+          margin-bottom: 2%;
+        }
+        p {
+          line-height: 1.5;
+        }
+        p,
+        a {
+          font-size: ${theme.font.sizes.desktop.body};
+          color: ${theme.palette.dark};
+          line-height: 1.5;
+        }
+        a {
+          color: ${theme.palette.primary};
+        }
 
-          a:before,
-          a:after {
-            content: ' ';
-          }
+        a:before,
+        a:after {
+          content: ' ';
+        }
 
-          li {
-            line-height: 1.5;
-          }
+        li {
+          line-height: 1.5;
+        }
 
-          .container {
-            width: 100vw;
-          }
+        .container {
+          width: 100vw;
+        }
 
-          .aligncenter {
-            text-align: center;
-          }
+        .aligncenter {
+          text-align: center;
+        }
 
-          .smallspace {
-            margin-right: 15px;
-          }
+        .smallspace {
+          margin-right: 15px;
+        }
 
-          .boxedItems {
-            display: flex;
-            margin: 0;
-            padding: 20px;
-            flex-flow: row;
-            justify-content: space-evenly;
-            flex-wrap: wrap;
-            justify-content: center;
-          }
+        .boxedItems {
+          display: flex;
+          margin: 0;
+          padding: 20px;
+          flex-flow: row;
+          justify-content: space-evenly;
+          flex-wrap: wrap;
+          justify-content: center;
+        }
 
+        .boxItem {
+          width: 170px;
+          height: 90px;
+          text-align: center;
+          border-radius: ${theme.sizes.borderRadiusMobile};
+          border: #b5c6c4;
+          border-style: dotted;
+          padding: 40px 15px;
+          margin: 10px;
+          display: flex;
+          flex-direction: column;
+          position: relative;
+        }
+
+        .emphasisItem {
+          text-align: center;
+          margin: 5px;
+          display: flex;
+          flex-direction: column;
+          position: relative;
+        }
+
+        @media (min-width: 600px) {
           .boxItem {
-            width: 170px;
-            height: 90px;
-            text-align: center;
-            border-radius: ${theme.sizes.borderRadiusMobile};
-            border: #b5c6c4;
-            border-style: dotted;
-            padding: 40px 15px;
-            margin: 10px;
-            display: flex;
-            flex-direction: column;
-            position: relative;
+            border-radius: ${theme.sizes.borderRadius};
           }
-
-          .emphasisItem {
-            text-align: center;
-            margin: 5px;
-            display: flex;
-            flex-direction: column;
-            position: relative;
-          }
-
-          @media (min-width: 600px) {
-            .boxItem {
-              border-radius: ${theme.sizes.borderRadius};
-            }
-          }
-        `}</style>
-      </div>
-    );
+        }
+      `}</style>
+    </div>
+  );
 }
