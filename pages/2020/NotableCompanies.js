@@ -4,28 +4,32 @@ import Header from '../../components/Header';
 import Head from 'next/head';
 import NotableCompanies from '../../components/companies/NotableCompanies';
 
-export default () => (
-  <Layout>
-    <Head>
-      <title>Notable Companies</title>
-    </Head>
-    <Header
-      title={'Notable Companies'}
-      banner="/static/banners/notable.jpg"
-    />
+function NotableCompaniesComponent() {
+  return (
+    <Layout>
+      <Head>
+        <title>Notable Companies</title>
+      </Head>
+      <Header
+        title={'Notable Companies'}
+        banner="/static/banners/notable.jpg"
+      />
 
-    <section>
-      <NotableCompanies />
-    </section>
+      <section>
+        <NotableCompanies />
+      </section>
 
-    <style jsx>
-      {`
-        section {
-          max-width: ${theme.sizes.maxContentWidth};
-          padding: ${theme.sizes.contentPadding};
-          margin: auto;
-        }
-      `}
-    </style>
-  </Layout>
-);
+      <style jsx>
+        {`
+      section {
+        max-width: ${theme.sizes.maxContentWidth};
+        padding: ${theme.sizes.contentPadding};
+        margin: auto;
+      }
+    `}
+      </style>
+    </Layout>
+  )
+}
+
+export default NotableCompaniesComponent;
