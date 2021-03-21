@@ -1,3 +1,4 @@
+import React from 'react';
 import talks from '../../data/talks/talks';
 import levels from '../../data/talks/levels';
 import TalkList from './TalkList';
