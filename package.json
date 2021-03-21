@@ -33,7 +33,7 @@
     "minimist": "^1.2.5",
     "next-compose-plugins": "^2.2.1",
     "next-optimized-images": "^2.6.2",
-    "next": "^10.0.8",
+    "next": "^10.0.9",
     "next-pwa": "^5.0.6",
     "perfume.js": "^5.3.0",
     "react": "^17.0.1",
@@ -62,7 +62,9 @@
     "pa11y": "^5.3.0",
     "pa11y-ci": "^2.4.0",
     "prettier": "^2.2.1",
-    "pretty-quick": "^3.1.0"
+    "pretty-quick": "^3.1.0",
+    "webpack": "^5.27.1",
+    "webpack-cli": "^4.5.0"
   },
   "repository": {
     "type": "git",

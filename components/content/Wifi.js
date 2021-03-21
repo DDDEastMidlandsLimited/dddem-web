@@ -1,17 +1,17 @@
 import ContentSection from '../../styles/ContentSection';
 
-const Wifi = (props) => (
-  <section id="wifi">
-    <a name="wifi" />
-    <h1 tabIndex="0">Wifi</h1>
-    <h2 tabIndex="0">There will be free Wifi on the day</h2>
-    <p tabIndex="0">
-      This is provided by the venue and we will give out details on
-      the day.
-    </p>
+export default function Wifi() {
+  return (
+    <section id="wifi">
+      <a name="wifi" />
+      <h1 tabIndex="0">Wifi</h1>
+      <h2 tabIndex="0">There will be free Wifi on the day</h2>
+      <p tabIndex="0">
+        This is provided by the venue and we will give out details on
+        the day.
+      </p>
 
-    <style jsx>{ContentSection}</style>
-  </section>
-);
-
-export default Wifi;
+      <style jsx>{ContentSection}</style>
+    </section>
+  );
+}
