@@ -52,6 +52,18 @@ class Navigation extends Component {
               <Nav.Item>
                 <Nav.Link
                   target="_blank"
+                  href="https://sessionize.com/ddd-east-midlands-conference-2021/"
+                  onSelect={(event) => {
+                    logEvent('navigation', 'eventbrite');
+                  }}
+                >
+                  Submit A Talk
+                </Nav.Link>
+              </Nav.Item>
+
+              {/*               <Nav.Item>
+                <Nav.Link
+                  target="_blank"
                   href="https://www.eventbrite.co.uk/e/ddd-east-midlands-2021-tickets-146129646707"
                   onSelect={(event) => {
                     logEvent('navigation', 'eventbrite');
@@ -59,7 +71,7 @@ class Navigation extends Component {
                 >
                   Tickets
                 </Nav.Link>
-              </Nav.Item>
+              </Nav.Item>*/}
 
               <Nav.Item>
                 <Nav.Link

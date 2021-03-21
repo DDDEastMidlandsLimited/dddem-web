@@ -2,6 +2,8 @@ import React from 'react';
 import { render } from '@testing-library/react';
 import Footer from './Footer';
 
+jest.mock('@fortawesome/react-fontawesome');
+
 describe('Given the Footer is rendered', () => {
   test('it should display the Code of Conduct Link', () => {
     const { getByText } = render(<Footer />);
