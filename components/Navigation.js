@@ -49,6 +49,18 @@ class Navigation extends Component {
                 <Nav.Link href="/2020/sponsor">Sponsor</Nav.Link>
               </Nav.Item>
 
+              <Nav.Item>
+                <Nav.Link
+                  target="_blank"
+                  href="https://sessionize.com/ddd-east-midlands-conference-2021/"
+                  onSelect={(event) => {
+                    logEvent('navigation', 'eventbrite');
+                  }}
+                >
+                  Submit A Talk
+                </Nav.Link>
+              </Nav.Item>
+
               {/*               <Nav.Item>
                 <Nav.Link
                   target="_blank"
