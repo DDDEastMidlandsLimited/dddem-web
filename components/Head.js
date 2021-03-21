@@ -36,6 +36,10 @@ export default () => (
         name="twitter:image:alt"
         content="The DDD East Midlands Logo"
       />
+      <meta
+        name="description"
+        content="A technology conference for the community, by the community. Celebrates the East Midlands tech community, businesses and talent have to offer through collaboration & innovation."
+      />
       <link
         href="https://fonts.googleapis.com/css?family=Raleway:400,700"
         rel="stylesheet"
