@@ -36,9 +36,7 @@ export default function Navigation() {
             </Nav.Item>
 
             <Nav.Item>
-              <Nav.Link href="/2020/sponsor">
-                Sponsor
-              </Nav.Link>
+              <Nav.Link href="/2020/sponsor">Sponsor</Nav.Link>
             </Nav.Item>
 
             <Nav.Item>
@@ -48,12 +46,12 @@ export default function Navigation() {
                 onSelect={(event) => {
                   logEvent('navigation', 'eventbrite');
                 }}
-                >
-                  Submit A Talk
-               </Nav.Link>
+              >
+                Submit A Talk
+              </Nav.Link>
             </Nav.Item>
 
-              {/*               <Nav.Item>
+            {/*               <Nav.Item>
                 <Nav.Link
                   target="_blank"
                   href="https://www.eventbrite.co.uk/e/ddd-east-midlands-2020-tickets-95834801471"
