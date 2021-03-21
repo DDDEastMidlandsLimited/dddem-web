@@ -19,22 +19,17 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "@fortawesome/fontawesome-free-solid": "^5.0.13",
     "@fortawesome/fontawesome-svg-core": "^1.2.35",
     "@fortawesome/free-brands-svg-icons": "^5.15.3",
     "@fortawesome/free-solid-svg-icons": "^5.15.3",
     "@fortawesome/react-fontawesome": "^0.1.14",
-    "@zeit/next-css": "^1.0.1",
     "bootstrap": "^4.6.0",
-    "jquery": "^3.6.0",
-    "minimist": "^1.2.5",
-    "next": "^9.5.3",
+    "next": "^10.0.9",
     "next-pwa": "^5.0.6",
-    "npm": "^7.6.3",
     "perfume.js": "^5.3.0",
-    "react": "^16.14.0",
+    "react": "^17.0.1",
     "react-bootstrap": "^1.5.2",
-    "react-dom": "^16.14.0",
+    "react-dom": "^17.0.1",
     "react-ga": "^3.3.0",
     "react-sizeme": "^3.0.1",
     "reactstrap": "^8.9.0"
@@ -58,7 +53,9 @@
     "pa11y": "^5.3.0",
     "pa11y-ci": "^2.4.0",
     "prettier": "^2.2.1",
-    "pretty-quick": "^3.1.0"
+    "pretty-quick": "^3.1.0",
+    "webpack": "^5.27.1",
+    "webpack-cli": "^4.5.0"
   },
   "repository": {
     "type": "git",

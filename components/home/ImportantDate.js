@@ -1,28 +1,27 @@
 import theme from '../../theme/theme';
 
-const ImportantDate = (props) => (
-  <div className="boxItem">
-    <div tabIndex="0" className="top">
-      {props.dates.name}
-    </div>
-    <div
-      className={
-        props.dates.current == true
-          ? 'pastBottomBackground'
-          : 'bottomBackground'
-      }
-    >
+export default function ImportantDate({ dates }) {
+  return (
+    <div className="boxItem">
+      <div tabIndex="0" className="top">
+        {dates.name}
+      </div>
       <div
-        tabIndex="0"
         className={
-          props.dates.past == true ? 'strikeBottom' : 'bottom'
+          dates.current == true
+            ? 'pastBottomBackground'
+            : 'bottomBackground'
         }
       >
-        {props.dates.date}
+        <div
+          tabIndex="0"
+          className={dates.past == true ? 'strikeBottom' : 'bottom'}
+        >
+          {dates.date}
+        </div>
       </div>
-    </div>
-    <style jsx>
-      {`
+      <style jsx>
+        {`
                 .top {
                         color: ${theme.palette.tertiary};
                         font-weight: bold;
@@ -55,8 +54,7 @@ const ImportantDate = (props) => (
                     margin-left: -15px;
                 }
             `}
-    </style>
-  </div>
-);
-
-export default ImportantDate;
+      </style>
+    </div>
+  );
+}
