@@ -68,6 +68,7 @@ export default function Index() {
           Returning 2nd October 2021 at
           <br />
           <a
+            rel="noopener noreferrer"
             href="https://www.dddeastmidlands.com/information/venue-information/"
             target="_blank"
           >
