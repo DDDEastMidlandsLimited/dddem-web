@@ -9,13 +9,14 @@ function ExternalLink({
   target,
   category,
   eventType,
+  rel,
 }) {
   const handleClick = (e) => {
     logEvent(category, eventType);
   };
 
   return (
-    <a href={href} onClick={handleClick} target={target}>
+    <a href={href} onClick={handleClick} target={target} rel={rel}>
       {children}
       <style jsx>
         {`

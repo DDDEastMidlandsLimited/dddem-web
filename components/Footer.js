@@ -30,7 +30,11 @@ export default function Footer() {
             href="https://twitter.com/dddeastmidlands"
             prefetch={false}
           >
-            <a target="_blank" aria-label="Twitter">
+            <a
+              target="_blank"
+              aria-label="Twitter"
+              rel="noopener noreferrer"
+            >
               <FontAwesomeIcon icon={['fab', 'twitter']} size="sm" />
             </a>
           </Link>
@@ -38,7 +42,11 @@ export default function Footer() {
             href="https://github.com/DDDEastMidlandsLimited/dddem-web"
             prefetch={false}
           >
-            <a target="_blank" aria-label="GitHub">
+            <a
+              target="_blank"
+              aria-label="GitHub"
+              rel="noopener noreferrer"
+            >
               <FontAwesomeIcon icon={['fab', 'github']} size="sm" />
             </a>
           </Link>
@@ -46,7 +54,11 @@ export default function Footer() {
             href="https://www.instagram.com/dddeastmidlands/?hl=en"
             prefetch={false}
           >
-            <a target="_blank" aria-label="Instagram">
+            <a
+              target="_blank"
+              aria-label="Instagram"
+              rel="noopener noreferrer"
+            >
               <FontAwesomeIcon
                 icon={['fab', 'instagram']}
                 size="sm"
@@ -57,7 +69,11 @@ export default function Footer() {
             href="https://www.linkedin.com/company/ddd-east-midlands-limited/"
             prefetch={false}
           >
-            <a target="_blank" aria-label="LinkedIn">
+            <a
+              target="_blank"
+              aria-label="LinkedIn"
+              rel="noopener noreferrer"
+            >
               <FontAwesomeIcon icon={['fab', 'linkedin']} size="sm" />
             </a>
           </Link>

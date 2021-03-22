@@ -42,6 +42,7 @@ export default function Navigation() {
 
             <Nav.Item>
               <Nav.Link
+                rel="noopener noreferrer"
                 target="_blank"
                 href="https://sessionize.com/ddd-east-midlands-conference-2021/"
                 onSelect={(event) => {
@@ -66,6 +67,7 @@ export default function Navigation() {
 
             <Nav.Item>
               <Nav.Link
+                rel="noopener noreferrer"
                 target="_blank"
                 href="https://blog.dddeastmidlands.com/"
                 onSelect={(event) => {
