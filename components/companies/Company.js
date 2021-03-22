@@ -9,6 +9,7 @@ export default function Company({ partner, image }) {
         target="_blank"
         category="logo"
         eventType={partner.name}
+        rel="noopener noreferrer"
       >
         <img
           src={image}
