@@ -25,6 +25,7 @@ export default function CodeOfConduct() {
           <a
             href="https://www.dddeastmidlands.com/contact/"
             target="_blank"
+            rel="noreferrer"
           >
             {' '}
             please let a member of the event team know or contact and

@@ -91,6 +91,7 @@ export default function ApplicationInformation() {
           <a
             href="https://sessionize.com/ddd-east-midlands-conference-2021/"
             target="_blank"
+            rel="noreferrer"
           >
             Sessionise
           </a>{' '}
@@ -110,6 +111,7 @@ export default function ApplicationInformation() {
           <a
             href="https://blog.dddeastmidlands.com/2019/12/07/submission-process.html"
             target="_blank"
+            rel="noreferrer"
           >
             in this blog post
           </a>
@@ -120,6 +122,7 @@ export default function ApplicationInformation() {
           <a
             href="https://www.dddeastmidlands.com/code-of-conduct"
             target="_blank"
+            rel="noreferrer"
           >
             Code of Conduct.
           </a>

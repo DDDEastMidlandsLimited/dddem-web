@@ -83,6 +83,7 @@ export default function Contact() {
             <a
               href="https://twitter.com/dddeastmidlands"
               target="_blank"
+              rel="noreferrer"
             >
               @dddeastmidlands
             </a>
@@ -92,6 +93,7 @@ export default function Contact() {
             <a
               href="https://www.linkedin.com/company/ddd-east-midlands-limited/"
               target="_blank"
+              rel="noreferrer"
             >
               DDD East Midlands Limited
             </a>
@@ -101,6 +103,7 @@ export default function Contact() {
             <a
               href="https://www.instagram.com/dddeastmidlands/?hl=en"
               target="_blank"
+              rel="noreferrer"
             >
               @dddeastmidlands
             </a>
@@ -127,6 +130,7 @@ export default function Contact() {
                 <a
                   href="mailto:rachel@dddeastmidlands.com"
                   target="_blank"
+                  rel="noreferrer"
                 >
                   Rachel At DDD East Midlands
                 </a>
@@ -136,6 +140,7 @@ export default function Contact() {
                 <a
                   href="https://twitter.com/missracheybaby"
                   target="_blank"
+                  rel="noreferrer"
                 >
                   @missracheybaby
                 </a>
@@ -145,6 +150,7 @@ export default function Contact() {
                 <a
                   href="https://www.linkedin.com/in/rachelwatsondistinct/"
                   target="_blank"
+                  rel="noreferrer"
                 >
                   Rachel Watson
                 </a>
@@ -174,6 +180,7 @@ export default function Contact() {
                 <a
                   href="mailto:jessica@dddeastmidlands.com"
                   target="_blank"
+                  rel="noreferrer"
                 >
                   Jessica At DDD East Midlands
                 </a>
@@ -183,6 +190,7 @@ export default function Contact() {
                 <a
                   href="https://twitter.com/JessPWhite"
                   target="_blank"
+                  rel="noreferrer"
                 >
                   @JessPWhite
                 </a>
@@ -192,6 +200,7 @@ export default function Contact() {
                 <a
                   href="https://www.linkedin.com/in/jessica-white-67917883/"
                   target="_blank"
+                  rel="noreferrer"
                 >
                   Jessica White
                 </a>
@@ -220,6 +229,7 @@ export default function Contact() {
                 <a
                   href="mailto:moreton@dddeastmidlands.com"
                   target="_blank"
+                  rel="noreferrer"
                 >
                   Moreton At DDD East Midlands
                 </a>
@@ -229,6 +239,7 @@ export default function Contact() {
                 <a
                   href="https://twitter.com/allmobro"
                   target="_blank"
+                  rel="noreferrer"
                 >
                   @allmobro
                 </a>
@@ -238,6 +249,7 @@ export default function Contact() {
                 <a
                   href="https://www.linkedin.com/in/moreton-brockley-06253538/"
                   target="_blank"
+                  rel="noreferrer"
                 >
                   Moreton Brockley
                 </a>

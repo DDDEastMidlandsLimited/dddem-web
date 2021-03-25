@@ -8,7 +8,11 @@ export default function PubConf() {
       <h2>About</h2>
       <p>
         After the conference, there will be a special{' '}
-        <a href="https://pubconf.io/" target="_blank">
+        <a
+          href="https://pubconf.io/"
+          target="_blank"
+          rel="noreferrer"
+        >
           PubConf
         </a>{' '}
         featuring some of our speakers and special guests. This
@@ -50,6 +54,7 @@ export default function PubConf() {
           <a
             href="https://blog.dddeastmidlands.com/2019/10/15/pubconf-nottingham-faq.html"
             target="_blank"
+            rel="noreferrer"
           >
             Find out more about PubConf in this blog post by Dylan
             Beattie

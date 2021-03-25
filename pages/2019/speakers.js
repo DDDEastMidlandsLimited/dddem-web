@@ -90,13 +90,18 @@ export default function Speakers() {
               the web, federated authentication and hypermedia APIs.
               When he's not wrangling code, Dylan plays guitar and
               writes songs about code. He's online at{' '}
-              <a target="_blank" href="https://www.dylanbeattie.net">
+              <a
+                target="_blank"
+                href="https://www.dylanbeattie.net"
+                rel="noreferrer"
+              >
                 www.dylanbeattie.net
               </a>{' '}
               and on Twitter as{' '}
               <a
                 target="_blank"
                 href="https://twitter.com/dylanbeattie"
+                rel="noreferrer"
               >
                 @dylanbeattie
               </a>

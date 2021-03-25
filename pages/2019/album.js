@@ -25,6 +25,7 @@ export default function Album() {
             <a
               href="https://www.abigneonglitter.co.uk/"
               target="_blank"
+              rel="noreferrer"
             >
               Andrew Acford.
             </a>

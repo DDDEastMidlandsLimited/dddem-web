@@ -18,11 +18,19 @@ export default function HacktoberfestInformation() {
         <h1 tabIndex="0">The Hacktoberfest Corner</h1>
         <p tabIndex="0">
           Join{' '}
-          <a target="_blank" href="https://annadodson.co.uk">
+          <a
+            target="_blank"
+            href="https://annadodson.co.uk"
+            rel="noreferrer"
+          >
             Anna Dodson
           </a>{' '}
           and{' '}
-          <a target="_blank" href="https://www.jvt.me">
+          <a
+            target="_blank"
+            href="https://www.jvt.me"
+            rel="noreferrer"
+          >
             Jamie Tanna
           </a>{' '}
           at their Hacktoberfest stand, where you'll be able to learn
@@ -86,6 +94,7 @@ export default function HacktoberfestInformation() {
           <a
             target="_blank"
             href="https://blog.dddeastmidlands.com/2019/10/10/how-to-pr-with-your-post.html"
+            rel="noreferrer"
           >
             {' '}
             read through this blog post by Marcus Noble.
@@ -95,6 +104,7 @@ export default function HacktoberfestInformation() {
           <a
             target="_blank"
             href="https://blog.dddeastmidlands.com/2019/10/26/hacktoberfest-corner.html"
+            rel="noreferrer"
           >
             {' '}
             You can also see some peoples contributions from DDD East

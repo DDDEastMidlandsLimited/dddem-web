@@ -10,6 +10,7 @@ export default function TicketButton() {
           onSelect={(event) => {
             logEvent('home', 'eventbrite');
           }}
+          rel="noreferrer"
         >
           Go To Eventbrite
         </a>
