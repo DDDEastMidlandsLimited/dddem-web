@@ -2,20 +2,15 @@ import React, { useContext } from 'react';
 import CompanyInfo from './CompanyInfo';
 import CompanyDetailsButton from './CompanyDetailsButton';
 import CompaniesContext from './CompaniesContext';
+import CompanyDetails from './CompanyDetails';
 
 export default function CompanyGrid() {
-  const { companiesList, selectedCompanyDescription } = useContext(
-    CompaniesContext,
-  );
+  const { companiesList } = useContext(CompaniesContext);
 
   return (
     <div>
       <div>
-        <div
-          dangerouslySetInnerHTML={{
-            __html: selectedCompanyDescription,
-          }}
-        ></div>
+        <CompanyDetails />
         <div className="companyContainer">
           {companiesList &&
             companiesList.map((company, index) => (
@@ -47,7 +42,7 @@ export default function CompanyGrid() {
             flex: 1 1 0;
             flex-direction: column;
             justify-content: center;
-            align-items: baseline;
+            align-items: center;
           }
         `}
       </style>
