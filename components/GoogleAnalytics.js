@@ -1,3 +1,4 @@
+import React from 'react';
 import { initGA, logPageView } from '../utils/analytics';
 
 if (!window.GA_INITIALIZED) {

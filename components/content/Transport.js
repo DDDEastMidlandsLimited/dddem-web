@@ -1,3 +1,4 @@
+import React from 'react';
 import ContentSection from '../../styles/ContentSection';
 
 export default function Transport() {
@@ -70,6 +71,7 @@ export default function Transport() {
           <a
             href="http://www.nottinghamcity.gov.uk/transport-parking-and-streets/parking-and-permits/city-centre-parking/car-parks/trinity-square-car-park/"
             target="_blank"
+            rel="noreferrer"
           >
             Trinity Square car park:
           </a>
@@ -83,6 +85,7 @@ export default function Transport() {
           <a
             href="https://www.q-park.co.uk/en-gb/cities/nottingham/talbot-street/"
             target="_blank"
+            rel="noreferrer"
           >
             Talbot Street car park:
           </a>

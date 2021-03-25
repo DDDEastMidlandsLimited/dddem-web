@@ -1,3 +1,4 @@
+import React from 'react';
 import Layout from '../../components/Layout';
 import Header from '../../components/Header';
 import theme from '../../theme/theme';
@@ -18,15 +19,23 @@ export default function HacktoberfestInformation() {
         <h1 tabIndex="0">The Hacktoberfest Corner</h1>
         <p tabIndex="0">
           Join{' '}
-          <a target="_blank" href="https://annadodson.co.uk">
+          <a
+            target="_blank"
+            href="https://annadodson.co.uk"
+            rel="noreferrer"
+          >
             Anna Dodson
           </a>{' '}
           and{' '}
-          <a target="_blank" href="https://www.jvt.me">
+          <a
+            target="_blank"
+            href="https://www.jvt.me"
+            rel="noreferrer"
+          >
             Jamie Tanna
           </a>{' '}
-          at their Hacktoberfest stand, where you'll be able to learn
-          all about{' '}
+          at their Hacktoberfest stand, where you&apos;ll be able to
+          learn all about{' '}
           <a href="https://hacktoberfest.digitalocean.com/">
             Hacktoberfest
           </a>
@@ -66,8 +75,8 @@ export default function HacktoberfestInformation() {
               and sponsored by <a href="https://dev.to">DEV</a>, and
               aims to get more folks dipping their toes in
               contributing to Free and Open Source software, and
-              showing everyone that there's more to a project than
-              just code!
+              showing everyone that there&apos;s more to a project
+              than just code!
             </p>
           </div>
         </div>
@@ -86,6 +95,7 @@ export default function HacktoberfestInformation() {
           <a
             target="_blank"
             href="https://blog.dddeastmidlands.com/2019/10/10/how-to-pr-with-your-post.html"
+            rel="noreferrer"
           >
             {' '}
             read through this blog post by Marcus Noble.
@@ -95,6 +105,7 @@ export default function HacktoberfestInformation() {
           <a
             target="_blank"
             href="https://blog.dddeastmidlands.com/2019/10/26/hacktoberfest-corner.html"
+            rel="noreferrer"
           >
             {' '}
             You can also see some peoples contributions from DDD East

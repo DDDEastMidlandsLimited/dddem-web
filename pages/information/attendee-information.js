@@ -1,10 +1,10 @@
+import React from 'react';
 import Layout from '../../components/Layout';
 import Header from '../../components/Header';
 import theme from '../../theme/theme';
 import Head from 'next/head';
 import {
   CodeOfConduct,
-  Introduction,
   WhereWhen,
   Transport,
   Catering,
@@ -213,8 +213,8 @@ export default function AttendeeInformation() {
           If for any reason you are no longer able to attend the
           conference, please return your ticket so that someone else
           can claim the place. We do pay per person, so this will have
-          an impact on us if you can no longer attend but don't return
-          the ticket.
+          an impact on us if you can no longer attend but don&apos;t
+          return the ticket.
         </p>
 
         <a name="waiting-list" />
@@ -265,7 +265,7 @@ export default function AttendeeInformation() {
         <a name="coffee-meet" />
         <h2 tabIndex="0">Coffee Meet</h2>
         <p tabIndex="0">
-          We know that it isn't always easy to walk into an event
+          We know that it isn&apos;t always easy to walk into an event
           alone. One of our volunteers will be at the Costa near the
           venue to meet those who want to come to the conference with
           company. They will be heading off from Costa at 8.30 to walk
@@ -311,7 +311,7 @@ export default function AttendeeInformation() {
               Yellow - That talk was good
             </li>
             <li tabIndex="0" className="red">
-              Red - That talk wasn't for me.
+              Red - That talk wasn&apos;t for me.
             </li>
           </strong>
         </ul>

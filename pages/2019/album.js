@@ -1,3 +1,4 @@
+import React from 'react';
 import Layout from '../../components/Layout';
 import theme from '../../theme/theme';
 import Header from '../../components/Header';
@@ -25,6 +26,7 @@ export default function Album() {
             <a
               href="https://www.abigneonglitter.co.uk/"
               target="_blank"
+              rel="noreferrer"
             >
               Andrew Acford.
             </a>

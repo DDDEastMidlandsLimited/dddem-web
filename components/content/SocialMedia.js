@@ -1,3 +1,4 @@
+import React from 'react';
 import ContentSection from '../../styles/ContentSection';
 
 export default function SocialMedia() {
@@ -39,7 +40,11 @@ export default function SocialMedia() {
       <ul tabIndex="0">Hashtags: #DDDEM | #DDDEM2021</ul>
       <ul tabIndex="0">
         Twitter:{' '}
-        <a href="https://twitter.com/dddeastmidlands" target="_blank">
+        <a
+          href="https://twitter.com/dddeastmidlands"
+          target="_blank"
+          rel="noreferrer"
+        >
           @dddeastmidlands
         </a>
       </ul>
@@ -48,6 +53,7 @@ export default function SocialMedia() {
         <a
           href="https://www.linkedin.com/company/ddd-east-midlands-limited/"
           target="_blank"
+          rel="noreferrer"
         >
           DDD East Midlands Limited
         </a>
@@ -57,6 +63,7 @@ export default function SocialMedia() {
         <a
           href="https://www.instagram.com/dddeastmidlands/?hl=en"
           target="_blank"
+          rel="noreferrer"
         >
           @dddeastmidlands
         </a>

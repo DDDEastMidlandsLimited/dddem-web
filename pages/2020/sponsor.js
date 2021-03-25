@@ -1,3 +1,4 @@
+import React from 'react';
 import Layout from '../../components/Layout';
 import Header from '../../components/Header';
 import theme from '../../theme/theme';
@@ -61,6 +62,7 @@ export default function Sponsor() {
                 <a
                   href="mailto:rachel@dddeastmidlands.com"
                   target="_blank"
+                  rel="noreferrer"
                 >
                   Rachel At DDD East Midlands
                 </a>
@@ -70,6 +72,7 @@ export default function Sponsor() {
                 <a
                   href="https://twitter.com/missracheybaby"
                   target="_blank"
+                  rel="noreferrer"
                 >
                   @missracheybaby
                 </a>
@@ -79,6 +82,7 @@ export default function Sponsor() {
                 <a
                   href="https://www.linkedin.com/in/rachelwatsondistinct/"
                   target="_blank"
+                  rel="noreferrer"
                 >
                   Rachel Watson
                 </a>
@@ -136,7 +140,7 @@ export default function Sponsor() {
         <p tabIndex="0">
           With the current state of play, we understand that you may
           be curious as to what our plans are around COVID-19. We want
-          to ensure everyone's safety, while providing a good
+          to ensure everyone&apos;s safety, while providing a good
           experience for our sponsors.
         </p>
         <h4>Plan A: Conference Goes Ahead</h4>

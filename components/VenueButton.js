@@ -9,6 +9,7 @@ export default function VenueButton() {
           href="https://s3.eu-west-2.amazonaws.com/ddd-pdf-downloads/NCCDirections.pdf"
           target="_blank"
           download
+          rel="noreferrer"
         >
           View Printable Travel Guide
         </a>

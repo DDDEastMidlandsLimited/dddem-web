@@ -1,3 +1,4 @@
+import React from 'react';
 import ContentSection from '../../styles/ContentSection';
 
 export default function Catering() {
@@ -45,14 +46,18 @@ export default function Catering() {
       <h2 tabIndex="0">Alcohol</h2>
       <p tabIndex="0">
         We will not be serving alcohol as part of the event and ask
-        that you don't bring any with you as we are not licenced.
+        that you don&apos;t bring any with you as we are not licenced.
       </p>
 
       <a name="coffee" />
       <h2 tabIndex="0">Coffee</h2>
       <p tabIndex="0">
         There is a coffee cart at the event being run by{' '}
-        <a href="https://www.cartwheelcoffee.com/" target="_blank">
+        <a
+          href="https://www.cartwheelcoffee.com/"
+          target="_blank"
+          rel="noreferrer"
+        >
           Cartwheel Coffee
         </a>
         , thanks to our Sponsors UNiDAYS.

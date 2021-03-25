@@ -1,3 +1,4 @@
+import React from 'react';
 import Layout from '../../components/Layout';
 import theme from '../../theme/theme';
 import Header from '../../components/Header';
@@ -101,6 +102,7 @@ export default function VenueInformation() {
             <a
               href="http://www.nottinghamcity.gov.uk/transport-parking-and-streets/parking-and-permits/city-centre-parking/car-parks/trinity-square-car-park/"
               target="_blank"
+              rel="noreferrer"
             >
               Trinity Square car park:
             </a>
@@ -114,6 +116,7 @@ export default function VenueInformation() {
             <a
               href="https://www.q-park.co.uk/en-gb/cities/nottingham/talbot-street/"
               target="_blank"
+              rel="noreferrer"
             >
               Talbot Street car park:
             </a>

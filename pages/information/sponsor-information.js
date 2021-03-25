@@ -1,3 +1,4 @@
+import React from 'react';
 import Layout from '../../components/Layout';
 import Header from '../../components/Header';
 import theme from '../../theme/theme';
@@ -205,8 +206,8 @@ export default function SponsorInformation() {
           <i>Sponsor a diverse candidate.</i>
           <p>
             You could run a diversity scheme, to support people who
-            want to come to the conference but haven't been able to
-            get a ticket.
+            want to come to the conference but haven&apos;t been able
+            to get a ticket.
           </p>
         </li>
         <li tabIndex="0">
@@ -226,6 +227,7 @@ export default function SponsorInformation() {
           <a
             href="https://www.eventbrite.co.uk/e/ddd-east-midlands-2020-tickets-95834801471"
             target="_blank"
+            rel="noreferrer"
           >
             Head to eventbrite using this link
           </a>

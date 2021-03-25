@@ -1,3 +1,4 @@
+import React from 'react';
 import Layout from '../../components/Layout';
 import Header from '../../components/Header';
 import theme from '../../theme/theme';
@@ -5,7 +6,6 @@ import Head from 'next/head';
 import FullWidthImage from '../../components/FullWidthImage';
 import {
   CodeOfConduct,
-  Introduction,
   Transport,
   SocialMedia,
   //PubConf,
@@ -241,7 +241,7 @@ export default function SpeakerInformation() {
               Yellow - That talk was good
             </li>
             <li tabIndex="0" className="red">
-              Red - That talk wasn't for me.
+              Red - That talk wasn&apos;t for me.
             </li>
           </strong>
         </ul>
@@ -257,8 +257,8 @@ export default function SpeakerInformation() {
             </strong>{' '}
             We cannot offer more in-depth means of feedback this year
             as it would require a level of moderation and work that,
-            unfortunately, we don't have the time to invest in this
-            first year.
+            unfortunately, we don&apos;t have the time to invest in
+            this first year.
           </li>
           <li tabIndex="0">
             <strong>
@@ -366,7 +366,9 @@ export default function SpeakerInformation() {
           provide to help you.
         </p>
 
-        <h4 tabIndex="0">Meet the AV technician and get Mic'd up</h4>
+        <h4 tabIndex="0">
+          Meet the AV technician and get Mic&apos;d up
+        </h4>
         <p tabIndex="0">
           There are a variety of microphones available in each room.
           Clip-on, static and hand held are available, so please let
@@ -389,8 +391,8 @@ export default function SpeakerInformation() {
           questions after your talk?
         </h4>
         <p tabIndex="0">
-          We'll provide a space in the breakout area with a table and
-          chair. Book in a time slot with Jessica, and you can
+          We&apos;ll provide a space in the breakout area with a table
+          and chair. Book in a time slot with Jessica, and you can
           advertise during or at the end of your talk that you will be
           available there to be approached by attendees after your
           talk.
@@ -435,6 +437,7 @@ export default function SpeakerInformation() {
           <a
             href="https://open.spotify.com/playlist/0kTPxCiWN0kyYa8FSWpdi2?"
             target="_blank"
+            rel="noreferrer"
           >
             Get Pumped Playlist
           </a>
@@ -445,11 +448,16 @@ export default function SpeakerInformation() {
           <a
             href="https://csswizardry.com/2016/06/speakers-checklist-before-and-after-your-talk/"
             target="_blank"
+            rel="noreferrer"
           >
             This list by csswizardry
           </a>
           is often used by us at other events. Thank you{' '}
-          <a href="https://twitter.com/Brunty" target="_blank">
+          <a
+            href="https://twitter.com/Brunty"
+            target="_blank"
+            rel="noreferrer"
+          >
             Brunty
           </a>{' '}
           for sharing this with us.
@@ -479,13 +487,14 @@ export default function SpeakerInformation() {
         <a name="hotels" />
         <h2 tabIndex="0">Hotels</h2>
         <p tabIndex="0">
-          We don't have any partnerships or deals with any local
+          We don&apos;t have any partnerships or deals with any local
           hotels but here is a list of a few in City Center:
         </p>
         <li>
           <a
             href="https://www.ihg.com/crowneplaza/hotels/gb/en/nottingham/notws/hoteldetail?cm_mmc=GoogleMaps-_-CP-_-GB-_-NOTWS"
             target="_blank"
+            rel="noreferrer"
           >
             Crowne Plaza
           </a>
@@ -494,6 +503,7 @@ export default function SpeakerInformation() {
           <a
             href="https://www.accorhotels.com/gb/hotel-6160-ibis-nottingham-centre/index.shtml"
             target="_blank"
+            rel="noreferrer"
           >
             Ibis
           </a>
@@ -502,6 +512,7 @@ export default function SpeakerInformation() {
           <a
             href="https://www.roomzzz.com/locations/nottingham/"
             target="_blank"
+            rel="noreferrer"
           >
             Roomzzz
           </a>
@@ -510,6 +521,7 @@ export default function SpeakerInformation() {
           <a
             href="https://www.mercurenottingham.com/"
             target="_blank"
+            rel="noreferrer"
           >
             Mercure
           </a>
@@ -519,17 +531,29 @@ export default function SpeakerInformation() {
         <h2 tabIndex="0">Restaurants</h2>
         <h4 tabIndex="0">Coffee</h4>
         <li>
-          <a href="https://www.cartwheelcoffee.com/" target="_blank">
+          <a
+            href="https://www.cartwheelcoffee.com/"
+            target="_blank"
+            rel="noreferrer"
+          >
             Cartwheel
           </a>
         </li>
         <li>
-          <a href="https://www.outpost.coffee/" target="_blank">
+          <a
+            href="https://www.outpost.coffee/"
+            target="_blank"
+            rel="noreferrer"
+          >
             Outpost
           </a>
         </li>
         <li>
-          <a href="https://200degs.com/" target="_blank">
+          <a
+            href="https://200degs.com/"
+            target="_blank"
+            rel="noreferrer"
+          >
             200 Degrees
           </a>
         </li>
@@ -537,6 +561,7 @@ export default function SpeakerInformation() {
           <a
             href="https://www.thespecialtycoffeeshop.com/"
             target="_blank"
+            rel="noreferrer"
           >
             Speciality
           </a>
@@ -547,6 +572,7 @@ export default function SpeakerInformation() {
           <a
             href="https://anniesburgershack.com/menu/breakfast-menu"
             target="_blank"
+            rel="noreferrer"
           >
             Annies Burger Shack
           </a>
@@ -555,6 +581,7 @@ export default function SpeakerInformation() {
           <a
             href="https://www.thepuddingpantry.co.uk/breakfast"
             target="_blank"
+            rel="noreferrer"
           >
             Pudding Pantry
           </a>
@@ -565,6 +592,7 @@ export default function SpeakerInformation() {
           <a
             href="http://www.oscarandrosies.com/menu"
             target="_blank"
+            rel="noreferrer"
           >
             Oscar And Rosies
           </a>
@@ -573,6 +601,7 @@ export default function SpeakerInformation() {
           <a
             href="https://anniesburgershack.com/menu/main-menu"
             target="_blank"
+            rel="noreferrer"
           >
             Annies Burger Shack
           </a>
@@ -581,14 +610,16 @@ export default function SpeakerInformation() {
           <a
             href="https://www.tripadvisor.co.uk/Restaurant_Review-g186356-d11933005-Reviews-Sexy_Mamma_Love_Spaghetti-Nottingham_Nottinghamshire_England.html"
             target="_blank"
+            rel="noreferrer"
           >
-            Sexy Mama's Spaghetti
+            Sexy Mama&apos;s Spaghetti
           </a>
         </li>
         <li>
           <a
             href="http://bonzai-japaneserestaurant.co.uk/"
             target="_blank"
+            rel="noreferrer"
           >
             Bonzai
           </a>
