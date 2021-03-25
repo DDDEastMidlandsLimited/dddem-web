@@ -81,15 +81,16 @@ export default function Speakers() {
             </p>
             <p tabIndex="0">
               Dylan wrote his first web page in 1992 and never looked
-              back. He&apos;s been building data-driven web applications
-              since the late 1990s, and has worked on everything from
-              tiny standalone websites to complex distributed systems.
-              He&apos;s the CTO at Skills Matter in London, he&apos;s a
-              Microsoft MVP, and he&apos;s a regular speaker at conferences
-              and user groups, where he&apos;s spoken about topics from
-              continuous delivery and Conway&apos;s Law to the history of
-              the web, federated authentication and hypermedia APIs.
-              When he&apos;s not wrangling code, Dylan plays guitar and
+              back. He&apos;s been building data-driven web
+              applications since the late 1990s, and has worked on
+              everything from tiny standalone websites to complex
+              distributed systems. He&apos;s the CTO at Skills Matter
+              in London, he&apos;s a Microsoft MVP, and he&apos;s a
+              regular speaker at conferences and user groups, where
+              he&apos;s spoken about topics from continuous delivery
+              and Conway&apos;s Law to the history of the web,
+              federated authentication and hypermedia APIs. When
+              he&apos;s not wrangling code, Dylan plays guitar and
               writes songs about code. He&apos;s online at{' '}
               <a
                 target="_blank"
@@ -134,10 +135,10 @@ export default function Speakers() {
           Much in the same way that to secure a house it helps to know
           how to break in, knowing how to attack our systems will help
           us secure them. You have a lot of data in your
-          organisations. Whether you think it&apos;s sensitive or not, it
-          has value. Whether an attacker wants data for profit, a
-          grudge, or just for fun we need to ensure that we don&apos;t just
-          leave the door open for them to take what they want.{' '}
+          organisations. Whether you think it&apos;s sensitive or not,
+          it has value. Whether an attacker wants data for profit, a
+          grudge, or just for fun we need to ensure that we don&apos;t
+          just leave the door open for them to take what they want.{' '}
         </p>
         <p tabIndex="0">
           In this session we&apos;ll start to think like a hacker. The
@@ -222,10 +223,10 @@ export default function Speakers() {
           feedback loop be the piece we&apos;re all missing?
         </p>
         <p tabIndex="0">
-          In this talk we&apos;ll dive into the structure of the feedback
-          loop, some impressive examples of how powerful they can be
-          and we&apos;ll explore how you can harness their power in your
-          work and personal life.
+          In this talk we&apos;ll dive into the structure of the
+          feedback loop, some impressive examples of how powerful they
+          can be and we&apos;ll explore how you can harness their
+          power in your work and personal life.
         </p>
         <h3 tabIndex="0">Bio</h3>
         <div className="row">
@@ -391,8 +392,9 @@ export default function Speakers() {
         </p>
         <p tabIndex="0">
           By the end of this session you will understand WHY working
-          visually is so effective, but more importantly you&apos;ll get to
-          see HOW it works by trying out visual exericises yourself.
+          visually is so effective, but more importantly you&apos;ll
+          get to see HOW it works by trying out visual exericises
+          yourself.
         </p>
         <h3 tabIndex="0">Bio</h3>
         <div className="row">
@@ -544,8 +546,8 @@ export default function Speakers() {
               <i>Cloud Solution Architect (AA and AI), Microsoft</i>
             </p>
             <p tabIndex="0">
-              I&apos;m a Cloud Solution Architect at Microsoft, where I
-              help enterprise customers adopt Advanced Analytics and
+              I&apos;m a Cloud Solution Architect at Microsoft, where
+              I help enterprise customers adopt Advanced Analytics and
               Artifical Intelligence services on Microsoft Azure
               cloud.
             </p>
@@ -562,10 +564,11 @@ export default function Speakers() {
         <p tabIndex="0">
           We have all heard tales of the infamous test pyramid. Some
           of us have scaled the pyramid, some camped halfway and some
-          dare not even attempt. Time and time again, I&apos;ve heard of
-          the test pyramid in multiple talks, test articles and blog
-          posts, but not many have dared stray away from it. Why do we
-          often return to the same solution for every test problem?
+          dare not even attempt. Time and time again, I&apos;ve heard
+          of the test pyramid in multiple talks, test articles and
+          blog posts, but not many have dared stray away from it. Why
+          do we often return to the same solution for every test
+          problem?
         </p>
         <p tabIndex="0">
           What if we had another way forward; one that did not involve
@@ -679,8 +682,8 @@ export default function Speakers() {
             <p tabIndex="0">
               Outside of work, Ian is a passionate Star Wars fan and
               has been known to make the occasional really bad pun,
-              but all of his code is "no-pun sourced" (sorry, couldn&apos;t
-              resist).
+              but all of his code is "no-pun sourced" (sorry,
+              couldn&apos;t resist).
             </p>
             <ul>
               <li>
@@ -792,14 +795,14 @@ export default function Speakers() {
         </p>
         <p tabIndex="0">Yet something seems to be wrong.</p>
         <p tabIndex="0">
-          You can&apos;t easily release software from one team, without
-          coordinating with teams creating other. Testing has to be
-          end-to-end to flush out problems or risk your team creating
-          breaking changes for another team. Your 'heavy-lifters',
-          whether you call the principals or architects seem to spend
-          all their time on Docker, K8s, Istio and a whole slew of
-          infrastructure technologies. Your system won&apos;t run without
-          them, and you feel locked in.
+          You can&apos;t easily release software from one team,
+          without coordinating with teams creating other. Testing has
+          to be end-to-end to flush out problems or risk your team
+          creating breaking changes for another team. Your
+          'heavy-lifters', whether you call the principals or
+          architects seem to spend all their time on Docker, K8s,
+          Istio and a whole slew of infrastructure technologies. Your
+          system won&apos;t run without them, and you feel locked in.
         </p>
         <p tabIndex="0">What happened?</p>
         <p tabIndex="0">
@@ -953,11 +956,11 @@ export default function Speakers() {
           Talk: <i>You&apos;re the Tech Lead - *you* fix it!</i>
         </h3>
         <p tabIndex="0">
-          Over the last couple of years, I&apos;ve presented 20 tricks and
-          tips that I&apos;ve found invaluable as a Tech Lead. But in this
-          session, I want to turn things around and look at applying
-          some of those to solving specific issues that are common
-          within many software development teams.
+          Over the last couple of years, I&apos;ve presented 20 tricks
+          and tips that I&apos;ve found invaluable as a Tech Lead. But
+          in this session, I want to turn things around and look at
+          applying some of those to solving specific issues that are
+          common within many software development teams.
         </p>
         <h3 tabIndex="0">Bio</h3>
         <div className="row">
@@ -973,10 +976,10 @@ export default function Speakers() {
               <i>Tech Lead, Landmark Information Group</i>
             </p>
             <p tabIndex="0">
-              I&apos;ve a very broad experience of software development
-              over 15 years and a passion for both technology and
-              elegance in my solutions that make me an extremely
-              capable software architect.
+              I&apos;ve a very broad experience of software
+              development over 15 years and a passion for both
+              technology and elegance in my solutions that make me an
+              extremely capable software architect.
             </p>
             <p tabIndex="0">
               Personable and professional, I revel in complex
@@ -1021,27 +1024,27 @@ export default function Speakers() {
           </i>
         </h3>
         <p tabIndex="0">
-          We&apos;re now entering the next age of Microservices. For about
-          a decade now we&apos;ve been doing battle with the pointy haired
-          bosses of the world to convince them of what seems so
-          painfully obvious to us; that there are many varied virtues
-          of microservices architecture.
+          We&apos;re now entering the next age of Microservices. For
+          about a decade now we&apos;ve been doing battle with the
+          pointy haired bosses of the world to convince them of what
+          seems so painfully obvious to us; that there are many varied
+          virtues of microservices architecture.
         </p>
         <p tabIndex="0">
-          Now that they all have Netflix accounts and they&apos;ve seen the
-          benefits first hand we now seem to have those same bosses
-          bursting into the office waving their trade magazine and
-          asking us if we&apos;ve heard about this "micro-system" thing.
-          Flustered, we&apos;re having coming to terms now with how we
-          actually deliver on our lofty promises without Amazon&apos;s
-          finances and resources.
+          Now that they all have Netflix accounts and they&apos;ve
+          seen the benefits first hand we now seem to have those same
+          bosses bursting into the office waving their trade magazine
+          and asking us if we&apos;ve heard about this "micro-system"
+          thing. Flustered, we&apos;re having coming to terms now with
+          how we actually deliver on our lofty promises without
+          Amazon&apos;s finances and resources.
         </p>
         <p tabIndex="0">
           Some people have been getting it right the first time
-          they&apos;ve tried which is great! Other people, like me, have
-          got it right as well.....but....not before getting it wrong
-          repeatedly for oh so many different reasons! So, I guess
-          that makes me an expert, right?!
+          they&apos;ve tried which is great! Other people, like me,
+          have got it right as well.....but....not before getting it
+          wrong repeatedly for oh so many different reasons! So, I
+          guess that makes me an expert, right?!
         </p>
         <p tabIndex="0">
           Come listen as I shamefully regale you with all ways in
@@ -1070,24 +1073,24 @@ export default function Speakers() {
             </p>
             <p tabIndex="0">
               Zac has been developing for a number of years, 5 or 6 I
-              think, I don&apos;t know who is counting? In that time has
-              seen a very diverse set of tech and industries. Up until
-              his current role he was working with the .NET stack so
-              even languages are sacred to him. For Zac it&apos;s all about
-              the next challenge and in the past that thirst for
-              knowledge has seen him working with everything from
-              hulking 20 year old Classic ASP monoliths to greenfield
-              node microservices on bleed edge architecture and good
-              amount of stuff in between.
+              think, I don&apos;t know who is counting? In that time
+              has seen a very diverse set of tech and industries. Up
+              until his current role he was working with the .NET
+              stack so even languages are sacred to him. For Zac
+              it&apos;s all about the next challenge and in the past
+              that thirst for knowledge has seen him working with
+              everything from hulking 20 year old Classic ASP
+              monoliths to greenfield node microservices on bleed edge
+              architecture and good amount of stuff in between.
             </p>
             <p tabIndex="0">
               On the side Zac is active in the developer community
               writing blog posts, doing talks and mentoring other
               developers through their journeys in meet ups and
-              online. When he isn&apos;t in front of his computer at work
-              he is out geocaching with his sons and wife, playing D
-              and D with friends or......let&apos;s face it probably on the
-              computer still coding or gaming.
+              online. When he isn&apos;t in front of his computer at
+              work he is out geocaching with his sons and wife,
+              playing D and D with friends or......let&apos;s face it
+              probably on the computer still coding or gaming.
             </p>
           </div>
         </div>
@@ -1103,7 +1106,7 @@ export default function Speakers() {
               logEvent('speakers', 'neiloconnor');
             }}
           >
-            <a target="_blank" aria-label="Neil O&apos;Conner: Twitter">
+            <a target="_blank" aria-label="Neil O'Conner: Twitter">
               <FontAwesomeIcon icon={['fab', 'twitter']} />
             </a>
           </Link>
@@ -1180,8 +1183,8 @@ export default function Speakers() {
               teams since 1862. He was founding CTO at local companies
               Koodoo and Oakbrook Finance, and has worked in a wide
               array of techie roles in numerous industries. He
-              believes that if something is worth doing, it&apos;s worth
-              doing right, and aims to create environments where
+              believes that if something is worth doing, it&apos;s
+              worth doing right, and aims to create environments where
               development teams can excel at what they do best.
             </p>
           </div>
@@ -1218,11 +1221,11 @@ export default function Speakers() {
           Talk: <i>Hacking C#: Development for the Truly Lazy</i>
         </h3>
         <p tabIndex="0">
-          I don&apos;t know about you, but I&apos;m a lazy developer. What do I
-          mean by lazy? I don&apos;t mean I don&apos;t want to do my work - far
-          from it - I mean that I hate to write out a great deal of
-          code to get the job done. I want to accomplish my goals with
-          as little effort as possible.
+          I don&apos;t know about you, but I&apos;m a lazy developer.
+          What do I mean by lazy? I don&apos;t mean I don&apos;t want
+          to do my work - far from it - I mean that I hate to write
+          out a great deal of code to get the job done. I want to
+          accomplish my goals with as little effort as possible.
         </p>
         <p tabIndex="0">
           One of my pet hates is writing enhancements that involve
@@ -1235,9 +1238,10 @@ export default function Speakers() {
           actually does!
         </p>
         <p tabIndex="0">
-          What&apos;s the alternative? In this talk, I&apos;ll demonstrate a way
-          of working that avoids all this unneccesary work, and gives
-          you more time to do something more productive.
+          What&apos;s the alternative? In this talk, I&apos;ll
+          demonstrate a way of working that avoids all this
+          unneccesary work, and gives you more time to do something
+          more productive.
         </p>
         <p tabIndex="0">We&apos;ll look at:</p>
         <ol>
@@ -1261,8 +1265,8 @@ export default function Speakers() {
         <p tabIndex="0">
           Our goal is to write code in as few lines as possible that
           provides the greatest amount of impact. We also want code
-          that&apos;s readable, and easily maintainable. We want to think
-          smart, and think...Lazy.
+          that&apos;s readable, and easily maintainable. We want to
+          think smart, and think...Lazy.
         </p>
         <h3 tabIndex="0">Bio</h3>
         <div className="row">
@@ -1278,18 +1282,19 @@ export default function Speakers() {
               <i>Senior Software Developer at EuroFins Scientific</i>
             </p>
             <p tabIndex="0">
-              I&apos;ve been working as a .NET developer for over 12 years
-              now in a variety of industries including government,
-              retail and manufacturing. But as a coder, I&apos;ve been
-              playing with making computers do whatever my crazed
-              imagination could devise since I was old enough to read
-              my Dad&apos;s copy of the ZX Spectrum BASIC coders manual.
+              I&apos;ve been working as a .NET developer for over 12
+              years now in a variety of industries including
+              government, retail and manufacturing. But as a coder,
+              I&apos;ve been playing with making computers do whatever
+              my crazed imagination could devise since I was old
+              enough to read my Dad&apos;s copy of the ZX Spectrum
+              BASIC coders manual.
             </p>
             <p tabIndex="0">
-              I&apos;ve been speaking about Functional C# at various user
-              groups and conferences around the UK, USA, and India,
-              and am particularly interested in seeing just how far we
-              can push the capabilities of C#.
+              I&apos;ve been speaking about Functional C# at various
+              user groups and conferences around the UK, USA, and
+              India, and am particularly interested in seeing just how
+              far we can push the capabilities of C#.
             </p>
             <p tabIndex="0">
               When I&apos;m not coding, or running after my two small

@@ -66,9 +66,9 @@ export default function ApplicationInformation() {
         <a name="cfp" />
         <h2 tabIndex="0"> What is a CFP?</h2>
         <p tabIndex="0">
-          CFP stands for Call for Papers. It&apos;s also known as Call For
-          Speakers. It is the request for people to submit their talk
-          ideas.
+          CFP stands for Call for Papers. It&apos;s also known as Call
+          For Speakers. It is the request for people to submit their
+          talk ideas.
         </p>
       </section>
 
@@ -106,9 +106,9 @@ export default function ApplicationInformation() {
           will vote on what they want to see and the most popular
           talks will be selected. We ask you do not include any
           identifiable information in your titles and talks
-          descriptions, and that you don&apos;t share the titles of your
-          submissions on social media to help keep this fair. More can
-          be read about this process{' '}
+          descriptions, and that you don&apos;t share the titles of
+          your submissions on social media to help keep this fair.
+          More can be read about this process{' '}
           <a
             href="https://blog.dddeastmidlands.com/2019/12/07/submission-process.html"
             target="_blank"

@@ -258,8 +258,8 @@ export default function SpeakerInformation() {
             </strong>{' '}
             We cannot offer more in-depth means of feedback this year
             as it would require a level of moderation and work that,
-            unfortunately, we don&apos;t have the time to invest in this
-            first year.
+            unfortunately, we don&apos;t have the time to invest in
+            this first year.
           </li>
           <li tabIndex="0">
             <strong>
@@ -367,7 +367,9 @@ export default function SpeakerInformation() {
           provide to help you.
         </p>
 
-        <h4 tabIndex="0">Meet the AV technician and get Mic&apos;d up</h4>
+        <h4 tabIndex="0">
+          Meet the AV technician and get Mic&apos;d up
+        </h4>
         <p tabIndex="0">
           There are a variety of microphones available in each room.
           Clip-on, static and hand held are available, so please let
@@ -390,8 +392,8 @@ export default function SpeakerInformation() {
           questions after your talk?
         </h4>
         <p tabIndex="0">
-          We&apos;ll provide a space in the breakout area with a table and
-          chair. Book in a time slot with Jessica, and you can
+          We&apos;ll provide a space in the breakout area with a table
+          and chair. Book in a time slot with Jessica, and you can
           advertise during or at the end of your talk that you will be
           available there to be approached by attendees after your
           talk.

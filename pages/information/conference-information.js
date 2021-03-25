@@ -420,10 +420,10 @@ export default function ConferenceInformation() {
           attendees to feel comfortable at the event, so ask that no
           submissions or talks contain content of a graphic, violent
           or sexual nature or contain any language that may be
-          considered marginalising or hateful. If you wouldn&apos;t want to
-          say it to someone you respect, please don&apos;t include it in
-          your submission. Organisers hold the right to remove
-          anything that may be thought to cause distress.
+          considered marginalising or hateful. If you wouldn&apos;t
+          want to say it to someone you respect, please don&apos;t
+          include it in your submission. Organisers hold the right to
+          remove anything that may be thought to cause distress.
         </p>
 
         <a name="speaking" />
@@ -443,8 +443,8 @@ export default function ConferenceInformation() {
             </b>
           </li>
           <p tabIndex="0">
-            Speaking in front of a crowd of people isn&apos;t easy and we
-            know it. There will be the option to highlight that you
+            Speaking in front of a crowd of people isn&apos;t easy and
+            we know it. There will be the option to highlight that you
             would like extra support, as a first-time speaker, or even
             just as someone who feels that they would benefit from it.
           </p>

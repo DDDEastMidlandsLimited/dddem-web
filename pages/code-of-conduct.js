@@ -146,8 +146,8 @@ export default function CodeOfConduct() {
         <p tabIndex="0">
           At our events and on our online community it is not
           considered acceptable to approach people unsolicited about
-          jobs, it doesn&apos;t make for a welcoming environment and it
-          isn&apos;t what our community is for.
+          jobs, it doesn&apos;t make for a welcoming environment and
+          it isn&apos;t what our community is for.
         </p>
         <p tabIndex="0">
           Job promotions should include the name of the role, the name

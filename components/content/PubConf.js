@@ -17,7 +17,8 @@ export default function PubConf() {
         </a>{' '}
         featuring some of our speakers and special guests. This
         evening event has comedy talks, music, food and beverages.
-        It&apos;s great fun for all and we encourage you to come along.
+        It&apos;s great fun for all and we encourage you to come
+        along.
       </p>
       <p>
         <strong>Quick about:</strong>

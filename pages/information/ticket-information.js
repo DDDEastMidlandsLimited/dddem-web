@@ -49,8 +49,8 @@ export default function TicketInformation() {
         <h1 tabIndex="0">How much do tickets cost?</h1>
         <p tabIndex="0">
           Tickets for the event will be free but limited in
-          availability. We wanted to ensure that price wouldn&apos;t be a
-          barrier for those wanting to attend.
+          availability. We wanted to ensure that price wouldn&apos;t
+          be a barrier for those wanting to attend.
         </p>
       </section>
 
@@ -93,8 +93,8 @@ export default function TicketInformation() {
         </h1>
         <p tabIndex="0">
           If you can no longer come to the event you (we are sad you
-          can&apos;t make it!) please return your ticket so that someone
-          else can claim it.
+          can&apos;t make it!) please return your ticket so that
+          someone else can claim it.
         </p>
         <p tabIndex="0">
           You can return your ticket through a couple of ways:
