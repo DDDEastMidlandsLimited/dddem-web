@@ -1,5 +1,5 @@
 import React from 'react';
-import { logEvent } from '../utils/analytics';
+import { logEvent } from '../../utils/analytics';
 import Layout from '../../components/Layout';
 import Header from '../../components/Header';
 import theme from '../../theme/theme';
