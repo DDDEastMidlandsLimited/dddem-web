@@ -37,7 +37,7 @@ export default function HacktoberFest() {
               and sponsored by <a href="https://dev.to">DEV</a>, and
               aims to get more folks dipping their toes in
               contributing to Free and Open Source software, and
-              showing everyone that there's more to a project than
+              showing everyone that there&apos;s more to a project than
               just code!
             </p>
           </div>
@@ -232,7 +232,7 @@ export default function HacktoberFest() {
           <a href="" target="_blank">
             Chirag Bolakani
           </a>{' '}
-          - It's a great pleasure to be a part of the East Midlands
+          - It&apos;s a great pleasure to be a part of the East Midlands
           Tech Community as the people are very supportive and help
           you in your overall development.
         </li>
@@ -245,7 +245,7 @@ export default function HacktoberFest() {
             Julian Merida
           </a>{' '}
           - Everyone in East Midlands Tech Community are really
-          amazing! I've learnt a lot from the content they share!
+          amazing! I&apos;ve learnt a lot from the content they share!
         </li>
       </section>
       <style jsx>

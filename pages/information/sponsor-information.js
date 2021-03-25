@@ -206,7 +206,7 @@ export default function SponsorInformation() {
           <i>Sponsor a diverse candidate.</i>
           <p>
             You could run a diversity scheme, to support people who
-            want to come to the conference but haven't been able to
+            want to come to the conference but haven&apos;t been able to
             get a ticket.
           </p>
         </li>

@@ -242,7 +242,7 @@ export default function SpeakerInformation() {
               Yellow - That talk was good
             </li>
             <li tabIndex="0" className="red">
-              Red - That talk wasn't for me.
+              Red - That talk wasn&apos;t for me.
             </li>
           </strong>
         </ul>
@@ -258,7 +258,7 @@ export default function SpeakerInformation() {
             </strong>{' '}
             We cannot offer more in-depth means of feedback this year
             as it would require a level of moderation and work that,
-            unfortunately, we don't have the time to invest in this
+            unfortunately, we don&apos;t have the time to invest in this
             first year.
           </li>
           <li tabIndex="0">
@@ -367,7 +367,7 @@ export default function SpeakerInformation() {
           provide to help you.
         </p>
 
-        <h4 tabIndex="0">Meet the AV technician and get Mic'd up</h4>
+        <h4 tabIndex="0">Meet the AV technician and get Mic&apos;d up</h4>
         <p tabIndex="0">
           There are a variety of microphones available in each room.
           Clip-on, static and hand held are available, so please let
@@ -390,7 +390,7 @@ export default function SpeakerInformation() {
           questions after your talk?
         </h4>
         <p tabIndex="0">
-          We'll provide a space in the breakout area with a table and
+          We&apos;ll provide a space in the breakout area with a table and
           chair. Book in a time slot with Jessica, and you can
           advertise during or at the end of your talk that you will be
           available there to be approached by attendees after your
@@ -486,7 +486,7 @@ export default function SpeakerInformation() {
         <a name="hotels" />
         <h2 tabIndex="0">Hotels</h2>
         <p tabIndex="0">
-          We don't have any partnerships or deals with any local
+          We don&apos;t have any partnerships or deals with any local
           hotels but here is a list of a few in City Center:
         </p>
         <li>
@@ -611,7 +611,7 @@ export default function SpeakerInformation() {
             target="_blank"
             rel="noreferrer"
           >
-            Sexy Mama's Spaghetti
+            Sexy Mama&apos;s Spaghetti
           </a>
         </li>
         <li>

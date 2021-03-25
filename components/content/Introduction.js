@@ -13,7 +13,7 @@ export default function Introduction() {
       </p>
       <p tabIndex="0">
         This is going to be a great day full of amazing talks,
-        exhibition stalls and more. We can't wait to meet you all and
+        exhibition stalls and more. We can&apos;t wait to meet you all and
         hope you have a fantastic day.
       </p>
       <style jsx>{ContentSection}</style>

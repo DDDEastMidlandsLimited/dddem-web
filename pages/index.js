@@ -31,7 +31,6 @@ export default function Index() {
         /static/banners/pride-header.jpg"
               />
             );
-            break;
           case 9:
           case 10:
           case 11:
@@ -42,7 +41,6 @@ export default function Index() {
             /static/banners/autumn-header.jpg"
               />
             );
-            break;
           case 12:
             return (
               <Header
@@ -51,7 +49,6 @@ export default function Index() {
         /static/banners/christmas-header.jpg"
               />
             );
-            break;
           default:
             return (
               <Header

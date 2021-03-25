@@ -140,7 +140,7 @@ export default function Sponsor() {
         <p tabIndex="0">
           With the current state of play, we understand that you may
           be curious as to what our plans are around COVID-19. We want
-          to ensure everyone's safety, while providing a good
+          to ensure everyone&apos;s safety, while providing a good
           experience for our sponsors.
         </p>
         <h4>Plan A: Conference Goes Ahead</h4>
