@@ -3,4 +3,6 @@ node_modules/*
 out/*
 public/*
 coverage/*
-public/*
+data/talks/talks.js
+__mocks__/*
+components/PerformanceAnalytics.js

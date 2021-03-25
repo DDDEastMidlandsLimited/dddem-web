@@ -6,7 +6,6 @@ import Head from 'next/head';
 import FullWidthImage from '../../components/FullWidthImage';
 import {
   CodeOfConduct,
-  Introduction,
   Transport,
   SocialMedia,
   //PubConf,

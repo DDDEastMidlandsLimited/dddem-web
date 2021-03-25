@@ -5,7 +5,6 @@ import theme from '../../theme/theme';
 import Head from 'next/head';
 import {
   CodeOfConduct,
-  Introduction,
   WhereWhen,
   Transport,
   Catering,

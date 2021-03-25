@@ -45,7 +45,7 @@ export default function Navigation() {
                 rel="noopener noreferrer"
                 target="_blank"
                 href="https://sessionize.com/ddd-east-midlands-conference-2021/"
-                onSelect={(event) => {
+                onSelect={() => {
                   logEvent('navigation', 'eventbrite');
                 }}
               >
@@ -70,7 +70,7 @@ export default function Navigation() {
                 rel="noopener noreferrer"
                 target="_blank"
                 href="https://blog.dddeastmidlands.com/"
-                onSelect={(event) => {
+                onSelect={() => {
                   logEvent('navigation', 'blog');
                 }}
               >
@@ -82,7 +82,7 @@ export default function Navigation() {
               <NavDropdown.Item
                 target="_blank"
                 href="https://www.youtube.com/channel/UC5TNH43dpYqmw3ggv9OGIKw"
-                onSelect={(event) => {
+                onSelect={() => {
                   logEvent('navigation', 'youtube');
                 }}
               >

@@ -1,3 +1,4 @@
+import React from 'react';
 import SponsorImage from './SponsorImage';
 import SponsorDescription from './SponsorDescription';
 

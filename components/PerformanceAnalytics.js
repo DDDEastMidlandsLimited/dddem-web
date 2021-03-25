@@ -1,3 +1,4 @@
+import React from 'react';
 import Perfume from 'perfume.js';
 
 const metricNames = [
@@ -12,10 +13,10 @@ const metricNames = [
   'tbt10S',
   'tbtFinal',
 ];
-const perfume = new Perfume({
+new Perfume({
   analyticsTracker: ({ metricName, data, navigatorInformation }) => {
     if (metricNames.includes(metricName)) {
-      ga('send', 'event', {
+      ga('send', 'event', { // eslint-disable-line no-undef
         eventCategory: 'Perfume.js',
         eventAction: metricName,
         // Google Analytics metrics must be integers, so the value is rounded

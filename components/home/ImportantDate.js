@@ -1,3 +1,4 @@
+import React from 'react';
 import theme from '../../theme/theme';
 
 export default function ImportantDate({ dates }) {

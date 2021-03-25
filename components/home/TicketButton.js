@@ -1,3 +1,5 @@
+import React from 'react';
+import { logEvent } from '../utils/analytics';
 import theme from '../../theme/theme';
 
 export default function TicketButton() {
@@ -7,7 +9,7 @@ export default function TicketButton() {
         <a
           href="https://www.eventbrite.co.uk/e/ddd-east-midlands-tickets-58629047058"
           target="_blank"
-          onSelect={(event) => {
+          onSelect={() => {
             logEvent('home', 'eventbrite');
           }}
           rel="noreferrer"
