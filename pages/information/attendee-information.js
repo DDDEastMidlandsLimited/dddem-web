@@ -214,8 +214,8 @@ export default function AttendeeInformation() {
           If for any reason you are no longer able to attend the
           conference, please return your ticket so that someone else
           can claim the place. We do pay per person, so this will have
-          an impact on us if you can no longer attend but don&apos;t return
-          the ticket.
+          an impact on us if you can no longer attend but don&apos;t
+          return the ticket.
         </p>
 
         <a name="waiting-list" />

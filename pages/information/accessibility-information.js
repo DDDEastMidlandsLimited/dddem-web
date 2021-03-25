@@ -155,9 +155,10 @@ export default function AccessibilityInformation() {
         <a name="genderbathrooms" />
         <h2 tabIndex="0">Are bathrooms gender neutral?</h2>
         <p tabIndex="0">
-          Unfortunately, this isn&apos;t the case at this years event. The
-          NCC is converting some of it&apos;s toilets to be gender neutral
-          but this won&apos;t be in place until after the event.
+          Unfortunately, this isn&apos;t the case at this years event.
+          The NCC is converting some of it&apos;s toilets to be gender
+          neutral but this won&apos;t be in place until after the
+          event.
         </p>
       </section>
 

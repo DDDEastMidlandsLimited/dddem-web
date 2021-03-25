@@ -153,8 +153,8 @@ export default function CrewInformation() {
         <a name="absence" />
         <h1>Absence</h1>
         <p>
-          If you can&apos;t make your shift/will be late please let the
-          organisers know as soon as possible via the crew slack.
+          If you can&apos;t make your shift/will be late please let
+          the organisers know as soon as possible via the crew slack.
         </p>
       </section>
 
