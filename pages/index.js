@@ -1,3 +1,4 @@
+import React from 'react';
 import theme from '../theme/theme';
 import Head from 'next/head';
 import Header from '../components/Header';
