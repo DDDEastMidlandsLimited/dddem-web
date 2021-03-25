@@ -1,5 +1,5 @@
 import React, { useContext } from 'react';
-import Company from './CompanyInfo';
+import CompanyInfo from './CompanyInfo';
 import CompanyDetailsButton from './CompanyDetailsButton';
 import CompaniesContext from './CompaniesContext';
 
@@ -20,7 +20,7 @@ export default function CompanyGrid() {
           {companiesList &&
             companiesList.map((company, index) => (
               <div className="companyItem" key={index}>
-                <Company
+                <CompanyInfo
                   key={company.id}
                   partner={company}
                   image={company.image}
