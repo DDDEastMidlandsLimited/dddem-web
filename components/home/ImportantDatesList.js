@@ -1,3 +1,4 @@
+import React from 'react';
 import ImportantDate from './ImportantDate';
 
 export default function ImportantDatesList({ dates }) {

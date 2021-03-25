@@ -4,3 +4,5 @@ out/*
 public/*
 coverage/*
 data/talks/talks.js
+__mocks__/*
+components/PerformanceAnalytics.js

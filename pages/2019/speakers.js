@@ -1,4 +1,5 @@
 import React from 'react';
+import { logEvent } from '../utils/analytics';
 import Layout from '../../components/Layout';
 import Header from '../../components/Header';
 import theme from '../../theme/theme';
@@ -28,7 +29,7 @@ export default function Speakers() {
           <Link
             target="_blank"
             href="https://twitter.com/dylanbeattie"
-            onSelect={(event) => {
+            onSelect={() => {
               logEvent('twitter', 'dylanbeattie');
             }}
           >
@@ -119,7 +120,7 @@ export default function Speakers() {
           <Link
             target="_blank"
             href="https://twitter.com/Brunty"
-            onSelect={(event) => {
+            onSelect={() => {
               logEvent('twitter', 'brunty');
             }}
           >
@@ -179,7 +180,7 @@ export default function Speakers() {
           <Link
             target="_blank"
             href="https://twitter.com/JessSalisburyy"
-            onSelect={(event) => {
+            onSelect={() => {
               logEvent('twitter', 'jesssalisbury');
             }}
           >
@@ -193,7 +194,7 @@ export default function Speakers() {
           <Link
             target="_blank"
             href="https://www.linkedin.com/in/jessica-salisbury-2a0920102/"
-            onSelect={(event) => {
+            onSelect={() => {
               logEvent('linkedin', 'jesssalisbury');
             }}
           >
@@ -268,7 +269,7 @@ export default function Speakers() {
           <Link
             target="_blank"
             href="https://twitter.com/AnthonyDotNet"
-            onSelect={(event) => {
+            onSelect={() => {
               logEvent('twitter', 'anthonydang');
             }}
           >
@@ -279,7 +280,7 @@ export default function Speakers() {
           <Link
             target="_blank"
             href="https://www.linkedin.com/in/anthony-dang79/"
-            onSelect={(event) => {
+            onSelect={() => {
               logEvent('linkedin', 'anthonydang');
             }}
           >
@@ -347,7 +348,7 @@ export default function Speakers() {
           <Link
             target="_blank"
             href="https://twitter.com/GraphicChange"
-            onSelect={(event) => {
+            onSelect={() => {
               logEvent('twitter', 'caraholland');
             }}
           >
@@ -358,7 +359,7 @@ export default function Speakers() {
           <Link
             target="_blank"
             href="https://www.linkedin.com/in/cara-holland-71240b7/"
-            onSelect={(event) => {
+            onSelect={() => {
               logEvent('linkedin', 'caraholland');
             }}
           >
@@ -427,7 +428,7 @@ export default function Speakers() {
           <Link
             target="_blank"
             href="https://twitter.com/mark_towndrow"
-            onSelect={(event) => {
+            onSelect={() => {
               logEvent('twitter', 'marktowndrow');
             }}
           >
@@ -498,7 +499,7 @@ export default function Speakers() {
           <Link
             target="_blank"
             href="https://twitter.com/galiyawarrier"
-            onSelect={(event) => {
+            onSelect={() => {
               logEvent('twitter', 'galiya-warrier');
             }}
           >
@@ -509,7 +510,7 @@ export default function Speakers() {
           <Link
             target="_blank"
             href="https://www.linkedin.com/in/galiyawarrier/"
-            onSelect={(event) => {
+            onSelect={() => {
               logEvent('linkedin', 'galiya-warrier');
             }}
           >
@@ -624,7 +625,7 @@ export default function Speakers() {
           <Link
             target="_blank"
             href="https://twitter.com/ijohnson_tnf"
-            onSelect={(event) => {
+            onSelect={() => {
               logEvent('twitter', 'ianjohnson');
             }}
           >
@@ -707,7 +708,7 @@ export default function Speakers() {
           <Link
             target="_blank"
             href="https://twitter.com/samathy_barratt"
-            onSelect={(event) => {
+            onSelect={() => {
               logEvent('twitter', 'samathybarratt');
             }}
           >
@@ -763,7 +764,7 @@ export default function Speakers() {
           <Link
             target="_blank"
             href="https://twitter.com/icooper"
-            onSelect={(event) => {
+            onSelect={() => {
               logEvent('twitter', 'iancooper');
             }}
           >
@@ -774,7 +775,7 @@ export default function Speakers() {
           <Link
             target="_blank"
             href="https://www.linkedin.com/in/ian-cooper-2b059b/"
-            onSelect={(event) => {
+            onSelect={() => {
               logEvent('linkedin', 'iancooper');
             }}
           >
@@ -842,7 +843,7 @@ export default function Speakers() {
           <Link
             target="_blank"
             href="https://twitter.com/LittleHelli"
-            onSelect={(event) => {
+            onSelect={() => {
               logEvent('twitter', 'helenjoy');
             }}
           >
@@ -853,7 +854,7 @@ export default function Speakers() {
           <Link
             target="_blank"
             href="https://www.linkedin.com/in/helencjoy/"
-            onSelect={(event) => {
+            onSelect={() => {
               logEvent('linkedin', 'helenjoy');
             }}
           >
@@ -926,7 +927,7 @@ export default function Speakers() {
           <Link
             target="_blank"
             href="https://twitter.com/Rammesses"
-            onSelect={(event) => {
+            onSelect={() => {
               logEvent('twitter', 'joelhammondturner');
             }}
           >
@@ -940,7 +941,7 @@ export default function Speakers() {
           <Link
             target="_blank"
             href="https://www.linkedin.com/in/joelht/"
-            onSelect={(event) => {
+            onSelect={() => {
               logEvent('linkedin', 'joelhammondturner');
             }}
           >
@@ -996,7 +997,7 @@ export default function Speakers() {
           <Link
             target="_blank"
             href="https://twitter.com/ZackerTheHacker"
-            onSelect={(event) => {
+            onSelect={() => {
               logEvent('twitter', 'zacbraddy');
             }}
           >
@@ -1007,7 +1008,7 @@ export default function Speakers() {
           <Link
             target="_blank"
             href="https://www.linkedin.com/in/zac-braddy-17a81b22/"
-            onSelect={(event) => {
+            onSelect={() => {
               logEvent('linkedin', 'zacbraddy');
             }}
           >
@@ -1102,7 +1103,7 @@ export default function Speakers() {
           <Link
             target="_blank"
             href="https://twitter.com/1stmanonthesun"
-            onSelect={(event) => {
+            onSelect={() => {
               logEvent('speakers', 'neiloconnor');
             }}
           >
@@ -1197,7 +1198,7 @@ export default function Speakers() {
           <Link
             target="_blank"
             href="https://twitter.com/madSimonJ"
-            onSelect={(event) => {
+            onSelect={() => {
               logEvent('twitter', 'simonpainter');
             }}
           >
@@ -1208,7 +1209,7 @@ export default function Speakers() {
           <Link
             target="_blank"
             href="https://www.linkedin.com/in/simon-painter-45a05217/"
-            onSelect={(event) => {
+            onSelect={() => {
               logEvent('linkedin', 'simonpainter');
             }}
           >

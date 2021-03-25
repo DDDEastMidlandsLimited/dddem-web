@@ -1,3 +1,4 @@
+import React from 'react';
 import ContentSection from '../../styles/ContentSection';
 
 export default function CodeOfConduct() {
