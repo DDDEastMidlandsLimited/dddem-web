@@ -65,7 +65,7 @@ export default function Contact() {
           If you want to get to one of us in particular on the day,
           the best way to reach us it through a volunteer. The
           volunteers will have contact details for the organisers
-          which aren't available on this page that the organisers will
+          which aren&apos;t available on this page that the organisers will
           be monitoring more closely on the day than their social
           media accounts.
         </p>

@@ -34,7 +34,7 @@ export default function HacktoberfestInformation() {
           >
             Jamie Tanna
           </a>{' '}
-          at their Hacktoberfest stand, where you'll be able to learn
+          at their Hacktoberfest stand, where you&apos;ll be able to learn
           all about{' '}
           <a href="https://hacktoberfest.digitalocean.com/">
             Hacktoberfest
@@ -75,7 +75,7 @@ export default function HacktoberfestInformation() {
               and sponsored by <a href="https://dev.to">DEV</a>, and
               aims to get more folks dipping their toes in
               contributing to Free and Open Source software, and
-              showing everyone that there's more to a project than
+              showing everyone that there&apos;s more to a project than
               just code!
             </p>
           </div>

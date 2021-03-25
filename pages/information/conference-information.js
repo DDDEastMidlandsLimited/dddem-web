@@ -311,7 +311,7 @@ export default function ConferenceInformation() {
           head of the co-founders. He is the number whizz and the
           fashion guru. Seriously, check out his Ninja Turtle Doc
           Martens. You may (not) recognise Moreton from his
-          performance at 2018's Hack24 as Mr Blobby.
+          performance at 2018&apos;s Hack24 as Mr Blobby.
         </p>
         <br />
         <div className="row">
@@ -401,7 +401,7 @@ export default function ConferenceInformation() {
           anonymous. When the attendees vote on which talks they want
           to see, and when the organisers are sorting out the agenda,
           identifiable information about those who have submitted
-          can't bee seen. This is to keep the process as fair as
+          can&apos;t bee seen. This is to keep the process as fair as
           possible and ensure talks are picked on their advertised
           content, not by who is presenting.
         </p>
@@ -420,8 +420,8 @@ export default function ConferenceInformation() {
           attendees to feel comfortable at the event, so ask that no
           submissions or talks contain content of a graphic, violent
           or sexual nature or contain any language that may be
-          considered marginalising or hateful. If you wouldn't want to
-          say it to someone you respect, please don't include it in
+          considered marginalising or hateful. If you wouldn&apos;t want to
+          say it to someone you respect, please don&apos;t include it in
           your submission. Organisers hold the right to remove
           anything that may be thought to cause distress.
         </p>
@@ -443,7 +443,7 @@ export default function ConferenceInformation() {
             </b>
           </li>
           <p tabIndex="0">
-            Speaking in front of a crowd of people isn't easy and we
+            Speaking in front of a crowd of people isn&apos;t easy and we
             know it. There will be the option to highlight that you
             would like extra support, as a first-time speaker, or even
             just as someone who feels that they would benefit from it.
