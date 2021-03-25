@@ -226,6 +226,7 @@ export default function SponsorInformation() {
           <a
             href="https://www.eventbrite.co.uk/e/ddd-east-midlands-2020-tickets-95834801471"
             target="_blank"
+            rel="noreferrer"
           >
             Head to eventbrite using this link
           </a>

@@ -5,7 +5,11 @@ export default function SponsorButton() {
     <div>
       <br />
       <button>
-        <a href="mailto:rachel@dddeastmidlands.com" target="_blank">
+        <a
+          href="mailto:rachel@dddeastmidlands.com"
+          target="_blank"
+          rel="noreferrer"
+        >
           Email Rachel
         </a>
       </button>

@@ -55,6 +55,7 @@ export default function HacktoberFest() {
             <a
               href="https://hacktoberfest.digitalocean.com/"
               target="_blank"
+              rel="noreferrer"
             >
               Sign Up Here
             </a>
@@ -86,6 +87,7 @@ export default function HacktoberFest() {
           <a
             href="https://github.com/DDDEastMidlandsLimited/dddem-web"
             target="_blank"
+            rel="noreferrer"
           >
             See the Readme on the main GitHub page for instructions on
             running the website locally.
@@ -96,6 +98,7 @@ export default function HacktoberFest() {
           <a
             href="https://github.com/DDDEastMidlandsLimited/dddem-web/issues"
             target="_blank"
+            rel="noreferrer"
           >
             Check out the GitHub issues here.
           </a>{' '}
@@ -108,6 +111,7 @@ export default function HacktoberFest() {
           <a
             href="https://github.com/DDDEastMidlandsLimited/dddem-blog"
             target="_blank"
+            rel="noreferrer"
           >
             See the Readme on the main GitHub page for instructions on
             running the website locally.
@@ -118,6 +122,7 @@ export default function HacktoberFest() {
           <a
             href="https://github.com/DDDEastMidlandsLimited/dddem-blog/issues"
             target="_blank"
+            rel="noreferrer"
           >
             Check out the GitHub issues here.
           </a>{' '}
@@ -143,6 +148,7 @@ export default function HacktoberFest() {
           <a
             href="https://jesswhite.co.uk/2020/09/20/hacktober-post.html"
             target="_blank"
+            rel="noreferrer"
           >
             in this linked blog post.
           </a>{' '}
@@ -154,6 +160,7 @@ export default function HacktoberFest() {
           <a
             href="https://guides.github.com/activities/forking/"
             target="_blank"
+            rel="noreferrer"
           >
             Fork the repository
           </a>{' '}
@@ -161,6 +168,7 @@ export default function HacktoberFest() {
           <a
             href="https://docs.github.com/en/github/collaborating-with-issues-and-pull-requests/configuring-a-remote-for-a-fork"
             target="_blank"
+            rel="noreferrer"
           >
             Configure your remote fork to have the original projects
             main branch as it’s upstream.
@@ -209,7 +217,11 @@ export default function HacktoberFest() {
         </h1>
         <a name="list" />
         <li>
-          <a href="https://twitter.com/JessPWhite" target="_blank">
+          <a
+            href="https://twitter.com/JessPWhite"
+            target="_blank"
+            rel="noreferrer"
+          >
             Jessica White
           </a>{' '}
           - The people who are part of the East Midlands Tech
@@ -224,7 +236,11 @@ export default function HacktoberFest() {
           you in your overall development.
         </li>
         <li>
-          <a href="https://twitter.com/MRJulian97" target="_blank">
+          <a
+            href="https://twitter.com/MRJulian97"
+            target="_blank"
+            rel="noreferrer"
+          >
             Julian Merida
           </a>{' '}
           - Everyone in East Midlands Tech Community are really

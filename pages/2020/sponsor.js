@@ -61,6 +61,7 @@ export default function Sponsor() {
                 <a
                   href="mailto:rachel@dddeastmidlands.com"
                   target="_blank"
+                  rel="noreferrer"
                 >
                   Rachel At DDD East Midlands
                 </a>
@@ -70,6 +71,7 @@ export default function Sponsor() {
                 <a
                   href="https://twitter.com/missracheybaby"
                   target="_blank"
+                  rel="noreferrer"
                 >
                   @missracheybaby
                 </a>
@@ -79,6 +81,7 @@ export default function Sponsor() {
                 <a
                   href="https://www.linkedin.com/in/rachelwatsondistinct/"
                   target="_blank"
+                  rel="noreferrer"
                 >
                   Rachel Watson
                 </a>
