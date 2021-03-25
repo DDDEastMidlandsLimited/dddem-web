@@ -10,33 +10,44 @@ export default function CompanyGrid() {
 
   return (
     <div>
-      <div
-        dangerouslySetInnerHTML={{
-          __html: selectedCompanyDescription,
-        }}
-      ></div>
-      {companiesList &&
-        companiesList.map((company, index) => (
-          <div key={index}>
-            <Company
-              key={company.id}
-              partner={company}
-              image={company.image}
-            />
-            {company.description && (
-              <CompanyDetailsButton
-                companyDescription={company.description}
-              />
-            )}
-          </div>
-        ))}
+      <div>
+        <div
+          dangerouslySetInnerHTML={{
+            __html: selectedCompanyDescription,
+          }}
+        ></div>
+        <div className="companyContainer">
+          {companiesList &&
+            companiesList.map((company, index) => (
+              <div className="companyItem" key={index}>
+                <Company
+                  key={company.id}
+                  partner={company}
+                  image={company.image}
+                />
+                {company.description && (
+                  <CompanyDetailsButton
+                    companyDescription={company.description}
+                  />
+                )}
+              </div>
+            ))}
+        </div>
+      </div>
       <style jsx>
         {`
-          div {
+          div.companyContainer {
             display: flex;
             flex-direction: row;
             justify-content: center;
-            align-items: center;
+            align-items: baseline;
+          }
+          div.companyItem {
+            display: flex;
+            flex: 1 1 0;
+            flex-direction: column;
+            justify-content: center;
+            align-items: baseline;
           }
         `}
       </style>
