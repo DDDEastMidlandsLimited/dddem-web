@@ -2,7 +2,7 @@ import React from 'react';
 import theme from '../../theme/theme';
 import ExternalLink from '../ExternalLink';
 
-export default function Company({ partner, image }) {
+export default function CompanyInfo({ partner, image }) {
   return (
     <div>
       <ExternalLink
