@@ -1,10 +1,21 @@
-import React from 'react';
+import React, { useContext } from 'react';
 import theme from '../../theme/theme';
+import CompaniesContext from './CompaniesContext';
 
-export default function CompanyDetailsButton({ updateDescription }) {
+export default function CompanyDetailsButton({ companyDescription }) {
+  const { setSelectedCompanyDescription } = useContext(
+    CompaniesContext,
+  );
+
   return (
     <div>
-      <button onClick={updateDescription}>see details</button>
+      <button
+        onClick={() =>
+          setSelectedCompanyDescription(companyDescription)
+        }
+      >
+        see details
+      </button>
       <style jsx>
         {`
           button {
