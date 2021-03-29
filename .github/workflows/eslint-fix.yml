@@ -1,7 +1,7 @@
 name: Run ESLint:Fix
 on:
   schedule:
-    - cron:  '0 10 * * 1'
+    - cron:  '0 06 * * 2'
 jobs:
   update-dep:
     runs-on: ubuntu-latest
@@ -14,7 +14,7 @@ jobs:
       - name: Run ESLint:Fix
         run: |
           npm install
-          npm run eslint:fix
+          npm run lint:fix
 
       - name: Run build
         run: npm run build
