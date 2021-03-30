@@ -1,4 +1,3 @@
-const withCSS = require('@zeit/next-css');
 const withPWA = require('next-pwa');
 const glob = require('glob');
 const withPlugins = require('next-compose-plugins');
@@ -12,8 +11,7 @@ module.exports = withPlugins([
     },
   ],
   [
-    withPWA,
-    withCSS({
+    withPWA({
       pwa: {
         dest: 'public',
       },
