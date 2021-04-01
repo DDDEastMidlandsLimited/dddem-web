@@ -5,6 +5,7 @@ import Header from '../components/Header';
 import Layout from '../components/Layout';
 import ImportantDatesList from '../components/home/ImportantDatesList';
 import TieredCompanies from '../components/companies/TieredCompanies';
+import GoldSponsorLogos from '../components/companies/GoldSponsorLogos';
 import dates from '../data/dates';
 import gold from '../data/sponsors/gold';
 
@@ -89,6 +90,7 @@ export default function Index() {
       {/* Gold Sponsors */}
       <section>
         <h2>Gold Sponsors</h2>
+        <GoldSponsorLogos/>
         <TieredCompanies partners={gold} />
       </section>
 
