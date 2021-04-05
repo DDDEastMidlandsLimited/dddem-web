@@ -3,9 +3,7 @@ import CompaniesContext from './CompaniesContext';
 import gold from '../../data/sponsors/gold';
 
 export default function GoldCompaniesProvider(props) {
-  const [companiesList] = useState([
-    ...gold
-  ]);
+  const [companiesList] = useState([...gold]);
   const [
     selectedCompanyDescription,
     setSelectedCompanyDescription,
