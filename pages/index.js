@@ -90,7 +90,7 @@ export default function Index() {
       {/* Gold Sponsors */}
       <section>
         <h2>Gold Sponsors</h2>
-        <GoldSponsorLogos/>
+        <GoldSponsorLogos />
         <TieredCompanies partners={gold} />
       </section>
 
