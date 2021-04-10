@@ -1,14 +1,16 @@
+import React from 'react';
 import theme from '../../theme/theme';
 
-const SponsorDescription = (props) => (
-  <div className="holder">
-    <div className="top">{props.name}</div>
-    <div className="bottomBackground">
-      <div className="bottom">{props.description}</div>
-    </div>
+export default function SponsorDescription({ name, description }) {
+  return (
+    <div className="holder">
+      <div className="top">{name}</div>
+      <div className="bottomBackground">
+        <div className="bottom">{description}</div>
+      </div>
 
-    <style jsx>
-      {`
+      <style jsx>
+        {`
             .holder {
                 display: flex;
                 flex-direction: column;
@@ -34,8 +36,7 @@ const SponsorDescription = (props) => (
                 margin-left: -15px;
             }
         `}
-    </style>
-  </div>
-);
-
-export default SponsorDescription;
+      </style>
+    </div>
+  );
+}

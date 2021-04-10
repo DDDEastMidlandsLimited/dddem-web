@@ -1,2 +1,8 @@
 node_modules/*
 .next/*
+public/*
+pa11y/*
+*.config.js
+out/*
+coverage/*
+__mocks__/*

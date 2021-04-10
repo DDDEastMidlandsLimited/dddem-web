@@ -3,20 +3,20 @@ import { withRouter } from 'next/router';
 import theme from '../theme/theme';
 import { logEvent } from '../utils/analytics';
 
-const ExternalLink = ({
+function ExternalLink({
   children,
-  router,
   href,
   target,
   category,
   eventType,
-}) => {
-  const handleClick = (e) => {
+  rel,
+}) {
+  const handleClick = () => {
     logEvent(category, eventType);
   };
 
   return (
-    <a href={href} onClick={handleClick} target={target}>
+    <a href={href} onClick={handleClick} target={target} rel={rel}>
       {children}
       <style jsx>
         {`
@@ -45,6 +45,6 @@ const ExternalLink = ({
       </style>
     </a>
   );
-};
+}
 
 export default withRouter(ExternalLink);

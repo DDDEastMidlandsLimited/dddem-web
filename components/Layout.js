@@ -1,29 +1,8 @@
 import React from 'react';
 import dynamic from 'next/dynamic';
-import { initGA, logPageView } from '../utils/analytics';
 import Navigation from './Navigation';
 import Footer from './Footer';
 import theme from '../theme/theme';
-
-// TODO: Add to application config start
-import { library } from '@fortawesome/fontawesome-svg-core';
-import { faBars, faTimes } from '@fortawesome/free-solid-svg-icons';
-import {
-  faInstagram,
-  faTwitter,
-  faGithub,
-  faLinkedin,
-} from '@fortawesome/free-brands-svg-icons';
-
-library.add(
-  faBars,
-  faTimes,
-  faInstagram,
-  faTwitter,
-  faGithub,
-  faLinkedin,
-);
-
 import GlobalHead from './Head';
 
 const PerformanceAnalytics = dynamic(
@@ -31,118 +10,108 @@ const PerformanceAnalytics = dynamic(
   { ssr: false },
 );
 
-export default class Layout extends React.Component {
-  constructor(props) {
-    super(props);
-  }
+const GoogleAnalytics = dynamic(() => import('./GoogleAnalytics'), {
+  ssr: false,
+});
 
-  componentDidMount() {
-    if (!window.GA_INITIALIZED) {
-      initGA();
-      window.GA_INITIALIZED = true;
-    }
+export default function Layout({ children }) {
+  return (
+    <div className="container">
+      <GlobalHead />
+      <Navigation />
+      <PerformanceAnalytics />
+      <GoogleAnalytics />
+      {children}
+      <Footer />
+      <style jsx global>{`
+        body {
+          margin: 0;
+          padding: 0;
+          font-family: ${theme.font.default};
+          font-size: ${theme.font.sizes.desktop.body};
+          overflow-x: hidden;
+        }
+        h2 {
+          font-size: ${theme.font.sizes.desktop.subtitle1};
+          text-align: left;
+          color: ${theme.palette.secondary};
+        }
+        .ticket-header {
+          margin-top: 5%;
+          margin-bottom: 2%;
+        }
+        p {
+          line-height: 1.5;
+        }
+        p,
+        a {
+          font-size: ${theme.font.sizes.desktop.body};
+          color: ${theme.palette.dark};
+          line-height: 1.5;
+        }
+        a {
+          color: ${theme.palette.primary};
+        }
 
-    logPageView();
-  }
+        a:before,
+        a:after {
+          content: ' ';
+        }
 
-  render() {
-    return (
-      <div className="container">
-        <GlobalHead />
-        <Navigation />
-        <PerformanceAnalytics />
-        {this.props.children}
-        <Footer />
-        <style jsx global>{`
-          body {
-            margin: 0;
-            padding: 0;
-            font-family: ${theme.font.default};
-            font-size: ${theme.font.sizes.desktop.body};
-            overflow-x: hidden;
-          }
-          h2 {
-            font-size: ${theme.font.sizes.desktop.subtitle1};
-            text-align: left;
-            color: ${theme.palette.secondary};
-          }
-          .ticket-header {
-            margin-top: 5%;
-            margin-bottom: 2%;
-          }
-          p {
-            line-height: 1.5;
-          }
-          p,
-          a {
-            font-size: ${theme.font.sizes.desktop.body};
-            color: ${theme.palette.dark};
-            line-height: 1.5;
-          }
-          a {
-            color: ${theme.palette.primary};
-          }
+        li {
+          line-height: 1.5;
+        }
 
-          a:before,
-          a:after {
-            content: ' ';
-          }
+        .container {
+          width: 100vw;
+        }
 
-          li {
-            line-height: 1.5;
-          }
+        .aligncenter {
+          text-align: center;
+        }
 
-          .container {
-            width: 100vw;
-          }
+        .smallspace {
+          margin-right: 15px;
+        }
 
-          .aligncenter {
-            text-align: center;
-          }
+        .boxedItems {
+          display: flex;
+          margin: 0;
+          padding: 20px;
+          flex-flow: row;
+          justify-content: space-evenly;
+          flex-wrap: wrap;
+          justify-content: center;
+        }
 
-          .smallspace {
-            margin-right: 15px;
-          }
+        .boxItem {
+          width: 170px;
+          height: 90px;
+          text-align: center;
+          border-radius: ${theme.sizes.borderRadiusMobile};
+          border: #b5c6c4;
+          border-style: dotted;
+          padding: 40px 15px;
+          margin: 10px;
+          display: flex;
+          flex-direction: column;
+          position: relative;
+        }
 
-          .boxedItems {
-            display: flex;
-            margin: 0;
-            padding: 20px;
-            flex-flow: row;
-            justify-content: space-evenly;
-            flex-wrap: wrap;
-            justify-content: center;
-          }
+        .emphasisItem {
+          text-align: center;
+          margin: 5px;
+          display: flex;
+          flex-direction: column;
+          position: relative;
+        }
 
+        @media (min-width: 600px) {
           .boxItem {
-            width: 170px;
-            height: 90px;
-            text-align: center;
-            border-radius: ${theme.sizes.borderRadiusMobile};
-            border: #b5c6c4;
-            border-style: dotted;
-            padding: 40px 15px;
-            margin: 10px;
-            display: flex;
-            flex-direction: column;
-            position: relative;
+            border-radius: ${theme.sizes.borderRadius};
           }
-
-          .emphasisItem {
-            text-align: center;
-            margin: 5px;
-            display: flex;
-            flex-direction: column;
-            position: relative;
-          }
-
-          @media (min-width: 600px) {
-            .boxItem {
-              border-radius: ${theme.sizes.borderRadius};
-            }
-          }
-        `}</style>
-      </div>
-    );
-  }
+        }
+      `}</style>
+    </div>
+  );
 }

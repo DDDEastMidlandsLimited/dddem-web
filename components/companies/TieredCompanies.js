@@ -1,3 +1,4 @@
+import React from 'react';
 import CompanyGrid from './CompanyGrid';
 
 export default class TieredCompanies extends React.PureComponent {

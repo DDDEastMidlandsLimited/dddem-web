@@ -1,7 +1,8 @@
+import React from 'react';
 import Head from 'next/head';
 
-export default () => (
-  <div>
+export default function HeadComponent() {
+  return (
     <Head>
       <meta httpEquiv="x-ua-compatible" content="ie=edge" />
       <meta
@@ -118,5 +119,5 @@ export default () => (
       <script src="/static/client/object-assign-auto.min.js"></script>
       <script src="/static/client/sessionize.js"></script>
     </Head>
-  </div>
-);
+  );
+}

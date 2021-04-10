@@ -1,9 +1,10 @@
+import React from 'react';
 import talks from '../../data/talks/talks';
 import levels from '../../data/talks/levels';
 import TalkList from './TalkList';
 import TalkFilter from './TalkFilter';
 
-export default class Talks extends React.PureComponent {
+export default class TalksComponent extends React.PureComponent {
   constructor(props, context) {
     super(props, context);
 
