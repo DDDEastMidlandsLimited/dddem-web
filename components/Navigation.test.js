@@ -23,7 +23,7 @@ describe('Given the Navigation is rendered', () => {
     expect(getByText('Notable Companies')).toBeInTheDocument();
     expect(getByText('Notable Companies')).toHaveAttribute(
       'href',
-      '/2020/notable-companies',
+      '/2021/notable-companies',
     );
   });
 
@@ -32,7 +32,7 @@ describe('Given the Navigation is rendered', () => {
     expect(getByText('Sponsor')).toBeInTheDocument();
     expect(getByText('Sponsor')).toHaveAttribute(
       'href',
-      '/2020/sponsor',
+      '/2021/sponsor',
     );
   });
 
