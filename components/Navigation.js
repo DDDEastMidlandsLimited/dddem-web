@@ -30,13 +30,13 @@ export default function Navigation() {
               </Nav.Item> */}
 
             <Nav.Item>
-              <Nav.Link href="/2020/notable-companies">
+              <Nav.Link href="/2021/notable-companies">
                 Notable Companies
               </Nav.Link>
             </Nav.Item>
 
             <Nav.Item>
-              <Nav.Link href="/2020/sponsor">Sponsor</Nav.Link>
+              <Nav.Link href="/2021/sponsor">Sponsor</Nav.Link>
             </Nav.Item>
 
             <Nav.Item>

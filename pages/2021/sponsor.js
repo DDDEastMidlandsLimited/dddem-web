@@ -150,17 +150,16 @@ export default function Sponsor() {
           effect our event. If that is the case, we will be going
           ahead as planned on October the 2nd 2021.
         </p>
-        <h4>Backup Plans: Social distance or postpone</h4>
+        <h4>Plan B: Conference Goes Ahead But Is Socially Distanced</h4>
         <p tabIndex="0">
-          The safety of all involved is our greatest concern. We will
-          rely on our own judgement as well as government guidelines
-          to inform us if we can do a full in person event.
+          If we need to the venue is prepared to put in place pre-cautions for 
+           social distancing and sanitation
         </p>
+        <h4>Plan C: Postpone until March</h4>
         <p tabIndex="0">
-          In the case this is not possible, our venue has precautions
-          in place to enforce social distancing, or if we have to go
-          into another lock down, we have arranged a date to postpone
-          to in 2022.
+          If for any reason we think it's not safe to go ahead in October, we 
+          have a date agreed to postpone to March. We will decide if we will postpone
+           at the end of August.
         </p>
         <br />
         <br />
