@@ -150,16 +150,18 @@ export default function Sponsor() {
           effect our event. If that is the case, we will be going
           ahead as planned on October the 2nd 2021.
         </p>
-        <h4>Plan B: Conference Goes Ahead But Is Socially Distanced</h4>
+        <h4>
+          Plan B: Conference Goes Ahead But Is Socially Distanced
+        </h4>
         <p tabIndex="0">
-          If we need to the venue is prepared to put in place pre-cautions for 
-           social distancing and sanitation
+          If we need to the venue is prepared to put in place
+          pre-cautions for social distancing and sanitation
         </p>
         <h4>Plan C: Postpone until March</h4>
         <p tabIndex="0">
-          If for any reason we think it's not safe to go ahead in October, we 
-          have a date agreed to postpone to March. We will decide if we will postpone
-           at the end of August.
+          If for any reason we think it's not safe to go ahead in
+          October, we have a date agreed to postpone to March. We will
+          decide if we will postpone at the end of August.
         </p>
         <br />
         <br />
