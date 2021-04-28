@@ -59,7 +59,7 @@
     "next-compose-plugins": "^2.2.1",
     "next-optimized-images": "^2.6.2",
     "pa11y": "^5.3.1",
-    "pa11y-ci": "^2.4.0",
+    "pa11y-ci": "^2.4.1",
     "prettier": "^2.2.1",
     "pretty-quick": "^3.1.0",
     "webpack": "^5.35.1",
