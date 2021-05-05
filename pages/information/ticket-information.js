@@ -62,7 +62,7 @@ export default function TicketInformation() {
             <strong>First wave:</strong> 14th May 2021
           </li>
           <li>
-            <strong>Second wave:</strong> 21st May 2021
+            <strong>Second wave:</strong> 28th May 2021
           </li>
         </ul>
       </section>
