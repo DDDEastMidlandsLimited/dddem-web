@@ -6,7 +6,7 @@ module.exports = {
         'preset-env': {},
         'transform-runtime': {},
         'styled-jsx': {},
-        'proposal-class-properties': {},
+        'class-properties': {},
       },
     ],
   ],
