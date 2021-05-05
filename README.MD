@@ -4,7 +4,7 @@
 
 # DDD East Midlands
 
-![DDDEMWeb Build](https://github.com/DDDEastMidlandsLimited/dddem-web/workflows/DDDEMWeb%20Build/badge.svg)
+[![DDDEMWeb Deploy](https://github.com/DDDEastMidlandsLimited/dddem-web/actions/workflows/main.yml/badge.svg)](https://github.com/DDDEastMidlandsLimited/dddem-web/actions/workflows/main.yml)
 
 ## Contents
 
