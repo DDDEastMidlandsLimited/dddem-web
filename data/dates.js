@@ -11,22 +11,22 @@ const dates = [
   },
   {
     id: 3,
-    date: '7th May 2021',
+    date: '14th May 2021',
     name: 'First Wave Of Tickets Released',
   },
   {
     id: 4,
-    date: '14th May 2021',
+    date: '21st May 2021',
     name: 'Voting Opens',
   },
   {
     id: 5,
-    date: '21st May 2021',
+    date: '28th May 2021',
     name: 'Second Wave Of Tickets Released',
   },
   {
     id: 6,
-    date: '31st May 2021',
+    date: '4th June 2021',
     name: 'Voting Closes',
   },
   {
