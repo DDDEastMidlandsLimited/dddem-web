@@ -39,7 +39,7 @@ export default function Navigation() {
               <Nav.Link href="/2021/sponsor">Sponsor</Nav.Link>
             </Nav.Item>
 
-{/*             <Nav.Item>
+            {/*             <Nav.Item>
               <Nav.Link
                 rel="noopener noreferrer"
                 target="_blank"
@@ -53,15 +53,15 @@ export default function Navigation() {
             </Nav.Item> */}
 
             <Nav.Item>
-                <Nav.Link
-                  target="_blank"
-                  href="https://www.eventbrite.co.uk/e/ddd-east-midlands-2021-tickets-146129646707"
-                  onSelect={(event) => {
-                    logEvent('navigation', 'eventbrite');
-                  }}
-                >
-                  Tickets
-                </Nav.Link>
+              <Nav.Link
+                target="_blank"
+                href="https://www.eventbrite.co.uk/e/ddd-east-midlands-2021-tickets-146129646707"
+                onSelect={(event) => {
+                  logEvent('navigation', 'eventbrite');
+                }}
+              >
+                Tickets
+              </Nav.Link>
             </Nav.Item>
 
             <Nav.Item>

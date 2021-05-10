@@ -43,12 +43,12 @@
     "babel-jest": "^26.6.3",
     "babel-preset-env": "^1.7.0",
     "babel-preset-react": "^6.24.1",
-    "eslint": "^7.25.0",
+    "eslint": "^7.26.0",
     "eslint-config-prettier": "^8.3.0",
     "eslint-plugin-import": "^2.22.1",
     "eslint-plugin-prettier": "^3.4.0",
     "eslint-plugin-react": "^7.23.2",
-    "glob": "^7.1.6",
+    "glob": "^7.1.7",
     "globby": "^11.0.3",
     "husky": "^6.0.0",
     "imagemin-mozjpeg": "^9.0.0",
@@ -60,10 +60,10 @@
     "next-optimized-images": "^2.6.2",
     "pa11y": "^5.3.1",
     "pa11y-ci": "^2.4.1",
-    "prettier": "^2.2.1",
+    "prettier": "^2.3.0",
     "pretty-quick": "^3.1.0",
     "webpack": "^5.36.2",
-    "webpack-cli": "^4.6.0"
+    "webpack-cli": "^4.7.0"
   },
   "repository": {
     "type": "git",
