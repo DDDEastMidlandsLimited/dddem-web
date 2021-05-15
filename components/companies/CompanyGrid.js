@@ -36,13 +36,16 @@ export default function CompanyGrid() {
             flex-direction: row;
             justify-content: center;
             align-items: baseline;
+            flex-wrap: wrap;
           }
           div.companyItem {
             display: flex;
-            flex: 1 1 0;
+            flex: 0 1 auto;
             flex-direction: column;
             justify-content: center;
             align-items: center;
+            justify-content: space-between;
+            text-align: center;
           }
         `}
       </style>
