@@ -38,7 +38,7 @@ export default function Index() {
           </ExternalLink>
           </div>
         </div>
-        <div className="column">
+        <div className="column info-text">
           <p tabIndex="0">
             DDD East Midlands is an inclusive, not-for-profit technology
             conference happening on <b>2nd October 2021</b> that
@@ -137,6 +137,7 @@ export default function Index() {
             flex-basis: 80%;
             flex: 1;
             padding: 5px 5px;
+            margin-left: 15px;
           }
           .subheader {
             margin: 0px;
@@ -164,6 +165,9 @@ export default function Index() {
             display: block;
             margin-left: auto;
             margin-right: auto;
+          }
+          .info-text{
+            padding: 1% 5%;
           }
           .infolink {
             margin: 10px;
