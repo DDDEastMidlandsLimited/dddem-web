@@ -3,88 +3,62 @@ import theme from '../theme/theme';
 import Head from 'next/head';
 import Header from '../components/Header';
 import Layout from '../components/Layout';
+import ExternalLink from '../components/ExternalLink';
 import ImportantDatesList from '../components/home/ImportantDatesList';
 import TieredCompanies from '../components/companies/TieredCompanies';
 import GoldSponsorLogos from '../components/companies/GoldSponsorLogos';
 import dates from '../data/dates';
 import gold from '../data/sponsors/gold';
+import platinum from '../data/sponsors/platinum';
+
 
 export default function Index() {
   return (
     <Layout>
-      <Head>
-        <title>DDD East Midlands</title>
-      </Head>
-
-      {/* Switch statement takes the number of month as an expression.
-  More number of cases can be added based on new banners that are supposed
-  to be added for the months that are left out.
-   */}
-
-      {(() => {
-        const monthNumber = new Date().getMonth() + 1;
-        switch (monthNumber) {
-          case 6:
-            return (
-              <Header
-                title={'DDD East Midlands'}
-                banner="
-        /static/banners/pride-header.jpg"
-              />
-            );
-          case 9:
-          case 10:
-          case 11:
-            return (
-              <Header
-                title={'DDD East Midlands'}
-                banner="
-            /static/banners/autumn-header.jpg"
-              />
-            );
-          case 12:
-            return (
-              <Header
-                title={'DDD East Midlands'}
-                banner="
-        /static/banners/christmas-header.jpg"
-              />
-            );
-          default:
-            return (
-              <Header
-                title={'DDD East Midlands'}
-                banner="
-        /static/banners/home.jpg"
-              />
-            );
-        }
-      })()}
-
-      <div className="banner">
-        <h3 tabIndex="0">
-          {' '}
-          Returning 2nd October 2021 at
-          <br />
-          <a
-            rel="noopener noreferrer"
-            href="https://www.dddeastmidlands.com/information/venue-information/"
-            target="_blank"
-          >
-            the Nottingham Conference Center
-          </a>{' '}
-        </h3>
-      </div>
+      <Header
+        banner="/static/banners/home.jpg"
+      />
 
       <section>
-        <p tabIndex="0">
-          DDD East Midlands is an inclusive, not-for-profit technology
-          conference happening on <b>2nd October 2021</b> that
-          celebrates the unique tech, talent and companies that the
-          East Midlands has to offer. This event is run by community
-          members to promote collaboration and the amazing tech
-          community that has already grown in the East Midlands.
-        </p>
+      <div className="row">
+        <div className="column">
+          <div className="platinum" >
+          <h2 tabIndex="0">Platinum Sponsor</h2>
+          <ExternalLink
+            href={platinum[0].link}
+            target="_blank"
+            category="logo"
+            eventType="Calyx"
+            rel="noopener noreferrer"
+          >
+            <img
+              src={platinum[0].image}
+              alt={`Click to go to the ${platinum[0].name} site`}
+            />
+          </ExternalLink>
+          </div>
+        </div>
+        <div className="column">
+          <p tabIndex="0">
+            DDD East Midlands is an inclusive, not-for-profit technology
+            conference happening on <b>2nd October 2021</b> that
+            celebrates the unique tech, talent and companies that the
+            East Midlands has to offer. This event is run by community
+            members to promote collaboration and the amazing tech
+            community that has already grown in the East Midlands.
+          </p>
+        </div>
+      </div>
+      </section>
+
+      <section>
+        <div>
+          <img
+                className="pageimage"
+                src="/static/pageimage/happy.jpg"
+                alt=""
+              />
+        </div>
       </section>
 
       {/* Gold Sponsors */}
@@ -151,6 +125,19 @@ export default function Index() {
           h3 {
             text-align: center;
           }
+          .row {
+            display: flex;
+            flex-direction: row;
+            flex-wrap: wrap;
+            width: 100%;
+          }
+          .column {
+            display: flex;
+            flex-direction: column;
+            flex-basis: 80%;
+            flex: 1;
+            padding: 5px 5px;
+          }
           .subheader {
             margin: 0px;
             padding-bottom: 15px;
@@ -164,6 +151,19 @@ export default function Index() {
           .banner a {
             text-align: center;
             color: ${theme.palette.light};
+          }
+          .platinum {
+            text-align: center;
+            padding: 5px 5px;
+          }
+          .pageimage{
+            text-align: center;
+            max-width: 100%;
+            height: auto;
+            padding: 5px 5px;
+            display: block;
+            margin-left: auto;
+            margin-right: auto;
           }
           .infolink {
             margin: 10px;
