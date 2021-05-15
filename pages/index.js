@@ -17,7 +17,6 @@ export default function Index() {
     <Layout>
       <Header
         banner="/static/banners/home.jpg"
-        title=""
       />
 
       <section>

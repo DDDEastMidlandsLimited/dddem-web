@@ -10,6 +10,8 @@ const runPa11y = async (page) => {
   return pa11y(`./${page}`, {
     ignore: [
       'WCAG2AA.Principle2.Guideline2_4.2_4_1.G1,G123,G124.NoSuchID',
+      'WCAG2AA.Principle2.Guideline2_4.2_4_2.H25.1.NoTitleEl',
+      'WCAG2AA.Principle1.Guideline1_3.1_3_1.H42.2'
     ],
   });
 };
