@@ -24,8 +24,8 @@ export default function Talks() {
         <h3>Filtering</h3>
         <ul>
           <li>
-            To filter talks down select a <strong>level</strong> or{' '}
-            <strong>tag</strong>.
+            To filter talks down select a <strong>level</strong>, {' '}
+            <strong>length</strong> or <strong>topic</strong>.
           </li>
           <li>
             Tags are <strong>inclusive</strong>. If a talk contains
