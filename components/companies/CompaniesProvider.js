@@ -11,10 +11,8 @@ export default function CompaniesProvider(props) {
     ...partners,
     //...standard,
   ]);
-  const [
-    selectedCompanyDescription,
-    setSelectedCompanyDescription,
-  ] = useState('');
+  const [selectedCompanyDescription, setSelectedCompanyDescription] =
+    useState('');
 
   const values = React.useMemo(
     () => ({

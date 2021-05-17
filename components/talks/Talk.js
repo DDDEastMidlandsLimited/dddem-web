@@ -11,9 +11,8 @@ export default class TalkList extends React.PureComponent {
     this._renderTitle = this._renderTitle.bind(this);
     this._renderTagsOrLengths = this._renderTagsOrLengths.bind(this);
     this._renderTagOrLength = this._renderTagOrLength.bind(this);
-    this._renderDescriptionLevelTagsAndLength = this._renderDescriptionLevelTagsAndLength.bind(
-      this,
-    );
+    this._renderDescriptionLevelTagsAndLength =
+      this._renderDescriptionLevelTagsAndLength.bind(this);
     this._renderParagraph = this._renderParagraph.bind(this);
   }
 
