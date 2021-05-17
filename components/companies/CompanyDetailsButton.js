@@ -3,9 +3,8 @@ import theme from '../../theme/theme';
 import CompaniesContext from './CompaniesContext';
 
 export default function CompanyDetailsButton({ companyDescription }) {
-  const { setSelectedCompanyDescription } = useContext(
-    CompaniesContext,
-  );
+  const { setSelectedCompanyDescription } =
+    useContext(CompaniesContext);
 
   return (
     <div>

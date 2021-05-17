@@ -4,10 +4,8 @@ import gold from '../../data/sponsors/gold';
 
 export default function GoldCompaniesProvider(props) {
   const [companiesList] = useState([...gold]);
-  const [
-    selectedCompanyDescription,
-    setSelectedCompanyDescription,
-  ] = useState('');
+  const [selectedCompanyDescription, setSelectedCompanyDescription] =
+    useState('');
 
   const values = React.useMemo(
     () => ({
