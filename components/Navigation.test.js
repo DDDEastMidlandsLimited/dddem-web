@@ -21,10 +21,7 @@ describe('Given the Navigation is rendered', () => {
   test('it should display a Talks link', () => {
     const { getByText } = render(<Navigation />);
     expect(getByText('Talks')).toBeInTheDocument();
-    expect(getByText('Talks')).toHaveAttribute(
-      'href',
-      '/talks',
-    );
+    expect(getByText('Talks')).toHaveAttribute('href', '/talks');
   });
 
   test('it should display a Notable Companies link', () => {

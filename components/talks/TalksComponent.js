@@ -68,13 +68,11 @@ export default class TalksComponent extends React.PureComponent {
 
   render() {
     const filteredTalks = this._filterTalks();
-    const projectedFilteredAndOrderedTags = this._filterTags(
-      filteredTalks,
-    );
+    const projectedFilteredAndOrderedTags =
+      this._filterTags(filteredTalks);
     const projectedLevels = this._projectLevels();
-    const projectedFilteredAndOrderedLengths = this._filterLengths(
-      filteredTalks,
-    );
+    const projectedFilteredAndOrderedLengths =
+      this._filterLengths(filteredTalks);
 
     return (
       <div>
