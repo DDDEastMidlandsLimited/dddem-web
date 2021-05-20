@@ -26,7 +26,7 @@
     "@fortawesome/free-solid-svg-icons": "^5.15.3",
     "@fortawesome/react-fontawesome": "^0.1.14",
     "bootstrap": "^5.0.1",
-    "next": "^10.2.0",
+    "next": "^10.2.2",
     "next-pwa": "^5.2.21",
     "perfume.js": "^6.2.0",
     "react": "^17.0.2",
