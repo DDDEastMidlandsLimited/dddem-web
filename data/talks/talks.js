@@ -1013,7 +1013,7 @@ const talks = [
   {
     "id": 72,
     "title": "Serverless with Azure",
-    "description": "The Serverless architectural style allows you to build event-based architecture that are scalable and cost-effective without having the operational overhead of managing servers. \n\nThis session will take you give you a brief overview of Serverless options within Azure  including :\n *  Serverless Patterns and Architectures\n*   the limitations of the different Azure Serverless options\n*   securing Serverless solutions\n*   economics of Serverless Solutions\n*   why we chose Serverless options over container orchestration options and what we conceded in that decision\n\n",
+    "description": "The Serverless architectural style allows you to build event-based architecture that are scalable and cost-effective without having the operational overhead of managing servers. \n\nThis session will give you a brief overview of Serverless options within Azure  including :\n *  Serverless Patterns and Architectures\n*   the limitations of the different Azure Serverless options\n*   securing Serverless solutions\n*   economics of Serverless Solutions\n*   why we chose Serverless options over container orchestration options and what we conceded in that decision\n\n",
     "level": "Introductory and overview",
     "tags": [
       "cloud",
