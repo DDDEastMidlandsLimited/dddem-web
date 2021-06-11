@@ -35,7 +35,7 @@
     "react-ga": "^3.3.0"
   },
   "devDependencies": {
-    "@babel/plugin-proposal-class-properties": "^7.13.0",
+    "@babel/plugin-proposal-class-properties": "^7.14.5",
     "@testing-library/jest-dom": "^5.13.0",
     "@testing-library/react": "^11.2.7",
     "@testing-library/user-event": "^13.1.9",
