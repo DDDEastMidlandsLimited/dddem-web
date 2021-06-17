@@ -14,9 +14,7 @@ module.exports = withPlugins(
     pwa: {
       dest: 'public',
     },
-    future: {
-      webpack5: true,
-    },
+    webpack5: true,
     trailingSlash: true,
     exportPathMap: async function (
       defaultPathMap,
