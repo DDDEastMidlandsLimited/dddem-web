@@ -50,7 +50,7 @@
     "eslint-plugin-prettier": "^3.4.0",
     "eslint-plugin-react": "^7.24.0",
     "glob": "^7.1.7",
-    "globby": "^11.0.3",
+    "globby": "^11.0.4",
     "husky": "^6.0.0",
     "imagemin-mozjpeg": "^9.0.0",
     "imagemin-optipng": "^8.0.0",
