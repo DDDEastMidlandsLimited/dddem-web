@@ -63,7 +63,7 @@
     "pa11y-ci": "^2.4.1",
     "prettier": "^2.3.1",
     "pretty-quick": "^3.1.1",
-    "webpack": "^5.39.0",
+    "webpack": "^5.39.1",
     "webpack-cli": "^4.7.2"
   },
   "repository": {
