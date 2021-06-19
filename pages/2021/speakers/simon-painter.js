@@ -17,85 +17,83 @@ import {
 
 library.add(faInstagram, faTwitter, faGithub, faLinkedin);
 
-export default function LexLofthouse() {
+export default function SimonPainter() {
   return (
     <Layout>
       <Head>
-        <title>Lex Lofthouse</title>
+        <title>Simon Painter</title>
       </Head>
-      <Header title={'Lex Lofthouse'} />
+      <Header title={'Simon Painter'} />
       <section>
         <SpeakersButton />
         <img
-          src="/static/speakers/2021/Lex_Lofthouse.png"
+          src="/static/speakers/2021/Simon_Painter.png"
           alt=""
           className="speakerpic"
         />
         <div>
           <ul>
-            <b>Pronouns: </b> She/Her
+            <b>Pronouns: </b> He/Him
           </ul>
           <ul>
             <b>Talk Length: </b> 60 mins
           </ul>
         </div>
         <br />
-        <h2 tabIndex="0">Design for Developers</h2>
+        <h2 tabIndex="0">SOLID Principles in 5 Nightmares</h2>
         <p tabIndex="0">
-          Have you ever found yourself not just having to build the
-          product, but in the absence of an actual designer, you’re
-          the one who ends up having to throw together a design for it
-          too? Want to gain the magic design powers to transform that
-          average screen into a beautiful interface?
+          The 5 SOLID principles - popularised by "Uncle" Bob Martin
+          in some of his highly influential books on Object Orientated
+          Software development - are rarely cited directly but they
+          are nevertheless at the heart of a lot of the thinking that
+          goes into modern software development.
         </p>
         <p tabIndex="0">
-          People have often told me they’d never be able to design
-          interfaces because it’s too subjective and a completely
-          different mindset to coding. Well I’m here to tell you that
-          UI design isn’t as complex as it looks when you’ve got the
-          right tools to hand – and it really isn't a magical dark
-          art, I promise!
+          These principles have been around in some form or other ever
+          since the 1980s, but continue to be just as relevant today
+          as they were then.
         </p>
         <p tabIndex="0">
-          In this talk, I will help you understand some of the main
-          design principles that you can apply across UI design. Such
-          as Typography, Emphasis, Hierarchy, Layout, Spacing, Size,
-          Depth and Colour.
+          In this talk, we're going to look at each of the 5 SOLID
+          principles, these being:
         </p>
+        <li>Single Dependency Principle</li>
+        <li>Open/Close Principle</li>
+        <li>Liskov Substitution Principle</li>
+        <li>Interface Segregation Principle</li>
+        <li>Dependency Inversion Principle</li>
+        <p tabIndex="0">See what he did there with the names?</p>
         <p tabIndex="0">
-          We’ll be discussing these principles and, through visual
-          demonstrations and examples, show how you can implement
-          these principles across typical UI components such as forms,
-          cards, dashboards and other interface elements . There may
-          even be some *live designing* to help demonstrate.
-        </p>
-        <p tabIndex="0">
-          Whether you’re the ‘dev-signer’ or you’re just somebody who
-          would like to learn some fundamental design skills to widen
-          your knowledge – you should then leave feeling well equipped
-          with new design skills to apply day to day!{' '}
+          We'll look at each in turn, with the help of some slightly
+          imaginative examples taken from a popular SF franchise. What
+          are they, what nightmare scenarios can occur if they aren't
+          followed, and how they can subsequently be applied.
         </p>
       </section>
       <section>
         <h2 tabIndex="0">About Lex</h2>
         <p tabIndex="0">
-          <b>Senior Designer at Nzime</b>
+          <b>.NET Contractor and Consultant</b>
         </p>
         <p tabIndex="0">
-          Lex Lofthouse is a Senior Designer at Nzime, a digital
-          agency in Nottingham. She has been working in the design
-          industry for over a decade, where her career took her from
-          the chilly regions of Scotland to the slightly less chilly
-          streets of Nottingham. She specialises in digital design and
-          UX, but also works across branding, print, illustration and
-          animation. She’s even semi-competent at some basic HTML and
-          CSS she’ll have you know!
+          I've been working as a .NET developer for over 13 years now
+          in a variety of industries including government, retail and
+          manufacturing. But as a coder, I've been playing with making
+          computers do whatever my crazed imagination could devise
+          since I was old enough to read my Dad's copy of the ZX
+          Spectrum BASIC coders manual.
         </p>
         <p tabIndex="0">
-          In her spare time Lex is a massive Pokemon fan, from the TCG
-          to the anime. Plus despite being a professional designer she
-          is also an advocate for Comic Sans, the world’s most
-          misunderstood typeface (come and ask her why).
+          I've been speaking about Functional C# at various user
+          groups and conferences around the UK, USA, and India, and am
+          particularly interested in seeing just how far we can push
+          the capabilities of C#.
+        </p>
+        <p tabIndex="0">
+          When I'm not coding, or running after my two small children,
+          I have been known to enjoy the classic series of Doctor Who,
+          Fighting Fantasy Gamebooks, Cryptic Crosswords, and rather
+          more coffee than is probably good for me.
         </p>
       </section>
 
@@ -104,28 +102,10 @@ export default function LexLofthouse() {
         <li>
           <a
             target="_blank"
-            aria-label="Lex Lofthouse: Twitter"
-            href="https://twitter.com/Loftio"
+            aria-label="Simon Painter: Twitter"
+            href="https://twitter.com/madSimonJ"
           >
             Twitter
-          </a>
-        </li>
-        <li>
-          <a
-            target="_blank"
-            aria-label="Lex Lofthouse: Website"
-            href="https://loftio.co.uk/"
-          >
-            Website
-          </a>
-        </li>
-        <li>
-          <a
-            target="_blank"
-            aria-label="Lex Lofthouse: LinkedIn"
-            href="https://www.linkedin.com/in/alexandra-lofthouse-76a6b355/"
-          >
-            LinkedIn
           </a>
         </li>
       </section>
@@ -179,8 +159,8 @@ export default function LexLofthouse() {
           li {
             margin: 0;
             padding: 10px;
-            list-style: none;
-            list-style-type: none;
+            list-style: inside;
+            list-style-type: disc;
             text-align: left;
             flex-basis: 0;
             flex-grow: 1;
