@@ -14,17 +14,17 @@ import {
 
 library.add(faInstagram, faTwitter, faGithub, faLinkedin);
 
-export default function KojoHinson() {
+export default function StephenJackson() {
   return (
     <Layout>
       <Head>
-        <title>Kojo Hinson</title>
+        <title>Stephen Jackson</title>
       </Head>
-      <Header title={'Kojo Hinson'} />
+      <Header title={'Stephen Jackson'} />
       <section>
         <SpeakersButton />
         <img
-          src="/static/speakers/2021/Kojo_Hinson.png"
+          src="/static/speakers/2021/Stephen_Jackson.png"
           alt=""
           className="speakerpic"
         />
@@ -37,55 +37,50 @@ export default function KojoHinson() {
           </ul>
         </div>
         <br />
-        <h2 tabIndex="0">
-          Embracing Skynet - An exploration of GPT-3 and its potential
-          applications
-        </h2>
+        <h2 tabIndex="0">Senior By Default</h2>
         <p tabIndex="0">
-          GPT-3 or Generative Pre-trained Transformer 3 (GPT-3) is an
-          autoregressive language model that uses deep learning to
-          produce human-like text.
+          In June 2020 the team manager and tech lead both announced
+          they were leaving the company, making me the most senior
+          developer there. Overnight I went from a simple developer to
+          leading a multi-disciplined team responsible for
+          mission-critical business systems.
         </p>
         <p tabIndex="0">
-          A few weeks ago, I was lucky enough to be accepted into the
-          developer beta release of the pre-trained GPT-3 API and have
-          been marvelling at the shockingly good performance of its
-          generative capabilities.
+          In this presentation, I will talk about my first year in
+          charge, my triumphs, and my mistakes. I will talk about the
+          processes I implemented to keep myself sane and ensure the
+          team I now lead continued to drive our software forward and
+          serve business objectives. Along the way, I hope to impart
+          some key lessons that I learned that may help anyone who is
+          looking to move up to a senior position.
         </p>
         <p tabIndex="0">
-          This talk should serve as a quick intro to the API itself
-          (including a quick demo) and an exploration of some of the
-          creative applications people have managed to find for this
-          powerful technology so far.
+          This is a talk for those looking to take on management or
+          tech lead responsibilities and for any tech professionals
+          who through no fault of their own have found themselves in a
+          leadership position.
         </p>
       </section>
       <section>
-        <h2 tabIndex="0">About Kojo</h2>
+        <h2 tabIndex="0">About Stephen</h2>
         <p tabIndex="0">
-          <b>VP of Engineering at Koodoo</b>
+          <b>Applications Team Lead</b>
         </p>
         <p tabIndex="0">
-          Following a brief industrial placement building software for
-          the purposes of radiation modelling at Culham Centre for
-          Fusion Energy, Kojo has spent the last few years developing
-          and building high quality software applications for
-          enterprises of varying sectors and scales. From big data
-          engineering for Walgreens, to embedded programming for
-          Google and Amazon connected IoT devices, Kojo has developed
-          a range of experience in several areas and layers of modern
-          technology stacks.
+          Having come late to the software development game, Stephen
+          has worked in a variety of software development roles in the
+          utility and retail sectors. He now works in a team lead role
+          for a well know Nottingham Fashion retailer working with
+          various technologies but primarily uses the Microsoft tech
+          stack of Dot Net and SQL Server.
         </p>
         <p tabIndex="0">
-          Having spent time at several FinTech startups (Oakbrook
-          Finance, Wealth Wizards and now Koodoo) Kojo has developed
-          domain expertise not only in the technology required to
-          build complex financial software but also in the business
-          itself.
-        </p>
-        <p tabIndex="0">
-          Kojo attained a BSc in Maths and Physics from the University
-          of Bristol, followed by a MSc in the Physics and Tech of
-          Nuclear Reactors at the University of Birmingham.
+          When not developing software Stephen enjoys going for walks
+          with his 2 dogs Holly and Daisy and also more geeky pursuits
+          such as miniature and board gaming. He thinks the worse day
+          of the week is and has always has been Tuesday and will
+          gladly provide his reasons why this is so to anyone who
+          asks.
         </p>
       </section>
 
@@ -94,8 +89,8 @@ export default function KojoHinson() {
         <li>
           <a
             target="_blank"
-            aria-label="Kojo Hinson: Twitter"
-            href="https://twitter.com/KojoHinson"
+            aria-label="Stephen Jackson: Twitter"
+            href="https://twitter.com/Dukeboxz"
           >
             Twitter
           </a>
@@ -103,8 +98,8 @@ export default function KojoHinson() {
         <li>
           <a
             target="_blank"
-            aria-label="Kojo Hinson: LinkedIn"
-            href="https://www.linkedin.com/in/kojo-hinson-69a4074a/"
+            aria-label="Stephen Jackson: LinkedIn"
+            href="https://www.linkedin.com/in/stephenjjackson/"
           >
             LinkedIn
           </a>
