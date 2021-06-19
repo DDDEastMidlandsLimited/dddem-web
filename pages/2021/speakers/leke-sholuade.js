@@ -65,6 +65,7 @@ export default function LekeSholuade() {
         <li>
           <a
             target="_blank"
+            rel="noreferrer"
             aria-label="Leke Sholuade: Twitter"
             href="https://twitter.com/lekeshow"
           >
@@ -74,6 +75,7 @@ export default function LekeSholuade() {
         <li>
           <a
             target="_blank"
+            rel="noreferrer"
             aria-label="Leke Sholuade: LinkedIn"
             href="https://www.linkedin.com/in/leke-sholuade-74042875/"
           >

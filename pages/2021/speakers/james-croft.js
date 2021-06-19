@@ -92,6 +92,7 @@ export default function JamesCroft() {
         <li>
           <a
             target="_blank"
+            rel="noreferrer"
             aria-label="James Croft: Twitter"
             href="http://www.twitter.com/jamesmcroft"
           >
@@ -101,6 +102,7 @@ export default function JamesCroft() {
         <li>
           <a
             target="_blank"
+            rel="noreferrer"
             aria-label="James Croft: Website"
             href="http://www.jamescroft.co.uk/"
           >
@@ -110,6 +112,7 @@ export default function JamesCroft() {
         <li>
           <a
             target="_blank"
+            rel="noreferrer"
             aria-label="James Croft: LinkedIn"
             href="https://www.linkedin.com/in/jmcroft/"
           >

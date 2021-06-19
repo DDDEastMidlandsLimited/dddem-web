@@ -104,6 +104,7 @@ export default function LexLofthouse() {
         <li>
           <a
             target="_blank"
+            rel="noreferrer"
             aria-label="Lex Lofthouse: Twitter"
             href="https://twitter.com/Loftio"
           >
@@ -113,6 +114,7 @@ export default function LexLofthouse() {
         <li>
           <a
             target="_blank"
+            rel="noreferrer"
             aria-label="Lex Lofthouse: Website"
             href="https://loftio.co.uk/"
           >
@@ -122,6 +124,7 @@ export default function LexLofthouse() {
         <li>
           <a
             target="_blank"
+            rel="noreferrer"
             aria-label="Lex Lofthouse: LinkedIn"
             href="https://www.linkedin.com/in/alexandra-lofthouse-76a6b355/"
           >

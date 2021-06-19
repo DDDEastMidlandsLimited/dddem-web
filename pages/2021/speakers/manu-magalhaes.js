@@ -67,6 +67,7 @@ export default function ManuMagalhaes() {
         <li>
           <a
             target="_blank"
+            rel="noreferrer"
             aria-label="Manu Magalhães: LinkedIn"
             href="https://www.linkedin.com/in/manumagalhaes/"
           >

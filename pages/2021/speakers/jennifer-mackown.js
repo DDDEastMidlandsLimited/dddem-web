@@ -81,6 +81,7 @@ export default function JenniferMackown() {
         <li>
           <a
             target="_blank"
+            rel="noreferrer"
             aria-label="Jennifer Mackown: Twitter"
             href="https://twitter.com/__jcmc__/"
           >
@@ -90,6 +91,7 @@ export default function JenniferMackown() {
         <li>
           <a
             target="_blank"
+            rel="noreferrer"
             aria-label="Jennifer Mackown: Website"
             href="https://www.jcmc.dev/"
           >
@@ -99,6 +101,7 @@ export default function JenniferMackown() {
         <li>
           <a
             target="_blank"
+            rel="noreferrer"
             aria-label="Jennifer Mackown: LinkedIn"
             href="https://www.linkedin.com/in/jennifer-mackown-4352aa37/"
           >

@@ -79,6 +79,7 @@ export default function PoornimaNayar() {
         <li>
           <a
             target="_blank"
+            rel="noreferrer"
             aria-label="Poornima Nayar: Twitter"
             href="https://twitter.com/PoornimaNayar"
           >
@@ -88,6 +89,7 @@ export default function PoornimaNayar() {
         <li>
           <a
             target="_blank"
+            rel="noreferrer"
             aria-label="Poornima Nayar: Website"
             href="https://poornimanayar.co.uk/"
           >
@@ -97,6 +99,7 @@ export default function PoornimaNayar() {
         <li>
           <a
             target="_blank"
+            rel="noreferrer"
             aria-label="Poornima Nayar: LinkedIn"
             href="https://www.linkedin.com/in/poornimanayar/"
           >

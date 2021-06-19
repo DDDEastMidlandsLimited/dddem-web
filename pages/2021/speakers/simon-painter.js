@@ -102,6 +102,7 @@ export default function SimonPainter() {
         <li>
           <a
             target="_blank"
+            rel="noreferrer"
             aria-label="Simon Painter: Twitter"
             href="https://twitter.com/madSimonJ"
           >

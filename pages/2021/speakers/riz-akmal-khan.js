@@ -70,6 +70,7 @@ export default function RizwanaAkmalKhan() {
         <li>
           <a
             target="_blank"
+            rel="noreferrer"
             aria-label="Rizwana Akmal Khan: Twitter"
             href="https://twitter.com/rizbizkits"
           >
@@ -79,6 +80,7 @@ export default function RizwanaAkmalKhan() {
         <li>
           <a
             target="_blank"
+            rel="noreferrer"
             aria-label="Rizwana Akmal Khan: Website"
             href="https://rizwanakhan.com/"
           >
@@ -88,6 +90,7 @@ export default function RizwanaAkmalKhan() {
         <li>
           <a
             target="_blank"
+            rel="noreferrer"
             aria-label="Rizwana Akmal Khan: LinkedIn"
             href="https://www.linkedin.com/in/riz/"
           >

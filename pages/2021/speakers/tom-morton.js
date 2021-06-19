@@ -70,6 +70,7 @@ export default function TomMorton() {
         <li>
           <a
             target="_blank"
+            rel="noreferrer"
             aria-label="Tom Morton: Twitter"
             href="https://twitter.com/errantx"
           >
@@ -79,6 +80,7 @@ export default function TomMorton() {
         <li>
           <a
             target="_blank"
+            rel="noreferrer"
             aria-label="Tom Morton: Website"
             href="https://errant.me.uk/"
           >
@@ -88,6 +90,7 @@ export default function TomMorton() {
         <li>
           <a
             target="_blank"
+            rel="noreferrer"
             aria-label="Tom Morton: LinkedIn"
             href="https://www.linkedin.com/in/errantx/"
           >

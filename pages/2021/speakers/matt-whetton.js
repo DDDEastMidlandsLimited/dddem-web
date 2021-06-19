@@ -102,6 +102,7 @@ export default function MattWhetton() {
         <li>
           <a
             target="_blank"
+            rel="noreferrer"
             aria-label="Matt Whetton: Twitter"
             href="https://twitter.com/codenutz"
           >
@@ -111,6 +112,7 @@ export default function MattWhetton() {
         <li>
           <a
             target="_blank"
+            rel="noreferrer"
             aria-label="Matt Whetton: LinkedIn"
             href="https://www.linkedin.com/in/matthewwhetton"
           >

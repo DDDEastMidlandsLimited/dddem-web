@@ -87,6 +87,7 @@ export default function StephenHaunts() {
         <li>
           <a
             target="_blank"
+            rel="noreferrer"
             aria-label="Stephen Haunts: Twitter"
             href="https://twitter.com/stephenhaunts"
           >
@@ -96,6 +97,7 @@ export default function StephenHaunts() {
         <li>
           <a
             target="_blank"
+            rel="noreferrer"
             aria-label="Stephen Haunts: Website"
             href="https://stephenhaunts.com/"
           >

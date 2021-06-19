@@ -97,6 +97,7 @@ export default function KojoHinson() {
         <li>
           <a
             target="_blank"
+            rel="noreferrer"
             aria-label="Kojo Hinson: Twitter"
             href="https://twitter.com/KojoHinson"
           >
@@ -106,6 +107,7 @@ export default function KojoHinson() {
         <li>
           <a
             target="_blank"
+            rel="noreferrer"
             aria-label="Kojo Hinson: LinkedIn"
             href="https://www.linkedin.com/in/kojo-hinson-69a4074a/"
           >

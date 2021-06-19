@@ -97,7 +97,11 @@ export default function RyanYates() {
         <p tabIndex="0">
           Outside of the world of tech Ryan blogs about Mental Health
           at{' '}
-          <a href="https://mhasl.me/" target="_blank">
+          <a
+            href="https://mhasl.me/"
+            target="_blank"
+            rel="noreferrer"
+          >
             https://mhasl.me
           </a>
         </p>
@@ -108,6 +112,7 @@ export default function RyanYates() {
         <li>
           <a
             target="_blank"
+            rel="noreferrer"
             aria-label="Ryan Yates: Twitter"
             href="https://twitter.com/ryanyates1990"
           >
@@ -117,6 +122,7 @@ export default function RyanYates() {
         <li>
           <a
             target="_blank"
+            rel="noreferrer"
             aria-label="Ryan Yates: Website"
             href="https://blog.kilasuit.org/"
           >
@@ -126,6 +132,7 @@ export default function RyanYates() {
         <li>
           <a
             target="_blank"
+            rel="noreferrer"
             aria-label="Ryan Yates: LinkedIn"
             href="http://uk.linkedin.com/in/ryanyates90"
           >
