@@ -141,7 +141,7 @@ export default function Speaker2021Component() {
             >
                     <img
                     className='speaker-image'
-                    src='/static/speakers/2021/Ryan Yates.png'
+                    src='/static/speakers/2021/Ryan_Yates.png'
                     />
                     </a>
             </Grid> */}
