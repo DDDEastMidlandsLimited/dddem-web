@@ -14,89 +14,60 @@ import {
 
 library.add(faInstagram, faTwitter, faGithub, faLinkedin);
 
-export default function RyanYates() {
+export default function PoornimaNayar() {
   return (
     <Layout>
       <Head>
-        <title>Ryan Yates</title>
+        <title>Poornima Nayar</title>
       </Head>
-      <Header title={'Ryan Yates'} />
+      <Header title={'Poornima Nayar'} />
       <section>
         <SpeakersButton />
         <img
-          src="/static/speakers/2021/Ryan_Yates.png"
+          src="/static/speakers/2021/Poornima_Nayar.png"
           alt=""
           className="speakerpic"
         />
         <div>
           <ul>
-            <b>Pronouns: </b> He/Him
+            <b>Pronouns: </b> She/Her
           </ul>
           <ul>
             <b>Talk Length: </b> 60 mins
           </ul>
         </div>
         <br />
-        <h2 tabIndex="0">Mental Health: Its Time to Talk</h2>
+        <h2 tabIndex="0">REST, GraphQL and gRPC : A Comparison</h2>
         <p tabIndex="0">
-          Mental health affects us all, albeit at varying levels of
-          intensity, be it from having a restless nights sleep or
-          Bi-Polar Disorder and is still a subject that we tend to
-          approach with caution, if we even speak about it at all,
-          whether with our colleagues and managers, doctors and even
-          our closest friends and family.
+          Be it any industry, applications need to talk to each other.
+          So, developers often build bridges – Application Programming
+          Interfaces (API) – to allow one system to communicate to
+          another.
         </p>
         <p tabIndex="0">
-          Starting talking about our mental health is often hard, but
-          it is one of the most powerful tools in your arsenal to
-          managing your own and your team's mental health and should
-          be discussed in all 1:1s.
-        </p>
-        <p tabIndex="0">
-          Come and gain an insight into some of the things to look out
-          for as preliminary signs that your colleagues, friends,
-          family and perhaps, most importantly, yourself may be
-          suffering, plus how to broach this all-important
-          conversation.
+          Over time, different API architectural styles have been
+          released. Each of them has its own characteristics, patterns
+          of data exchange, pros, and cons. REST, GraphQL and gRPC are
+          three main options when it comes to API development and
+          implementation In my session I will cover what REST,
+          GraphQL, and gRPC are, how APIs can be implemented using
+          each of these, and give you a comparison between them.
         </p>
       </section>
       <section>
-        <h2 tabIndex="0">About Ryan</h2>
+        <h2 tabIndex="0">About Poornima</h2>
         <p tabIndex="0">
-          <b>
-            Consultant @BlackMarble - Cloud and Datacentre Management
-            MVP
-          </b>
+          <b>Freelance Developer, Microsoft MVP, Umbraco MVP</b>
         </p>
         <p tabIndex="0">
-          Ryan is a Cloud and Datacenter Management MVP and has a
-          background with automating many Microsoft technologies with
-          PowerShell starting with SharePoint and lately focusing
-          Azure
-        </p>
-        <p tabIndex="0">
-          Ryan co-ordinates the UK PowerShell User Groups as well as
-          being a main organiser of PSDay UK - the UK's PowerShell
-          Conference
-        </p>
-        <p tabIndex="0">
-          Ryan also runs Leeds Azure - an Azure focused user group for
-          the Leeds area of the UK which meets virtually twice a
-          month.
-        </p>
-        <p tabIndex="0">
-          Ryan is currently a Senior Consultant at Black Marble, a
-          software development consultancy services organisation where
-          his role sees him working on a number of interesting
-          projects that span technologies including Azure, Office 365
-          and has a strong focus on DevOps/ALM Practices.
-        </p>
-        <p tabIndex="0">
-          Outside of the world of tech Ryan blogs about Mental Health
-          at{' '}
-          <a href="https://mhasl.me/" target="_blank">
-            https://mhasl.me
-          </a>
+          Poornima is a .Net developer with over 10 years of
+          experience in .Net and Umbraco. She is passionate about
+          learning new technologies and keeping herself up-to-date
+          with the latest developments in technology. Outside her
+          work, Poornima enjoys music and is undergoing training in
+          Indian Classical music. Based in Langley, UK she mothers a
+          little girl and spends her spare time reading, cooking and
+          watching movies.
         </p>
       </section>
 
@@ -105,8 +76,8 @@ export default function RyanYates() {
         <li>
           <a
             target="_blank"
-            aria-label="Ryan Yates: Twitter"
-            href="https://twitter.com/ryanyates1990"
+            aria-label="Poornima Nayar: Twitter"
+            href="https://twitter.com/PoornimaNayar"
           >
             Twitter
           </a>
@@ -114,8 +85,8 @@ export default function RyanYates() {
         <li>
           <a
             target="_blank"
-            aria-label="Ryan Yates: Website"
-            href="https://blog.kilasuit.org/"
+            aria-label="Poornima Nayar: Website"
+            href="https://poornimanayar.co.uk/"
           >
             Website
           </a>
@@ -123,8 +94,8 @@ export default function RyanYates() {
         <li>
           <a
             target="_blank"
-            aria-label="Ryan Yates: LinkedIn"
-            href="http://uk.linkedin.com/in/ryanyates90"
+            aria-label="Poornima Nayar: LinkedIn"
+            href="https://www.linkedin.com/in/poornimanayar/"
           >
             LinkedIn
           </a>
