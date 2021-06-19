@@ -1,11 +1,11 @@
 import React from 'react';
-import Layout from '../../components/Layout';
-import theme from '../../theme/theme';
-import Header from '../../components/Header';
+import Layout from '../../../components/Layout';
+import theme from '../../../theme/theme';
+import Header from '../../../components/Header';
 import Head from 'next/head';
 import Grid from '@material-ui/core/Grid';
 
-export default function TestComponent() {
+export default function Speaker2021Component() {
   return (
     <Layout>
       <Head>
@@ -27,7 +27,7 @@ export default function TestComponent() {
           <Grid item xs>
             <a
               tabIndex="0"
-              href="../speakers/lex-lofthouse"
+              href="../lex-lofthouse"
               title="Link to Venue Information Page"
             >
               <img

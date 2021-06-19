@@ -5,7 +5,7 @@ export default function SpeakersButton() {
   return (
     <div align="center">
       <button className="speakersButton">
-        <a href="../../test" rel="noreferrer">
+        <a href="../speakergrid" rel="noreferrer">
           Back To Speakers
         </a>
       </button>
