@@ -196,6 +196,18 @@ export default function Speaker2021Component() {
           <Grid item xs>
             <a
               tabIndex="0"
+              href="../riz-akmal-khan"
+              title="Link to Information About Riz"
+            >
+              <img
+                className="speaker-image"
+                src="/static/speakers/2021/Rizwana_Akmal_Khan.png"
+              />
+            </a>
+          </Grid>
+          <Grid item xs>
+            <a
+              tabIndex="0"
               href="../leke-sholuade"
               title="Link to Information About Leke"
             >
