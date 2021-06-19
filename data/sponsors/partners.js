@@ -9,7 +9,7 @@ const partners = [
   {
     id: 2,
     name: 'Black Valley',
-    image: '/static/sponsors/20i.png',
+    image: '/static/sponsors/partners/blackvalley.png',
     link: 'https://www.blackvalley.co.uk/',
     description: '',
   },
