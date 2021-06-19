@@ -3,7 +3,7 @@ import theme from '../../theme/theme';
 
 export default function SpeakersButton() {
   return (
-    <div align="center">
+    <div className="speakersButtonContainer">
       <button className="speakersButton">
         <a href="../speakergrid" rel="noreferrer">
           Back To Speakers
@@ -11,6 +11,9 @@ export default function SpeakersButton() {
       </button>
       <style jsx>
         {`
+          .speakersButtonContainer {
+            align: center;
+          }
           .speakersButton {
             align: ${theme.palette.quaternary};
             font-weight: bold;

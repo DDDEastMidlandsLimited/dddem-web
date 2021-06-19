@@ -3,8 +3,8 @@ import theme from '../theme/theme';
 
 export default function VenueButton() {
   return (
-    <div align="center">
-      <button className="contactButton">
+    <div className="venueButtonContainer">
+      <button className="venueButton">
         <a
           href="https://s3.eu-west-2.amazonaws.com/ddd-pdf-downloads/NCCDirections.pdf"
           target="_blank"
@@ -16,7 +16,11 @@ export default function VenueButton() {
       </button>
       <style jsx>
         {`
-          .contactButton {
+          .venueButtonContainer {
+            align: center;
+          }
+
+          .venueButton {
             align: ${theme.palette.quaternary};
             font-weight: bold;
             font-size: ${theme.font.sizes.mobile.subtitle1};
@@ -29,15 +33,15 @@ export default function VenueButton() {
             box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2),
               0 6px 20px 0 rgba(0, 0, 0, 0.19);
           }
-          .contactButton a {
+          .venueButton a {
             text-decoration: none;
           }
 
-          .contactButton:hover {
+          .venueButton:hover {
             background-color: ${theme.palette.primary};
           }
 
-          .contactButton a:hover {
+          .venueButton a:hover {
             color: ${theme.palette.light};
           }
         `}
