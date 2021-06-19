@@ -30,7 +30,11 @@ export default function Navigation() {
               </Nav.Item> */}
 
             <Nav.Item>
-              <Nav.Link href="/talks">Talks</Nav.Link>
+              <Nav.Link href="/2019/speakers">Speakers</Nav.Link>
+            </Nav.Item>
+
+            <Nav.Item>
+              <Nav.Link href="/2021/test">Test</Nav.Link>
             </Nav.Item>
 
             <Nav.Item>
