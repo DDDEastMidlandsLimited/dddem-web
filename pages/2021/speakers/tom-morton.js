@@ -28,7 +28,7 @@ export default function TomMorton() {
         <SpeakersButton />
         <img
           src="/static/speakers/2021/Tom_Morton.png"
-          alt=""
+          alt="Picture of Tom Morton"
           className="speakerpic"
         />
         <div>

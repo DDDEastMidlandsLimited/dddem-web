@@ -28,7 +28,7 @@ export default function KojoHinson() {
         <SpeakersButton />
         <img
           src="/static/speakers/2021/Kojo_Hinson.png"
-          alt=""
+          alt="Picture of Kojo Hinson"
           className="speakerpic"
         />
         <div>

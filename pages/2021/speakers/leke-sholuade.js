@@ -28,7 +28,7 @@ export default function LekeSholuade() {
         <SpeakersButton />
         <img
           src="/static/speakers/2021/Leke_Sholuade.png"
-          alt=""
+          alt="Picture of Leke Sholuade"
           className="speakerpic"
         />
         <div>

@@ -28,7 +28,7 @@ export default function SimonPainter() {
         <SpeakersButton />
         <img
           src="/static/speakers/2021/Simon_Painter.png"
-          alt=""
+          alt="Picture of Simon Painter"
           className="speakerpic"
         />
         <div>

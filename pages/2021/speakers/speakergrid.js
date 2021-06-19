@@ -34,6 +34,7 @@ export default function Speaker2021Component() {
               <img
                 className="speaker-image"
                 src="/static/speakers/2021/Lex_Lofthouse.png"
+                alt="Picture of Lex Lofthouse"
               />
             </a>
           </Grid>
@@ -46,6 +47,7 @@ export default function Speaker2021Component() {
               <img
                 className="speaker-image"
                 src="/static/speakers/2021/Connell_W.png"
+                alt="Picture of Connell"
               />
             </a>
           </Grid>
@@ -58,6 +60,7 @@ export default function Speaker2021Component() {
               <img
                 className="speaker-image"
                 src="/static/speakers/2021/Lucy_Fletcher.png"
+                alt="Picture of Lucy Fletcher"
               />
             </a>
           </Grid>
@@ -70,6 +73,7 @@ export default function Speaker2021Component() {
               <img
                 className="speaker-image"
                 src="/static/speakers/2021/Simon_Painter.png"
+                alt="Picture of Simon Painter"
               />
             </a>
           </Grid>
@@ -82,6 +86,7 @@ export default function Speaker2021Component() {
               <img
                 className="speaker-image"
                 src="/static/speakers/2021/Jen_Mackown.png"
+                alt="Picture of Jennifer Mackown"
               />
             </a>
           </Grid>
@@ -94,6 +99,7 @@ export default function Speaker2021Component() {
               <img
                 className="speaker-image"
                 src="/static/speakers/2021/Stephen_Haunts.png"
+                alt="Picture of Stephen Haunts"
               />
             </a>
           </Grid>
@@ -106,6 +112,7 @@ export default function Speaker2021Component() {
               <img
                 className="speaker-image"
                 src="/static/speakers/2021/Manu_Magalhaes.png"
+                alt="Picture of Manu Magalhaes"
               />
             </a>
           </Grid>
@@ -118,6 +125,7 @@ export default function Speaker2021Component() {
               <img
                 className="speaker-image"
                 src="/static/speakers/2021/James_Croft.png"
+                alt="Picture of James Croft"
               />
             </a>
           </Grid>
@@ -130,6 +138,7 @@ export default function Speaker2021Component() {
               <img
                 className="speaker-image"
                 src="/static/speakers/2021/Matt_Whetton.png"
+                alt="Picture of Matt Whetton"
               />
             </a>
           </Grid>
@@ -142,6 +151,7 @@ export default function Speaker2021Component() {
               <img
                 className="speaker-image"
                 src="/static/speakers/2021/Ryan_Yates.png"
+                alt="Picture of Ryan Yates"
               />
             </a>
           </Grid>
@@ -154,6 +164,7 @@ export default function Speaker2021Component() {
               <img
                 className="speaker-image"
                 src="/static/speakers/2021/Poornima_Nayar.png"
+                alt="Picture of Poornima Nayar"
               />
             </a>
           </Grid>
@@ -166,6 +177,7 @@ export default function Speaker2021Component() {
               <img
                 className="speaker-image"
                 src="/static/speakers/2021/Tom_Morton.png"
+                alt="Picture of Tom Morton"
               />
             </a>
           </Grid>
@@ -178,6 +190,7 @@ export default function Speaker2021Component() {
               <img
                 className="speaker-image"
                 src="/static/speakers/2021/Kojo_Hinson.png"
+                alt="Picture of Kojo Hinson"
               />
             </a>
           </Grid>
@@ -190,6 +203,7 @@ export default function Speaker2021Component() {
               <img
                 className="speaker-image"
                 src="/static/speakers/2021/Stephen_Jackson.png"
+                alt="Picture of Stephen Jackson"
               />
             </a>
           </Grid>
@@ -202,6 +216,7 @@ export default function Speaker2021Component() {
               <img
                 className="speaker-image"
                 src="/static/speakers/2021/Rizwana_Akmal_Khan.png"
+                alt="Picture of Rizwana Akmal Khan"
               />
             </a>
           </Grid>
@@ -214,6 +229,7 @@ export default function Speaker2021Component() {
               <img
                 className="speaker-image"
                 src="/static/speakers/2021/Leke_Sholuade.png"
+                alt="Picture of Leke Sholuade"
               />
             </a>
           </Grid>

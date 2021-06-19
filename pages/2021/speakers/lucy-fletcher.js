@@ -28,7 +28,7 @@ export default function LucyFletcher() {
         <SpeakersButton />
         <img
           src="/static/speakers/2021/Lucy_Fletcher.png"
-          alt=""
+          alt="Picture of Lucy Fletcher"
           className="speakerpic"
         />
         <div>

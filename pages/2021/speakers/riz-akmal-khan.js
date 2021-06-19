@@ -28,7 +28,7 @@ export default function RizwanaAkmalKhan() {
         <SpeakersButton />
         <img
           src="/static/speakers/2021/Rizwana_Akmal_Khan.png"
-          alt=""
+          alt="Picture of Rizwana Akmal Khan"
           className="speakerpic"
         />
         <div>

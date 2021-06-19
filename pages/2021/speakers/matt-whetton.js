@@ -28,7 +28,7 @@ export default function MattWhetton() {
         <SpeakersButton />
         <img
           src="/static/speakers/2021/Matt_Whetton.png"
-          alt=""
+          alt="Picture of Matt Whetton"
           className="speakerpic"
         />
         <div>

@@ -28,7 +28,7 @@ export default function StephenJackson() {
         <SpeakersButton />
         <img
           src="/static/speakers/2021/Stephen_Jackson.png"
-          alt=""
+          alt="Picture of Stephen Jackson"
           className="speakerpic"
         />
         <div>

@@ -28,7 +28,7 @@ export default function LexLofthouse() {
         <SpeakersButton />
         <img
           src="/static/speakers/2021/Lex_Lofthouse.png"
-          alt=""
+          alt="Picture of Lex Lofthouse"
           className="speakerpic"
         />
         <div>

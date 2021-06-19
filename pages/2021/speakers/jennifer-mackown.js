@@ -28,7 +28,7 @@ export default function JenniferMackown() {
         <SpeakersButton />
         <img
           src="/static/speakers/2021/Jen_Mackown.png"
-          alt=""
+          alt="Picture of Jennifer Mackown"
           className="speakerpic"
         />
         <div>

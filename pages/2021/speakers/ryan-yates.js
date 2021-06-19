@@ -28,7 +28,7 @@ export default function RyanYates() {
         <SpeakersButton />
         <img
           src="/static/speakers/2021/Ryan_Yates.png"
-          alt=""
+          alt="Picture of Ryan Yates"
           className="speakerpic"
         />
         <div>

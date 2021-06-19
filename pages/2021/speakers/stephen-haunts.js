@@ -28,7 +28,7 @@ export default function StephenHaunts() {
         <SpeakersButton />
         <img
           src="/static/speakers/2021/Stephen_Haunts.png"
-          alt=""
+          alt="Picture of Stephen Haunts"
           className="speakerpic"
         />
         <div>

@@ -28,7 +28,7 @@ export default function JamesCroft() {
         <SpeakersButton />
         <img
           src="/static/speakers/2021/James_Croft.png"
-          alt=""
+          alt="Picture of James Croft"
           className="speakerpic"
         />
         <div>

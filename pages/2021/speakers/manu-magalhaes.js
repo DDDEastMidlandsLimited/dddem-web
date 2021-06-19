@@ -28,7 +28,7 @@ export default function ManuMagalhaes() {
         <SpeakersButton />
         <img
           src="/static/speakers/2021/Manu_Magalhaes.png"
-          alt=""
+          alt="Picture of Manu Magalhães"
           className="speakerpic"
         />
         <div>

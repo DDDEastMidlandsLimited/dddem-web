@@ -28,7 +28,7 @@ export default function PoornimaNayar() {
         <SpeakersButton />
         <img
           src="/static/speakers/2021/Poornima_Nayar.png"
-          alt=""
+          alt="Picture of Poornima Nayar"
           className="speakerpic"
         />
         <div>

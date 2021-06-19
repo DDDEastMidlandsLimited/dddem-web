@@ -28,7 +28,7 @@ export default function ConnellW() {
         <SpeakersButton />
         <img
           src="/static/speakers/2021/Connell_W.png"
-          alt=""
+          alt="Picture of Connell"
           className="speakerpic"
         />
         <div>
