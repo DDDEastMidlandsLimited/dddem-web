@@ -1,12 +1,9 @@
 import React from 'react';
-import { logEvent } from '../../../utils/analytics';
 import Layout from '../../../components/Layout';
 import Header from '../../../components/Header';
 import theme from '../../../theme/theme';
 import Head from 'next/head';
-import Link from 'next/link';
 import SpeakersButton from '../../../components/speakers/SpeakersButton';
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { library } from '@fortawesome/fontawesome-svg-core';
 import {
   faInstagram,

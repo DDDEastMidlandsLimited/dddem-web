@@ -74,70 +74,136 @@ export default function Speaker2021Component() {
             </a>
           </Grid>
           {/* <Grid item xs>
+                      <a
+              tabIndex="0"
+              href="../jen-macown"
+              title="Link to Information About Simon"
+            >
                     <img
                     className='speaker-image'
                     src='/static/speakers/2021/Jen_Macown.png'
                     />
+                    </a>
             </Grid> */}
           <Grid item xs>
-            <img
-              className="speaker-image"
-              src="/static/speakers/2021/Stephen_Haunts.png"
-            />
+            <a
+              tabIndex="0"
+              href="../stephen-haunts"
+              title="Link to Information About Stephen"
+            >
+              <img
+                className="speaker-image"
+                src="/static/speakers/2021/Stephen_Haunts.png"
+              />
+            </a>
           </Grid>
           <Grid item xs>
-            <img
-              className="speaker-image"
-              src="/static/speakers/2021/Manu_Magalhaes.png"
-            />
+            <a
+              tabIndex="0"
+              href="../manu-magalhaes"
+              title="Link to Information About Manu"
+            >
+              <img
+                className="speaker-image"
+                src="/static/speakers/2021/Manu_Magalhaes.png"
+              />
+            </a>
           </Grid>
           <Grid item xs>
-            <img
-              className="speaker-image"
-              src="/static/speakers/2021/James_Croft.png"
-            />
+            <a
+              tabIndex="0"
+              href="../james-croft"
+              title="Link to Information About James"
+            >
+              <img
+                className="speaker-image"
+                src="/static/speakers/2021/James_Croft.png"
+              />
+            </a>
           </Grid>
           <Grid item xs>
-            <img
-              className="speaker-image"
-              src="/static/speakers/2021/Matt_Whetton.png"
-            />
+            <a
+              tabIndex="0"
+              href="../matt-whetton"
+              title="Link to Information About Matt"
+            >
+              <img
+                className="speaker-image"
+                src="/static/speakers/2021/Matt_Whetton.png"
+              />
+            </a>
           </Grid>
           {/* <Grid item xs>
+                    <a
+              tabIndex="0"
+              href="../ryan-yates"
+              title="Link to Information About Ryan"
+            >
                     <img
                     className='speaker-image'
                     src='/static/speakers/2021/Ryan Yates.png'
                     />
+                    </a>
             </Grid> */}
           <Grid item xs>
-            <img
-              className="speaker-image"
-              src="/static/speakers/2021/Poornima_Nayar.png"
-            />
+            <a
+              tabIndex="0"
+              href="../poornima-nayar"
+              title="Link to Information About Poornima"
+            >
+              <img
+                className="speaker-image"
+                src="/static/speakers/2021/Poornima_Nayar.png"
+              />
+            </a>
           </Grid>
           <Grid item xs>
-            <img
-              className="speaker-image"
-              src="/static/speakers/2021/Tom_Morton.png"
-            />
+            <a
+              tabIndex="0"
+              href="../tom-morton"
+              title="Link to Information About Tom"
+            >
+              <img
+                className="speaker-image"
+                src="/static/speakers/2021/Tom_Morton.png"
+              />
+            </a>
           </Grid>
           <Grid item xs>
-            <img
-              className="speaker-image"
-              src="/static/speakers/2021/Kojo_Hinson.png"
-            />
+            <a
+              tabIndex="0"
+              href="../kojo-hinson"
+              title="Link to Information About Kojo"
+            >
+              <img
+                className="speaker-image"
+                src="/static/speakers/2021/Kojo_Hinson.png"
+              />
+            </a>
           </Grid>
           <Grid item xs>
-            <img
-              className="speaker-image"
-              src="/static/speakers/2021/Stephen_Jackson.png"
-            />
+            <a
+              tabIndex="0"
+              href="../stephen-jackson"
+              title="Link to Information About Stephen"
+            >
+              <img
+                className="speaker-image"
+                src="/static/speakers/2021/Stephen_Jackson.png"
+              />
+            </a>
           </Grid>
           <Grid item xs>
-            <img
-              className="speaker-image"
-              src="/static/speakers/2021/Leke_Sholuade.png"
-            />
+            <a
+              tabIndex="0"
+              href="../leke-sholuade"
+              title="Link to Information About Leke"
+            >
+              <img
+                className="speaker-image"
+                src="/static/speakers/2021/Leke_Sholuade.png"
+              />
+            </a>
           </Grid>
         </Grid>
       </section>
