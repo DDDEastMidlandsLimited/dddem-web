@@ -4,14 +4,11 @@ import theme from '../../theme/theme';
 export default function SpeakersButton() {
   return (
     <div align="center">
-        <button className="speakersButton">
-            <a
-            href="../../test"
-            rel="noreferrer"
-            >
-            Back To Speakers
-            </a>
-        </button>
+      <button className="speakersButton">
+        <a href="../../test" rel="noreferrer">
+          Back To Speakers
+        </a>
+      </button>
       <style jsx>
         {`
           .speakersButton {

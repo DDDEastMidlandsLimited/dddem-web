@@ -19,103 +19,115 @@ library.add(faInstagram, faTwitter, faGithub, faLinkedin);
 
 export default function LexLofthouse() {
   return (
-    <Layout>  
+    <Layout>
       <Head>
         <title>Lex Lofthouse</title>
       </Head>
       <Header title={'Lex Lofthouse'} />
       <section>
-        <SpeakersButton/>
+        <SpeakersButton />
+        <img
+          src="/static/speakers/2021/Lex_Lofthouse.png"
+          alt=""
+          className="speakerpic"
+        />
+        <div>
+          <ul>
+            <b>Pronouns: </b> She/Her
+          </ul>
+          <ul>
+            <b>Talk Length: </b> 60 mins
+          </ul>
+        </div>
+        <br />
+        <h2 tabIndex="0">Design for Developers</h2>
+        <p tabIndex="0">
+          Have you ever found yourself not just having to build the
+          product, but in the absence of an actual designer, you’re
+          the one who ends up having to throw together a design for it
+          too? Want to gain the magic design powers to transform that
+          average screen into a beautiful interface?
+        </p>
+        <p tabIndex="0">
+          People have often told me they’d never be able to design
+          interfaces because it’s too subjective and a completely
+          different mindset to coding. Well I’m here to tell you that
+          UI design isn’t as complex as it looks when you’ve got the
+          right tools to hand – and it really isn't a magical dark
+          art, I promise!
+        </p>
+        <p tabIndex="0">
+          In this talk, I will help you understand some of the main
+          design principles that you can apply across UI design. Such
+          as Typography, Emphasis, Hierarchy, Layout, Spacing, Size,
+          Depth and Colour.
+        </p>
+        <p tabIndex="0">
+          We’ll be discussing these principles and, through visual
+          demonstrations and examples, show how you can implement
+          these principles across typical UI components such as forms,
+          cards, dashboards and other interface elements . There may
+          even be some *live designing* to help demonstrate.
+        </p>
+        <p tabIndex="0">
+          Whether you’re the ‘dev-signer’ or you’re just somebody who
+          would like to learn some fundamental design skills to widen
+          your knowledge – you should then leave feeling well equipped
+          with new design skills to apply day to day!{' '}
+        </p>
       </section>
       <section>
-        <h1 tabIndex="0">
-          Keynote By Dylan Beattie
-          <Link
+        <h2 tabIndex="0">About Lex</h2>
+        <p tabIndex="0">
+          <b>Senior Designer at Nzime</b>
+        </p>
+        <p tabIndex="0">
+          Lex Lofthouse is a Senior Designer at Nzime, a digital
+          agency in Nottingham. She has been working in the design
+          industry for over a decade, where her career took her from
+          the chilly regions of Scotland to the slightly less chilly
+          streets of Nottingham. She specialises in digital design and
+          UX, but also works across branding, print, illustration and
+          animation. She’s even semi-competent at some basic HTML and
+          CSS she’ll have you know!
+        </p>
+        <p tabIndex="0">
+          In her spare time Lex is a massive Pokemon fan, from the TCG
+          to the anime. Plus despite being a professional designer she
+          is also an advocate for Comic Sans, the world’s most
+          misunderstood typeface (come and ask her why).
+        </p>
+      </section>
+
+      <section>
+        <h2 tabIndex="0">Links</h2>
+        <li>
+          <a
             target="_blank"
-            href="https://twitter.com/dylanbeattie"
-            onSelect={() => {
-              logEvent('twitter', 'dylanbeattie');
-            }}
+            aria-label="Lex Lofthouse: Twitter"
+            href="https://twitter.com/Loftio"
           >
-            <a target="_blank" aria-label="Dylan Beattie: Twitter">
-              <FontAwesomeIcon icon={['fab', 'twitter']} />
-            </a>
-          </Link>
-        </h1>
-        <h2 tabIndex="0">The Art of Code</h2>
-        <p tabIndex="0">
-          Software and technology has changed every aspect of the
-          world we live in. At one extreme are the ‘mission critical’
-          applications - the code that runs our banks, our hospitals,
-          our airports and phone networks. Then there’s the code we
-          all use every day to browse the web, watch movies, create
-          spreadsheets… not quite so critical, but still code that
-          solves problems and delivers services.
-        </p>
-        <p tabIndex="0">
-          But what about the code that only exists because somebody
-          wanted to write it? Code created just to make people smile,
-          laugh, maybe even dance? Maybe even code that does nothing
-          at all, created just to see if it was possible?
-        </p>
-        <p tabIndex="0">
-          Join Dylan Beattie - programmer, musician, and creator of
-          the Rockstar programming language - for an entertaining look
-          at the art of code. We’ll look at the origins of programming
-          as an art form, from Conway&apos;s Game of Life to the 1970s
-          demoscene and the earliest Obfuscated C competitions. We’ll
-          talk about esoteric languages and quines - how DO you create
-          a program that prints its own source code? We’ll look at
-          quine relays, code golf and generative art, and we’ll
-          explore the phenomenon of live coding as performance - from
-          the pioneers of electronic music to modern algoraves and
-          live coding platforms like Sonic Pi.
-        </p>
-        <h3 tabIndex="0">Bio</h3>
-        <div className="row">
-          <div className="columnleft">
-            <img
-              src="/static/2019/speakers/Dylan_Beattie.png"
-              alt=""
-              className="speakerpic"
-            />
-          </div>
-          <div className="columnright">
-            <p tabIndex="0">
-              <i>Software Architect</i>
-            </p>
-            <p tabIndex="0">
-              Dylan wrote his first web page in 1992 and never looked
-              back. He&apos;s been building data-driven web
-              applications since the late 1990s, and has worked on
-              everything from tiny standalone websites to complex
-              distributed systems. He&apos;s the CTO at Skills Matter
-              in London, he&apos;s a Microsoft MVP, and he&apos;s a
-              regular speaker at conferences and user groups, where
-              he&apos;s spoken about topics from continuous delivery
-              and Conway&apos;s Law to the history of the web,
-              federated authentication and hypermedia APIs. When
-              he&apos;s not wrangling code, Dylan plays guitar and
-              writes songs about code. He&apos;s online at{' '}
-              <a
-                target="_blank"
-                href="https://www.dylanbeattie.net"
-                rel="noreferrer"
-              >
-                www.dylanbeattie.net
-              </a>{' '}
-              and on Twitter as{' '}
-              <a
-                target="_blank"
-                href="https://twitter.com/dylanbeattie"
-                rel="noreferrer"
-              >
-                @dylanbeattie
-              </a>
-              .
-            </p>
-          </div>
-        </div>
+            Twitter
+          </a>
+        </li>
+        <li>
+          <a
+            target="_blank"
+            aria-label="Lex Lofthouse: Twitter"
+            href="https://loftio.co.uk/"
+          >
+            Website
+          </a>
+        </li>
+        <li>
+          <a
+            target="_blank"
+            aria-label="Lex Lofthouse: Twitter"
+            href="https://www.linkedin.com/in/alexandra-lofthouse-76a6b355/"
+          >
+            LinkedIn
+          </a>
+        </li>
       </section>
 
       <style jsx>
@@ -125,20 +137,6 @@ export default function LexLofthouse() {
             padding: ${theme.sizes.contentPadding};
             margin: auto;
           }
-          section center-video {
-            text-align: center;
-          }
-          .columnright {
-            padding: 10px;
-            float: right;
-            width: 70%;
-          }
-
-          .columnleft {
-            padding: 10px;
-            float: left;
-            width: 25%;
-          }
 
           .row:after {
             content: '';
@@ -147,8 +145,13 @@ export default function LexLofthouse() {
           }
 
           .speakerpic {
-            width: 95%;
+            margin-top: 8%;
+            margin-bottom: 5%;
+            width: 250px;
             border-radius: 50%;
+            display: block;
+            margin-left: auto;
+            margin-right: auto;
           }
 
           .iframe-container {
@@ -168,10 +171,10 @@ export default function LexLofthouse() {
           ul {
             display: flex;
             margin: 0;
-            padding: 10px;
+            padding: 5px;
             flex-flow: row;
-            justify-content: space-evenly;
             flex-wrap: nowrap;
+            justify-content: center;
           }
           li {
             margin: 0;
@@ -208,16 +211,9 @@ export default function LexLofthouse() {
             color: ${theme.palette.light};
           }
 
-          @media only screen and (max-width: 810px) {
-            .speakerpic {
-              display: none;
-            }
-            .columnright {
-              width: 100%;
-              padding-top: 0px;
-            }
-            .columnleft {
-              padding-top: 0px;
+          @media only screen and (max-width: 1081px) {
+            section {
+              padding: 3% 12%;
             }
           }
         `}
