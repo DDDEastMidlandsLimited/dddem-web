@@ -18,10 +18,10 @@ describe('Given the Navigation is rendered', () => {
     );
   });
 
-  test('it should display a Talks link', () => {
+  test('it should display a Speakers link', () => {
     const { getByText } = render(<Navigation />);
-    expect(getByText('Talks')).toBeInTheDocument();
-    expect(getByText('Talks')).toHaveAttribute('href', '/talks');
+    expect(getByText('Speakers')).toBeInTheDocument();
+    expect(getByText('Speakers')).toHaveAttribute('href', '/2021/speakers/speakergrid');
   });
 
   test('it should display a Notable Companies link', () => {
