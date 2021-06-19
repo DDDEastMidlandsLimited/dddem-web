@@ -20,7 +20,10 @@ export default function LexLofthouse() {
       <Head>
         <title>Lex Lofthouse</title>
       </Head>
-      <Header title={'Lex Lofthouse'} />
+      <Header
+        title={'Lex Lofthouse'}
+        banner="/static/banners/information/thencc.jpg"
+      />
       <section>
         <SpeakersButton />
         <img

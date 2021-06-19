@@ -20,7 +20,10 @@ export default function RyanYates() {
       <Head>
         <title>Ryan Yates</title>
       </Head>
-      <Header title={'Ryan Yates'} />
+      <Header
+        title={'Ryan Yates'}
+        banner="/static/banners/information/thencc.jpg"
+      />
       <section>
         <SpeakersButton />
         <img

@@ -20,7 +20,10 @@ export default function StephenJackson() {
       <Head>
         <title>Stephen Jackson</title>
       </Head>
-      <Header title={'Stephen Jackson'} />
+      <Header
+        title={'Stephen Jackson'}
+        banner="/static/banners/information/thencc.jpg"
+      />
       <section>
         <SpeakersButton />
         <img

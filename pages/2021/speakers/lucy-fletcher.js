@@ -20,7 +20,10 @@ export default function LucyFletcher() {
       <Head>
         <title>Lucy Fletcher</title>
       </Head>
-      <Header title={'Lucy Fletcher'} />
+      <Header
+        title={'Lucy Fletcher'}
+        banner="/static/banners/information/thencc.jpg"
+      />
       <section>
         <SpeakersButton />
         <img

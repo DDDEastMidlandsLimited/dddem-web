@@ -14,17 +14,20 @@ import {
 
 library.add(faInstagram, faTwitter, faGithub, faLinkedin);
 
-export default function SimonPainter() {
+export default function StephenHaunts() {
   return (
     <Layout>
       <Head>
-        <title>Simon Painter</title>
+        <title>Stephen Haunts</title>
       </Head>
-      <Header title={'Simon Painter'} />
+      <Header
+        title={'Stephen Haunts'}
+        banner="/static/banners/information/thencc.jpg"
+      />
       <section>
         <SpeakersButton />
         <img
-          src="/static/speakers/2021/Simon_Painter.png"
+          src="/static/speakers/2021/Stephen_Haunts.png"
           alt=""
           className="speakerpic"
         />

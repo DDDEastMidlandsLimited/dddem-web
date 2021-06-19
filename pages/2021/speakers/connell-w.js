@@ -23,7 +23,10 @@ export default function ConnellW() {
       <Head>
         <title>Connell W</title>
       </Head>
-      <Header title={'Connell W'} />
+      <Header
+        title={'Connell W'}
+        banner="/static/banners/information/thencc.jpg"
+      />
       <section>
         <SpeakersButton />
         <img

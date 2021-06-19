@@ -14,20 +14,20 @@ import {
 
 library.add(faInstagram, faTwitter, faGithub, faLinkedin);
 
-export default function RizwanaAkmalKhan() {
+export default function JenniferMackown() {
   return (
     <Layout>
       <Head>
-        <title>Rizwana Akmal Khan</title>
+        <title>Jennifer Mackown</title>
       </Head>
       <Header
-        title={'Rizwana Akmal Khan'}
+        title={'Jennifer Mackown'}
         banner="/static/banners/information/thencc.jpg"
       />
       <section>
         <SpeakersButton />
         <img
-          src="/static/speakers/2021/Rizwana_Akmal_Khan.png"
+          src="/static/speakers/2021/Jen_Mackown.png"
           alt=""
           className="speakerpic"
         />
@@ -36,33 +36,44 @@ export default function RizwanaAkmalKhan() {
             <b>Pronouns: </b> She/Her
           </ul>
           <ul>
-            <b>Talk Length: </b> 30 mins
+            <b>Talk Length: </b> 60 mins
           </ul>
         </div>
         <br />
-        <h2 tabIndex="0">Good Writers Become Better Developers</h2>
+        <h2 tabIndex="0">
+          How to ruin kid's games with machine learning
+        </h2>
         <p tabIndex="0">
-          Good writing might not be rocket science, but it is the
-          secret ingredient in the recipe for a great developer. If
-          you're already an experienced developer or a only just
-          starting on the dev journey, by the end of this talk, you'll
-          come to appreciate the similarities between the two mediums,
-          and be ready to arm yourself with techniques that will help
-          you improve your writing AND development skills.
+          Winter lockdown with a small child has meant one thing in
+          our house - trains. We have a huge amount of Brio (that
+          magnetic wooden train set you used to play with in the Early
+          Learning Centre) and every day means a new track taking over
+          our living room. Train tracks designed by a 4yo can be quite
+          random and not very satisfying to actually play with - lines
+          that disappear under the sofa, bridges to nowhere and
+          surprise turntables in the middle of a track.
+        </p>
+        <p tabIndex="0">
+          So I started to build my own tracks (when he was asleep, to
+          prevent ‘helping’), but it was pretty labour-intensive and
+          it turns out I prefer to spend my evenings doing… well
+          almost anything else. So instead I developed an algorithm to
+          generate tracks and then trained a 4yo-opinion-based ML
+          model to determine whether the tracks were ‘fun’ or not.
+        </p>
+        <p tabIndex="0">
+          This is the story of how I learned that ‘developing an
+          algorithm’ is not as easy as it sounds, and that ‘fun’ has
+          different meanings depending on whether you are 4, 34 or a
+          computer.
         </p>
       </section>
       <section>
-        <h2 tabIndex="0">About Rizwana</h2>
+        <h2 tabIndex="0">About Jennifer</h2>
         <p tabIndex="0">
-          <b>Customer Success Engineer at Vercel</b>
+          <b>Senior Software Developer</b>
         </p>
-        <p tabIndex="0">
-          Rizwana is a designer-developer, poet, podcaster, and
-          occasional-speaker. As a third-culture adult, she has grown
-          up valuing diverse work environments and will always stand
-          in support of spaces where people who may be seen as
-          outsiders are given centre stage.
-        </p>
+        <p tabIndex="0">TBD</p>
       </section>
 
       <section>
@@ -70,8 +81,8 @@ export default function RizwanaAkmalKhan() {
         <li>
           <a
             target="_blank"
-            aria-label="Rizwana Akmal Khan: Twitter"
-            href="https://twitter.com/rizbizkits"
+            aria-label="Jennifer Mackown: Twitter"
+            href="https://twitter.com/__jcmc__/"
           >
             Twitter
           </a>
@@ -79,8 +90,8 @@ export default function RizwanaAkmalKhan() {
         <li>
           <a
             target="_blank"
-            aria-label="Rizwana Akmal Khan: Website"
-            href="https://rizwanakhan.com/"
+            aria-label="Jennifer Mackown: Website"
+            href="https://www.jcmc.dev/"
           >
             Website
           </a>
@@ -88,8 +99,8 @@ export default function RizwanaAkmalKhan() {
         <li>
           <a
             target="_blank"
-            aria-label="Rizwana Akmal Khan: LinkedIn"
-            href="https://www.linkedin.com/in/riz/"
+            aria-label="Jennifer Mackown: LinkedIn"
+            href="https://www.linkedin.com/in/jennifer-mackown-4352aa37/"
           >
             LinkedIn
           </a>

@@ -20,7 +20,10 @@ export default function KojoHinson() {
       <Head>
         <title>Kojo Hinson</title>
       </Head>
-      <Header title={'Kojo Hinson'} />
+      <Header
+        title={'Kojo Hinson'}
+        banner="/static/banners/information/thencc.jpg"
+      />
       <section>
         <SpeakersButton />
         <img

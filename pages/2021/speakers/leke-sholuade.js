@@ -20,7 +20,10 @@ export default function LekeSholuade() {
       <Head>
         <title>Leke Sholuade</title>
       </Head>
-      <Header title={'Leke Sholuade'} />
+      <Header
+        title={'Leke Sholuade'}
+        banner="/static/banners/information/thencc.jpg"
+      />
       <section>
         <SpeakersButton />
         <img

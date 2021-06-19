@@ -20,7 +20,10 @@ export default function JamesCroft() {
       <Head>
         <title>James Croft</title>
       </Head>
-      <Header title={'James Croft'} />
+      <Header
+        title={'James Croft'}
+        banner="/static/banners/information/thencc.jpg"
+      />
       <section>
         <SpeakersButton />
         <img

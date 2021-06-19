@@ -20,11 +20,14 @@ export default function TomMorton() {
       <Head>
         <title>Tom Morton</title>
       </Head>
-      <Header title={'Tom Morton'} />
+      <Header
+        title={'Tom Morton'}
+        banner="/static/banners/information/thencc.jpg"
+      />
       <section>
         <SpeakersButton />
         <img
-          src="/static/speakers/2021/Matt_Whetton.png"
+          src="/static/speakers/2021/Tom_Morton.png"
           alt=""
           className="speakerpic"
         />

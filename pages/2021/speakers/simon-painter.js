@@ -20,7 +20,10 @@ export default function SimonPainter() {
       <Head>
         <title>Simon Painter</title>
       </Head>
-      <Header title={'Simon Painter'} />
+      <Header
+        title={'Simon Painter'}
+        banner="/static/banners/information/thencc.jpg"
+      />
       <section>
         <SpeakersButton />
         <img

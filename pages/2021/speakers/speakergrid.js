@@ -73,18 +73,18 @@ export default function Speaker2021Component() {
               />
             </a>
           </Grid>
-          {/* <Grid item xs>
-                      <a
+          <Grid item xs>
+            <a
               tabIndex="0"
-              href="../jen-macown"
-              title="Link to Information About Simon"
+              href="../jennifer-mackown"
+              title="Link to Information About Jennifer"
             >
-                    <img
-                    className='speaker-image'
-                    src='/static/speakers/2021/Jen_Macown.png'
-                    />
-                    </a>
-            </Grid> */}
+              <img
+                className="speaker-image"
+                src="/static/speakers/2021/Jen_Mackown.png"
+              />
+            </a>
+          </Grid>
           <Grid item xs>
             <a
               tabIndex="0"
@@ -226,7 +226,6 @@ export default function Speaker2021Component() {
             max-width: ${theme.sizes.maxContentWidth};
             padding: ${theme.sizes.contentPadding};
             margin: auto;
-            padding-left: 10%;
           }
           .speaker-image {
             width: 150px;
