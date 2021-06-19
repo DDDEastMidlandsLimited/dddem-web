@@ -14,17 +14,17 @@ import {
 
 library.add(faInstagram, faTwitter, faGithub, faLinkedin);
 
-export default function JamesCroft() {
+export default function MattWhetton() {
   return (
     <Layout>
       <Head>
-        <title>James Croft</title>
+        <title>Matt Whetton</title>
       </Head>
-      <Header title={'James Croft'} />
+      <Header title={'Matt Whetton'} />
       <section>
         <SpeakersButton />
         <img
-          src="/static/speakers/2021/James_Croft.png"
+          src="/static/speakers/2021/Matt_Whetton.png"
           alt=""
           className="speakerpic"
         />
@@ -37,50 +37,60 @@ export default function JamesCroft() {
           </ul>
         </div>
         <br />
-        <h2 tabIndex="0">Should you write UI tests?</h2>
+        <h2 tabIndex="0">We need to talk about technical debt</h2>
         <p tabIndex="0">
-          UI testing is a point of conflict amongst app developers.
-          When asked in a recent poll on whether app devs write them,
-          over half don't!
+          Technical debt is a popular metaphor used in most delivery
+          teams. It’s a powerful way to describe complicated problems,
+          convey the importance of building things right, and
+          describes the cumulative effect of taking shortcuts. As
+          engineers we all appreciate why preventing and paying down
+          technical debt is important, but its often not something
+          ‘the business’ really appreciates or seemingly cares about.
         </p>
         <p tabIndex="0">
-          We all understand the importance of writing great unit tests
-          for your APIs so why should your UI not benefit from the
-          same care?
+          More and more we see the backlog sliced in 2 different
+          sections, the first being the business value adding work,
+          the second being the technical debt work. This is also
+          accompanied with some kind of rule that says ‘we can spend
+          10% of our time on technical debt’. It always feels like
+          technical debt is just ‘something the devs go on about’, and
+          not something that adds business value.
         </p>
         <p tabIndex="0">
-          This session will explore the benefits of writing UI tests.
-          We'll show you how to get started with UI testing with
-          Selenium and C#. Plus, a look at how you can make your UI
-          testing process maintainable with speed with code re-use.
+          This talk is to try to convince you to think about technical
+          debt differently and eliminate it from your backlogs. To do
+          this we’ll have to explore what ends up in the technical
+          debt bucket, why its such a problem and what we can do about
+          it. We’ll also talk about risk, the part it has to play and
+          how it should be your best friend when managing complicated
+          problem domains and systems. My goal is make risk exciting,
+          useful and fundamental in what we do….which may sound crazy,
+          but just stick with me!
+        </p>
+        <p tabIndex="0">
+          Technical debt shouldn’t be something just the dev’s care
+          about, its something everyone should care about.
         </p>
       </section>
       <section>
-        <h2 tabIndex="0">About James</h2>
+        <h2 tabIndex="0">About Matt</h2>
         <p tabIndex="0">
-          <b>Principal Developer and Microsoft MVP at Razor Ltd</b>
+          <b>Chief Technology Officer at Oakbrook Finance</b>
         </p>
         <p tabIndex="0">
-          Howdy folks 👋 Thanks for taking the time to look at my
-          profile!
+          Matt is the Chief Technology Officer at Oakbrook Finance but
+          is ultimately an engineer at heart. Having worked in a
+          variety of engineering roles, across a variety industries,
+          he has spent the last 10 years or so working in the
+          financial service industry.
         </p>
         <p tabIndex="0">
-          My name is James Croft and I'm a passionate .NET software
-          developer with over 10 years of experience developing user
-          experiences on a range of different form factors! I've been
-          fortunate to have been recognized as a Microsoft MVP since
-          2015 also.
-        </p>
-        <p tabIndex="0">
-          Day-to-day, I architect, lead, and aid with the delivery of
-          client software solutions as a Principal Developer for Razor
-          Ltd in Sheffield.
-        </p>
-        <p tabIndex="0">
-          My main technical focus is building innovative and robust
-          user experiences with Windows, Android, iOS, and the web.
-          This passion for technology extends to mixed reality
-          (MR/AR/VR), wearable devices, IoT, and conversational AI.
+          You will find Matt talking, writing or just generally
+          rambling about those subjects he’s most passionate about
+          such as innovation culture, the craft of engineering,
+          breaking down the control barriers around engineers and
+          unleashing engineer creativity. He might also talk about
+          comics now and again too!
         </p>
       </section>
 
@@ -89,8 +99,8 @@ export default function JamesCroft() {
         <li>
           <a
             target="_blank"
-            aria-label="James Croft: Twitter"
-            href="http://www.twitter.com/jamesmcroft"
+            aria-label="Matt Whetton: Twitter"
+            href="https://twitter.com/codenutz"
           >
             Twitter
           </a>
@@ -98,17 +108,8 @@ export default function JamesCroft() {
         <li>
           <a
             target="_blank"
-            aria-label="James Croft: Website"
-            href="http://www.jamescroft.co.uk/"
-          >
-            Website
-          </a>
-        </li>
-        <li>
-          <a
-            target="_blank"
-            aria-label="James Croft: LinkedIn"
-            href="https://www.linkedin.com/in/jmcroft/"
+            aria-label="Matt Whetton: LinkedIn"
+            href="https://www.linkedin.com/in/matthewwhetton"
           >
             LinkedIn
           </a>
