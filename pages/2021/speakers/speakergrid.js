@@ -26,9 +26,10 @@ export default function Speaker2021Component() {
         >
           <Grid item xs>
             <a
+              className="speaker-link"
               tabIndex="0"
               href="../lex-lofthouse"
-              title="Link to Venue Information Page"
+              title="Link to Information About Lex"
             >
               <img
                 className="speaker-image"
@@ -37,10 +38,16 @@ export default function Speaker2021Component() {
             </a>
           </Grid>
           <Grid item xs>
-            <img
-              className="speaker-image"
-              src="/static/speakers/2021/Connell_W.png"
-            />
+            <a
+              tabIndex="0"
+              href="../connell-w"
+              title="Link to Venue Information Page"
+            >
+              <img
+                className="speaker-image"
+                src="/static/speakers/2021/Connell_W.png"
+              />
+            </a>
           </Grid>
           <Grid item xs>
             <img
@@ -134,6 +141,10 @@ export default function Speaker2021Component() {
           .speaker-image {
             width: 150px;
             height: 150px;
+          }
+
+          .speaker-image:hover {
+            filter: drop-shadow(5px 5px 5px rgb(26 125 135 / 0.75));
           }
         `}
       </style>
