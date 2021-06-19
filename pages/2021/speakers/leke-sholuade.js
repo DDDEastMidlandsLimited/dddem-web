@@ -14,17 +14,17 @@ import {
 
 library.add(faInstagram, faTwitter, faGithub, faLinkedin);
 
-export default function StephenJackson() {
+export default function LekeSholuade() {
   return (
     <Layout>
       <Head>
-        <title>Stephen Jackson</title>
+        <title>Leke Sholuade</title>
       </Head>
-      <Header title={'Stephen Jackson'} />
+      <Header title={'Leke Sholuade'} />
       <section>
         <SpeakersButton />
         <img
-          src="/static/speakers/2021/Stephen_Jackson.png"
+          src="/static/speakers/2021/Leke_Sholuade.png"
           alt=""
           className="speakerpic"
         />
@@ -37,50 +37,23 @@ export default function StephenJackson() {
           </ul>
         </div>
         <br />
-        <h2 tabIndex="0">Senior By Default</h2>
+        <h2 tabIndex="0">Why do we need a Black Valley</h2>
         <p tabIndex="0">
-          In June 2020 the team manager and tech lead both announced
-          they were leaving the company, making me the most senior
-          developer there. Overnight I went from a simple developer to
-          leading a multi-disciplined team responsible for
-          mission-critical business systems.
-        </p>
-        <p tabIndex="0">
-          In this presentation, I will talk about my first year in
-          charge, my triumphs, and my mistakes. I will talk about the
-          processes I implemented to keep myself sane and ensure the
-          team I now lead continued to drive our software forward and
-          serve business objectives. Along the way, I hope to impart
-          some key lessons that I learned that may help anyone who is
-          looking to move up to a senior position.
-        </p>
-        <p tabIndex="0">
-          This is a talk for those looking to take on management or
-          tech lead responsibilities and for any tech professionals
-          who through no fault of their own have found themselves in a
-          leadership position.
+          The session describes argues the case to build a Black
+          Valley, the idea of supporting black talents in tech t make
+          sure products are not biased towards black people.
         </p>
       </section>
       <section>
-        <h2 tabIndex="0">About Stephen</h2>
+        <h2 tabIndex="0">About Leke</h2>
         <p tabIndex="0">
-          <b>Applications Team Lead</b>
+          <b>Founder of Black Valley</b>
         </p>
         <p tabIndex="0">
-          Having come late to the software development game, Stephen
-          has worked in a variety of software development roles in the
-          utility and retail sectors. He now works in a team lead role
-          for a well know Nottingham Fashion retailer working with
-          various technologies but primarily uses the Microsoft tech
-          stack of Dot Net and SQL Server.
-        </p>
-        <p tabIndex="0">
-          When not developing software Stephen enjoys going for walks
-          with his 2 dogs Holly and Daisy and also more geeky pursuits
-          such as miniature and board gaming. He thinks the worse day
-          of the week is and has always has been Tuesday and will
-          gladly provide his reasons why this is so to anyone who
-          asks.
+          Leke is the founder of Black Valley. An 8 weeks intensive
+          person-centred programme which includes mentorship,
+          community, and knowledge-building in tech for the black
+          community
         </p>
       </section>
 
@@ -89,8 +62,8 @@ export default function StephenJackson() {
         <li>
           <a
             target="_blank"
-            aria-label="Stephen Jackson: Twitter"
-            href="https://twitter.com/Dukeboxz"
+            aria-label="Leke Sholuade: Twitter"
+            href="https://twitter.com/lekeshow"
           >
             Twitter
           </a>
@@ -98,8 +71,8 @@ export default function StephenJackson() {
         <li>
           <a
             target="_blank"
-            aria-label="Stephen Jackson: LinkedIn"
-            href="https://www.linkedin.com/in/stephenjjackson/"
+            aria-label="Leke Sholuade: LinkedIn"
+            href="https://www.linkedin.com/in/leke-sholuade-74042875/"
           >
             LinkedIn
           </a>

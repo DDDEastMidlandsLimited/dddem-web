@@ -133,18 +133,18 @@ export default function Speaker2021Component() {
               />
             </a>
           </Grid>
-          {/* <Grid item xs>
-                    <a
+          <Grid item xs>
+            <a
               tabIndex="0"
               href="../ryan-yates"
               title="Link to Information About Ryan"
             >
-                    <img
-                    className='speaker-image'
-                    src='/static/speakers/2021/Ryan_Yates.png'
-                    />
-                    </a>
-            </Grid> */}
+              <img
+                className="speaker-image"
+                src="/static/speakers/2021/Ryan_Yates.png"
+              />
+            </a>
+          </Grid>
           <Grid item xs>
             <a
               tabIndex="0"
