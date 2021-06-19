@@ -41,7 +41,7 @@ export default function Speaker2021Component() {
             <a
               tabIndex="0"
               href="../connell-w"
-              title="Link to Venue Information Page"
+              title="Link to Information About Connell"
             >
               <img
                 className="speaker-image"
@@ -50,10 +50,16 @@ export default function Speaker2021Component() {
             </a>
           </Grid>
           <Grid item xs>
-            <img
-              className="speaker-image"
-              src="/static/speakers/2021/Lucy_Fletcher.png"
-            />
+            <a
+              tabIndex="0"
+              href="../lucy-fletcher"
+              title="Link to Information About Lucy"
+            >
+              <img
+                className="speaker-image"
+                src="/static/speakers/2021/Lucy_Fletcher.png"
+              />
+            </a>
           </Grid>
           <Grid item xs>
             <img
