@@ -30,20 +30,20 @@ export default function MainPage() {
           </div>
         </section>
 
-        {/*       <section id="sponsor-information">
-        <div>
-          <a
-            tabIndex="0"
-            href="/information/sponsor-information"
-            title="Link to Sponsor Information Page"
-          >
-            <div className="sponsor-button image-button">
-              <h2>Sponsor Information</h2>
-            </div>
-          </a>
-        </div>
-      </section>
- */}
+        <section id="sponsor-information">
+          <div>
+            <a
+              tabIndex="0"
+              href="/information/sponsor-information"
+              title="Link to Sponsor Information Page"
+            >
+              <div className="sponsor-button image-button">
+                <h2>Sponsor Information</h2>
+              </div>
+            </a>
+          </div>
+        </section>
+
         <section id="venue">
           <div>
             <a
@@ -72,7 +72,7 @@ export default function MainPage() {
           </div>
         </section>
 
-        <section id="apply-to-speak">
+        {/*         <section id="apply-to-speak">
           <div>
             <a
               tabIndex="0"
@@ -84,7 +84,7 @@ export default function MainPage() {
               </div>
             </a>
           </div>
-        </section>
+        </section> */}
 
         <section id="tickets">
           <div>
@@ -114,33 +114,33 @@ export default function MainPage() {
           </div>
         </section>
 
-        {/*       <section id="speaker-information">
-        <div>
-          <a
-            tabIndex="0"
-            href="/information/speaker-information"
-            title="Link to Speaker Information Page"
-          >
-            <div className="speaker-button image-button">
-              <h2>Speaker Information</h2>
-            </div>
-          </a>
-        </div>
-      </section> */}
+        <section id="speaker-information">
+          <div>
+            <a
+              tabIndex="0"
+              href="/information/speaker-information"
+              title="Link to Speaker Information Page"
+            >
+              <div className="speaker-button image-button">
+                <h2>Speaker Information</h2>
+              </div>
+            </a>
+          </div>
+        </section>
 
-        {/*       <section id="crew-information">
-        <div>
-          <a
-            tabIndex="0"
-            href="/information/crew-information"
-            title="Link to Crew Information Page"
-          >
-            <div className="crew-button image-button">
-              <h2>Crew Information</h2>
-            </div>
-          </a>
-        </div>
-      </section> */}
+        <section id="crew-information">
+          <div>
+            <a
+              tabIndex="0"
+              href="/information/crew-information"
+              title="Link to Crew Information Page"
+            >
+              <div className="crew-button image-button">
+                <h2>Crew Information</h2>
+              </div>
+            </a>
+          </div>
+        </section>
 
         {/*      <section id="hacktober-information">
          <div>

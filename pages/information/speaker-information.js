@@ -279,7 +279,9 @@ export default function SpeakerInformation() {
         <h2 tabIndex="0">Letting us know you have arrived</h2>
         <h4 tabIndex="0">
           Check in at registration and come say hi at the information
-          desk.
+          desk. You will be asked to show that you have had two doses
+          of a COVID Vaccination, or if you have had one dose, to do a
+          flow test on arrival.
         </h4>
         <p tabIndex="0">
           At least one of the organisers will be at the registration
