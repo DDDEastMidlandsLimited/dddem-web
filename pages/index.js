@@ -6,8 +6,10 @@ import Layout from '../components/Layout';
 import ImportantDatesList from '../components/home/ImportantDatesList';
 import TieredCompanies from '../components/companies/TieredCompanies';
 import GoldSponsorLogos from '../components/companies/GoldSponsorLogos';
+import SilverSponsorLogos from '../components/companies/SilverSponsorLogos';
 import dates from '../data/dates';
 import gold from '../data/sponsors/gold';
+import silver from '../data/sponsors/silver';
 
 export default function Index() {
   return (
@@ -94,6 +96,15 @@ export default function Index() {
         <TieredCompanies partners={gold} />
       </section>
 
+      {/* Silver Sponsors */}
+      <section>
+        <h2>Silver Sponsors</h2>
+        <div className="silver">
+        <SilverSponsorLogos />
+        <TieredCompanies partners={silver} />
+        </div>
+      </section>
+
       {/* Important Dates */}
       <section>
         <br />
@@ -164,6 +175,10 @@ export default function Index() {
           .banner a {
             text-align: center;
             color: ${theme.palette.light};
+          }
+          .silver{
+            margin: auto;
+            width: 35%;
           }
           .infolink {
             margin: 10px;
