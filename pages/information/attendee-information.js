@@ -155,6 +155,11 @@ export default function AttendeeInformation() {
           effect our event. If that is the case, we will be going
           ahead as planned on October the 2nd 2021.
         </p>
+        <p tabIndex="0">
+          On arrival you will be asked to show that you have had two
+          doses of a COVID Vaccine, or, if you have only had one
+          vaccine, you will be asked to do show a negative flow tech.
+        </p>
         <h4>Back up plans: Social Distancing or Postponing</h4>
         <p tabIndex="0">
           The safety of all involved is our greatest concern. As such
