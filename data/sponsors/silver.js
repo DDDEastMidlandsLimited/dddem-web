@@ -1,3 +1,5 @@
+const oakbrookDesc = '<h1>Oakbrook: </h1><p>simplifying and personalising borrowing.</p>';
+
 const silver = [
   /*   {
     id: 1,
@@ -11,7 +13,7 @@ const silver = [
     name: 'Oakbrook',
     image: '/static/sponsors/Oakbrook.png',
     link: 'https://www.oakbrookfinance.com/careers',
-    description: '',
+    description: oakbrookDesc,
   },
   /*   {
     id: 3,
