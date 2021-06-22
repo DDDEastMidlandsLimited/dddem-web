@@ -4,7 +4,7 @@ import theme from '../../theme/theme';
 
 export default function TicketButton() {
   return (
-    <div align="center">
+    <div className="contactButtonContainer">
       <button className="contactButton">
         <a
           href="https://www.eventbrite.co.uk/e/ddd-east-midlands-tickets-58629047058"
@@ -19,6 +19,10 @@ export default function TicketButton() {
       </button>
       <style jsx>
         {`
+          .contactButtonContainer {
+            align: center;
+          }
+
           .contactButton {
             align: ${theme.palette.quaternary};
             font-weight: bold;
