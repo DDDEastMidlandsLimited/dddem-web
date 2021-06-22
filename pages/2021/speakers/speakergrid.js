@@ -17,7 +17,8 @@ export default function Speaker2021Component() {
       />
       <section>
         <p>
-          Click on the images of our wonderful speakers to find out more about them and what they will be talking about.
+          Click on the images of our wonderful speakers to find out
+          more about them and what they will be talking about.
         </p>
       </section>
       <section>
@@ -81,7 +82,7 @@ export default function Speaker2021Component() {
               />
             </a>
           </Grid>
-{/*           <Grid item xs>
+          {/*           <Grid item xs>
             <a
               tabIndex="0"
               href="../jennifer-mackown"
@@ -107,7 +108,7 @@ export default function Speaker2021Component() {
               />
             </a>
           </Grid>
-{/*           <Grid item xs>
+          {/*           <Grid item xs>
             <a
               tabIndex="0"
               href="../manu-magalhaes"
@@ -238,32 +239,32 @@ export default function Speaker2021Component() {
             </a>
           </Grid>
           <Grid item xs>
-              <img
-                className="speaker-image"
-                src="/static/speakers/TBC.png"
-                alt="To be confirmed placeholder"
-              />
+            <img
+              className="speaker-image"
+              src="/static/speakers/TBC.png"
+              alt="To be confirmed placeholder"
+            />
           </Grid>
           <Grid item xs>
-              <img
-                className="speaker-image"
-                src="/static/speakers/TBC.png"
-                alt="To be confirmed placeholder"
-              />
+            <img
+              className="speaker-image"
+              src="/static/speakers/TBC.png"
+              alt="To be confirmed placeholder"
+            />
           </Grid>
           <Grid item xs>
-              <img
-                className="speaker-image"
-                src="/static/speakers/TBC.png"
-                alt="To be confirmed placeholder"
-              />
+            <img
+              className="speaker-image"
+              src="/static/speakers/TBC.png"
+              alt="To be confirmed placeholder"
+            />
           </Grid>
           <Grid item xs>
-              <img
-                className="speaker-image"
-                src="/static/speakers/TBC.png"
-                alt="To be confirmed placeholder"
-              />
+            <img
+              className="speaker-image"
+              src="/static/speakers/TBC.png"
+              alt="To be confirmed placeholder"
+            />
           </Grid>
         </Grid>
       </section>
