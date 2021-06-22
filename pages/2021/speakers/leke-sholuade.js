@@ -43,7 +43,7 @@ export default function LekeSholuade() {
         <h2 tabIndex="0">Why do we need a Black Valley</h2>
         <p tabIndex="0">
           The session describes argues the case to build a Black
-          Valley, the idea of supporting black talents in tech t make
+          Valley, the idea of supporting black talents in tech to make
           sure products are not biased towards black people.
         </p>
       </section>
