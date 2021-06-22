@@ -12,7 +12,7 @@ export default function SpeakersButton() {
       <style jsx>
         {`
           .speakersButtonContainer {
-            align: center;
+            text-align-last: center;
           }
           .speakersButton {
             align: ${theme.palette.quaternary};

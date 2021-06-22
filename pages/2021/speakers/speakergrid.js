@@ -15,7 +15,11 @@ export default function Speaker2021Component() {
         title={'Speakers 2021'}
         banner="/static/banners/notable.jpg"
       />
-
+      <section>
+        <p>
+          Click on the images of our wonderful speakers to find out more about them and what they will be talking about.
+        </p>
+      </section>
       <section>
         <Grid
           container
@@ -77,7 +81,7 @@ export default function Speaker2021Component() {
               />
             </a>
           </Grid>
-          <Grid item xs>
+{/*           <Grid item xs>
             <a
               tabIndex="0"
               href="../jennifer-mackown"
@@ -89,7 +93,7 @@ export default function Speaker2021Component() {
                 alt="Picture of Jennifer Mackown"
               />
             </a>
-          </Grid>
+          </Grid> */}
           <Grid item xs>
             <a
               tabIndex="0"
@@ -103,7 +107,7 @@ export default function Speaker2021Component() {
               />
             </a>
           </Grid>
-          <Grid item xs>
+{/*           <Grid item xs>
             <a
               tabIndex="0"
               href="../manu-magalhaes"
@@ -115,7 +119,7 @@ export default function Speaker2021Component() {
                 alt="Picture of Manu Magalhaes"
               />
             </a>
-          </Grid>
+          </Grid> */}
           <Grid item xs>
             <a
               tabIndex="0"
@@ -233,6 +237,34 @@ export default function Speaker2021Component() {
               />
             </a>
           </Grid>
+          <Grid item xs>
+              <img
+                className="speaker-image"
+                src="/static/speakers/TBC.png"
+                alt="To be confirmed placeholder"
+              />
+          </Grid>
+          <Grid item xs>
+              <img
+                className="speaker-image"
+                src="/static/speakers/TBC.png"
+                alt="To be confirmed placeholder"
+              />
+          </Grid>
+          <Grid item xs>
+              <img
+                className="speaker-image"
+                src="/static/speakers/TBC.png"
+                alt="To be confirmed placeholder"
+              />
+          </Grid>
+          <Grid item xs>
+              <img
+                className="speaker-image"
+                src="/static/speakers/TBC.png"
+                alt="To be confirmed placeholder"
+              />
+          </Grid>
         </Grid>
       </section>
 
@@ -248,7 +280,7 @@ export default function Speaker2021Component() {
             height: 150px;
           }
 
-          .speaker-image:hover {
+          a .speaker-image:hover {
             filter: drop-shadow(5px 5px 5px rgb(26 125 135 / 0.75));
           }
         `}
