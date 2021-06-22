@@ -100,8 +100,8 @@ export default function Index() {
       <section>
         <h2>Silver Sponsors</h2>
         <div className="silver">
-        <SilverSponsorLogos />
-        <TieredCompanies partners={silver} />
+          <SilverSponsorLogos />
+          <TieredCompanies partners={silver} />
         </div>
       </section>
 
@@ -176,7 +176,7 @@ export default function Index() {
             text-align: center;
             color: ${theme.palette.light};
           }
-          .silver{
+          .silver {
             margin: auto;
             width: 35%;
           }

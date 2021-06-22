@@ -185,7 +185,9 @@ export default function ConferenceInformation() {
       </section>
 
       <section id="rachelwatson">
-        <h2 tabIndex="0">Rachel Watson: Co-organiser / Head of Marketing</h2>
+        <h2 tabIndex="0">
+          Rachel Watson: Co-organiser / Head of Marketing
+        </h2>
         <a name="rachel" />
         <p tabIndex="0">
           The newest member of the team, Rachel will be helping with
@@ -241,9 +243,7 @@ export default function ConferenceInformation() {
       </section>
 
       <section id="jessicawhite">
-        <h2 tabIndex="0">
-          Jessica White: Co-Founder / Co-Organiser
-        </h2>
+        <h2 tabIndex="0">Jessica White: Co-Founder / Co-Organiser</h2>
         <a name="jessica" />
         <p tabIndex="0">
           Fully caffeinated, Jessica is more whirling dervish than

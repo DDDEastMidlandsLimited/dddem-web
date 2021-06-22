@@ -4,10 +4,8 @@ import silver from '../../data/sponsors/silver';
 
 export default function SilverCompaniesProvider(props) {
   const [companiesList] = useState([...silver]);
-  const [
-    selectedCompanyDescription,
-    setSelectedCompanyDescription,
-  ] = useState('');
+  const [selectedCompanyDescription, setSelectedCompanyDescription] =
+    useState('');
 
   const values = React.useMemo(
     () => ({

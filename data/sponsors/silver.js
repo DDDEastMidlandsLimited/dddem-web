@@ -1,5 +1,5 @@
 const silver = [
-/*   {
+  /*   {
     id: 1,
     name: '',
     image: '/static/sponsors/empty.png',
@@ -11,9 +11,9 @@ const silver = [
     name: 'Oakbrook',
     image: '/static/sponsors/Oakbrook.png',
     link: 'https://www.oakbrookfinance.com/careers',
-    description: "",
+    description: '',
   },
-/*   {
+  /*   {
     id: 3,
     name: '',
     image: '/static/sponsors/empty.png',
