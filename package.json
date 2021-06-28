@@ -29,7 +29,7 @@
     "@material-ui/lab": "^4.0.0-alpha.58",
     "bootstrap": "^5.0.1",
     "material-ui": "^0.20.2",
-    "next": "^11.0.0",
+    "next": "^11.0.1",
     "next-pwa": "^5.2.21",
     "perfume.js": "^6.2.0",
     "react": "^17.0.2",
