@@ -30,7 +30,9 @@ export default function Navigation() {
               </Nav.Item> */}
 
             <Nav.Item>
-              <Nav.Link href="/talks">Talks</Nav.Link>
+              <Nav.Link href="/2021/speakers/speakergrid">
+                Speakers
+              </Nav.Link>
             </Nav.Item>
 
             <Nav.Item>
@@ -60,7 +62,7 @@ export default function Navigation() {
               <Nav.Link
                 target="_blank"
                 href="https://www.eventbrite.co.uk/e/ddd-east-midlands-2021-tickets-146129646707"
-                onSelect={(event) => {
+                onSelect={() => {
                   logEvent('navigation', 'eventbrite');
                 }}
               >

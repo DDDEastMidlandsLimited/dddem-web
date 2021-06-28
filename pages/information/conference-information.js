@@ -185,7 +185,9 @@ export default function ConferenceInformation() {
       </section>
 
       <section id="rachelwatson">
-        <h2 tabIndex="0">Rachel Watson: Co-organiser</h2>
+        <h2 tabIndex="0">
+          Rachel Watson: Co-organiser / Head of Marketing
+        </h2>
         <a name="rachel" />
         <p tabIndex="0">
           The newest member of the team, Rachel will be helping with
@@ -241,9 +243,7 @@ export default function ConferenceInformation() {
       </section>
 
       <section id="jessicawhite">
-        <h2 tabIndex="0">
-          Jessica White: Co-Founder and Co-Organiser
-        </h2>
+        <h2 tabIndex="0">Jessica White: Co-Founder / Co-Organiser</h2>
         <a name="jessica" />
         <p tabIndex="0">
           Fully caffeinated, Jessica is more whirling dervish than
@@ -303,7 +303,7 @@ export default function ConferenceInformation() {
 
       <section id="moretonbrockley">
         <h2 tabIndex="0">
-          Moreton Brockley: Co-Founder and Co-Organiser
+          Moreton Brockley: Co-Founder / Co-Organiser
         </h2>
         <a name="moreton" />
         <p tabIndex="0">
@@ -471,33 +471,6 @@ export default function ConferenceInformation() {
             kind Workshop Sponsor. More details will be described here
             closer to the event.
           </p>
-          {/*  <li tabIndex="0">
-          <b>
-            Organisers are speaking at meetups about how to submit a
-            good abstract.
-          </b>
-        </li>
-        <p tabIndex="0">
-          All the above is great if you get selected as a speaker, but
-          how can we help you get there? The organisers of DDD East
-          Midlands,{' '}
-          <a href="https://twitter.com/allmobro" target="_blank">
-            Moreton Brockley
-          </a>{' '}
-          and{' '}
-          <a href="https://twitter.com/JessPWhite" target="_blank">
-            Jessica White
-          </a>{' '}
-          are going to present a talk on how to submit a talk to the
-          conference, but also give tips on how to create a talk
-          description/abstract that stands out.
-        </p>
-        <p tabIndex="0">
-          If you run an event in the East Midlands and would like us
-          to come across to present this talk, get in touch. We will
-          also make efforts to write the content of this talk in a
-          blog to increase the ease of access to the content.
-        </p> */}
         </ul>
       </section>
 

@@ -7,10 +7,11 @@ import ExternalLink from '../components/ExternalLink';
 import ImportantDatesList from '../components/home/ImportantDatesList';
 import TieredCompanies from '../components/companies/TieredCompanies';
 import GoldSponsorLogos from '../components/companies/GoldSponsorLogos';
+import SilverSponsorLogos from '../components/companies/SilverSponsorLogos';
 import dates from '../data/dates';
-import gold from '../data/sponsors/gold';
 import platinum from '../data/sponsors/platinum';
-
+import gold from '../data/sponsors/gold';
+import silver from '../data/sponsors/silver';
 
 export default function Index() {
   return (
@@ -68,6 +69,15 @@ export default function Index() {
         <TieredCompanies partners={gold} />
       </section>
 
+      {/* Silver Sponsors */}
+      <section>
+        <h2>Silver Sponsors</h2>
+        <div className="silver">
+          <SilverSponsorLogos />
+          <TieredCompanies partners={silver} />
+        </div>
+      </section>
+
       {/* Important Dates */}
       <section>
         <br />
@@ -119,12 +129,14 @@ export default function Index() {
             padding: ${theme.sizes.contentPadding};
             margin: auto;
           }
+
           h2 {
             text-align: center;
           }
           h3 {
             text-align: center;
           }
+
           .row {
             display: flex;
             flex-direction: row;
@@ -139,10 +151,12 @@ export default function Index() {
             padding: 5px 5px;
             margin-left: 15px;
           }
+
           .subheader {
             margin: 0px;
             padding-bottom: 15px;
           }
+
           .banner {
             text-align: center;
             padding: 5px 5px;
@@ -153,10 +167,12 @@ export default function Index() {
             text-align: center;
             color: ${theme.palette.light};
           }
+
           .platinum {
             text-align: center;
             padding: 5px 5px;
           }
+
           .pageimage{
             text-align: center;
             max-width: 100%;
@@ -166,9 +182,15 @@ export default function Index() {
             margin-left: auto;
             margin-right: auto;
           }
+
           .info-text{
             padding: 1% 5%;
+            
+          .silver {
+            margin: auto;
+            width: 35%;
           }
+            
           .infolink {
             margin: 10px;
           }
