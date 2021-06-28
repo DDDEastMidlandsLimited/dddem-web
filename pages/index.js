@@ -32,7 +32,6 @@ export default function Index() {
                 <img
                   src={platinum[0].image}
                   alt={`Click to go to the ${platinum[0].name} site`}
-                  className=""
                 />
               </ExternalLink>
             </div>
@@ -56,7 +55,7 @@ export default function Index() {
           <img
             className="pageimage"
             src="/static/pageimage/happy.jpg"
-            alt='Image of attendees at DDD East Midlands Conference 2019'
+            alt={`Image of the attendees of DDD East Midlands Conference 2019 seated in red auditorium seating.`}
           />
         </div>
       </section>
