@@ -56,6 +56,7 @@ export default function Index() {
           <img
             className="pageimage"
             src="/static/pageimage/happy.jpg"
+            alt='Image of attendees at DDD East Midlands Conference 2019'
           />
         </div>
       </section>
