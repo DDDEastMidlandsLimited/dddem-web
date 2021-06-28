@@ -15,49 +15,48 @@ import silver from '../data/sponsors/silver';
 export default function Index() {
   return (
     <Layout>
-      <Header
-        banner="/static/banners/home.jpg"
-      />
+      <Header banner="/static/banners/home.jpg" />
 
       <section>
-      <div className="row">
-        <div className="column">
-          <div className="platinum" >
-          <h2 tabIndex="0">Platinum Sponsor</h2>
-          <ExternalLink
-            href={platinum[0].link}
-            target="_blank"
-            category="logo"
-            eventType="Calyx"
-            rel="noopener noreferrer"
-          >
-            <img
-              src={platinum[0].image}
-              alt={`Click to go to the ${platinum[0].name} site`}
-              className=""
-            />
-          </ExternalLink>
+        <div className="row">
+          <div className="column">
+            <div className="platinum">
+              <h2 tabIndex="0">Platinum Sponsor</h2>
+              <ExternalLink
+                href={platinum[0].link}
+                target="_blank"
+                category="logo"
+                eventType="Calyx"
+                rel="noopener noreferrer"
+              >
+                <img
+                  src={platinum[0].image}
+                  alt={`Click to go to the ${platinum[0].name} site`}
+                  className=""
+                />
+              </ExternalLink>
+            </div>
+          </div>
+          <div className="column info-text">
+            <p tabIndex="0">
+              DDD East Midlands is an inclusive, not-for-profit
+              technology conference happening on{' '}
+              <b>2nd October 2021</b> that celebrates the unique tech,
+              talent and companies that the East Midlands has to
+              offer. This event is run by community members to promote
+              collaboration and the amazing tech community that has
+              already grown in the East Midlands.
+            </p>
           </div>
         </div>
-        <div className="column info-text">
-          <p tabIndex="0">
-            DDD East Midlands is an inclusive, not-for-profit technology
-            conference happening on <b>2nd October 2021</b> that
-            celebrates the unique tech, talent and companies that the
-            East Midlands has to offer. This event is run by community
-            members to promote collaboration and the amazing tech
-            community that has already grown in the East Midlands.
-          </p>
-        </div>
-      </div>
       </section>
 
       <section>
         <div>
           <img
-                className="pageimage"
-                src="/static/pageimage/happy.jpg"
-              />
+            className="pageimage"
+            src="/static/pageimage/happy.jpg"
+          />
         </div>
       </section>
 
@@ -172,7 +171,7 @@ export default function Index() {
             padding: 5px 5px;
           }
 
-          .pageimage{
+          .pageimage {
             text-align: center;
             max-width: 100%;
             height: auto;
@@ -183,7 +182,7 @@ export default function Index() {
             width: 95%;
           }
 
-          .info-text{
+          .info-text {
             padding: 1% 5%;
           }
 
@@ -191,7 +190,7 @@ export default function Index() {
             margin: auto;
             width: 35%;
           }
-            
+
           .infolink {
             margin: 10px;
           }
