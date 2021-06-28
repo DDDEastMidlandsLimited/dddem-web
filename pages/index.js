@@ -1,6 +1,5 @@
 import React from 'react';
 import theme from '../theme/theme';
-import Head from 'next/head';
 import Header from '../components/Header';
 import Layout from '../components/Layout';
 import ExternalLink from '../components/ExternalLink';
@@ -35,6 +34,7 @@ export default function Index() {
             <img
               src={platinum[0].image}
               alt={`Click to go to the ${platinum[0].name} site`}
+              className=""
             />
           </ExternalLink>
           </div>
@@ -57,7 +57,6 @@ export default function Index() {
           <img
                 className="pageimage"
                 src="/static/pageimage/happy.jpg"
-                alt=""
               />
         </div>
       </section>
@@ -181,11 +180,13 @@ export default function Index() {
             display: block;
             margin-left: auto;
             margin-right: auto;
+            width: 95%;
           }
 
           .info-text{
             padding: 1% 5%;
-            
+          }
+
           .silver {
             margin: auto;
             width: 35%;
