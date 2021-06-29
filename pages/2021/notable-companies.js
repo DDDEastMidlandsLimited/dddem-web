@@ -48,7 +48,7 @@ export default function NotableCompaniesComponent() {
 
           .partners {
             margin: auto;
-            width: 65%;
+            width: 75%;
           }
         `}
       </style>
