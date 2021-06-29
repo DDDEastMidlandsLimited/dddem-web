@@ -1,4 +1,5 @@
-const oakbrookDesc = '<h1>Oakbrook: </h1><p>simplifying and personalising borrowing.</p>';
+const oakbrookDesc =
+  '<h1>Oakbrook: </h1><p>simplifying and personalising borrowing.</p>';
 
 const silver = [
   /*   {
