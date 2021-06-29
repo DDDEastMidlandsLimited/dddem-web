@@ -39,6 +39,8 @@ export default function CompanyGrid() {
             flex-wrap: wrap;
           }
           div.companyItem {
+            width: 45%;
+            padding: 5px 5px;
             display: flex;
             flex: 0 1 auto;
             flex-direction: column;
@@ -46,6 +48,19 @@ export default function CompanyGrid() {
             align-items: center;
             justify-content: space-between;
             text-align: center;
+          }
+          @media (max-width: 768px) {
+            div.companyItem {
+              width: 70%;
+              padding: 5px 5px;
+              display: flex;
+              flex: 0 1 auto;
+              flex-direction: column;
+              justify-content: center;
+              align-items: center;
+              justify-content: space-between;
+              text-align: center;
+            }
           }
         `}
       </style>
