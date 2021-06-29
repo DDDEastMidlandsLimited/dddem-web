@@ -108,7 +108,7 @@ export default function Speaker2021Component() {
               />
             </a>
           </Grid>
-          {/*           <Grid item xs>
+          <Grid item xs>
             <a
               tabIndex="0"
               href="../manu-magalhaes"
@@ -120,7 +120,7 @@ export default function Speaker2021Component() {
                 alt="Picture of Manu Magalhaes"
               />
             </a>
-          </Grid> */}
+          </Grid>
           <Grid item xs>
             <a
               tabIndex="0"
@@ -237,13 +237,6 @@ export default function Speaker2021Component() {
                 alt="Picture of Leke Sholuade"
               />
             </a>
-          </Grid>
-          <Grid item xs>
-            <img
-              className="speaker-image"
-              src="/static/speakers/TBC.png"
-              alt="To be confirmed placeholder"
-            />
           </Grid>
           <Grid item xs>
             <img
