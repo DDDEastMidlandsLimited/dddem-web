@@ -1,7 +1,7 @@
 const oakbrookDesc =
   '<h1>Oakbrook: </h1><p>simplifying and personalising borrowing.</p>';
 const koodooDesc =
-  '<h1>Koodoo.</h1><p>The digital platform powering the mortgage industry.</p><p>Koodoo works with lenders and aggregators to intelligently connect homeowners with their next mortgage.</p>'
+  '<h1>Koodoo.</h1><p>The digital platform powering the mortgage industry.</p><p>Koodoo works with lenders and aggregators to intelligently connect homeowners with their next mortgage.</p>';
 
 const silver = [
   {

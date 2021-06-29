@@ -183,7 +183,7 @@ export default function Index() {
           .infolink {
             margin: 10px;
           }
-          .silver{
+          .silver {
             text-align: center;
             width: 70%;
           }
