@@ -40,7 +40,7 @@ export default function NotableCompaniesComponent() {
           h2 {
             text-align: center;
           }
-          
+
           .sponsors {
             margin: auto;
             width: 80%;

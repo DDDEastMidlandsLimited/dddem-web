@@ -3,9 +3,7 @@ import CompaniesContext from './CompaniesContext';
 import partners from '../../data/sponsors/partners';
 
 export default function PartnerCompaniesProvider(props) {
-  const [companiesList] = useState([
-    ...partners,
-  ]);
+  const [companiesList] = useState([...partners]);
   const [selectedCompanyDescription, setSelectedCompanyDescription] =
     useState('');
 
