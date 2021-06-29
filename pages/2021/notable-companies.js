@@ -4,6 +4,7 @@ import theme from '../../theme/theme';
 import Header from '../../components/Header';
 import Head from 'next/head';
 import NotableCompanies from '../../components/companies/NotableCompanies';
+import PartnerSponsorLogos from '../../components/companies/PartnerSponsorLogos';
 
 export default function NotableCompaniesComponent() {
   return (
@@ -17,7 +18,15 @@ export default function NotableCompaniesComponent() {
       />
 
       <section>
-        <NotableCompanies />
+        <div className="sponsors">
+          <NotableCompanies />
+        </div>
+      </section>
+
+      <section>
+        <div className="partners">
+          <PartnerSponsorLogos />
+        </div>
       </section>
 
       <style jsx>
@@ -26,6 +35,20 @@ export default function NotableCompaniesComponent() {
             max-width: ${theme.sizes.maxContentWidth};
             padding: ${theme.sizes.contentPadding};
             margin: auto;
+          }
+
+          h2 {
+            text-align: center;
+          }
+
+          .sponsors {
+            margin: auto;
+            width: 80%;
+          }
+
+          .partners {
+            margin: auto;
+            width: 65%;
           }
         `}
       </style>
