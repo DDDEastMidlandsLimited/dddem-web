@@ -36,6 +36,12 @@ export default function Navigation() {
             </Nav.Item>
 
             <Nav.Item>
+              <Nav.Link href="/pastconferences/pastspeakers/pastspeakergrid">
+                Speakers
+              </Nav.Link>
+            </Nav.Item>
+
+            <Nav.Item>
               <Nav.Link href="/2021/notable-companies">
                 Notable Companies
               </Nav.Link>
