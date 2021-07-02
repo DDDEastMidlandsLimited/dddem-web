@@ -1,11 +1,9 @@
 import React, { useState } from 'react';
 import CompaniesContext from './CompaniesContext';
-import platinum from '../../data/sponsors/platinum';
-import gold from '../../data/sponsors/gold';
-import silver from '../../data/sponsors/silver';
+import partners from '../../data/sponsors/partners';
 
-export default function CompaniesProvider(props) {
-  const [companiesList] = useState([...platinum, ...gold, ...silver]);
+export default function PartnerCompaniesProvider(props) {
+  const [companiesList] = useState([...partners]);
   const [selectedCompanyDescription, setSelectedCompanyDescription] =
     useState('');
 

@@ -25,7 +25,7 @@ export default function CompanyInfo({ partner, image }) {
             background: ${theme.palette.light};
           }
           img {
-            width: 100%;
+            width: 80%;
             margin-top: 4px;
           }
           div:hover {
