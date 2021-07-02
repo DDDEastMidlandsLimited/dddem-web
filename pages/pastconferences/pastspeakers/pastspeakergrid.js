@@ -86,6 +86,20 @@ export default function Speaker2021Component() {
                 />
             </Grid>
             <Grid item xs>
+                <img
+                  className="speaker-image"
+                  src="/static/speakers/2019/Galiya_Warrier.png"
+                  alt="Picture of Galiya Warrier"
+                />
+            </Grid>
+            <Grid item xs>
+                <img
+                  className="speaker-image"
+                  src="/static/speakers/2019/Robin_Ninan.png"
+                  alt="Picture of Robin Ninan"
+                />
+            </Grid>
+            <Grid item xs>
               <img
                 className="speaker-image"
                 src="/static/speakers/TBC.png"
