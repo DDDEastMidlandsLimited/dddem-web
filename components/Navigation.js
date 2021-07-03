@@ -36,12 +36,6 @@ export default function Navigation() {
             </Nav.Item>
 
             <Nav.Item>
-              <Nav.Link href="/pastconferences/pastspeakers/pastspeakergrid">
-                Speakers
-              </Nav.Link>
-            </Nav.Item>
-
-            <Nav.Item>
               <Nav.Link href="/2021/notable-companies">
                 Notable Companies
               </Nav.Link>
@@ -99,6 +93,11 @@ export default function Navigation() {
               >
                 Videos 2019
               </NavDropdown.Item>
+              <Nav.Item>
+                <NavDropdown.Item href="/pastconferences/pastspeakers/pastspeakergrid">
+                  Past Speakers
+                </NavDropdown.Item>
+              </Nav.Item>
               <NavDropdown.Item href="/2019/album">
                 Photos 2019
               </NavDropdown.Item>

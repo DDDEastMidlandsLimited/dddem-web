@@ -32,11 +32,17 @@ export default function Speaker2021Component() {
             alignItems="center"
           >
             <Grid item xs>
-              <img
-                className="speaker-image"
-                src="/static/speakers/2019/Dylan_Beattie.png"
-                alt="Picture of Dylan Beattie"
-              />
+              <a
+                tabIndex="0"
+                href="../2019/dylan-beattie"
+                title="Link to Information About Dylan"
+              >
+                <img
+                  className="speaker-image"
+                  src="/static/speakers/2019/Dylan_Beattie.png"
+                  alt="Picture of Dylan Beattie"
+                />
+              </a>
             </Grid>
           </Grid>
         </div>
