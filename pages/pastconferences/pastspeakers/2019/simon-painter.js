@@ -14,75 +14,109 @@ import {
 
 library.add(faInstagram, faTwitter, faGithub, faLinkedin);
 
-export default function JessicaSalisbury() {
+export default function SimonPainter() {
   return (
     <Layout>
       <Head>
-        <title>Jessica Salisbury</title>
+        <title>Simon Painter</title>
       </Head>
       <Header
-        title={'Jessica Salisbury'}
+        title={'Simon Painter'}
         banner="/static/banners/information/thencc.jpg"
       />
       <section>
         <PastSpeakersButton />
         <img
-          src="/static/speakers/2019/Jessica_Salisbury.png"
-          alt="Picture of Jessica Salisbury"
+          src="/static/speakers/2019/Simon_Painter.png"
+          alt="Picture of Simon Painter"
           className="speakerpic"
         />
         <div>
           <ul>
-            <b>Pronouns: </b> She/Her
+            <b>Pronouns: </b> He/Him
           </ul>
           <ul>
             <b>Talk Length: </b> 60 minute
           </ul>
         </div>
         <br />
-        <h2 tabIndex="0">The Power of the Feedback Loop</h2>
+        <h2 tabIndex="0">
+          Hacking C#: Development for the Truly Lazy
+        </h2>
         <p tabIndex="0">
-          From how the body knows when to stop growing to saving lives
-          from speeding cars, the feedback loop is a mechanism that
-          secretly underlies every corner of our existence. The
-          concept spans schools of thought in psychology, economics,
-          biology and neuroscience and is now emerging in the
-          intersection of technology and behavioural science.
+          I don&apos;t know about you, but I&apos;m a lazy developer.
+          What do I mean by lazy? I don&apos;t mean I don&apos;t want
+          to do my work - far from it - I mean that I hate to write
+          out a great deal of code to get the job done. I want to
+          accomplish my goals with as little effort as possible.
         </p>
         <p tabIndex="0">
-          As technologists we are always looking to build products
-          that are engaging and effective, and as people we strive to
-          reach our full personal and working potential. Could the
-          feedback loop be the piece we&apos;re all missing?
+          One of my pet hates is writing enhancements that involve
+          copying and pasting blocks of code, changing a variable
+          name, then leaving everything else the same. I hate having
+          to consider each and every possible null reference
+          exception, and adding in a whole ton of boilerplate to
+          handle it. I hate having to spent ages jumping back and
+          forth in a legacy codebase, trying to understand what it
+          actually does!
         </p>
         <p tabIndex="0">
-          In this talk we&apos;ll dive into the structure of the
-          feedback loop, some impressive examples of how powerful they
-          can be and we&apos;ll explore how you can harness their
-          power in your work and personal life.
+          What&apos;s the alternative? In this talk, I&apos;ll
+          demonstrate a way of working that avoids all this
+          unneccesary work, and gives you more time to do something
+          more productive.
+        </p>
+        <p tabIndex="0">We&apos;ll look at:</p>
+        <ol>
+          <li tabIndex="0">
+            {' '}
+            - Functional Programming - what benefits does this
+            increasingly popular paradigm bring us to cut down coding
+            effort
+          </li>
+          <li tabIndex="0">
+            - Linq and Generics - These have been a part of C# for a
+            long time now, and are some of the most powerful features
+            available in the language, but hardly anyone seems to be
+            using them effectively
+          </li>
+          <li tabIndex="0">
+            - MetaProgramming - break open C# and take it to the next
+            level with code that describes how to generate code
+          </li>
+        </ol>
+        <p tabIndex="0">
+          Our goal is to write code in as few lines as possible that
+          provides the greatest amount of impact. We also want code
+          that&apos;s readable, and easily maintainable. We want to
+          think smart, and think...Lazy.
         </p>
       </section>
 
       <section>
-        <h2 tabIndex="0">About Jessica</h2>
+        <h2 tabIndex="0">About Simon</h2>
         <p tabIndex="0">
-          <b>
-            Behavioural Psychologist and Money Coaching Project
-            Manager at Tully.
-          </b>
+          <b>Senior Software Developer at EuroFins Scientific</b>
         </p>
         <p tabIndex="0">
-          Jess is a Behavioural Psychologist and the Project Manager
-          of Money Coaching at Tully, a business created to help
-          people who are worried about money. Jess leads on Tully’s
-          Money Coaching product which uses Open Banking data to
-          engage consumers in positive financial decision making to
-          improve their financial wellbeing. From helping those in
-          debt manage their money to providing early intervention for
-          those displaying detrimental patterns of behaviour, Jess is
-          using her academic background in psychology to create highly
-          personalised, data led Money Coaching that drives long term,
-          financial behavioural change for Tully customers.
+          I&apos;ve been working as a .NET developer for over 12 years
+          now in a variety of industries including government, retail
+          and manufacturing. But as a coder, I&apos;ve been playing
+          with making computers do whatever my crazed imagination
+          could devise since I was old enough to read my Dad&apos;s
+          copy of the ZX Spectrum BASIC coders manual.
+        </p>
+        <p tabIndex="0">
+          I&apos;ve been speaking about Functional C# at various user
+          groups and conferences around the UK, USA, and India, and am
+          particularly interested in seeing just how far we can push
+          the capabilities of C#.
+        </p>
+        <p tabIndex="0">
+          When I&apos;m not coding, or running after my two small
+          children, I have been known to enjoy the classic series of
+          Doctor Who, Fighting Fantasy Gamebooks, Cryptic Crosswords,
+          and rather more coffee than is probably good for me.
         </p>
       </section>
 
@@ -92,7 +126,7 @@ export default function JessicaSalisbury() {
           <iframe
             width="560"
             height="315"
-            src="https://www.youtube.com/embed/bxz6LSOclXQ"
+            src="https://www.youtube.com/embed/k1FEdm_GGt4"
             title="YouTube video player"
             frameborder="0"
             allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
@@ -103,8 +137,8 @@ export default function JessicaSalisbury() {
           <a
             target="_blank"
             rel="noreferrer"
-            aria-label="Jessica Salisbury: Youtube of Talk"
-            href="https://youtu.be/bxz6LSOclXQ"
+            aria-label="Simon Painter: Youtube of Talk"
+            href="https://youtu.be/k1FEdm_GGt4"
           >
             Link to Youtube Recording
           </a>
@@ -117,8 +151,8 @@ export default function JessicaSalisbury() {
           <a
             target="_blank"
             rel="noreferrer"
-            aria-label="Jessica Salisbury: Twitter"
-            href="https://twitter.com/JessSalisburyy"
+            aria-label="Simon Painter: Twitter"
+            href="https://twitter.com/madSimonJ"
           >
             Twitter
           </a>
@@ -127,8 +161,8 @@ export default function JessicaSalisbury() {
           <a
             target="_blank"
             rel="noreferrer"
-            aria-label="Jessica Salisbury: LinkedIn"
-            href="https://www.linkedin.com/in/jessica-salisbury-2a0920102/"
+            aria-label="Simon Painter: LinkedIn"
+            href="https://www.linkedin.com/in/simon-painter-45a05217/"
           >
             LinkedIn
           </a>

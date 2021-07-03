@@ -14,75 +14,71 @@ import {
 
 library.add(faInstagram, faTwitter, faGithub, faLinkedin);
 
-export default function JessicaSalisbury() {
+export default function AnthonyDang() {
   return (
     <Layout>
       <Head>
-        <title>Jessica Salisbury</title>
+        <title>Anthony Dang</title>
       </Head>
       <Header
-        title={'Jessica Salisbury'}
+        title={'Anthony Dang'}
         banner="/static/banners/information/thencc.jpg"
       />
       <section>
         <PastSpeakersButton />
         <img
-          src="/static/speakers/2019/Jessica_Salisbury.png"
-          alt="Picture of Jessica Salisbury"
+          src="/static/speakers/2019/Anthony_Dang.png"
+          alt="Picture of Anthony Dang"
           className="speakerpic"
         />
         <div>
           <ul>
-            <b>Pronouns: </b> She/Her
+            <b>Pronouns: </b> He/Him
           </ul>
           <ul>
             <b>Talk Length: </b> 60 minute
           </ul>
         </div>
         <br />
-        <h2 tabIndex="0">The Power of the Feedback Loop</h2>
+        <h2 tabIndex="0">
+          Cache me outside - Caching Methodologies and Architectures
+        </h2>
         <p tabIndex="0">
-          From how the body knows when to stop growing to saving lives
-          from speeding cars, the feedback loop is a mechanism that
-          secretly underlies every corner of our existence. The
-          concept spans schools of thought in psychology, economics,
-          biology and neuroscience and is now emerging in the
-          intersection of technology and behavioural science.
+          Caching can be your best-friend or your worst best-friend. A
+          poor cache implementation can mean the difference between
+          experiencing blazing fast performance or unexplained random
+          slowness, or both! It can even result in random stale (out
+          of date) content which you can’t explain.
         </p>
         <p tabIndex="0">
-          As technologists we are always looking to build products
-          that are engaging and effective, and as people we strive to
-          reach our full personal and working potential. Could the
-          feedback loop be the piece we&apos;re all missing?
+          In this presentation we will demo and compare different
+          caching methodologies, and their perceived real world uses.
+          We will discuss Donut cache, Memory cache, Redis, Varnish,
+          CDNs, and many more. We will dive into demos of real world
+          implementations which can cause unpredictable problems. Some
+          of these are horrible, and some are face-palm.
         </p>
         <p tabIndex="0">
-          In this talk we&apos;ll dive into the structure of the
-          feedback loop, some impressive examples of how powerful they
-          can be and we&apos;ll explore how you can harness their
-          power in your work and personal life.
+          At the end of this presentation you will be aware of the
+          different trade-offs with each caching methodology, and
+          which might best for your situation.
         </p>
       </section>
 
       <section>
-        <h2 tabIndex="0">About Jessica</h2>
+        <h2 tabIndex="0">About Anthony</h2>
         <p tabIndex="0">
-          <b>
-            Behavioural Psychologist and Money Coaching Project
-            Manager at Tully.
-          </b>
+          <b>Head of Development</b>
         </p>
         <p tabIndex="0">
-          Jess is a Behavioural Psychologist and the Project Manager
-          of Money Coaching at Tully, a business created to help
-          people who are worried about money. Jess leads on Tully’s
-          Money Coaching product which uses Open Banking data to
-          engage consumers in positive financial decision making to
-          improve their financial wellbeing. From helping those in
-          debt manage their money to providing early intervention for
-          those displaying detrimental patterns of behaviour, Jess is
-          using her academic background in psychology to create highly
-          personalised, data led Money Coaching that drives long term,
-          financial behavioural change for Tully customers.
+          Anthony is the Technical Director at Radley Yeldar (London,
+          UK). He writes tech articles, and is a regular presenter at
+          conferences and meetups. He loves automation and development
+          processes, experienced in scaling high performing teams
+          across multiple countries, a Scrum certified Agile
+          enthusiast, and a vocal proponent of Behaviour Driven
+          Development. Originally from Sydney, Australia, he is now
+          based in London.
         </p>
       </section>
 
@@ -92,7 +88,7 @@ export default function JessicaSalisbury() {
           <iframe
             width="560"
             height="315"
-            src="https://www.youtube.com/embed/bxz6LSOclXQ"
+            src="https://www.youtube.com/embed/ZgThiiahBVA"
             title="YouTube video player"
             frameborder="0"
             allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
@@ -103,8 +99,8 @@ export default function JessicaSalisbury() {
           <a
             target="_blank"
             rel="noreferrer"
-            aria-label="Jessica Salisbury: Youtube of Talk"
-            href="https://youtu.be/bxz6LSOclXQ"
+            aria-label="Anthony Dang: Youtube of Talk"
+            href="https://youtu.be/ZgThiiahBVA"
           >
             Link to Youtube Recording
           </a>
@@ -117,8 +113,8 @@ export default function JessicaSalisbury() {
           <a
             target="_blank"
             rel="noreferrer"
-            aria-label="Jessica Salisbury: Twitter"
-            href="https://twitter.com/JessSalisburyy"
+            aria-label="Anthony Dang: Twitter"
+            href="https://twitter.com/AnthonyDotNet"
           >
             Twitter
           </a>
@@ -127,8 +123,8 @@ export default function JessicaSalisbury() {
           <a
             target="_blank"
             rel="noreferrer"
-            aria-label="Jessica Salisbury: LinkedIn"
-            href="https://www.linkedin.com/in/jessica-salisbury-2a0920102/"
+            aria-label="Anthony Dang: LinkedIn"
+            href="https://www.linkedin.com/in/anthony-dang79/"
           >
             LinkedIn
           </a>

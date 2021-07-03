@@ -14,21 +14,21 @@ import {
 
 library.add(faInstagram, faTwitter, faGithub, faLinkedin);
 
-export default function JessicaSalisbury() {
+export default function HelenJoy() {
   return (
     <Layout>
       <Head>
-        <title>Jessica Salisbury</title>
+        <title>Helen Joy</title>
       </Head>
       <Header
-        title={'Jessica Salisbury'}
+        title={'Helen Joy'}
         banner="/static/banners/information/thencc.jpg"
       />
       <section>
         <PastSpeakersButton />
         <img
-          src="/static/speakers/2019/Jessica_Salisbury.png"
-          alt="Picture of Jessica Salisbury"
+          src="/static/speakers/2019/Helen_Joy.png"
+          alt="Picture of Helen Joy"
           className="speakerpic"
         />
         <div>
@@ -36,53 +36,53 @@ export default function JessicaSalisbury() {
             <b>Pronouns: </b> She/Her
           </ul>
           <ul>
-            <b>Talk Length: </b> 60 minute
+            <b>Talk Length: </b> 30 minute
           </ul>
         </div>
         <br />
-        <h2 tabIndex="0">The Power of the Feedback Loop</h2>
+        <h2 tabIndex="0">
+          Whose Design is it Anyway? - In introduction to inclusive
+          design and research
+        </h2>
         <p tabIndex="0">
-          From how the body knows when to stop growing to saving lives
-          from speeding cars, the feedback loop is a mechanism that
-          secretly underlies every corner of our existence. The
-          concept spans schools of thought in psychology, economics,
-          biology and neuroscience and is now emerging in the
-          intersection of technology and behavioural science.
+          As creators of products and services, we’re pretty good at
+          thinking we’ve got it all sussed. We map user journeys, we
+          create roadmaps, we write user stories. We know what we want
+          people to do; what actions we want them to take. But do we
+          really know who these people are? Do we really know what
+          they need? Do we take the time to find out, or are we
+          building products and services based on our own assumptions
+          and biases?
         </p>
         <p tabIndex="0">
-          As technologists we are always looking to build products
-          that are engaging and effective, and as people we strive to
-          reach our full personal and working potential. Could the
-          feedback loop be the piece we&apos;re all missing?
+          And what about those who lack our digital privilege? Digital
+          exclusion is a reality for many people. It’s our
+          responsibility to look out for everyone, not just those who
+          are the most visible or the easiest to design for.
         </p>
         <p tabIndex="0">
-          In this talk we&apos;ll dive into the structure of the
-          feedback loop, some impressive examples of how powerful they
-          can be and we&apos;ll explore how you can harness their
-          power in your work and personal life.
+          As technologists, we have the power to massively hinder or
+          improve lives; not those of ‘users’ but of people. This talk
+          looks at what it means to be digitally excluded and how by
+          adopting a practical user research-led attitude to design,
+          we can create products that are not just appealing to us,
+          but life-changing to those who use them.
         </p>
       </section>
 
       <section>
-        <h2 tabIndex="0">About Jessica</h2>
+        <h2 tabIndex="0">About Helen</h2>
         <p tabIndex="0">
-          <b>
-            Behavioural Psychologist and Money Coaching Project
-            Manager at Tully.
-          </b>
+          <b>UX Consultant at SPARCK</b>
         </p>
         <p tabIndex="0">
-          Jess is a Behavioural Psychologist and the Project Manager
-          of Money Coaching at Tully, a business created to help
-          people who are worried about money. Jess leads on Tully’s
-          Money Coaching product which uses Open Banking data to
-          engage consumers in positive financial decision making to
-          improve their financial wellbeing. From helping those in
-          debt manage their money to providing early intervention for
-          those displaying detrimental patterns of behaviour, Jess is
-          using her academic background in psychology to create highly
-          personalised, data led Money Coaching that drives long term,
-          financial behavioural change for Tully customers.
+          Helen Joy is a UX consultant and user researcher at SPARCK
+          with a focus on universal and inclusive design practices.
+          She&apos;s an organiser of Women in Tech Nottingham, working
+          to promote inclusivity within the tech industry and raise
+          the profile of talented female and gender minority speakers.
+          When not consulting or speaking at events, Helen is an avid
+          coffee drinker and hot yoga fan.
         </p>
       </section>
 
@@ -92,7 +92,7 @@ export default function JessicaSalisbury() {
           <iframe
             width="560"
             height="315"
-            src="https://www.youtube.com/embed/bxz6LSOclXQ"
+            src="https://www.youtube.com/embed/Zi9ury3Setg"
             title="YouTube video player"
             frameborder="0"
             allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
@@ -103,8 +103,8 @@ export default function JessicaSalisbury() {
           <a
             target="_blank"
             rel="noreferrer"
-            aria-label="Jessica Salisbury: Youtube of Talk"
-            href="https://youtu.be/bxz6LSOclXQ"
+            aria-label="Helen Joy: Youtube of Talk"
+            href="https://youtu.be/Zi9ury3Setg"
           >
             Link to Youtube Recording
           </a>
@@ -117,8 +117,8 @@ export default function JessicaSalisbury() {
           <a
             target="_blank"
             rel="noreferrer"
-            aria-label="Jessica Salisbury: Twitter"
-            href="https://twitter.com/JessSalisburyy"
+            aria-label="Helen Joy: Twitter"
+            href="https://twitter.com/LittleHelli"
           >
             Twitter
           </a>
@@ -127,8 +127,8 @@ export default function JessicaSalisbury() {
           <a
             target="_blank"
             rel="noreferrer"
-            aria-label="Jessica Salisbury: LinkedIn"
-            href="https://www.linkedin.com/in/jessica-salisbury-2a0920102/"
+            aria-label="Helen Joy: LinkedIn"
+            href="https://www.linkedin.com/in/helencjoy/"
           >
             LinkedIn
           </a>

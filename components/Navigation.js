@@ -84,15 +84,6 @@ export default function Navigation() {
             </Nav.Item>
 
             <NavDropdown title="Past Events" id="basic-nav-dropdown">
-              <NavDropdown.Item
-                target="_blank"
-                href="https://www.youtube.com/channel/UC5TNH43dpYqmw3ggv9OGIKw"
-                onSelect={() => {
-                  logEvent('navigation', 'youtube');
-                }}
-              >
-                Videos 2019
-              </NavDropdown.Item>
               <Nav.Item>
                 <NavDropdown.Item href="/pastconferences/pastspeakers/pastspeakergrid">
                   Past Speakers

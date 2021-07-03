@@ -14,21 +14,21 @@ import {
 
 library.add(faInstagram, faTwitter, faGithub, faLinkedin);
 
-export default function JessicaSalisbury() {
+export default function SamathyBarratt() {
   return (
     <Layout>
       <Head>
-        <title>Jessica Salisbury</title>
+        <title>Samathy Barratt</title>
       </Head>
       <Header
-        title={'Jessica Salisbury'}
+        title={'Samathy Barratt'}
         banner="/static/banners/information/thencc.jpg"
       />
       <section>
         <PastSpeakersButton />
         <img
-          src="/static/speakers/2019/Jessica_Salisbury.png"
-          alt="Picture of Jessica Salisbury"
+          src="/static/speakers/2019/Samathy_Barratt.png"
+          alt="Picture of Samathy Barratt"
           className="speakerpic"
         />
         <div>
@@ -36,53 +36,37 @@ export default function JessicaSalisbury() {
             <b>Pronouns: </b> She/Her
           </ul>
           <ul>
-            <b>Talk Length: </b> 60 minute
+            <b>Talk Length: </b> 60 minute Keynote
           </ul>
         </div>
         <br />
-        <h2 tabIndex="0">The Power of the Feedback Loop</h2>
+        <h2 tabIndex="0">This is a talk about Nothing.</h2>
         <p tabIndex="0">
-          From how the body knows when to stop growing to saving lives
-          from speeding cars, the feedback loop is a mechanism that
-          secretly underlies every corner of our existence. The
-          concept spans schools of thought in psychology, economics,
-          biology and neuroscience and is now emerging in the
-          intersection of technology and behavioural science.
+          NULL, None, 0, nullptr, nil, NaN. Every programming language
+          represents the concept of nothing, zero or just 'not a
+          thing' in a different way.
         </p>
         <p tabIndex="0">
-          As technologists we are always looking to build products
-          that are engaging and effective, and as people we strive to
-          reach our full personal and working potential. Could the
-          feedback loop be the piece we&apos;re all missing?
-        </p>
-        <p tabIndex="0">
-          In this talk we&apos;ll dive into the structure of the
-          feedback loop, some impressive examples of how powerful they
-          can be and we&apos;ll explore how you can harness their
-          power in your work and personal life.
+          This talk looks at the various different representations of
+          'nothing' in programming languages, exploring how the
+          concept has developed over time, how representations differ
+          and what each method has over another one.
         </p>
       </section>
 
       <section>
-        <h2 tabIndex="0">About Jessica</h2>
+        <h2 tabIndex="0">About Samathy</h2>
         <p tabIndex="0">
-          <b>
-            Behavioural Psychologist and Money Coaching Project
-            Manager at Tully.
-          </b>
+          <b>Magical Code Fairy</b>
         </p>
         <p tabIndex="0">
-          Jess is a Behavioural Psychologist and the Project Manager
-          of Money Coaching at Tully, a business created to help
-          people who are worried about money. Jess leads on Tully’s
-          Money Coaching product which uses Open Banking data to
-          engage consumers in positive financial decision making to
-          improve their financial wellbeing. From helping those in
-          debt manage their money to providing early intervention for
-          those displaying detrimental patterns of behaviour, Jess is
-          using her academic background in psychology to create highly
-          personalised, data led Money Coaching that drives long term,
-          financial behavioural change for Tully customers.
+          Samathy is an inquisitive code fairy who strives to
+          understand complex computer science problems and loves to
+          help others do the same.
+        </p>
+        <p tabIndex="0">
+          A Python programmer by day, and a passionate D programmer by
+          night, she likes good challenges, good code and good coffee.
         </p>
       </section>
 
@@ -92,7 +76,7 @@ export default function JessicaSalisbury() {
           <iframe
             width="560"
             height="315"
-            src="https://www.youtube.com/embed/bxz6LSOclXQ"
+            src="https://www.youtube.com/embed/iQGm3m1pkwo"
             title="YouTube video player"
             frameborder="0"
             allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
@@ -103,8 +87,8 @@ export default function JessicaSalisbury() {
           <a
             target="_blank"
             rel="noreferrer"
-            aria-label="Jessica Salisbury: Youtube of Talk"
-            href="https://youtu.be/bxz6LSOclXQ"
+            aria-label="Samathy Barratt: Youtube of Talk"
+            href="https://youtu.be/iQGm3m1pkwo"
           >
             Link to Youtube Recording
           </a>
@@ -117,20 +101,10 @@ export default function JessicaSalisbury() {
           <a
             target="_blank"
             rel="noreferrer"
-            aria-label="Jessica Salisbury: Twitter"
-            href="https://twitter.com/JessSalisburyy"
+            aria-label="Samathy Barratt: Twitter"
+            href="https://twitter.com/samathy_barratt"
           >
             Twitter
-          </a>
-        </li>
-        <li>
-          <a
-            target="_blank"
-            rel="noreferrer"
-            aria-label="Jessica Salisbury: LinkedIn"
-            href="https://www.linkedin.com/in/jessica-salisbury-2a0920102/"
-          >
-            LinkedIn
           </a>
         </li>
       </section>

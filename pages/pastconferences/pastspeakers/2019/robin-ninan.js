@@ -14,125 +14,82 @@ import {
 
 library.add(faInstagram, faTwitter, faGithub, faLinkedin);
 
-export default function JessicaSalisbury() {
+export default function RobinNinan() {
   return (
     <Layout>
       <Head>
-        <title>Jessica Salisbury</title>
+        <title>Robin Ninan</title>
       </Head>
       <Header
-        title={'Jessica Salisbury'}
+        title={'Robin Ninan'}
         banner="/static/banners/information/thencc.jpg"
       />
       <section>
         <PastSpeakersButton />
         <img
-          src="/static/speakers/2019/Jessica_Salisbury.png"
-          alt="Picture of Jessica Salisbury"
+          src="/static/speakers/2019/Robin_Ninan.png"
+          alt="Picture of Robin Ninan"
           className="speakerpic"
         />
         <div>
           <ul>
-            <b>Pronouns: </b> She/Her
+            <b>Pronouns: </b> He/Him
           </ul>
           <ul>
-            <b>Talk Length: </b> 60 minute
+            <b>Talk Length: </b> 30 minute
           </ul>
         </div>
         <br />
-        <h2 tabIndex="0">The Power of the Feedback Loop</h2>
+        <h2 tabIndex="0">
+          Ditching the test pyramid in a microservices era
+        </h2>
         <p tabIndex="0">
-          From how the body knows when to stop growing to saving lives
-          from speeding cars, the feedback loop is a mechanism that
-          secretly underlies every corner of our existence. The
-          concept spans schools of thought in psychology, economics,
-          biology and neuroscience and is now emerging in the
-          intersection of technology and behavioural science.
+          We have all heard tales of the infamous test pyramid. Some
+          of us have scaled the pyramid, some camped halfway and some
+          dare not even attempt. Time and time again, I&apos;ve heard
+          of the test pyramid in multiple talks, test articles and
+          blog posts, but not many have dared stray away from it. Why
+          do we often return to the same solution for every test
+          problem?
         </p>
         <p tabIndex="0">
-          As technologists we are always looking to build products
-          that are engaging and effective, and as people we strive to
-          reach our full personal and working potential. Could the
-          feedback loop be the piece we&apos;re all missing?
+          What if we had another way forward; one that did not involve
+          a pyramid. I once too advocated for the test pyramid in the
+          good old times of monoliths. Times have changed.
         </p>
         <p tabIndex="0">
-          In this talk we&apos;ll dive into the structure of the
-          feedback loop, some impressive examples of how powerful they
-          can be and we&apos;ll explore how you can harness their
-          power in your work and personal life.
-        </p>
-      </section>
-
-      <section>
-        <h2 tabIndex="0">About Jessica</h2>
-        <p tabIndex="0">
-          <b>
-            Behavioural Psychologist and Money Coaching Project
-            Manager at Tully.
-          </b>
+          We are now in the era of microservices and like many others,
+          I found myself on shaky grounds with the test pyramid. It
+          baffles me how little effort has been made to redefine or
+          re-evaluate our quality assurance strategies. Whilst
+          advances and breakthroughs are ripe in software development,
+          our quality assurance processes and strategies often trail
+          behind.
         </p>
         <p tabIndex="0">
-          Jess is a Behavioural Psychologist and the Project Manager
-          of Money Coaching at Tully, a business created to help
-          people who are worried about money. Jess leads on Tully’s
-          Money Coaching product which uses Open Banking data to
-          engage consumers in positive financial decision making to
-          improve their financial wellbeing. From helping those in
-          debt manage their money to providing early intervention for
-          those displaying detrimental patterns of behaviour, Jess is
-          using her academic background in psychology to create highly
-          personalised, data led Money Coaching that drives long term,
-          financial behavioural change for Tully customers.
+          So why had I found myself on shaky grounds with a test
+          strategy that stood the test of time for so long? In this
+          session, we unravel why the onset of microservices shook the
+          pyramid and we explore how we could succeed without having
+          to scale the pyramid.
+        </p>
+        <p tabIndex="0">
+          If you, like me started off with the search for a better
+          test strategy that has been tried and tested in the
+          microservices furnace and ended up unsatisfied with the
+          answers; let me introduce you to a new era.
         </p>
       </section>
 
       <section>
-        <h2 tabIndex="0">Video from 2019</h2>
-        <div className="video-frame">
-          <iframe
-            width="560"
-            height="315"
-            src="https://www.youtube.com/embed/bxz6LSOclXQ"
-            title="YouTube video player"
-            frameborder="0"
-            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-            allowfullscreen
-          ></iframe>
-        </div>
-        <div className="center-link">
-          <a
-            target="_blank"
-            rel="noreferrer"
-            aria-label="Jessica Salisbury: Youtube of Talk"
-            href="https://youtu.be/bxz6LSOclXQ"
-          >
-            Link to Youtube Recording
-          </a>
-        </div>
-      </section>
-
-      <section>
-        <h2 tabIndex="0">Links</h2>
-        <li>
-          <a
-            target="_blank"
-            rel="noreferrer"
-            aria-label="Jessica Salisbury: Twitter"
-            href="https://twitter.com/JessSalisburyy"
-          >
-            Twitter
-          </a>
-        </li>
-        <li>
-          <a
-            target="_blank"
-            rel="noreferrer"
-            aria-label="Jessica Salisbury: LinkedIn"
-            href="https://www.linkedin.com/in/jessica-salisbury-2a0920102/"
-          >
-            LinkedIn
-          </a>
-        </li>
+        <h2 tabIndex="0">About Robin</h2>
+        <p tabIndex="0">
+          <b>Senior QA</b>
+        </p>
+        <p tabIndex="0">
+          Senior QA at Koodoo. Seasoned Quality Assurance Engineer
+          with an eye for test tools, strategies and architecture.
+        </p>
       </section>
 
       <style jsx>

@@ -14,21 +14,21 @@ import {
 
 library.add(faInstagram, faTwitter, faGithub, faLinkedin);
 
-export default function JessicaSalisbury() {
+export default function CaraHolland() {
   return (
     <Layout>
       <Head>
-        <title>Jessica Salisbury</title>
+        <title>Cara Holland</title>
       </Head>
       <Header
-        title={'Jessica Salisbury'}
+        title={'Cara Holland'}
         banner="/static/banners/information/thencc.jpg"
       />
       <section>
         <PastSpeakersButton />
         <img
-          src="/static/speakers/2019/Jessica_Salisbury.png"
-          alt="Picture of Jessica Salisbury"
+          src="/static/speakers/2019/Cara_Holland.png"
+          alt="Picture of Cara Holland"
           className="speakerpic"
         />
         <div>
@@ -40,49 +40,46 @@ export default function JessicaSalisbury() {
           </ul>
         </div>
         <br />
-        <h2 tabIndex="0">The Power of the Feedback Loop</h2>
+        <h2 tabIndex="0">
+          Draw UX (or how to get your visual thinking groove on)
+        </h2>
         <p tabIndex="0">
-          From how the body knows when to stop growing to saving lives
-          from speeding cars, the feedback loop is a mechanism that
-          secretly underlies every corner of our existence. The
-          concept spans schools of thought in psychology, economics,
-          biology and neuroscience and is now emerging in the
-          intersection of technology and behavioural science.
+          Working visually is a super power. It increases your ability
+          to understand and share complex information, think
+          creatively and collaborate effectively. But for lots of
+          adults drawing at work is a huge step outside of their
+          comfort zone.
         </p>
         <p tabIndex="0">
-          As technologists we are always looking to build products
-          that are engaging and effective, and as people we strive to
-          reach our full personal and working potential. Could the
-          feedback loop be the piece we&apos;re all missing?
+          I&apos;m a business visualiser who draws, writes and trains.
         </p>
         <p tabIndex="0">
-          In this talk we&apos;ll dive into the structure of the
-          feedback loop, some impressive examples of how powerful they
-          can be and we&apos;ll explore how you can harness their
-          power in your work and personal life.
+          In this session I will show you how to use visual skills
+          throughout the UX journey, transforming your engagement and
+          problem solving skills, and how you already have the
+          functional drawing ability you need, even if you can barely
+          draw a stick. Honest.
+        </p>
+        <p tabIndex="0">
+          By the end of this session you will understand WHY working
+          visually is so effective, but more importantly you&apos;ll
+          get to see HOW it works by trying out visual exericises
+          yourself.
         </p>
       </section>
 
       <section>
-        <h2 tabIndex="0">About Jessica</h2>
+        <h2 tabIndex="0">About Cara</h2>
         <p tabIndex="0">
-          <b>
-            Behavioural Psychologist and Money Coaching Project
-            Manager at Tully.
-          </b>
+          <b>Founder and head doodler at Graphic Change</b>
         </p>
         <p tabIndex="0">
-          Jess is a Behavioural Psychologist and the Project Manager
-          of Money Coaching at Tully, a business created to help
-          people who are worried about money. Jess leads on Tully’s
-          Money Coaching product which uses Open Banking data to
-          engage consumers in positive financial decision making to
-          improve their financial wellbeing. From helping those in
-          debt manage their money to providing early intervention for
-          those displaying detrimental patterns of behaviour, Jess is
-          using her academic background in psychology to create highly
-          personalised, data led Money Coaching that drives long term,
-          financial behavioural change for Tully customers.
+          Founder, trainer and author of best selling book Draw a
+          Better Business, Cara Holland has been working visually with
+          companies as varied as Google and the NHS for the last 13
+          years. She also co-runs the Graphic Change Academy which has
+          trained people in over 69 countries how to start drawing at
+          work.
         </p>
       </section>
 
@@ -92,7 +89,7 @@ export default function JessicaSalisbury() {
           <iframe
             width="560"
             height="315"
-            src="https://www.youtube.com/embed/bxz6LSOclXQ"
+            src="https://www.youtube.com/embed/ZgThiiahBVA"
             title="YouTube video player"
             frameborder="0"
             allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
@@ -103,8 +100,8 @@ export default function JessicaSalisbury() {
           <a
             target="_blank"
             rel="noreferrer"
-            aria-label="Jessica Salisbury: Youtube of Talk"
-            href="https://youtu.be/bxz6LSOclXQ"
+            aria-label="Cara Holland: Youtube of Talk"
+            href="https://youtu.be/ZgThiiahBVA"
           >
             Link to Youtube Recording
           </a>
@@ -117,8 +114,8 @@ export default function JessicaSalisbury() {
           <a
             target="_blank"
             rel="noreferrer"
-            aria-label="Jessica Salisbury: Twitter"
-            href="https://twitter.com/JessSalisburyy"
+            aria-label="Cara Holland: Twitter"
+            href="https://twitter.com/GraphicChange"
           >
             Twitter
           </a>
@@ -127,8 +124,8 @@ export default function JessicaSalisbury() {
           <a
             target="_blank"
             rel="noreferrer"
-            aria-label="Jessica Salisbury: LinkedIn"
-            href="https://www.linkedin.com/in/jessica-salisbury-2a0920102/"
+            aria-label="Cara Holland: LinkedIn"
+            href="https://www.linkedin.com/in/cara-holland-71240b7/"
           >
             LinkedIn
           </a>

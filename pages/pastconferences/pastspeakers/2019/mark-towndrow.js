@@ -14,101 +14,74 @@ import {
 
 library.add(faInstagram, faTwitter, faGithub, faLinkedin);
 
-export default function JessicaSalisbury() {
+export default function MarkTowndrow() {
   return (
     <Layout>
       <Head>
-        <title>Jessica Salisbury</title>
+        <title>Mark Towndrow</title>
       </Head>
       <Header
-        title={'Jessica Salisbury'}
+        title={'Mark Towndrow'}
         banner="/static/banners/information/thencc.jpg"
       />
       <section>
         <PastSpeakersButton />
         <img
-          src="/static/speakers/2019/Jessica_Salisbury.png"
-          alt="Picture of Jessica Salisbury"
+          src="/static/speakers/2019/Mark_Towndrow.png"
+          alt="Picture of Mark Towndrow"
           className="speakerpic"
         />
         <div>
           <ul>
-            <b>Pronouns: </b> She/Her
+            <b>Pronouns: </b> He/Him
           </ul>
           <ul>
             <b>Talk Length: </b> 60 minute
           </ul>
         </div>
         <br />
-        <h2 tabIndex="0">The Power of the Feedback Loop</h2>
+        <h2 tabIndex="0">
+          How to be a better developer - without learning another
+          JavaScript framework
+        </h2>
         <p tabIndex="0">
-          From how the body knows when to stop growing to saving lives
-          from speeding cars, the feedback loop is a mechanism that
-          secretly underlies every corner of our existence. The
-          concept spans schools of thought in psychology, economics,
-          biology and neuroscience and is now emerging in the
-          intersection of technology and behavioural science.
+          It’s increasingly important to make time for
+          self-improvement and career development, but it’s hard to
+          know where to focus your efforts. As developers we’re often
+          attracted to learning new technologies and languages,
+          however I’d like to make the case for a number of
+          non-technical areas of development that I believe can give
+          you a huge advantage in your career.
         </p>
         <p tabIndex="0">
-          As technologists we are always looking to build products
-          that are engaging and effective, and as people we strive to
-          reach our full personal and working potential. Could the
-          feedback loop be the piece we&apos;re all missing?
+          In this talk, I’ll share a number of skills that I’ve found
+          compliment a technical toolbelt, such as generating and
+          maintaining momentum within your team and looking beyond
+          requirements to identify opportunities for your business.
+          I’ll also share some tips to help fast track your progress,
+          exploring why it’s important to seek out and identify the
+          gaps in your skill set, and how to seize opportunities to
+          strengthen these areas.
         </p>
         <p tabIndex="0">
-          In this talk we&apos;ll dive into the structure of the
-          feedback loop, some impressive examples of how powerful they
-          can be and we&apos;ll explore how you can harness their
-          power in your work and personal life.
-        </p>
-      </section>
-
-      <section>
-        <h2 tabIndex="0">About Jessica</h2>
-        <p tabIndex="0">
-          <b>
-            Behavioural Psychologist and Money Coaching Project
-            Manager at Tully.
-          </b>
-        </p>
-        <p tabIndex="0">
-          Jess is a Behavioural Psychologist and the Project Manager
-          of Money Coaching at Tully, a business created to help
-          people who are worried about money. Jess leads on Tully’s
-          Money Coaching product which uses Open Banking data to
-          engage consumers in positive financial decision making to
-          improve their financial wellbeing. From helping those in
-          debt manage their money to providing early intervention for
-          those displaying detrimental patterns of behaviour, Jess is
-          using her academic background in psychology to create highly
-          personalised, data led Money Coaching that drives long term,
-          financial behavioural change for Tully customers.
+          It’s my hope that this talk will give you a different
+          perspective of what makes a great developer, as well as the
+          tools and motivation to broaden your expertise so that you
+          can make a bigger impact in your organisation.
         </p>
       </section>
 
       <section>
-        <h2 tabIndex="0">Video from 2019</h2>
-        <div className="video-frame">
-          <iframe
-            width="560"
-            height="315"
-            src="https://www.youtube.com/embed/bxz6LSOclXQ"
-            title="YouTube video player"
-            frameborder="0"
-            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-            allowfullscreen
-          ></iframe>
-        </div>
-        <div className="center-link">
-          <a
-            target="_blank"
-            rel="noreferrer"
-            aria-label="Jessica Salisbury: Youtube of Talk"
-            href="https://youtu.be/bxz6LSOclXQ"
-          >
-            Link to Youtube Recording
-          </a>
-        </div>
+        <h2 tabIndex="0">About Mark</h2>
+        <p tabIndex="0">
+          <b>Head of Engineering at OpenWrks</b>
+        </p>
+        <p tabIndex="0">
+          Gained a Software Engineering degree at Nottingham Trent
+          University, worked at TDX Group then Equifax before moving
+          to Bizfitech / OpenWrks. Enjoy coding primarily in .NET
+          (Core) and React but love playing with new technologies
+        </p>
       </section>
 
       <section>
@@ -117,20 +90,10 @@ export default function JessicaSalisbury() {
           <a
             target="_blank"
             rel="noreferrer"
-            aria-label="Jessica Salisbury: Twitter"
-            href="https://twitter.com/JessSalisburyy"
+            aria-label="Mark Towndrow: Twitter"
+            href="https://twitter.com/GraphicChange"
           >
             Twitter
-          </a>
-        </li>
-        <li>
-          <a
-            target="_blank"
-            rel="noreferrer"
-            aria-label="Jessica Salisbury: LinkedIn"
-            href="https://www.linkedin.com/in/jessica-salisbury-2a0920102/"
-          >
-            LinkedIn
           </a>
         </li>
       </section>
