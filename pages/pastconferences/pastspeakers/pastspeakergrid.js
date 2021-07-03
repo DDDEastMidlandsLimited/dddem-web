@@ -57,18 +57,30 @@ export default function Speaker2021Component() {
             alignItems="center"
           >
             <Grid item xs>
-              <img
-                className="speaker-image"
-                src="/static/speakers/2019/Matt_Brunt.png"
-                alt="Picture of Matt Brunt"
-              />
+              <a
+                tabIndex="0"
+                href="../2019/matt-brunt"
+                title="Link to Information About Matt"
+              >
+                <img
+                  className="speaker-image"
+                  src="/static/speakers/2019/Matt_Brunt.png"
+                  alt="Picture of Matt Brunt"
+                />
+              </a>
             </Grid>
             <Grid item xs>
-              <img
-                className="speaker-image"
-                src="/static/speakers/2019/Jessica_Salisbury.png"
-                alt="Picture of Jessica Salisbury"
-              />
+              <a
+                tabIndex="0"
+                href="../2019/jessica-salisbury"
+                title="Link to Information About Jess"
+              >
+                <img
+                  className="speaker-image"
+                  src="/static/speakers/2019/Jessica_Salisbury.png"
+                  alt="Picture of Jessica Salisbury"
+                />
+              </a>
             </Grid>
             <Grid item xs>
               <img

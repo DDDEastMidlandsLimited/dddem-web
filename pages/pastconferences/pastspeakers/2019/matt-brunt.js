@@ -18,17 +18,17 @@ export default function DylanBeattie() {
   return (
     <Layout>
       <Head>
-        <title>Dylan Beattie</title>
+        <title>Matt Brunt</title>
       </Head>
       <Header
-        title={'Dylan Beattie'}
+        title={'Matt Brunt'}
         banner="/static/banners/information/thencc.jpg"
       />
       <section>
         <PastSpeakersButton />
         <img
-          src="/static/speakers/2019/Dylan_Beattie.png"
-          alt="Picture of Dylan Beattie"
+          src="/static/speakers/2019/Matt_Brunt.png"
+          alt="Picture of Matt Brunt"
           className="speakerpic"
         />
         <div>
@@ -36,58 +36,42 @@ export default function DylanBeattie() {
             <b>Pronouns: </b> He/Him
           </ul>
           <ul>
-            <b>Talk Length: </b> 60 minute Keynote
+            <b>Talk Length: </b> 60 minute
           </ul>
         </div>
         <br />
-        <h2 tabIndex="0">The Art of Code</h2>
+        <h2 tabIndex="0">Think like a hacker</h2>
         <p tabIndex="0">
-          Software and technology has changed every aspect of the
-          world we live in. At one extreme are the ‘mission critical’
-          applications - the code that runs our banks, our hospitals,
-          our airports and phone networks. Then there’s the code we
-          all use every day to browse the web, watch movies, create
-          spreadsheets… not quite so critical, but still code that
-          solves problems and delivers services.
+          Much in the same way that to secure a house it helps to know
+          how to break in, knowing how to attack our systems will help
+          us secure them. You have a lot of data in your
+          organisations. Whether you think it&apos;s sensitive or not,
+          it has value. Whether an attacker wants data for profit, a
+          grudge, or just for fun we need to ensure that we don&apos;t
+          just leave the door open for them to take what they want.{' '}
         </p>
         <p tabIndex="0">
-          But what about the code that only exists because somebody
-          wanted to write it? Code created just to make people smile,
-          laugh, maybe even dance? Maybe even code that does nothing
-          at all, created just to see if it was possible?
-        </p>
-        <p tabIndex="0">
-          Join Dylan Beattie - programmer, musician, and creator of
-          the Rockstar programming language - for an entertaining look
-          at the art of code. We’ll look at the origins of programming
-          as an art form, from Conway&apos;s Game of Life to the 1970s
-          demoscene and the earliest Obfuscated C competitions. We’ll
-          talk about esoteric languages and quines - how DO you create
-          a program that prints its own source code? We’ll look at
-          quine relays, code golf and generative art, and we’ll
-          explore the phenomenon of live coding as performance - from
-          the pioneers of electronic music to modern algoraves and
-          live coding platforms like Sonic Pi.
+          In this session we&apos;ll start to think like a hacker. The
+          what, why, who, where and how of an attacking mindset will
+          leave you with practical steps you can take away and use to
+          start protecting your systems a little better.
         </p>
       </section>
 
       <section>
-        <h2 tabIndex="0">About Dylan</h2>
+        <h2 tabIndex="0">About Matt</h2>
         <p tabIndex="0">
-          <b>Software Architect</b>
+          <b>Wizard</b>
         </p>
         <p tabIndex="0">
-          Dylan wrote his first web page in 1992 and never looked
-          back. He&apos;s been building data-driven web applications
-          since the late 1990s, and has worked on everything from tiny
-          standalone websites to complex distributed systems.
-          He&apos;s the CTO at Skills Matter in London, he&apos;s a
-          Microsoft MVP, and he&apos;s a regular speaker at
-          conferences and user groups, where he&apos;s spoken about
-          topics from continuous delivery and Conway&apos;s Law to the
-          history of the web, federated authentication and hypermedia
-          APIs. When he&apos;s not wrangling code, Dylan plays guitar
-          and writes songs about code.
+          Matt Brunt is a Developer with Helical Levity, a company
+          educating and building the next generation of Cyber Security
+          professionals.
+        </p>
+        <p tabIndex="0">
+          When not tinkering with code he can be found reading comics,
+          fighting monsters in dungeons and dragons, or drinking tea
+          and eating jaffa-cakes.
         </p>
       </section>
 
@@ -97,7 +81,7 @@ export default function DylanBeattie() {
           <iframe
             width="560"
             height="315"
-            src="https://www.youtube.com/embed/CgDC4lzU5Gc"
+            src="https://www.youtube.com/embed/pqGIIomA46s"
             title="YouTube video player"
             frameborder="0"
             allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
@@ -108,8 +92,8 @@ export default function DylanBeattie() {
           <a
             target="_blank"
             rel="noreferrer"
-            aria-label="Dylan Beattie: Youtube of Talk"
-            href="https://youtu.be/CgDC4lzU5Gc"
+            aria-label="Matt Brunt: Youtube of Talk"
+            href="https://youtu.be/pqGIIomA46s"
           >
             Link to Youtube Recording
           </a>
@@ -122,20 +106,10 @@ export default function DylanBeattie() {
           <a
             target="_blank"
             rel="noreferrer"
-            aria-label="Dylan Beattie: Twitter"
-            href="https://twitter.com/dylanbeattie"
+            aria-label="Matt Brunt: Twitter"
+            href="https://twitter.com/Brunty"
           >
             Twitter
-          </a>
-        </li>
-        <li>
-          <a
-            target="_blank"
-            rel="noreferrer"
-            aria-label="Dylan Beattie: Website"
-            href="https://www.dylanbeattie.net"
-          >
-            Website
           </a>
         </li>
       </section>

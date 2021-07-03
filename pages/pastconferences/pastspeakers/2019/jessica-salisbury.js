@@ -14,21 +14,21 @@ import {
 
 library.add(faInstagram, faTwitter, faGithub, faLinkedin);
 
-export default function DylanBeattie() {
+export default function JessicaSalisbury() {
   return (
     <Layout>
       <Head>
-        <title>Dylan Beattie</title>
+        <title>Jessica Salisbury</title>
       </Head>
       <Header
-        title={'Dylan Beattie'}
+        title={'Jessica Salisbury'}
         banner="/static/banners/information/thencc.jpg"
       />
       <section>
         <PastSpeakersButton />
         <img
-          src="/static/speakers/2019/Dylan_Beattie.png"
-          alt="Picture of Dylan Beattie"
+          src="/static/speakers/2019/Jessica_Salisbury.png"
+          alt="Picture of Jessica Salisbury"
           className="speakerpic"
         />
         <div>
@@ -40,54 +40,49 @@ export default function DylanBeattie() {
           </ul>
         </div>
         <br />
-        <h2 tabIndex="0">The Art of Code</h2>
+        <h2 tabIndex="0">The Power of the Feedback Loop</h2>
         <p tabIndex="0">
-          Software and technology has changed every aspect of the
-          world we live in. At one extreme are the ‘mission critical’
-          applications - the code that runs our banks, our hospitals,
-          our airports and phone networks. Then there’s the code we
-          all use every day to browse the web, watch movies, create
-          spreadsheets… not quite so critical, but still code that
-          solves problems and delivers services.
+          From how the body knows when to stop growing to saving lives
+          from speeding cars, the feedback loop is a mechanism that
+          secretly underlies every corner of our existence. The
+          concept spans schools of thought in psychology, economics,
+          biology and neuroscience and is now emerging in the
+          intersection of technology and behavioural science.
         </p>
         <p tabIndex="0">
-          But what about the code that only exists because somebody
-          wanted to write it? Code created just to make people smile,
-          laugh, maybe even dance? Maybe even code that does nothing
-          at all, created just to see if it was possible?
+          As technologists we are always looking to build products
+          that are engaging and effective, and as people we strive to
+          reach our full personal and working potential. Could the
+          feedback loop be the piece we&apos;re all missing?
         </p>
         <p tabIndex="0">
-          Join Dylan Beattie - programmer, musician, and creator of
-          the Rockstar programming language - for an entertaining look
-          at the art of code. We’ll look at the origins of programming
-          as an art form, from Conway&apos;s Game of Life to the 1970s
-          demoscene and the earliest Obfuscated C competitions. We’ll
-          talk about esoteric languages and quines - how DO you create
-          a program that prints its own source code? We’ll look at
-          quine relays, code golf and generative art, and we’ll
-          explore the phenomenon of live coding as performance - from
-          the pioneers of electronic music to modern algoraves and
-          live coding platforms like Sonic Pi.
+          In this talk we&apos;ll dive into the structure of the
+          feedback loop, some impressive examples of how powerful they
+          can be and we&apos;ll explore how you can harness their
+          power in your work and personal life.
         </p>
       </section>
 
       <section>
-        <h2 tabIndex="0">About Dylan</h2>
+        <h2 tabIndex="0">About Jessica</h2>
         <p tabIndex="0">
-          <b>Software Architect</b>
+          <b>
+            Behavioural Psychologist and Money Coaching Project
+            Manager at Tully.
+          </b>
         </p>
         <p tabIndex="0">
-          Dylan wrote his first web page in 1992 and never looked
-          back. He&apos;s been building data-driven web applications
-          since the late 1990s, and has worked on everything from tiny
-          standalone websites to complex distributed systems.
-          He&apos;s the CTO at Skills Matter in London, he&apos;s a
-          Microsoft MVP, and he&apos;s a regular speaker at
-          conferences and user groups, where he&apos;s spoken about
-          topics from continuous delivery and Conway&apos;s Law to the
-          history of the web, federated authentication and hypermedia
-          APIs. When he&apos;s not wrangling code, Dylan plays guitar
-          and writes songs about code.
+          Jess is a Behavioural Psychologist and the Project Manager
+          of Money Coaching at Tully, a business created to help
+          people who are worried about money. Jess leads on Tully’s
+          Money Coaching product which uses Open Banking data to
+          engage consumers in positive financial decision making to
+          improve their financial wellbeing. From helping those in
+          debt manage their money to providing early intervention for
+          those displaying detrimental patterns of behaviour, Jess is
+          using her academic background in psychology to create highly
+          personalised, data led Money Coaching that drives long term,
+          financial behavioural change for Tully customers.
         </p>
       </section>
 
@@ -97,7 +92,7 @@ export default function DylanBeattie() {
           <iframe
             width="560"
             height="315"
-            src="https://www.youtube.com/embed/CgDC4lzU5Gc"
+            src="https://www.youtube.com/embed/bxz6LSOclXQ"
             title="YouTube video player"
             frameborder="0"
             allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
@@ -108,8 +103,8 @@ export default function DylanBeattie() {
           <a
             target="_blank"
             rel="noreferrer"
-            aria-label="Dylan Beattie: Youtube of Talk"
-            href="https://youtu.be/CgDC4lzU5Gc"
+            aria-label="Jessica Salisbury: Youtube of Talk"
+            href="https://youtu.be/bxz6LSOclXQ"
           >
             Link to Youtube Recording
           </a>
@@ -122,8 +117,8 @@ export default function DylanBeattie() {
           <a
             target="_blank"
             rel="noreferrer"
-            aria-label="Dylan Beattie: Twitter"
-            href="https://twitter.com/dylanbeattie"
+            aria-label="Jessica Salisbury: Twitter"
+            href="https://twitter.com/JessSalisburyy"
           >
             Twitter
           </a>
@@ -132,8 +127,8 @@ export default function DylanBeattie() {
           <a
             target="_blank"
             rel="noreferrer"
-            aria-label="Dylan Beattie: Website"
-            href="https://www.dylanbeattie.net"
+            aria-label="Jessica Salisbury: LinkedIn"
+            href="https://www.linkedin.com/in/jessica-salisbury-2a0920102/"
           >
             Website
           </a>
