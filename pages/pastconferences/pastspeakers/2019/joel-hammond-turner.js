@@ -77,9 +77,9 @@ export default function JoelHammondTurner() {
             height="315"
             src="https://www.youtube.com/embed/bPHxRA_pE54"
             title="YouTube video player"
-            frameborder="0"
+            frameBorder="0"
             allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-            allowfullscreen
+            allowFullScreen
           ></iframe>
         </div>
         <div className="center-link">
