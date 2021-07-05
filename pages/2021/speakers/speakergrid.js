@@ -16,7 +16,7 @@ export default function Speaker2021Component() {
         banner="/static/banners/notable.jpg"
       />
       <section>
-        <p>
+        <p tabIndex="0">
           Click on the images of our wonderful speakers to find out
           more about them and what they will be talking about.
         </p>
@@ -28,6 +28,7 @@ export default function Speaker2021Component() {
           direction="row"
           justify="center"
           alignItems="center"
+          tabIndex="0"
         >
           <Grid item xs>
             <a
