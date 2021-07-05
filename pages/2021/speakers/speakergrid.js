@@ -16,7 +16,7 @@ export default function Speaker2021Component() {
         banner="/static/banners/notable.jpg"
       />
       <section>
-        <p>
+        <p tabIndex="0">
           Click on the images of our wonderful speakers to find out
           more about them and what they will be talking about.
         </p>
@@ -28,6 +28,7 @@ export default function Speaker2021Component() {
           direction="row"
           justify="center"
           alignItems="center"
+          tabIndex="0"
         >
           <Grid item xs>
             <a
@@ -82,7 +83,7 @@ export default function Speaker2021Component() {
               />
             </a>
           </Grid>
-          {/*           <Grid item xs>
+          <Grid item xs>
             <a
               tabIndex="0"
               href="../jennifer-mackown"
@@ -94,7 +95,7 @@ export default function Speaker2021Component() {
                 alt="Picture of Jennifer Mackown"
               />
             </a>
-          </Grid> */}
+          </Grid>
           <Grid item xs>
             <a
               tabIndex="0"
@@ -237,13 +238,6 @@ export default function Speaker2021Component() {
                 alt="Picture of Leke Sholuade"
               />
             </a>
-          </Grid>
-          <Grid item xs>
-            <img
-              className="speaker-image"
-              src="/static/speakers/TBC.png"
-              alt="To be confirmed placeholder"
-            />
           </Grid>
           <Grid item xs>
             <img
