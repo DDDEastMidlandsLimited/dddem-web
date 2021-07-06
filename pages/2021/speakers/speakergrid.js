@@ -104,7 +104,7 @@ export default function Speaker2021Component() {
             >
               <img
                 className="speaker-image"
-                src="/static/speakers/2021/Stephen_Haunts.png"
+                src="/static/speakers/2021/Stephen_Haunts.jpg"
                 alt="Picture of Stephen Haunts"
               />
             </a>
@@ -234,7 +234,7 @@ export default function Speaker2021Component() {
             >
               <img
                 className="speaker-image"
-                src="/static/speakers/2021/Leke_Sholuade.png"
+                src="/static/speakers/2021/Leke_Sholuade.jpg"
                 alt="Picture of Leke Sholuade"
               />
             </a>
