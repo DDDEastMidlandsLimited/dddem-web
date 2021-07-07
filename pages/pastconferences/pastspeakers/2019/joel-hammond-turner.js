@@ -27,7 +27,7 @@ export default function JoelHammondTurner() {
       <section>
         <PastSpeakersButton />
         <img
-          src="/static/speakers/2019/Joel_Hammond-Turner.png"
+          src="/static/speakers/2019/Joel_Hammond-Turner.jpg"
           alt="Picture of Joel Hammond-Turner"
           className="speakerpic"
         />

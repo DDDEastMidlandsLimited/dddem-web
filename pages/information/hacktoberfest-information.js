@@ -56,7 +56,7 @@ export default function HacktoberfestInformation() {
         <div className="row">
           <div className="columnleft">
             <img
-              src="/static/hacktoberfest.svg"
+              src="/static/hacktoberfest.png"
               alt="Hacktoberfest 2019 Logo"
               className="speakerpic"
             />
