@@ -27,7 +27,7 @@ export default function DylanBeattie() {
       <section>
         <PastSpeakersButton />
         <img
-          src="/static/speakers/2019/Dylan_Beattie.png"
+          src="/static/speakers/2019/Dylan_Beattie.jpg"
           alt="Picture of Dylan Beattie"
           className="speakerpic"
         />
