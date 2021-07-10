@@ -46,23 +46,6 @@ export default function ConferenceInformation() {
 
         <p>
           <strong>
-            <a href="#organisers">The Organisers</a>
-          </strong>
-        </p>
-        <ul>
-          <li>
-            <a href="#jessica">Jessica White</a>
-          </li>
-          <li>
-            <a href="#moreton">Moreton Brockley</a>
-          </li>
-          <li>
-            <a href="#moreton">Rachel Watson</a>
-          </li>
-        </ul>
-
-        <p>
-          <strong>
             <a href="#inclusivity">Promoting Inclusivity</a>
           </strong>
         </p>
