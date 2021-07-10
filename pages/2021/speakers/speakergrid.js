@@ -23,6 +23,21 @@ export default function Speaker2021Component() {
       <section className="speaker-grid">
         <article className="speaker-grid-item">
           <a
+            tabIndex="0"
+            href="../tania-allard"
+            title="Link to Information About Tania"
+          >
+            <img
+              className="speaker-image"
+              src="/static/speakers/2021/Tania_Allard.jpg"
+              alt="Picture of Tania Allard"
+            />
+          </a>
+        </article>
+      </section>
+      <section className="speaker-grid">
+        <article className="speaker-grid-item">
+          <a
             className="speaker-link"
             tabIndex="0"
             href="../lex-lofthouse"
@@ -237,13 +252,6 @@ export default function Speaker2021Component() {
             alt="To be confirmed placeholder"
           />
         </article>
-        <article className="speaker-grid-item">
-          <img
-            className="speaker-image"
-            src="/static/speakers/TBC.png"
-            alt="To be confirmed placeholder"
-          />
-        </article>
       </section>
 
       <style jsx>
@@ -254,8 +262,9 @@ export default function Speaker2021Component() {
             margin: auto;
           }
           .speaker-image {
-            width: 150px;
-            height: 150px;
+            width: 175px;
+            height: 175px;
+            margin: 5px;
           }
 
           a .speaker-image:hover {
