@@ -37,6 +37,8 @@ export default function Speaker2021Component() {
             />
           </a>
         </article>
+      </section>
+      <section className="speaker-grid">
         <article className="speaker-grid-item">
           <a
             tabIndex="0"
