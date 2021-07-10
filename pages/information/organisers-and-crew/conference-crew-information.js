@@ -8,10 +8,10 @@ export default function ConferenceInformation() {
   return (
     <Layout>
       <Head>
-        <title>About The Conference Organisers and Crew</title>
+        <title>About The Conference Crew</title>
       </Head>
       <Header
-        title={'About DDDEM'}
+        title={'About The Conference Crew'}
         banner="/static/banners/home.jpg"
       />
       <section name="Contents">
