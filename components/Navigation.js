@@ -20,7 +20,7 @@ export default function Navigation() {
             <NavDropdown
               tabIndex="0"
               title="Information"
-              id="basic-nav-dropdown"
+              id="basic-information-nav-dropdown"
             >
               <NavDropdown.Item
                 id="about-the-conference"
@@ -147,7 +147,7 @@ export default function Navigation() {
             <NavDropdown
               tabIndex="0"
               title="Past Events"
-              id="basic-nav-dropdown"
+              id="basic-past-event-nav-dropdown"
             >
               <Nav.Item>
                 <NavDropdown.Item
