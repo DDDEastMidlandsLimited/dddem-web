@@ -73,7 +73,31 @@ export default function JenniferMackown() {
         <p tabIndex="0">
           <b>Senior Software Developer</b>
         </p>
-        <p tabIndex="0">TBD</p>
+        <p tabIndex="0">
+          After a short but illustrious career as webmaster for a
+          number of uniquely designed X-Files and Stargate SG-1 fan
+          sites in the 90's, I decided to get a proper job. A
+          meandering path through accountancy, volcanoes in space,
+          teaching maths to teenagers and pulling pints eventually
+          lead back to the web, though this time I was called Web
+          Developer and people paid me money to do it. Not much, but
+          startup life be that way.
+        </p>
+        <p tabIndex="0">
+          Now I'm a Senior Developer, which sounds pretty important,
+          and I've somehow migrated from building beautiful websites
+          with frames and animated gifs to serious backend development
+          that make serious apps do serious things seriously.
+        </p>
+        <p tabIndex="0">
+          When not being serious, I play a LOT of Lego with the 4yo. I
+          make beautiful houses and buildings that get demolished and
+          turned into police stations. Or set on fire. Or run over by
+          a monster truck. I sometimes volunteer myself for conference
+          talks or arranging tech meetups, but that's all been a bit
+          limited lately what with the world ending, so I may have
+          forgotten how to interact with real life humans.
+        </p>
       </section>
 
       <section>
