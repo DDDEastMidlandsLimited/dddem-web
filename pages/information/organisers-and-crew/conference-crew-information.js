@@ -94,7 +94,7 @@ export default function ConferenceInformation() {
           </a>
         </article>
       </section>
-      
+
       <section>
         <p tabIndex="0">
           Give them a follow on Twitter, say hi at the local events,
