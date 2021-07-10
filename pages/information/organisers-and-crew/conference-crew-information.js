@@ -62,7 +62,7 @@ export default function ConferenceInformation() {
           >
             <img
               src="/static/organisers/jess.jpg"
-              alt=""
+              alt="Picture of Jessica White"
               className="picture"
             />
           </a>
@@ -75,7 +75,7 @@ export default function ConferenceInformation() {
           >
             <img
               src="/static/organisers/mort.jpg"
-              alt=""
+              alt="Picture of Moreton Brockley"
               className="picture"
             />
           </a>
@@ -88,11 +88,21 @@ export default function ConferenceInformation() {
           >
             <img
               src="/static/organisers/rachel.jpg"
-              alt=""
+              alt="Picture of Rachel Watson"
               className="picture"
             />
           </a>
         </article>
+      </section>
+      
+      <section>
+        <p tabIndex="0">
+          Give them a follow on Twitter, say hi at the local events,
+          offer them a coffee or some chocolate if they look in need.
+          They will both be running around on the day of the event
+          making sure your experience of it is the best they can
+          possibly make it.
+        </p>
       </section>
 
       <section id="year-long-crew">
