@@ -30,6 +30,20 @@ export default function MainPage() {
           </div>
         </section>
 
+        <section id="about-the-conference-crew">
+          <div>
+            <a
+              tabIndex="0"
+              href="/information/organisers-and-crew/conference-crew-information"
+              title="Link to Conference Crew Information Page"
+            >
+              <div className="conference-button image-button">
+                <h2>About The Conference Crew</h2>
+              </div>
+            </a>
+          </div>
+        </section>
+
         <section id="sponsor-information">
           <div>
             <a

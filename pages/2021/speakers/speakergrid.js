@@ -246,11 +246,17 @@ export default function Speaker2021Component() {
           </a>
         </article>
         <article className="speaker-grid-item">
-          <img
-            className="speaker-image"
-            src="/static/speakers/TBC.png"
-            alt="To be confirmed placeholder"
-          />
+          <a
+            tabIndex="0"
+            href="../steve-collins"
+            title="Link to Information About Steve"
+          >
+            <img
+              className="speaker-image"
+              src="/static/speakers/2021/Steve_Collins.jpg"
+              alt="Picture of Steve Collins"
+            />
+          </a>
         </article>
       </section>
 

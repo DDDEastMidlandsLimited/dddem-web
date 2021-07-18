@@ -17,49 +17,109 @@ export default function Navigation() {
               <Nav.Link href="/">Home</Nav.Link>
             </Nav.Item>
 
-            <Nav.Item>
-              <Nav.Link href="/information/main-page">
-                Information
-              </Nav.Link>
-            </Nav.Item>
+            <NavDropdown
+              tabIndex="0"
+              title="Information"
+              id="basic-information-nav-dropdown"
+            >
+              <NavDropdown.Item
+                id="about-the-conference"
+                tabIndex="0"
+                href="/information/conference-information"
+                title="Link to Conference Information Page"
+              >
+                About DDD East Midlands
+              </NavDropdown.Item>
+              <NavDropdown.Item
+                id="about-the-conference-crew"
+                tabIndex="0"
+                href="/information/organisers-and-crew/conference-crew-information"
+                title="Link to Conference Crew Information Page"
+              >
+                About The Conference Crew
+              </NavDropdown.Item>
+              <NavDropdown.Item
+                id="sponsor-information"
+                tabIndex="0"
+                href="/information/sponsor-information"
+                title="Link to Sponsor Information Page"
+              >
+                Sponsor Information
+              </NavDropdown.Item>
+              <NavDropdown.Item
+                id="venue-informaation"
+                tabIndex="0"
+                href="/information/venue-information"
+                title="Link to Venue Information Page"
+              >
+                Venue
+              </NavDropdown.Item>
+              <NavDropdown.Item
+                id="accessibility-information"
+                tabIndex="0"
+                href="/information/accessibility-information"
+                title="Link to Accessibility Information Page"
+              >
+                Accessibility
+              </NavDropdown.Item>
+              <NavDropdown.Item
+                id="ticket-information"
+                tabIndex="0"
+                href="/information/ticket-information"
+                title="Link to Ticket Information Page"
+              >
+                Ticket Information
+              </NavDropdown.Item>
+              <NavDropdown.Item
+                id="attendee-information"
+                tabIndex="0"
+                href="/information/attendee-information"
+                title="Link to Attendee Information Page"
+              >
+                Attending the event
+              </NavDropdown.Item>
+              <NavDropdown.Item
+                id="speaker-information"
+                tabIndex="0"
+                href="/information/speaker-information"
+                title="Link to Speaker Information Page"
+              >
+                Speaker Information
+              </NavDropdown.Item>
+              <NavDropdown.Item
+                id="crew-information"
+                tabIndex="0"
+                href="/information/crew-information"
+                title="Link to Crew Information Page"
+              >
+                Crew Information
+              </NavDropdown.Item>
+            </NavDropdown>
 
-            {/* <Nav.Item>
-                <Nav.Link href="/2020/hacktober">
-                  Hacktoberfest
-                </Nav.Link>
-              </Nav.Item> */}
-
             <Nav.Item>
-              <Nav.Link href="/2021/speakers/speakergrid">
+              <Nav.Link
+                tabIndex="0"
+                href="/2021/speakers/speakergrid"
+              >
                 Speakers
               </Nav.Link>
             </Nav.Item>
 
             <Nav.Item>
-              <Nav.Link href="/2021/notable-companies">
+              <Nav.Link tabIndex="0" href="/2021/notable-companies">
                 Notable Companies
               </Nav.Link>
             </Nav.Item>
 
             <Nav.Item>
-              <Nav.Link href="/2021/sponsor">Sponsor</Nav.Link>
-            </Nav.Item>
-
-            {/*             <Nav.Item>
-              <Nav.Link
-                rel="noopener noreferrer"
-                target="_blank"
-                href="https://sessionize.com/ddd-east-midlands-conference-2021/"
-                onSelect={() => {
-                  logEvent('navigation', 'eventbrite');
-                }}
-              >
-                Submit A Talk
+              <Nav.Link tabIndex="0" href="/2021/sponsor">
+                Sponsor
               </Nav.Link>
-            </Nav.Item> */}
+            </Nav.Item>
 
             <Nav.Item>
               <Nav.Link
+                tabIndex="0"
                 target="_blank"
                 href="https://www.eventbrite.co.uk/e/ddd-east-midlands-2021-tickets-146129646707"
                 onSelect={() => {
@@ -72,6 +132,7 @@ export default function Navigation() {
 
             <Nav.Item>
               <Nav.Link
+                tabIndex="0"
                 rel="noopener noreferrer"
                 target="_blank"
                 href="https://blog.dddeastmidlands.com/"
@@ -83,19 +144,26 @@ export default function Navigation() {
               </Nav.Link>
             </Nav.Item>
 
-            <NavDropdown title="Past Events" id="basic-nav-dropdown">
+            <NavDropdown
+              tabIndex="0"
+              title="Past Events"
+              id="basic-past-event-nav-dropdown"
+            >
               <Nav.Item>
-                <NavDropdown.Item href="/pastconferences/pastspeakers/pastspeakergrid">
+                <NavDropdown.Item
+                  tabIndex="0"
+                  href="/pastconferences/pastspeakers/pastspeakergrid"
+                >
                   Past Speakers
                 </NavDropdown.Item>
               </Nav.Item>
-              <NavDropdown.Item href="/2019/album">
+              <NavDropdown.Item tabIndex="0" href="/2019/album">
                 Photos 2019
               </NavDropdown.Item>
             </NavDropdown>
 
             <Nav.Item>
-              <Nav.Link href="/code-of-conduct">
+              <Nav.Link tabIndex="0" href="/code-of-conduct">
                 Code of Conduct
               </Nav.Link>
             </Nav.Item>
