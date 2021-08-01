@@ -249,8 +249,9 @@ export default function Speaker2021Component() {
           }
 
           .speaker-image {
-            width: 150px;
-            height: 150px;
+            width: 175px;
+            height: 175px;
+            margin: 5px;
           }
 
           a .speaker-image:hover {
