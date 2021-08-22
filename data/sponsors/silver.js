@@ -27,6 +27,13 @@ const silver = [
     link: 'https://www.bjss.com/joinus/',
     description: bjssDesc,
   },
+  {
+    id: 4,
+    name: 'Affinity',
+    image: '/static/sponsors/Affinity.png',
+    link: 'https://affinity.serif.com/en-gb/careers/',
+    description: "",
+  },
 ];
 
 export default silver;
