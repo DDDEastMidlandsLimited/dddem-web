@@ -118,6 +118,12 @@ export default function Navigation() {
             </Nav.Item>
 
             <Nav.Item>
+              <Nav.Link tabIndex="0" href="/agenda">
+                Agenda
+              </Nav.Link>
+            </Nav.Item>
+
+            <Nav.Item>
               <Nav.Link
                 tabIndex="0"
                 target="_blank"

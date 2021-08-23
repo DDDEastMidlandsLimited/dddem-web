@@ -15,7 +15,7 @@ export default function Agenda() {
       <section tabIndex="0" name="Agenda">
         <div
           className="sessionize-loader"
-          data-sessionize-load-url="https://sessionize.com/api/v2/dwsqznmo/view/GridSmart?under=True"
+          data-sessionize-load-url="https://sessionize.com/api/v2/tz5o91c3/view/GridSmart?under=True"
         >
           <div className="sz-spinner"></div>
         </div>
