@@ -32,7 +32,7 @@ const silver = [
     name: 'Affinity',
     image: '/static/sponsors/Affinity.png',
     link: 'https://affinity.serif.com/en-gb/careers/',
-    description: "",
+    description: '',
   },
 ];
 
