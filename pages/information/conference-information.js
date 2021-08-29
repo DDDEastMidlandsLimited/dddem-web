@@ -1,6 +1,7 @@
 import React from 'react';
 import Layout from '../../components/Layout';
 import Header from '../../components/Header';
+import CovidPrecautions from '../../components/content/CovidPrecautions';
 import theme from '../../theme/theme';
 import Head from 'next/head';
 
@@ -16,7 +17,11 @@ export default function ConferenceInformation() {
       />
       <section name="Contents">
         <h1 tabIndex="0">Contents</h1>
-
+        <p>
+          <strong>
+            <a href="#covid-precautions">Covid Precautions</a>
+          </strong>
+        </p>
         <p>
           <strong>
             <a href="#about">About DDD East Midlands</a>
@@ -61,6 +66,8 @@ export default function ConferenceInformation() {
           </li>
         </ul>
       </section>
+
+      <CovidPrecautions />
 
       <section id="about">
         <a name="about" />

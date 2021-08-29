@@ -3,6 +3,7 @@ import Layout from '../../components/Layout';
 import Header from '../../components/Header';
 import theme from '../../theme/theme';
 import Head from 'next/head';
+import CovidPrecautions from '../../components/content/CovidPrecautions';
 import {
   CodeOfConduct,
   Introduction,
@@ -35,6 +36,11 @@ export default function CrewInformation() {
         <p>
           <strong>
             <a href="#code-of-conduct">Code of Conduct</a>
+          </strong>
+        </p>
+        <p>
+          <strong>
+            <a href="#covid-precautions">Covid Precautions</a>
           </strong>
         </p>
         <p>
@@ -124,6 +130,8 @@ export default function CrewInformation() {
       <Introduction />
 
       <CodeOfConduct />
+
+      <CovidPrecautions />
 
       <section id="where-and-when">
         <a name="when-and-where" />
