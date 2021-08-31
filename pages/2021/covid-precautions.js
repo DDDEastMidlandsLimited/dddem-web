@@ -12,8 +12,8 @@ export default function CovidPrecautionsPage() {
         <title>Covid Precautions</title>
       </Head>
       <Header
-        title={'Sponsor Information'}
-        banner="/static/banners/sponsor.jpg"
+        title={'Covid Precautions'}
+        banner="/static/banners/information/header.jpg"
       />
 
       <section>
