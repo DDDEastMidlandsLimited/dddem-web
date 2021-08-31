@@ -23,11 +23,11 @@ export default function CovidPrecautions() {
         that you help us by cooperating with them.
       </p>
       <div>
-            <img
-              src="/static/info/Precautions.png"
-              alt=""
-              className="picture"
-            />
+        <img
+          src="/static/info/Precautions.png"
+          alt=""
+          className="picture"
+        />
       </div>
       <h2 tabIndex="0">On arrival at the event</h2>
       <p tabIndex="0">When you arrive we will do the following:</p>

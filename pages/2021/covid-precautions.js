@@ -17,7 +17,7 @@ export default function CovidPrecautionsPage() {
       />
 
       <section>
-        <CovidPrecautions/>
+        <CovidPrecautions />
       </section>
 
       <style jsx>
@@ -30,7 +30,6 @@ export default function CovidPrecautionsPage() {
           section div {
             padding-bottom: 10px;
           }
-
 
           .imagecenter {
             text-align: center;
