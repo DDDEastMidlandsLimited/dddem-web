@@ -20,7 +20,9 @@ export default function Footer() {
       <div className="row">
         <div className="col-3">
           <Link href="/code-of-conduct">
-            <a target="_blank">Code of Conduct</a>
+            <a target="_blank" rel="noreferrer">
+              Code of Conduct
+            </a>
           </Link>
         </div>
         <div className="col-3">

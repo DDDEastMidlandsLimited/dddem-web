@@ -3,6 +3,7 @@ import Layout from '../../components/Layout';
 import Header from '../../components/Header';
 import theme from '../../theme/theme';
 import Head from 'next/head';
+import CovidPrecautions from '../../components/content/CovidPrecautions';
 import {
   Transport,
   SocialMedia,
@@ -22,13 +23,16 @@ export default function SponsorInformation() {
 
       <section name="Contents">
         <h1 tabIndex="0">Contents</h1>
-
+        <p>
+          <strong>
+            <a href="#covid-precautions">Covid Precautions</a>
+          </strong>
+        </p>
         <p>
           <strong>
             <a href="#code-of-conduct">Code of Conduct</a>
           </strong>
         </p>
-
         <p tabIndex="0">
           <strong>
             <a href="#before-the-conference">Before The Conference</a>
@@ -42,7 +46,6 @@ export default function SponsorInformation() {
             <a href="#pat-before">PAT Testing</a>
           </li>
         </ul>
-
         <p tabIndex="0">
           <strong>
             <a href="#day-before">Setup The Day Before Conference</a>
@@ -59,7 +62,6 @@ export default function SponsorInformation() {
             <a href="#lift-restrictions">Lift Restrictions</a>
           </li>
         </ul>
-
         <p tabIndex="0">
           <strong>Transport On The Day</strong>
         </p>
@@ -71,7 +73,6 @@ export default function SponsorInformation() {
             <a href="#driving">Driving</a>
           </li>
         </ul>
-
         <p tabIndex="0">
           <strong>
             <a href="#setup-on-day">Setup On The Day</a>
@@ -85,7 +86,6 @@ export default function SponsorInformation() {
             <a href="#signing-in">Signing In</a>
           </li>
         </ul>
-
         <p tabIndex="0">
           <strong>
             <a href="#general">General Conference Day Information</a>
@@ -108,7 +108,6 @@ export default function SponsorInformation() {
             <a href="#catering">Catering</a>
           </li>
         </ul>
-
         <p tabIndex="0">
           <strong>
             <a href="#stalls">Exhibition Stalls</a>
@@ -128,7 +127,6 @@ export default function SponsorInformation() {
             <a href="#booth-restrictions">Restrictions</a>
           </li>
         </ul>
-
         <p tabIndex="0">
           <strong>Social Media and Photos</strong>
         </p>
@@ -143,7 +141,6 @@ export default function SponsorInformation() {
             <a href="#social-posts">Social Media Posts</a>
           </li>
         </ul>
-
         <p tabIndex="0">
           <strong>
             <a href="#packing-up">Packing Up Day Of The Conference</a>
@@ -154,13 +151,14 @@ export default function SponsorInformation() {
             <a href="#teardown-time">Pick Up Time</a>
           </li>
         </ul>
-
         <p>
           <strong>
             <a href="#contact">Contacts</a>
           </strong>
         </p>
       </section>
+
+      <CovidPrecautions />
 
       <CodeOfConduct />
 

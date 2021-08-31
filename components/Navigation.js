@@ -97,6 +97,12 @@ export default function Navigation() {
             </NavDropdown>
 
             <Nav.Item>
+              <Nav.Link tabIndex="0" href="/2021/covid-precautions">
+                Covid Precautions
+              </Nav.Link>
+            </Nav.Item>
+
+            <Nav.Item>
               <Nav.Link
                 tabIndex="0"
                 href="/2021/speakers/speakergrid"

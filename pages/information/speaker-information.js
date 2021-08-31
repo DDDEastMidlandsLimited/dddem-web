@@ -1,6 +1,7 @@
 import React from 'react';
 import Layout from '../../components/Layout';
 import Header from '../../components/Header';
+import CovidPrecautions from '../../components/content/CovidPrecautions';
 import theme from '../../theme/theme';
 import Head from 'next/head';
 import FullWidthImage from '../../components/FullWidthImage';
@@ -26,10 +27,14 @@ export default function SpeakerInformation() {
         <h1 tabIndex="0">Contents</h1>
         <p>
           <strong>
+            <a href="#covid-precautions">Covid Precautions</a>
+          </strong>
+        </p>
+        <p>
+          <strong>
             <a href="#code-of-conduct">Code of Conduct</a>
           </strong>
         </p>
-
         <p tabIndex="0">
           <strong>General</strong>
         </p>
@@ -146,6 +151,8 @@ export default function SpeakerInformation() {
           </li>
         </ul>
       </section>
+
+      <CovidPrecautions />
 
       <CodeOfConduct />
 
