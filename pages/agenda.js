@@ -24,7 +24,9 @@ export default function Agenda() {
               this site
             </a>{' '}
             to get the event app on your phone and create a
-            personalised plan for the day.
+            personalised plan for the day. If accessing on your phone,
+            then go to the three dots on your browser and use the "add
+            to homescreen" option.
           </p>
           <img
             src="/static/appqrcode.png"
