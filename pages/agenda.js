@@ -10,7 +10,29 @@ export default function Agenda() {
       <Head>
         <title>Agenda</title>
       </Head>
-      <Header title={'Agenda'} />
+      <Header title={'Agenda'} banner="/static/banners/album.jpg" />
+
+      <section tabIndex="0" name="QR Code">
+        <div className="img-center">
+          <p tabIndex="0">
+            Use the below QR code or head to{' '}
+            <a
+              href="https://ddd-east-midlands-conference-2021.sessionize.com"
+              target="_blank"
+              rel="noreferrer"
+            >
+              this site
+            </a>{' '}
+            to get the event app on your phone and create a
+            personalised plan for the day.
+          </p>
+          <img
+            src="/static/appqrcode.png"
+            alt="QR code"
+            className="qrcode"
+          />
+        </div>
+      </section>
 
       <section tabIndex="0" name="Agenda">
         <div
@@ -30,6 +52,14 @@ export default function Agenda() {
           }
           section div {
             padding-bottom: 10px;
+          }
+
+          .qrcode {
+            width: 250px;
+          }
+
+          .img-center {
+            text-align: center;
           }
         `}
       </style>
