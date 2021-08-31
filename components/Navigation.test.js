@@ -18,21 +18,21 @@ describe('Given the Navigation is rendered', () => {
     );
   });
 
+  test('it should display a Covid Precautions link', () => {
+    const { getByText } = render(<Navigation />);
+    expect(getByText('Covid Precautions')).toBeInTheDocument();
+    expect(getByText('Covid Precautions')).toHaveAttribute(
+      'href',
+      '/2021/covid-precautions',
+    );
+  });
+
   test('it should display a Notable Companies link', () => {
     const { getByText } = render(<Navigation />);
     expect(getByText('Notable Companies')).toBeInTheDocument();
     expect(getByText('Notable Companies')).toHaveAttribute(
       'href',
       '/2021/notable-companies',
-    );
-  });
-
-  test('it should display a Sponsor link', () => {
-    const { getByText } = render(<Navigation />);
-    expect(getByText('Sponsor')).toBeInTheDocument();
-    expect(getByText('Sponsor')).toHaveAttribute(
-      'href',
-      '/2021/sponsor',
     );
   });
 
