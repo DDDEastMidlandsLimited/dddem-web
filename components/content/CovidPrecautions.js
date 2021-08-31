@@ -22,6 +22,13 @@ export default function CovidPrecautions() {
         attendance we are taking the following precautions and ask
         that you help us by cooperating with them.
       </p>
+      <div>
+            <img
+              src="/static/info/Precautions.png"
+              alt=""
+              className="picture"
+            />
+      </div>
       <h2 tabIndex="0">On arrival at the event</h2>
       <p tabIndex="0">When you arrive we will do the following:</p>
       <h3 tabIndex="0">Check your temperature</h3>

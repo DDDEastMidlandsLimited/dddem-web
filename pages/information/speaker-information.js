@@ -27,12 +27,12 @@ export default function SpeakerInformation() {
         <h1 tabIndex="0">Contents</h1>
         <p>
           <strong>
-            <a href="#code-of-conduct">Code of Conduct</a>
+            <a href="#covid-precautions">Covid Precautions</a>
           </strong>
         </p>
         <p>
           <strong>
-            <a href="#covid-precautions">Covid Precautions</a>
+            <a href="#code-of-conduct">Code of Conduct</a>
           </strong>
         </p>
         <p tabIndex="0">
@@ -152,9 +152,9 @@ export default function SpeakerInformation() {
         </ul>
       </section>
 
-      <CodeOfConduct />
-
       <CovidPrecautions />
+
+      <CodeOfConduct />
 
       <section id="general">
         <h1 tabIndex="0">General</h1>

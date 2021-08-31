@@ -35,12 +35,12 @@ export default function CrewInformation() {
         </p>
         <p>
           <strong>
-            <a href="#code-of-conduct">Code of Conduct</a>
+            <a href="#covid-precautions">Covid Precautions</a>
           </strong>
         </p>
         <p>
           <strong>
-            <a href="#covid-precautions">Covid Precautions</a>
+            <a href="#code-of-conduct">Code of Conduct</a>
           </strong>
         </p>
         <p>
@@ -129,9 +129,9 @@ export default function CrewInformation() {
 
       <Introduction />
 
-      <CodeOfConduct />
-
       <CovidPrecautions />
+
+      <CodeOfConduct />
 
       <section id="where-and-when">
         <a name="when-and-where" />
