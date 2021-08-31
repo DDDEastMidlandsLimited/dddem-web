@@ -102,7 +102,7 @@ export default function TicketInformation() {
         <ul>
           <li tabIndex="0">Return it through Eventbrite.</li>
           <li>
-            <a href="contact" target="_blank">
+            <a href="contact" target="_blank" rel="noreferrer">
               Contact Jessica and she can sort it out for you.
             </a>
           </li>

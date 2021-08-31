@@ -3,6 +3,7 @@ import Layout from '../../components/Layout';
 import Header from '../../components/Header';
 import theme from '../../theme/theme';
 import Head from 'next/head';
+import CovidPrecautions from '../../components/content/CovidPrecautions';
 import {
   CodeOfConduct,
   WhereWhen,
@@ -28,7 +29,7 @@ export default function AttendeeInformation() {
         <h1 tabIndex="0">Contents</h1>
         <p>
           <strong>
-            <a href="#covid19">COVID-19</a>
+            <a href="#covid-precautions">Covid Precautions</a>
           </strong>
         </p>
         <p>
@@ -139,36 +140,7 @@ export default function AttendeeInformation() {
         </ul>
       </section>
 
-      <a name="covid19" />
-      <section id="covid19">
-        <h1 tabIndex="0">COVID-19</h1>
-        <p tabIndex="0">
-          With the current state of play, we understand that you may
-          be curious as to what our plans are around COVID-19. Your
-          safety is our greatest concern, so we have put plans into
-          place.
-        </p>
-        <h4>Plan A: Conference Goes Ahead</h4>
-        <p tabIndex="0">
-          As the event is happening in October, we are far enough
-          ahead in the future that the pandemic <i>might</i> not
-          effect our event. If that is the case, we will be going
-          ahead as planned on October the 2nd 2021.
-        </p>
-        <p tabIndex="0">
-          On arrival you will be asked to show that you have had two
-          doses of a COVID Vaccine, or, if you have only had one
-          vaccine, you will be asked to do show a negative flow tech.
-        </p>
-        <h4>Back up plans: Social Distancing or Postponing</h4>
-        <p tabIndex="0">
-          The safety of all involved is our greatest concern. As such
-          we have also got plans for either having a social distanced
-          version of the event or postponing to March 2022 if
-          government restrictions prevent us from running a full
-          event, or we deem it not safe enough to go ahead.
-        </p>
-      </section>
+      <CovidPrecautions />
 
       <CodeOfConduct />
 
