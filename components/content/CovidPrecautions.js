@@ -25,7 +25,7 @@ export default function CovidPrecautions() {
       <div>
         <img
           src="/static/info/Precautions.png"
-          alt=""
+          alt="An image showing the cautions in white text against a blue background"
           className="picture"
         />
       </div>
