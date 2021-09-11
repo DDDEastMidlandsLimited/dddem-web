@@ -31,6 +31,7 @@ export default function CovidPrecautions() {
       </div>
       <h2 tabIndex="0">On arrival at the event</h2>
       <p tabIndex="0">When you arrive we will do the following:</p>
+      <br />
       <h3 tabIndex="0">Check your temperature</h3>
       <p tabIndex="0">
         We will do this by using a “thermometer gun,” a device that is
@@ -38,6 +39,7 @@ export default function CovidPrecautions() {
         surface temperature without making any contact with a person's
         skin.
       </p>
+      <br />
       <h3 tabIndex="0">
         Ask you to provide proof of at least one Covid vaccination
       </h3>
@@ -60,6 +62,7 @@ export default function CovidPrecautions() {
         please let the volunteers know. We understand there will need
         to be exemptions for some cases.
       </p>
+      <br />
       <h3 tabIndex="0">
         Prove you have had a negative result on a lateral flow test in
         the last 24-48 hours
@@ -86,7 +89,23 @@ export default function CovidPrecautions() {
         bear in mind this will take 30 mins as a minimum so arrive
         early!
       </p>
-
+      <br />
+      <h3 tabIndex="0">Ask you to choose a wrist band.</h3>
+      <p tabIndex="0">
+        The wrist band will indicate if you are socially distancing or
+        not.
+      </p>
+      <li>
+        <b>Red band:</b> Please keep your distance.{' '}
+      </li>
+      <li>
+        <b>Green band:</b> I'm not socially distancing.
+      </li>
+      <p tabIndex="0">
+        We thank you in advance for being respectful about peoples
+        choices around their social distancing requirements.
+      </p>
+      <br />
       <h2 tabIndex="0">Throughout the day</h2>
       <ul tabIndex="0">
         <li tabIndex="0">
