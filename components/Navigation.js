@@ -137,6 +137,12 @@ export default function Navigation() {
             </Nav.Item>
 
             <Nav.Item>
+              <Nav.Link tabIndex="0" href="/2021/hacktober">
+                Hacktober
+              </Nav.Link>
+            </Nav.Item>
+
+            <Nav.Item>
               <Nav.Link
                 tabIndex="0"
                 rel="noopener noreferrer"

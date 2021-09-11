@@ -23,7 +23,7 @@ export default function HacktoberFest() {
             <img
               src="/static/hacktoberfest/hacktoberfest.png"
               alt="Hacktoberfest 2020 Logo"
-              className="speakerpic"
+              className="hacktoberlogo"
             />
           </div>
           <div className="columnright">
@@ -70,8 +70,8 @@ export default function HacktoberFest() {
         <p tabIndex="0">
           There are a number of issues that can be picked up on the
           DDD East Midlands repositories. We have labelled the issues
-          with <i>up-for-grabs, hacktober, hacktoberfest</i> if we
-          think they are small enough to be picked up for a PR.
+          with <i>up-for-grabs, hacktober</i> if we think they are
+          small enough to be picked up for a PR.
         </p>
         <li>Pick up an issue.</li>
         <li>Write a blog post.</li>
@@ -134,13 +134,9 @@ export default function HacktoberFest() {
       <section id="first-pr">
         <h1 tabIndex="0">First PR?</h1>
         <a name="first-pr" />
-        <h2 tabIndex="0">
-          Tell us what you love about the East Midlands Tech Community
-        </h2>
+        <h2 tabIndex="0">Add your selfie!</h2>
         <p tabIndex="0">
-          Add a list element to the below with your name and a
-          sentence or two about what you love about the East Midlands
-          tech scene.
+          Take a photo of yourself and add it to this page.
         </p>
         <h2 tabIndex="0">How to do this?</h2>
         <p>
@@ -186,18 +182,21 @@ export default function HacktoberFest() {
           short name that summarises your changes.
         </p>
         <h3 tabIndex="0">Add your change to this page</h3>
-        <p>
-          In the `pages/2020/hacktober.js` file you will see the
-          section "Why we like the East Midlands Tech Community:". Add
-          your name and reason why you like the East Midlands tech
-          community to the list.
-        </p>
-        <div className="align-center">
-          <img
-            src="/static/hacktoberfest/screenshot.png"
-            alt="Screen shot of code to add to"
-          />
-        </div>
+        <li>
+          Add a photo of yourself to the folder
+          <i>static/hacktoberfest/2021.</i>
+        </li>
+        <li>
+          Add the following code to the{' '}
+          <i>Hacktoberfest Corner Contributors!</i> section of this
+          page under the previous article section. If you need some
+          help, ask our Hacktoberfest volunteer.
+        </li>
+        <img
+          className="codesnip imagecenter"
+          src="/static/hacktoberfest/codesnip.png"
+          alt="Picture of the code snip you need to use"
+        />
         <h3 tabIndex="0">Run prettier</h3>
         <p>
           In your terminal of choice (command line, bash etc) run the
@@ -213,41 +212,25 @@ export default function HacktoberFest() {
       </section>
 
       <section id="list">
-        <h1 tabIndex="0">
-          Why we like the East Midlands Tech Community:
-        </h1>
-        <a name="list" />
-        <li>
-          <a
-            href="https://twitter.com/JessPWhite"
-            target="_blank"
-            rel="noreferrer"
-          >
-            Jessica White
-          </a>{' '}
-          - The people who are part of the East Midlands Tech
-          Community are amazing.
-        </li>
-        <li>
-          <a href="" target="_blank">
-            Chirag Bolakani
-          </a>{' '}
-          - It&apos;s a great pleasure to be a part of the East
-          Midlands Tech Community as the people are very supportive
-          and help you in your overall development.
-        </li>
-        <li>
-          <a
-            href="https://twitter.com/MRJulian97"
-            target="_blank"
-            rel="noreferrer"
-          >
-            Julian Merida
-          </a>{' '}
-          - Everyone in East Midlands Tech Community are really
-          amazing! I&apos;ve learnt a lot from the content they share!
-        </li>
+        <h1>Hacktoberfest Corner Contributors!</h1>
+        <section className="speaker-grid">
+          <article className="speaker-grid-item">
+            <img
+              className="speaker-image"
+              src="/static/hacktoberfest/2021/Jess_White.jpg"
+              alt="Picture of Jess White"
+            />
+          </article>
+          {/*       <article className="speaker-grid-item">
+            <img
+              className="speaker-image"
+              src="/static/hacktoberfest/2021/FirstName_LastName.jpg"
+              alt="Picture of FirstName LastName"
+            />
+          </article> */}
+        </section>
       </section>
+
       <style jsx>
         {`
           section {
@@ -263,6 +246,10 @@ export default function HacktoberFest() {
             text-align: center;
           }
 
+          .codesnip {
+            width: 500px;
+          }
+
           table {
             font-family: arial, sans-serif;
             border-collapse: collapse;
@@ -270,9 +257,25 @@ export default function HacktoberFest() {
             text-align: center;
           }
 
-          .speakerpic {
+          .hacktoberlogo {
             width: 95%;
-            border-radius: 50%;
+          }
+
+          .speaker-image {
+            width: 175px;
+            height: 175px;
+            margin: 5px;
+          }
+
+          .speaker-grid {
+            display: flex;
+            flex-direction: row;
+            flex-wrap: wrap;
+            justify-content: center;
+          }
+
+          .speaker-grid-item {
+            min-width: 180px;
           }
 
           button {
@@ -284,7 +287,7 @@ export default function HacktoberFest() {
             text-decoration: none;
             display: inline-block;
             font-size: 18px;
-            background-color: #ff8ae2;
+            background-color: #ff7518;
             margin-bottom: 15px;
           }
 
