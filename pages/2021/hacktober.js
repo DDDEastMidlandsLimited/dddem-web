@@ -154,60 +154,145 @@ export default function HacktoberFest() {
         </p>
         <h3 tabIndex="0">Fork the repository</h3>
         <p>
-          <a
-            href="https://guides.github.com/activities/forking/"
-            target="_blank"
-            rel="noreferrer"
-          >
-            Fork the repository
-          </a>{' '}
-          and clone it locally.{' '}
-          <a
-            href="https://docs.github.com/en/github/collaborating-with-issues-and-pull-requests/configuring-a-remote-for-a-fork"
-            target="_blank"
-            rel="noreferrer"
-          >
-            Configure your remote fork to have the original projects
-            main branch as it’s upstream.
-          </a>
-          If you regularly pull in changes from this remote “upstream”
-          repository, your fork will remain up to date, reducing the
-          chance of later complex merge conflicts.
+          <ul>
+            <li>
+              {' '}
+              <a
+                href="https://github.com/DDDEastMidlandsLimited/dddem-web"
+                target="_blank"
+                rel="noreferrer"
+              >
+                Fork the repository for this website here.
+              </a>
+            </li>
+            <li>
+              {' '}
+              <a
+                href="https://guides.github.com/activities/forking/"
+                target="_blank"
+                rel="noreferrer"
+              >
+                You can find some instructions on how to fork
+                repositories in this guide.
+              </a>
+            </li>
+            <li>
+              {' '}
+              <a
+                href="https://docs.github.com/en/repositories/creating-and-managing-repositories/cloning-a-repository"
+                target="_blank"
+                rel="noreferrer"
+              >
+                Clone the repository locally using these instructions.
+              </a>
+              </li>
+            <li>
+              {' '}
+              <a
+                href="https://docs.github.com/en/github/collaborating-with-issues-and-pull-requests/configuring-a-remote-for-a-fork"
+                target="_blank"
+                rel="noreferrer"
+              >
+                Configure your remote fork to have the original
+                projects main branch as it’s upstream using these instructions.
+              </a>
+            </li>
+            <li>
+              If you regularly pull in changes from this remote
+              “upstream” repository, your fork will remain up to date,
+              reducing the chance of later complex merge conflicts.
+            </li>
+          </ul>
         </p>
         <h3 tabIndex="0">Create a branch</h3>
         <p>
-          In your forked repository create a branch, which is named
-          according to the contribution guidelines for the repository.
-          If there are no guidelines available, give your branch a
-          short name that summarises your changes.
+          <ul>
+            <li>
+              In your forked repository
+              {' '}
+              <a
+                href="https://git-scm.com/book/en/v2/Git-Branching-Basic-Branching-and-Merging"
+                target="_blank"
+                rel="noreferrer"
+              >
+                create a branch
+              </a>
+              , which is
+              named according to the contribution guidelines for the
+              repository.
+            </li>
+            <li>
+              If there are no guidelines available, give your branch a
+              short name that summarises your changes.
+            </li>
+          </ul>
         </p>
         <h3 tabIndex="0">Add your change to this page</h3>
-        <li>
-          Add a photo of yourself to the folder
-          <i>static/hacktoberfest/2021.</i>
-        </li>
-        <li>
-          Add the following code to the{' '}
-          <i>Hacktoberfest Corner Contributors!</i> section of this
-          page under the previous article section. If you need some
-          help, ask our Hacktoberfest volunteer.
-        </li>
-        <img
-          className="codesnip imagecenter"
-          src="/static/hacktoberfest/codesnip.png"
-          alt="Picture of the code snip you need to use"
-        />
+        <p>
+          <ul>
+            <li>
+              Add a photo of yourself to the{' '}
+              <b><i>public/static/hacktoberfest/2021</i></b> folder.
+            </li>
+            <li>
+              Add the following code to the{' '}
+              <b><i>pages/2021/hacktoberfest.js</i></b> page under the
+              "Hacktoberfest Corner Contributors!" section.
+            </li>            
+          </ul>
+        </p>
+        <p class="columnfullwidth">
+          <img
+            className="codesnip imagecenter"
+            src="/static/hacktoberfest/codesnip.png"
+            alt="Picture of the code snip you need to use"
+          />
+        </p>
         <h3 tabIndex="0">Run prettier</h3>
         <p>
           In your terminal of choice (command line, bash etc) run the
-          command `npm run prettier fix`. This will fix the formatting
+          command `npm run prettier:fix`. This will fix the formatting
           in your changes.
         </p>
         <h3 tabIndex="0">Commit, push and raise a Pull Request</h3>
         <p>
-          Commit your changes with a message describing your change
-          and push your changes up. You can then raise a Pull Request
-          using the GitHub UI.
+          <ul>
+            <li>
+              {' '}
+              <a
+                href="https://docs.github.com/en/repositories/working-with-files/managing-files/adding-a-file-to-a-repository#adding-a-file-to-a-repository-using-the-command-line"
+                target="_blank"
+                rel="noreferrer"
+              >
+                Commit your changes
+              </a>
+            
+            </li>
+            <li>
+              {' '}
+              <a
+                href="https://docs.github.com/en/get-started/using-git/pushing-commits-to-a-remote-repository"
+                target="_blank"
+                rel="noreferrer"
+              >
+                Push your changes up.
+              </a>
+            </li>
+            <li>
+              {' '}
+              <a
+                href="https://docs.github.com/en/github/collaborating-with-pull-requests/proposing-changes-to-your-work-with-pull-requests/creating-a-pull-request"
+                target="_blank"
+                rel="noreferrer"
+              >
+                You can then raise a Pull Request using the GitHub UI.
+              </a>
+            </li>
+          </ul>           
+        </p>
+        <h3 tabIndex="0">Ask for Help!</h3>
+        <p>
+          If you need some help, ask any one of our fantastic Hacktoberfest volunteers!
         </p>
       </section>
 
@@ -219,6 +304,13 @@ export default function HacktoberFest() {
               className="speaker-image"
               src="/static/hacktoberfest/2021/Jess_White.jpg"
               alt="Picture of Jess White"
+            />
+          </article>
+          <article className="speaker-grid-item">
+            <img
+              className="speaker-image"
+              src="/static/hacktoberfest/2021/Pete_Gallagher.jpg"
+              alt="Picture of Pete Gallagher"
             />
           </article>
           {/*       <article className="speaker-grid-item">
@@ -247,7 +339,7 @@ export default function HacktoberFest() {
           }
 
           .codesnip {
-            width: 500px;
+            width: 100%;
           }
 
           table {
@@ -311,6 +403,10 @@ export default function HacktoberFest() {
             padding: 10px;
             float: left;
             width: 35%;
+          }
+
+          .columnfullwidth {
+            width: 100%;
           }
 
           .align-center {
