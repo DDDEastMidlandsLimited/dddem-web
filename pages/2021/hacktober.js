@@ -185,7 +185,7 @@ export default function HacktoberFest() {
               >
                 Clone the repository locally using these instructions.
               </a>
-              </li>
+            </li>
             <li>
               {' '}
               <a
@@ -194,7 +194,8 @@ export default function HacktoberFest() {
                 rel="noreferrer"
               >
                 Configure your remote fork to have the original
-                projects main branch as it’s upstream using these instructions.
+                projects main branch as it’s upstream using these
+                instructions.
               </a>
             </li>
             <li>
@@ -208,8 +209,7 @@ export default function HacktoberFest() {
         <p>
           <ul>
             <li>
-              In your forked repository
-              {' '}
+              In your forked repository{' '}
               <a
                 href="https://git-scm.com/book/en/v2/Git-Branching-Basic-Branching-and-Merging"
                 target="_blank"
@@ -217,9 +217,8 @@ export default function HacktoberFest() {
               >
                 create a branch
               </a>
-              , which is
-              named according to the contribution guidelines for the
-              repository.
+              , which is named according to the contribution
+              guidelines for the repository.
             </li>
             <li>
               If there are no guidelines available, give your branch a
@@ -232,16 +231,22 @@ export default function HacktoberFest() {
           <ul>
             <li>
               Add a photo of yourself to the{' '}
-              <b><i>public/static/hacktoberfest/2021</i></b> folder.
+              <b>
+                <i>public/static/hacktoberfest/2021</i>
+              </b>{' '}
+              folder.
             </li>
             <li>
               Add the following code to the{' '}
-              <b><i>pages/2021/hacktoberfest.js</i></b> page under the
-              "Hacktoberfest Corner Contributors!" section.
-            </li>            
+              <b>
+                <i>pages/2021/hacktoberfest.js</i>
+              </b>{' '}
+              page under the "Hacktoberfest Corner Contributors!"
+              section.
+            </li>
           </ul>
         </p>
-        <p class="columnfullwidth">
+        <p className="columnfullwidth">
           <img
             className="codesnip imagecenter"
             src="/static/hacktoberfest/codesnip.png"
@@ -266,7 +271,6 @@ export default function HacktoberFest() {
               >
                 Commit your changes
               </a>
-            
             </li>
             <li>
               {' '}
@@ -288,11 +292,12 @@ export default function HacktoberFest() {
                 You can then raise a Pull Request using the GitHub UI.
               </a>
             </li>
-          </ul>           
+          </ul>
         </p>
         <h3 tabIndex="0">Ask for Help!</h3>
         <p>
-          If you need some help, ask any one of our fantastic Hacktoberfest volunteers!
+          If you need some help, ask any one of our fantastic
+          Hacktoberfest volunteers!
         </p>
       </section>
 
