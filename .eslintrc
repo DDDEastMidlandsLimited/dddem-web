@@ -21,7 +21,10 @@
         "no-console": "warn",
         "no-eval": "error",
         "import/first": "error",
-        "prettier/prettier": ["error"],
+        "prettier/prettier": ["error",
+            {
+              "endOfLine": "auto"
+            }],
         "react/no-unescaped-entities": "off",
         "react/prop-types": "off"
     }
