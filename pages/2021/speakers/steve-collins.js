@@ -36,23 +36,45 @@ export default function SteveCollins() {
             <b>Pronouns: </b> He/Him
           </ul>
           <ul>
-            <b>Talk Length: </b> 15 mins
+            <b>Talk Length: </b> 60 mins
           </ul>
         </div>
         <br />
-        <h2 tabIndex="0">Func&lt;Y&gt; .NET Dependency Injection</h2>
+        <h2 tabIndex="0">The [Source Code] Generation Game</h2>
         <p tabIndex="0">
-          In this 15 minute lightning talk I will show that the
-          Dependency Injection container that comes out of the box
-          with .NET Core / .NET 5 is not just about interfaces and
-          classes – you can also register function delegates instead
-          of single method interfaces.
+          There has been a lot of buzz around source generators in
+          .NET 5 and it's there's more to come in .NET 6.
         </p>
         <p tabIndex="0">
-          Using this approach will help avoid untestable DateTime.Now
-          problems and add the ability to create keyed lookup
-          registrations available in other DI containers.
+          But ... how did we get here and what may the future hold?
         </p>
+        <p tabIndex="0">
+          This talk starts with a brief history of my journey into
+          source code generation, starting with the ZX Spectrum,
+          through the Visual Basic years and then the code generation
+          tools used with .NET framework and Visual Studio.
+        </p>
+        <p tabIndex="0">
+          The remainder of the talk will focus on the source
+          generators introduced with .NET 5, covering
+        </p>
+        <li tabIndex="0">
+          How they differ from traditional template based code
+          generation
+        </li>
+        <li tabIndex="0">Tooling to help debugging</li>
+        <li tabIndex="0">Gotchas with the tooling!</li>
+        <li tabIndex="0">Unit testing</li>
+        <p tabIndex="0">
+          Lastly, we will look at where source generators may go in
+          the future
+        </p>
+        <li tabIndex="0">
+          More out of the box use, such as System.Text.Json in .NET 6
+        </li>
+        <li tabIndex="0">
+          Potential for Intellicode and Github Copilot integration
+        </li>
       </section>
       <section>
         <h2 tabIndex="0">About Steve</h2>

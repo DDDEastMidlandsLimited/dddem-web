@@ -36,7 +36,7 @@ export default function JenniferMackown() {
             <b>Pronouns: </b> She/Her
           </ul>
           <ul>
-            <b>Talk Length: </b> 60 mins
+            <b>Talk Length: </b> 15 mins
           </ul>
         </div>
         <br />
