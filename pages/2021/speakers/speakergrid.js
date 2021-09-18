@@ -92,13 +92,13 @@ export default function Speaker2021Component() {
         <article className="speaker-grid-item">
           <a
             tabIndex="0"
-            href="../jennifer-mackown"
-            title="Link to Information About Jennifer"
+            href="../steve-collins"
+            title="Link to Information About Steve"
           >
             <img
               className="speaker-image"
-              src="/static/speakers/2021/Jen_Mackown.png"
-              alt="Picture of Jennifer Mackown"
+              src="/static/speakers/2021/Steve_Collins.jpg"
+              alt="Picture of Steve Collins"
             />
           </a>
         </article>
@@ -248,13 +248,13 @@ export default function Speaker2021Component() {
         <article className="speaker-grid-item">
           <a
             tabIndex="0"
-            href="../steve-collins"
-            title="Link to Information About Steve"
+            href="../jennifer-mackown"
+            title="Link to Information About Jennifer"
           >
             <img
               className="speaker-image"
-              src="/static/speakers/2021/Steve_Collins.jpg"
-              alt="Picture of Steve Collins"
+              src="/static/speakers/2021/Jen_Mackown.png"
+              alt="Picture of Jennifer Mackown"
             />
           </a>
         </article>
