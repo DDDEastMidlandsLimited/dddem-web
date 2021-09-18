@@ -40,7 +40,8 @@ export default function TaniaAllard() {
           </ul>
         </div>
         <br />
-        <h2 tabIndex="0">Title to be confirmed</h2>
+        <h2 tabIndex="0">
+KEYNOTE: Open source for fun and for profit: rethinking the long road of sustainability.</h2>
         <p tabIndex="0">Description to be confirmed.</p>
       </section>
       <section>
