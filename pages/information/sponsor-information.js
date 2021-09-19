@@ -188,8 +188,8 @@ export default function SponsorInformation() {
           <i>Give them to internal employees.</i>
           <p>
             This conference is a great way for your employees to get
-            free training, take part in valueable networking and have
-            a lot of fun.
+            free training, take part in valuable networking and have a
+            lot of fun.
           </p>
         </li>
         <li tabIndex="0">
@@ -227,7 +227,7 @@ export default function SponsorInformation() {
             target="_blank"
             rel="noreferrer"
           >
-            Head to eventbrite using this link
+            Head to Eventbrite using this link
           </a>
         </li>
         <li tabIndex="0">Click the Register button</li>
@@ -282,9 +282,9 @@ export default function SponsorInformation() {
           We will provide limited PAT testing on the day, with
           speakers being priority candidates for this service. This
           service will be available between{' '}
-          <strong>7.30am - 9.30am the day of the conference</strong>.
+          <strong>8.30am - 10.30am the day of the conference</strong>.
           Registration for the event opens to the general public at
-          8.00am so there is a window in the morning where exclusively
+          9.00am so there is a window in the morning where exclusively
           speakers and exhibitors can queue to get their devices PAT
           tested.
         </p>
@@ -309,8 +309,8 @@ export default function SponsorInformation() {
         </p>
         <p tabIndex="0">
           On the day of the event, the organisers will be at the venue
-          from 07.15. You may turn up any time from then. Attendee
-          registration opens at 8.00am.
+          from 08.15. You may turn up any time from then. Attendee
+          registration opens at 9.00am.
         </p>
 
         <a name="before-parking" />
@@ -368,11 +368,11 @@ export default function SponsorInformation() {
           You can arrive at the venue any time after 7.15am on the day
           of the event. This will give you the opportunity to do any
           last minute set up and settle in before registration opens
-          at 8.00am.
+          at 9.00am.
         </p>
         <p tabIndex="0">
           If you need to use the PAT testing service we are providing,
-          that opens from 7.30am.
+          that opens from 8.30am.
         </p>
 
         <a name="signing-in" />
@@ -529,7 +529,7 @@ export default function SponsorInformation() {
           You will be emailed a time slot closer to the event, in
           which you can bring a vehicle to the venue to collect any
           remaining items from your exhibition stall. This time slot
-          will be somewhere between 16.30 – 18.30 on the 3rd of
+          will be somewhere between 16.30 – 18.30 on the 2nd of
           October (the day of the event).
         </p>
         <p tabIndex="0">

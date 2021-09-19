@@ -59,12 +59,6 @@ export default function SpeakerInformation() {
           </li>
         </ul>
 
-        <p>
-          <strong>
-            <a href="#voting">Voting</a>
-          </strong>
-        </p>
-
         <p tabIndex="0">
           <strong>The Day Of The Conference</strong>
         </p>
@@ -228,67 +222,17 @@ export default function SpeakerInformation() {
         </li>
       </section>
 
-      <section id="voting">
-        <h1 tabIndex="0">Voting</h1>
-        <a name="voting" />
-        <h2 tabIndex="0">
-          Attendees can vote using a traffic light system.
-        </h2>
-        <p tabIndex="0">
-          During the day there will boxes outside each room for
-          attendees to put their votes into. All votes will be
-          conducted with a traffic light system:
-        </p>
-        <ul>
-          <strong>
-            <li tabIndex="0" className="green">
-              Green - That talk was EPIC
-            </li>
-            <li tabIndex="0" className="yellow">
-              Yellow - That talk was good
-            </li>
-            <li tabIndex="0" className="red">
-              Red - That talk wasn&apos;t for me.
-            </li>
-          </strong>
-        </ul>
-        <p tabIndex="0">
-          There are a couple of reasons we have this voting system in
-          place:
-        </p>
-        <ul>
-          <li tabIndex="0">
-            <strong>
-              To give our speakers some light indication around the
-              reception of their talks.
-            </strong>{' '}
-            We cannot offer more in-depth means of feedback this year
-            as it would require a level of moderation and work that,
-            unfortunately, we don&apos;t have the time to invest in
-            this first year.
-          </li>
-          <li tabIndex="0">
-            <strong>
-              To give us an indication of which subject areas are of
-              particular interest in the local area.
-            </strong>{' '}
-            This is not for any future talk curation, but to give us
-            more knowledge about the local area so that we can help
-            our sponsors target their efforts appropriately, and to
-            aid us in our own marketing efforts.
-          </li>
-        </ul>
-      </section>
-
       <section id="day-of">
         <h1 tabIndex="0">The Day Of The Conference</h1>
         <a name="conference-arrival" />
         <h2 tabIndex="0">Letting us know you have arrived</h2>
         <h4 tabIndex="0">
           Check in at registration and come say hi at the information
-          desk. You will be asked to show that you have had two doses
-          of a COVID Vaccination, or if you have had one dose, to do a
-          flow test on arrival.
+          desk. First we will measure your temperature. You then will
+          be asked to show that you have had at least one dose of a
+          COVID Vaccination, and to do a flow test on arrival. After
+          these checks you'll be offered a arm band to show if you are
+          social distancing or not and your lanyard.
         </h4>
         <p tabIndex="0">
           At least one of the organisers will be at the registration
@@ -323,7 +267,7 @@ export default function SpeakerInformation() {
           We will provide limited PAT testing on the day, with
           speakers being priority candidates for this service. This
           service will be available between{' '}
-          <strong>7.30am - 9.30am the day of the conference</strong>.
+          <strong>8.30am - 10.30am the day of the conference</strong>.
           Registration for the event opens to the general public at
           8.00am so there is a window in the morning where exclusively
           speakers and exhibitors can queue to get their devices PAT

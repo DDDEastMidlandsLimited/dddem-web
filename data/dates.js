@@ -45,6 +45,8 @@ const dates = [
     id: 7,
     date: '3rd September',
     name: 'Agenda Published',
+    current: true,
+    past: true,
   },
   {
     id: 8,
