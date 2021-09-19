@@ -146,7 +146,7 @@ export default function CrewInformation() {
         <h2>Setup and orienteering</h2>
         <p>1st October 2021 6:00pm - 8:00pm.</p>
         <h2>Morning shift</h2>
-        <p>2nd October 2021 7:30am - 1:00pm.</p>
+        <p>2nd October 2021 8:30am - 1:00pm.</p>
         <h2>Afternoon shift</h2>
         <p>2nd October 2021 1:00pm - 7:00pm.</p>
         <h2>Where</h2>

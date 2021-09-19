@@ -122,11 +122,6 @@ export default function AttendeeInformation() {
             <a href="#wifi">Wifi</a>
           </strong>
         </p>
-        <p>
-          <strong>
-            <a href="#voting">Voting</a>
-          </strong>
-        </p>
         <p tabIndex="0">
           <strong>Social Media and Photos</strong>
         </p>
@@ -267,36 +262,6 @@ export default function AttendeeInformation() {
       <Catering />
 
       <Wifi />
-
-      <section id="voting">
-        <h1 tabIndex="0">Voting</h1>
-        <a name="voting" />
-        <h2 tabIndex="0">
-          You can vote on talks using a traffic light system.
-        </h2>
-        <p tabIndex="0">
-          During the day there will boxes outside each room for you to
-          put your votes into. All voted will be conducted with a
-          traffic light system:
-        </p>
-        <ul>
-          <strong>
-            <li tabIndex="0" className="green">
-              Green - That talk was EPIC
-            </li>
-            <li tabIndex="0" className="yellow">
-              Yellow - That talk was good
-            </li>
-            <li tabIndex="0" className="red">
-              Red - That talk wasn&apos;t for me.
-            </li>
-          </strong>
-        </ul>
-        <p tabIndex="0">
-          This is mostly so we can see which talks have a good
-          reception to help us plan for our future events.
-        </p>
-      </section>
 
       <SocialMedia />
 

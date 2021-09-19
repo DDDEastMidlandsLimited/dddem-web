@@ -45,8 +45,8 @@ export default function Talks() {
             You can vote for up to 10 talks you would like to see.
           </li>
           <li>
-            We advise reading the decriptions of talks, taking note of
-            the titles you want to see, then using Control+F or
+            We advise reading the descriptions of talks, taking note
+            of the titles you want to see, then using Control+F or
             Command+F searching for those titles on the google form.{' '}
           </li>
         </ul>
