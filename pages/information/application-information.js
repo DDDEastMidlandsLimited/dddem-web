@@ -175,12 +175,12 @@ export default function ApplicationInformation() {
       <section id="tande">
         <a name="tande" />
         <h2 tabIndex="0">
-          Are travel and accomodation expenses provided for speakers?
+          Are travel and accommodation expenses provided for speakers?
         </h2>
         <p tabIndex="0">
           As we want to encourage local speakers and keep our costs
           low, we cannot provide expenses (i.e. travel and
-          accomodation costs) to speakers.
+          accommodation costs) to speakers.
         </p>
       </section>
 
