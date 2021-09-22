@@ -44,7 +44,26 @@ export default function TaniaAllard() {
           KEYNOTE: Open source for fun and for profit: rethinking the
           long road of sustainability.
         </h2>
-        <p tabIndex="0">Description to be confirmed.</p>
+        <p tabIndex="0">
+          It is not an understatement to say that today, in 2021, the
+          world runs on open source. Wherever you look, you will find
+          open-source software in the wild - whether you have a
+          smartphone in your pocket or if you see a self-driving car
+          passing by or rockets orbiting in space, open-source is even
+          in simple tasks as deciding what to watch tonight.
+          Open-source software and open infrastructure not only serve
+          as the engine that powers our world. It also enables folks
+          to get together and connect isolated individuals,
+          communities, and missions.
+        </p>
+        <p tabIndex="0">
+          With this in mind, the most important questions we should be
+          asking is: who and what fuels open source? In this
+          presentation, I will discuss how open source can bring
+          individuals together to form communities. And more
+          importantly, how we can rethink open-source and labour to
+          ensure its long-term sustainability.
+        </p>
       </section>
       <section>
         <h2 tabIndex="0">About Tania</h2>
