@@ -16,29 +16,60 @@ export default function VenueInformation() {
       />
 
       <section>
-        <h1 tabIndex="0">
-          Directions to Nottingham Conference Centre
-        </h1>
+        <h1 tabIndex="0">How to find DDD East Midlands</h1>
+        <p>
+          The venue for DDD is now part of{' '}
+          <a href="https://www.ntueventsandconferencing.co.uk/">
+            NTU Events and Conferencing
+          </a>
+          , formerly known as Nottingham Conference Centre. DDD takes
+          place in the{' '}
+          <strong>
+            Nottingham Trent University Newton &amp; Arkwright
+          </strong>{' '}
+          buildings, whose entrance is at 10 Goldsmith St, Nottingham
+          NG1 4BU.
+        </p>
+        <h2>Useful links</h2>
+        <ul>
+          <li>
+            Google:{' '}
+            <a href="https://goo.gl/maps/87Vxkzg3DU64j9bb9">Maps</a>
+            &bull;
+            <a href="https://goo.gl/maps/zeA7UcHfwjtchpjP8">
+              StreetView
+            </a>{' '}
+          </li>
+          <li>
+            What3Words:{' '}
+            <a href="https://what3words.com/jazz.darker.wins">
+              {'///'}jazz.darker.wins
+            </a>
+          </li>
+        </ul>
+        <p>
+          The entrance is directly opposite St Andrews with Castle
+          Gate URC Church.
+        </p>
       </section>
       <section>
         <h2 tabIndex="0">By rail</h2>
         <p tabIndex="0">
           Nottingham Station is the mainline train station close to
           Nottingham city centre. The train station is a 15 minute
-          walk from Nottingham Conference Centre, but for those new to
-          the city it might be easier to take a taxi or use
-          Nottingham’s tram NET (Nottingham Express Transit) system.
-          Directions to the station tram stop are signposted
-          throughout the train station building. The Conference Centre
-          is located between the Royal Centre and Nottingham Trent
-          University tram stop. Take a tram heading to either Phoenix
-          Park or Hucknall. Exit the tram at the Royal Centre,
-          continue down Goldsmith Street taking the first right turn
-          onto Burton Street where you will find the Nottingham
-          Conference Centre entrance on the left.
+          walk from the conference centre, but for those new to
+          Nottingham it might be easier to take a taxi or use the
+          Nottingham Express Transit (NET) system. Directions to the
+          the station tram stop are signposted throughout the train
+          station building. The conference venue is located between
+          the Royal Centre and Nottingham Trent University tram stop.
+          Take a tram heading to either Phoenix Park or Hucknall. Exit
+          the tram at the Royal Centre, and continue along Goldsmith
+          Street past Burton Street. The entrance is on your left,
+          through the big glass doors marked "Nottingham Trent
+          University Newton &amp; Arkwright".
         </p>
       </section>
-
       <section>
         <h2 tabIndex="0">By air</h2>
         <p tabIndex="0">
@@ -47,8 +78,8 @@ export default function VenueInformation() {
           the city. It takes about half an hour from there to travel
           into the city by car or bus. There is a Skylink bus service
           that runs every half hour from the airport into Nottingham
-          city centre and stops a few minutes walk away from
-          Nottingham Conference Centre.
+          city centre and stops a few minutes walk away from the
+          conference venue.
         </p>
       </section>
 
@@ -65,9 +96,9 @@ export default function VenueInformation() {
         </p>
         <p tabIndex="0">
           Leave the tram at the Nottingham Trent University tram stop
-          which is located on Goldsmith Street and walk past the main
-          University entrance, turn left on to Burton Street where you
-          will find the Nottingham Conference Centre entrance.
+          which is located on Goldsmith Street. Head south along
+          Goldsmith Street. the entrance to DDD is on your right,
+          opposite St Andrews URC Church.
         </p>
         <p tabIndex="0">
           From the south, exit the M1 at junction 24 and follow the
@@ -82,8 +113,8 @@ export default function VenueInformation() {
         </p>
         <p tabIndex="0">
           Alight from the Park and Ride bus on Lower Parliament Street
-          (Victoria Centre); Nottingham Conference Centre is a short
-          walk away.
+          (Victoria Centre); The conference venue is a short walk
+          away.
         </p>
       </section>
 
@@ -92,10 +123,9 @@ export default function VenueInformation() {
         <p tabIndex="0">
           Car parks in the city centre are clearly signposted from all
           major approach routes. There are two car parks close to
-          Nottingham Conference Centre, Trinity Square car park on
-          North Church Street and Talbot Street car park. For
-          satellite navigation systems please use the following
-          information:
+          venue; Trinity Square car park on North Church Street and
+          Talbot Street car park. For satellite navigation systems
+          please use the following information:
         </p>
         <p tabIndex="0">
           <strong>
