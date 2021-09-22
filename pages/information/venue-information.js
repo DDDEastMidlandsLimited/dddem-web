@@ -27,7 +27,8 @@ export default function VenueInformation() {
           <strong>
             Nottingham Trent University Newton &amp; Arkwright
           </strong>{' '}
-          buildings, whose entrance is at 10 Goldsmith St, Nottingham NG1 4BU.
+          buildings, whose entrance is at 10 Goldsmith St, Nottingham
+          NG1 4BU.
         </p>
         <h2>Useful links</h2>
         <ul>
