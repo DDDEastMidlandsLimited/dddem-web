@@ -49,7 +49,7 @@ export default function AttendeeInformation() {
         </p>
         <p>
           <strong>
-            <a href="#accessibility">Accessibilty Concerns</a>
+            <a href="#accessibility">Accessibility Concerns</a>
           </strong>
         </p>
 
@@ -158,12 +158,12 @@ export default function AttendeeInformation() {
         <h1 tabIndex="0">Accessibility Concerns</h1>
         <p tabIndex="0">
           We have attempted to answer a number of questions around
-          accessibilty concerns{' '}
+          accessibility concerns{' '}
           <a
             href="/information/accessibility-information"
             targe="_blank"
           >
-            see the accessibilty page for more information.
+            see the accessibility page for more information.
           </a>
         </p>
       </section>
