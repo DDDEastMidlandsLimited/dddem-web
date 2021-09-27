@@ -56,7 +56,7 @@ export default function ConferenceInformation() {
         </p>
         <ul>
           <li>
-            <a href="#accessibility">Accessibilty Page</a>
+            <a href="#accessibility">Accessibility Page</a>
           </li>
           <li>
             <a href="#selection">Submission And Selection Process</a>
@@ -164,10 +164,10 @@ export default function ConferenceInformation() {
         </p>
 
         <a name="accessibility" />
-        <h2 tabIndex="0">Accessibilty Page</h2>
+        <h2 tabIndex="0">Accessibility Page</h2>
         <p tabIndex="0">
           In order to remain transparent, we have tried to answer as
-          many accessibilty related questions as we could on our{' '}
+          many accessibility related questions as we could on our{' '}
           <a
             href="/information/accessibility-information"
             target="_blank"
