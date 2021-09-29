@@ -384,10 +384,10 @@ export default function HacktoberFest() {
             overflow: hidden;
           }
 
-          .hover-pop{
+          .hover-pop {
             width: 175px;
-            background-color:pink;
-            float:left;
+            background-color: pink;
+            float: left;
           }
 
           button {
