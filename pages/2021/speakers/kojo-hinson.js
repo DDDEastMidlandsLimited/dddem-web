@@ -109,7 +109,7 @@ export default function KojoHinson() {
             target="_blank"
             rel="noreferrer"
             aria-label="Kojo Hinson: LinkedIn"
-            href="https://www.linkedin.com/in/kojo-hinson-69a4074a/"
+            href="https://www.linkedin.com/in/kojo-h-69a4074a/"
           >
             LinkedIn
           </a>
