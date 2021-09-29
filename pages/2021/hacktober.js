@@ -380,14 +380,6 @@ export default function HacktoberFest() {
 
           .speaker-grid-item {
             min-width: 180px;
-            height: 180px;
-            overflow: hidden;
-          }
-
-          .hover-pop {
-            width: 175px;
-            background-color: pink;
-            float: left;
           }
 
           button {
