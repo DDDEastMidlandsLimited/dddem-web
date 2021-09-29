@@ -34,9 +34,15 @@ export default function SpeakerGridItemComponent(props) {
       <style jsx>
         {`
           h4 {
-            margin-top:7px;
+            margin-top:3px;
+            margin-bottom:4px;
             text-decoration:none;
             color:white;
+          }
+
+          p {
+            margin: 3px 0px;
+            color: white;
           }
 
           .speaker-image {
@@ -55,14 +61,14 @@ export default function SpeakerGridItemComponent(props) {
             width: 175px;
             background-color:#1A7D87;
             position: relative;
-            top: -10px;
+            top: -22px;
             margin-left: 5px;
             animation: floatOut 0.2s normal ease-out;
           }
 
           .speaker-grid-item:hover .hover-pop{
-            top: -85px;
-            height:85px;
+            top: -175px;
+            height: 175px;
             padding:7px;
             box-sizing: border-box;
             animation: floatIn 0.3s normal ease-in;
@@ -70,35 +76,35 @@ export default function SpeakerGridItemComponent(props) {
 
           @-webkit-keyframes floatIn {
               0% {
-                  top:10px;
+                  top:-22px;
               }
               100% {
-                  top: -85px;
+                  top: -175px;
               }
           }
           @keyframes floatIn {
               0% {
-                  top:10px;
+                  top:-22px;
               }
               100% {
-                  top: -85px;
+                  top: -175px;
               }
           }
 
           @-webkit-keyframes floatOut {
             0% {
-                top:-85px;
+                top:-175px;
             }
             100% {
-                top: 10x;
+                top: -22px;
             }
         }
         @keyframes floatOut {
             0% {
-                top:-85px;
+                top:-135px;
             }
             100% {
-                top: 10px;
+                top: -22px;
             }
         }
 
