@@ -38,23 +38,23 @@ export default function Speaker2021Component() {
         </p>
       </section>
       <section className="speaker-grid">
-          <SpeakerGridItemComponent speakername="Tania" pic="/static/speakers/2021/Tania_Allard.jpg" link="../tania-allard" talkbrief=" " />
+          <SpeakerGridItemComponent speakername="Tania Allard" pic="/static/speakers/2021/Tania_Allard.jpg" link="../tania-allard" talkbrief=" " />
       </section>
       <section className="speaker-grid">        
-        <SpeakerGridItemComponent speakername="Lex" pic="/static/speakers/2021/Lex_Lofthouse.png" link="../lex-lofthouse" talkbrief=" " />
+        <SpeakerGridItemComponent speakername="Lex Lofthouse" pic="/static/speakers/2021/Lex_Lofthouse.png" link="../lex-lofthouse" talkbrief=" " />
         <SpeakerGridItemComponent speakername="Connell" pic="/static/speakers/2021/Connell_W.png" link="../connell-w" talkbrief=" " />
-        <SpeakerGridItemComponent speakername="Lucy" pic="/static/speakers/2021/Lucy_Fletcher.png" link="../lucy-fletcher" talkbrief=" " />
-        <SpeakerGridItemComponent speakername="Simon" pic="/static/speakers/2021/Simon_Painter.png" link="../simon-painter" talkbrief=" " />
+        <SpeakerGridItemComponent speakername="Lucy Fletcher" pic="/static/speakers/2021/Lucy_Fletcher.png" link="../lucy-fletcher" talkbrief=" " />
+        <SpeakerGridItemComponent speakername="Simon Painter" pic="/static/speakers/2021/Simon_Painter.png" link="../simon-painter" talkbrief=" " />
 
         <SpeakerGridItemComponent speakername="Steve Collins" pic="/static/speakers/2021/steve_collins.jpg" link="../steve-collins" talkbrief=" " />
-        <SpeakerGridItemComponent speakername="Stephen" pic="/static/speakers/2021/Stephen_Haunts.jpg" link="../stephen-haunts" talkbrief=" " />
+        <SpeakerGridItemComponent speakername="Stephen Haunts" pic="/static/speakers/2021/Stephen_Haunts.jpg" link="../stephen-haunts" talkbrief=" " />
         <SpeakerGridItemComponent speakername="Manu Magalhaes" pic="/static/speakers/2021/Manu_Magalhaes.png" link="../manu-magalhaes" talkbrief=" " />
-        <SpeakerGridItemComponent speakername="James" pic="/static/speakers/2021/James_Croft.png" link="../james-croft" talkbrief=" " />
+        <SpeakerGridItemComponent speakername="James Croft" pic="/static/speakers/2021/James_Croft.png" link="../james-croft" talkbrief=" " />
 
-        <SpeakerGridItemComponent speakername="Matt" pic="/static/speakers/2021/Matt_Whetton.png" link="../matt-whetton" talkbrief=" " />
-        <SpeakerGridItemComponent speakername="Ryan" pic="/static/speakers/2021/Ryan_Yates.png" link="../ryan-yates" talkbrief=" " />
-        <SpeakerGridItemComponent speakername="Poornima" pic="/static/speakers/2021/Poornima_Nayar.png" link="../poornima-nayar" talkbrief=" " />
-        <SpeakerGridItemComponent speakername="Tom" pic="/static/speakers/2021/Tom_Morton.png" link="../tom-morton" talkbrief=" " />
+        <SpeakerGridItemComponent speakername="Matt Whetton" pic="/static/speakers/2021/Matt_Whetton.png" link="../matt-whetton" talkbrief=" " />
+        <SpeakerGridItemComponent speakername="Ryan Yates" pic="/static/speakers/2021/Ryan_Yates.png" link="../ryan-yates" talkbrief=" " />
+        <SpeakerGridItemComponent speakername="Poornima Nayar" pic="/static/speakers/2021/Poornima_Nayar.png" link="../poornima-nayar" talkbrief=" " />
+        <SpeakerGridItemComponent speakername="Tom Morton" pic="/static/speakers/2021/Tom_Morton.png" link="../tom-morton" talkbrief=" " />
 
         <SpeakerGridItemComponent speakername="Kojo Hinson" pic="/static/speakers/2021/Kojo_Hinson.png" link="../kojo-hinson" talkbrief=" " />
         <SpeakerGridItemComponent speakername="Stephen Jackson" pic="/static/speakers/2021/Stephen_Jackson.png" link="../stephen-jackson" talkbrief=" " />
