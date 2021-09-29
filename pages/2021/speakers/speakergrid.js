@@ -143,15 +143,13 @@ export default function Speaker2021Component() {
             padding: ${theme.sizes.contentPadding};
             margin: auto;
           }
+          
           .speaker-image {
             width: 175px;
             height: 175px;
             margin: 5px;
           }
 
-          a .speaker-image:hover {
-            filter: drop-shadow(5px 5px 5px rgb(26 125 135 / 0.75));
-          }
           .speaker-grid {
             display: flex;
             flex-direction: row;
