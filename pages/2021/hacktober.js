@@ -318,6 +318,13 @@ export default function HacktoberFest() {
               alt="Picture of Pete Gallagher"
             />
           </article>
+          <article className="speaker-grid-item">
+            <img
+              className="speaker-image"
+              src="/static/hacktoberfest/2021/andystannard.jpg"
+              alt="Picture of Andy Stannard"
+            />
+          </article>
           {/*       <article className="speaker-grid-item">
             <img
               className="speaker-image"
