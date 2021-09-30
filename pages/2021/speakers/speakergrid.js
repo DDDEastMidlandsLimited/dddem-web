@@ -56,7 +56,7 @@ export default function Speaker2021Component() {
         />
         <SpeakerGridItemComponent
           speakername="Steve Collins"
-          pic="/static/speakers/2021/steve_collins.jpg"
+          pic="/static/speakers/2021/Steve_Collins.jpg"
           link="../steve-collins"
           talkbrief="The [Source Code] Generation Game"
         />
