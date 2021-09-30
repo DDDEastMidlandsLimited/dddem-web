@@ -2,6 +2,7 @@ import React from 'react';
 import Layout from '../../../components/Layout';
 import theme from '../../../theme/theme';
 import Header from '../../../components/Header';
+import SpeakerGridItemComponent from '../../../components/speakers/speakergriditem';
 import Head from 'next/head';
 
 export default function Speaker2021Component() {
@@ -24,216 +25,104 @@ export default function Speaker2021Component() {
         <h2>2019</h2>
       </section>
       <section className="speaker-grid">
-        <article className="speaker-grid-item">
-          <a
-            tabIndex="0"
-            href="../2019/dylan-beattie"
-            title="Link to Information About Dylan"
-          >
-            <img
-              className="speaker-image"
-              src="/static/speakers/2019/Dylan_Beattie.jpg"
-              alt="Picture of Dylan Beattie"
-            />
-          </a>
-        </article>
+        <SpeakerGridItemComponent
+          speakername="Dylan Beattie"
+          pic="/static/speakers/2019/Dylan_Beattie.jpg"
+          link="../2019/dylan-beattie"
+          talkbrief="The Art of Code"
+        />
       </section>
       <section className="speaker-grid">
-        <article className="speaker-grid-item">
-          <a
-            tabIndex="0"
-            href="../2019/matt-brunt"
-            title="Link to Information About Matt"
-          >
-            <img
-              className="speaker-image"
-              src="/static/speakers/2019/Matt_Brunt.png"
-              alt="Picture of Matt Brunt"
-            />
-          </a>
-        </article>
-        <article className="speaker-grid-item">
-          <a
-            tabIndex="0"
-            href="../2019/jessica-salisbury"
-            title="Link to Information About Jess"
-          >
-            <img
-              className="speaker-image"
-              src="/static/speakers/2019/Jessica_Salisbury.png"
-              alt="Picture of Jessica Salisbury"
-            />
-          </a>
-        </article>
-        <article className="speaker-grid-item">
-          <a
-            tabIndex="0"
-            href="../2019/anthony-dang"
-            title="Link to Information About Anthony"
-          >
-            <img
-              className="speaker-image"
-              src="/static/speakers/2019/Anthony_Dang.png"
-              alt="Picture of Anthony Dang"
-            />
-          </a>
-        </article>
-        <article className="speaker-grid-item">
-          <a
-            tabIndex="0"
-            href="../2019/cara-holland"
-            title="Link to Information About Cara"
-          >
-            <img
-              className="speaker-image"
-              src="/static/speakers/2019/Cara_Holland.png"
-              alt="Picture of Cara Holland"
-            />
-          </a>
-        </article>
-        <article className="speaker-grid-item">
-          <a
-            tabIndex="0"
-            href="../2019/mark-towndrow"
-            title="Link to Information About Mark"
-          >
-            <img
-              className="speaker-image"
-              src="/static/speakers/2019/Mark_Towndrow.png"
-              alt="Picture of Mark Towndrow"
-            />
-          </a>
-        </article>
-        <article className="speaker-grid-item">
-          <a
-            tabIndex="0"
-            href="../2019/galiya-warrier"
-            title="Link to Information About Galiya"
-          >
-            <img
-              className="speaker-image"
-              src="/static/speakers/2019/Galiya_Warrier.png"
-              alt="Picture of Galiya Warrier"
-            />
-          </a>
-        </article>
-        <article className="speaker-grid-item">
-          <a
-            tabIndex="0"
-            href="../2019/robin-ninan"
-            title="Link to Information About Robin"
-          >
-            <img
-              className="speaker-image"
-              src="/static/speakers/2019/Robin_Ninan.png"
-              alt="Picture of Robin Ninan"
-            />
-          </a>
-        </article>
-        <article className="speaker-grid-item">
-          <a
-            tabIndex="0"
-            href="../2019/ian-johnson"
-            title="Link to Information About Ian"
-          >
-            <img
-              className="speaker-image"
-              src="/static/speakers/2019/Ian_Johnson.png"
-              alt="Picture of Ian Johnson"
-            />
-          </a>
-        </article>
-        <article className="speaker-grid-item">
-          <a
-            tabIndex="0"
-            href="../2019/samathy-barratt"
-            title="Link to Information About Samathy"
-          >
-            <img
-              className="speaker-image"
-              src="/static/speakers/2019/Samathy_Barratt.png"
-              alt="Picture of Samathy Barratt"
-            />
-          </a>
-        </article>
-        <article className="speaker-grid-item">
-          <a
-            tabIndex="0"
-            href="../2019/ian-cooper"
-            title="Link to Information About Ian"
-          >
-            <img
-              className="speaker-image"
-              src="/static/speakers/2019/Ian_Cooper.png"
-              alt="Picture of Ian Cooper"
-            />
-          </a>
-        </article>
-        <article className="speaker-grid-item">
-          <a
-            tabIndex="0"
-            href="../2019/helen-joy"
-            title="Link to Information About Helen"
-          >
-            <img
-              className="speaker-image"
-              src="/static/speakers/2019/Helen_Joy.png"
-              alt="Picture of Helen Joy"
-            />
-          </a>
-        </article>
-        <article className="speaker-grid-item">
-          <a
-            tabIndex="0"
-            href="../2019/joel-hammond-turner"
-            title="Link to Information About Joel"
-          >
-            <img
-              className="speaker-image"
-              src="/static/speakers/2019/Joel_Hammond-Turner.jpg"
-              alt="Picture of Joel Hammond-Turner"
-            />
-          </a>
-        </article>
-        <article className="speaker-grid-item">
-          <a
-            tabIndex="0"
-            href="../2019/zac-braddy"
-            title="Link to Information About Zac"
-          >
-            <img
-              className="speaker-image"
-              src="/static/speakers/2019/Zac_Braddy.png"
-              alt="Picture of Zac Braddy"
-            />
-          </a>
-        </article>
-        <article className="speaker-grid-item">
-          <a
-            tabIndex="0"
-            href="../2019/neil-oconnor"
-            title="Link to Information About Neil"
-          >
-            <img
-              className="speaker-image"
-              src="/static/speakers/2019/Neil_OConnor.png"
-              alt="Picture of Neil O'Connor"
-            />
-          </a>
-        </article>
-        <article className="speaker-grid-item">
-          <a
-            tabIndex="0"
-            href="../2019/simon-painter"
-            title="Link to Information About Simon"
-          >
-            <img
-              className="speaker-image"
-              src="/static/speakers/2019/Simon_Painter.png"
-              alt="Picture of Simon Painter"
-            />
-          </a>
-        </article>
+        <SpeakerGridItemComponent
+          speakername="Matt Brunt"
+          pic="/static/speakers/2019/Matt_Brunt.png"
+          link="../2019/matt-brunt"
+          talkbrief="Think like a hacker"
+        />
+        <SpeakerGridItemComponent
+          speakername="Jessica Salisbury"
+          pic="/static/speakers/2019/Jessica_Salisbury.png"
+          link="../2019/jessica-salisbury"
+          talkbrief="The Power of the Feedback Loop"
+        />
+        <SpeakerGridItemComponent
+          speakername="Anthony Dang"
+          pic="/static/speakers/2019/Anthony_Dang.png"
+          link="../2019/anthony-dang"
+          talkbrief="Cache me outside - Caching Methodologies and Architectures"
+        />
+        <SpeakerGridItemComponent
+          speakername="Cara Holland"
+          pic="/static/speakers/2019/Cara_Holland.png"
+          link="../2019/cara-holland"
+          talkbrief="Draw UX (or how to get your visual thinking groove on)"
+        />
+        <SpeakerGridItemComponent
+          speakername="Mark Towndrow"
+          pic="/static/speakers/2019/Mark_Towndrow.png"
+          link="../2019/mark-towndrow"
+          talkbrief="How to be a better developer - without learning another JavaScript framework"
+        />
+        <SpeakerGridItemComponent
+          speakername="Galiya Warrier"
+          pic="/static/speakers/2019/Galiya_Warrier.png"
+          link="../2019/galiya-warrier"
+          talkbrief="Deep Learning in the world of little ponies"
+        />
+        <SpeakerGridItemComponent
+          speakername="Robin Ninan"
+          pic="/static/speakers/2019/Robin_Ninan.png"
+          link="../2019/robin-ninan"
+          talkbrief="Ditching the test pyramid in a microservices era"
+        />
+        <SpeakerGridItemComponent
+          speakername="Ian Johnson"
+          pic="/static/speakers/2019/Ian_Johnson.png"
+          link="../2019/ian-johnson"
+          talkbrief="Reasonable Code"
+        />
+        <SpeakerGridItemComponent
+          speakername="Samathy Barratt"
+          pic="/static/speakers/2019/Samathy_Barratt.png"
+          link="../2019/samathy-barratt"
+          talkbrief="This is a talk about Nothing"
+        />
+        <SpeakerGridItemComponent
+          speakername="Ian Cooper"
+          pic="/static/speakers/2019/Ian_Cooper.png"
+          link="../2019/ian-cooper"
+          talkbrief="How to Escape The Distributed Monolith"
+        />
+        <SpeakerGridItemComponent
+          speakername="Helen Joy"
+          pic="/static/speakers/2019/Helen_Joy.png"
+          link="../2019/helen-joy"
+          talkbrief="Whose Design is it Anyway?"
+        />
+        <SpeakerGridItemComponent
+          speakername="Joel Hammond Turner"
+          pic="/static/speakers/2019/Joel_Hammond-Turner.jpg"
+          link="../2019/joel-hammond-turner"
+          talkbrief="You're the Tech Lead - *you* fix it!"
+        />
+        <SpeakerGridItemComponent
+          speakername="Zac Braddy"
+          pic="/static/speakers/2019/Zac_Braddy.png"
+          link="../2019/zac-braddy"
+          talkbrief="All the mistakes I've made trying to implement Microservices"
+        />
+        <SpeakerGridItemComponent
+          speakername="Neil Oconnor"
+          pic="/static/speakers/2019/Neil_OConnor.png"
+          link="../2019/neil-oconnor"
+          talkbrief="CTO secrets: How to get the best companies fighting to hire you"
+        />
+        <SpeakerGridItemComponent
+          speakername="Simon Painter"
+          pic="/static/speakers/2019/Simon_Painter.png"
+          link="../2019/simon-painter"
+          talkbrief="Hacking C#: Development for the Truly Lazy"
+        />
       </section>
 
       <style jsx>
@@ -248,24 +137,11 @@ export default function Speaker2021Component() {
             text-align: center;
           }
 
-          .speaker-image {
-            width: 175px;
-            height: 175px;
-            margin: 5px;
-          }
-
-          a .speaker-image:hover {
-            filter: drop-shadow(5px 5px 5px rgb(26 125 135 / 0.75));
-          }
-
           .speaker-grid {
             display: flex;
             flex-direction: row;
             flex-wrap: wrap;
             justify-content: center;
-          }
-          .speaker-grid-item {
-            min-width: 180px;
           }
         `}
       </style>
