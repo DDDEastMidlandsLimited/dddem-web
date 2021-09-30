@@ -264,6 +264,10 @@ export default function Speaker2021Component() {
             flex-wrap: wrap;
             justify-content: center;
           }
+
+          .speaker-grid-item {
+            min-width: 180px;
+          }
         `}
       </style>
     </Layout>
