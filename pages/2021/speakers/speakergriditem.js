@@ -64,7 +64,9 @@ export default function SpeakerGridItemComponent(props) {
             animation: floatOut 0.2s normal ease-out;
           }
 
-          .speaker-grid-item:hover .hover-pop, .speaker-grid-item:active .hover-pop, .speaker-grid-item:focus .hover-pop{
+          .speaker-grid-item:hover .hover-pop,
+          .speaker-grid-item:active .hover-pop,
+          .speaker-grid-item:focus .hover-pop {
             top: -175px;
             height: 175px;
             padding: 7px;

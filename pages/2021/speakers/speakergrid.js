@@ -7,7 +7,6 @@ import SpeakerGridItemComponent from './speakergriditem';
 import Head from 'next/head';
 
 export default function Speaker2021Component() {
-
   return (
     <Layout>
       <Head>
