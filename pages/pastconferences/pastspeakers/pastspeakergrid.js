@@ -264,18 +264,6 @@ export default function Speaker2021Component() {
             flex-wrap: wrap;
             justify-content: center;
           }
-
-          .speaker-grid-item {
-            min-width: 180px;
-            height: 180px;
-            overflow: hidden;
-          }
-
-          .hover-pop {
-            width: 175px;
-            background-color: pink;
-            float: left;
-          }
         `}
       </style>
     </Layout>
