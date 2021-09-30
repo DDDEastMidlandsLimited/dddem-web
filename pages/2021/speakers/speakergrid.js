@@ -143,12 +143,6 @@ export default function Speaker2021Component() {
             padding: ${theme.sizes.contentPadding};
             margin: auto;
           }
-          
-          .speaker-image {
-            width: 175px;
-            height: 175px;
-            margin: 5px;
-          }
 
           .speaker-grid {
             display: flex;
