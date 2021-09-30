@@ -1,5 +1,4 @@
 import React from 'react';
-import ReactDOM from 'react-dom';
 import Layout from '../../../components/Layout';
 import theme from '../../../theme/theme';
 import Header from '../../../components/Header';
@@ -7,26 +6,6 @@ import SpeakerGridItemComponent from '../../../components/speakers/speakergridit
 import Head from 'next/head';
 
 export default function Speaker2021Component() {
-  function popIt(e) {
-    console.log(e);
-    var article = e.target;
-    var popper =
-      ReactDOM.findDOMNode(article).getElementsByClassName(
-        'hover-pop',
-      );
-    popper.className = popper.className + ' popped';
-  }
-
-  function stopIt(e) {
-    console.log(e);
-    var article = e.target;
-    var popper =
-      ReactDOM.findDOMNode(article).getElementsByClassName(
-        'hover-pop',
-      );
-    // popper.className = 'hover-pop';
-  }
-
   return (
     <Layout>
       <Head>
@@ -100,7 +79,6 @@ export default function Speaker2021Component() {
           link="../james-croft"
           talkbrief="Should you write UI tests?"
         />
-
         <SpeakerGridItemComponent
           speakername="Matt Whetton"
           pic="/static/speakers/2021/Matt_Whetton.png"
@@ -125,7 +103,6 @@ export default function Speaker2021Component() {
           link="../tom-morton"
           talkbrief="Open Banking vs. DeFi; The technological future of finance?"
         />
-
         <SpeakerGridItemComponent
           speakername="Kojo Hinson"
           pic="/static/speakers/2021/Kojo_Hinson.png"
@@ -150,7 +127,6 @@ export default function Speaker2021Component() {
           link="../leke-sholuade"
           talkbrief="Why do we need a Black Valley"
         />
-
         <SpeakerGridItemComponent
           speakername="Jennifer Mackown"
           pic="/static/speakers/2021/Jen_Mackown.png"
@@ -166,38 +142,11 @@ export default function Speaker2021Component() {
             padding: ${theme.sizes.contentPadding};
             margin: auto;
           }
-          .speaker-image {
-            width: 175px;
-            height: 175px;
-            margin: 5px;
-          }
-
-          a .speaker-image:hover {
-            filter: drop-shadow(5px 5px 5px rgb(26 125 135 / 0.75));
-          }
           .speaker-grid {
             display: flex;
             flex-direction: row;
             flex-wrap: wrap;
             justify-content: center;
-          }
-          .speaker-grid-item {
-            min-width: 180px;
-            height: 180px;
-            overflow: hidden;
-          }
-
-          .hover-pop {
-            width: 175px;
-            background-color: pink;
-            position: relative;
-            top: -10px;
-            margin-left: 5px;
-          }
-
-          .hover-pop.popped {
-            top: -145px;
-            padding: 7px;
           }
         `}
       </style>
