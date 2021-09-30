@@ -1,7 +1,4 @@
 import React from 'react';
-import theme from '../../../theme/theme';
-import Header from '../../../components/Header';
-import Head from 'next/head';
 
 export default function SpeakerGridItemComponent(props) {
   let hovering = () => false;
