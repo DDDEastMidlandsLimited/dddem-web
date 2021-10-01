@@ -46,7 +46,7 @@ export default function Speaker2021Component() {
           speakername="Dylan Beattie"
           pic="/static/speakers/2021/Dylan_Beattie.jpg"
           link="../dylan-beattie"
-          talkbrief="TBD"
+          talkbrief="There's No Such Thing As Plain Text"
         />
         <SpeakerGridItemComponent
           speakername="Simon Painter"
