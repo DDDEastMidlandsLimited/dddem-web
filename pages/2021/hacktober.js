@@ -11,7 +11,7 @@ export default function HacktoberFest() {
         <title>HacktoberFest 2021</title>
       </Head>
       <Header
-        title={'Sponsor Information'}
+        title={'Hacktoberfest 2021 Information'}
         banner="/static/banners/information/hacktober.jpg"
       />
 
