@@ -85,10 +85,10 @@ export default function Speaker2021Component() {
           talkbrief="We need to talk about technical debt"
         />
         <SpeakerGridItemComponent
-          speakername="Ryan Yates"
-          pic="/static/speakers/2021/Ryan_Yates.png"
-          link="../ryan-yates"
-          talkbrief="Mental Health: Its Time to Talk"
+          speakername="Clifford Agius"
+          pic="/static/speakers/2021/Clifford_Agius.jpg"
+          link="../clifford-agius"
+          talkbrief="3D printed Bionic Hand a little IOT and a Xamarin Mobile App"
         />
         <SpeakerGridItemComponent
           speakername="Poornima Nayar"
