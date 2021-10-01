@@ -43,10 +43,10 @@ export default function Speaker2021Component() {
           talkbrief="Onion Architecture with DDD and CQRS"
         />
         <SpeakerGridItemComponent
-          speakername="Lucy Fletcher"
-          pic="/static/speakers/2021/Lucy_Fletcher.png"
-          link="../lucy-fletcher"
-          talkbrief="The Culture of DDD"
+          speakername="Dylan Beattie"
+          pic="/static/speakers/2021/Dylan_Beattie.jpg"
+          link="../dylan-beattie"
+          talkbrief="TBD"
         />
         <SpeakerGridItemComponent
           speakername="Simon Painter"
