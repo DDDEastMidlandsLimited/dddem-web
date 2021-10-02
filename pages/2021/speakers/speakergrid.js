@@ -43,10 +43,10 @@ export default function Speaker2021Component() {
           talkbrief="Onion Architecture with DDD and CQRS"
         />
         <SpeakerGridItemComponent
-          speakername="Lucy Fletcher"
-          pic="/static/speakers/2021/Lucy_Fletcher.png"
-          link="../lucy-fletcher"
-          talkbrief="The Culture of DDD"
+          speakername="Dylan Beattie"
+          pic="/static/speakers/2021/Dylan_Beattie.jpg"
+          link="../dylan-beattie"
+          talkbrief="There's No Such Thing As Plain Text"
         />
         <SpeakerGridItemComponent
           speakername="Simon Painter"
@@ -54,10 +54,9 @@ export default function Speaker2021Component() {
           link="../simon-painter"
           talkbrief="SOLID Principles in 5 Nightmares"
         />
-
         <SpeakerGridItemComponent
           speakername="Steve Collins"
-          pic="/static/speakers/2021/steve_collins.jpg"
+          pic="/static/speakers/2021/Steve_Collins.jpg"
           link="../steve-collins"
           talkbrief="The [Source Code] Generation Game"
         />
@@ -86,10 +85,10 @@ export default function Speaker2021Component() {
           talkbrief="We need to talk about technical debt"
         />
         <SpeakerGridItemComponent
-          speakername="Ryan Yates"
-          pic="/static/speakers/2021/Ryan_Yates.png"
-          link="../ryan-yates"
-          talkbrief="Mental Health: Its Time to Talk"
+          speakername="Clifford Agius"
+          pic="/static/speakers/2021/Clifford_Agius.jpg"
+          link="../clifford-agius"
+          talkbrief="3D printed Bionic Hand a little IOT and a Xamarin Mobile App"
         />
         <SpeakerGridItemComponent
           speakername="Poornima Nayar"
@@ -142,6 +141,7 @@ export default function Speaker2021Component() {
             padding: ${theme.sizes.contentPadding};
             margin: auto;
           }
+
           .speaker-grid {
             display: flex;
             flex-direction: row;

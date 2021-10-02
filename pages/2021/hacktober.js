@@ -11,7 +11,7 @@ export default function HacktoberFest() {
         <title>HacktoberFest 2021</title>
       </Head>
       <Header
-        title={'Sponsor Information'}
+        title={'Hacktoberfest 2021 Information'}
         banner="/static/banners/information/hacktober.jpg"
       />
 
@@ -316,6 +316,13 @@ export default function HacktoberFest() {
               className="speaker-image"
               src="/static/hacktoberfest/2021/Pete_Gallagher.jpg"
               alt="Picture of Pete Gallagher"
+            />
+          </article>
+          <article className="speaker-grid-item">
+            <img
+              className="speaker-image"
+              src="/static/hacktoberfest/2021/andystannard.jpg"
+              alt="Picture of Andy Stannard"
             />
           </article>
           {/*       <article className="speaker-grid-item">
