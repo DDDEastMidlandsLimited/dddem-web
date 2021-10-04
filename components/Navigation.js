@@ -169,8 +169,8 @@ export default function Navigation() {
                   Past Speakers
                 </NavDropdown.Item>
               </Nav.Item>
-              <NavDropdown.Item tabIndex="0" href="/2019/album">
-                Photos 2019
+              <NavDropdown.Item tabIndex="0" href="/pastconferences/album">
+                Past Photos
               </NavDropdown.Item>
             </NavDropdown>
 
