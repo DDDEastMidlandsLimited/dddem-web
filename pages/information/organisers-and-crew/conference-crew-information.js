@@ -140,22 +140,13 @@ export default function ConferenceInformation() {
           attendees and speakers during the day and cleaning up after
           the event.
         </p>
-      </section>
-      <section className="volunteer-grid">
-        <article className="volunteer-grid-item">
+        <div className="center-image">
           <img
-            className="volunteer-image"
-            src="/static/speakers/TBC.png"
+            className="crew-image"
+            src="/static/info/crew.jpg"
             alt="To be confirmed placeholder"
           />
-        </article>
-        <article className="volunteer-grid-item">
-          <img
-            className="volunteer-image"
-            src="/static/speakers/TBC.png"
-            alt="To be confirmed placeholder"
-          />
-        </article>
+        </div>
       </section>
 
       <style jsx>
@@ -165,15 +156,14 @@ export default function ConferenceInformation() {
             padding: ${theme.sizes.contentPadding};
             margin: auto;
           }
-          section center-video {
-            text-align: center;
-          }
+
           .iframe-container {
             position: relative;
             overflow: hidden;
             padding-top: 56.25%;
             margin: 10px 10px;
           }
+
           .iframe-container iframe {
             position: absolute;
             top: 0;
@@ -181,6 +171,14 @@ export default function ConferenceInformation() {
             width: 100%;
             height: 100%;
             border: 0;
+          }
+
+          .center-image {
+            text-align: center;
+          }
+
+          .crew-image {
+            width: 80%;
           }
 
           .volunteer-image {
@@ -194,6 +192,7 @@ export default function ConferenceInformation() {
             flex-wrap: wrap;
             justify-content: center;
           }
+
           .volunteer-grid-item {
             min-width: 180px;
           }
