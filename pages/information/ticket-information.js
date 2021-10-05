@@ -30,11 +30,6 @@ export default function TicketInformation() {
             </a>
           </strong>
         </p>
-        {/*       <p>
-        <strong>
-          <a href="#soldout">What if tickets are sold out?</a>
-        </strong>
-      </p> */}
         <p>
           <strong>
             <a href="#return">
@@ -57,34 +52,19 @@ export default function TicketInformation() {
       <section>
         <a name="ticketrelease" />
         <h1 tabIndex="0">When will tickets be released?</h1>
+        <p tabIndex="0">
+          The 2021 event is now done. It will be some months before we
+          have a confirmed date for the next event.
+        </p>
         <ul tabIndex="0">
           <li>
-            <strong>First wave:</strong> 14th May 2021
+            <strong>First wave:</strong> To be confirmed
           </li>
           <li>
-            <strong>Second wave:</strong> 28th May 2021
+            <strong>Second wave:</strong> To be confirmed
           </li>
         </ul>
       </section>
-
-      {/*     <section>
-      <a name="soldout" />
-      <h1 tabIndex="0">What if tickets are sold out?</h1>
-      <p tabIndex="0">
-        You can sign up to the waitlist through{' '}
-        <a
-          href="https://www.eventbrite.co.uk/e/ddd-east-midlands-tickets-58629047058"
-          target="_blank"
-        >
-          registering on Eventbrite.
-        </a>
-      </p>
-      <p tabIndex="0">
-        If you are signed up to the waitlist, this means when a ticket
-        becomes available and you are next on the list, you will be
-        emailed and given 24 hours to claim the ticket.
-      </p>
-    </section> */}
 
       <section>
         <a name="return" />
