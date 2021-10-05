@@ -47,6 +47,38 @@ export default function Navigation() {
                 Covid Precautions
               </NavDropdown.Item>
               <NavDropdown.Item
+                id="ticket-information"
+                tabIndex="0"
+                href="/information/ticket-information"
+                title="Link to Ticket Information Page"
+              >
+                Ticket Information
+              </NavDropdown.Item>
+              <NavDropdown.Item
+                id="attendee-information"
+                tabIndex="0"
+                href="/information/attendee-information"
+                title="Link to Attendee Information Page"
+              >
+                Attendee Information
+              </NavDropdown.Item>
+              <NavDropdown.Item
+                id="speaker-information"
+                tabIndex="0"
+                href="/information/speaker-information"
+                title="Link to Speaker Information Page"
+              >
+                Speaker Information
+              </NavDropdown.Item>
+              <NavDropdown.Item
+                id="crew-information"
+                tabIndex="0"
+                href="/information/crew-information"
+                title="Link to Crew Information Page"
+              >
+                Crew Information
+              </NavDropdown.Item>
+              <NavDropdown.Item
                 id="sponsor-information"
                 tabIndex="0"
                 href="/information/sponsor-information"
@@ -69,38 +101,6 @@ export default function Navigation() {
                 title="Link to Accessibility Information Page"
               >
                 Accessibility
-              </NavDropdown.Item>
-              <NavDropdown.Item
-                id="ticket-information"
-                tabIndex="0"
-                href="/information/ticket-information"
-                title="Link to Ticket Information Page"
-              >
-                Ticket Information
-              </NavDropdown.Item>
-              <NavDropdown.Item
-                id="attendee-information"
-                tabIndex="0"
-                href="/information/attendee-information"
-                title="Link to Attendee Information Page"
-              >
-                Attending the event
-              </NavDropdown.Item>
-              <NavDropdown.Item
-                id="speaker-information"
-                tabIndex="0"
-                href="/information/speaker-information"
-                title="Link to Speaker Information Page"
-              >
-                Speaker Information
-              </NavDropdown.Item>
-              <NavDropdown.Item
-                id="crew-information"
-                tabIndex="0"
-                href="/information/crew-information"
-                title="Link to Crew Information Page"
-              >
-                Crew Information
               </NavDropdown.Item>
             </NavDropdown>
 
