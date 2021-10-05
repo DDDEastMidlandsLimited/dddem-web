@@ -52,6 +52,8 @@ const dates = [
     id: 8,
     date: '2nd October 2021',
     name: 'The 2021 Conference',
+    current: true,
+    past: true,
   },
 ];
 

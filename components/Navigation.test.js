@@ -1,5 +1,5 @@
 import React from 'react';
-import { render } from '@testing-library/react';
+import { render, fireEvent } from '@testing-library/react';
 import Navigation from './Navigation';
 
 describe('Given the Navigation is rendered', () => {
@@ -42,6 +42,23 @@ describe('Given the Navigation is rendered', () => {
     expect(getByText('Blog')).toHaveAttribute(
       'href',
       'https://blog.dddeastmidlands.com/',
+    );
+  });
+
+  test('it should display a Past Events link', async () => {
+    const { getByText, findByText } = render(<Navigation />);
+    const pastEventsLink = getByText('Past Events');
+    expect(pastEventsLink).toBeInTheDocument();
+    fireEvent.click(pastEventsLink);
+    const pastSpeakersLink = await findByText('Past Speakers');
+    expect(pastSpeakersLink).toHaveAttribute(
+      'href',
+      '/pastconferences/pastspeakers/pastspeakergrid',
+    );
+    const pastPhotosLink = await findByText('Past Photos');
+    expect(pastPhotosLink).toHaveAttribute(
+      'href',
+      '/pastconferences/album',
     );
   });
 
