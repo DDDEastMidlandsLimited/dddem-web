@@ -112,12 +112,6 @@ export default function Navigation() {
             </Nav.Item>
 
             <Nav.Item>
-              <Nav.Link tabIndex="0" href="/agenda">
-                Agenda
-              </Nav.Link>
-            </Nav.Item>
-
-            <Nav.Item>
               <Nav.Link tabIndex="0" href="/2021/notable-companies">
                 Notable Companies
               </Nav.Link>
