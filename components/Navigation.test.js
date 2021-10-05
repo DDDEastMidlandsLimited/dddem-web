@@ -18,30 +18,12 @@ describe('Given the Navigation is rendered', () => {
     );
   });
 
-  test('it should display a Covid Precautions link', () => {
-    const { getByText } = render(<Navigation />);
-    expect(getByText('Covid Precautions')).toBeInTheDocument();
-    expect(getByText('Covid Precautions')).toHaveAttribute(
-      'href',
-      '/2021/covid-precautions',
-    );
-  });
-
   test('it should display a Notable Companies link', () => {
     const { getByText } = render(<Navigation />);
     expect(getByText('Notable Companies')).toBeInTheDocument();
     expect(getByText('Notable Companies')).toHaveAttribute(
       'href',
       '/2021/notable-companies',
-    );
-  });
-
-  test('it should display a Tickets link', () => {
-    const { getByText } = render(<Navigation />);
-    expect(getByText('Tickets')).toBeInTheDocument();
-    expect(getByText('Tickets')).toHaveAttribute(
-      'href',
-      'https://www.eventbrite.co.uk/e/ddd-east-midlands-2021-tickets-146129646707',
     );
   });
 
