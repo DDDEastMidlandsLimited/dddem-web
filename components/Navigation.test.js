@@ -18,15 +18,6 @@ describe('Given the Navigation is rendered', () => {
     );
   });
 
-  test('it should display a Covid Precautions link', () => {
-    const { getByText } = render(<Navigation />);
-    expect(getByText('Covid Precautions')).toBeInTheDocument();
-    expect(getByText('Covid Precautions')).toHaveAttribute(
-      'href',
-      '/2021/covid-precautions',
-    );
-  });
-
   test('it should display a Notable Companies link', () => {
     const { getByText } = render(<Navigation />);
     expect(getByText('Notable Companies')).toBeInTheDocument();

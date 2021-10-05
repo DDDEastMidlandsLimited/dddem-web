@@ -39,6 +39,14 @@ export default function Navigation() {
                 About The Conference Crew
               </NavDropdown.Item>
               <NavDropdown.Item
+                id="covid-precautions"
+                tabIndex="0"
+                href="/2021/covid-precautions"
+                title="Link to Covid Precautions Page"
+              >
+                Covid Precautions
+              </NavDropdown.Item>
+              <NavDropdown.Item
                 id="sponsor-information"
                 tabIndex="0"
                 href="/information/sponsor-information"
@@ -95,12 +103,6 @@ export default function Navigation() {
                 Crew Information
               </NavDropdown.Item>
             </NavDropdown>
-
-            <Nav.Item>
-              <Nav.Link tabIndex="0" href="/2021/covid-precautions">
-                Covid Precautions
-              </Nav.Link>
-            </Nav.Item>
 
             <Nav.Item>
               <Nav.Link
