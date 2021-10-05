@@ -124,19 +124,6 @@ export default function Navigation() {
             </Nav.Item>
 
             <Nav.Item>
-              <Nav.Link
-                tabIndex="0"
-                target="_blank"
-                href="https://www.eventbrite.co.uk/e/ddd-east-midlands-2021-tickets-146129646707"
-                onSelect={() => {
-                  logEvent('navigation', 'eventbrite');
-                }}
-              >
-                Tickets
-              </Nav.Link>
-            </Nav.Item>
-
-            <Nav.Item>
               <Nav.Link tabIndex="0" href="/2021/hacktober">
                 Hacktober
               </Nav.Link>
