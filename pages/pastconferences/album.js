@@ -37,20 +37,20 @@ export default function Album() {
       <section>
         <a
           data-flickr-embed="true"
-          data-context="true"
-          href="https://www.flickr.com/photos/185539743@N05/49079034673/in/album-72157711821241733/"
-          title="DDD2019_Websize(63of351)"
+          href="https://www.flickr.com/photos/185539743@N05/albums/72157711821241733"
+          title="2019 DDD East Midlands"
         >
           <img
-            src="https://live.staticflickr.com/65535/49079034673_f15192235f_c.jpg"
-            width="100%"
-            alt="DDD2019_Websize(63of351)"
+            src="https://live.staticflickr.com/65535/49079767092_4c9b88e7af_z.jpg"
+            width="640"
+            height="480"
+            alt="2019 DDD East Midlands"
           />
         </a>
         <script
           async
           src="//embedr.flickr.com/assets/client-code.js"
-          charSet="utf-8"
+          charset="utf-8"
         ></script>
       </section>
 
@@ -60,6 +60,7 @@ export default function Album() {
             max-width: ${theme.sizes.maxContentWidth};
             padding: ${theme.sizes.contentPadding};
             margin: auto;
+            text-align: center;
           }
           h2 {
             text-align: center;
