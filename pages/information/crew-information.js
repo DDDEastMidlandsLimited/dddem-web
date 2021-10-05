@@ -11,7 +11,6 @@ import {
   Catering,
   SocialMedia,
   Wifi,
-  //PubConf,
 } from '../../components/content';
 
 export default function CrewInformation() {
@@ -173,8 +172,6 @@ export default function CrewInformation() {
       <Wifi />
 
       <SocialMedia />
-
-      {/* <PubConf /> */}
 
       <style jsx>
         {`
