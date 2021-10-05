@@ -49,7 +49,7 @@ export default function ApplicationInformation() {
           </li>
           <li>
             <a href="#tande">
-              Are travel and accomodation expenses provided for
+              Are travel and accommodation expenses provided for
               speakers?
             </a>
           </li>
