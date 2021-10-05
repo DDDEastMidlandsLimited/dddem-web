@@ -39,6 +39,46 @@ export default function Navigation() {
                 About The Conference Crew
               </NavDropdown.Item>
               <NavDropdown.Item
+                id="covid-precautions"
+                tabIndex="0"
+                href="/2021/covid-precautions"
+                title="Link to Covid Precautions Page"
+              >
+                Covid Precautions
+              </NavDropdown.Item>
+              <NavDropdown.Item
+                id="ticket-information"
+                tabIndex="0"
+                href="/information/ticket-information"
+                title="Link to Ticket Information Page"
+              >
+                Ticket Information
+              </NavDropdown.Item>
+              <NavDropdown.Item
+                id="attendee-information"
+                tabIndex="0"
+                href="/information/attendee-information"
+                title="Link to Attendee Information Page"
+              >
+                Attendee Information
+              </NavDropdown.Item>
+              <NavDropdown.Item
+                id="speaker-information"
+                tabIndex="0"
+                href="/information/speaker-information"
+                title="Link to Speaker Information Page"
+              >
+                Speaker Information
+              </NavDropdown.Item>
+              <NavDropdown.Item
+                id="crew-information"
+                tabIndex="0"
+                href="/information/crew-information"
+                title="Link to Crew Information Page"
+              >
+                Crew Information
+              </NavDropdown.Item>
+              <NavDropdown.Item
                 id="sponsor-information"
                 tabIndex="0"
                 href="/information/sponsor-information"
@@ -62,45 +102,7 @@ export default function Navigation() {
               >
                 Accessibility
               </NavDropdown.Item>
-              <NavDropdown.Item
-                id="ticket-information"
-                tabIndex="0"
-                href="/information/ticket-information"
-                title="Link to Ticket Information Page"
-              >
-                Ticket Information
-              </NavDropdown.Item>
-              <NavDropdown.Item
-                id="attendee-information"
-                tabIndex="0"
-                href="/information/attendee-information"
-                title="Link to Attendee Information Page"
-              >
-                Attending the event
-              </NavDropdown.Item>
-              <NavDropdown.Item
-                id="speaker-information"
-                tabIndex="0"
-                href="/information/speaker-information"
-                title="Link to Speaker Information Page"
-              >
-                Speaker Information
-              </NavDropdown.Item>
-              <NavDropdown.Item
-                id="crew-information"
-                tabIndex="0"
-                href="/information/crew-information"
-                title="Link to Crew Information Page"
-              >
-                Crew Information
-              </NavDropdown.Item>
             </NavDropdown>
-
-            <Nav.Item>
-              <Nav.Link tabIndex="0" href="/2021/covid-precautions">
-                Covid Precautions
-              </Nav.Link>
-            </Nav.Item>
 
             <Nav.Item>
               <Nav.Link
@@ -112,27 +114,8 @@ export default function Navigation() {
             </Nav.Item>
 
             <Nav.Item>
-              <Nav.Link tabIndex="0" href="/agenda">
-                Agenda
-              </Nav.Link>
-            </Nav.Item>
-
-            <Nav.Item>
               <Nav.Link tabIndex="0" href="/2021/notable-companies">
                 Notable Companies
-              </Nav.Link>
-            </Nav.Item>
-
-            <Nav.Item>
-              <Nav.Link
-                tabIndex="0"
-                target="_blank"
-                href="https://www.eventbrite.co.uk/e/ddd-east-midlands-2021-tickets-146129646707"
-                onSelect={() => {
-                  logEvent('navigation', 'eventbrite');
-                }}
-              >
-                Tickets
               </Nav.Link>
             </Nav.Item>
 

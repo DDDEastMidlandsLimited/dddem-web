@@ -92,7 +92,7 @@ export default function AccessibilityInformation() {
         </ul>
 
         <p tabIndex="0">
-          <strong>Dietary/Alchol Concerns</strong>
+          <strong>Dietary/Alcohol Concerns</strong>
         </p>
         <ul>
           <li>
@@ -160,6 +160,10 @@ export default function AccessibilityInformation() {
           neutral but this won&apos;t be in place until after the
           event.
         </p>
+        <p tabIndex="0">
+          We ask that all attendees are respectful to other peoples
+          gender identification and needs.
+        </p>
       </section>
 
       <section id="wheelchairaccess">
@@ -222,7 +226,7 @@ export default function AccessibilityInformation() {
       </section>
 
       <section id="dietary">
-        <h1 tabIndex="0">Dietary/Alchol Concerns</h1>
+        <h1 tabIndex="0">Dietary/Alcohol Concerns</h1>
 
         <a name="diet-reqs" />
         <h2 tabIndex="0">Will dietary requirements be catered to?</h2>
@@ -239,8 +243,8 @@ export default function AccessibilityInformation() {
         <p tabIndex="0">
           Of course! We completely understand that there are various
           reasons people may want to bring their own food and drink.
-          We will be catering for vegetarian, vegan and ceoliac
-          dietary requirements at the event as far as we can.
+          We will be catering for vegetarian, vegan and celiac dietary
+          requirements at the event as far as we can.
         </p>
 
         <a name="alcohol" />
