@@ -27,7 +27,7 @@ export default function HacktoberFest() {
             />
           </div>
           <div className="columnright">
-            <p tabIndex="0">
+            <p tabIndex="1">
               Hacktoberfest is a month-long celebration of Free and
               Open Source software during October, which is organised
               by{' '}
@@ -42,7 +42,7 @@ export default function HacktoberFest() {
             </p>
           </div>
         </div>
-        <p tabIndex="0">
+        <p tabIndex="2">
           HacktoberFest is there to encourage you to take part in Open
           Source. If you are beginner there are many ways to find
           issues you can help with{' '}
@@ -65,9 +65,9 @@ export default function HacktoberFest() {
       </section>
 
       <section id="take-part">
-        <h1 tabIndex="0">Contribute to DDD East Midlands</h1>
+        <h1 tabIndex="3">Contribute to DDD East Midlands</h1>
         <a name="take-part" />
-        <p tabIndex="0">
+        <p tabIndex="4">
           There are a number of issues that can be picked up on the
           DDD East Midlands repositories. We have labelled the issues
           with <i>up-for-grabs, hacktober</i> if we think they are
@@ -77,12 +77,12 @@ export default function HacktoberFest() {
         <li>Write a blog post.</li>
         <li>Fix spelling mistakes.</li>
         <li>Raise an issue.</li>
-        <p tabIndex="0">
+        <p tabIndex="5">
           Below are links to the DDD East Midlands repositories.
         </p>
 
-        <h2 tabIndex="0">DDD East Midlands Website Repository</h2>
-        <p tabIndex="0"></p>
+        <h2 tabIndex="6">DDD East Midlands Website Repository</h2>
+        <p tabIndex="7"></p>
         <li>
           {' '}
           <a
@@ -105,8 +105,8 @@ export default function HacktoberFest() {
           </a>{' '}
         </li>
 
-        <h2 tabIndex="0">DDD East Midlands Blog Repository</h2>
-        <p tabIndex="0"></p>
+        <h2 tabIndex="8">DDD East Midlands Blog Repository</h2>
+        <p tabIndex="9"></p>
         <li>
           {' '}
           <a
@@ -132,13 +132,13 @@ export default function HacktoberFest() {
       </section>
 
       <section id="first-pr">
-        <h1 tabIndex="0">First PR?</h1>
+        <h1 tabIndex="10">First PR?</h1>
         <a name="first-pr" />
-        <h2 tabIndex="0">Add your selfie!</h2>
-        <p tabIndex="0">
+        <h2 tabIndex="11">Add your selfie!</h2>
+        <p tabIndex="12">
           Take a photo of yourself and add it to this page.
         </p>
-        <h2 tabIndex="0">How to do this?</h2>
+        <h2 tabIndex="13">How to do this?</h2>
         <p>
           Some information about HacktoberFest and how to contribute
           can be read about{' '}
@@ -152,7 +152,7 @@ export default function HacktoberFest() {
           Below are some instructions on how to make changes to this
           page.
         </p>
-        <h3 tabIndex="0">Fork the repository</h3>
+        <h3 tabIndex="14">Fork the repository</h3>
         <p>
           <ul>
             <li>
@@ -205,7 +205,7 @@ export default function HacktoberFest() {
             </li>
           </ul>
         </p>
-        <h3 tabIndex="0">Create a branch</h3>
+        <h3 tabIndex="15">Create a branch</h3>
         <p>
           <ul>
             <li>
@@ -226,7 +226,7 @@ export default function HacktoberFest() {
             </li>
           </ul>
         </p>
-        <h3 tabIndex="0">Add your change to this page</h3>
+        <h3 tabIndex="16">Add your change to this page</h3>
         <p>
           <ul>
             <li>
@@ -253,13 +253,13 @@ export default function HacktoberFest() {
             alt="Picture of the code snip you need to use"
           />
         </p>
-        <h3 tabIndex="0">Run prettier</h3>
+        <h3 tabIndex="17">Run prettier</h3>
         <p>
           In your terminal of choice (command line, bash etc) run the
           command `npm run prettier:fix`. This will fix the formatting
           in your changes.
         </p>
-        <h3 tabIndex="0">Commit, push and raise a Pull Request</h3>
+        <h3 tabIndex="18">Commit, push and raise a Pull Request</h3>
         <p>
           <ul>
             <li>
@@ -294,7 +294,7 @@ export default function HacktoberFest() {
             </li>
           </ul>
         </p>
-        <h3 tabIndex="0">Ask for Help!</h3>
+        <h3 tabIndex="19">Ask for Help!</h3>
         <p>
           If you need some help, ask any one of our fantastic
           Hacktoberfest volunteers!
@@ -302,7 +302,7 @@ export default function HacktoberFest() {
       </section>
 
       <section id="list">
-        <h1>Hacktoberfest Corner Contributors!</h1>
+        <h1 tabIndex="20">Hacktoberfest Corner Contributors!</h1>
         <section className="speaker-grid">
           <article className="speaker-grid-item">
             <img
