@@ -11,22 +11,23 @@ export default function Album() {
         <title>Photographs from DDD East Midlands 2019</title>
       </Head>
       <Header
-        title={'DDD East Midlands'}
+        title={'Past Event Photos'}
         banner="/static/banners/album.jpg"
       />
 
       <section>
-        <p>
-          Please do not use the images for any marketing or comercial
+        <p tabIndex="0">
+          Please do not use the images for any marketing or commercial
           purposes.
         </p>
-        <p>
+        <p tabIndex="0">
           <i>
             Photographs by{' '}
             <a
               href="https://www.abigneonglitter.co.uk/"
               target="_blank"
               rel="noreferrer"
+              tabIndex="0"
             >
               Andrew Acford.
             </a>
@@ -35,23 +36,15 @@ export default function Album() {
       </section>
 
       <section>
-        <a
-          data-flickr-embed="true"
-          href="https://www.flickr.com/photos/185539743@N05/albums/72157711821241733"
-          title="2019 DDD East Midlands"
-        >
-          <img
-            src="https://live.staticflickr.com/65535/49079767092_4c9b88e7af_z.jpg"
-            width="640"
-            height="480"
-            alt="2019 DDD East Midlands"
-          />
-        </a>
-        <script
-          async
-          src="//embedr.flickr.com/assets/client-code.js"
-          charset="utf-8"
-        ></script>
+        <h1 tabIndex="0">2019</h1>
+        <iframe
+          src="https://albumizr.com/a/K2Ti"
+          scrolling="no"
+          frameborder="0"
+          allowfullscreen
+          width="80%"
+          height="500"
+        ></iframe>
       </section>
 
       <style jsx>
