@@ -1,9 +1,9 @@
 import React from 'react';
-import Layout from '../../../components/Layout';
-import Header from '../../../components/Header';
-import theme from '../../../theme/theme';
+import Layout from '../../../../components/Layout';
+import Header from '../../../../components/Header';
+import theme from '../../../../theme/theme';
 import Head from 'next/head';
-import SpeakersButton from '../../../components/speakers/SpeakersButton';
+import SpeakersButton from '../../../../components/speakers/SpeakersButton';
 import { library } from '@fortawesome/fontawesome-svg-core';
 import {
   faInstagram,
@@ -14,81 +14,83 @@ import {
 
 library.add(faInstagram, faTwitter, faGithub, faLinkedin);
 
-export default function TaniaAllard() {
+export default function DylanBeattie() {
   return (
     <Layout>
       <Head>
-        <title>Tania Allard</title>
+        <title>Dylan Beattie</title>
       </Head>
       <Header
-        title={'Tania Allard'}
+        title={'Dylan Beattie'}
         banner="/static/banners/information/thencc.jpg"
       />
       <section>
         <SpeakersButton />
         <img
-          src="/static/speakers/2021/Tania_Allard.jpg"
-          alt="Picture of Tania Allard"
+          src="/static/speakers/2021/Dylan_Beattie.jpg"
+          alt="Picture of Dylan Beattie"
           className="speakerpic"
         />
         <div>
           <ul>
-            <b>Pronouns: </b> She/Her
+            <b>Pronouns: </b> He/Him
           </ul>
           <ul>
-            <b>Talk Length: </b> 60 minute Keynote
+            <b>Talk Length: </b> 60 minute
           </ul>
         </div>
         <br />
-        <h2 tabIndex="0">
-          KEYNOTE: Open source for fun and for profit: rethinking the
-          long road of sustainability.
-        </h2>
+        <h2 tabIndex="0">There's No Such Thing As Plain Text</h2>
         <p tabIndex="0">
-          It is not an understatement to say that today, in 2021, the
-          world runs on open source. Wherever you look, you will find
-          open-source software in the wild - whether you have a
-          smartphone in your pocket or if you see a self-driving car
-          passing by or rockets orbiting in space, open-source is even
-          in simple tasks as deciding what to watch tonight.
-          Open-source software and open infrastructure not only serve
-          as the engine that powers our world. It also enables folks
-          to get together and connect isolated individuals,
-          communities, and missions.
+          Software is complicated. Machine learning, microservice
+          architectures, message queues… every few months there’s
+          another revolutionary idea to consider, another framework to
+          learn. And underneath so many of these amazing ideas and
+          abstractions is text. When you work in software, you spend
+          your life working with text. Some of those text files are
+          source code, some are configuration files, some of them are
+          documentation. Editors, revision control systems,
+          programming languages - everything from C# and HTML to Git
+          and VS Code is based on the idea that we’re working with
+          “plain text” files. But… what if I told you there’s no such
+          thing?
         </p>
         <p tabIndex="0">
-          With this in mind, the most important questions we should be
-          asking is: who and what fuels open source? In this
-          presentation, I will discuss how open source can bring
-          individuals together to form communities. And more
-          importantly, how we can rethink open-source and labour to
-          ensure its long-term sustainability.
+          When we say something is a plain text file, we’re relying on
+          a huge number of assumptions - about operating systems,
+          editors, file formats, language, culture, history… and, most
+          of the time, that’s OK. But when it goes wrong, good old
+          plain text can lead to some of the weirdest bugs you’ve ever
+          seen. Why is there Chinese in the SQL event logs? Why has
+          the city of Aarhus disappeared? And why does Magnus
+          Mårtensson always have trouble getting into the USA? Join
+          Dylan Beattie for a fascinating look into the hidden world
+          of text files - from the history of mechanical teletypes, to
+          how emoji skin tones actually work. We’ll look at some
+          memorable bugs, some golden rules for working with plain
+          text, and we’ll even find out the story behind the strange
+          saying “PIKE MATCHBOX” – and what it has to do with driving
+          in Ukraine.
         </p>
       </section>
       <section>
-        <h2 tabIndex="0">About Tania</h2>
+        <h2 tabIndex="0">About Dylan</h2>
         <p tabIndex="0">
-          <b></b>
+          <b>The one in the hat.</b>
         </p>
         <p tabIndex="0">
-          Tania is the co-director at Quansight Labs and previous Sr.
-          Developer Advocate at Microsoft. She has vast experience in
-          academic research and industrial environments. Her main
-          areas of expertise are within data-intensive applications,
-          scientific computing, and machine learning. Tania has
-          conducted extensive work on the improvement of processes,
-          reproducibility and transparency in research, data science
-          and artificial intelligence. She is passionate about
-          mentoring, open source, and its community and is involved in
-          a number of initiatives aimed to build more diverse and
-          inclusive communities. She is also a contributor,
-          maintainer, and developer of a number of open source
-          projects and the Founder of Pyladies NorthWest.
+          Dylan Beattie is an independent consultant who has been
+          building data-driven web applications since the 1990s. He’s
+          managed teams, taught workshops, and worked on everything
+          from tiny standalone websites to complex distributed
+          systems. He’s a Microsoft MVP, and he regularly speaks at
+          conferences and user groups all over the world.
         </p>
         <p tabIndex="0">
-          In her free time she likes tinkering with electronics,
-          nerding with mechanical keyboards, reading all the books and
-          lifting heavy weights.
+          Dylan is the creator of the Rockstar programming language,
+          and is known for his live music shows featuring
+          software-themed parodies of classic rock songs. He’s online
+          at dylanbeattie.net and on Twitter as @dylanbeattie.
         </p>
       </section>
 
@@ -98,8 +100,8 @@ export default function TaniaAllard() {
           <a
             target="_blank"
             rel="noreferrer"
-            aria-label="Tania Allard: Twitter"
-            href="https://twitter.com/ixek"
+            aria-label="Dylan Beattie: Twitter"
+            href="https://twitter.com/dylanbeattie"
           >
             Twitter
           </a>
@@ -108,20 +110,10 @@ export default function TaniaAllard() {
           <a
             target="_blank"
             rel="noreferrer"
-            aria-label="Tania Allard: Website"
-            href="https://www.trallard.dev/pensieve/trallard.dev"
+            aria-label="Dylan Beattie: Website"
+            href="https://www.dylanbeattie.net"
           >
             Website
-          </a>
-        </li>
-        <li>
-          <a
-            target="_blank"
-            rel="noreferrer"
-            aria-label="Tania Allard: LinkedIn"
-            href="https://www.linkedin.com/in/taniaallard/"
-          >
-            LinkedIn
           </a>
         </li>
       </section>

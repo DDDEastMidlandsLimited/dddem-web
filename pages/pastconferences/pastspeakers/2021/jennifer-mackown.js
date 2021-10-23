@@ -1,9 +1,9 @@
 import React from 'react';
-import Layout from '../../../components/Layout';
-import Header from '../../../components/Header';
-import theme from '../../../theme/theme';
+import Layout from '../../../../components/Layout';
+import Header from '../../../../components/Header';
+import theme from '../../../../theme/theme';
 import Head from 'next/head';
-import SpeakersButton from '../../../components/speakers/SpeakersButton';
+import SpeakersButton from '../../../../components/speakers/SpeakersButton';
 import { library } from '@fortawesome/fontawesome-svg-core';
 import {
   faInstagram,
@@ -14,71 +14,89 @@ import {
 
 library.add(faInstagram, faTwitter, faGithub, faLinkedin);
 
-export default function StephenHaunts() {
+export default function JenniferMackown() {
   return (
     <Layout>
       <Head>
-        <title>Stephen Haunts</title>
+        <title>Jennifer Mackown</title>
       </Head>
       <Header
-        title={'Stephen Haunts'}
+        title={'Jennifer Mackown'}
         banner="/static/banners/information/thencc.jpg"
       />
       <section>
         <SpeakersButton />
         <img
-          src="/static/speakers/2021/Stephen_Haunts.jpg"
-          alt="Picture of Stephen Haunts"
+          src="/static/speakers/2021/Jen_Mackown.png"
+          alt="Picture of Jennifer Mackown"
           className="speakerpic"
         />
         <div>
           <ul>
-            <b>Pronouns: </b> He/Him
+            <b>Pronouns: </b> She/Her
           </ul>
           <ul>
-            <b>Talk Length: </b> 60 mins
+            <b>Talk Length: </b> 15 mins
           </ul>
         </div>
         <br />
         <h2 tabIndex="0">
-          Hacking Humans : Social Engineering Techniques and How to
-          Protect Against Them
+          How to ruin kid's games with machine learning
         </h2>
         <p tabIndex="0">
-          Social engineering is one of the biggest threats to our
-          organisations as attackers use manipulation techniques to
-          coerce people into revealing secrets about our companies to
-          allow attackers to gain access to critical systems.
+          Winter lockdown with a small child has meant one thing in
+          our house - trains. We have a huge amount of Brio (that
+          magnetic wooden train set you used to play with in the Early
+          Learning Centre) and every day means a new track taking over
+          our living room. Train tracks designed by a 4yo can be quite
+          random and not very satisfying to actually play with - lines
+          that disappear under the sofa, bridges to nowhere and
+          surprise turntables in the middle of a track.
         </p>
         <p tabIndex="0">
-          In this talk we will look at some of the techniques used in
-          social engineering and look at how to guard yourself against
-          them. We will cover subjects like pre-texting, elicitation
-          and body language as techniques for manipulating people.
+          So I started to build my own tracks (when he was asleep, to
+          prevent ‘helping’), but it was pretty labour-intensive and
+          it turns out I prefer to spend my evenings doing… well
+          almost anything else. So instead I developed an algorithm to
+          generate tracks and then trained a 4yo-opinion-based ML
+          model to determine whether the tracks were ‘fun’ or not.
+        </p>
+        <p tabIndex="0">
+          This is the story of how I learned that ‘developing an
+          algorithm’ is not as easy as it sounds, and that ‘fun’ has
+          different meanings depending on whether you are 4, 34 or a
+          computer.
         </p>
       </section>
       <section>
-        <h2 tabIndex="0">About Stephen</h2>
+        <h2 tabIndex="0">About Jennifer</h2>
         <p tabIndex="0">
-          <b>Founder of Stephen Haunts Training</b>
+          <b>Senior Software Developer</b>
         </p>
         <p tabIndex="0">
-          Stephen Haunts is an independent software developer,
-          Pluralsight Author, Writer for APress, and classroom
-          trainer. Stephen has had a long career working in computer
-          games, banks, retail finance, insurance and healthcare and
-          is now passionate about helping other developers, and
-          professionals succeed in their careers.
+          After a short but illustrious career as webmaster for a
+          number of uniquely designed X-Files and Stargate SG-1 fan
+          sites in the 90's, I decided to get a proper job. A
+          meandering path through accountancy, volcanoes in space,
+          teaching maths to teenagers and pulling pints eventually
+          lead back to the web, though this time I was called Web
+          Developer and people paid me money to do it. Not much, but
+          startup life be that way.
         </p>
         <p tabIndex="0">
-          Stephen has authored over 14 courses for Pluralsight,
-          written a book on Cryptography for APress, and has spoken
-          and taught workshops at conferences and companies all over
-          the world.
+          Now I'm a Senior Developer, which sounds pretty important,
+          and I've somehow migrated from building beautiful websites
+          with frames and animated gifs to serious backend development
+          that make serious apps do serious things seriously.
         </p>
         <p tabIndex="0">
-          Stephen is also the host of the popular business podcast,
-          the Side Hustle Success Podcast.
+          When not being serious, I play a LOT of Lego with the 4yo. I
+          make beautiful houses and buildings that get demolished and
+          turned into police stations. Or set on fire. Or run over by
+          a monster truck. I sometimes volunteer myself for conference
+          talks or arranging tech meetups, but that's all been a bit
+          limited lately what with the world ending, so I may have
+          forgotten how to interact with real life humans.
         </p>
       </section>
 
@@ -88,8 +106,8 @@ export default function StephenHaunts() {
           <a
             target="_blank"
             rel="noreferrer"
-            aria-label="Stephen Haunts: Twitter"
-            href="https://twitter.com/stephenhaunts"
+            aria-label="Jennifer Mackown: Twitter"
+            href="https://twitter.com/__jcmc__/"
           >
             Twitter
           </a>
@@ -98,10 +116,20 @@ export default function StephenHaunts() {
           <a
             target="_blank"
             rel="noreferrer"
-            aria-label="Stephen Haunts: Website"
-            href="https://stephenhaunts.com/"
+            aria-label="Jennifer Mackown: Website"
+            href="https://www.jcmc.dev/"
           >
             Website
+          </a>
+        </li>
+        <li>
+          <a
+            target="_blank"
+            rel="noreferrer"
+            aria-label="Jennifer Mackown: LinkedIn"
+            href="https://www.linkedin.com/in/jennifer-mackown-4352aa37/"
+          >
+            LinkedIn
           </a>
         </li>
       </section>

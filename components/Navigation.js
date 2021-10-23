@@ -105,15 +105,6 @@ export default function Navigation() {
             </NavDropdown>
 
             <Nav.Item>
-              <Nav.Link
-                tabIndex="0"
-                href="/2021/speakers/speakergrid"
-              >
-                Speakers
-              </Nav.Link>
-            </Nav.Item>
-
-            <Nav.Item>
               <Nav.Link tabIndex="0" href="/2021/notable-companies">
                 Notable Companies
               </Nav.Link>

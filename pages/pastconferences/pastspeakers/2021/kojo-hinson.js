@@ -1,9 +1,9 @@
 import React from 'react';
-import Layout from '../../../components/Layout';
-import Header from '../../../components/Header';
-import theme from '../../../theme/theme';
+import Layout from '../../../../components/Layout';
+import Header from '../../../../components/Header';
+import theme from '../../../../theme/theme';
 import Head from 'next/head';
-import SpeakersButton from '../../../components/speakers/SpeakersButton';
+import SpeakersButton from '../../../../components/speakers/SpeakersButton';
 import { library } from '@fortawesome/fontawesome-svg-core';
 import {
   faInstagram,
@@ -14,89 +14,81 @@ import {
 
 library.add(faInstagram, faTwitter, faGithub, faLinkedin);
 
-export default function JenniferMackown() {
+export default function KojoHinson() {
   return (
     <Layout>
       <Head>
-        <title>Jennifer Mackown</title>
+        <title>Kojo Hinson</title>
       </Head>
       <Header
-        title={'Jennifer Mackown'}
+        title={'Kojo Hinson'}
         banner="/static/banners/information/thencc.jpg"
       />
       <section>
         <SpeakersButton />
         <img
-          src="/static/speakers/2021/Jen_Mackown.png"
-          alt="Picture of Jennifer Mackown"
+          src="/static/speakers/2021/Kojo_Hinson.png"
+          alt="Picture of Kojo Hinson"
           className="speakerpic"
         />
         <div>
           <ul>
-            <b>Pronouns: </b> She/Her
+            <b>Pronouns: </b> He/Him
           </ul>
           <ul>
-            <b>Talk Length: </b> 15 mins
+            <b>Talk Length: </b> 30 mins
           </ul>
         </div>
         <br />
         <h2 tabIndex="0">
-          How to ruin kid's games with machine learning
+          Embracing Skynet - An exploration of GPT-3 and its potential
+          applications
         </h2>
         <p tabIndex="0">
-          Winter lockdown with a small child has meant one thing in
-          our house - trains. We have a huge amount of Brio (that
-          magnetic wooden train set you used to play with in the Early
-          Learning Centre) and every day means a new track taking over
-          our living room. Train tracks designed by a 4yo can be quite
-          random and not very satisfying to actually play with - lines
-          that disappear under the sofa, bridges to nowhere and
-          surprise turntables in the middle of a track.
+          GPT-3 or Generative Pre-trained Transformer 3 (GPT-3) is an
+          autoregressive language model that uses deep learning to
+          produce human-like text.
         </p>
         <p tabIndex="0">
-          So I started to build my own tracks (when he was asleep, to
-          prevent ‘helping’), but it was pretty labour-intensive and
-          it turns out I prefer to spend my evenings doing… well
-          almost anything else. So instead I developed an algorithm to
-          generate tracks and then trained a 4yo-opinion-based ML
-          model to determine whether the tracks were ‘fun’ or not.
+          A few weeks ago, I was lucky enough to be accepted into the
+          developer beta release of the pre-trained GPT-3 API and have
+          been marvelling at the shockingly good performance of its
+          generative capabilities.
         </p>
         <p tabIndex="0">
-          This is the story of how I learned that ‘developing an
-          algorithm’ is not as easy as it sounds, and that ‘fun’ has
-          different meanings depending on whether you are 4, 34 or a
-          computer.
+          This talk should serve as a quick intro to the API itself
+          (including a quick demo) and an exploration of some of the
+          creative applications people have managed to find for this
+          powerful technology so far.
         </p>
       </section>
       <section>
-        <h2 tabIndex="0">About Jennifer</h2>
+        <h2 tabIndex="0">About Kojo</h2>
         <p tabIndex="0">
-          <b>Senior Software Developer</b>
+          <b>VP of Engineering at Koodoo</b>
         </p>
         <p tabIndex="0">
-          After a short but illustrious career as webmaster for a
-          number of uniquely designed X-Files and Stargate SG-1 fan
-          sites in the 90's, I decided to get a proper job. A
-          meandering path through accountancy, volcanoes in space,
-          teaching maths to teenagers and pulling pints eventually
-          lead back to the web, though this time I was called Web
-          Developer and people paid me money to do it. Not much, but
-          startup life be that way.
+          Following a brief industrial placement building software for
+          the purposes of radiation modelling at Culham Centre for
+          Fusion Energy, Kojo has spent the last few years developing
+          and building high quality software applications for
+          enterprises of varying sectors and scales. From big data
+          engineering for Walgreens, to embedded programming for
+          Google and Amazon connected IoT devices, Kojo has developed
+          a range of experience in several areas and layers of modern
+          technology stacks.
         </p>
         <p tabIndex="0">
-          Now I'm a Senior Developer, which sounds pretty important,
-          and I've somehow migrated from building beautiful websites
-          with frames and animated gifs to serious backend development
-          that make serious apps do serious things seriously.
+          Having spent time at several FinTech startups (Oakbrook
+          Finance, Wealth Wizards and now Koodoo) Kojo has developed
+          domain expertise not only in the technology required to
+          build complex financial software but also in the business
+          itself.
         </p>
         <p tabIndex="0">
-          When not being serious, I play a LOT of Lego with the 4yo. I
-          make beautiful houses and buildings that get demolished and
-          turned into police stations. Or set on fire. Or run over by
-          a monster truck. I sometimes volunteer myself for conference
-          talks or arranging tech meetups, but that's all been a bit
-          limited lately what with the world ending, so I may have
-          forgotten how to interact with real life humans.
+          Kojo attained a BSc in Maths and Physics from the University
+          of Bristol, followed by a MSc in the Physics and Tech of
+          Nuclear Reactors at the University of Birmingham.
         </p>
       </section>
 
@@ -106,8 +98,8 @@ export default function JenniferMackown() {
           <a
             target="_blank"
             rel="noreferrer"
-            aria-label="Jennifer Mackown: Twitter"
-            href="https://twitter.com/__jcmc__/"
+            aria-label="Kojo Hinson: Twitter"
+            href="https://twitter.com/KojoHinson"
           >
             Twitter
           </a>
@@ -116,18 +108,8 @@ export default function JenniferMackown() {
           <a
             target="_blank"
             rel="noreferrer"
-            aria-label="Jennifer Mackown: Website"
-            href="https://www.jcmc.dev/"
-          >
-            Website
-          </a>
-        </li>
-        <li>
-          <a
-            target="_blank"
-            rel="noreferrer"
-            aria-label="Jennifer Mackown: LinkedIn"
-            href="https://www.linkedin.com/in/jennifer-mackown-4352aa37/"
+            aria-label="Kojo Hinson: LinkedIn"
+            href="https://www.linkedin.com/in/kojo-h-69a4074a/"
           >
             LinkedIn
           </a>

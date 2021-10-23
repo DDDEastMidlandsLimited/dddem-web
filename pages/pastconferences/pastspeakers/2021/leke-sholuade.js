@@ -1,9 +1,9 @@
 import React from 'react';
-import Layout from '../../../components/Layout';
-import Header from '../../../components/Header';
-import theme from '../../../theme/theme';
+import Layout from '../../../../components/Layout';
+import Header from '../../../../components/Header';
+import theme from '../../../../theme/theme';
 import Head from 'next/head';
-import SpeakersButton from '../../../components/speakers/SpeakersButton';
+import SpeakersButton from '../../../../components/speakers/SpeakersButton';
 import { library } from '@fortawesome/fontawesome-svg-core';
 import {
   faInstagram,
@@ -14,51 +14,49 @@ import {
 
 library.add(faInstagram, faTwitter, faGithub, faLinkedin);
 
-export default function ManuMagalhaes() {
+export default function LekeSholuade() {
   return (
     <Layout>
       <Head>
-        <title>Manu Magalhães</title>
+        <title>Leke Sholuade</title>
       </Head>
       <Header
-        title={'Manu Magalhães'}
+        title={'Leke Sholuade'}
         banner="/static/banners/information/thencc.jpg"
       />
       <section>
         <SpeakersButton />
         <img
-          src="/static/speakers/2021/Manu_Magalhaes.png"
-          alt="Picture of Manu Magalhães"
+          src="/static/speakers/2021/Leke_Sholuade.jpg"
+          alt="Picture of Leke Sholuade"
           className="speakerpic"
         />
         <div>
           <ul>
-            <b>Pronouns: </b> She/Her
+            <b>Pronouns: </b> He/Him
           </ul>
           <ul>
-            <b>Talk Length: </b> 60 mins
+            <b>Talk Length: </b> 15 mins
           </ul>
         </div>
         <br />
-        <h2 tabIndex="0">Nitty-Gitty: Master Git from the Inside</h2>
+        <h2 tabIndex="0">Why do we need a Black Valley</h2>
         <p tabIndex="0">
-          You already use git, but you're still scared of it? Is git
-          more a set of spells than a tool to you? Learn in this live
-          demo how git works from the inside and reason all your git
-          problems away.
+          The session describes argues the case to build a Black
+          Valley, the idea of supporting black talents in tech to make
+          sure products are not biased towards black people.
         </p>
       </section>
       <section>
-        <h2 tabIndex="0">About Manu</h2>
+        <h2 tabIndex="0">About Leke</h2>
         <p tabIndex="0">
-          <b>DevSecOps Engineer</b>
+          <b>Founder of Black Valley</b>
         </p>
         <p tabIndex="0">
-          I am a DevSecOps Engineer interested in Cloud Security,
-          Security Automation, and Cyberethics. Before getting hooked
-          into CyberSecurity, I was a translator with a Journalism
-          degree. I love to explore how technology affects our
-          society, and how we can create tech for good.
+          Leke is the founder of Black Valley. An 8 weeks intensive
+          person-centred programme which includes mentorship,
+          community, and knowledge-building in tech for the black
+          community
         </p>
       </section>
 
@@ -68,10 +66,20 @@ export default function ManuMagalhaes() {
           <a
             target="_blank"
             rel="noreferrer"
-            aria-label="Manu Magalhães: LinkedIn"
-            href="https://www.linkedin.com/in/manumagalhaes/"
+            aria-label="Leke Sholuade: Twitter"
+            href="https://twitter.com/lekeshow"
           >
             Twitter
+          </a>
+        </li>
+        <li>
+          <a
+            target="_blank"
+            rel="noreferrer"
+            aria-label="Leke Sholuade: LinkedIn"
+            href="https://www.linkedin.com/in/leke-sholuade-74042875/"
+          >
+            LinkedIn
           </a>
         </li>
       </section>
