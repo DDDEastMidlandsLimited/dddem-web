@@ -44,6 +44,7 @@ export default function Album() {
           allowFullScreen
           width="80%"
           height="500"
+          title="2019 Album"
         ></iframe>
       </section>
 
