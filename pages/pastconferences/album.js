@@ -40,8 +40,8 @@ export default function Album() {
         <iframe
           src="https://albumizr.com/a/K2Ti"
           scrolling="no"
-          frameborder="0"
-          allowfullscreen
+          frameBorder="0"
+          allowFullscreen
           width="80%"
           height="500"
         ></iframe>
