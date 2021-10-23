@@ -41,7 +41,7 @@ export default function Album() {
           src="https://albumizr.com/a/K2Ti"
           scrolling="no"
           frameBorder="0"
-          allowFullscreen
+          allowFullScreen
           width="80%"
           height="500"
         ></iframe>
