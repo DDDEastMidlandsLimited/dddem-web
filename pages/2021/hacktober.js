@@ -325,13 +325,13 @@ export default function HacktoberFest() {
               alt="Picture of Andy Stannard"
             />
           </article>
-          <article className="speaker-grid-item">
+{/*       <article className="speaker-grid-item">
             <img
               className="speaker-image"
-              src="/static/hacktoberfest/2021/Manish_Gupta.jpg"
+              src="/static/hacktoberfest/2021/FirstName_SecondName.jpg"
               alt="Picture of FirstName LastName"
             />
-          </article>
+          </article> */}
         </section>
       </section>
 
