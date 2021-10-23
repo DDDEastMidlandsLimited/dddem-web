@@ -17,16 +17,7 @@ describe('Given the Navigation is rendered', () => {
       '/2021/notable-companies',
     );
   });
-
-  test('it should display a Hacktober link', () => {
-    const { getByText } = render(<Navigation />);
-    expect(getByText('Hacktober')).toBeInTheDocument();
-    expect(getByText('Hacktober')).toHaveAttribute(
-      'href',
-      '/2021/hacktober',
-    );
-  });
-
+  
   test('it should display a Blog link', () => {
     const { getByText } = render(<Navigation />);
     expect(getByText('Blog')).toBeInTheDocument();
