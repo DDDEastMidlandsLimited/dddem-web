@@ -1,9 +1,9 @@
 import React from 'react';
-import Layout from '../../../components/Layout';
-import Header from '../../../components/Header';
-import theme from '../../../theme/theme';
+import Layout from '../../../../components/Layout';
+import Header from '../../../../components/Header';
+import theme from '../../../../theme/theme';
 import Head from 'next/head';
-import SpeakersButton from '../../../components/speakers/SpeakersButton';
+import SpeakersButton from '../../../../components/speakers/SpeakersButton';
 import { library } from '@fortawesome/fontawesome-svg-core';
 import {
   faInstagram,
@@ -14,21 +14,21 @@ import {
 
 library.add(faInstagram, faTwitter, faGithub, faLinkedin);
 
-export default function SimonPainter() {
+export default function StephenHaunts() {
   return (
     <Layout>
       <Head>
-        <title>Simon Painter</title>
+        <title>Stephen Haunts</title>
       </Head>
       <Header
-        title={'Simon Painter'}
+        title={'Stephen Haunts'}
         banner="/static/banners/information/thencc.jpg"
       />
       <section>
         <SpeakersButton />
         <img
-          src="/static/speakers/2021/Simon_Painter.png"
-          alt="Picture of Simon Painter"
+          src="/static/speakers/2021/Stephen_Haunts.jpg"
+          alt="Picture of Stephen Haunts"
           className="speakerpic"
         />
         <div>
@@ -40,60 +40,45 @@ export default function SimonPainter() {
           </ul>
         </div>
         <br />
-        <h2 tabIndex="0">SOLID Principles in 5 Nightmares</h2>
+        <h2 tabIndex="0">
+          Hacking Humans : Social Engineering Techniques and How to
+          Protect Against Them
+        </h2>
         <p tabIndex="0">
-          The 5 SOLID principles - popularised by "Uncle" Bob Martin
-          in some of his highly influential books on Object Orientated
-          Software development - are rarely cited directly but they
-          are nevertheless at the heart of a lot of the thinking that
-          goes into modern software development.
+          Social engineering is one of the biggest threats to our
+          organisations as attackers use manipulation techniques to
+          coerce people into revealing secrets about our companies to
+          allow attackers to gain access to critical systems.
         </p>
         <p tabIndex="0">
-          These principles have been around in some form or other ever
-          since the 1980s, but continue to be just as relevant today
-          as they were then.
-        </p>
-        <p tabIndex="0">
-          In this talk, we're going to look at each of the 5 SOLID
-          principles, these being:
-        </p>
-        <li>Single Dependency Principle</li>
-        <li>Open/Close Principle</li>
-        <li>Liskov Substitution Principle</li>
-        <li>Interface Segregation Principle</li>
-        <li>Dependency Inversion Principle</li>
-        <p tabIndex="0">See what he did there with the names?</p>
-        <p tabIndex="0">
-          We'll look at each in turn, with the help of some slightly
-          imaginative examples taken from a popular SF franchise. What
-          are they, what nightmare scenarios can occur if they aren't
-          followed, and how they can subsequently be applied.
+          In this talk we will look at some of the techniques used in
+          social engineering and look at how to guard yourself against
+          them. We will cover subjects like pre-texting, elicitation
+          and body language as techniques for manipulating people.
         </p>
       </section>
       <section>
-        <h2 tabIndex="0">About Simon</h2>
+        <h2 tabIndex="0">About Stephen</h2>
         <p tabIndex="0">
-          <b>.NET Contractor and Consultant</b>
+          <b>Founder of Stephen Haunts Training</b>
         </p>
         <p tabIndex="0">
-          I've been working as a .NET developer for over 13 years now
-          in a variety of industries including government, retail and
-          manufacturing. But as a coder, I've been playing with making
-          computers do whatever my crazed imagination could devise
-          since I was old enough to read my Dad's copy of the ZX
-          Spectrum BASIC coders manual.
+          Stephen Haunts is an independent software developer,
+          Pluralsight Author, Writer for APress, and classroom
+          trainer. Stephen has had a long career working in computer
+          games, banks, retail finance, insurance and healthcare and
+          is now passionate about helping other developers, and
+          professionals succeed in their careers.
         </p>
         <p tabIndex="0">
-          I've been speaking about Functional C# at various user
-          groups and conferences around the UK, USA, and India, and am
-          particularly interested in seeing just how far we can push
-          the capabilities of C#.
+          Stephen has authored over 14 courses for Pluralsight,
+          written a book on Cryptography for APress, and has spoken
+          and taught workshops at conferences and companies all over
+          the world.
         </p>
         <p tabIndex="0">
-          When I'm not coding, or running after my two small children,
-          I have been known to enjoy the classic series of Doctor Who,
-          Fighting Fantasy Gamebooks, Cryptic Crosswords, and rather
-          more coffee than is probably good for me.
+          Stephen is also the host of the popular business podcast,
+          the Side Hustle Success Podcast.
         </p>
       </section>
 
@@ -103,10 +88,20 @@ export default function SimonPainter() {
           <a
             target="_blank"
             rel="noreferrer"
-            aria-label="Simon Painter: Twitter"
-            href="https://twitter.com/madSimonJ"
+            aria-label="Stephen Haunts: Twitter"
+            href="https://twitter.com/stephenhaunts"
           >
             Twitter
+          </a>
+        </li>
+        <li>
+          <a
+            target="_blank"
+            rel="noreferrer"
+            aria-label="Stephen Haunts: Website"
+            href="https://stephenhaunts.com/"
+          >
+            Website
           </a>
         </li>
       </section>

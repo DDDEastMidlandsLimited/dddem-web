@@ -1,9 +1,9 @@
 import React from 'react';
-import Layout from '../../../components/Layout';
-import Header from '../../../components/Header';
-import theme from '../../../theme/theme';
+import Layout from '../../../../components/Layout';
+import Header from '../../../../components/Header';
+import theme from '../../../../theme/theme';
 import Head from 'next/head';
-import SpeakersButton from '../../../components/speakers/SpeakersButton';
+import SpeakersButton from '../../../../components/speakers/SpeakersButton';
 import { library } from '@fortawesome/fontawesome-svg-core';
 import {
   faInstagram,
@@ -14,74 +14,55 @@ import {
 
 library.add(faInstagram, faTwitter, faGithub, faLinkedin);
 
-export default function LekeSholuade() {
+export default function ConnellW() {
   return (
     <Layout>
       <Head>
-        <title>Leke Sholuade</title>
+        <title>Connell W</title>
       </Head>
       <Header
-        title={'Leke Sholuade'}
+        title={'Connell W'}
         banner="/static/banners/information/thencc.jpg"
       />
       <section>
         <SpeakersButton />
         <img
-          src="/static/speakers/2021/Leke_Sholuade.jpg"
-          alt="Picture of Leke Sholuade"
+          src="/static/speakers/2021/Connell_W.png"
+          alt="Picture of Connell"
           className="speakerpic"
         />
         <div>
           <ul>
-            <b>Pronouns: </b> He/Him
+            <b>Pronouns: </b> Not Provided
           </ul>
           <ul>
-            <b>Talk Length: </b> 15 mins
+            <b>Talk Length: </b> 60 mins
           </ul>
         </div>
         <br />
-        <h2 tabIndex="0">Why do we need a Black Valley</h2>
+        <h2 tabIndex="0">Onion Architecture with DDD and CQRS</h2>
         <p tabIndex="0">
-          The session describes argues the case to build a Black
-          Valley, the idea of supporting black talents in tech to make
-          sure products are not biased towards black people.
+          Explaining how I reason about the building blocks of Onion
+          Architecture, Domain-Driven Design and Command Query
+          Responsibility Segregation in an event-driven micro-services
+          architecture. How it all fits together in my head, the
+          concepts they share, and the mistakes I've made along the
+          way.
+        </p>
+        <p tabIndex="0">
+          Examples using modern C# but can be applied to other
+          languages and frameworks.
         </p>
       </section>
       <section>
-        <h2 tabIndex="0">About Leke</h2>
+        <h2 tabIndex="0">About Connell</h2>
         <p tabIndex="0">
-          <b>Founder of Black Valley</b>
+          <b>Lead Platform Engineer at Oakbrook Finance</b>
         </p>
         <p tabIndex="0">
-          Leke is the founder of Black Valley. An 8 weeks intensive
-          person-centred programme which includes mentorship,
-          community, and knowledge-building in tech for the black
-          community
+          Loves building software and making music. Coding since 2005.
+          Every day learning and sharing knowledge.
         </p>
-      </section>
-
-      <section>
-        <h2 tabIndex="0">Links</h2>
-        <li>
-          <a
-            target="_blank"
-            rel="noreferrer"
-            aria-label="Leke Sholuade: Twitter"
-            href="https://twitter.com/lekeshow"
-          >
-            Twitter
-          </a>
-        </li>
-        <li>
-          <a
-            target="_blank"
-            rel="noreferrer"
-            aria-label="Leke Sholuade: LinkedIn"
-            href="https://www.linkedin.com/in/leke-sholuade-74042875/"
-          >
-            LinkedIn
-          </a>
-        </li>
       </section>
 
       <style jsx>
@@ -122,6 +103,7 @@ export default function LekeSholuade() {
             height: 100%;
             border: 0;
           }
+
           ul {
             display: flex;
             margin: 0;
@@ -133,8 +115,8 @@ export default function LekeSholuade() {
           li {
             margin: 0;
             padding: 10px;
-            list-style: inside;
-            list-style-type: disc;
+            list-style: none;
+            list-style-type: none;
             text-align: left;
             flex-basis: 0;
             flex-grow: 1;
@@ -156,11 +138,9 @@ export default function LekeSholuade() {
           .contactButton a {
             text-decoration: none;
           }
-
           .contactButton:hover {
             background-color: ${theme.palette.primary};
           }
-
           .contactButton a:hover {
             color: ${theme.palette.light};
           }

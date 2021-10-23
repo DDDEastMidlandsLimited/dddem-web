@@ -1,9 +1,9 @@
 import React from 'react';
-import Layout from '../../../components/Layout';
-import Header from '../../../components/Header';
-import theme from '../../../theme/theme';
+import Layout from '../../../../components/Layout';
+import Header from '../../../../components/Header';
+import theme from '../../../../theme/theme';
 import Head from 'next/head';
-import SpeakersButton from '../../../components/speakers/SpeakersButton';
+import SpeakersButton from '../../../../components/speakers/SpeakersButton';
 import { library } from '@fortawesome/fontawesome-svg-core';
 import {
   faInstagram,
@@ -14,21 +14,21 @@ import {
 
 library.add(faInstagram, faTwitter, faGithub, faLinkedin);
 
-export default function TomMorton() {
+export default function JamesCroft() {
   return (
     <Layout>
       <Head>
-        <title>Tom Morton</title>
+        <title>James Croft</title>
       </Head>
       <Header
-        title={'Tom Morton'}
+        title={'James Croft'}
         banner="/static/banners/information/thencc.jpg"
       />
       <section>
         <SpeakersButton />
         <img
-          src="/static/speakers/2021/Tom_Morton.png"
-          alt="Picture of Tom Morton"
+          src="/static/speakers/2021/James_Croft.png"
+          alt="Picture of James Croft"
           className="speakerpic"
         />
         <div>
@@ -36,32 +36,54 @@ export default function TomMorton() {
             <b>Pronouns: </b> He/Him
           </ul>
           <ul>
-            <b>Talk Length: </b> 30 mins
+            <b>Talk Length: </b> 60 mins
           </ul>
         </div>
         <br />
-        <h2 tabIndex="0">
-          Open Banking vs. DeFi; The technological future of finance?
-        </h2>
+        <h2 tabIndex="0">Should you write UI tests?</h2>
         <p tabIndex="0">
-          Crypto Currencies. Open API's. Democratising FInance. Which
-          approach to Open Finance will ultimately succeed and what
-          does that mean for technology in the future.
+          UI testing is a point of conflict amongst app developers.
+          When asked in a recent poll on whether app devs write them,
+          over half don't!
+        </p>
+        <p tabIndex="0">
+          We all understand the importance of writing great unit tests
+          for your APIs so why should your UI not benefit from the
+          same care?
+        </p>
+        <p tabIndex="0">
+          This session will explore the benefits of writing UI tests.
+          We'll show you how to get started with UI testing with
+          Selenium and C#. Plus, a look at how you can make your UI
+          testing process maintainable with speed with code re-use.
         </p>
       </section>
       <section>
-        <h2 tabIndex="0">About Tom</h2>
+        <h2 tabIndex="0">About James</h2>
         <p tabIndex="0">
-          <b>Senior Engineering Manager, Capital One</b>
+          <b>Principal Developer and Microsoft MVP at Razor Ltd</b>
         </p>
         <p tabIndex="0">
-          Tom is an engineer, writer and experienced people leader.
-          His technical background and interests are extensive
-          including security, software development, DevOps and
-          engineering culture. In 2008 he famously declared management
-          was not for him. Naturally, 6 years later he is responsible
-          for 50 people across a number of teams - although he does
-          try to write code when he can.
+          Howdy folks 👋 Thanks for taking the time to look at my
+          profile!
+        </p>
+        <p tabIndex="0">
+          My name is James Croft and I'm a passionate .NET software
+          developer with over 10 years of experience developing user
+          experiences on a range of different form factors! I've been
+          fortunate to have been recognized as a Microsoft MVP since
+          2015 also.
+        </p>
+        <p tabIndex="0">
+          Day-to-day, I architect, lead, and aid with the delivery of
+          client software solutions as a Principal Developer for Razor
+          Ltd in Sheffield.
+        </p>
+        <p tabIndex="0">
+          My main technical focus is building innovative and robust
+          user experiences with Windows, Android, iOS, and the web.
+          This passion for technology extends to mixed reality
+          (MR/AR/VR), wearable devices, IoT, and conversational AI.
         </p>
       </section>
 
@@ -71,8 +93,8 @@ export default function TomMorton() {
           <a
             target="_blank"
             rel="noreferrer"
-            aria-label="Tom Morton: Twitter"
-            href="https://twitter.com/errantx"
+            aria-label="James Croft: Twitter"
+            href="http://www.twitter.com/jamesmcroft"
           >
             Twitter
           </a>
@@ -81,8 +103,8 @@ export default function TomMorton() {
           <a
             target="_blank"
             rel="noreferrer"
-            aria-label="Tom Morton: Website"
-            href="https://errant.me.uk/"
+            aria-label="James Croft: Website"
+            href="http://www.jamescroft.co.uk/"
           >
             Website
           </a>
@@ -91,8 +113,8 @@ export default function TomMorton() {
           <a
             target="_blank"
             rel="noreferrer"
-            aria-label="Tom Morton: LinkedIn"
-            href="https://www.linkedin.com/in/errantx/"
+            aria-label="James Croft: LinkedIn"
+            href="https://www.linkedin.com/in/jmcroft/"
           >
             LinkedIn
           </a>

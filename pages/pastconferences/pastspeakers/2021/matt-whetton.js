@@ -1,9 +1,9 @@
 import React from 'react';
-import Layout from '../../../components/Layout';
-import Header from '../../../components/Header';
-import theme from '../../../theme/theme';
+import Layout from '../../../../components/Layout';
+import Header from '../../../../components/Header';
+import theme from '../../../../theme/theme';
 import Head from 'next/head';
-import SpeakersButton from '../../../components/speakers/SpeakersButton';
+import SpeakersButton from '../../../../components/speakers/SpeakersButton';
 import { library } from '@fortawesome/fontawesome-svg-core';
 import {
   faInstagram,
@@ -14,21 +14,21 @@ import {
 
 library.add(faInstagram, faTwitter, faGithub, faLinkedin);
 
-export default function RyanYates() {
+export default function MattWhetton() {
   return (
     <Layout>
       <Head>
-        <title>Ryan Yates</title>
+        <title>Matt Whetton</title>
       </Head>
       <Header
-        title={'Ryan Yates'}
+        title={'Matt Whetton'}
         banner="/static/banners/information/thencc.jpg"
       />
       <section>
         <SpeakersButton />
         <img
-          src="/static/speakers/2021/Ryan_Yates.png"
-          alt="Picture of Ryan Yates"
+          src="/static/speakers/2021/Matt_Whetton.png"
+          alt="Picture of Matt Whetton"
           className="speakerpic"
         />
         <div>
@@ -40,70 +40,60 @@ export default function RyanYates() {
           </ul>
         </div>
         <br />
-        <h2 tabIndex="0">Mental Health: Its Time to Talk</h2>
+        <h2 tabIndex="0">We need to talk about technical debt</h2>
         <p tabIndex="0">
-          Mental health affects us all, albeit at varying levels of
-          intensity, be it from having a restless nights sleep or
-          Bi-Polar Disorder and is still a subject that we tend to
-          approach with caution, if we even speak about it at all,
-          whether with our colleagues and managers, doctors and even
-          our closest friends and family.
+          Technical debt is a popular metaphor used in most delivery
+          teams. It’s a powerful way to describe complicated problems,
+          convey the importance of building things right, and
+          describes the cumulative effect of taking shortcuts. As
+          engineers we all appreciate why preventing and paying down
+          technical debt is important, but its often not something
+          ‘the business’ really appreciates or seemingly cares about.
         </p>
         <p tabIndex="0">
-          Starting talking about our mental health is often hard, but
-          it is one of the most powerful tools in your arsenal to
-          managing your own and your team's mental health and should
-          be discussed in all 1:1s.
+          More and more we see the backlog sliced in 2 different
+          sections, the first being the business value adding work,
+          the second being the technical debt work. This is also
+          accompanied with some kind of rule that says ‘we can spend
+          10% of our time on technical debt’. It always feels like
+          technical debt is just ‘something the devs go on about’, and
+          not something that adds business value.
         </p>
         <p tabIndex="0">
-          Come and gain an insight into some of the things to look out
-          for as preliminary signs that your colleagues, friends,
-          family and perhaps, most importantly, yourself may be
-          suffering, plus how to broach this all-important
-          conversation.
+          This talk is to try to convince you to think about technical
+          debt differently and eliminate it from your backlogs. To do
+          this we’ll have to explore what ends up in the technical
+          debt bucket, why its such a problem and what we can do about
+          it. We’ll also talk about risk, the part it has to play and
+          how it should be your best friend when managing complicated
+          problem domains and systems. My goal is make risk exciting,
+          useful and fundamental in what we do….which may sound crazy,
+          but just stick with me!
+        </p>
+        <p tabIndex="0">
+          Technical debt shouldn’t be something just the dev’s care
+          about, its something everyone should care about.
         </p>
       </section>
       <section>
-        <h2 tabIndex="0">About Ryan</h2>
+        <h2 tabIndex="0">About Matt</h2>
         <p tabIndex="0">
-          <b>
-            Consultant @BlackMarble - Cloud and Datacentre Management
-            MVP
-          </b>
+          <b>Chief Technology Officer at Oakbrook Finance</b>
         </p>
         <p tabIndex="0">
-          Ryan is a Cloud and Datacenter Management MVP and has a
-          background with automating many Microsoft technologies with
-          PowerShell starting with SharePoint and lately focusing
-          Azure
+          Matt is the Chief Technology Officer at Oakbrook Finance but
+          is ultimately an engineer at heart. Having worked in a
+          variety of engineering roles, across a variety industries,
+          he has spent the last 10 years or so working in the
+          financial service industry.
         </p>
         <p tabIndex="0">
-          Ryan co-ordinates the UK PowerShell User Groups as well as
-          being a main organiser of PSDay UK - the UK's PowerShell
-          Conference
-        </p>
-        <p tabIndex="0">
-          Ryan also runs Leeds Azure - an Azure focused user group for
-          the Leeds area of the UK which meets virtually twice a
-          month.
-        </p>
-        <p tabIndex="0">
-          Ryan is currently a Senior Consultant at Black Marble, a
-          software development consultancy services organisation where
-          his role sees him working on a number of interesting
-          projects that span technologies including Azure, Office 365
-          and has a strong focus on DevOps/ALM Practices.
-        </p>
-        <p tabIndex="0">
-          Outside of the world of tech Ryan blogs about Mental Health
-          at{' '}
-          <a
-            href="https://mhasl.me/"
-            target="_blank"
-            rel="noreferrer"
-          >
-            https://mhasl.me
-          </a>
+          You will find Matt talking, writing or just generally
+          rambling about those subjects he’s most passionate about
+          such as innovation culture, the craft of engineering,
+          breaking down the control barriers around engineers and
+          unleashing engineer creativity. He might also talk about
+          comics now and again too!
         </p>
       </section>
 
@@ -113,8 +103,8 @@ export default function RyanYates() {
           <a
             target="_blank"
             rel="noreferrer"
-            aria-label="Ryan Yates: Twitter"
-            href="https://twitter.com/ryanyates1990"
+            aria-label="Matt Whetton: Twitter"
+            href="https://twitter.com/codenutz"
           >
             Twitter
           </a>
@@ -123,18 +113,8 @@ export default function RyanYates() {
           <a
             target="_blank"
             rel="noreferrer"
-            aria-label="Ryan Yates: Website"
-            href="https://blog.kilasuit.org/"
-          >
-            Website
-          </a>
-        </li>
-        <li>
-          <a
-            target="_blank"
-            rel="noreferrer"
-            aria-label="Ryan Yates: LinkedIn"
-            href="http://uk.linkedin.com/in/ryanyates90"
+            aria-label="Matt Whetton: LinkedIn"
+            href="https://www.linkedin.com/in/matthewwhetton"
           >
             LinkedIn
           </a>

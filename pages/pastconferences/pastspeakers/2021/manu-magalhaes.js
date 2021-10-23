@@ -1,9 +1,9 @@
 import React from 'react';
-import Layout from '../../../components/Layout';
-import Header from '../../../components/Header';
-import theme from '../../../theme/theme';
+import Layout from '../../../../components/Layout';
+import Header from '../../../../components/Header';
+import theme from '../../../../theme/theme';
 import Head from 'next/head';
-import SpeakersButton from '../../../components/speakers/SpeakersButton';
+import SpeakersButton from '../../../../components/speakers/SpeakersButton';
 import { library } from '@fortawesome/fontawesome-svg-core';
 import {
   faInstagram,
@@ -14,21 +14,21 @@ import {
 
 library.add(faInstagram, faTwitter, faGithub, faLinkedin);
 
-export default function LucyFletcher() {
+export default function ManuMagalhaes() {
   return (
     <Layout>
       <Head>
-        <title>Lucy Fletcher</title>
+        <title>Manu Magalhães</title>
       </Head>
       <Header
-        title={'Lucy Fletcher'}
+        title={'Manu Magalhães'}
         banner="/static/banners/information/thencc.jpg"
       />
       <section>
         <SpeakersButton />
         <img
-          src="/static/speakers/2021/Lucy_Fletcher.png"
-          alt="Picture of Lucy Fletcher"
+          src="/static/speakers/2021/Manu_Magalhaes.png"
+          alt="Picture of Manu Magalhães"
           className="speakerpic"
         />
         <div>
@@ -40,32 +40,40 @@ export default function LucyFletcher() {
           </ul>
         </div>
         <br />
-        <h2 tabIndex="0">The Culture of DDD</h2>
+        <h2 tabIndex="0">Nitty-Gitty: Master Git from the Inside</h2>
         <p tabIndex="0">
-          As engineers, it is all too easy to get lost in the
-          technical details of DDD. When integrating DDD into your
-          workflow it is important to keep in mind the culture
-          surrounding it.
-        </p>
-        <p tabIndex="0">
-          In this talk I will be discussing what is meant by "the
-          culture of DDD", and how to embed it into your ways of
-          working to truly enable and realise the power of an
-          effective domain design.
+          You already use git, but you're still scared of it? Is git
+          more a set of spells than a tool to you? Learn in this live
+          demo how git works from the inside and reason all your git
+          problems away.
         </p>
       </section>
       <section>
-        <h2 tabIndex="0">About Lucy</h2>
+        <h2 tabIndex="0">About Manu</h2>
         <p tabIndex="0">
-          <b>Lead Software Engineer at Oakbrook</b>
+          <b>DevSecOps Engineer</b>
         </p>
         <p tabIndex="0">
-          I've been a Software Engineer with Oakbrook for 2 years, and
-          during that time we've adopted DDD. Along the way we've made
-          many mistakes, learned many lessons, and I look forward to
-          sharing what I've learned in the hopes of helping others
-          avoid the same mistakes!
+          I am a DevSecOps Engineer interested in Cloud Security,
+          Security Automation, and Cyberethics. Before getting hooked
+          into CyberSecurity, I was a translator with a Journalism
+          degree. I love to explore how technology affects our
+          society, and how we can create tech for good.
         </p>
+      </section>
+
+      <section>
+        <h2 tabIndex="0">Links</h2>
+        <li>
+          <a
+            target="_blank"
+            rel="noreferrer"
+            aria-label="Manu Magalhães: LinkedIn"
+            href="https://www.linkedin.com/in/manumagalhaes/"
+          >
+            Twitter
+          </a>
+        </li>
       </section>
 
       <style jsx>
@@ -117,8 +125,8 @@ export default function LucyFletcher() {
           li {
             margin: 0;
             padding: 10px;
-            list-style: none;
-            list-style-type: none;
+            list-style: inside;
+            list-style-type: disc;
             text-align: left;
             flex-basis: 0;
             flex-grow: 1;

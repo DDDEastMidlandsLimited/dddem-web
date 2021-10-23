@@ -1,9 +1,9 @@
 import React from 'react';
-import Layout from '../../../components/Layout';
-import Header from '../../../components/Header';
-import theme from '../../../theme/theme';
+import Layout from '../../../../components/Layout';
+import Header from '../../../../components/Header';
+import theme from '../../../../theme/theme';
 import Head from 'next/head';
-import SpeakersButton from '../../../components/speakers/SpeakersButton';
+import SpeakersButton from '../../../../components/speakers/SpeakersButton';
 import { library } from '@fortawesome/fontawesome-svg-core';
 import {
   faInstagram,
@@ -14,21 +14,21 @@ import {
 
 library.add(faInstagram, faTwitter, faGithub, faLinkedin);
 
-export default function KojoHinson() {
+export default function RyanYates() {
   return (
     <Layout>
       <Head>
-        <title>Kojo Hinson</title>
+        <title>Ryan Yates</title>
       </Head>
       <Header
-        title={'Kojo Hinson'}
+        title={'Ryan Yates'}
         banner="/static/banners/information/thencc.jpg"
       />
       <section>
         <SpeakersButton />
         <img
-          src="/static/speakers/2021/Kojo_Hinson.png"
-          alt="Picture of Kojo Hinson"
+          src="/static/speakers/2021/Ryan_Yates.png"
+          alt="Picture of Ryan Yates"
           className="speakerpic"
         />
         <div>
@@ -36,59 +36,74 @@ export default function KojoHinson() {
             <b>Pronouns: </b> He/Him
           </ul>
           <ul>
-            <b>Talk Length: </b> 30 mins
+            <b>Talk Length: </b> 60 mins
           </ul>
         </div>
         <br />
-        <h2 tabIndex="0">
-          Embracing Skynet - An exploration of GPT-3 and its potential
-          applications
-        </h2>
+        <h2 tabIndex="0">Mental Health: Its Time to Talk</h2>
         <p tabIndex="0">
-          GPT-3 or Generative Pre-trained Transformer 3 (GPT-3) is an
-          autoregressive language model that uses deep learning to
-          produce human-like text.
+          Mental health affects us all, albeit at varying levels of
+          intensity, be it from having a restless nights sleep or
+          Bi-Polar Disorder and is still a subject that we tend to
+          approach with caution, if we even speak about it at all,
+          whether with our colleagues and managers, doctors and even
+          our closest friends and family.
         </p>
         <p tabIndex="0">
-          A few weeks ago, I was lucky enough to be accepted into the
-          developer beta release of the pre-trained GPT-3 API and have
-          been marvelling at the shockingly good performance of its
-          generative capabilities.
+          Starting talking about our mental health is often hard, but
+          it is one of the most powerful tools in your arsenal to
+          managing your own and your team's mental health and should
+          be discussed in all 1:1s.
         </p>
         <p tabIndex="0">
-          This talk should serve as a quick intro to the API itself
-          (including a quick demo) and an exploration of some of the
-          creative applications people have managed to find for this
-          powerful technology so far.
+          Come and gain an insight into some of the things to look out
+          for as preliminary signs that your colleagues, friends,
+          family and perhaps, most importantly, yourself may be
+          suffering, plus how to broach this all-important
+          conversation.
         </p>
       </section>
       <section>
-        <h2 tabIndex="0">About Kojo</h2>
+        <h2 tabIndex="0">About Ryan</h2>
         <p tabIndex="0">
-          <b>VP of Engineering at Koodoo</b>
+          <b>
+            Consultant @BlackMarble - Cloud and Datacentre Management
+            MVP
+          </b>
         </p>
         <p tabIndex="0">
-          Following a brief industrial placement building software for
-          the purposes of radiation modelling at Culham Centre for
-          Fusion Energy, Kojo has spent the last few years developing
-          and building high quality software applications for
-          enterprises of varying sectors and scales. From big data
-          engineering for Walgreens, to embedded programming for
-          Google and Amazon connected IoT devices, Kojo has developed
-          a range of experience in several areas and layers of modern
-          technology stacks.
+          Ryan is a Cloud and Datacenter Management MVP and has a
+          background with automating many Microsoft technologies with
+          PowerShell starting with SharePoint and lately focusing
+          Azure
         </p>
         <p tabIndex="0">
-          Having spent time at several FinTech startups (Oakbrook
-          Finance, Wealth Wizards and now Koodoo) Kojo has developed
-          domain expertise not only in the technology required to
-          build complex financial software but also in the business
-          itself.
+          Ryan co-ordinates the UK PowerShell User Groups as well as
+          being a main organiser of PSDay UK - the UK's PowerShell
+          Conference
         </p>
         <p tabIndex="0">
-          Kojo attained a BSc in Maths and Physics from the University
-          of Bristol, followed by a MSc in the Physics and Tech of
-          Nuclear Reactors at the University of Birmingham.
+          Ryan also runs Leeds Azure - an Azure focused user group for
+          the Leeds area of the UK which meets virtually twice a
+          month.
+        </p>
+        <p tabIndex="0">
+          Ryan is currently a Senior Consultant at Black Marble, a
+          software development consultancy services organisation where
+          his role sees him working on a number of interesting
+          projects that span technologies including Azure, Office 365
+          and has a strong focus on DevOps/ALM Practices.
+        </p>
+        <p tabIndex="0">
+          Outside of the world of tech Ryan blogs about Mental Health
+          at{' '}
+          <a
+            href="https://mhasl.me/"
+            target="_blank"
+            rel="noreferrer"
+          >
+            https://mhasl.me
+          </a>
         </p>
       </section>
 
@@ -98,8 +113,8 @@ export default function KojoHinson() {
           <a
             target="_blank"
             rel="noreferrer"
-            aria-label="Kojo Hinson: Twitter"
-            href="https://twitter.com/KojoHinson"
+            aria-label="Ryan Yates: Twitter"
+            href="https://twitter.com/ryanyates1990"
           >
             Twitter
           </a>
@@ -108,8 +123,18 @@ export default function KojoHinson() {
           <a
             target="_blank"
             rel="noreferrer"
-            aria-label="Kojo Hinson: LinkedIn"
-            href="https://www.linkedin.com/in/kojo-h-69a4074a/"
+            aria-label="Ryan Yates: Website"
+            href="https://blog.kilasuit.org/"
+          >
+            Website
+          </a>
+        </li>
+        <li>
+          <a
+            target="_blank"
+            rel="noreferrer"
+            aria-label="Ryan Yates: LinkedIn"
+            href="http://uk.linkedin.com/in/ryanyates90"
           >
             LinkedIn
           </a>

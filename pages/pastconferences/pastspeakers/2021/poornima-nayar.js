@@ -1,9 +1,9 @@
 import React from 'react';
-import Layout from '../../../components/Layout';
-import Header from '../../../components/Header';
-import theme from '../../../theme/theme';
+import Layout from '../../../../components/Layout';
+import Header from '../../../../components/Header';
+import theme from '../../../../theme/theme';
 import Head from 'next/head';
-import SpeakersButton from '../../../components/speakers/SpeakersButton';
+import SpeakersButton from '../../../../components/speakers/SpeakersButton';
 import { library } from '@fortawesome/fontawesome-svg-core';
 import {
   faInstagram,
@@ -14,55 +14,98 @@ import {
 
 library.add(faInstagram, faTwitter, faGithub, faLinkedin);
 
-export default function ConnellW() {
+export default function PoornimaNayar() {
   return (
     <Layout>
       <Head>
-        <title>Connell W</title>
+        <title>Poornima Nayar</title>
       </Head>
       <Header
-        title={'Connell W'}
+        title={'Poornima Nayar'}
         banner="/static/banners/information/thencc.jpg"
       />
       <section>
         <SpeakersButton />
         <img
-          src="/static/speakers/2021/Connell_W.png"
-          alt="Picture of Connell"
+          src="/static/speakers/2021/Poornima_Nayar.png"
+          alt="Picture of Poornima Nayar"
           className="speakerpic"
         />
         <div>
           <ul>
-            <b>Pronouns: </b> Not Provided
+            <b>Pronouns: </b> She/Her
           </ul>
           <ul>
             <b>Talk Length: </b> 60 mins
           </ul>
         </div>
         <br />
-        <h2 tabIndex="0">Onion Architecture with DDD and CQRS</h2>
+        <h2 tabIndex="0">REST, GraphQL and gRPC : A Comparison</h2>
         <p tabIndex="0">
-          Explaining how I reason about the building blocks of Onion
-          Architecture, Domain-Driven Design and Command Query
-          Responsibility Segregation in an event-driven micro-services
-          architecture. How it all fits together in my head, the
-          concepts they share, and the mistakes I've made along the
-          way.
+          Be it any industry, applications need to talk to each other.
+          So, developers often build bridges – Application Programming
+          Interfaces (API) – to allow one system to communicate to
+          another.
         </p>
         <p tabIndex="0">
-          Examples using modern C# but can be applied to other
-          languages and frameworks.
+          Over time, different API architectural styles have been
+          released. Each of them has its own characteristics, patterns
+          of data exchange, pros, and cons. REST, GraphQL and gRPC are
+          three main options when it comes to API development and
+          implementation In my session I will cover what REST,
+          GraphQL, and gRPC are, how APIs can be implemented using
+          each of these, and give you a comparison between them.
         </p>
       </section>
       <section>
-        <h2 tabIndex="0">About Connell</h2>
+        <h2 tabIndex="0">About Poornima</h2>
         <p tabIndex="0">
-          <b>Lead Platform Engineer at Oakbrook Finance</b>
+          <b>Freelance Developer, Microsoft MVP, Umbraco MVP</b>
         </p>
         <p tabIndex="0">
-          Loves building software and making music. Coding since 2005.
-          Every day learning and sharing knowledge.
+          Poornima is a .Net developer with over 10 years of
+          experience in .Net and Umbraco. She is passionate about
+          learning new technologies and keeping herself up-to-date
+          with the latest developments in technology. Outside her
+          work, Poornima enjoys music and is undergoing training in
+          Indian Classical music. Based in Langley, UK she mothers a
+          little girl and spends her spare time reading, cooking and
+          watching movies.
         </p>
+      </section>
+
+      <section>
+        <h2 tabIndex="0">Links</h2>
+        <li>
+          <a
+            target="_blank"
+            rel="noreferrer"
+            aria-label="Poornima Nayar: Twitter"
+            href="https://twitter.com/PoornimaNayar"
+          >
+            Twitter
+          </a>
+        </li>
+        <li>
+          <a
+            target="_blank"
+            rel="noreferrer"
+            aria-label="Poornima Nayar: Website"
+            href="https://poornimanayar.co.uk/"
+          >
+            Website
+          </a>
+        </li>
+        <li>
+          <a
+            target="_blank"
+            rel="noreferrer"
+            aria-label="Poornima Nayar: LinkedIn"
+            href="https://www.linkedin.com/in/poornimanayar/"
+          >
+            LinkedIn
+          </a>
+        </li>
       </section>
 
       <style jsx>
@@ -103,7 +146,6 @@ export default function ConnellW() {
             height: 100%;
             border: 0;
           }
-
           ul {
             display: flex;
             margin: 0;
@@ -115,8 +157,8 @@ export default function ConnellW() {
           li {
             margin: 0;
             padding: 10px;
-            list-style: none;
-            list-style-type: none;
+            list-style: inside;
+            list-style-type: disc;
             text-align: left;
             flex-basis: 0;
             flex-grow: 1;
@@ -138,9 +180,11 @@ export default function ConnellW() {
           .contactButton a {
             text-decoration: none;
           }
+
           .contactButton:hover {
             background-color: ${theme.palette.primary};
           }
+
           .contactButton a:hover {
             color: ${theme.palette.light};
           }

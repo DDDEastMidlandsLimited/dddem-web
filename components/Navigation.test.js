@@ -9,15 +9,6 @@ describe('Given the Navigation is rendered', () => {
     expect(getByText('Home')).toHaveAttribute('href', '/');
   });
 
-  test('it should display a Speakers link', () => {
-    const { getByText } = render(<Navigation />);
-    expect(getByText('Speakers')).toBeInTheDocument();
-    expect(getByText('Speakers')).toHaveAttribute(
-      'href',
-      '/2021/speakers/speakergrid',
-    );
-  });
-
   test('it should display a Notable Companies link', () => {
     const { getByText } = render(<Navigation />);
     expect(getByText('Notable Companies')).toBeInTheDocument();

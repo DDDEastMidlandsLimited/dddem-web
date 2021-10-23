@@ -1,9 +1,9 @@
 import React from 'react';
-import Layout from '../../../components/Layout';
-import Header from '../../../components/Header';
-import theme from '../../../theme/theme';
+import Layout from '../../../../components/Layout';
+import Header from '../../../../components/Header';
+import theme from '../../../../theme/theme';
 import Head from 'next/head';
-import SpeakersButton from '../../../components/speakers/SpeakersButton';
+import SpeakersButton from '../../../../components/speakers/SpeakersButton';
 import { library } from '@fortawesome/fontawesome-svg-core';
 import {
   faInstagram,
@@ -14,21 +14,21 @@ import {
 
 library.add(faInstagram, faTwitter, faGithub, faLinkedin);
 
-export default function PoornimaNayar() {
+export default function TaniaAllard() {
   return (
     <Layout>
       <Head>
-        <title>Poornima Nayar</title>
+        <title>Tania Allard</title>
       </Head>
       <Header
-        title={'Poornima Nayar'}
+        title={'Tania Allard'}
         banner="/static/banners/information/thencc.jpg"
       />
       <section>
         <SpeakersButton />
         <img
-          src="/static/speakers/2021/Poornima_Nayar.png"
-          alt="Picture of Poornima Nayar"
+          src="/static/speakers/2021/Tania_Allard.jpg"
+          alt="Picture of Tania Allard"
           className="speakerpic"
         />
         <div>
@@ -36,41 +36,59 @@ export default function PoornimaNayar() {
             <b>Pronouns: </b> She/Her
           </ul>
           <ul>
-            <b>Talk Length: </b> 60 mins
+            <b>Talk Length: </b> 60 minute Keynote
           </ul>
         </div>
         <br />
-        <h2 tabIndex="0">REST, GraphQL and gRPC : A Comparison</h2>
+        <h2 tabIndex="0">
+          KEYNOTE: Open source for fun and for profit: rethinking the
+          long road of sustainability.
+        </h2>
         <p tabIndex="0">
-          Be it any industry, applications need to talk to each other.
-          So, developers often build bridges – Application Programming
-          Interfaces (API) – to allow one system to communicate to
-          another.
+          It is not an understatement to say that today, in 2021, the
+          world runs on open source. Wherever you look, you will find
+          open-source software in the wild - whether you have a
+          smartphone in your pocket or if you see a self-driving car
+          passing by or rockets orbiting in space, open-source is even
+          in simple tasks as deciding what to watch tonight.
+          Open-source software and open infrastructure not only serve
+          as the engine that powers our world. It also enables folks
+          to get together and connect isolated individuals,
+          communities, and missions.
         </p>
         <p tabIndex="0">
-          Over time, different API architectural styles have been
-          released. Each of them has its own characteristics, patterns
-          of data exchange, pros, and cons. REST, GraphQL and gRPC are
-          three main options when it comes to API development and
-          implementation In my session I will cover what REST,
-          GraphQL, and gRPC are, how APIs can be implemented using
-          each of these, and give you a comparison between them.
+          With this in mind, the most important questions we should be
+          asking is: who and what fuels open source? In this
+          presentation, I will discuss how open source can bring
+          individuals together to form communities. And more
+          importantly, how we can rethink open-source and labour to
+          ensure its long-term sustainability.
         </p>
       </section>
       <section>
-        <h2 tabIndex="0">About Poornima</h2>
+        <h2 tabIndex="0">About Tania</h2>
         <p tabIndex="0">
-          <b>Freelance Developer, Microsoft MVP, Umbraco MVP</b>
+          <b></b>
         </p>
         <p tabIndex="0">
-          Poornima is a .Net developer with over 10 years of
-          experience in .Net and Umbraco. She is passionate about
-          learning new technologies and keeping herself up-to-date
-          with the latest developments in technology. Outside her
-          work, Poornima enjoys music and is undergoing training in
-          Indian Classical music. Based in Langley, UK she mothers a
-          little girl and spends her spare time reading, cooking and
-          watching movies.
+          Tania is the co-director at Quansight Labs and previous Sr.
+          Developer Advocate at Microsoft. She has vast experience in
+          academic research and industrial environments. Her main
+          areas of expertise are within data-intensive applications,
+          scientific computing, and machine learning. Tania has
+          conducted extensive work on the improvement of processes,
+          reproducibility and transparency in research, data science
+          and artificial intelligence. She is passionate about
+          mentoring, open source, and its community and is involved in
+          a number of initiatives aimed to build more diverse and
+          inclusive communities. She is also a contributor,
+          maintainer, and developer of a number of open source
+          projects and the Founder of Pyladies NorthWest.
+        </p>
+        <p tabIndex="0">
+          In her free time she likes tinkering with electronics,
+          nerding with mechanical keyboards, reading all the books and
+          lifting heavy weights.
         </p>
       </section>
 
@@ -80,8 +98,8 @@ export default function PoornimaNayar() {
           <a
             target="_blank"
             rel="noreferrer"
-            aria-label="Poornima Nayar: Twitter"
-            href="https://twitter.com/PoornimaNayar"
+            aria-label="Tania Allard: Twitter"
+            href="https://twitter.com/ixek"
           >
             Twitter
           </a>
@@ -90,8 +108,8 @@ export default function PoornimaNayar() {
           <a
             target="_blank"
             rel="noreferrer"
-            aria-label="Poornima Nayar: Website"
-            href="https://poornimanayar.co.uk/"
+            aria-label="Tania Allard: Website"
+            href="https://www.trallard.dev/pensieve/trallard.dev"
           >
             Website
           </a>
@@ -100,8 +118,8 @@ export default function PoornimaNayar() {
           <a
             target="_blank"
             rel="noreferrer"
-            aria-label="Poornima Nayar: LinkedIn"
-            href="https://www.linkedin.com/in/poornimanayar/"
+            aria-label="Tania Allard: LinkedIn"
+            href="https://www.linkedin.com/in/taniaallard/"
           >
             LinkedIn
           </a>
@@ -157,8 +175,8 @@ export default function PoornimaNayar() {
           li {
             margin: 0;
             padding: 10px;
-            list-style: inside;
-            list-style-type: disc;
+            list-style: none;
+            list-style-type: none;
             text-align: left;
             flex-basis: 0;
             flex-grow: 1;

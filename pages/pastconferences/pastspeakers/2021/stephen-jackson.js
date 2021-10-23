@@ -1,9 +1,9 @@
 import React from 'react';
-import Layout from '../../../components/Layout';
-import Header from '../../../components/Header';
-import theme from '../../../theme/theme';
+import Layout from '../../../../components/Layout';
+import Header from '../../../../components/Header';
+import theme from '../../../../theme/theme';
 import Head from 'next/head';
-import SpeakersButton from '../../../components/speakers/SpeakersButton';
+import SpeakersButton from '../../../../components/speakers/SpeakersButton';
 import { library } from '@fortawesome/fontawesome-svg-core';
 import {
   faInstagram,
@@ -14,21 +14,21 @@ import {
 
 library.add(faInstagram, faTwitter, faGithub, faLinkedin);
 
-export default function JamesCroft() {
+export default function StephenJackson() {
   return (
     <Layout>
       <Head>
-        <title>James Croft</title>
+        <title>Stephen Jackson</title>
       </Head>
       <Header
-        title={'James Croft'}
+        title={'Stephen Jackson'}
         banner="/static/banners/information/thencc.jpg"
       />
       <section>
         <SpeakersButton />
         <img
-          src="/static/speakers/2021/James_Croft.png"
-          alt="Picture of James Croft"
+          src="/static/speakers/2021/Stephen_Jackson.png"
+          alt="Picture of Stephen Jackson"
           className="speakerpic"
         />
         <div>
@@ -36,54 +36,54 @@ export default function JamesCroft() {
             <b>Pronouns: </b> He/Him
           </ul>
           <ul>
-            <b>Talk Length: </b> 60 mins
+            <b>Talk Length: </b> 15 mins
           </ul>
         </div>
         <br />
-        <h2 tabIndex="0">Should you write UI tests?</h2>
+        <h2 tabIndex="0">Senior By Default</h2>
         <p tabIndex="0">
-          UI testing is a point of conflict amongst app developers.
-          When asked in a recent poll on whether app devs write them,
-          over half don't!
+          In June 2020 the team manager and tech lead both announced
+          they were leaving the company, making me the most senior
+          developer there. Overnight I went from a simple developer to
+          leading a multi-disciplined team responsible for
+          mission-critical business systems.
         </p>
         <p tabIndex="0">
-          We all understand the importance of writing great unit tests
-          for your APIs so why should your UI not benefit from the
-          same care?
+          In this presentation, I will talk about my first year in
+          charge, my triumphs, and my mistakes. I will talk about the
+          processes I implemented to keep myself sane and ensure the
+          team I now lead continued to drive our software forward and
+          serve business objectives. Along the way, I hope to impart
+          some key lessons that I learned that may help anyone who is
+          looking to move up to a senior position.
         </p>
         <p tabIndex="0">
-          This session will explore the benefits of writing UI tests.
-          We'll show you how to get started with UI testing with
-          Selenium and C#. Plus, a look at how you can make your UI
-          testing process maintainable with speed with code re-use.
+          This is a talk for those looking to take on management or
+          tech lead responsibilities and for any tech professionals
+          who through no fault of their own have found themselves in a
+          leadership position.
         </p>
       </section>
       <section>
-        <h2 tabIndex="0">About James</h2>
+        <h2 tabIndex="0">About Stephen</h2>
         <p tabIndex="0">
-          <b>Principal Developer and Microsoft MVP at Razor Ltd</b>
+          <b>Applications Team Lead</b>
         </p>
         <p tabIndex="0">
-          Howdy folks 👋 Thanks for taking the time to look at my
-          profile!
+          Having come late to the software development game, Stephen
+          has worked in a variety of software development roles in the
+          utility and retail sectors. He now works in a team lead role
+          for a well know Nottingham Fashion retailer working with
+          various technologies but primarily uses the Microsoft tech
+          stack of Dot Net and SQL Server.
         </p>
         <p tabIndex="0">
-          My name is James Croft and I'm a passionate .NET software
-          developer with over 10 years of experience developing user
-          experiences on a range of different form factors! I've been
-          fortunate to have been recognized as a Microsoft MVP since
-          2015 also.
-        </p>
-        <p tabIndex="0">
-          Day-to-day, I architect, lead, and aid with the delivery of
-          client software solutions as a Principal Developer for Razor
-          Ltd in Sheffield.
-        </p>
-        <p tabIndex="0">
-          My main technical focus is building innovative and robust
-          user experiences with Windows, Android, iOS, and the web.
-          This passion for technology extends to mixed reality
-          (MR/AR/VR), wearable devices, IoT, and conversational AI.
+          When not developing software Stephen enjoys going for walks
+          with his 2 dogs Holly and Daisy and also more geeky pursuits
+          such as miniature and board gaming. He thinks the worse day
+          of the week is and has always has been Tuesday and will
+          gladly provide his reasons why this is so to anyone who
+          asks.
         </p>
       </section>
 
@@ -93,8 +93,8 @@ export default function JamesCroft() {
           <a
             target="_blank"
             rel="noreferrer"
-            aria-label="James Croft: Twitter"
-            href="http://www.twitter.com/jamesmcroft"
+            aria-label="Stephen Jackson: Twitter"
+            href="https://twitter.com/Dukeboxz"
           >
             Twitter
           </a>
@@ -103,18 +103,8 @@ export default function JamesCroft() {
           <a
             target="_blank"
             rel="noreferrer"
-            aria-label="James Croft: Website"
-            href="http://www.jamescroft.co.uk/"
-          >
-            Website
-          </a>
-        </li>
-        <li>
-          <a
-            target="_blank"
-            rel="noreferrer"
-            aria-label="James Croft: LinkedIn"
-            href="https://www.linkedin.com/in/jmcroft/"
+            aria-label="Stephen Jackson: LinkedIn"
+            href="https://www.linkedin.com/in/stephenjjackson/"
           >
             LinkedIn
           </a>
