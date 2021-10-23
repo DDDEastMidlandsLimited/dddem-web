@@ -1,9 +1,9 @@
 import React from 'react';
-import Layout from '../../../components/Layout';
-import Header from '../../../components/Header';
-import theme from '../../../theme/theme';
+import Layout from '../../../../components/Layout';
+import Header from '../../../../components/Header';
+import theme from '../../../../theme/theme';
 import Head from 'next/head';
-import SpeakersButton from '../../../components/speakers/SpeakersButton';
+import SpeakersButton from '../../../../components/speakers/SpeakersButton';
 import { library } from '@fortawesome/fontawesome-svg-core';
 import {
   faInstagram,
@@ -14,21 +14,21 @@ import {
 
 library.add(faInstagram, faTwitter, faGithub, faLinkedin);
 
-export default function MattWhetton() {
+export default function TomMorton() {
   return (
     <Layout>
       <Head>
-        <title>Matt Whetton</title>
+        <title>Tom Morton</title>
       </Head>
       <Header
-        title={'Matt Whetton'}
+        title={'Tom Morton'}
         banner="/static/banners/information/thencc.jpg"
       />
       <section>
         <SpeakersButton />
         <img
-          src="/static/speakers/2021/Matt_Whetton.png"
-          alt="Picture of Matt Whetton"
+          src="/static/speakers/2021/Tom_Morton.png"
+          alt="Picture of Tom Morton"
           className="speakerpic"
         />
         <div>
@@ -36,64 +36,32 @@ export default function MattWhetton() {
             <b>Pronouns: </b> He/Him
           </ul>
           <ul>
-            <b>Talk Length: </b> 60 mins
+            <b>Talk Length: </b> 30 mins
           </ul>
         </div>
         <br />
-        <h2 tabIndex="0">We need to talk about technical debt</h2>
+        <h2 tabIndex="0">
+          Open Banking vs. DeFi; The technological future of finance?
+        </h2>
         <p tabIndex="0">
-          Technical debt is a popular metaphor used in most delivery
-          teams. It’s a powerful way to describe complicated problems,
-          convey the importance of building things right, and
-          describes the cumulative effect of taking shortcuts. As
-          engineers we all appreciate why preventing and paying down
-          technical debt is important, but its often not something
-          ‘the business’ really appreciates or seemingly cares about.
-        </p>
-        <p tabIndex="0">
-          More and more we see the backlog sliced in 2 different
-          sections, the first being the business value adding work,
-          the second being the technical debt work. This is also
-          accompanied with some kind of rule that says ‘we can spend
-          10% of our time on technical debt’. It always feels like
-          technical debt is just ‘something the devs go on about’, and
-          not something that adds business value.
-        </p>
-        <p tabIndex="0">
-          This talk is to try to convince you to think about technical
-          debt differently and eliminate it from your backlogs. To do
-          this we’ll have to explore what ends up in the technical
-          debt bucket, why its such a problem and what we can do about
-          it. We’ll also talk about risk, the part it has to play and
-          how it should be your best friend when managing complicated
-          problem domains and systems. My goal is make risk exciting,
-          useful and fundamental in what we do….which may sound crazy,
-          but just stick with me!
-        </p>
-        <p tabIndex="0">
-          Technical debt shouldn’t be something just the dev’s care
-          about, its something everyone should care about.
+          Crypto Currencies. Open API's. Democratising FInance. Which
+          approach to Open Finance will ultimately succeed and what
+          does that mean for technology in the future.
         </p>
       </section>
       <section>
-        <h2 tabIndex="0">About Matt</h2>
+        <h2 tabIndex="0">About Tom</h2>
         <p tabIndex="0">
-          <b>Chief Technology Officer at Oakbrook Finance</b>
+          <b>Senior Engineering Manager, Capital One</b>
         </p>
         <p tabIndex="0">
-          Matt is the Chief Technology Officer at Oakbrook Finance but
-          is ultimately an engineer at heart. Having worked in a
-          variety of engineering roles, across a variety industries,
-          he has spent the last 10 years or so working in the
-          financial service industry.
-        </p>
-        <p tabIndex="0">
-          You will find Matt talking, writing or just generally
-          rambling about those subjects he’s most passionate about
-          such as innovation culture, the craft of engineering,
-          breaking down the control barriers around engineers and
-          unleashing engineer creativity. He might also talk about
-          comics now and again too!
+          Tom is an engineer, writer and experienced people leader.
+          His technical background and interests are extensive
+          including security, software development, DevOps and
+          engineering culture. In 2008 he famously declared management
+          was not for him. Naturally, 6 years later he is responsible
+          for 50 people across a number of teams - although he does
+          try to write code when he can.
         </p>
       </section>
 
@@ -103,8 +71,8 @@ export default function MattWhetton() {
           <a
             target="_blank"
             rel="noreferrer"
-            aria-label="Matt Whetton: Twitter"
-            href="https://twitter.com/codenutz"
+            aria-label="Tom Morton: Twitter"
+            href="https://twitter.com/errantx"
           >
             Twitter
           </a>
@@ -113,8 +81,18 @@ export default function MattWhetton() {
           <a
             target="_blank"
             rel="noreferrer"
-            aria-label="Matt Whetton: LinkedIn"
-            href="https://www.linkedin.com/in/matthewwhetton"
+            aria-label="Tom Morton: Website"
+            href="https://errant.me.uk/"
+          >
+            Website
+          </a>
+        </li>
+        <li>
+          <a
+            target="_blank"
+            rel="noreferrer"
+            aria-label="Tom Morton: LinkedIn"
+            href="https://www.linkedin.com/in/errantx/"
           >
             LinkedIn
           </a>

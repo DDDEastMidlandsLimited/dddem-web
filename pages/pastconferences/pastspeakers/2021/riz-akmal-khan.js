@@ -1,9 +1,9 @@
 import React from 'react';
-import Layout from '../../../components/Layout';
-import Header from '../../../components/Header';
-import theme from '../../../theme/theme';
+import Layout from '../../../../components/Layout';
+import Header from '../../../../components/Header';
+import theme from '../../../../theme/theme';
 import Head from 'next/head';
-import SpeakersButton from '../../../components/speakers/SpeakersButton';
+import SpeakersButton from '../../../../components/speakers/SpeakersButton';
 import { library } from '@fortawesome/fontawesome-svg-core';
 import {
   faInstagram,
@@ -14,21 +14,21 @@ import {
 
 library.add(faInstagram, faTwitter, faGithub, faLinkedin);
 
-export default function LexLofthouse() {
+export default function RizwanaAkmalKhan() {
   return (
     <Layout>
       <Head>
-        <title>Lex Lofthouse</title>
+        <title>Rizwana Akmal Khan</title>
       </Head>
       <Header
-        title={'Lex Lofthouse'}
+        title={'Rizwana Akmal Khan'}
         banner="/static/banners/information/thencc.jpg"
       />
       <section>
         <SpeakersButton />
         <img
-          src="/static/speakers/2021/Lex_Lofthouse.png"
-          alt="Picture of Lex Lofthouse"
+          src="/static/speakers/2021/Rizwana_Akmal_Khan.png"
+          alt="Picture of Rizwana Akmal Khan"
           className="speakerpic"
         />
         <div>
@@ -36,66 +36,32 @@ export default function LexLofthouse() {
             <b>Pronouns: </b> She/Her
           </ul>
           <ul>
-            <b>Talk Length: </b> 60 mins
+            <b>Talk Length: </b> 30 mins
           </ul>
         </div>
         <br />
-        <h2 tabIndex="0">Design for Developers</h2>
+        <h2 tabIndex="0">Good Writers Become Better Developers</h2>
         <p tabIndex="0">
-          Have you ever found yourself not just having to build the
-          product, but in the absence of an actual designer, you’re
-          the one who ends up having to throw together a design for it
-          too? Want to gain the magic design powers to transform that
-          average screen into a beautiful interface?
-        </p>
-        <p tabIndex="0">
-          People have often told me they’d never be able to design
-          interfaces because it’s too subjective and a completely
-          different mindset to coding. Well I’m here to tell you that
-          UI design isn’t as complex as it looks when you’ve got the
-          right tools to hand – and it really isn't a magical dark
-          art, I promise!
-        </p>
-        <p tabIndex="0">
-          In this talk, I will help you understand some of the main
-          design principles that you can apply across UI design. Such
-          as Typography, Emphasis, Hierarchy, Layout, Spacing, Size,
-          Depth and Colour.
-        </p>
-        <p tabIndex="0">
-          We’ll be discussing these principles and, through visual
-          demonstrations and examples, show how you can implement
-          these principles across typical UI components such as forms,
-          cards, dashboards and other interface elements . There may
-          even be some *live designing* to help demonstrate.
-        </p>
-        <p tabIndex="0">
-          Whether you’re the ‘dev-signer’ or you’re just somebody who
-          would like to learn some fundamental design skills to widen
-          your knowledge – you should then leave feeling well equipped
-          with new design skills to apply day to day!{' '}
+          Good writing might not be rocket science, but it is the
+          secret ingredient in the recipe for a great developer. If
+          you're already an experienced developer or a only just
+          starting on the dev journey, by the end of this talk, you'll
+          come to appreciate the similarities between the two mediums,
+          and be ready to arm yourself with techniques that will help
+          you improve your writing AND development skills.
         </p>
       </section>
       <section>
-        <h2 tabIndex="0">About Lex</h2>
+        <h2 tabIndex="0">About Rizwana</h2>
         <p tabIndex="0">
-          <b>Senior Designer at Nzime</b>
+          <b>Customer Success Engineer at Vercel</b>
         </p>
         <p tabIndex="0">
-          Lex Lofthouse is a Senior Designer at Nzime, a digital
-          agency in Nottingham. She has been working in the design
-          industry for over a decade, where her career took her from
-          the chilly regions of Scotland to the slightly less chilly
-          streets of Nottingham. She specialises in digital design and
-          UX, but also works across branding, print, illustration and
-          animation. She’s even semi-competent at some basic HTML and
-          CSS she’ll have you know!
-        </p>
-        <p tabIndex="0">
-          In her spare time Lex is a massive Pokemon fan, from the TCG
-          to the anime. Plus despite being a professional designer she
-          is also an advocate for Comic Sans, the world’s most
-          misunderstood typeface (come and ask her why).
+          Rizwana is a designer-developer, poet, podcaster, and
+          occasional-speaker. As a third-culture adult, she has grown
+          up valuing diverse work environments and will always stand
+          in support of spaces where people who may be seen as
+          outsiders are given centre stage.
         </p>
       </section>
 
@@ -105,8 +71,8 @@ export default function LexLofthouse() {
           <a
             target="_blank"
             rel="noreferrer"
-            aria-label="Lex Lofthouse: Twitter"
-            href="https://twitter.com/Loftio"
+            aria-label="Rizwana Akmal Khan: Twitter"
+            href="https://twitter.com/rizbizkits"
           >
             Twitter
           </a>
@@ -115,8 +81,8 @@ export default function LexLofthouse() {
           <a
             target="_blank"
             rel="noreferrer"
-            aria-label="Lex Lofthouse: Website"
-            href="https://loftio.co.uk/"
+            aria-label="Rizwana Akmal Khan: Website"
+            href="https://rizwanakhan.com/"
           >
             Website
           </a>
@@ -125,8 +91,8 @@ export default function LexLofthouse() {
           <a
             target="_blank"
             rel="noreferrer"
-            aria-label="Lex Lofthouse: LinkedIn"
-            href="https://www.linkedin.com/in/alexandra-lofthouse-76a6b355/"
+            aria-label="Rizwana Akmal Khan: LinkedIn"
+            href="https://www.linkedin.com/in/riz/"
           >
             LinkedIn
           </a>
@@ -182,8 +148,8 @@ export default function LexLofthouse() {
           li {
             margin: 0;
             padding: 10px;
-            list-style: none;
-            list-style-type: none;
+            list-style: inside;
+            list-style-type: disc;
             text-align: left;
             flex-basis: 0;
             flex-grow: 1;
