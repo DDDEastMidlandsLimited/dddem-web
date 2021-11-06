@@ -75,6 +75,12 @@ export default function PoornimaNayar() {
       </section>
 
       <section>
+        <h2 tabIndex="0">Video from 2021</h2>
+        <br />
+        <p tabIndex="0">Coming Feburary 2022</p>
+      </section>
+
+      <section>
         <h2 tabIndex="0">Links</h2>
         <li>
           <a

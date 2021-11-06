@@ -88,6 +88,32 @@ export default function JamesCroft() {
       </section>
 
       <section>
+        <h2 tabIndex="0">Video from 2021</h2>
+        <br />
+        <div className="video-frame">
+          <iframe
+            width="560"
+            height="315"
+            src="https://www.youtube.com/embed/vpb6vOs9P0g"
+            title="YouTube video player"
+            frameBorder="0"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+            allowFullScreen
+          ></iframe>
+        </div>
+        <div className="center-link">
+          <a
+            target="_blank"
+            rel="noreferrer"
+            aria-label="Clifford: Youtube of Talk"
+            href="https://youtu.be/vpb6vOs9P0g"
+          >
+            Link to Youtube Recording
+          </a>
+        </div>
+      </section>
+
+      <section>
         <h2 tabIndex="0">Links</h2>
         <li>
           <a
@@ -175,6 +201,13 @@ export default function JamesCroft() {
             text-align: left;
             flex-basis: 0;
             flex-grow: 1;
+          }
+
+          .video-frame {
+            text-align: center;
+          }
+          .center-link {
+            text-align: center;
           }
 
           .contactButton {
