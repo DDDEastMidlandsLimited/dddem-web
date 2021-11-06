@@ -117,7 +117,7 @@ export default function LexLofthouse() {
           <a
             target="_blank"
             rel="noreferrer"
-            aria-label="Le: Youtube of Talk"
+            aria-label="Lex: Youtube of Talk"
             href="https://youtu.be/kTr8aoa0Pr4"
           >
             Link to Youtube Recording
