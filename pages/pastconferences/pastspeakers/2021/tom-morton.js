@@ -3,7 +3,7 @@ import Layout from '../../../../components/Layout';
 import Header from '../../../../components/Header';
 import theme from '../../../../theme/theme';
 import Head from 'next/head';
-import SpeakersButton from '../../../../components/speakers/SpeakersButton';
+import PastSpeakersButton from '../../../../components/speakers/PastSpeakersButton';
 import { library } from '@fortawesome/fontawesome-svg-core';
 import {
   faInstagram,
@@ -25,7 +25,7 @@ export default function TomMorton() {
         banner="/static/banners/information/thencc.jpg"
       />
       <section>
-        <SpeakersButton />
+        <PastSpeakersButton />
         <img
           src="/static/speakers/2021/Tom_Morton.png"
           alt="Picture of Tom Morton"
