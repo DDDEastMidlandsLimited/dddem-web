@@ -124,6 +124,20 @@ export default function Navigation() {
               </Nav.Link>
             </Nav.Item>
 
+            <Nav.Item>
+              <Nav.Link
+                tabIndex="0"
+                rel="noopener noreferrer"
+                target="_blank"
+                href="https://www.youtube.com/channel/UC5TNH43dpYqmw3ggv9OGIKw"
+                onSelect={() => {
+                  logEvent('navigation', 'youtube');
+                }}
+              >
+                YouTube
+              </Nav.Link>
+            </Nav.Item>
+
             <NavDropdown
               tabIndex="0"
               title="Past Events"

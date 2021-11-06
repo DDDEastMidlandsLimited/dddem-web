@@ -18,6 +18,16 @@ describe('Given the Navigation is rendered', () => {
     );
   });
 
+  test('it should display a YouTube link', () => {
+    const { getByText } = render(<Navigation />);
+    expect(getByText('YouTube')).toBeInTheDocument();
+    expect(getByText('YouTube')).toHaveAttribute(
+      'href',
+      'https://www.youtube.com/channel/UC5TNH43dpYqmw3ggv9OGIKw',
+    );
+  });
+  
+
   test('it should display a Blog link', () => {
     const { getByText } = render(<Navigation />);
     expect(getByText('Blog')).toBeInTheDocument();
