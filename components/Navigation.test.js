@@ -26,7 +26,6 @@ describe('Given the Navigation is rendered', () => {
       'https://www.youtube.com/channel/UC5TNH43dpYqmw3ggv9OGIKw',
     );
   });
-  
 
   test('it should display a Blog link', () => {
     const { getByText } = render(<Navigation />);

@@ -94,7 +94,7 @@ export default function TaniaAllard() {
 
       <section>
         <h2 tabIndex="0">Video from 2021</h2>
-        <br/>
+        <br />
         <div className="video-frame">
           <iframe
             width="560"
@@ -214,7 +214,7 @@ export default function TaniaAllard() {
           .center-link {
             text-align: center;
           }
-          
+
           .contactButton {
             align: ${theme.palette.quaternary};
             font-weight: bold;

@@ -67,7 +67,7 @@ export default function ConnellW() {
 
       <section>
         <h2 tabIndex="0">Video from 2021</h2>
-        <br/>
+        <br />
         <div className="video-frame">
           <iframe
             width="560"
@@ -87,11 +87,9 @@ export default function ConnellW() {
             href="https://youtu.be/CdZzfqwnx4I"
           >
             Link to Youtube Recording
-            
           </a>
         </div>
       </section>
-
 
       <style jsx>
         {`

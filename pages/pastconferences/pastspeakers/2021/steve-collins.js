@@ -133,7 +133,7 @@ export default function SteveCollins() {
 
       <section>
         <h2 tabIndex="0">Video from 2021</h2>
-        <br/>
+        <br />
         <div className="video-frame">
           <iframe
             width="560"
