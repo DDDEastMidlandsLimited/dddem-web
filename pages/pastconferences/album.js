@@ -38,7 +38,7 @@ export default function Album() {
       <section>
         <h1 tabIndex="0">2021</h1>
         <iframe
-          src="https://albumizr.com/a/fNtb"
+          src="https://albumizr.com/a/I3q0"
           scrolling="no"
           frameBorder="0"
           allowFullScreen
