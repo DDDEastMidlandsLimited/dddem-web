@@ -8,7 +8,9 @@ export default function Album() {
   return (
     <Layout>
       <Head>
-        <title>Photographs from DDD East Midlands 2019</title>
+        <title>
+          Photographs from Previous DDD East Midlands events
+        </title>
       </Head>
       <Header
         title={'Past Event Photos'}
