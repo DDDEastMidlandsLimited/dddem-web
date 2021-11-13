@@ -36,6 +36,19 @@ export default function Album() {
       </section>
 
       <section>
+        <h1 tabIndex="0">2021</h1>
+        <iframe
+          src="https://albumizr.com/a/fNtb"
+          scrolling="no"
+          frameBorder="0"
+          allowFullScreen
+          width="80%"
+          height="500"
+          title="2021 Album"
+        ></iframe>
+      </section>
+
+      <section>
         <h1 tabIndex="0">2019</h1>
         <iframe
           src="https://albumizr.com/a/K2Ti"
