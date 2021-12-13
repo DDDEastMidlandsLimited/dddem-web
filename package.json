@@ -27,7 +27,7 @@
     "@fortawesome/react-fontawesome": "^0.1.16",
     "bootstrap": "^5.1.3",
     "next": "^12.0.7",
-    "next-pwa": "^5.4.1",
+    "next-pwa": "^5.4.4",
     "perfume.js": "^6.3.0",
     "react": "^17.0.2",
     "react-bootstrap": "^2.0.3",
