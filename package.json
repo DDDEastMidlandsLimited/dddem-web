@@ -35,7 +35,7 @@
     "react-ga": "^3.3.0"
   },
   "devDependencies": {
-    "@babel/plugin-proposal-class-properties": "^7.16.5",
+    "@babel/plugin-proposal-class-properties": "^7.16.7",
     "@testing-library/jest-dom": "^5.16.1",
     "@testing-library/react": "^12.1.2",
     "@testing-library/user-event": "^13.5.0",
@@ -55,7 +55,7 @@
     "imagemin-mozjpeg": "^9.0.0",
     "imagemin-optipng": "^8.0.0",
     "imagemin-svgo": "^9.0.0",
-    "jest": "^27.4.5",
+    "jest": "^27.4.6",
     "jest-transform-css": "^3.0.0",
     "next-compose-plugins": "^2.2.1",
     "next-optimized-images": "^2.6.2",
