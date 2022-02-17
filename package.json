@@ -52,7 +52,7 @@
     "glob": "^7.2.0",
     "globby": "^11.0.4",
     "husky": "^7.0.4",
-    "imagemin-mozjpeg": "^9.0.0",
+    "imagemin-mozjpeg": "^10.0.0",
     "imagemin-optipng": "^8.0.0",
     "imagemin-svgo": "^9.0.0",
     "jest": "^27.5.1",
