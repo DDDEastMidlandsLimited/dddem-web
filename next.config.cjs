@@ -1,11 +1,10 @@
-const withPWA = require('next-pwa');
-const glob = require('glob');
-const withPlugins = require('next-compose-plugins');
-const optimizedImages = require('next-optimized-images');
+import { withPWA } from 'next-pwa';
+import { glob } from 'glob';
+import { withPlugins } from 'next-compose-plugins';
+import generateSiteMap from './utils/generateSiteMap.mjs';
 
 module.exports = withPlugins(
   [
-    optimizedImages,
     {
       optimizeImagesInDev: true,
     },
@@ -14,7 +13,6 @@ module.exports = withPlugins(
     pwa: {
       dest: 'public',
     },
-    webpack5: true,
     trailingSlash: true,
     exportPathMap: async function (
       defaultPathMap,
@@ -33,7 +31,7 @@ module.exports = withPlugins(
     },
     webpack: (config, { isServer }) => {
       if (isServer) {
-        require('./utils/generateSiteMap');
+        generateSiteMap();
       }
 
       return config;
