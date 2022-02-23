@@ -3,7 +3,7 @@ import theme from '../theme/theme';
 import Header from '../components/Header';
 import Layout from '../components/Layout';
 import ImportantDatesList from '../components/home/ImportantDatesList';
-import dates from '../data/dates';;
+import dates from '../data/dates';
 import SponsorButton from '../components/sponsorship/SponsorButton';
 
 export default function Index() {
@@ -15,19 +15,19 @@ export default function Index() {
 
       <section>
         <div className="row">
-            <p tabIndex="0">
-              DDD East Midlands is an inclusive, not-for-profit
-              technology conference happening on{' '}
-              <b>7th October 2023</b> that celebrates the unique tech,
-              talent and companies that the East Midlands has to
-              offer. This event is run by community members to promote
-              collaboration and the amazing tech community that has
-              already grown in the East Midlands.
-            </p>
-          </div>
+          <p tabIndex="0">
+            DDD East Midlands is an inclusive, not-for-profit
+            technology conference happening on <b>7th October 2023</b>{' '}
+            that celebrates the unique tech, talent and companies that
+            the East Midlands has to offer. This event is run by
+            community members to promote collaboration and the amazing
+            tech community that has already grown in the East
+            Midlands.
+          </p>
+        </div>
       </section>
 
-{/*       <section>
+      {/*       <section>
         <div className="row">
           <div className="column">
             <div className="platinum">
@@ -71,7 +71,7 @@ export default function Index() {
       </section>
 
       {/* Gold Sponsors */}
-{/*       <section>
+      {/*       <section>
         <h2>Gold Sponsors</h2>
         <h3>To be confirmed</h3>
         <GoldSponsorLogos />
