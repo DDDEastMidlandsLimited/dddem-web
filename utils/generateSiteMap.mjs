@@ -1,7 +1,7 @@
-const fs = require('fs');
-const globby = require('globby');
+import { fs } from 'fs';
+import { globby } from 'globby';
 
-async function generateSiteMap() {
+export default async function generateSiteMap() {
   const pages = await globby([
     'pages/**/*.js',
     '!pages/_*.js',
@@ -30,5 +30,3 @@ async function generateSiteMap() {
 
   fs.writeFileSync('out/sitemap.xml', sitemap);
 }
-
-generateSiteMap();
