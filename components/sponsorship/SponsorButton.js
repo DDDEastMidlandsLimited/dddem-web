@@ -11,7 +11,7 @@ export default function SponsorButton() {
           target="_blank"
           rel="noreferrer"
         >
-          Email Rachel
+          Contact Us About Sponsorship
         </a>
       </button>
       <style jsx>
@@ -23,18 +23,18 @@ export default function SponsorButton() {
           button {
             border-radius: 12px;
             border: none;
-            color: ${theme.palette.dark};
+            color: ${theme.palette.light};
             padding: 15px 32px;
             text-align: center;
             text-decoration: none;
             display: inline-block;
             font-size: 18px;
-            background-color: ${theme.palette.quaternary};
+            background-color: ${theme.palette.primary};
             margin-bottom: 15px;
           }
 
           button a {
-            color: ${theme.palette.dark};
+            color: ${theme.palette.light};
           }
 
           button:hover {

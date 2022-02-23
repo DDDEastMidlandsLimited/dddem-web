@@ -19,11 +19,6 @@ export default function ConferenceInformation() {
         <h1 tabIndex="0">Contents</h1>
         <p>
           <strong>
-            <a href="#covid-precautions">Covid Precautions</a>
-          </strong>
-        </p>
-        <p>
-          <strong>
             <a href="#about">About DDD East Midlands</a>
           </strong>
         </p>
@@ -66,8 +61,6 @@ export default function ConferenceInformation() {
           </li>
         </ul>
       </section>
-
-      <CovidPrecautions />
 
       <section id="about">
         <a name="about" />
