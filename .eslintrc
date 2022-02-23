@@ -8,7 +8,7 @@
         "import"
     ],
     "extends": [
-        "eslint:recommended",
+        "plugin:@next/next/recommended",
         "plugin:react/recommended",
         "plugin:prettier/recommended"
     ],

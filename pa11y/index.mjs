@@ -1,5 +1,5 @@
-const globby = require('globby');
-const pa11y = require('pa11y');
+import { globby } from 'globby';
+import pa11y from 'pa11y';
 
 // Every pa11y call create a remote socket connection and in node this limit is 10.
 // Setting this to 50 will silence a memory leak false positive warning when running
@@ -36,8 +36,11 @@ async function pa11yCheck() {
       console.log(issue.pageUrl);
       console.log(issue.issues);
     }
+    console.log(issue.issues);
+    console.error("pa11y Errors Found");
     process.exit(2);
   } else {
+    console.log("No pa11y Errors Found");
     process.exit(0);
   }
 }
