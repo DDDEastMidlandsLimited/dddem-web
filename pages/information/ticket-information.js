@@ -53,8 +53,7 @@ export default function TicketInformation() {
         <a name="ticketrelease" />
         <h1 tabIndex="0">When will tickets be released?</h1>
         <p tabIndex="0">
-          The 2021 event is now done. It will be some months before we
-          have a confirmed date for the next event.
+          The 2021 event is now done. The next event will be in 2023.
         </p>
         <ul tabIndex="0">
           <li>
