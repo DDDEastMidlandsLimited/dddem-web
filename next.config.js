@@ -1,7 +1,6 @@
-import { withPWA } from 'next-pwa';
-import { glob } from 'glob';
-import { withPlugins } from 'next-compose-plugins';
-import generateSiteMap from './utils/generateSiteMap.mjs';
+const withPWA = require('next-pwa');
+const glob = require('glob');
+const withPlugins = require('next-compose-plugins');
 
 module.exports = withPlugins(
   [
@@ -31,7 +30,7 @@ module.exports = withPlugins(
     },
     webpack: (config, { isServer }) => {
       if (isServer) {
-        generateSiteMap();
+        require('./utils/generateSiteMap.js');
       }
 
       return config;

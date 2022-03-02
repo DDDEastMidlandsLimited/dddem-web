@@ -36,21 +36,13 @@ export default function ConferenceInformation() {
 
       <section id="organisers">
         <a name="organisers" />
-        <h1 tabIndex="0">The Organisers</h1>
+        <h1 tabIndex="0">The Organisation Committee</h1>
         <p tabIndex="0">
-          The very first DDD East Midlands is being organised by
-          Moreton Brockley and Jessica White. Both have been active
-          members of the East Midlands tech scene for a number of
-          years and have benefited through making lifelong friends,
-          experiencing awesome events and learning. They are eager to
-          celebrate the East Midlands tech community, give back where
-          they can and encourage more people from other places to come
-          and join them here.
-        </p>
-        <p>
-          Rachel did a fantastic job helping us host the Speakers
-          Workshop and will be helping with correspondence in 2020,
-          and has been a key part of the team this last year.
+          The very first DDD East Midlands was organised by Moreton
+          Brockley and Jessica White. Since then we have grown to have
+          an organisation committee. Rachel joined us to help organise
+          the 2021 event, and now we have a full roster of organisers
+          for 2023 including Steven Pears and James Hayward.
         </p>
       </section>
       <section className="volunteer-grid">
@@ -103,32 +95,6 @@ export default function ConferenceInformation() {
           making sure your experience of it is the best they can
           possibly make it.
         </p>
-      </section>
-
-      <section id="year-long-crew">
-        <a name="year-long-crew" />
-        <h1 tabIndex="0">The Year Long Crew</h1>
-        <p tabIndex="0">
-          There are a few crew members that help us throughout the
-          year by organising who is taking part in the crew and their
-          Responsibilities, or by helping to maintain the website.
-        </p>
-      </section>
-      <section className="volunteer-grid">
-        <article className="volunteer-grid-item">
-          <img
-            className="volunteer-image"
-            src="/static/speakers/TBC.png"
-            alt="To be confirmed placeholder"
-          />
-        </article>
-        <article className="volunteer-grid-item">
-          <img
-            className="volunteer-image"
-            src="/static/speakers/TBC.png"
-            alt="To be confirmed placeholder"
-          />
-        </article>
       </section>
 
       <section id="event-crew">

@@ -2,22 +2,32 @@ import React from 'react';
 import theme from '../theme/theme';
 import Header from '../components/Header';
 import Layout from '../components/Layout';
-import ExternalLink from '../components/ExternalLink';
 import ImportantDatesList from '../components/home/ImportantDatesList';
-import TieredCompanies from '../components/companies/TieredCompanies';
-import GoldSponsorLogos from '../components/companies/GoldSponsorLogos';
-import SilverSponsorLogos from '../components/companies/SilverSponsorLogos';
 import dates from '../data/dates';
-import platinum from '../data/sponsors/platinum';
-import gold from '../data/sponsors/gold';
-import silver from '../data/sponsors/silver';
+import SponsorButton from '../components/sponsorship/SponsorButton';
 
 export default function Index() {
   return (
     <Layout>
       <Header banner="/static/banners/home.jpg" />
 
+      <h3>Developer! Developer! Developer! East Midlands</h3>
+
       <section>
+        <div className="row">
+          <p tabIndex="0">
+            DDD East Midlands is an inclusive, not-for-profit
+            technology conference happening on <b>7th October 2023</b>{' '}
+            that celebrates the unique tech, talent and companies that
+            the East Midlands has to offer. This event is run by
+            community members to promote collaboration and the amazing
+            tech community that has already grown in the East
+            Midlands.
+          </p>
+        </div>
+      </section>
+
+      {/*       <section>
         <div className="row">
           <div className="column">
             <div className="platinum">
@@ -40,7 +50,7 @@ export default function Index() {
             <p tabIndex="0">
               DDD East Midlands is an inclusive, not-for-profit
               technology conference happening on{' '}
-              <b>2nd October 2021</b> that celebrates the unique tech,
+              <b>7th October 2023</b> that celebrates the unique tech,
               talent and companies that the East Midlands has to
               offer. This event is run by community members to promote
               collaboration and the amazing tech community that has
@@ -48,7 +58,7 @@ export default function Index() {
             </p>
           </div>
         </div>
-      </section>
+      </section> */}
 
       <section>
         <div>
@@ -61,19 +71,17 @@ export default function Index() {
       </section>
 
       {/* Gold Sponsors */}
-      <section>
+      {/*       <section>
         <h2>Gold Sponsors</h2>
+        <h3>To be confirmed</h3>
         <GoldSponsorLogos />
         <TieredCompanies partners={gold} />
-      </section>
+      </section> */}
 
       {/* Silver Sponsors */}
       <section>
-        <h2>Silver Sponsors</h2>
-        <div className="silver">
-          <SilverSponsorLogos />
-          <TieredCompanies partners={silver} />
-        </div>
+        <h2>Sponsors</h2>
+        <SponsorButton />
       </section>
 
       {/* Important Dates */}
@@ -133,6 +141,7 @@ export default function Index() {
           }
           h3 {
             text-align: center;
+            color: ${theme.palette.primary};
           }
 
           .row {

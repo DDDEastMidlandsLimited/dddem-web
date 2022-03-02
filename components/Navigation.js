@@ -55,38 +55,6 @@ export default function Navigation() {
                 Ticket Information
               </NavDropdown.Item>
               <NavDropdown.Item
-                id="attendee-information"
-                tabIndex="0"
-                href="/information/attendee-information"
-                title="Link to Attendee Information Page"
-              >
-                Attendee Information
-              </NavDropdown.Item>
-              <NavDropdown.Item
-                id="speaker-information"
-                tabIndex="0"
-                href="/information/speaker-information"
-                title="Link to Speaker Information Page"
-              >
-                Speaker Information
-              </NavDropdown.Item>
-              <NavDropdown.Item
-                id="crew-information"
-                tabIndex="0"
-                href="/information/crew-information"
-                title="Link to Crew Information Page"
-              >
-                Crew Information
-              </NavDropdown.Item>
-              <NavDropdown.Item
-                id="sponsor-information"
-                tabIndex="0"
-                href="/information/sponsor-information"
-                title="Link to Sponsor Information Page"
-              >
-                Sponsor Information
-              </NavDropdown.Item>
-              <NavDropdown.Item
                 id="venue-informaation"
                 tabIndex="0"
                 href="/information/venue-information"
@@ -103,12 +71,6 @@ export default function Navigation() {
                 Accessibility
               </NavDropdown.Item>
             </NavDropdown>
-
-            <Nav.Item>
-              <Nav.Link tabIndex="0" href="/2021/notable-companies">
-                Notable Companies
-              </Nav.Link>
-            </Nav.Item>
 
             <Nav.Item>
               <Nav.Link
