@@ -64,8 +64,6 @@ export default function Header({ title, banner }) {
             .background {
               height: 350px;
             }
-            .logo {
-            }
             .image {
               margin-top: -80px;
               padding: 20px 30px;
