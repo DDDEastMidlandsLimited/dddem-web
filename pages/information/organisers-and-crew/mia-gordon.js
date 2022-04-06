@@ -14,23 +14,23 @@ import {
 
 library.add(faInstagram, faTwitter, faGithub, faLinkedin);
 
-export default function RachelWatson() {
+export default function MiaGordon() {
   return (
     <Layout>
       <Head>
-        <title>Rachel Watson</title>
+        <title>Mia Gordon</title>
       </Head>
       <Header
-        title={'Rachel Watson'}
-        banner="/static/banners/information/rach_banner.jpg"
+        title={'Mia Gordon'}
+        banner="/static/banners/information/mia_banner.jpg"
       />
       <section>
-        <h1 tabIndex="0">Co-Organiser and Chief of Communications</h1>
+        <h1 tabIndex="0">Social Responsibility Manager</h1>
       </section>
       <section>
         <img
-          src="/static/organisers/rachel.jpg"
-          alt="Picture of Rachel Watson"
+          src="/static/organisers/mia.jpg"
+          alt="Picture of Mia Gordon"
           className="speakerpic"
         />
         <div>
@@ -41,59 +41,23 @@ export default function RachelWatson() {
         <br />
       </section>
       <section>
-        <h2 tabIndex="0">About Rachel</h2>
+        <h2 tabIndex="0">About Mia</h2>
         <p tabIndex="0">
-          Rachel joined for the 2021 event. She is an excellent and
-          ethical recruiter as a day job. If you have any need for a
-          new role, reach out to her and she'll do her best to help
-          connect you to great local companies.
+          Mia is a developer, and joined the organisation committee
+          ready for the 2023 event.
         </p>
       </section>
 
       <section>
-        <h2 tabIndex="0">Rachel's Responsibilities</h2>
+        <h2 tabIndex="0">Mia's Responsibilities</h2>
         <p tabIndex="0">
-          Coordinating all the DDD East Midlands correspondence with
-          sponsors and partners, making sure the experience is as
-          seamless as possibles. Also helping on the run up to the
-          event to ensure everyone involved has what they need and are
-          prepared to contribute to make it a great event.
+          Organising outreach. This can include working with
+          universities, boot camps, organisations such as Coding Black
+          Females. Helping us get a diverse range of speakers and
+          publicising great initiatives.
         </p>
       </section>
 
-      <section>
-        <h2 tabIndex="0">Links</h2>
-        <li tabIndex="0">
-          <a
-            href="mailto:rachel@dddeastmidlands.com"
-            target="_blank"
-            rel="noreferrer"
-            aria-label="Rachel Watson: Email"
-          >
-            Email
-          </a>
-        </li>
-        <li tabIndex="0">
-          <a
-            href="https://twitter.com/missracheybaby"
-            target="_blank"
-            rel="noreferrer"
-            aria-label="Rachel Watson: Twitter"
-          >
-            Twitter
-          </a>
-        </li>
-        <li tabIndex="0">
-          <a
-            href="https://www.linkedin.com/in/rachelwatsondistinct/"
-            target="_blank"
-            rel="noreferrer"
-            aria-label="Rachel Watson: LinkedIn"
-          >
-            LinkedIn
-          </a>
-        </li>
-      </section>
       <section>
         <CrewBackButton />
       </section>

@@ -19,12 +19,7 @@ export default function ConferenceInformation() {
 
         <p>
           <strong>
-            <a href="#organisers">The Organisers</a>
-          </strong>
-        </p>
-        <p>
-          <strong>
-            <a href="#year-long-crew">Year Long Crew</a>
+            <a href="#organisers">The Organisation Committee</a>
           </strong>
         </p>
         <p>
@@ -39,10 +34,10 @@ export default function ConferenceInformation() {
         <h1 tabIndex="0">The Organisation Committee</h1>
         <p tabIndex="0">
           The very first DDD East Midlands was organised by Moreton
-          Brockley and Jessica White. Since then we have grown to have
-          an organisation committee. Rachel joined us to help organise
+          and Jessica. Since then we have grown to have an
+          organisation committee. Rachel joined us to help organise
           the 2021 event, and now we have a full roster of organisers
-          for 2023 including Steven Pears and James Hayward.
+          for 2023 including Steven, James and Mia.
         </p>
       </section>
       <section className="volunteer-grid">
@@ -81,6 +76,45 @@ export default function ConferenceInformation() {
             <img
               src="/static/organisers/rachel.jpg"
               alt="Picture of Rachel Watson"
+              className="picture"
+            />
+          </a>
+        </article>
+        <article className="volunteer-grid-item">
+          <a
+            tabIndex="0"
+            href="../mia-gordon"
+            title="Link to Information About Mia"
+          >
+            <img
+              src="/static/organisers/mia.jpg"
+              alt="Picture of Mia"
+              className="picture"
+            />
+          </a>
+        </article>
+        <article className="volunteer-grid-item">
+          <a
+            tabIndex="0"
+            href="../steven-pears"
+            title="Link to Information About Steve"
+          >
+            <img
+              src="/static/organisers/steven.jpg"
+              alt="Picture of Steven"
+              className="picture"
+            />
+          </a>
+        </article>
+        <article className="volunteer-grid-item">
+          <a
+            tabIndex="0"
+            href="../james-hayward"
+            title="Link to Information About James"
+          >
+            <img
+              src="/static/organisers/james.jpg"
+              alt="Picture of James"
               className="picture"
             />
           </a>
