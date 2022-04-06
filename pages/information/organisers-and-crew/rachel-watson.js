@@ -22,7 +22,7 @@ export default function RachelWatson() {
       </Head>
       <Header
         title={'Rachel Watson'}
-        banner="/static/banners/information/thencc.jpg"
+        banner="/static/banners/information/rach_banner.jpg"
       />
       <section>
         <h1 tabIndex="0">Co-Organiser and Chief of Communications</h1>
@@ -43,18 +43,19 @@ export default function RachelWatson() {
       <section>
         <h2 tabIndex="0">About Rachel</h2>
         <p tabIndex="0">
-          The newest member of the team, Rachel will be helping with
-          all the DDD East Midlands correspondence, making sure the
-          experience is as seamless as possible for sponsors and
-          partners. She works for Distinct Recruitment and you can
-          find her at a lot of the local meetups.
+          Rachel joined for the 2021 event. She is an excellent and ethical recruiter as a day job. If you have any need for a new role, reach out to her and she'll do her best to help connect you to great local companies.
         </p>
       </section>
 
       <section>
         <h2 tabIndex="0">Rachel's Responsibilities</h2>
-        <li tabIndex="0">Sponsor Agreements and Management</li>
-        <li tabIndex="0">Scheduling</li>
+        <p tabIndex="0">
+          Coordinating all the DDD East Midlands correspondence with
+          sponsors and partners, making sure the experience is as
+          seamless as possibles. Also helping on the run up to the
+          event to ensure everyone involved has what they need and are
+          prepared to contribute to make it a great event.
+        </p>
       </section>
 
       <section>
