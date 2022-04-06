@@ -19,12 +19,7 @@ export default function ConferenceInformation() {
 
         <p>
           <strong>
-            <a href="#organisers">The Organisers</a>
-          </strong>
-        </p>
-        <p>
-          <strong>
-            <a href="#year-long-crew">Year Long Crew</a>
+            <a href="#organisers">The Organisation Committee</a>
           </strong>
         </p>
         <p>
@@ -112,11 +107,17 @@ export default function ConferenceInformation() {
           </a>
         </article>
         <article className="volunteer-grid-item">
-          <img
-            src="/static/organisers/james.jpg"
-            alt="Picture of James"
-            className="picture"
-          />
+          <a
+            tabIndex="0"
+            href="../james-hayward"
+            title="Link to Information About James"
+          >
+            <img
+              src="/static/organisers/james.jpg"
+              alt="Picture of James"
+              className="picture"
+            />
+          </a>
         </article>
       </section>
 
