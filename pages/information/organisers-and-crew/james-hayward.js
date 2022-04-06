@@ -14,50 +14,51 @@ import {
 
 library.add(faInstagram, faTwitter, faGithub, faLinkedin);
 
-export default function RachelWatson() {
+export default function JamesHayward() {
   return (
     <Layout>
       <Head>
-        <title>Rachel Watson</title>
+        <title>James Hayward</title>
       </Head>
       <Header
-        title={'Rachel Watson'}
-        banner="/static/banners/information/rach_banner.jpg"
+        title={'James Hayward'}
+        banner="/static/banners/information/thencc.jpg"
       />
       <section>
-        <h1 tabIndex="0">Co-Organiser and Chief of Communications</h1>
+        <h1 tabIndex="0">Contracts and Finances Manager</h1>
       </section>
       <section>
         <img
-          src="/static/organisers/rachel.jpg"
-          alt="Picture of Rachel Watson"
+          src="/static/organisers/james.jpg"
+          alt="Picture of James Hayward"
           className="speakerpic"
         />
         <div>
           <ul>
-            <b>Pronouns: </b> She/Her
+            <b>Pronouns: </b> He/Him
           </ul>
         </div>
         <br />
       </section>
+
       <section>
-        <h2 tabIndex="0">About Rachel</h2>
+        <h2 tabIndex="0">About James</h2>
         <p tabIndex="0">
-          Rachel joined for the 2021 event. She is an excellent and
-          ethical recruiter as a day job. If you have any need for a
-          new role, reach out to her and she'll do her best to help
-          connect you to great local companies.
+          James is a Learning Technology and Delivery Manager. He's an
+          active member of the local community and arranges other
+          events outside of this one. James has also volunteered at
+          both the 2019 and 2021 event.
         </p>
       </section>
 
       <section>
-        <h2 tabIndex="0">Rachel's Responsibilities</h2>
+        <h2 tabIndex="0">James' Responsibilities</h2>
         <p tabIndex="0">
-          Coordinating all the DDD East Midlands correspondence with
-          sponsors and partners, making sure the experience is as
-          seamless as possibles. Also helping on the run up to the
-          event to ensure everyone involved has what they need and are
-          prepared to contribute to make it a great event.
+          Will be working closely with Jessica, ensuring everything
+          happens on schedule and everyone knows what they need to do
+          and when. Timelines, coordination with the venue, keeping in
+          mind things like accessibility needs. Coordinating
+          everything that makes the event a success.
         </p>
       </section>
 
@@ -65,30 +66,20 @@ export default function RachelWatson() {
         <h2 tabIndex="0">Links</h2>
         <li tabIndex="0">
           <a
-            href="mailto:rachel@dddeastmidlands.com"
             target="_blank"
             rel="noreferrer"
-            aria-label="Rachel Watson: Email"
-          >
-            Email
-          </a>
-        </li>
-        <li tabIndex="0">
-          <a
-            href="https://twitter.com/missracheybaby"
-            target="_blank"
-            rel="noreferrer"
-            aria-label="Rachel Watson: Twitter"
+            aria-label="James Hayward: Twitter"
+            href="https://twitter.com/geeksareforlife"
           >
             Twitter
           </a>
         </li>
         <li tabIndex="0">
           <a
-            href="https://www.linkedin.com/in/rachelwatsondistinct/"
             target="_blank"
             rel="noreferrer"
-            aria-label="Rachel Watson: LinkedIn"
+            aria-label="James Hayward: LinkedIn"
+            href="https://www.linkedin.com/in/jhayward/"
           >
             LinkedIn
           </a>
