@@ -99,11 +99,17 @@ export default function ConferenceInformation() {
           </a>
         </article>
         <article className="volunteer-grid-item">
-          <img
-            src="/static/organisers/steven.jpg"
-            alt="Picture of Steven"
-            className="picture"
-          />
+          <a
+            tabIndex="0"
+            href="../steven-pears"
+            title="Link to Information About Steve"
+          >
+            <img
+              src="/static/organisers/steven.jpg"
+              alt="Picture of Steven"
+              className="picture"
+            />
+          </a>
         </article>
         <article className="volunteer-grid-item">
           <img
