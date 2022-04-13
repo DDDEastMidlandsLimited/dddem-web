@@ -1,15 +1,15 @@
 import React from 'react';
-import Layout from '../../components/Layout';
-import Header from '../../components/Header';
-import CovidPrecautions from '../../components/content/CovidPrecautions';
-import theme from '../../theme/theme';
+import Layout from '../components/Layout';
+import Header from '../components/Header';
+import CovidPrecautions from '../components/content/CovidPrecautions';
+import theme from '../theme/theme';
 import Head from 'next/head';
 
 export default function ConferenceInformation() {
   return (
     <Layout>
       <Head>
-        <title>About DDDEM</title>
+        <title>About DDD East Midlands</title>
       </Head>
       <Header
         title={'About DDDEM'}
@@ -19,15 +19,15 @@ export default function ConferenceInformation() {
         <h1 tabIndex="0">Contents</h1>
         <p>
           <strong>
+            <a href="#ddd">What does the DDD stand for?</a>
+          </strong>
+        </p>
+        <p>
+          <strong>
             <a href="#about">About DDD East Midlands</a>
           </strong>
         </p>
         <ul>
-          <li>
-            <a href="#ddd">
-              But what is the DDD about? What is this conference?
-            </a>
-          </li>
           <li>
             <a href="#ddd-principles">DDD Principles</a>
           </li>
@@ -35,15 +35,16 @@ export default function ConferenceInformation() {
             <a href="#our-principles">Our Principles</a>
           </li>
         </ul>
-
         <p>
           <strong>
-            <a href="#ddd-about">
-              About Developer! Developer! Developer! (DDD)
-            </a>
+            <a href="#organisers">The Organisation Committee</a>
           </strong>
         </p>
-
+        <p>
+          <strong>
+            <a href="#event-crew">The Event Crew</a>
+          </strong>
+        </p>
         <p>
           <strong>
             <a href="#inclusivity">Promoting Inclusivity</a>
@@ -62,25 +63,9 @@ export default function ConferenceInformation() {
         </ul>
       </section>
 
-      <section id="about">
-        <a name="about" />
-        <h1 tabIndex="0">About DDD East Midlands</h1>
-        <p tabIndex="0">
-          Nottingham is the perfect blend of the professional
-          corporates and the innovative independents and this bleeds
-          right through to the tech scene. This unique and perfect mix
-          of the traditional and contemporary is reflected in DDD East
-          Midlands. It is part of the multi-national DDD conference
-          community, but with a focus on promoting the talent,
-          companies and the amazing tech community the East Midlands
-          has to offer.
-        </p>
-
-        <br />
+      <section id="ddd">
         <a name="ddd" />
-        <h2 tabIndex="0">
-          But what is the DDD about? What is this conference?
-        </h2>
+        <h1 tabIndex="0">What does the DDD stand for?</h1>
         <p tabIndex="0">
           DDD stands for (in this case){' '}
           <b>Developer! Developer! Developer!</b>
@@ -95,38 +80,6 @@ export default function ConferenceInformation() {
           Developer! Developer! Developer! further down this page for
           those interested.
         </p>
-      </section>
-
-      <section>
-        <a name="ddd-principles" />
-        <h2 tabIndex="0">The event follows these DDD Principles:</h2>
-        <ul>
-          <li tabIndex="0">
-            The event is hosted on a Saturday so that attendees do not
-            have to take time from work.
-          </li>
-          <li tabIndex="0">Tickets to attend the event are free.</li>
-        </ul>
-        <br />
-        <a name="our-principles" />
-        <h2 tabIndex="0">As well as our own following principles:</h2>
-        <ul>
-          <li tabIndex="0">All talk submissions are anonymous.</li>
-          <li tabIndex="0">
-            There is a democratic selection process for talks
-            involving attendees voting for what they want to see.
-          </li>
-          <li tabIndex="0">
-            The event is arranged with the community in mind.
-          </li>
-        </ul>
-      </section>
-
-      <section id="ddd-about">
-        <a name="ddd-about" />
-        <h1 tabIndex="0">
-          About Developer! Developer! Developer! (DDD)
-        </h1>
         <p tabIndex="0">
           DDD was first formed as a conference in 2005, the first
           event happening in Reading, UK. Since then it has generated
@@ -145,6 +98,164 @@ export default function ConferenceInformation() {
           the field of technology. It is language and technology
           agnostic.
         </p>
+      </section>
+
+      <section id="about">
+        <a name="about" />
+        <h1 tabIndex="0">About DDD East Midlands</h1>
+        <p tabIndex="0">
+          Nottingham is the perfect blend of the professional
+          corporates and the innovative independents and this bleeds
+          right through to the tech scene. This unique and perfect mix
+          of the traditional and contemporary is reflected in DDD East
+          Midlands. It is part of the multi-national DDD conference
+          community, but with a focus on promoting the talent,
+          companies and the amazing tech community the East Midlands
+          has to offer.
+        </p>
+        <a name="ddd-principles" />
+        <h2 tabIndex="0">The event follows these DDD Principles:</h2>
+        <ul>
+          <li tabIndex="0">
+            The event is hosted on a Saturday so that attendees do not
+            have to take time from work.
+          </li>
+          <li tabIndex="0">Tickets to attend the event are free.</li>
+        </ul>
+        <a name="our-principles" />
+        <h2 tabIndex="0">As well as our own following principles:</h2>
+        <ul>
+          <li tabIndex="0">All talk submissions are anonymous.</li>
+          <li tabIndex="0">
+            There is a democratic selection process for talks
+            involving attendees voting for what they want to see.
+          </li>
+          <li tabIndex="0">
+            The event is arranged with the community in mind.
+          </li>
+        </ul>
+      </section>
+
+      <section id="organisers">
+        <a name="organisers" />
+        <h1 tabIndex="0">The Organisation Committee</h1>
+        <p tabIndex="0">
+          The very first DDD East Midlands was organised by Moreton
+          and Jessica. Since then we have grown to have an
+          organisation committee. Rachel joined us to help organise
+          the 2021 event, and now we have a full roster of organisers
+          for 2023 including Steven, James and Mia.
+        </p>
+      </section>
+
+      <section className="volunteer-grid">
+        <article className="volunteer-grid-item">
+          <a
+            tabIndex="0"
+            href="../organisers-and-crew/jessica-white"
+            title="Link to Information About Jessica"
+          >
+            <img
+              src="/static/organisers/jess.jpg"
+              alt="Picture of Jessica White"
+              className="picture"
+            />
+          </a>
+        </article>
+        <article className="volunteer-grid-item">
+          <a
+            tabIndex="0"
+            href="../organisers-and-crew/moreton-brockley"
+            title="Link to Information About Moreton"
+          >
+            <img
+              src="/static/organisers/mort.jpg"
+              alt="Picture of Moreton Brockley"
+              className="picture"
+            />
+          </a>
+        </article>
+        <article className="volunteer-grid-item">
+          <a
+            tabIndex="0"
+            href="../organisers-and-crew/rachel-watson"
+            title="Link to Information About Rachel"
+          >
+            <img
+              src="/static/organisers/rachel.jpg"
+              alt="Picture of Rachel Watson"
+              className="picture"
+            />
+          </a>
+        </article>
+        <article className="volunteer-grid-item">
+          <a
+            tabIndex="0"
+            href="../organisers-and-crew/mia-gordon"
+            title="Link to Information About Mia"
+          >
+            <img
+              src="/static/organisers/mia.jpg"
+              alt="Picture of Mia"
+              className="picture"
+            />
+          </a>
+        </article>
+        <article className="volunteer-grid-item">
+          <a
+            tabIndex="0"
+            href="../organisers-and-crew/steven-pears"
+            title="Link to Information About Steve"
+          >
+            <img
+              src="/static/organisers/steven.jpg"
+              alt="Picture of Steven"
+              className="picture"
+            />
+          </a>
+        </article>
+        <article className="volunteer-grid-item">
+          <a
+            tabIndex="0"
+            href="../organisers-and-crew/james-hayward"
+            title="Link to Information About James"
+          >
+            <img
+              src="/static/organisers/james.jpg"
+              alt="Picture of James"
+              className="picture"
+            />
+          </a>
+        </article>
+      </section>
+
+      <section>
+        <p tabIndex="0">
+          Give them a follow on Twitter, say hi at the local events,
+          offer them a coffee or some chocolate if they look in need.
+          They will both be running around on the day of the event
+          making sure your experience of it is the best they can
+          possibly make it.
+        </p>
+      </section>
+
+      <section id="event-crew">
+        <a name="event-crew" />
+        <h1 tabIndex="0">The Event Crew</h1>
+        <p tabIndex="0">
+          We could not run the event without the support our fantastic
+          event crew. They help with set-up, with looking after
+          attendees and speakers during the day and cleaning up after
+          the event.
+        </p>
+        <div className="center-image">
+          <img
+            className="crew-image"
+            src="/static/info/crew.jpg"
+            alt="Picture of the volunteers from the 2021 event"
+          />
+        </div>
+        <br />
       </section>
 
       <section id="inclusivity">
@@ -277,9 +388,37 @@ export default function ConferenceInformation() {
             border: 0;
           }
 
+          .center-image {
+            text-align: center;
+          }
+
+          .crew-image {
+            width: 80%;
+          }
+
+          .volunteer-image {
+            width: 150px;
+            height: 150px;
+          }
+
+          .volunteer-grid {
+            display: flex;
+            flex-direction: row;
+            flex-wrap: wrap;
+            justify-content: center;
+          }
+
+          .volunteer-grid-item {
+            min-width: 180px;
+          }
+
           .picture {
             width: 200px;
             border-radius: 50%;
+            margin: 5px;
+          }
+          a .picture:hover {
+            filter: drop-shadow(5px 5px 5px rgb(26 125 135 / 0.75));
           }
 
           @media only screen and (max-width: 810px) {

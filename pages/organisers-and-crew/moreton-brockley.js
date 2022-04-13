@@ -1,9 +1,9 @@
 import React from 'react';
-import Layout from '../../../components/Layout';
-import Header from '../../../components/Header';
-import theme from '../../../theme/theme';
+import Layout from '../../components/Layout';
+import Header from '../../components/Header';
+import theme from '../../theme/theme';
 import Head from 'next/head';
-import CrewBackButton from '../../../components/information/CrewBackButton';
+import BackToAboutButton from '../../components/information/BackToAboutButton';
 import { library } from '@fortawesome/fontawesome-svg-core';
 import {
   faInstagram,
@@ -14,23 +14,23 @@ import {
 
 library.add(faInstagram, faTwitter, faGithub, faLinkedin);
 
-export default function JamesHayward() {
+export default function MoretonBrockley() {
   return (
     <Layout>
       <Head>
-        <title>James Hayward</title>
+        <title>Moreton Brockley</title>
       </Head>
       <Header
-        title={'James Hayward'}
+        title={'Moreton Brockley'}
         banner="/static/banners/information/thencc.jpg"
       />
       <section>
-        <h1 tabIndex="0">Contracts and Finances Manager</h1>
+        <h1 tabIndex="0">Directior/ Co-Founder / Co-Organiser</h1>
       </section>
       <section>
         <img
-          src="/static/organisers/james.jpg"
-          alt="Picture of James Hayward"
+          src="/static/organisers/mort.jpg"
+          alt="Picture of Moreton Brockley"
           className="speakerpic"
         />
         <div>
@@ -42,24 +42,21 @@ export default function JamesHayward() {
       </section>
 
       <section>
-        <h2 tabIndex="0">About James</h2>
+        <h2 tabIndex="0">About Moreton</h2>
         <p tabIndex="0">
-          James is a Learning Technology and Delivery Manager. He's an
-          active member of the local community and arranges other
-          events outside of this one. James has also volunteered at
-          both the 2019 and 2021 event.
+          A Principle Developer, Moreton is the sensible head of the
+          co-founders. He is the number whizz and the fashion guru.
+          Seriously, check out his Ninja Turtle Doc Martens. You may
+          (not) recognise Moreton from his performance at 2018&apos;s
+          Hack24 as Mr Blobby.
         </p>
       </section>
 
       <section>
-        <h2 tabIndex="0">James' Responsibilities</h2>
-        <p tabIndex="0">
-          Will be working closely with Jessica, ensuring everything
-          happens on schedule and everyone knows what they need to do
-          and when. Timelines, coordination with the venue, keeping in
-          mind things like accessibility needs. Coordinating
-          everything that makes the event a success.
-        </p>
+        <h2 tabIndex="0">Moreton's Responsibilities</h2>
+        <li tabIndex="0">Accountancy</li>
+        <li tabIndex="0">Budgeting</li>
+        <li tabIndex="0">Scheduling</li>
       </section>
 
       <section>
@@ -68,8 +65,8 @@ export default function JamesHayward() {
           <a
             target="_blank"
             rel="noreferrer"
-            aria-label="James Hayward: Twitter"
-            href="https://twitter.com/geeksareforlife"
+            aria-label="Moreton Brockley: Twitter"
+            href="https://twitter.com/allmobro"
           >
             Twitter
           </a>
@@ -78,15 +75,15 @@ export default function JamesHayward() {
           <a
             target="_blank"
             rel="noreferrer"
-            aria-label="James Hayward: LinkedIn"
-            href="https://www.linkedin.com/in/jhayward/"
+            aria-label="Moreton Brockley: LinkedIn"
+            href="https://www.linkedin.com/in/moreton-brockley-06253538/"
           >
             LinkedIn
           </a>
         </li>
       </section>
       <section>
-        <CrewBackButton />
+        <BackToAboutButton />
       </section>
 
       <style jsx>

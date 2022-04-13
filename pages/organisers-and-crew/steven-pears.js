@@ -1,9 +1,9 @@
 import React from 'react';
-import Layout from '../../../components/Layout';
-import Header from '../../../components/Header';
-import theme from '../../../theme/theme';
+import Layout from '../../components/Layout';
+import Header from '../../components/Header';
+import theme from '../../theme/theme';
 import Head from 'next/head';
-import CrewBackButton from '../../../components/information/CrewBackButton';
+import BackToAboutButton from '../../components/information/BackToAboutButton';
 import { library } from '@fortawesome/fontawesome-svg-core';
 import {
   faInstagram,
@@ -14,23 +14,23 @@ import {
 
 library.add(faInstagram, faTwitter, faGithub, faLinkedin);
 
-export default function MoretonBrockley() {
+export default function StevenPears() {
   return (
     <Layout>
       <Head>
-        <title>Moreton Brockley</title>
+        <title>Steven Pears</title>
       </Head>
       <Header
-        title={'Moreton Brockley'}
+        title={'Steven Pears'}
         banner="/static/banners/information/thencc.jpg"
       />
       <section>
-        <h1 tabIndex="0">Directior/ Co-Founder / Co-Organiser</h1>
+        <h1 tabIndex="0">Contracts and Finances Manager</h1>
       </section>
       <section>
         <img
-          src="/static/organisers/mort.jpg"
-          alt="Picture of Moreton Brockley"
+          src="/static/organisers/steven.jpg"
+          alt="Picture of Steven Pears"
           className="speakerpic"
         />
         <div>
@@ -42,21 +42,22 @@ export default function MoretonBrockley() {
       </section>
 
       <section>
-        <h2 tabIndex="0">About Moreton</h2>
+        <h2 tabIndex="0">About Steve</h2>
         <p tabIndex="0">
-          A Principle Developer, Moreton is the sensible head of the
-          co-founders. He is the number whizz and the fashion guru.
-          Seriously, check out his Ninja Turtle Doc Martens. You may
-          (not) recognise Moreton from his performance at 2018&apos;s
-          Hack24 as Mr Blobby.
+          Steve (or StoiveyP) is a Technical Architect and active
+          member of the local community. He has volunteered at the
+          2019 and 2021 DDD East Midlands Conferences and provided a
+          lot of coffee to Jessica during the events. Steve is also a
+          Microsoft MVP and experienced public speaker.
         </p>
       </section>
 
       <section>
-        <h2 tabIndex="0">Moreton's Responsibilities</h2>
-        <li tabIndex="0">Accountancy</li>
-        <li tabIndex="0">Budgeting</li>
-        <li tabIndex="0">Scheduling</li>
+        <h2 tabIndex="0">Steven's Responsibilities</h2>
+        <p tabIndex="0">
+          Will be working closely with Moreton to manage the events
+          contracts, budgets, payments and anything else financial.
+        </p>
       </section>
 
       <section>
@@ -65,8 +66,8 @@ export default function MoretonBrockley() {
           <a
             target="_blank"
             rel="noreferrer"
-            aria-label="Moreton Brockley: Twitter"
-            href="https://twitter.com/allmobro"
+            aria-label="Steven Pears: Twitter"
+            href="https://twitter.com/StevenPears"
           >
             Twitter
           </a>
@@ -75,15 +76,15 @@ export default function MoretonBrockley() {
           <a
             target="_blank"
             rel="noreferrer"
-            aria-label="Moreton Brockley: LinkedIn"
-            href="https://www.linkedin.com/in/moreton-brockley-06253538/"
+            aria-label="Steven Pears: LinkedIn"
+            href="https://www.linkedin.com/in/stevenpears/"
           >
             LinkedIn
           </a>
         </li>
       </section>
       <section>
-        <CrewBackButton />
+        <BackToAboutButton />
       </section>
 
       <style jsx>

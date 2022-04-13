@@ -1,9 +1,9 @@
 import React from 'react';
-import Layout from '../../../components/Layout';
-import Header from '../../../components/Header';
-import theme from '../../../theme/theme';
+import Layout from '../../components/Layout';
+import Header from '../../components/Header';
+import theme from '../../theme/theme';
 import Head from 'next/head';
-import CrewBackButton from '../../../components/information/CrewBackButton';
+import BackToAboutButton from '../../components/information/BackToAboutButton';
 import { library } from '@fortawesome/fontawesome-svg-core';
 import {
   faInstagram,
@@ -14,52 +14,79 @@ import {
 
 library.add(faInstagram, faTwitter, faGithub, faLinkedin);
 
-export default function MiaGordon() {
+export default function JamesHayward() {
   return (
     <Layout>
       <Head>
-        <title>Mia Gordon</title>
+        <title>James Hayward</title>
       </Head>
       <Header
-        title={'Mia Gordon'}
-        banner="/static/banners/information/mia_banner.jpg"
+        title={'James Hayward'}
+        banner="/static/banners/information/thencc.jpg"
       />
       <section>
-        <h1 tabIndex="0">Social Responsibility Manager</h1>
+        <h1 tabIndex="0">Contracts and Finances Manager</h1>
       </section>
       <section>
         <img
-          src="/static/organisers/mia.jpg"
-          alt="Picture of Mia Gordon"
+          src="/static/organisers/james.jpg"
+          alt="Picture of James Hayward"
           className="speakerpic"
         />
         <div>
           <ul>
-            <b>Pronouns: </b> She/Her
+            <b>Pronouns: </b> He/Him
           </ul>
         </div>
         <br />
       </section>
+
       <section>
-        <h2 tabIndex="0">About Mia</h2>
+        <h2 tabIndex="0">About James</h2>
         <p tabIndex="0">
-          Mia is a developer, and joined the organisation committee
-          ready for the 2023 event.
+          James is a Learning Technology and Delivery Manager. He's an
+          active member of the local community and arranges other
+          events outside of this one. James has also volunteered at
+          both the 2019 and 2021 event.
         </p>
       </section>
 
       <section>
-        <h2 tabIndex="0">Mia's Responsibilities</h2>
+        <h2 tabIndex="0">James' Responsibilities</h2>
         <p tabIndex="0">
-          Organising outreach. This can include working with
-          universities, boot camps, organisations such as Coding Black
-          Females. Helping us get a diverse range of speakers and
-          publicising great initiatives.
+          Will be working closely with Jessica, ensuring everything
+          happens on schedule and everyone knows what they need to do
+          and when. Timelines, coordination with the venue, keeping in
+          mind things like accessibility needs. Coordinating
+          everything that makes the event a success.
         </p>
       </section>
 
       <section>
-        <CrewBackButton />
+        <h2 tabIndex="0">Links</h2>
+        <li tabIndex="0">
+          <a
+            target="_blank"
+            rel="noreferrer"
+            aria-label="James Hayward: Twitter"
+            href="https://twitter.com/geeksareforlife"
+          >
+            Twitter
+          </a>
+        </li>
+        <li tabIndex="0">
+          <a
+            target="_blank"
+            rel="noreferrer"
+            aria-label="James Hayward: LinkedIn"
+            href="https://www.linkedin.com/in/jhayward/"
+          >
+            LinkedIn
+          </a>
+        </li>
+      </section>
+      <section>
+        <BackToAboutButton />
       </section>
 
       <style jsx>

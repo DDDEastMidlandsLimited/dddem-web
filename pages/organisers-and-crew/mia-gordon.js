@@ -1,9 +1,9 @@
 import React from 'react';
-import Layout from '../../../components/Layout';
-import Header from '../../../components/Header';
-import theme from '../../../theme/theme';
+import Layout from '../../components/Layout';
+import Header from '../../components/Header';
+import theme from '../../theme/theme';
 import Head from 'next/head';
-import CrewBackButton from '../../../components/information/CrewBackButton';
+import BackToAboutButton from '../../components/information/BackToAboutButton';
 import { library } from '@fortawesome/fontawesome-svg-core';
 import {
   faInstagram,
@@ -14,23 +14,23 @@ import {
 
 library.add(faInstagram, faTwitter, faGithub, faLinkedin);
 
-export default function JessicaWhite() {
+export default function MiaGordon() {
   return (
     <Layout>
       <Head>
-        <title>Jessica White</title>
+        <title>Mia Gordon</title>
       </Head>
       <Header
-        title={'Jessica White'}
-        banner="/static/banners/information/thencc.jpg"
+        title={'Mia Gordon'}
+        banner="/static/banners/information/mia_banner.jpg"
       />
       <section>
-        <h1 tabIndex="0">Director/ Co-Founder / Co-Organiser</h1>
+        <h1 tabIndex="0">Social Responsibility Manager</h1>
       </section>
       <section>
         <img
-          src="/static/organisers/jess.jpg"
-          alt="Picture of Jessica White"
+          src="/static/organisers/mia.jpg"
+          alt="Picture of Mia Gordon"
           className="speakerpic"
         />
         <div>
@@ -41,71 +41,25 @@ export default function JessicaWhite() {
         <br />
       </section>
       <section>
-        <h2 tabIndex="0">About Jessica</h2>
+        <h2 tabIndex="0">About Mia</h2>
         <p tabIndex="0">
-          Fully caffeinated, Jessica is more whirling dervish than
-          person. Professionally, she is a Technical Architect.
-          Outside of work she is a Microsoft MVP, Mentor, Organiser,
-          Gamer and avid reader.
-        </p>
-        <p tabIndex="0">
-          Jessica has a lot of event organisation experience. Having
-          founded{' '}
-          <a href="https://www.technottingham.com/wit-notts">
-            Women In Tech Nottingham
-          </a>
-          back in 2015, and running it for nearly 2 years, she has
-          previous experience with running an inclusive event. She
-          also co-organises the .NET Notts meetup in Nottingham.
+          Mia is a developer, and joined the organisation committee
+          ready for the 2023 event.
         </p>
       </section>
 
       <section>
-        <h2 tabIndex="0">Jessica's Responsibilities</h2>
-        <li tabIndex="0">Partner Agreements and outreach</li>
-        <li tabIndex="0">Scheduling</li>
-        <li tabIndex="0">Contracts</li>
-        <li tabIndex="0">Social Media</li>
-        <li tabIndex="0">Staffing</li>
-        <li tabIndex="0">Managing the Open Source Repositories</li>
-        <li tabIndex="0">Speaker Management</li>
+        <h2 tabIndex="0">Mia's Responsibilities</h2>
+        <p tabIndex="0">
+          Organising outreach. This can include working with
+          universities, boot camps, organisations such as Coding Black
+          Females. Helping us get a diverse range of speakers and
+          publicising great initiatives.
+        </p>
       </section>
 
       <section>
-        <h2 tabIndex="0">Links</h2>
-        <li tabIndex="0">
-          <a
-            href="mailto:jessica@dddeastmidlands.com"
-            target="_blank"
-            rel="noreferrer"
-            aria-label="Jessica White: Email"
-          >
-            Email
-          </a>
-        </li>
-        <li tabIndex="0">
-          <a
-            href="https://twitter.com/JessPWhite"
-            target="_blank"
-            rel="noreferrer"
-            aria-label="Jessica White: Twitter"
-          >
-            Twitter
-          </a>
-        </li>
-        <li tabIndex="0">
-          <a
-            href="https://www.linkedin.com/in/jessica-white-67917883/"
-            target="_blank"
-            rel="noreferrer"
-            aria-label="Jessica White: LinkedIn"
-          >
-            LinkedIn
-          </a>
-        </li>
-      </section>
-      <section>
-        <CrewBackButton />
+        <BackToAboutButton />
       </section>
 
       <style jsx>
