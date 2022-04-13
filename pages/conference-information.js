@@ -13,7 +13,7 @@ export default function ConferenceInformation() {
       </Head>
       <Header
         title={'About DDDEM'}
-        banner="/static/banners/home.jpg"
+        banner="/static/banners/about.jpg"
       />
       <section name="Contents">
         <h1 tabIndex="0">Contents</h1>

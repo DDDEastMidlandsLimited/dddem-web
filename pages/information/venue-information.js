@@ -12,7 +12,7 @@ export default function VenueInformation() {
       </Head>
       <Header
         title={'Venue'}
-        banner="/static/banners/information/thencc.jpg"
+        banner="/static/banners/venue.jpg"
       />
 
       <section>

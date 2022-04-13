@@ -22,7 +22,7 @@ export default function JamesHayward() {
       </Head>
       <Header
         title={'James Hayward'}
-        banner="/static/banners/information/thencc.jpg"
+        banner="/static/banners/generic.jpg"
       />
       <section>
         <h1 tabIndex="0">Contracts and Finances Manager</h1>

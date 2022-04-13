@@ -22,7 +22,7 @@ export default function RachelWatson() {
       </Head>
       <Header
         title={'Rachel Watson'}
-        banner="/static/banners/information/rach_banner.jpg"
+        banner="/static/banners/rach_banner.jpg"
       />
       <section>
         <h1 tabIndex="0">Co-Organiser and Chief of Communications</h1>
