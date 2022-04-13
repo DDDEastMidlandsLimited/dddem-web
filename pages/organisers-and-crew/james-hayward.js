@@ -1,9 +1,9 @@
 import React from 'react';
-import Layout from '../../../components/Layout';
-import Header from '../../../components/Header';
-import theme from '../../../theme/theme';
+import Layout from '../../components/Layout';
+import Header from '../../components/Header';
+import theme from '../../theme/theme';
 import Head from 'next/head';
-import CrewBackButton from '../../../components/information/CrewBackButton';
+import BackToAboutButton from '../../components/information/BackToAboutButton';
 import { library } from '@fortawesome/fontawesome-svg-core';
 import {
   faInstagram,
@@ -22,7 +22,7 @@ export default function JamesHayward() {
       </Head>
       <Header
         title={'James Hayward'}
-        banner="/static/banners/information/thencc.jpg"
+        banner="/static/banners/generic.jpg"
       />
       <section>
         <h1 tabIndex="0">Contracts and Finances Manager</h1>
@@ -86,7 +86,7 @@ export default function JamesHayward() {
         </li>
       </section>
       <section>
-        <CrewBackButton />
+        <BackToAboutButton />
       </section>
 
       <style jsx>
