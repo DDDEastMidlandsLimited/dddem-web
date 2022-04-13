@@ -10,10 +10,7 @@ export default function VenueInformation() {
       <Head>
         <title>Venue</title>
       </Head>
-      <Header
-        title={'Venue'}
-        banner="/static/banners/venue.jpg"
-      />
+      <Header title={'Venue'} banner="/static/banners/venue.jpg" />
 
       <section>
         <h1 tabIndex="0">How to find DDD East Midlands</h1>
