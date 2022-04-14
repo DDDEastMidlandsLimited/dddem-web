@@ -40,7 +40,7 @@
     "@next/eslint-plugin-next": "^12.1.4",
     "@testing-library/jest-dom": "^5.16.4",
     "@testing-library/react": "^12.1.4",
-    "@testing-library/user-event": "^14.0.4",
+    "@testing-library/user-event": "^14.1.0",
     "babel-core": "^6.26.3",
     "babel-jest": "^27.5.1",
     "babel-preset-env": "^1.7.0",
