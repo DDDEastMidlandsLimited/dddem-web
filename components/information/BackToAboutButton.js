@@ -1,23 +1,23 @@
 import React from 'react';
 import theme from '../../theme/theme';
 
-export default function CrewBackButton() {
+export default function BackToAboutButton() {
   return (
-    <div className="crewBackButtonContainer">
-      <button className="crewBackButton">
+    <div className="backToAboutButtonContainer">
+      <button className="backToAboutButton">
         <a
-          href="../../organisers-and-crew/conference-crew-information/"
+          href="../../conference-information/#organisers"
           rel="noreferrer"
         >
-          Back To Conference Crew
+          Back To About
         </a>
       </button>
       <style jsx>
         {`
-          .crewBackButtonContainer {
+          .backToAboutButtonContainer {
             text-align-last: center;
           }
-          .crewBackButton {
+          .backToAboutButton {
             align: ${theme.palette.quaternary};
             font-weight: bold;
             font-size: ${theme.font.sizes.mobile.subtitle1};
@@ -30,15 +30,15 @@ export default function CrewBackButton() {
             box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2),
               0 6px 20px 0 rgba(0, 0, 0, 0.19);
           }
-          .crewBackButton a {
+          .backToAboutButton a {
             text-decoration: none;
           }
 
-          .crewBackButton:hover {
+          .backToAboutButton:hover {
             background-color: ${theme.palette.primary};
           }
 
-          .crewBackButton a:hover {
+          .backToAboutButton a:hover {
             color: ${theme.palette.light};
           }
         `}
