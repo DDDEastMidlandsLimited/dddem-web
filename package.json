@@ -55,7 +55,7 @@
     "globby": "^13.1.1",
     "husky": "^7.0.4",
     "jest": "^27.5.1",
-    "jest-transform-css": "^4.0.0",
+    "jest-transform-css": "^4.0.1",
     "next-compose-plugins": "^2.2.1",
     "pa11y": "^6.2.3",
     "pa11y-ci": "^3.0.1",
