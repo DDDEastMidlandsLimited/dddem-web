@@ -51,7 +51,7 @@
     "eslint-plugin-import": "^2.26.0",
     "eslint-plugin-prettier": "^4.0.0",
     "eslint-plugin-react": "^7.29.4",
-    "glob": "^8.0.1",
+    "glob": "^8.0.2",
     "globby": "^13.1.1",
     "husky": "^8.0.1",
     "jest": "^27.5.1",
