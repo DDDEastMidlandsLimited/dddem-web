@@ -36,7 +36,7 @@
     "react-ga": "^3.3.0"
   },
   "devDependencies": {
-    "@babel/plugin-proposal-class-properties": "^7.16.7",
+    "@babel/plugin-proposal-class-properties": "^7.17.12",
     "@next/eslint-plugin-next": "^12.1.6",
     "@testing-library/jest-dom": "^5.16.4",
     "@testing-library/react": "^12.1.5",
