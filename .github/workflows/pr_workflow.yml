@@ -10,7 +10,12 @@ jobs:
     name: Test and Build
     uses: ./.github/workflows/test_job.yml
 
+  publish_unit_tests:
+    name: Publish Unit Tests
+    needs: ['test_build']
+    uses: ./.github/workflows/publish_unit_tests.yml
+
   dependabot:
     name: Dependabot Approve and Auto Merge
-    needs: ['test_build']
+    needs: ['publish_unit_tests']
     uses: ./.github/workflows/dependabot-approve-and-auto-merge_job.yml
