@@ -72,6 +72,10 @@
   "bugs": {
     "url": "https://github.com/DDDEastMidlandsLimited/dddem-web/issues"
   },
+  "jest-junit": {
+    "outputDirectory": "./test-results/junit",
+    "outputName": "results.xml"
+  },
   "husky": {
     "hooks": {
       "pre-commit": "pretty-quick --staged"

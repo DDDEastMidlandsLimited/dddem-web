@@ -5,6 +5,7 @@ out/*
 .public/
 _site/
 coverage
+test-results/*
 
 public/sw.js
 public/sw.js.map
