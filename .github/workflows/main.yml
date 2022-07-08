@@ -1,4 +1,4 @@
-name: DDDEMWeb Deploy
+name: [Workflow] Deploy
 
 on:
   push:
@@ -7,32 +7,13 @@ on:
 
 jobs:
   linux:
-    name: Linux build on node ${{ matrix.node_version }}
+    name: Linux build
     runs-on: ubuntu-latest
 
     steps:
-      - name: Checkout
-        uses: actions/checkout@v3
-
-      - name: Set Node.js
-        uses: actions/setup-node@v3
-        with:
-          node-version-file: '.nvmrc'
-
-      - name: Install packages
-        run: npm install
-
-      - name: Run Tests
-        run: npm run test
-
-      - name: Run build
-        run: npm run build
-
-      - name: Run Export
-        run: npm run export
-
-      - name: Run pa11y
-        run: npm run pa11y
+      - test_build:
+        name: Test and Build
+        uses: ./.github/workflows/test_job.yml
 
       - name: Upgrade Pip
         run: sudo pip install --upgrade pip
