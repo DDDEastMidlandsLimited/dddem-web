@@ -5,18 +5,15 @@ jobs:
   linux:
     name: Linux build on node ${{ matrix.node_version }}
     runs-on: ubuntu-latest
-    strategy:
-      matrix:
-        node_version: [14.x]
 
     steps:
       - name: Checkout
-        uses: actions/checkout@v1
+        uses: actions/checkout@v3
 
-      - name: Set Node.js version ${{ matrix.node_version }}
-        uses: actions/setup-node@v1
+      - name: Set Node.js
+        uses: actions/setup-node@v3
         with:
-          node-version: ${{ matrix.node_version }}
+          node-version-file: '.nvmrc'
 
       - name: Install packages
         run: npm install
