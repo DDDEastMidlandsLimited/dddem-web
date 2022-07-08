@@ -6,16 +6,11 @@ on:
       - main
 
 jobs:
-  linux:
-    name: Linux build
-    runs-on: ubuntu-latest
+  test_build:
+    name: Test and Build
+    uses: ./.github/workflows/test_job.yml
 
-    steps:
-      test_build:
-        - name: Test and Build
-          uses: ./.github/workflows/test_job.yml
-
-      dependabot:
-        name: Dependabot Approve and Auto Merge
-        needs: ['test_build']
-        uses: ./.github/workflows/dependabot-approve-and-auto-merge_job.yml
+  dependabot:
+    name: Dependabot Approve and Auto Merge
+    needs: ['test_build']
+    uses: ./.github/workflows/dependabot-approve-and-auto-merge_job.yml

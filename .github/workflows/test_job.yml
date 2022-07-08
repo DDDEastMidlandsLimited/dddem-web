@@ -43,3 +43,10 @@ jobs:
 
       - name: Run pa11y
         run: npm run pa11y
+
+      - name: Upload Site Build Artifacts
+        uses: actions/upload-artifact@v3
+        with:
+          name: build_artifacts
+          path: |
+            out
