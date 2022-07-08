@@ -18,5 +18,3 @@ jobs:
       - publish_to_s3:
         name: Publish to S3
         uses: ./.github/workflows/publish_to_s3_job.yml
-
-      
