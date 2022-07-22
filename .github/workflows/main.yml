@@ -19,3 +19,7 @@ jobs:
     name: Publish to S3
     needs: ['test_build']
     uses: ./.github/workflows/publish_to_s3_job.yml
+    secrets:
+      aws_access_key_actions: ${{ secrets.AWS_ACCESS_KEY }}
+      aws_secret_access_key_actions: ${{ secrets.AWS_SECRET_KEY }}
+      aws_distribution_id_actions: ${{ secrets.DISTRIBUTION_ID}}
