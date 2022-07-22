@@ -1,7 +1,7 @@
-name: "[Workflow] Deploy"
+name: "[Workflow] PR Build"
 
-on:
-  push:
+on: 
+  pull_request:
     branches:
       - main
 
@@ -15,7 +15,7 @@ jobs:
     needs: ['test_build']
     uses: ./.github/workflows/publish_unit_tests.yml
 
-  publish_to_s3:
-    name: Publish to S3
-    needs: ['test_build']
-    uses: ./.github/workflows/publish_to_s3_job.yml
+  dependabot:
+    name: Dependabot Approve and Auto Merge
+    needs: ['publish_unit_tests']
+    uses: ./.github/workflows/dependabot-approve-and-auto-merge_job.yml
