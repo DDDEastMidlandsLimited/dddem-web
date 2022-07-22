@@ -17,5 +17,5 @@ jobs:
 
   dependabot:
     name: Dependabot Approve and Auto Merge
-    needs: ['publish_unit_tests']
+    needs: ['test_build']
     uses: ./.github/workflows/dependabot-approve-and-auto-merge_job.yml
