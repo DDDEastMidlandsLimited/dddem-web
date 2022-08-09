@@ -4,8 +4,8 @@ import Header from '../../components/Header';
 import theme from '../../theme/theme';
 import Head from 'next/head';
 import SponsorButton from '../../components/sponsorship/SponsorButton';
-import SponsorshipTiersList from '../../components/sponsorship-pack/SponsorshipTiersList';
-import sponsorship from '../../data/sponsorship-pack/sponsorship';
+import SponsorshipTiersList from '../../components/sponsorship/SponsorshipTiersList';
+import sponsorship from '../../data/sponsorship/sponsorship';
 
 export default function Sponsor() {
   return (
