@@ -28,11 +28,10 @@ export default function Sponsor() {
         </h2>
         <p tabIndex="0">Yes there is!</p>
 
-      {/* Sponsorship Status */}
-      <a name="sponsorship-status" />
-      <h2 tabIndex="0">Sponsorship Status</h2>
-      <SponsorshipTiersList sponsorship={sponsorship} />
-      
+        {/* Sponsorship Status */}
+        <a name="sponsorship-status" />
+        <h2 tabIndex="0">Sponsorship Status</h2>
+        <SponsorshipTiersList sponsorship={sponsorship} />
 
         {/* is there a pack? */}
         <a name="sponsorship-pack" />
