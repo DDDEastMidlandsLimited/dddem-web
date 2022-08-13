@@ -41,7 +41,7 @@ export default function Navigation() {
               <NavDropdown.Item
                 id="covid-precautions"
                 tabIndex="0"
-                href="/2021/covid-precautions"
+                href="/2023/covid-precautions"
                 title="Link to Covid Precautions Page"
               >
                 Covid Precautions
@@ -52,7 +52,7 @@ export default function Navigation() {
                 href="/information/ticket-information"
                 title="Link to Ticket Information Page"
               >
-                Ticket Information
+                Tickets
               </NavDropdown.Item>
               <NavDropdown.Item
                 id="venue-informaation"

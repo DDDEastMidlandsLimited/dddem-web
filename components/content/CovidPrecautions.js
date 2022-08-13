@@ -22,13 +22,13 @@ export default function CovidPrecautions() {
         attendance we are taking the following precautions and ask
         that you help us by cooperating with them.
       </p>
-      <div>
+{/*       <div>
         <img
           src="/static/info/Precautions.png"
           alt="An image showing the cautions in white text against a blue background"
           className="picture"
         />
-      </div>
+      </div> */}
       <h2 tabIndex="0">On arrival at the event</h2>
       <p tabIndex="0">When you arrive we will do the following:</p>
       <br />
@@ -38,29 +38,6 @@ export default function CovidPrecautions() {
         equipped with an infrared sensor that can quickly measure
         surface temperature without making any contact with a person's
         skin.
-      </p>
-      <br />
-      <h3 tabIndex="0">
-        Ask you to provide proof of at least one Covid vaccination
-      </h3>
-      <p tabIndex="0">
-        You can do this via the paper card you carry in your wallet or
-        by showing us your digital “NHS Covid Pass”.
-      </p>
-      <p tabIndex="0">
-        To get the NHS Covid Pass you’ll need to register on the NHS
-        App and download it to your phone ahead of time. To register,
-        the process takes around 5-10 mins but it can take up to 24
-        hours for the NHS to process so please do this ahead of time.
-        You can then save the pass into your digital wallet for easy
-        access
-      </p>
-      <p tabIndex="0">
-        <b>
-          If you have medical reasons why you have not been vaccinated
-        </b>{' '}
-        please let the volunteers know. We understand there will need
-        to be exemptions for some cases.
       </p>
       <br />
       <h3 tabIndex="0">
