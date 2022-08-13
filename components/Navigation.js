@@ -72,6 +72,45 @@ export default function Navigation() {
               </NavDropdown.Item>
             </NavDropdown>
 
+            <NavDropdown
+              tabIndex="0"
+              title="Sponsor"
+              id="basic-sponsor-nav-dropdown"
+            >
+              <NavDropdown.Item
+                id="about-the-conference"
+                tabIndex="0"
+                href="/2023/sponsor"
+                title="Link to Conference Information Page"
+              >
+                Find out more
+              </NavDropdown.Item>
+              <NavDropdown.Item
+                id="about-the-conference-crew"
+                tabIndex="0"
+                href="/2023/sponsor/why-sponsor"
+                title="Link to Why Sponsor Page"
+              >
+                Why Sponsor?
+              </NavDropdown.Item>
+{/*               <NavDropdown.Item
+                id="about-the-conference-crew"
+                tabIndex="0"
+                href="/2023/sponsor/demographic"
+                title="Link to Demographic Page"
+              >
+                Demographic
+              </NavDropdown.Item>
+              <NavDropdown.Item
+                id="about-the-conference-crew"
+                tabIndex="0"
+                href="/2023/sponsor/tesimonials"
+                title="Link to Testimonials Page"
+              >
+                Testimonials
+              </NavDropdown.Item> */}
+            </NavDropdown>
+
             <Nav.Item>
               <Nav.Link
                 tabIndex="0"
