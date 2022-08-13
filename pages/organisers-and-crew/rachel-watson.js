@@ -23,7 +23,7 @@ export default function RachelWatson() {
       </Head>
       <Header
         title={'Rachel Watson'}
-        banner="/static/banners/rach_banner.png"
+        banner="/static/banners/rach_banner.jpg"
       />
       <section>
         <h1 tabIndex="0">Co-Organiser and Chief of Communications</h1>
@@ -31,7 +31,7 @@ export default function RachelWatson() {
       <section>
         <div className="speakerpic-container">
           <Image
-            src="/static/organisers/rachel.jpg"
+            src="/static/organisers/rachel.png"
             alt="Picture of Rachel Watson"
             className="speakerpic"
             height={250}
