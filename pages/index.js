@@ -5,7 +5,7 @@ import Layout from '../components/Layout';
 import ImportantDatesList from '../components/home/ImportantDatesList';
 import dates from '../data/dates';
 import SponsorButton from '../components/sponsorship/SponsorButton';
-import Image from 'next/image'
+import Image from 'next/image';
 
 export default function Index() {
   return (

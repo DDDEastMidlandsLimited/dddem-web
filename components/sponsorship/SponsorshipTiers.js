@@ -16,7 +16,9 @@ export default function SponsorshipTiers({ sponsorship }) {
       >
         <div
           tabIndex="0"
-          className={sponsorship.sold == true ? 'strikeBottom' : 'bottom'}
+          className={
+            sponsorship.sold == true ? 'strikeBottom' : 'bottom'
+          }
         >
           {sponsorship.status}
         </div>

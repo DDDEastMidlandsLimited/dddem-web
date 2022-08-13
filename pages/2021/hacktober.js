@@ -3,7 +3,7 @@ import Layout from '../../components/Layout';
 import Header from '../../components/Header';
 import theme from '../../theme/theme';
 import Head from 'next/head';
-import Image from 'next/image'
+import Image from 'next/image';
 
 export default function HacktoberFest() {
   return (
