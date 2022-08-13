@@ -63,6 +63,14 @@ export default function Navigation() {
                 Venue
               </NavDropdown.Item>
               <NavDropdown.Item
+                id="supporting-speakers"
+                tabIndex="0"
+                href="/information/supporting-speakers"
+                title="Link to Supporting Speakers Page"
+              >
+                Supporting Speakers
+              </NavDropdown.Item>
+              <NavDropdown.Item
                 id="accessibility-information"
                 tabIndex="0"
                 href="/information/accessibility-information"
