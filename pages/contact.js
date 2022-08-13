@@ -3,6 +3,7 @@ import Layout from '../components/Layout';
 import Header from '../components/Header';
 import theme from '../theme/theme';
 import Head from 'next/head';
+import Image from 'next/image';
 
 export default function Contact() {
   return (
@@ -117,7 +118,7 @@ export default function Contact() {
         <a name="rachelwatson" />
         <div className="row">
           <div className="columnleft">
-            <img
+            <Image
               src="/static/organisers/rachel.jpg"
               alt=""
               className="picture"
@@ -167,7 +168,7 @@ export default function Contact() {
         <a name="jessicawhite" />
         <div className="row">
           <div className="columnleft">
-            <img
+            <Image
               src="/static/organisers/jess.jpg"
               alt=""
               className="picture"
@@ -216,7 +217,7 @@ export default function Contact() {
         <a name="moretonbrockley" />
         <div className="row">
           <div className="columnleft">
-            <img
+            <Image
               src="/static/organisers/mort.jpg"
               alt=""
               className="picture"
