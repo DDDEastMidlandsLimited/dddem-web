@@ -5,7 +5,7 @@ export default function PastSpeakersButton() {
   return (
     <div className="speakersButtonContainer">
       <button className="speakersButton">
-        <a href="../../pastspeakergrid" rel="noreferrer">
+        <a href="../pastspeakergrid" rel="noreferrer">
           Back To Past Speakers
         </a>
       </button>

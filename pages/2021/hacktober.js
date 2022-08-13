@@ -3,6 +3,7 @@ import Layout from '../../components/Layout';
 import Header from '../../components/Header';
 import theme from '../../theme/theme';
 import Head from 'next/head';
+import Image from 'next/image';
 
 export default function HacktoberFest() {
   return (
@@ -20,7 +21,7 @@ export default function HacktoberFest() {
         <a name="intro" />
         <div className="row">
           <div className="columnleft">
-            <img
+            <Image
               src="/static/hacktoberfest/hacktoberfest.png"
               alt="Hacktoberfest 2020 Logo"
               className="hacktoberlogo"
@@ -247,7 +248,7 @@ export default function HacktoberFest() {
           </ul>
         </p>
         <p className="columnfullwidth">
-          <img
+          <Image
             className="codesnip imagecenter"
             src="/static/hacktoberfest/codesnip.png"
             alt="Picture of the code snip you need to use"
@@ -305,28 +306,28 @@ export default function HacktoberFest() {
         <h1 tabIndex="20">Hacktoberfest Corner Contributors!</h1>
         <section className="speaker-grid">
           <article className="speaker-grid-item">
-            <img
+            <Image
               className="speaker-image"
               src="/static/hacktoberfest/2021/Jess_White.jpg"
               alt="Picture of Jess White"
             />
           </article>
           <article className="speaker-grid-item">
-            <img
+            <Image
               className="speaker-image"
               src="/static/hacktoberfest/2021/Pete_Gallagher.jpg"
               alt="Picture of Pete Gallagher"
             />
           </article>
           <article className="speaker-grid-item">
-            <img
+            <Image
               className="speaker-image"
               src="/static/hacktoberfest/2021/andystannard.jpg"
               alt="Picture of Andy Stannard"
             />
           </article>
           {/*       <article className="speaker-grid-item">
-            <img
+            <Image
               className="speaker-image"
               src="/static/hacktoberfest/2021/FirstName_SecondName.jpg"
               alt="Picture of FirstName LastName"

@@ -1,9 +1,10 @@
 import React from 'react';
+import Image from 'next/image';
 
 export default function SponsorImage({ image }) {
   return (
     <div>
-      <img src={image} />
+      <Image src={image} />
 
       <style jsx>
         {`
