@@ -6,10 +6,7 @@ import Head from 'next/head';
 import SponsorButton from '../../components/sponsorship/SponsorButton';
 import SponsorshipTiersList from '../../components/sponsorship/SponsorshipTiersList';
 import sponsorship from '../../data/sponsorship/sponsorship';
-<<<<<<< HEAD
-=======
 import Image from 'next/image';
->>>>>>> b829117074689feabaa40e8ef448b7e5f0b0df32
 
 export default function Sponsor() {
   return (
@@ -32,18 +29,10 @@ export default function Sponsor() {
         </h2>
         <p tabIndex="0">Yes there is!</p>
 
-<<<<<<< HEAD
-      {/* Sponsorship Status */}
-      <a name="sponsorship-status" />
-      <h2 tabIndex="0">Sponsorship Status</h2>
-      <SponsorshipTiersList sponsorship={sponsorship} />
-      
-=======
         {/* Sponsorship Status */}
         <a name="sponsorship-status" />
         <h2 tabIndex="0">Sponsorship Status</h2>
         <SponsorshipTiersList sponsorship={sponsorship} />
->>>>>>> b829117074689feabaa40e8ef448b7e5f0b0df32
 
         {/* is there a pack? */}
         <a name="sponsorship-pack" />
