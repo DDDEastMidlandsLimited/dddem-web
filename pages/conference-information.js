@@ -4,6 +4,8 @@ import Header from '../components/Header';
 import CovidPrecautions from '../components/content/CovidPrecautions';
 import theme from '../theme/theme';
 import Head from 'next/head';
+import Image from 'next/image';
+import Link from 'next/link';
 
 export default function ConferenceInformation() {
   return (
@@ -155,7 +157,7 @@ export default function ConferenceInformation() {
             href="../organisers-and-crew/jessica-white"
             title="Link to Information About Jessica"
           >
-            <img
+            <Image
               src="/static/organisers/jess.jpg"
               alt="Picture of Jessica White"
               className="picture"
@@ -168,7 +170,7 @@ export default function ConferenceInformation() {
             href="../organisers-and-crew/moreton-brockley"
             title="Link to Information About Moreton"
           >
-            <img
+            <Image
               src="/static/organisers/mort.jpg"
               alt="Picture of Moreton Brockley"
               className="picture"
@@ -181,7 +183,7 @@ export default function ConferenceInformation() {
             href="../organisers-and-crew/rachel-watson"
             title="Link to Information About Rachel"
           >
-            <img
+            <Image
               src="/static/organisers/rachel.jpg"
               alt="Picture of Rachel Watson"
               className="picture"
@@ -194,7 +196,7 @@ export default function ConferenceInformation() {
             href="../organisers-and-crew/mia-gordon"
             title="Link to Information About Mia"
           >
-            <img
+            <Image
               src="/static/organisers/mia.jpg"
               alt="Picture of Mia"
               className="picture"
@@ -207,7 +209,7 @@ export default function ConferenceInformation() {
             href="../organisers-and-crew/steven-pears"
             title="Link to Information About Steve"
           >
-            <img
+            <Image
               src="/static/organisers/steven.jpg"
               alt="Picture of Steven"
               className="picture"
@@ -220,7 +222,7 @@ export default function ConferenceInformation() {
             href="../organisers-and-crew/james-hayward"
             title="Link to Information About James"
           >
-            <img
+            <Image
               src="/static/organisers/james.jpg"
               alt="Picture of James"
               className="picture"
@@ -249,7 +251,7 @@ export default function ConferenceInformation() {
           the event.
         </p>
         <div className="center-image">
-          <img
+          <Image
             className="crew-image"
             src="/static/info/crew.jpg"
             alt="Picture of the volunteers from the 2021 event"
@@ -305,10 +307,10 @@ export default function ConferenceInformation() {
         </p>
         <p tabIndex="0">
           We also ask that all talk submissions abide to the{' '}
-          <a href="/code-of-conduct/">Code of Conduct</a>. We want all
-          attendees to feel comfortable at the event, so ask that no
-          submissions or talks contain content of a graphic, violent
-          or sexual nature or contain any language that may be
+          <Link href="/code-of-conduct/">Code of Conduct</Link>. We
+          want all attendees to feel comfortable at the event, so ask
+          that no submissions or talks contain content of a graphic,
+          violent or sexual nature or contain any language that may be
           considered marginalising or hateful. If you wouldn&apos;t
           want to say it to someone you respect, please don&apos;t
           include it in your submission. Organisers hold the right to
