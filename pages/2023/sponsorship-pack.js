@@ -42,7 +42,7 @@ export default function SponsorshipPack() {
         </div>
       </section>
 
-{/*       <section>
+      {/*       <section>
             <div className="platinum">
               <iframe
                 width="560"
@@ -110,11 +110,12 @@ export default function SponsorshipPack() {
             spare ribs strip steak.
           </li>
           <li>
-            <b>Blah Blah:</b> Bacon ipsum dolor amet turducken chuck andouille pork pork
-            loin. Hamburger kevin frankfurter shankle meatball doner.
-            Spare ribs salami turkey ribeye, biltong capicola t-bone
-            pastrami. Filet mignon alcatra ham jerky cow doner. Ground
-            round fatback pork belly biltong spare ribs strip steak.
+            <b>Blah Blah:</b> Bacon ipsum dolor amet turducken chuck
+            andouille pork pork loin. Hamburger kevin frankfurter
+            shankle meatball doner. Spare ribs salami turkey ribeye,
+            biltong capicola t-bone pastrami. Filet mignon alcatra ham
+            jerky cow doner. Ground round fatback pork belly biltong
+            spare ribs strip steak.
           </li>
         </div>
       </section>

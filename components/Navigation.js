@@ -93,7 +93,7 @@ export default function Navigation() {
               >
                 Why Sponsor?
               </NavDropdown.Item>
-{/*               <NavDropdown.Item
+              {/*               <NavDropdown.Item
                 id="about-the-conference-crew"
                 tabIndex="0"
                 href="/2023/sponsor/demographic"
