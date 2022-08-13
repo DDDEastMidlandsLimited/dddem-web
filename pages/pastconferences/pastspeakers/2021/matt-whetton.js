@@ -3,6 +3,7 @@ import Layout from '../../../../components/Layout';
 import Header from '../../../../components/Header';
 import theme from '../../../../theme/theme';
 import Head from 'next/head';
+import Image from 'next/image';
 import PastSpeakersButton from '../../../../components/speakers/PastSpeakersButton';
 import { library } from '@fortawesome/fontawesome-svg-core';
 import {
@@ -26,7 +27,7 @@ export default function MattWhetton() {
       />
       <section>
         <PastSpeakersButton />
-        <img
+        <Image
           src="/static/speakers/2021/Matt_Whetton.png"
           alt="Picture of Matt Whetton"
           className="speakerpic"
