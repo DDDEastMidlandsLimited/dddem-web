@@ -9,6 +9,7 @@ module.exports = withPWA({
   experimental: {
     images: {
       unoptimized: true,
+      allowFutureImage: true,
     },
   },
 });
