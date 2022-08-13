@@ -106,7 +106,12 @@ export default function SocialResponsibility() {
       <section id="diversity">
         <a name="diversity" />
         <h2 tabIndex="0">Diversity</h2>
-        <p tabIndex="0">....</p>
+        <p tabIndex="0">
+          The organisation committee makes focused efforts to improve
+          diversity and inclusion at the event. This includes
+          representation in the selected speakers as well as ensuring
+          the event space is a safe and inclusive space.
+        </p>
         <li tabIndex="0">
           Representing and encouraging contributions from diversity
           groups.
