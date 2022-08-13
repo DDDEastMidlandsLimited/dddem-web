@@ -78,15 +78,15 @@ export default function Navigation() {
               id="basic-sponsor-nav-dropdown"
             >
               <NavDropdown.Item
-                id="about-the-conference"
+                id="about-sponsorship"
                 tabIndex="0"
                 href="/2023/sponsor"
-                title="Link to Conference Information Page"
+                title="Link to Sponsorship Page"
               >
                 Sponsor the event
               </NavDropdown.Item>
               <NavDropdown.Item
-                id="about-the-conference-crew"
+                id="why-sponso"
                 tabIndex="0"
                 href="/2023/sponsor/why-sponsor"
                 title="Link to Why Sponsor Page"
@@ -101,6 +101,14 @@ export default function Navigation() {
               >
                 Demographic
               </NavDropdown.Item> */}
+              <NavDropdown.Item
+                id="social-responsibility"
+                tabIndex="0"
+                href="/2023/sponsor/social-responsibility"
+                title="Link to Social Responsibility Page"
+              >
+                Social Responsibility
+              </NavDropdown.Item>
               <NavDropdown.Item
                 id="about-the-conference-crew"
                 tabIndex="0"

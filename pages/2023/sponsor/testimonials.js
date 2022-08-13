@@ -77,7 +77,7 @@ export default function Testimonials() {
                 </i>
               </p>
               <b tabIndex="0" className="pink">
-                ERT / CLARIO, 
+                ERT / CLARIO,
               </b>
               <i tabIndex="0" className="grey">
                 GOLD SPONSOR FOR DDD EAST MIDLANDS 2021
@@ -109,14 +109,22 @@ export default function Testimonials() {
             <a name="oakbrook" />
             <p tabIndex="0">
               <i>
-              “Our reason to support DDD East Midlands was to further integrate ourselves into the local tech community. Several of our team submitted talks & were selected to speak on the day, plus we had a great turn out at our booth where we were able to showcase the great stuff we’re doing here at Oakbrook. We have found it easier to attract talent since the day, and one of our team has even gone on to talk at other events!”
+                “Our reason to support DDD East Midlands was to
+                further integrate ourselves into the local tech
+                community. Several of our team submitted talks & were
+                selected to speak on the day, plus we had a great turn
+                out at our booth where we were able to showcase the
+                great stuff we’re doing here at Oakbrook. We have
+                found it easier to attract talent since the day, and
+                one of our team has even gone on to talk at other
+                events!”
               </i>
             </p>
             <b tabIndex="0" className="pink">
-            OAKBROOK FINANCE,
+              OAKBROOK FINANCE,
             </b>
             <i tabIndex="0" className="grey">
-            SILVER SPONSOR FOR DDD EAST MIDLANDS 2021
+              SILVER SPONSOR FOR DDD EAST MIDLANDS 2021
             </i>
           </div>
         </div>
@@ -129,14 +137,11 @@ export default function Testimonials() {
             padding: ${theme.sizes.contentPadding};
             margin: auto;
           }
+
           section div {
             padding-bottom: 10px;
           }
 
-          section div b {
-            color = ${theme.palette.secondary};
-          }
-          
           .row {
             display: flex;
             flex-direction: row;
@@ -157,14 +162,14 @@ export default function Testimonials() {
             border-radius: 50%;
           }
 
-          .pink{
+          .pink {
             color: ${theme.palette.secondary};
           }
-  
-          .grey{
+
+          .grey {
             color: ${theme.palette.quaternary};
           }
-  
+
           .smallpageimage {
             max-width: 100%;
             height: 95%;
