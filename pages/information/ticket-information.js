@@ -12,7 +12,7 @@ export default function TicketInformation() {
       </Head>
       <Header
         title={'Ticket Information'}
-        banner="/static/banners/information/swagbag.jpg"
+        banner="/static/banners/ticket.jpg"
       />
 
       <section name="Contents">

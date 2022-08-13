@@ -1,0 +1,53 @@
+on:
+  workflow_call:
+    secrets:
+      aws_access_key_actions:
+        required: true
+      aws_secret_access_key_actions:
+        required: true
+      aws_distribution_id_actions:
+        required: true
+
+jobs:
+  publish_to_s3:
+    name: Publish to S3
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Download Site Build Artifacts
+        uses: actions/download-artifact@v3
+        with:
+          name: build_artifacts
+          path: out
+
+      - name: Upgrade Pip
+        run: sudo pip install --upgrade pip
+
+      - name: Install AWS CLI
+        run: pip install --user awscli
+
+      - name: Configure AWS
+        env:
+          AWS_ACCESS_KEY_ID: ${{ secrets.aws_access_key_actions }}
+          AWS_SECRET_ACCESS_KEY: ${{ secrets.aws_secret_access_key_actions }}
+        run: |
+          aws configure set aws_access_key_id "$AWS_ACCESS_KEY"
+          aws configure set aws_secret_access_key "$AWS_SECRET_KEY"
+          aws configure set region eu-west-2
+          aws configure set output json
+
+      - name: Deploy To S3
+        env:
+          AWS_ACCESS_KEY_ID: ${{ secrets.aws_access_key_actions }}
+          AWS_SECRET_ACCESS_KEY: ${{ secrets.aws_secret_access_key_actions }}
+        run: |
+          aws s3 sync ./out s3://www.dddeastmidlands.com --delete
+
+      - name: Invalidate Cache
+        env:
+          AWS_ACCESS_KEY_ID: ${{ secrets.aws_access_key_actions }}
+          AWS_SECRET_ACCESS_KEY: ${{ secrets.aws_secret_access_key_actions }}
+          DISTRIBUTION_ID: ${{ secrets.aws_distribution_id_actions}}
+        run: |
+          aws cloudfront create-invalidation --distribution-id "$DISTRIBUTION_ID" --paths "/*"
+

@@ -1,9 +1,9 @@
 import React from 'react';
-import Layout from '../../../components/Layout';
-import Header from '../../../components/Header';
-import theme from '../../../theme/theme';
+import Layout from '../../components/Layout';
+import Header from '../../components/Header';
+import theme from '../../theme/theme';
 import Head from 'next/head';
-import CrewBackButton from '../../../components/information/CrewBackButton';
+import BackToAboutButton from '../../components/information/BackToAboutButton';
 import { library } from '@fortawesome/fontawesome-svg-core';
 import {
   faInstagram,
@@ -14,52 +14,76 @@ import {
 
 library.add(faInstagram, faTwitter, faGithub, faLinkedin);
 
-export default function MiaGordon() {
+export default function MoretonBrockley() {
   return (
     <Layout>
       <Head>
-        <title>Mia Gordon</title>
+        <title>Moreton Brockley</title>
       </Head>
       <Header
-        title={'Mia Gordon'}
-        banner="/static/banners/information/mia_banner.jpg"
+        title={'Moreton Brockley'}
+        banner="/static/banners/mort.jpg"
       />
       <section>
-        <h1 tabIndex="0">Social Responsibility Manager</h1>
+        <h1 tabIndex="0">Directior/ Co-Founder / Co-Organiser</h1>
       </section>
       <section>
         <img
-          src="/static/organisers/mia.jpg"
-          alt="Picture of Mia Gordon"
+          src="/static/organisers/mort.jpg"
+          alt="Picture of Moreton Brockley"
           className="speakerpic"
         />
         <div>
           <ul>
-            <b>Pronouns: </b> She/Her
+            <b>Pronouns: </b> He/Him
           </ul>
         </div>
         <br />
       </section>
+
       <section>
-        <h2 tabIndex="0">About Mia</h2>
+        <h2 tabIndex="0">About Moreton</h2>
         <p tabIndex="0">
-          Mia is a developer, and joined the organisation committee
-          ready for the 2023 event.
+          A Principle Developer, Moreton is the sensible head of the
+          co-founders. He is the number whizz and the fashion guru.
+          Seriously, check out his Ninja Turtle Doc Martens. You may
+          (not) recognise Moreton from his performance at 2018&apos;s
+          Hack24 as Mr Blobby.
         </p>
       </section>
 
       <section>
-        <h2 tabIndex="0">Mia's Responsibilities</h2>
-        <p tabIndex="0">
-          Organising outreach. This can include working with
-          universities, boot camps, organisations such as Coding Black
-          Females. Helping us get a diverse range of speakers and
-          publicising great initiatives.
-        </p>
+        <h2 tabIndex="0">Moreton's Responsibilities</h2>
+        <li tabIndex="0">Accountancy</li>
+        <li tabIndex="0">Budgeting</li>
+        <li tabIndex="0">Scheduling</li>
       </section>
 
       <section>
-        <CrewBackButton />
+        <h2 tabIndex="0">Links</h2>
+        <li tabIndex="0">
+          <a
+            target="_blank"
+            rel="noreferrer"
+            aria-label="Moreton Brockley: Twitter"
+            href="https://twitter.com/allmobro"
+          >
+            Twitter
+          </a>
+        </li>
+        <li tabIndex="0">
+          <a
+            target="_blank"
+            rel="noreferrer"
+            aria-label="Moreton Brockley: LinkedIn"
+            href="https://www.linkedin.com/in/moreton-brockley-06253538/"
+          >
+            LinkedIn
+          </a>
+        </li>
+      </section>
+      <section>
+        <BackToAboutButton />
       </section>
 
       <style jsx>
