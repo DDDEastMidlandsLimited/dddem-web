@@ -23,7 +23,10 @@ module.exports = withPWA({
     });
     return pathMap;
   },
-  webpack: (config, { isServer }) => {
+  webpack: (
+    config,
+    { buildId, dev, isServer, defaultLoaders, nextRuntime, webpack },
+  ) => {
     if (isServer) {
       require('./utils/generateSiteMap.js');
     }
