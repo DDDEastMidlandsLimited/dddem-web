@@ -18,20 +18,36 @@ export default function Sponsor() {
         banner="/static/banners/sponsor.jpg"
       />
 
+      <section id="sponsor-info">
+        <h1 tabIndex="0">Interested sponsor Information</h1>
+        <p tabIndex="0">
+          Here are some pages with more information relating to
+          sponsoring the event
+        </p>
+        <li tabIndex="0">
+          <a href="../sponsor/why-sponsor" target="_blank">
+            Why Sponsor?
+          </a>
+        </li>
+        <li tabIndex="0">
+          <a href="../sponsor/demographic" target="_blank">
+            Demographics
+          </a>
+        </li>
+        <li tabIndex="0">
+          <a href="../sponsor/testimonials" target="_blank">
+            Testimonials
+          </a>
+        </li>
+{/*         <li tabIndex="0">
+          <a href="../sponsorship-tiers" target="_blank">
+            Sponsorship Tiers
+          </a>
+        </li> */}
+      </section>
+
       <section id="indicating-interest">
         <h1 tabIndex="0">Indicating Interest to Sponsor</h1>
-
-        {/* is there a pack? */}
-        <a name="sponsor" />
-        <h2 tabIndex="0">
-          Are there still opportunities to sponsor?
-        </h2>
-        <p tabIndex="0">Yes there is!</p>
-
-        {/* Sponsorship Status */}
-        <a name="sponsorship-status" />
-        <h2 tabIndex="0">Sponsorship Status</h2>
-        <SponsorshipTiersList sponsorship={sponsorship} />
 
         {/* is there a pack? */}
         <a name="sponsorship-pack" />
@@ -52,7 +68,8 @@ export default function Sponsor() {
           benefits and price tags, so there should be something that
           is right for you.
         </p>
-
+      </section>
+      <section id="get-in-touch">
         {/* Rachel pic and links */}
         <div className="row">
           <div className="columnleft">
@@ -99,6 +116,12 @@ export default function Sponsor() {
         </div>
         <SponsorButton />
         <br />
+      </section>
+      <section>
+        {/* Sponsorship Status */}
+        <a name="sponsorship-status" />
+        <h2 tabIndex="0">Sponsorship Status</h2>
+        <SponsorshipTiersList sponsorship={sponsorship} />
       </section>
 
       <style jsx>
