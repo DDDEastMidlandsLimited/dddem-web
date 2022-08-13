@@ -7,12 +7,6 @@ module.exports = withPWA({
     dest: 'public',
     runtimeCaching,
   },
-  experimental: {
-    images: {
-      unoptimized: true,
-      allowFutureImage: true,
-    },
-  },
   trailingSlash: true,
   exportPathMap: async function (
     defaultPathMap,
@@ -35,5 +29,11 @@ module.exports = withPWA({
     }
 
     return config;
-  }
+  },
+  experimental: {
+    images: {
+      unoptimized: true,
+      allowFutureImage: true,
+    },
+  },
 });
