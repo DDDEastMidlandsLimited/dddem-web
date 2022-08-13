@@ -4,14 +4,14 @@ import Header from '../../../components/Header';
 import theme from '../../../theme/theme';
 import Head from 'next/head';
 
-export default function Sponsor() {
+export default function WhySponsor() {
   return (
     <Layout>
       <Head>
-        <title>Why would my company sponsor</title>
+        <title>Why Sponsor</title>
       </Head>
       <Header
-        title={'Sponsor'}
+        title={'Why Sponsor'}
         banner="/static/banners/sponsor.jpg"
       />
 

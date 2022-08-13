@@ -83,7 +83,7 @@ export default function Navigation() {
                 href="/2023/sponsor"
                 title="Link to Conference Information Page"
               >
-                Find out more
+                Sponsor the event
               </NavDropdown.Item>
               <NavDropdown.Item
                 id="about-the-conference-crew"
@@ -100,15 +100,15 @@ export default function Navigation() {
                 title="Link to Demographic Page"
               >
                 Demographic
-              </NavDropdown.Item>
+              </NavDropdown.Item> */}
               <NavDropdown.Item
                 id="about-the-conference-crew"
                 tabIndex="0"
-                href="/2023/sponsor/tesimonials"
+                href="/2023/sponsor/testimonials"
                 title="Link to Testimonials Page"
               >
                 Testimonials
-              </NavDropdown.Item> */}
+              </NavDropdown.Item>
             </NavDropdown>
 
             <Nav.Item>

@@ -39,7 +39,7 @@ export default function Sponsor() {
             Testimonials
           </a>
         </li>
-{/*         <li tabIndex="0">
+        {/*         <li tabIndex="0">
           <a href="../sponsorship-tiers" target="_blank">
             Sponsorship Tiers
           </a>
@@ -75,7 +75,7 @@ export default function Sponsor() {
           <div className="columnleft">
             <img
               src="/static/organisers/rachel.jpg"
-              alt=""
+              alt="Picture of Rachel smiling"
               className="picture"
             />
           </div>
