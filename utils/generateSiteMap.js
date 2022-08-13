@@ -28,7 +28,7 @@ async function generateSiteMap() {
     </urlset>
 `;
 
-  fs.writeFileSync('out/sitemap.xml', sitemap);
+  fs.writeFile('out/sitemap.xml', sitemap);
 }
 
 generateSiteMap();
