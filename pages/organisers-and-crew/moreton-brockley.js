@@ -3,6 +3,7 @@ import Layout from '../../components/Layout';
 import Header from '../../components/Header';
 import theme from '../../theme/theme';
 import Head from 'next/head';
+import Image from 'next/image';
 import BackToAboutButton from '../../components/information/BackToAboutButton';
 import { library } from '@fortawesome/fontawesome-svg-core';
 import {
@@ -28,11 +29,16 @@ export default function MoretonBrockley() {
         <h1 tabIndex="0">Directior/ Co-Founder / Co-Organiser</h1>
       </section>
       <section>
-        <img
-          src="/static/organisers/mort.jpg"
-          alt="Picture of Moreton Brockley"
-          className="speakerpic"
-        />
+        <div className="speakerpic-container">
+          <Image
+            src="/static/organisers/mort.png"
+            alt="Picture of Moreton Brockley"
+            className="speakerpic"
+            height={250}
+            width={250}
+            layout="responsive"
+          />
+        </div>
         <div>
           <ul>
             <b>Pronouns: </b> He/Him
@@ -104,6 +110,11 @@ export default function MoretonBrockley() {
           }
 
           .speakerpic {
+            display: block;
+          }
+
+          .speakerpic-container {
+            margin-top: 8%;
             margin-bottom: 5%;
             width: 250px;
             border-radius: 50%;
@@ -118,6 +129,7 @@ export default function MoretonBrockley() {
             padding-top: 56.25%;
             margin: 10px 10px;
           }
+
           .iframe-container iframe {
             position: absolute;
             top: 0;
@@ -126,6 +138,7 @@ export default function MoretonBrockley() {
             height: 100%;
             border: 0;
           }
+
           ul {
             display: flex;
             margin: 0;
@@ -134,6 +147,7 @@ export default function MoretonBrockley() {
             flex-wrap: nowrap;
             justify-content: center;
           }
+
           li {
             margin: 0;
             padding: 10px;

@@ -6,6 +6,7 @@ import Head from 'next/head';
 import SponsorButton from '../../components/sponsorship/SponsorButton';
 import SponsorshipTiersList from '../../components/sponsorship/SponsorshipTiersList';
 import sponsorship from '../../data/sponsorship/sponsorship';
+import Image from 'next/image';
 
 export default function Sponsor() {
   return (
@@ -53,8 +54,6 @@ export default function Sponsor() {
 
       <section id="indicating-interest">
         <h1 tabIndex="0">Indicating Interest to Sponsor</h1>
-
-        {/* is there a pack? */}
         <a name="sponsorship-pack" />
         <h2 tabIndex="0">Is there a sponsorship pack?</h2>
         <p tabIndex="0">
@@ -78,7 +77,7 @@ export default function Sponsor() {
         {/* Rachel pic and links */}
         <div className="row">
           <div className="columnleft">
-            <img
+            <Image
               src="/static/organisers/rachel.jpg"
               alt="Picture of Rachel smiling"
               className="picture"

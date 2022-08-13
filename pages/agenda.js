@@ -3,6 +3,7 @@ import Layout from '../components/Layout';
 import Header from '../components/Header';
 import theme from '../theme/theme';
 import Head from 'next/head';
+import Image from 'next/image';
 
 export default function Agenda() {
   return (
@@ -28,7 +29,7 @@ export default function Agenda() {
             then go to the three dots on your browser and use the "add
             to homescreen" option.
           </p>
-          <img
+          <Image
             src="/static/appqrcode.png"
             alt="QR code"
             className="qrcode"

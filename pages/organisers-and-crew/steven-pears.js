@@ -3,6 +3,7 @@ import Layout from '../../components/Layout';
 import Header from '../../components/Header';
 import theme from '../../theme/theme';
 import Head from 'next/head';
+import Image from 'next/image';
 import BackToAboutButton from '../../components/information/BackToAboutButton';
 import { library } from '@fortawesome/fontawesome-svg-core';
 import {
@@ -22,17 +23,22 @@ export default function StevenPears() {
       </Head>
       <Header
         title={'Steven Pears'}
-        banner="/static/banners/generic.jpg"
+        banner="/static/banners/generic.png"
       />
       <section>
         <h1 tabIndex="0">Contracts and Finances Manager</h1>
       </section>
       <section>
-        <img
-          src="/static/organisers/steven.jpg"
-          alt="Picture of Steven Pears"
-          className="speakerpic"
-        />
+        <div className="speakerpic-container">
+          <Image
+            src="/static/organisers/steven.jpg"
+            alt="Picture of Steven Pears"
+            className="speakerpic"
+            height={250}
+            width={250}
+            layout="responsive"
+          />
+        </div>
         <div>
           <ul>
             <b>Pronouns: </b> He/Him
@@ -105,6 +111,11 @@ export default function StevenPears() {
           }
 
           .speakerpic {
+            display: block;
+          }
+
+          .speakerpic-container {
+            margin-top: 8%;
             margin-bottom: 5%;
             width: 250px;
             border-radius: 50%;
