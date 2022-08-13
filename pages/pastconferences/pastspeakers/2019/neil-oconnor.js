@@ -32,6 +32,9 @@ export default function NeilOConnor() {
             src="/static/speakers/2019/Neil_OConnor.png"
             alt="Picture of Neil O'Connor"
             className="speakerpic"
+            height={250}
+            width={250}
+            layout="responsive"
           />
         </div>
         <div>

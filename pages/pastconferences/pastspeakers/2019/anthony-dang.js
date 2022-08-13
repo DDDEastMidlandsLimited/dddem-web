@@ -32,8 +32,8 @@ export default function AnthonyDang() {
             src="/static/speakers/2019/Anthony_Dang.png"
             alt="Picture of Anthony Dang"
             className="speakerpic"
-            height="100"
-            width="100"
+            height={250}
+            width={250}
             layout="responsive"
           />
         </div>

@@ -32,6 +32,9 @@ export default function JessicaSalisbury() {
             src="/static/speakers/2019/Jessica_Salisbury.png"
             alt="Picture of Jessica Salisbury"
             className="speakerpic"
+            height={250}
+            width={250}
+            layout="responsive"
           />
         </div>
         <div>

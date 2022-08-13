@@ -32,6 +32,9 @@ export default function MarkTowndrow() {
             src="/static/speakers/2019/Mark_Towndrow.png"
             alt="Picture of Mark Towndrow"
             className="speakerpic"
+            height={250}
+            width={250}
+            layout="responsive"
           />
         </div>
         <div>

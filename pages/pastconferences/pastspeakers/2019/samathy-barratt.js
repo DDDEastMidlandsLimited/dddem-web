@@ -32,6 +32,9 @@ export default function SamathyBarratt() {
             src="/static/speakers/2019/Samathy_Barratt.png"
             alt="Picture of Samathy Barratt"
             className="speakerpic"
+            height={250}
+            width={250}
+            layout="responsive"
           />
         </div>
         <div>

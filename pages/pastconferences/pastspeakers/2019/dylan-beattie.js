@@ -32,6 +32,9 @@ export default function DylanBeattie() {
             src="/static/speakers/2019/Dylan_Beattie.png"
             alt="Picture of Dylan Beattie"
             className="speakerpic"
+            height={250}
+            width={250}
+            layout="responsive"
           />
         </div>
         <div>

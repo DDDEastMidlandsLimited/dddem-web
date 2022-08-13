@@ -32,6 +32,9 @@ export default function ZacBraddy() {
             src="/static/speakers/2019/Zac_Braddy.png"
             alt="Picture of Zac Braddy"
             className="speakerpic"
+            height={250}
+            width={250}
+            layout="responsive"
           />
         </div>
         <div>

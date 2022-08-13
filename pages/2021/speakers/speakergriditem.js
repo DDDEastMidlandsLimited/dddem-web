@@ -15,7 +15,10 @@ export default function SpeakerGridItemComponent(props) {
           <Image
             className="speaker-image"
             src={props.pic}
-            alt="Picture of Connell"
+            alt="Picture of"
+            height={250}
+            width={250}
+            layout="responsive"
           />
           <div
             className={`hover-pop ${

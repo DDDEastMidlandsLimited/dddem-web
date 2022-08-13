@@ -142,7 +142,7 @@ export default function Speaker2021Component() {
       <section className="speaker-grid">
         <SpeakerGridItemComponent
           speakername="Dylan Beattie"
-          pic="/static/speakers/2019/Dylan_Beattie.jpg"
+          pic="/static/speakers/2019/Dylan_Beattie.png"
           link="../pastspeakers/2019/dylan-beattie"
           talkbrief="The Art of Code"
         />
@@ -216,7 +216,7 @@ export default function Speaker2021Component() {
         />
         <SpeakerGridItemComponent
           speakername="Joel Hammond Turner"
-          pic="/static/speakers/2019/Joel_Hammond-Turner.jpg"
+          pic="/static/speakers/2019/Joel_Hammond-Turner.png"
           link="../pastspeakers/2019/joel-hammond-turner"
           talkbrief="You're the Tech Lead - *you* fix it!"
         />

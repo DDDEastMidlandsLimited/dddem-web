@@ -32,6 +32,9 @@ export default function IanCooper() {
             src="/static/speakers/2019/Ian_Cooper.png"
             alt="Picture of Ian Cooper"
             className="speakerpic"
+            height={250}
+            width={250}
+            layout="responsive"
           />
         </div>
         <div>

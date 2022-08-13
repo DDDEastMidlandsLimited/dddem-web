@@ -32,6 +32,9 @@ export default function DylanBeattie() {
             src="/static/speakers/2019/Matt_Brunt.png"
             alt="Picture of Matt Brunt"
             className="speakerpic"
+            height={250}
+            width={250}
+            layout="responsive"
           />
         </div>
         <div>

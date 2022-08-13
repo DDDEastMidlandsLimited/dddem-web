@@ -32,6 +32,9 @@ export default function SimonPainter() {
             src="/static/speakers/2019/Simon_Painter.png"
             alt="Picture of Simon Painter"
             className="speakerpic"
+            height={250}
+            width={250}
+            layout="responsive"
           />
         </div>
         <div>

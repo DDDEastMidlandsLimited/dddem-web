@@ -32,6 +32,9 @@ export default function HelenJoy() {
             src="/static/speakers/2019/Helen_Joy.png"
             alt="Picture of Helen Joy"
             className="speakerpic"
+            height={250}
+            width={250}
+            layout="responsive"
           />
         </div>
         <div>

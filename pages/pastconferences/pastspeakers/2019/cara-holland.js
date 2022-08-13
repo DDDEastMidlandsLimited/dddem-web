@@ -32,6 +32,9 @@ export default function CaraHolland() {
             src="/static/speakers/2019/Cara_Holland.png"
             alt="Picture of Cara Holland"
             className="speakerpic"
+            height={250}
+            width={250}
+            layout="responsive"
           />
         </div>
         <div>

@@ -32,6 +32,9 @@ export default function GaliyaWarrier() {
             src="/static/speakers/2019/Galiya_Warrier.png"
             alt="Picture of Galiya Warrier"
             className="speakerpic"
+            height={250}
+            width={250}
+            layout="responsive"
           />
         </div>
         <div>

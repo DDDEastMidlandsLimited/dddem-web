@@ -32,6 +32,9 @@ export default function IanJohnson() {
             src="/static/speakers/2019/Ian_Johnson.png"
             alt="Picture of Ian Johnson"
             className="speakerpic"
+            height={250}
+            width={250}
+            layout="responsive"
           />
         </div>
         <div>

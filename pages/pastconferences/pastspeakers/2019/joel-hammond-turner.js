@@ -32,6 +32,9 @@ export default function JoelHammondTurner() {
             src="/static/speakers/2019/Joel_Hammond-Turner.jpg"
             alt="Picture of Joel Hammond-Turner"
             className="speakerpic"
+            height={250}
+            width={250}
+            layout="responsive"
           />
         </div>
         <div>

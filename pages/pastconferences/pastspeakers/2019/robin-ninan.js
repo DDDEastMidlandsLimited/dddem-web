@@ -32,6 +32,9 @@ export default function RobinNinan() {
             src="/static/speakers/2019/Robin_Ninan.png"
             alt="Picture of Robin Ninan"
             className="speakerpic"
+            height={250}
+            width={250}
+            layout="responsive"
           />
         </div>
         <div>
