@@ -3,6 +3,7 @@ import Layout from '../../../../components/Layout';
 import Header from '../../../../components/Header';
 import theme from '../../../../theme/theme';
 import Head from 'next/head';
+import Image from 'next/image';
 import PastSpeakersButton from '../../../../components/speakers/PastSpeakersButton';
 import { library } from '@fortawesome/fontawesome-svg-core';
 import {
@@ -26,11 +27,16 @@ export default function AnthonyDang() {
       />
       <section>
         <PastSpeakersButton />
-        <img
-          src="/static/speakers/2019/Anthony_Dang.png"
-          alt="Picture of Anthony Dang"
-          className="speakerpic"
-        />
+        <div className="speakerpic-container">
+          <Image
+            src="/static/speakers/2019/Anthony_Dang.png"
+            alt="Picture of Anthony Dang"
+            className="speakerpic"
+            height={250}
+            width={250}
+            layout="responsive"
+          />
+        </div>
         <div>
           <ul>
             <b>Pronouns: </b> He/Him
@@ -131,9 +137,9 @@ export default function AnthonyDang() {
         </li>
       </section>
 
-      <style jsx>
+      <style jsx global>
         {`
-          section {
+          section-container {
             max-width: ${theme.sizes.maxContentWidth};
             padding: ${theme.sizes.contentPadding};
             margin: auto;
@@ -146,6 +152,10 @@ export default function AnthonyDang() {
           }
 
           .speakerpic {
+            display: block;
+          }
+
+          .speakerpic-container {
             margin-top: 8%;
             margin-bottom: 5%;
             width: 250px;

@@ -5,6 +5,7 @@ import Layout from '../components/Layout';
 import ImportantDatesList from '../components/home/ImportantDatesList';
 import dates from '../data/dates';
 import SponsorButton from '../components/sponsorship/SponsorButton';
+import Image from 'next/image';
 
 export default function Index() {
   return (
@@ -27,45 +28,15 @@ export default function Index() {
         </div>
       </section>
 
-      {/*       <section>
-        <div className="row">
-          <div className="column">
-            <div className="platinum">
-              <h2 tabIndex="0">Platinum Sponsor</h2>
-              <ExternalLink
-                href={platinum[0].link}
-                target="_blank"
-                category="logo"
-                eventType="Calyx"
-                rel="noopener noreferrer"
-              >
-                <img
-                  src={platinum[0].image}
-                  alt={`Click to go to the ${platinum[0].name} site`}
-                />
-              </ExternalLink>
-            </div>
-          </div>
-          <div className="column info-text">
-            <p tabIndex="0">
-              DDD East Midlands is an inclusive, not-for-profit
-              technology conference happening on{' '}
-              <b>7th October 2023</b> that celebrates the unique tech,
-              talent and companies that the East Midlands has to
-              offer. This event is run by community members to promote
-              collaboration and the amazing tech community that has
-              already grown in the East Midlands.
-            </p>
-          </div>
-        </div>
-      </section> */}
-
       <section>
         <div>
-          <img
+          <Image
             className="pageimage"
             src="/static/pageimage/happy.jpg"
             alt={`Image of the attendees of DDD East Midlands Conference 2019 seated in red auditorium seating.`}
+            height="100"
+            width="200"
+            layout="responsive"
           />
         </div>
       </section>
@@ -181,14 +152,13 @@ export default function Index() {
           }
 
           .pageimage {
+            object-fit: contain;
             text-align: center;
             max-width: 100%;
-            height: auto;
             padding: 5px 5px;
             display: block;
             margin-left: auto;
             margin-right: auto;
-            width: 95%;
           }
 
           .info-text {

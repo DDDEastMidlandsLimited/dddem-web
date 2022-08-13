@@ -3,6 +3,7 @@ import Layout from '../../../../components/Layout';
 import Header from '../../../../components/Header';
 import theme from '../../../../theme/theme';
 import Head from 'next/head';
+import Image from 'next/image';
 import PastSpeakersButton from '../../../../components/speakers/PastSpeakersButton';
 import { library } from '@fortawesome/fontawesome-svg-core';
 import {
@@ -26,11 +27,16 @@ export default function LexLofthouse() {
       />
       <section>
         <PastSpeakersButton />
-        <img
-          src="/static/speakers/2021/Lex_Lofthouse.png"
-          alt="Picture of Lex Lofthouse"
-          className="speakerpic"
-        />
+        <div className="speakerpic-container">
+          <Image
+            src="/static/speakers/2021/Lex_Lofthouse.png"
+            alt="Picture of Lex Lofthouse"
+            className="speakerpic"
+            height="250"
+            width="250"
+            layout="responsive"
+          />
+        </div>
         <div>
           <ul>
             <b>Pronouns: </b> She/Her
@@ -174,6 +180,10 @@ export default function LexLofthouse() {
           }
 
           .speakerpic {
+            display: block;
+          }
+
+          .speakerpic-container {
             margin-top: 8%;
             margin-bottom: 5%;
             width: 250px;

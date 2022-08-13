@@ -3,6 +3,7 @@ import Layout from '../../components/Layout';
 import Header from '../../components/Header';
 import theme from '../../theme/theme';
 import Head from 'next/head';
+import Image from 'next/image';
 import CovidPrecautions from '../../components/content/CovidPrecautions';
 import {
   Transport,
@@ -237,10 +238,13 @@ export default function SponsorInformation() {
         </li>
         <div className="imagecenter">
           <br />
-          <img
+          <Image
             src="/static/info/sponsors/promo.png"
             alt="Screenshot of EventBrite screen"
             className="screenshot"
+            height={100}
+            width={200}
+            layout="responsive"
           />
         </div>
         <li tabIndex="0">
