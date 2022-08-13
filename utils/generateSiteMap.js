@@ -1,4 +1,5 @@
 const fs = require('fs');
+const mkdirp = require('mkdirp');
 
 async function generateSiteMap() {
   const { globby } = await import('globby');
@@ -28,7 +29,10 @@ async function generateSiteMap() {
     </urlset>
 `;
 
-  fs.writeFile('out/sitemap.xml', sitemap);
+  const writeFile = async ('out/sitemap.xml', sitemap) => {
+    await mkdirp('out/sitemap.xml');
+    fs.writeFileSync('out/sitemap.xml', sitemap);
+  }
 }
 
 generateSiteMap();
