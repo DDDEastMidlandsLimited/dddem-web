@@ -27,11 +27,13 @@ export default function NeilOConnor() {
       />
       <section>
         <PastSpeakersButton />
-        <Image
-          src="/static/speakers/2019/Neil_OConnor.png"
-          alt="Picture of Neil O'Connor"
-          className="speakerpic"
-        />
+        <div className="speakerpic-container">
+          <Image
+            src="/static/speakers/2019/Neil_OConnor.png"
+            alt="Picture of Neil O'Connor"
+            className="speakerpic"
+          />
+        </div>
         <div>
           <ul>
             <b>Pronouns: </b> He/Him
@@ -164,6 +166,10 @@ export default function NeilOConnor() {
           }
 
           .speakerpic {
+            display: block;
+          }
+
+          .speakerpic-container {
             margin-top: 8%;
             margin-bottom: 5%;
             width: 250px;

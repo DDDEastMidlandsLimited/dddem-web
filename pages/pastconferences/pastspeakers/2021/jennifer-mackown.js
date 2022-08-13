@@ -27,11 +27,16 @@ export default function JenniferMackown() {
       />
       <section>
         <PastSpeakersButton />
-        <Image
-          src="/static/speakers/2021/Jen_Mackown.png"
-          alt="Picture of Jennifer Mackown"
-          className="speakerpic"
-        />
+        <div className="speakerpic-container">
+          <Image
+            src="/static/speakers/2021/Jen_Mackown.png"
+            alt="Picture of Jennifer Mackown"
+            className="speakerpic"
+            height={250}
+            width={250}
+            layout="responsive"
+          />
+        </div>
         <div>
           <ul>
             <b>Pronouns: </b> She/Her
@@ -176,6 +181,10 @@ export default function JenniferMackown() {
           }
 
           .speakerpic {
+            display: block;
+          }
+
+          .speakerpic-container {
             margin-top: 8%;
             margin-bottom: 5%;
             width: 250px;

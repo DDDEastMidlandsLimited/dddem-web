@@ -27,11 +27,16 @@ export default function KojoHinson() {
       />
       <section>
         <PastSpeakersButton />
-        <Image
-          src="/static/speakers/2021/Kojo_Hinson.png"
-          alt="Picture of Kojo Hinson"
-          className="speakerpic"
-        />
+        <div className="speakerpic-container">
+          <Image
+            src="/static/speakers/2021/Kojo_Hinson.png"
+            alt="Picture of Kojo Hinson"
+            className="speakerpic"
+            height={250}
+            width={250}
+            layout="responsive"
+          />
+        </div>
         <div>
           <ul>
             <b>Pronouns: </b> He/Him
@@ -158,6 +163,10 @@ export default function KojoHinson() {
           }
 
           .speakerpic {
+            display: block;
+          }
+
+          .speakerpic-container {
             margin-top: 8%;
             margin-bottom: 5%;
             width: 250px;

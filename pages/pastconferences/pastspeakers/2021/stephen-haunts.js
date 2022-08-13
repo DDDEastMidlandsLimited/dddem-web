@@ -27,11 +27,16 @@ export default function StephenHaunts() {
       />
       <section>
         <PastSpeakersButton />
-        <Image
-          src="/static/speakers/2021/Stephen_Haunts.jpg"
-          alt="Picture of Stephen Haunts"
-          className="speakerpic"
-        />
+        <div className="speakerpic-container">
+          <Image
+            src="/static/speakers/2021/Stephen_Haunts.png"
+            alt="Picture of Stephen Haunts"
+            className="speakerpic"
+            height={250}
+            width={250}
+            layout="responsive"
+          />
+        </div>
         <div>
           <ul>
             <b>Pronouns: </b> He/Him
@@ -148,6 +153,10 @@ export default function StephenHaunts() {
           }
 
           .speakerpic {
+            display: block;
+          }
+
+          .speakerpic-container {
             margin-top: 8%;
             margin-bottom: 5%;
             width: 250px;

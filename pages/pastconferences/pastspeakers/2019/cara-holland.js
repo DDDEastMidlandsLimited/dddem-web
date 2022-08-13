@@ -27,11 +27,13 @@ export default function CaraHolland() {
       />
       <section>
         <PastSpeakersButton />
-        <Image
-          src="/static/speakers/2019/Cara_Holland.png"
-          alt="Picture of Cara Holland"
-          className="speakerpic"
-        />
+        <div className="speakerpic-container">
+          <Image
+            src="/static/speakers/2019/Cara_Holland.png"
+            alt="Picture of Cara Holland"
+            className="speakerpic"
+          />
+        </div>
         <div>
           <ul>
             <b>Pronouns: </b> She/Her
@@ -148,6 +150,10 @@ export default function CaraHolland() {
           }
 
           .speakerpic {
+            display: block;
+          }
+
+          .speakerpic-container {
             margin-top: 8%;
             margin-bottom: 5%;
             width: 250px;

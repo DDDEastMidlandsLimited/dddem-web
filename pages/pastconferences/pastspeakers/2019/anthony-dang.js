@@ -27,11 +27,16 @@ export default function AnthonyDang() {
       />
       <section>
         <PastSpeakersButton />
-        <Image
-          src="/static/speakers/2019/Anthony_Dang.png"
-          alt="Picture of Anthony Dang"
-          className="speakerpic"
-        />
+        <div className="speakerpic-container">
+          <Image
+            src="/static/speakers/2019/Anthony_Dang.png"
+            alt="Picture of Anthony Dang"
+            className="speakerpic"
+            height="100"
+            width="100"
+            layout="responsive"
+          />
+        </div>
         <div>
           <ul>
             <b>Pronouns: </b> He/Him
@@ -132,9 +137,9 @@ export default function AnthonyDang() {
         </li>
       </section>
 
-      <style jsx>
+      <style jsx global>
         {`
-          section {
+          section-container {
             max-width: ${theme.sizes.maxContentWidth};
             padding: ${theme.sizes.contentPadding};
             margin: auto;
@@ -147,6 +152,10 @@ export default function AnthonyDang() {
           }
 
           .speakerpic {
+            display: block;
+          }
+
+          .speakerpic-container {
             margin-top: 8%;
             margin-bottom: 5%;
             width: 250px;

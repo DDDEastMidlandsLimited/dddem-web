@@ -27,11 +27,16 @@ export default function LexLofthouse() {
       />
       <section>
         <PastSpeakersButton />
-        <Image
-          src="/static/speakers/2021/Lex_Lofthouse.png"
-          alt="Picture of Lex Lofthouse"
-          className="speakerpic"
-        />
+        <div className="speakerpic-container">
+          <Image
+            src="/static/speakers/2021/Lex_Lofthouse.png"
+            alt="Picture of Lex Lofthouse"
+            className="speakerpic"
+            height="250"
+            width="250"
+            layout="responsive"
+          />
+        </div>
         <div>
           <ul>
             <b>Pronouns: </b> She/Her
@@ -175,6 +180,10 @@ export default function LexLofthouse() {
           }
 
           .speakerpic {
+            display: block;
+          }
+
+          .speakerpic-container {
             margin-top: 8%;
             margin-bottom: 5%;
             width: 250px;

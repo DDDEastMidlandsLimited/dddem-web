@@ -27,11 +27,13 @@ export default function RobinNinan() {
       />
       <section>
         <PastSpeakersButton />
-        <Image
-          src="/static/speakers/2019/Robin_Ninan.png"
-          alt="Picture of Robin Ninan"
-          className="speakerpic"
-        />
+        <div className="speakerpic-container">
+          <Image
+            src="/static/speakers/2019/Robin_Ninan.png"
+            alt="Picture of Robin Ninan"
+            className="speakerpic"
+          />
+        </div>
         <div>
           <ul>
             <b>Pronouns: </b> He/Him
@@ -108,6 +110,10 @@ export default function RobinNinan() {
           }
 
           .speakerpic {
+            display: block;
+          }
+
+          .speakerpic-container {
             margin-top: 8%;
             margin-bottom: 5%;
             width: 250px;

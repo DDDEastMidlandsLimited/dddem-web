@@ -27,11 +27,16 @@ export default function SteveCollins() {
       />
       <section>
         <PastSpeakersButton />
-        <Image
-          src="/static/speakers/2021/Steve_Collins.jpg"
-          alt="Picture of Steve Collins"
-          className="speakerpic"
-        />
+        <div className="speakerpic-container">
+          <Image
+            src="/static/speakers/2021/Steve_Collins.png"
+            alt="Picture of Steve Collins"
+            className="speakerpic"
+            height={250}
+            width={250}
+            layout="responsive"
+          />
+        </div>
         <div>
           <ul>
             <b>Pronouns: </b> He/Him
@@ -197,6 +202,10 @@ export default function SteveCollins() {
           }
 
           .speakerpic {
+            display: block;
+          }
+
+          .speakerpic-container {
             margin-top: 8%;
             margin-bottom: 5%;
             width: 250px;

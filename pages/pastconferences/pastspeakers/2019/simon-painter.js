@@ -27,11 +27,13 @@ export default function SimonPainter() {
       />
       <section>
         <PastSpeakersButton />
-        <Image
-          src="/static/speakers/2019/Simon_Painter.png"
-          alt="Picture of Simon Painter"
-          className="speakerpic"
-        />
+        <div className="speakerpic-container">
+          <Image
+            src="/static/speakers/2019/Simon_Painter.png"
+            alt="Picture of Simon Painter"
+            className="speakerpic"
+          />
+        </div>
         <div>
           <ul>
             <b>Pronouns: </b> He/Him
@@ -185,6 +187,10 @@ export default function SimonPainter() {
           }
 
           .speakerpic {
+            display: block;
+          }
+
+          .speakerpic-container {
             margin-top: 8%;
             margin-bottom: 5%;
             width: 250px;

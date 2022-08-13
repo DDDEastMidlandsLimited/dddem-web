@@ -27,11 +27,13 @@ export default function SamathyBarratt() {
       />
       <section>
         <PastSpeakersButton />
-        <Image
-          src="/static/speakers/2019/Samathy_Barratt.png"
-          alt="Picture of Samathy Barratt"
-          className="speakerpic"
-        />
+        <div className="speakerpic-container">
+          <Image
+            src="/static/speakers/2019/Samathy_Barratt.png"
+            alt="Picture of Samathy Barratt"
+            className="speakerpic"
+          />
+        </div>
         <div>
           <ul>
             <b>Pronouns: </b> She/Her
@@ -125,6 +127,10 @@ export default function SamathyBarratt() {
           }
 
           .speakerpic {
+            display: block;
+          }
+
+          .speakerpic-container {
             margin-top: 8%;
             margin-bottom: 5%;
             width: 250px;

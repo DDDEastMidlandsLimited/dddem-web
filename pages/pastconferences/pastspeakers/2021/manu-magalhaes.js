@@ -27,11 +27,16 @@ export default function ManuMagalhaes() {
       />
       <section>
         <PastSpeakersButton />
-        <Image
-          src="/static/speakers/2021/Manu_Magalhaes.png"
-          alt="Picture of Manu Magalhães"
-          className="speakerpic"
-        />
+        <div className="speakerpic-container">
+          <Image
+            src="/static/speakers/2021/Manu_Magalhaes.png"
+            alt="Picture of Manu Magalhães"
+            className="speakerpic"
+            height={250}
+            width={250}
+            layout="responsive"
+          />
+        </div>
         <div>
           <ul>
             <b>Pronouns: </b> She/Her
@@ -98,6 +103,10 @@ export default function ManuMagalhaes() {
           }
 
           .speakerpic {
+            display: block;
+          }
+
+          .speakerpic-container {
             margin-top: 8%;
             margin-bottom: 5%;
             width: 250px;

@@ -27,11 +27,13 @@ export default function IanJohnson() {
       />
       <section>
         <PastSpeakersButton />
-        <Image
-          src="/static/speakers/2019/Ian_Johnson.png"
-          alt="Picture of Ian Johnson"
-          className="speakerpic"
-        />
+        <div className="speakerpic-container">
+          <Image
+            src="/static/speakers/2019/Ian_Johnson.png"
+            alt="Picture of Ian Johnson"
+            className="speakerpic"
+          />
+        </div>
         <div>
           <ul>
             <b>Pronouns: </b> He/Him
@@ -114,6 +116,10 @@ export default function IanJohnson() {
           }
 
           .speakerpic {
+            display: block;
+          }
+
+          .speakerpic-container {
             margin-top: 8%;
             margin-bottom: 5%;
             width: 250px;

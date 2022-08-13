@@ -27,11 +27,13 @@ export default function JoelHammondTurner() {
       />
       <section>
         <PastSpeakersButton />
-        <Image
-          src="/static/speakers/2019/Joel_Hammond-Turner.jpg"
-          alt="Picture of Joel Hammond-Turner"
-          className="speakerpic"
-        />
+        <div className="speakerpic-container">
+          <Image
+            src="/static/speakers/2019/Joel_Hammond-Turner.jpg"
+            alt="Picture of Joel Hammond-Turner"
+            className="speakerpic"
+          />
+        </div>
         <div>
           <ul>
             <b>Pronouns: </b> He/Him
@@ -134,6 +136,10 @@ export default function JoelHammondTurner() {
           }
 
           .speakerpic {
+            display: block;
+          }
+
+          .speakerpic-container {
             margin-top: 8%;
             margin-bottom: 5%;
             width: 250px;
