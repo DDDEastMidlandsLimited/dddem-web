@@ -1,0 +1,52 @@
+on:
+  workflow_call:
+
+jobs:
+  test_build:
+    name: Test and Build
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v3
+
+      - name: Setup Node
+        uses: actions/setup-node@v3
+        with:
+          node-version-file: '.nvmrc'
+
+      - name: Install packages
+        run: npm install
+
+      - name: Run Jest
+        run: npm run test:coverage
+
+      - name: Upload Clover Artifact
+        uses: actions/upload-artifact@v3
+        with:
+          name: clover
+          path: |
+            coverage/clover.xml
+
+      - name: Upload Junit Artifact
+        uses: actions/upload-artifact@v3
+        with:
+          name: junit
+          path: |
+            test-results/junit
+
+      - name: Run build
+        run: npm run build
+
+      - name: Run Export
+        run: npm run export
+
+      - name: Run pa11y
+        run: npm run pa11y
+
+      - name: Upload Site Build Artifacts
+        uses: actions/upload-artifact@v3
+        with:
+          name: build_artifacts
+          path: |
+            out

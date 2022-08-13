@@ -6,10 +6,13 @@ jobs:
   update-dep:
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v2
-      - uses: actions/setup-node@v1
+      - name: Checkout
+        uses: actions/checkout@v3
+
+      - name: Set Node.js
+        uses: actions/setup-node@v3
         with:
-          node-version: '14.x'
+          node-version-file: '.nvmrc'
 
       - name: Run Prettier:Fix
         run: |
@@ -23,7 +26,7 @@ jobs:
         run: npm run test
 
       - name: Create Pull Request
-        uses: peter-evans/create-pull-request@v3
+        uses: peter-evans/create-pull-request@v4
         with:
           token: ${{ secrets.GITHUB_TOKEN }}
           commit-message: Run Prettier Fix

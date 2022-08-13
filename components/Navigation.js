@@ -17,27 +17,17 @@ export default function Navigation() {
               <Nav.Link href="/">Home</Nav.Link>
             </Nav.Item>
 
+            <Nav.Item>
+              <Nav.Link href="/conference-information">
+                About
+              </Nav.Link>
+            </Nav.Item>
+
             <NavDropdown
               tabIndex="0"
               title="Information"
               id="basic-information-nav-dropdown"
             >
-              <NavDropdown.Item
-                id="about-the-conference"
-                tabIndex="0"
-                href="/information/conference-information"
-                title="Link to Conference Information Page"
-              >
-                About DDD East Midlands
-              </NavDropdown.Item>
-              <NavDropdown.Item
-                id="about-the-conference-crew"
-                tabIndex="0"
-                href="/information/organisers-and-crew/conference-crew-information"
-                title="Link to Conference Crew Information Page"
-              >
-                About The Conference Crew
-              </NavDropdown.Item>
               <NavDropdown.Item
                 id="covid-precautions"
                 tabIndex="0"
