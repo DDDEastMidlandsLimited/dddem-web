@@ -22,7 +22,7 @@ export default function CovidPrecautions() {
         attendance we are taking the following precautions and ask
         that you help us by cooperating with them.
       </p>
-{/*       <div>
+      {/*       <div>
         <img
           src="/static/info/Precautions.png"
           alt="An image showing the cautions in white text against a blue background"

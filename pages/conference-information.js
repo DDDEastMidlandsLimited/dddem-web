@@ -157,7 +157,7 @@ export default function ConferenceInformation() {
             title="Link to Information About Jessica"
           >
             <Image
-              src="/static/organisers/jess.jpg"
+              src="/static/organisers/jess.png"
               alt="Picture of Jessica White"
               className="picture"
               height="100"
@@ -173,7 +173,7 @@ export default function ConferenceInformation() {
             title="Link to Information About Moreton"
           >
             <Image
-              src="/static/organisers/mort.jpg"
+              src="/static/organisers/mort.png"
               alt="Picture of Moreton Brockley"
               className="picture"
               height="100"
@@ -189,7 +189,7 @@ export default function ConferenceInformation() {
             title="Link to Information About Rachel"
           >
             <Image
-              src="/static/organisers/rachel.jpg"
+              src="/static/organisers/rachel.png"
               alt="Picture of Rachel Watson"
               className="picture"
               height="100"
@@ -205,7 +205,7 @@ export default function ConferenceInformation() {
             title="Link to Information About Mia"
           >
             <Image
-              src="/static/organisers/mia.jpg"
+              src="/static/organisers/mia.png"
               alt="Picture of Mia"
               className="picture"
               height="100"
@@ -221,7 +221,7 @@ export default function ConferenceInformation() {
             title="Link to Information About Steve"
           >
             <Image
-              src="/static/organisers/steven.jpg"
+              src="/static/organisers/steven.png"
               alt="Picture of Steven"
               className="picture"
               height="100"
@@ -237,7 +237,7 @@ export default function ConferenceInformation() {
             title="Link to Information About James"
           >
             <Image
-              src="/static/organisers/james.jpg"
+              src="/static/organisers/james.png"
               alt="Picture of James"
               className="picture"
               height="100"

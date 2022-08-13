@@ -3,6 +3,7 @@ import Layout from '../../components/Layout';
 import Header from '../../components/Header';
 import theme from '../../theme/theme';
 import Head from 'next/head';
+import Image from 'next/image';
 import BackToAboutButton from '../../components/information/BackToAboutButton';
 import { library } from '@fortawesome/fontawesome-svg-core';
 import {
@@ -22,17 +23,22 @@ export default function RachelWatson() {
       </Head>
       <Header
         title={'Rachel Watson'}
-        banner="/static/banners/rach_banner.jpg"
+        banner="/static/banners/rach_banner.png"
       />
       <section>
         <h1 tabIndex="0">Co-Organiser and Chief of Communications</h1>
       </section>
       <section>
-        <img
-          src="/static/organisers/rachel.jpg"
-          alt="Picture of Rachel Watson"
-          className="speakerpic"
-        />
+        <div className="speakerpic-container">
+          <Image
+            src="/static/organisers/rachel.jpg"
+            alt="Picture of Rachel Watson"
+            className="speakerpic"
+            height={250}
+            width={250}
+            layout="responsive"
+          />
+        </div>
         <div>
           <ul>
             <b>Pronouns: </b> She/Her
@@ -116,6 +122,11 @@ export default function RachelWatson() {
           }
 
           .speakerpic {
+            display: block;
+          }
+
+          .speakerpic-container {
+            margin-top: 8%;
             margin-bottom: 5%;
             width: 250px;
             border-radius: 50%;
