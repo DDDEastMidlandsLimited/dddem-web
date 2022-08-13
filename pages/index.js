@@ -5,6 +5,7 @@ import Layout from '../components/Layout';
 import ImportantDatesList from '../components/home/ImportantDatesList';
 import dates from '../data/dates';
 import SponsorButton from '../components/sponsorship/SponsorButton';
+import Image from 'next/image'
 
 export default function Index() {
   return (
@@ -39,7 +40,7 @@ export default function Index() {
                 eventType="Calyx"
                 rel="noopener noreferrer"
               >
-                <img
+                <Image
                   src={platinum[0].image}
                   alt={`Click to go to the ${platinum[0].name} site`}
                 />
@@ -62,7 +63,7 @@ export default function Index() {
 
       <section>
         <div>
-          <img
+          <Image
             className="pageimage"
             src="/static/pageimage/happy.jpg"
             alt={`Image of the attendees of DDD East Midlands Conference 2019 seated in red auditorium seating.`}
