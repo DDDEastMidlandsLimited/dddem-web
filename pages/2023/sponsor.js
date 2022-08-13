@@ -6,7 +6,7 @@ import Head from 'next/head';
 import SponsorButton from '../../components/sponsorship/SponsorButton';
 import SponsorshipTiersList from '../../components/sponsorship/SponsorshipTiersList';
 import sponsorship from '../../data/sponsorship/sponsorship';
-import Image from 'next/image'
+import Image from 'next/image';
 
 export default function Sponsor() {
   return (
