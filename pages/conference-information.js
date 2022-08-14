@@ -20,12 +20,17 @@ export default function ConferenceInformation() {
         <h1 tabIndex="0">Contents</h1>
         <p>
           <strong>
+            <a href="#about">What Is DDD East Midlands?</a>
+          </strong>
+        </p>
+        <p>
+          <strong>
             <a href="#ddd">What does the DDD stand for?</a>
           </strong>
         </p>
         <p>
           <strong>
-            <a href="#about">About DDD East Midlands</a>
+            <a href="#principles">The Conference Principles</a>
           </strong>
         </p>
         <ul>
@@ -60,6 +65,42 @@ export default function ConferenceInformation() {
           </li>
           <li>
             <a href="#speaking">Making speaking accessible</a>
+          </li>
+        </ul>
+      </section>
+
+      <section className="section-style" id="about">
+        <a name="about" />
+        <h1 tabIndex="0">What Is DDD East Midlands?</h1>
+        <p tabIndex="0">A Conference Celebrating the East Midlands</p>
+        <p tabIndex="0">
+          The East Midlands tech scene is incredibly diverse - it is
+          the perfect blend of professional corporates, innovative
+          independents, and well-funded start ups. This unique and
+          perfect mix of traditional and contemporary is reflected in
+          the DDD East Midlands Conference. We are part of the
+          multi-national DDD conference community, but with a focus on
+          promoting the talent, companies and the amazing tech
+          community that the East Midlands has to offer.
+        </p>
+        <ul>
+          <li tabIndex="0">
+            We want to promote inclusivity, support and camaraderie.
+          </li>
+          <li tabIndex="0">
+            We want to encourage members of the local tech community
+            to do a talk
+          </li>
+          <li tabIndex="0">
+            Hosted in a beautiful, modern building, which is one of
+            the largest educational buildings in Nottingham City
+            Centre.
+          </li>
+          <li tabIndex="0">
+            Talks submitted anonymously and voted on by attendees.
+          </li>
+          <li tabIndex="0">
+            A keynote and a range of talks split into 3 tracks.
           </li>
         </ul>
       </section>
@@ -101,19 +142,9 @@ export default function ConferenceInformation() {
         </p>
       </section>
 
-      <section className="section-style" id="about">
-        <a name="about" />
-        <h1 tabIndex="0">About DDD East Midlands</h1>
-        <p tabIndex="0">
-          Nottingham is the perfect blend of the professional
-          corporates and the innovative independents and this bleeds
-          right through to the tech scene. This unique and perfect mix
-          of the traditional and contemporary is reflected in DDD East
-          Midlands. It is part of the multi-national DDD conference
-          community, but with a focus on promoting the talent,
-          companies and the amazing tech community the East Midlands
-          has to offer.
-        </p>
+      <section className="section-style" id="principles">
+        <a name="principles" />
+        <h1 tabIndex="0">The Conference Principles</h1>
         <a name="ddd-principles" />
         <h2 tabIndex="0">The event follows these DDD Principles:</h2>
         <ul>
