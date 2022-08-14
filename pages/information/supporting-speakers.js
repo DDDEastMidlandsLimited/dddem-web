@@ -67,6 +67,7 @@ export default function SupportingSpeakers() {
             tabIndex="0"
             href="https://blog.dddeastmidlands.com/category/how-to-talk/index.html"
             target="_blank"
+            rel="noopener noreferrer"
           >
             https://blog.dddeastmidlands.com/category/how-to-talk/index.html{' '}
           </a>
@@ -101,6 +102,7 @@ export default function SupportingSpeakers() {
             tabIndex="0"
             href="https://blog.dddeastmidlands.com/2019/07/08/recappin-post.html"
             target="_blank"
+            rel="noopener noreferrer"
           >
             https://blog.dddeastmidlands.com/2019/07/08/recappin-post.html
           </a>

@@ -26,27 +26,27 @@ export default function Sponsor() {
           sponsoring the event
         </p>
         <li tabIndex="0">
-          <a href="../sponsor/why-sponsor" target="_blank">
+          <a href="../sponsor/why-sponsor" target="_blank" rel="noreferrer">
             Why Sponsor?
           </a>
         </li>
         {/*         <li tabIndex="0">
-          <a href="../sponsor/demographic" target="_blank">
+          <a href="../sponsor/demographic" target="_blank" rel="noreferrer">
             Demographics
           </a>
         </li> */}
         <li tabIndex="0">
-          <a href="../sponsor/testimonials" target="_blank">
+          <a href="../sponsor/testimonials" target="_blank" rel="noreferrer">
             Testimonials
           </a>
         </li>
         <li tabIndex="0">
-          <a href="../sponsor/social-responsibility" target="_blank">
+          <a href="../sponsor/social-responsibility" target="_blank" rel="noreferrer">
             Social Responsibility
           </a>
         </li>
         {/*   <li tabIndex="0">
-          <a href="../sponsorship-tiers" target="_blank">
+          <a href="../sponsorship-tiers" target="_blank" rel="noreferrer">
             Sponsorship Tiers
           </a>
         </li> */}

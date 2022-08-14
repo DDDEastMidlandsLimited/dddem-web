@@ -50,7 +50,7 @@ export default function CovidPrecautions() {
         <a
           href="https://test-for-coronavirus.service.gov.uk/report-result/login-choice"
           target="_blank"
-          rel="noreferrer"
+          rel="noopener noreferrer"
           tabIndex="0"
         >
           https://test-for-coronavirus.service.gov.uk/report-result/login-choice.
