@@ -60,21 +60,22 @@ export default function Sponsor() {
         <li tabIndex="0">
           <a
             href="../sponsor/why-sponsor"
-            target="_blank"
             rel="noreferrer"
           >
             Why Sponsor?
           </a>
         </li>
-        {/*         <li tabIndex="0">
-          <a href="../sponsor/demographic" target="_blank" rel="noreferrer">
-            Demographics
+        <li tabIndex="0">
+          <a
+            href="../../information/event-activities/"
+            rel="noreferrer"
+          >
+            Event Activities
           </a>
-        </li> */}
+        </li>
         <li tabIndex="0">
           <a
             href="../sponsor/testimonials"
-            target="_blank"
             rel="noreferrer"
           >
             Testimonials
@@ -83,17 +84,11 @@ export default function Sponsor() {
         <li tabIndex="0">
           <a
             href="../sponsor/social-responsibility"
-            target="_blank"
             rel="noreferrer"
           >
             Social Responsibility
           </a>
         </li>
-        {/*   <li tabIndex="0">
-          <a href="../sponsorship-tiers" target="_blank" rel="noreferrer">
-            Sponsorship Tiers
-          </a>
-        </li> */}
       </section>
 
       <section id="indicating-interest">

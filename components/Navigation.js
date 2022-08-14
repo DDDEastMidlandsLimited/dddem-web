@@ -18,9 +18,7 @@ export default function Navigation() {
             </Nav.Item>
 
             <Nav.Item>
-              <Nav.Link href="/about-the-conference">
-                About
-              </Nav.Link>
+              <Nav.Link href="/about-the-conference">About</Nav.Link>
             </Nav.Item>
 
             <NavDropdown
@@ -82,6 +80,14 @@ export default function Navigation() {
                 title="Link to Supporting Speakers Page"
               >
                 Supporting Speakers
+              </NavDropdown.Item>
+              <NavDropdown.Item
+                id="accessibility-information"
+                tabIndex="0"
+                href="/information/event-activities"
+                title="Link to Event Activites Page"
+              >
+                Event Activities
               </NavDropdown.Item>
               <NavDropdown.Item
                 id="accessibility-information"
