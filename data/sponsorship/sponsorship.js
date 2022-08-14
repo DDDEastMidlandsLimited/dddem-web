@@ -4,7 +4,7 @@ const sponsorship = [
     status: 'Available',
     name: 'Platinum',
     sold: false,
-  },
+  }
 ];
 
 export default sponsorship;
