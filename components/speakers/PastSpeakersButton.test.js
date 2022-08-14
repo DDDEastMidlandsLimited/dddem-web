@@ -8,7 +8,7 @@ describe('Given the Past Speakers button is rendered', () => {
     expect(getByText('Back To Past Speakers')).toBeInTheDocument();
     expect(getByText('Back To Past Speakers')).toHaveAttribute(
       'href',
-      '../pastspeakergrid',
+      '../../pastspeakergrid',
     );
   });
 });

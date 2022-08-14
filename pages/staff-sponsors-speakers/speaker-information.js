@@ -9,7 +9,6 @@ import {
   CodeOfConduct,
   Transport,
   SocialMedia,
-  //PubConf,
 } from '../../components/content';
 
 export default function SpeakerInformation() {

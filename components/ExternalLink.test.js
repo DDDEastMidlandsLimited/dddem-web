@@ -10,6 +10,7 @@ describe('Given the Footer is rendered', () => {
         target="_blank"
         category="logo"
         eventType="Event Name"
+        rel="noreferrer"
       >
         Test Link
       </ExternalLink>,
