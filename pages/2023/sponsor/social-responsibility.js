@@ -15,9 +15,14 @@ export default function SocialResponsibility() {
         banner="/static/banners/sponsor.jpg"
       />
 
-      <section id="sponsor-testimonials">
+      <section id="intro-to-social-responsibility">
         <a name="intro" />
-        <p tabIndex="0">...</p>
+        <p tabIndex="0">
+          DDD East Midlands Conference is a not-for-profit
+          organisation. It's run with the community in mind, and as
+          such we want to make the event safe and accessible for all,
+          while helping to lower the boundary into tech.
+        </p>
       </section>
 
       <section id="accessibility">
