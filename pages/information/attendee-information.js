@@ -6,12 +6,10 @@ import Head from 'next/head';
 import CovidPrecautions from '../../components/content/CovidPrecautions';
 import {
   CodeOfConduct,
-  WhereWhen,
   Transport,
   Catering,
   Wifi,
   SocialMedia,
-  //PubConf,
 } from '../../components/content';
 
 export default function AttendeeInformation() {
@@ -35,11 +33,6 @@ export default function AttendeeInformation() {
         <p>
           <strong>
             <a href="#code-of-conduct">Code of Conduct</a>
-          </strong>
-        </p>
-        <p>
-          <strong>
-            <a href="#when-and-where">When and Where?</a>
           </strong>
         </p>
         <p>
@@ -138,8 +131,6 @@ export default function AttendeeInformation() {
       <CovidPrecautions />
 
       <CodeOfConduct />
-
-      <WhereWhen />
 
       <section id="age-restrictions">
         <a name="age" />

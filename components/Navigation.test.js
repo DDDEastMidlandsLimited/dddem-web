@@ -14,7 +14,7 @@ describe('Given the Navigation is rendered', () => {
     expect(getByText('About')).toBeInTheDocument();
     expect(getByText('About')).toHaveAttribute(
       'href',
-      '/conference-information',
+      '/about-the-conference',
     );
   });
 

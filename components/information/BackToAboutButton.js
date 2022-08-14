@@ -6,7 +6,7 @@ export default function BackToAboutButton() {
     <div className="backToAboutButtonContainer">
       <button className="backToAboutButton">
         <a
-          href="../../conference-information/#organisers"
+          href="../../about-the-conference/#organisers"
           rel="noreferrer"
         >
           Back To About
