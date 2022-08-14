@@ -184,7 +184,7 @@ export default function ConferenceInformation() {
         <article className="volunteer-grid-item picture-container">
           <a
             tabIndex="0"
-            href="../organisers-and-crew/jessica-white"
+            href="../organisers/jessica-white"
             title="Link to Information About Jessica"
           >
             <Image
@@ -200,7 +200,7 @@ export default function ConferenceInformation() {
         <article className="volunteer-grid-item picture-container">
           <a
             tabIndex="0"
-            href="../organisers-and-crew/moreton-brockley"
+            href="../organisers/moreton-brockley"
             title="Link to Information About Moreton"
           >
             <Image
@@ -216,7 +216,7 @@ export default function ConferenceInformation() {
         <article className="volunteer-grid-item picture-container">
           <a
             tabIndex="0"
-            href="../organisers-and-crew/rachel-watson"
+            href="../organisers/rachel-watson"
             title="Link to Information About Rachel"
           >
             <Image
@@ -232,7 +232,7 @@ export default function ConferenceInformation() {
         <article className="volunteer-grid-item picture-container">
           <a
             tabIndex="0"
-            href="../organisers-and-crew/mia-gordon"
+            href="../organisers/mia-gordon"
             title="Link to Information About Mia"
           >
             <Image
@@ -248,7 +248,7 @@ export default function ConferenceInformation() {
         <article className="volunteer-grid-item picture-container">
           <a
             tabIndex="0"
-            href="../organisers-and-crew/steven-pears"
+            href="../organisers/steven-pears"
             title="Link to Information About Steve"
           >
             <Image
@@ -264,7 +264,7 @@ export default function ConferenceInformation() {
         <article className="volunteer-grid-item picture-container">
           <a
             tabIndex="0"
-            href="../organisers-and-crew/james-hayward"
+            href="../organisers/james-hayward"
             title="Link to Information About James"
           >
             <Image
