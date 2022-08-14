@@ -15,7 +15,7 @@ export default function Testimonials() {
         banner="/static/banners/sponsor.jpg"
       />
 
-      <section id="sponsor-testimonials">
+      <section id="intro">
         <a name="intro" />
         <p tabIndex="0">
           Don't take our word for it, hear from our past sponsors,

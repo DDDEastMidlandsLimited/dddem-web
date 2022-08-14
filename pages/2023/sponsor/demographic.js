@@ -15,7 +15,7 @@ export default function Sponsor() {
         banner="/static/banners/sponsor.jpg"
       />
 
-      <section id="indicating-interest">
+      <section id="why-sponsor">
         <h1 tabIndex="0">
           Why would my company sponsor? What’s in it for us?
         </h1>

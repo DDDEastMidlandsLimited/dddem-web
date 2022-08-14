@@ -19,11 +19,43 @@ export default function Sponsor() {
         banner="/static/banners/sponsor.jpg"
       />
 
+      <section id="event-details">
+        <h1 tabIndex="0">Event Details</h1>
+        <a name="sponsorship-pack" />
+        <p tabIndex="0">
+          <b>Date:</b> 7th October 2023
+        </p>
+        <p tabIndex="0">
+          <b>Venue:</b> The Nottingham Conference Centre, 30 Burton
+          St, Nottingham NG1 4BU.
+        </p>
+        <p tabIndex="0">
+          <b>Attendees:</b> The event is for anyone who works in or is
+          interested in technology. From students to business owners,
+          we have between 350 - 400 attendees all with the desire to
+          learn, network and find out about the various exciting
+          opportunities within the East Midlands.
+        </p>
+        <p tabIndex="0">
+          <b>Advertising:</b> We’re always working with the local
+          communities, user groups, boot camps, universities and even
+          local businesses to help grow and promote our great
+          Community. We promote the event mostly on social media and
+          our website.
+        </p>
+        <p tabIndex="0">
+          <b>Attendee Ticket:</b> Tickets are FREE and include access
+          to the full conference, an opportunity to vote on what talks
+          they want to see at the event, full catering, access to the
+          exhibition space and all activities.
+        </p>
+      </section>
+
       <section id="sponsor-info">
-        <h1 tabIndex="0">Interested sponsor Information</h1>
+        <h1 tabIndex="0">Want More Information?</h1>
         <p tabIndex="0">
           Here are some pages with more information relating to
-          sponsoring the event
+          sponsoring the event.
         </p>
         <li tabIndex="0">
           <a
@@ -84,15 +116,19 @@ export default function Sponsor() {
           benefits and price tags, so there should be something that
           is right for you.
         </p>
+        <SponsorButton />
       </section>
+
       <section id="get-in-touch">
         {/* Rachel pic and links */}
         <div className="row">
-          <div className="columnleft">
+          <div className="columnleft picture-container">
             <Image
-              src="/static/organisers/rachel.jpg"
+              src="/static/organisers/rachel.png"
               alt="Picture of Rachel smiling"
               className="picture"
+              height="250"
+              width="250"
             />
           </div>
           <div className="columnright">
@@ -130,7 +166,6 @@ export default function Sponsor() {
             </ul>
           </div>
         </div>
-        <SponsorButton />
         <br />
       </section>
       <section>
@@ -151,8 +186,28 @@ export default function Sponsor() {
             padding-bottom: 10px;
           }
 
+          .row {
+            display: flex;
+            flex-direction: row;
+            flex-wrap: wrap;
+            width: 100%;
+          }
+
+          .columnright {
+            float: right;
+            width: 60%;
+          }
+
+          .columnleft {
+            float: left;
+            width: 35%;
+          }
+
+          .picture-container {
+            margin: 10px;
+          }
+
           .picture {
-            width: 150px;
             border-radius: 50%;
           }
 
