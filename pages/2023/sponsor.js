@@ -58,10 +58,7 @@ export default function Sponsor() {
           sponsoring the event.
         </p>
         <li tabIndex="0">
-          <a
-            href="../sponsor/why-sponsor"
-            rel="noreferrer"
-          >
+          <a href="../sponsor/why-sponsor" rel="noreferrer">
             Why Sponsor?
           </a>
         </li>
@@ -74,18 +71,12 @@ export default function Sponsor() {
           </a>
         </li>
         <li tabIndex="0">
-          <a
-            href="../sponsor/testimonials"
-            rel="noreferrer"
-          >
+          <a href="../sponsor/testimonials" rel="noreferrer">
             Testimonials
           </a>
         </li>
         <li tabIndex="0">
-          <a
-            href="../sponsor/social-responsibility"
-            rel="noreferrer"
-          >
+          <a href="../sponsor/social-responsibility" rel="noreferrer">
             Social Responsibility
           </a>
         </li>
