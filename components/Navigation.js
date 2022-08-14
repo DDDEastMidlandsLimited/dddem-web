@@ -18,57 +18,10 @@ export default function Navigation() {
             </Nav.Item>
 
             <Nav.Item>
-              <Nav.Link href="/conference-information">
+              <Nav.Link href="/about-the-conference">
                 About
               </Nav.Link>
             </Nav.Item>
-
-            <NavDropdown
-              tabIndex="0"
-              title="Information"
-              id="basic-information-nav-dropdown"
-            >
-              <NavDropdown.Item
-                id="covid-precautions"
-                tabIndex="0"
-                href="/2023/covid-precautions"
-                title="Link to Covid Precautions Page"
-              >
-                Covid Precautions
-              </NavDropdown.Item>
-              <NavDropdown.Item
-                id="ticket-information"
-                tabIndex="0"
-                href="/information/ticket-information"
-                title="Link to Ticket Information Page"
-              >
-                Tickets
-              </NavDropdown.Item>
-              <NavDropdown.Item
-                id="venue-informaation"
-                tabIndex="0"
-                href="/information/venue-information"
-                title="Link to Venue Information Page"
-              >
-                Venue
-              </NavDropdown.Item>
-              <NavDropdown.Item
-                id="supporting-speakers"
-                tabIndex="0"
-                href="/information/supporting-speakers"
-                title="Link to Supporting Speakers Page"
-              >
-                Supporting Speakers
-              </NavDropdown.Item>
-              <NavDropdown.Item
-                id="accessibility-information"
-                tabIndex="0"
-                href="/information/accessibility-information"
-                title="Link to Accessibility Information Page"
-              >
-                Accessibility
-              </NavDropdown.Item>
-            </NavDropdown>
 
             <NavDropdown
               tabIndex="0"
@@ -84,21 +37,13 @@ export default function Navigation() {
                 Sponsor the event
               </NavDropdown.Item>
               <NavDropdown.Item
-                id="why-sponso"
+                id="why-sponsor"
                 tabIndex="0"
                 href="/2023/sponsor/why-sponsor"
                 title="Link to Why Sponsor Page"
               >
                 Why Sponsor?
               </NavDropdown.Item>
-              {/*               <NavDropdown.Item
-                id="about-the-conference-crew"
-                tabIndex="0"
-                href="/2023/sponsor/demographic"
-                title="Link to Demographic Page"
-              >
-                Demographic
-              </NavDropdown.Item> */}
               <NavDropdown.Item
                 id="social-responsibility"
                 tabIndex="0"
@@ -117,33 +62,52 @@ export default function Navigation() {
               </NavDropdown.Item>
             </NavDropdown>
 
-            <Nav.Item>
-              <Nav.Link
+            <NavDropdown
+              tabIndex="0"
+              title="Information"
+              id="basic-information-nav-dropdown"
+            >
+              <NavDropdown.Item
+                id="covid-precautions"
                 tabIndex="0"
-                rel="noopener noreferrer"
-                target="_blank"
-                href="https://blog.dddeastmidlands.com/"
-                onSelect={() => {
-                  logEvent('navigation', 'blog');
-                }}
+                href="/2023/covid-precautions"
+                title="Link to Covid Precautions Page"
               >
-                Blog
-              </Nav.Link>
-            </Nav.Item>
-
-            <Nav.Item>
-              <Nav.Link
+                Covid Precautions
+              </NavDropdown.Item>
+              <NavDropdown.Item
+                id="supporting-speakers"
                 tabIndex="0"
-                rel="noopener noreferrer"
-                target="_blank"
-                href="https://www.youtube.com/channel/UC5TNH43dpYqmw3ggv9OGIKw"
-                onSelect={() => {
-                  logEvent('navigation', 'youtube');
-                }}
+                href="/information/supporting-speakers"
+                title="Link to Supporting Speakers Page"
               >
-                YouTube
-              </Nav.Link>
-            </Nav.Item>
+                Supporting Speakers
+              </NavDropdown.Item>
+              <NavDropdown.Item
+                id="accessibility-information"
+                tabIndex="0"
+                href="/information/accessibility-information"
+                title="Link to Accessibility Information Page"
+              >
+                Accessibility
+              </NavDropdown.Item>
+              <NavDropdown.Item
+                id="ticket-information"
+                tabIndex="0"
+                href="/information/ticket-information"
+                title="Link to Ticket Information Page"
+              >
+                Tickets
+              </NavDropdown.Item>
+              <NavDropdown.Item
+                id="venue-informaation"
+                tabIndex="0"
+                href="/information/venue-information"
+                title="Link to Venue Information Page"
+              >
+                Venue
+              </NavDropdown.Item>
+            </NavDropdown>
 
             <NavDropdown
               tabIndex="0"
@@ -165,6 +129,33 @@ export default function Navigation() {
                 Past Photos
               </NavDropdown.Item>
             </NavDropdown>
+            <Nav.Item>
+              <Nav.Link
+                tabIndex="0"
+                rel="noopener noreferrer"
+                target="_blank"
+                href="https://www.youtube.com/channel/UC5TNH43dpYqmw3ggv9OGIKw"
+                onSelect={() => {
+                  logEvent('navigation', 'youtube');
+                }}
+              >
+                YouTube
+              </Nav.Link>
+            </Nav.Item>
+
+            <Nav.Item>
+              <Nav.Link
+                tabIndex="0"
+                rel="noopener noreferrer"
+                target="_blank"
+                href="https://blog.dddeastmidlands.com/"
+                onSelect={() => {
+                  logEvent('navigation', 'blog');
+                }}
+              >
+                Blog
+              </Nav.Link>
+            </Nav.Item>
 
             <Nav.Item>
               <Nav.Link tabIndex="0" href="/code-of-conduct">
