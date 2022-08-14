@@ -1,9 +1,10 @@
 import React from 'react';
 import Layout from '../components/Layout';
 import Header from '../components/Header';
-import CovidPrecautions from '../components/content/CovidPrecautions';
 import theme from '../theme/theme';
 import Head from 'next/head';
+import Image from 'next/image';
+import Link from 'next/link';
 
 export default function ConferenceInformation() {
   return (
@@ -15,7 +16,7 @@ export default function ConferenceInformation() {
         title={'About DDDEM'}
         banner="/static/banners/about.jpg"
       />
-      <section name="Contents">
+      <section className="section-style" name="Contents">
         <h1 tabIndex="0">Contents</h1>
         <p>
           <strong>
@@ -63,7 +64,7 @@ export default function ConferenceInformation() {
         </ul>
       </section>
 
-      <section id="ddd">
+      <section className="section-style" id="ddd">
         <a name="ddd" />
         <h1 tabIndex="0">What does the DDD stand for?</h1>
         <p tabIndex="0">
@@ -100,7 +101,7 @@ export default function ConferenceInformation() {
         </p>
       </section>
 
-      <section id="about">
+      <section className="section-style" id="about">
         <a name="about" />
         <h1 tabIndex="0">About DDD East Midlands</h1>
         <p tabIndex="0">
@@ -136,7 +137,7 @@ export default function ConferenceInformation() {
         </ul>
       </section>
 
-      <section id="organisers">
+      <section className="section-style" id="organisers">
         <a name="organisers" />
         <h1 tabIndex="0">The Organisation Committee</h1>
         <p tabIndex="0">
@@ -148,88 +149,106 @@ export default function ConferenceInformation() {
         </p>
       </section>
 
-      <section className="volunteer-grid">
-        <article className="volunteer-grid-item">
+      <section className="section-style volunteer-grid">
+        <article className="volunteer-grid-item picture-container">
           <a
             tabIndex="0"
             href="../organisers-and-crew/jessica-white"
             title="Link to Information About Jessica"
           >
-            <img
-              src="/static/organisers/jess.jpg"
+            <Image
+              src="/static/organisers/jess.png"
               alt="Picture of Jessica White"
               className="picture"
+              height="100"
+              width="100"
+              layout="responsive"
             />
           </a>
         </article>
-        <article className="volunteer-grid-item">
+        <article className="volunteer-grid-item picture-container">
           <a
             tabIndex="0"
             href="../organisers-and-crew/moreton-brockley"
             title="Link to Information About Moreton"
           >
-            <img
-              src="/static/organisers/mort.jpg"
+            <Image
+              src="/static/organisers/mort.png"
               alt="Picture of Moreton Brockley"
               className="picture"
+              height="100"
+              width="100"
+              layout="responsive"
             />
           </a>
         </article>
-        <article className="volunteer-grid-item">
+        <article className="volunteer-grid-item picture-container">
           <a
             tabIndex="0"
             href="../organisers-and-crew/rachel-watson"
             title="Link to Information About Rachel"
           >
-            <img
-              src="/static/organisers/rachel.jpg"
+            <Image
+              src="/static/organisers/rachel.png"
               alt="Picture of Rachel Watson"
               className="picture"
+              height="100"
+              width="100"
+              layout="responsive"
             />
           </a>
         </article>
-        <article className="volunteer-grid-item">
+        <article className="volunteer-grid-item picture-container">
           <a
             tabIndex="0"
             href="../organisers-and-crew/mia-gordon"
             title="Link to Information About Mia"
           >
-            <img
-              src="/static/organisers/mia.jpg"
+            <Image
+              src="/static/organisers/mia.png"
               alt="Picture of Mia"
               className="picture"
+              height="100"
+              width="100"
+              layout="responsive"
             />
           </a>
         </article>
-        <article className="volunteer-grid-item">
+        <article className="volunteer-grid-item picture-container">
           <a
             tabIndex="0"
             href="../organisers-and-crew/steven-pears"
             title="Link to Information About Steve"
           >
-            <img
-              src="/static/organisers/steven.jpg"
+            <Image
+              src="/static/organisers/steven.png"
               alt="Picture of Steven"
               className="picture"
+              height="100"
+              width="100"
+              layout="responsive"
             />
           </a>
         </article>
-        <article className="volunteer-grid-item">
+        <article className="volunteer-grid-item picture-container">
           <a
             tabIndex="0"
             href="../organisers-and-crew/james-hayward"
             title="Link to Information About James"
           >
-            <img
-              src="/static/organisers/james.jpg"
+            <Image
+              src="/static/organisers/james.png"
               alt="Picture of James"
               className="picture"
+              height="100"
+              width="100"
+              layout="responsive"
             />
           </a>
         </article>
       </section>
 
-      <section>
+      <section className="section-style">
         <p tabIndex="0">
           Give them a follow on Twitter, say hi at the local events,
           offer them a coffee or some chocolate if they look in need.
@@ -239,7 +258,7 @@ export default function ConferenceInformation() {
         </p>
       </section>
 
-      <section id="event-crew">
+      <section className="section-style" id="event-crew">
         <a name="event-crew" />
         <h1 tabIndex="0">The Event Crew</h1>
         <p tabIndex="0">
@@ -249,16 +268,19 @@ export default function ConferenceInformation() {
           the event.
         </p>
         <div className="center-image">
-          <img
+          <Image
             className="crew-image"
             src="/static/info/crew.jpg"
             alt="Picture of the volunteers from the 2021 event"
+            height={100}
+            width={200}
+            layout="responsive"
           />
         </div>
         <br />
       </section>
 
-      <section id="inclusivity">
+      <section className="section-style" id="inclusivity">
         <a name="inclusivity" />
         <h1 tabIndex="0">Promoting Inclusivity</h1>
         <p tabIndex="0">
@@ -305,10 +327,10 @@ export default function ConferenceInformation() {
         </p>
         <p tabIndex="0">
           We also ask that all talk submissions abide to the{' '}
-          <a href="/code-of-conduct/">Code of Conduct</a>. We want all
-          attendees to feel comfortable at the event, so ask that no
-          submissions or talks contain content of a graphic, violent
-          or sexual nature or contain any language that may be
+          <Link href="/code-of-conduct/">Code of Conduct</Link>. We
+          want all attendees to feel comfortable at the event, so ask
+          that no submissions or talks contain content of a graphic,
+          violent or sexual nature or contain any language that may be
           considered marginalising or hateful. If you wouldn&apos;t
           want to say it to someone you respect, please don&apos;t
           include it in your submission. Organisers hold the right to
@@ -363,29 +385,12 @@ export default function ConferenceInformation() {
         </ul>
       </section>
 
-      <style jsx>
+      <style jsx global>
         {`
-          section {
+          .section-style {
             max-width: ${theme.sizes.maxContentWidth};
             padding: ${theme.sizes.contentPadding};
             margin: auto;
-          }
-          section center-video {
-            text-align: center;
-          }
-          .iframe-container {
-            position: relative;
-            overflow: hidden;
-            padding-top: 56.25%;
-            margin: 10px 10px;
-          }
-          .iframe-container iframe {
-            position: absolute;
-            top: 0;
-            left: 0;
-            width: 100%;
-            height: 100%;
-            border: 0;
           }
 
           .center-image {
@@ -412,19 +417,16 @@ export default function ConferenceInformation() {
             min-width: 180px;
           }
 
-          .picture {
-            width: 200px;
-            border-radius: 50%;
-            margin: 5px;
-          }
-          a .picture:hover {
-            filter: drop-shadow(5px 5px 5px rgb(26 125 135 / 0.75));
+          .picture-container {
+            margin: 10px;
           }
 
-          @media only screen and (max-width: 810px) {
-            .picture {
-              display: none;
-            }
+          .picture {
+            border-radius: 50%;
+          }
+
+          a .picture:hover {
+            filter: drop-shadow(5px 5px 5px rgb(26 125 135 / 0.75));
           }
         `}
       </style>

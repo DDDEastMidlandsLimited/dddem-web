@@ -3,6 +3,7 @@ import Layout from '../../../../components/Layout';
 import Header from '../../../../components/Header';
 import theme from '../../../../theme/theme';
 import Head from 'next/head';
+import Image from 'next/image';
 import PastSpeakersButton from '../../../../components/speakers/PastSpeakersButton';
 import { library } from '@fortawesome/fontawesome-svg-core';
 import {
@@ -26,11 +27,16 @@ export default function TaniaAllard() {
       />
       <section>
         <PastSpeakersButton />
-        <img
-          src="/static/speakers/2021/Tania_Allard.jpg"
-          alt="Picture of Tania Allard"
-          className="speakerpic"
-        />
+        <div className="speakerpic-container">
+          <Image
+            src="/static/speakers/2021/Tania_Allard.png"
+            alt="Picture of Tania Allard"
+            className="speakerpic"
+            height={250}
+            width={250}
+            layout="responsive"
+          />
+        </div>
         <div>
           <ul>
             <b>Pronouns: </b> She/Her
@@ -167,6 +173,10 @@ export default function TaniaAllard() {
           }
 
           .speakerpic {
+            display: block;
+          }
+
+          .speakerpic-container {
             margin-top: 8%;
             margin-bottom: 5%;
             width: 250px;
@@ -174,6 +184,10 @@ export default function TaniaAllard() {
             display: block;
             margin-left: auto;
             margin-right: auto;
+          }
+
+          .picture-container {
+            margin: 10px;
           }
 
           .iframe-container {

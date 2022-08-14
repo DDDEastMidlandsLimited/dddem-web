@@ -1,14 +1,7 @@
 const withPWA = require('next-pwa');
 const glob = require('glob');
-const withPlugins = require('next-compose-plugins');
 
-module.exports = withPlugins(
-  [
-    {
-      optimizeImagesInDev: true,
-    },
-  ],
-  withPWA({
+module.exports = withPWA({
     pwa: {
       dest: 'public',
     },
@@ -35,5 +28,10 @@ module.exports = withPlugins(
 
       return config;
     },
-  }),
-);
+    experimental: {
+      images: {
+        unoptimized: true,
+        },
+        allowFutureImage: true,
+      },
+  });

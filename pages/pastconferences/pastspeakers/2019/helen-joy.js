@@ -3,6 +3,7 @@ import Layout from '../../../../components/Layout';
 import Header from '../../../../components/Header';
 import theme from '../../../../theme/theme';
 import Head from 'next/head';
+import Image from 'next/image';
 import PastSpeakersButton from '../../../../components/speakers/PastSpeakersButton';
 import { library } from '@fortawesome/fontawesome-svg-core';
 import {
@@ -26,11 +27,16 @@ export default function HelenJoy() {
       />
       <section>
         <PastSpeakersButton />
-        <img
-          src="/static/speakers/2019/Helen_Joy.png"
-          alt="Picture of Helen Joy"
-          className="speakerpic"
-        />
+        <div className="speakerpic-container">
+          <Image
+            src="/static/speakers/2019/Helen_Joy.png"
+            alt="Picture of Helen Joy"
+            className="speakerpic"
+            height={250}
+            width={250}
+            layout="responsive"
+          />
+        </div>
         <div>
           <ul>
             <b>Pronouns: </b> She/Her
@@ -150,6 +156,10 @@ export default function HelenJoy() {
           }
 
           .speakerpic {
+            display: block;
+          }
+
+          .speakerpic-container {
             margin-top: 8%;
             margin-bottom: 5%;
             width: 250px;

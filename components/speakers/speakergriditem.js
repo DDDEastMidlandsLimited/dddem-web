@@ -1,4 +1,5 @@
 import React from 'react';
+import Image from 'next/image';
 
 export default function SpeakerGridItemComponent(props) {
   let hovering = () => false;
@@ -11,10 +12,13 @@ export default function SpeakerGridItemComponent(props) {
     <div>
       <article className="speaker-grid-item">
         <a tabIndex="0" href={props.link} title={Title()}>
-          <img
+          <Image
             className="speaker-image"
             src={props.pic}
             alt="Picture of Connell"
+            height={250}
+            width={250}
+            layout="responsive"
           />
           <div
             className={`hover-pop ${
