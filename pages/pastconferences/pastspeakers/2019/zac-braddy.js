@@ -29,7 +29,7 @@ export default function ZacBraddy() {
         <PastSpeakersButton />
         <div className="speakerpic-container">
           <Image
-            src="/static/speakers/TBC.png"
+            src="/static/speakers/2019/Zac_B.jpg"
             alt="Picture of Zac Braddy"
             className="speakerpic"
             height={250}

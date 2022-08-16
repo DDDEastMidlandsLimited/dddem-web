@@ -29,7 +29,7 @@ export default function MarkTowndrow() {
         <PastSpeakersButton />
         <div className="speakerpic-container">
           <Image
-            src="/static/speakers/TBC.png"
+            src="/static/speakers/2019/Mark_T.jpg"
             alt="Picture of Mark Towndrow"
             className="speakerpic"
             height={250}

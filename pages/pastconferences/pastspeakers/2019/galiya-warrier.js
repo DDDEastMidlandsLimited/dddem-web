@@ -29,7 +29,7 @@ export default function GaliyaWarrier() {
         <PastSpeakersButton />
         <div className="speakerpic-container">
           <Image
-            src="/static/speakers/TBC.png"
+            src="/static/speakers/2019/Galiya_W.jpg"
             alt="Picture of Galiya Warrier"
             className="speakerpic"
             height={250}

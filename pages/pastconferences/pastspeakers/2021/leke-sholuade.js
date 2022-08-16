@@ -29,7 +29,7 @@ export default function LekeSholuade() {
         <PastSpeakersButton />
         <div className="speakerpic-container">
           <Image
-            src="/static/speakers/TBC.png"
+            src="/static/speakers/2021/Leke_S.jpg.png"
             alt="Picture of Leke Sholuade"
             className="speakerpic"
             height={250}

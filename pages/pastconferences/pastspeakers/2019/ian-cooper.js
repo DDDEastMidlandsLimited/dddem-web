@@ -29,7 +29,7 @@ export default function IanCooper() {
         <PastSpeakersButton />
         <div className="speakerpic-container">
           <Image
-            src="/static/speakers/TBC.png"
+            src="/static/speakers/2019/Ian_C.jpg"
             alt="Picture of Ian Cooper"
             className="speakerpic"
             height={250}

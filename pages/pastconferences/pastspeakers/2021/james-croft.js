@@ -29,7 +29,7 @@ export default function JamesCroft() {
         <PastSpeakersButton />
         <div className="speakerpic-container">
           <Image
-            src="/static/speakers/TBC.png"
+            src="/static/speakers/2021/James_C.jpg"
             alt="Picture of James Croft"
             className="speakerpic"
             height={250}

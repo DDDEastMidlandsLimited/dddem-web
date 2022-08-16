@@ -29,7 +29,7 @@ export default function KojoHinson() {
         <PastSpeakersButton />
         <div className="speakerpic-container">
           <Image
-            src="/static/speakers/TBC.png"
+            src="/static/speakers/2021/Kojo_H.jpg"
             alt="Picture of Kojo Hinson"
             className="speakerpic"
             height={250}

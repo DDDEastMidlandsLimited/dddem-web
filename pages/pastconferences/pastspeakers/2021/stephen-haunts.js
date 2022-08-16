@@ -29,7 +29,7 @@ export default function StephenHaunts() {
         <PastSpeakersButton />
         <div className="speakerpic-container">
           <Image
-            src="/static/speakers/TBC.png"
+            src="/static/speakers/2021/Stephen_H.jpg"
             alt="Picture of Stephen Haunts"
             className="speakerpic"
             height={250}

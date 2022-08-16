@@ -29,7 +29,7 @@ export default function CaraHolland() {
         <PastSpeakersButton />
         <div className="speakerpic-container">
           <Image
-            src="/static/speakers/TBC.png"
+            src="/static/speakers/2019/Cara_H.jpg"
             alt="Picture of Cara Holland"
             className="speakerpic"
             height={250}

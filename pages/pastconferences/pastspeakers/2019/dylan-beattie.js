@@ -29,7 +29,7 @@ export default function DylanBeattie() {
         <PastSpeakersButton />
         <div className="speakerpic-container">
           <Image
-            src="/static/speakers/TBC.png"
+            src="/static/speakers/2019/Dylan_B.jpg"
             alt="Picture of Dylan Beattie"
             className="speakerpic"
             height={250}

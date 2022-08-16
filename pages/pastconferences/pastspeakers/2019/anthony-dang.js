@@ -29,7 +29,7 @@ export default function AnthonyDang() {
         <PastSpeakersButton />
         <div className="speakerpic-container">
           <Image
-            src="/static/speakers/2019/Anthony_Dang.png"
+            src="/static/speakers/2019/Anthony_D.jpg"
             alt="Picture of Anthony Dang"
             className="speakerpic"
             height={250}
