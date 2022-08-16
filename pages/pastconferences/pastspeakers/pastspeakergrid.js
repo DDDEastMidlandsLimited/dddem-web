@@ -32,7 +32,7 @@ export default function Speaker2021Component() {
           talkbrief="KEYNOTE: Open source for fun and for profit"
         />
       </section>
-       <section className="speaker-grid">
+      <section className="speaker-grid">
         <SpeakerGridItemComponent
           speakername="Lex Lofthouse"
           pic="/static/speakers/2021/Lex_L.jpg"
