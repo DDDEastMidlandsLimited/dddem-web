@@ -29,7 +29,7 @@ export default function ManuMagalhaes() {
         <PastSpeakersButton />
         <div className="speakerpic-container">
           <Image
-            src="/static/speakers/2021/Manu_Magalhaes.png"
+            src="/static/speakers/TBC.png"
             alt="Picture of Manu Magalhães"
             className="speakerpic"
             height={250}

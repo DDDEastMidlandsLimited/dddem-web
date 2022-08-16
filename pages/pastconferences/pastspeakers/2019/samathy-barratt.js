@@ -29,7 +29,7 @@ export default function SamathyBarratt() {
         <PastSpeakersButton />
         <div className="speakerpic-container">
           <Image
-            src="/static/speakers/2019/Samathy_Barratt.png"
+            src="/static/speakers/TBC.png"
             alt="Picture of Samathy Barratt"
             className="speakerpic"
             height={250}

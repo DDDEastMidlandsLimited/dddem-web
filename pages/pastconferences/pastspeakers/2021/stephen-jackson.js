@@ -29,7 +29,7 @@ export default function StephenJackson() {
         <PastSpeakersButton />
         <div className="speakerpic-container">
           <Image
-            src="/static/speakers/2021/Stephen_Jackson.png"
+            src="/static/speakers/TBC.png"
             alt="Picture of Stephen Jackson"
             className="speakerpic"
             height={250}

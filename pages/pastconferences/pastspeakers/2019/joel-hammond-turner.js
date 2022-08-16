@@ -29,7 +29,7 @@ export default function JoelHammondTurner() {
         <PastSpeakersButton />
         <div className="speakerpic-container">
           <Image
-            src="/static/speakers/2019/Joel_Hammond-Turner.jpg"
+            src="/static/speakers/TBC.png"
             alt="Picture of Joel Hammond-Turner"
             className="speakerpic"
             height={250}

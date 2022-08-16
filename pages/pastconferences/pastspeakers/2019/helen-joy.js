@@ -29,7 +29,7 @@ export default function HelenJoy() {
         <PastSpeakersButton />
         <div className="speakerpic-container">
           <Image
-            src="/static/speakers/2019/Helen_Joy.png"
+            src="/static/speakers/TBC.png"
             alt="Picture of Helen Joy"
             className="speakerpic"
             height={250}

@@ -29,7 +29,7 @@ export default function RizwanaAkmalKhan() {
         <PastSpeakersButton />
         <div className="speakerpic-container">
           <Image
-            src="/static/speakers/2021/Rizwana_Akmal_Khan.png"
+            src="/static/speakers/TBC.png"
             alt="Picture of Rizwana Akmal Khan"
             className="speakerpic"
             height={250}

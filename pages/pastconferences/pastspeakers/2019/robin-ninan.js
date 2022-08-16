@@ -29,7 +29,7 @@ export default function RobinNinan() {
         <PastSpeakersButton />
         <div className="speakerpic-container">
           <Image
-            src="/static/speakers/2019/Robin_Ninan.png"
+            src="/static/speakers/TBC.png"
             alt="Picture of Robin Ninan"
             className="speakerpic"
             height={250}

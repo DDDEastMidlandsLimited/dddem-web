@@ -29,7 +29,7 @@ export default function JenniferMackown() {
         <PastSpeakersButton />
         <div className="speakerpic-container">
           <Image
-            src="/static/speakers/2021/Jen_Mackown.png"
+            src="/static/speakers/TBC.png"
             alt="Picture of Jennifer Mackown"
             className="speakerpic"
             height={250}

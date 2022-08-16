@@ -29,7 +29,7 @@ export default function MattWhetton() {
         <PastSpeakersButton />
         <div className="speakerpic-container">
           <Image
-            src="/static/speakers/2021/Matt_Whetton.png"
+            src="/static/speakers/TBC.png"
             alt="Picture of Matt Whetton"
             className="speakerpic"
             height={250}
