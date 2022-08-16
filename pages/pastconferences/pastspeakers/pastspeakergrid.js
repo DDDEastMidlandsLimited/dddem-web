@@ -83,7 +83,7 @@ export default function Speaker2021Component() {
         />
         <SpeakerGridItemComponent
           speakername="Matt Whetton"
-          pic="/static/speakers/Matt_W.jpg"
+          pic="/static/speakers/2021/Matt_W.jpg"
           link="../2021/matt-whetton"
           talkbrief="We need to talk about technical debt"
         />

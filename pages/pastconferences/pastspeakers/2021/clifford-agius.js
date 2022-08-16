@@ -29,7 +29,7 @@ export default function CliffordAgius() {
         <PastSpeakersButton />
         <div className="speakerpic-container">
           <Image
-            src="/static/speakers/TBC.png"
+            src="/static/speakers/2021/Clifford_A.jpg"
             alt="Picture of Clifford Agius"
             className="speakerpic"
             height={250}

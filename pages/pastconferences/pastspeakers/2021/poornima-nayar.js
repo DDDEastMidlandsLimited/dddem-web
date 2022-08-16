@@ -29,7 +29,7 @@ export default function PoornimaNayar() {
         <PastSpeakersButton />
         <div className="speakerpic-container">
           <Image
-            src="/static/speakers/TBC.png"
+            src="/static/speakers/2021/Poornima_N.jpg"
             alt="Picture of Poornima Nayar"
             className="speakerpic"
             height={250}

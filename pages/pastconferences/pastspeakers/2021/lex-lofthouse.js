@@ -29,7 +29,7 @@ export default function LexLofthouse() {
         <PastSpeakersButton />
         <div className="speakerpic-container">
           <Image
-            src="/static/speakers/TBC.png"
+            src="/static/speakers/2021/Lex_L.jpg"
             alt="Picture of Lex Lofthouse"
             className="speakerpic"
             height="250"

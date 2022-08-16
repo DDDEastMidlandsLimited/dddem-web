@@ -29,7 +29,7 @@ export default function TaniaAllard() {
         <PastSpeakersButton />
         <div className="speakerpic-container">
           <Image
-            src="/static/speakers/TBC.png"
+            src="/static/speakers/2021/Tania_A.jpg"
             alt="Picture of Tania Allard"
             className="speakerpic"
             height={250}
