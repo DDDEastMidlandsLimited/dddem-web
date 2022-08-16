@@ -29,7 +29,7 @@ export default function NeilOConnor() {
         <PastSpeakersButton />
         <div className="speakerpic-container">
           <Image
-            src="/static/speakers/TBC.png"
+            src="/static/speakers/2019/Neil_OC.jpg"
             alt="Picture of Neil O'Connor"
             className="speakerpic"
             height={250}

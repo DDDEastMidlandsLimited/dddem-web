@@ -174,7 +174,7 @@ export default function Speaker2021Component() {
         />
         <SpeakerGridItemComponent
           speakername="Mark Towndrow"
-          pic="/static/speakers/2019/Mar_T.jpg"
+          pic="/static/speakers/2019/Mark_T.jpg"
           link="../2019/mark-towndrow"
           talkbrief="How to be a better developer - without learning another JavaScript framework"
         />

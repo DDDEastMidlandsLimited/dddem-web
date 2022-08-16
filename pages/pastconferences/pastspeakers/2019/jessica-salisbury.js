@@ -29,7 +29,7 @@ export default function JessicaSalisbury() {
         <PastSpeakersButton />
         <div className="speakerpic-container">
           <Image
-            src="/static/speakers/TBC.png"
+            src="/static/speakers/2019/Jessica_S.jpg"
             alt="Picture of Jessica Salisbury"
             className="speakerpic"
             height={250}
