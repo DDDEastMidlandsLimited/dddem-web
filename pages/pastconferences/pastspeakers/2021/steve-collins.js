@@ -29,7 +29,7 @@ export default function SteveCollins() {
         <PastSpeakersButton />
         <div className="speakerpic-container">
           <Image
-            src="/static/speakers/2021/Steve_Collins.png"
+            src="/static/speakers/TBC.png"
             alt="Picture of Steve Collins"
             className="speakerpic"
             height={250}

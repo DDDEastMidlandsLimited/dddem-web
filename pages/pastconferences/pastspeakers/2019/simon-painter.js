@@ -29,7 +29,7 @@ export default function SimonPainter() {
         <PastSpeakersButton />
         <div className="speakerpic-container">
           <Image
-            src="/static/speakers/2019/Simon_Painter.png"
+            src="/static/speakers/TBC.png"
             alt="Picture of Simon Painter"
             className="speakerpic"
             height={250}
