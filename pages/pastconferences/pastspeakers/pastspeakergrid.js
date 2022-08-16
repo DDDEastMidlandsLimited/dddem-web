@@ -32,7 +32,7 @@ export default function Speaker2021Component() {
           talkbrief="KEYNOTE: Open source for fun and for profit"
         />
       </section>
-      <section className="speaker-grid">
+{/*       <section className="speaker-grid">
         <SpeakerGridItemComponent
           speakername="Lex Lofthouse"
           pic="/static/speakers/TBC.png"
@@ -135,14 +135,14 @@ export default function Speaker2021Component() {
           link="../2021/jennifer-mackown"
           talkbrief="How to ruin kid's games with machine learning"
         />
-      </section>
+      </section> */}
       <section>
         <h2>2019</h2>
       </section>
       <section className="speaker-grid">
         <SpeakerGridItemComponent
           speakername="Dylan Beattie"
-          pic="/static/speakers/TBC.png"
+          pic="/static/speakers/2019/Dylan_B.jpg"
           link="../2019/dylan-beattie"
           talkbrief="The Art of Code"
         />
@@ -150,91 +150,91 @@ export default function Speaker2021Component() {
       <section className="speaker-grid">
         <SpeakerGridItemComponent
           speakername="Matt Brunt"
-          pic="/static/speakers/TBC.png"
+          pic="/static/speakers/2019/Matt_B.jpg"
           link="../2019/matt-brunt"
           talkbrief="Think like a hacker"
         />
         <SpeakerGridItemComponent
           speakername="Jessica Salisbury"
-          pic="/static/speakers/TBC.png"
+          pic="/static/speakers/2019/Jessica_S.jpg"
           link="../2019/jessica-salisbury"
           talkbrief="The Power of the Feedback Loop"
         />
         <SpeakerGridItemComponent
           speakername="Anthony Dang"
-          pic="/static/speakers/TBC.png"
+          pic="/static/speakers/2019/Anthony_D.jpg"
           link="../2019/anthony-dang"
           talkbrief="Cache me outside - Caching Methodologies and Architectures"
         />
         <SpeakerGridItemComponent
           speakername="Cara Holland"
-          pic="/static/speakers/TBC.png"
+          pic="/static/speakers/2019/Cara_H.jpg"
           link="../2019/cara-holland"
           talkbrief="Draw UX (or how to get your visual thinking groove on)"
         />
         <SpeakerGridItemComponent
           speakername="Mark Towndrow"
-          pic="/static/speakers/TBC.png"
+          pic="/static/speakers/2019/Mar_T.jpg"
           link="../2019/mark-towndrow"
           talkbrief="How to be a better developer - without learning another JavaScript framework"
         />
         <SpeakerGridItemComponent
           speakername="Galiya Warrier"
-          pic="/static/speakers/TBC.png"
+          pic="/static/speakers/2019/Galiya_W.jpg"
           link="../2019/galiya-warrier"
           talkbrief="Deep Learning in the world of little ponies"
         />
         <SpeakerGridItemComponent
           speakername="Robin Ninan"
-          pic="/static/speakers/TBC.png"
+          pic="/static/speakers/2019/Robin_N.jpg"
           link="../2019/robin-ninan"
           talkbrief="Ditching the test pyramid in a microservices era"
         />
         <SpeakerGridItemComponent
           speakername="Ian Johnson"
-          pic="/static/speakers/TBC.png"
+          pic="/static/speakers/2019/Ian_J.jpg"
           link="../2019/ian-johnson"
           talkbrief="Reasonable Code"
         />
         <SpeakerGridItemComponent
           speakername="Samathy Barratt"
-          pic="/static/speakers/TBC.png"
+          pic="/static/speakers/2019/Samathy_B.jpg"
           link="../2019/samathy-barratt"
           talkbrief="This is a talk about Nothing"
         />
         <SpeakerGridItemComponent
           speakername="Ian Cooper"
-          pic="/static/speakers/TBC.png"
+          pic="/static/speakers/2019/Ian_C.jpg"
           link="../2019/ian-cooper"
           talkbrief="How to Escape The Distributed Monolith"
         />
         <SpeakerGridItemComponent
           speakername="Helen Joy"
-          pic="/static/speakers/TBC.png"
+          pic="/static/speakers/2019/Helen_J.jpg"
           link="../2019/helen-joy"
           talkbrief="Whose Design is it Anyway?"
         />
         <SpeakerGridItemComponent
           speakername="Joel Hammond Turner"
-          pic="/static/speakers/TBC.png"
+          pic="/static/speakers/2019/Joel_HT.jpg"
           link="../2019/joel-hammond-turner"
           talkbrief="You're the Tech Lead - *you* fix it!"
         />
         <SpeakerGridItemComponent
           speakername="Zac Braddy"
-          pic="/static/speakers/TBC.png"
+          pic="/static/speakers/2019/Zac_B.jpg"
           link="../2019/zac-braddy"
           talkbrief="All the mistakes I've made trying to implement Microservices"
         />
         <SpeakerGridItemComponent
           speakername="Neil Oconnor"
-          pic="/static/speakers/TBC.png"
+          pic="/static/speakers/2019/Neil_OC.jpg"
           link="../2019/neil-oconnor"
           talkbrief="CTO secrets: How to get the best companies fighting to hire you"
         />
         <SpeakerGridItemComponent
           speakername="Simon Painter"
-          pic="/static/speakers/TBC.png"
+          pic="/static/speakers/2019/Simon_P.jpg"
           link="../2019/simon-painter"
           talkbrief="Hacking C#: Development for the Truly Lazy"
         />
