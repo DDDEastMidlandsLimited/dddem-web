@@ -14,7 +14,7 @@ export default function NotableCompaniesComponent() {
       </Head>
       <Header
         title={'Notable Companies'}
-        banner="/static/banners/notable.jpg"
+        banner="/static/banners/album.jpg"
       />
 
       <section>
