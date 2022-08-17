@@ -23,7 +23,7 @@ export default function StevenPears() {
       </Head>
       <Header
         title={'Steven Pears'}
-        banner="/static/banners/generic.png"
+        banner="/static/banners/album.png"
       />
       <section>
         <h1 tabIndex="0">Contracts and Finances Manager</h1>

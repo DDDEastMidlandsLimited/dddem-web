@@ -23,7 +23,7 @@ export default function RobinNinan() {
       </Head>
       <Header
         title={'Robin Ninan'}
-        banner="/static/banners/information/thencc.jpg"
+        banner="/static/banners/speakers.jpg"
       />
       <section>
         <PastSpeakersButton />

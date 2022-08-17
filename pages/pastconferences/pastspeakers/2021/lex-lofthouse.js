@@ -23,7 +23,7 @@ export default function LexLofthouse() {
       </Head>
       <Header
         title={'Lex Lofthouse'}
-        banner="/static/banners/information/thencc.jpg"
+        banner="/static/banners/speakers.jpg"
       />
       <section>
         <PastSpeakersButton />

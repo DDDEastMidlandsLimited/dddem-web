@@ -23,7 +23,7 @@ export default function GaliyaWarrier() {
       </Head>
       <Header
         title={'Galiya Warrier'}
-        banner="/static/banners/information/thencc.jpg"
+        banner="/static/banners/speakers.jpg"
       />
       <section>
         <PastSpeakersButton />

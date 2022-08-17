@@ -23,7 +23,7 @@ export default function ZacBraddy() {
       </Head>
       <Header
         title={'Zac Braddy'}
-        banner="/static/banners/information/thencc.jpg"
+        banner="/static/banners/speakers.jpg"
       />
       <section>
         <PastSpeakersButton />

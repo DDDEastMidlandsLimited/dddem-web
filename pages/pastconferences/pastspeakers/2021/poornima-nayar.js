@@ -23,7 +23,7 @@ export default function PoornimaNayar() {
       </Head>
       <Header
         title={'Poornima Nayar'}
-        banner="/static/banners/information/thencc.jpg"
+        banner="/static/banners/speakers.jpg"
       />
       <section>
         <PastSpeakersButton />

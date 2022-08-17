@@ -20,7 +20,7 @@ export default function AttendeeInformation() {
       </Head>
       <Header
         title={'Attendee Information'}
-        banner="/static/banners/information/attendee.jpg"
+        banner="/static/banners/attendee.jpg"
       />
 
       <section name="Contents">

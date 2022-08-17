@@ -12,7 +12,7 @@ export default function ApplicationInformation() {
       </Head>
       <Header
         title={'Application Information'}
-        banner="/static/banners/information/attendee.jpg"
+        banner="/static/banners/attendee.jpg"
       />
 
       <section name="Contents">

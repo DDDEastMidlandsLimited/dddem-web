@@ -23,7 +23,7 @@ export default function CaraHolland() {
       </Head>
       <Header
         title={'Cara Holland'}
-        banner="/static/banners/information/thencc.jpg"
+        banner="/static/banners/speakers.jpg"
       />
       <section>
         <PastSpeakersButton />

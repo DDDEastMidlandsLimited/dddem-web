@@ -23,7 +23,7 @@ export default function NeilOConnor() {
       </Head>
       <Header
         title={"Neil O'Connor"}
-        banner="/static/banners/information/thencc.jpg"
+        banner="/static/banners/speakers.jpg"
       />
       <section>
         <PastSpeakersButton />
