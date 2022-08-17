@@ -12,7 +12,7 @@ export default function SupportingSpeakers() {
       </Head>
       <Header
         title={'Supporting Speakers'}
-        banner="/static/banners/sponsor.jpg"
+        banner="/static/banners/support.jpg"
       />
 
       <section id="supporting-speakers">

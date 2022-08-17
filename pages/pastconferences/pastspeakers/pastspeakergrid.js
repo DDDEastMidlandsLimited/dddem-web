@@ -13,7 +13,7 @@ export default function Speaker2021Component() {
       </Head>
       <Header
         title={'Past Speakers'}
-        banner="/static/banners/notable.jpg"
+        banner="/static/banners/speakers.jpg"
       />
       <section>
         <p>

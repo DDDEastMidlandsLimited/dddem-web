@@ -23,7 +23,7 @@ export default function JessicaSalisbury() {
       </Head>
       <Header
         title={'Jessica Salisbury'}
-        banner="/static/banners/information/thencc.jpg"
+        banner="/static/banners/speakers.jpg"
       />
       <section>
         <PastSpeakersButton />

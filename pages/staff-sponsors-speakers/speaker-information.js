@@ -19,7 +19,7 @@ export default function SpeakerInformation() {
       </Head>
       <Header
         title={'Speaker Information'}
-        banner="/static/banners/information/speakers.jpg"
+        banner="/static/banners/speaker-info.jpg"
       />
 
       <section name="Contents">

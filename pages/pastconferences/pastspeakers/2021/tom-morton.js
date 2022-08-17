@@ -23,7 +23,7 @@ export default function TomMorton() {
       </Head>
       <Header
         title={'Tom Morton'}
-        banner="/static/banners/information/thencc.jpg"
+        banner="/static/banners/speakers.jpg"
       />
       <section>
         <PastSpeakersButton />

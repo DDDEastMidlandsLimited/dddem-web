@@ -23,7 +23,7 @@ export default function StephenHaunts() {
       </Head>
       <Header
         title={'Stephen Haunts'}
-        banner="/static/banners/information/thencc.jpg"
+        banner="/static/banners/speakers.jpg"
       />
       <section>
         <PastSpeakersButton />

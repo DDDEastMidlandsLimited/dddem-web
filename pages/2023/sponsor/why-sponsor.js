@@ -12,7 +12,7 @@ export default function WhySponsor() {
       </Head>
       <Header
         title={'Why Sponsor'}
-        banner="/static/banners/sponsor.jpg"
+        banner="/static/banners/why-sponsor.jpg"
       />
 
       <section id="indicating-interest">

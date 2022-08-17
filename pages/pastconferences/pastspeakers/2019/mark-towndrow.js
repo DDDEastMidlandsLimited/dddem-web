@@ -23,7 +23,7 @@ export default function MarkTowndrow() {
       </Head>
       <Header
         title={'Mark Towndrow'}
-        banner="/static/banners/information/thencc.jpg"
+        banner="/static/banners/speakers.jpg"
       />
       <section>
         <PastSpeakersButton />

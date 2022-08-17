@@ -34,7 +34,7 @@ export default function Index() {
             className="pageimage"
             src="/static/pageimage/happy.jpg"
             alt={`Image of the attendees of DDD East Midlands Conference 2019 seated in red auditorium seating.`}
-            height="100"
+            height="85"
             width="200"
             layout="responsive"
           />
@@ -88,14 +88,6 @@ export default function Index() {
             The event is arranged with the community in mind.
           </li>
         </ul>
-        <p tabIndex="0">
-          To find out more, see our{' '}
-          <a href="/information/main-page">information pages</a>. If
-          you are interested in sponsoring the event please
-          <a href="/2020/sponsor">
-            fill in the sponsorship interest form.
-          </a>
-        </p>
         <br />
       </section>
 

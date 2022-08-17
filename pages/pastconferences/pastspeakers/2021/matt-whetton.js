@@ -23,7 +23,7 @@ export default function MattWhetton() {
       </Head>
       <Header
         title={'Matt Whetton'}
-        banner="/static/banners/information/thencc.jpg"
+        banner="/static/banners/speakers.jpg"
       />
       <section>
         <PastSpeakersButton />

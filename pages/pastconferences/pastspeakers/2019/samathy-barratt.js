@@ -23,7 +23,7 @@ export default function SamathyBarratt() {
       </Head>
       <Header
         title={'Samathy Barratt'}
-        banner="/static/banners/information/thencc.jpg"
+        banner="/static/banners/speakers.jpg"
       />
       <section>
         <PastSpeakersButton />

@@ -12,7 +12,7 @@ export default function AccessibilityInformation() {
       </Head>
       <Header
         title={'Accessibility Information'}
-        banner="/static/banners/information/accessibility.jpg"
+        banner="/static/banners/accessibility.jpg"
       />
 
       <section name="Contents">

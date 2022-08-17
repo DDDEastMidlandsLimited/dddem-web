@@ -23,7 +23,7 @@ export default function MoretonBrockley() {
       </Head>
       <Header
         title={'Moreton Brockley'}
-        banner="/static/banners/mort.jpg"
+        banner="/static/banners/organisers/mort.jpg"
       />
       <section>
         <h1 tabIndex="0">Directior/ Co-Founder / Co-Organiser</h1>
