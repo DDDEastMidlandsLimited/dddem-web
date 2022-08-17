@@ -3,6 +3,7 @@ import Layout from '../../../components/Layout';
 import Header from '../../../components/Header';
 import theme from '../../../theme/theme';
 import Head from 'next/head';
+import Image from 'next/image';
 
 export default function Testimonials() {
   return (
@@ -12,7 +13,7 @@ export default function Testimonials() {
       </Head>
       <Header
         title={'Testimonials'}
-        banner="/static/banners/sponsor.jpg"
+        banner="/static/banners/testimonials.jpg"
       />
 
       <section id="intro">
@@ -32,10 +33,13 @@ export default function Testimonials() {
         <div className="row">
           <div className="column">
             <div>
-              <img
+              <Image
                 className="smallpageimage"
                 src="/static/sponsorship/testimonials/bjss.png"
-                alt={`Image of the attendees of DDD East Midlands Conference 2019 seated in red auditorium seating.`}
+                alt={`Image of BJSS.`}
+                height={200}
+                width={200}
+                layout="responsive"
               />
             </div>
           </div>
@@ -85,10 +89,13 @@ export default function Testimonials() {
             </div>
           </div>
           <div className="column info-text">
-            <img
+            <Image
               className="smallpageimage"
               src="/static/sponsorship/testimonials/ert.png"
-              alt={`Image of the attendees of DDD East Midlands Conference 2019 seated in red auditorium seating.`}
+              alt={`Image of ERT.`}
+              height={200}
+              width={200}
+              layout="responsive"
             />
           </div>
         </div>
@@ -98,10 +105,13 @@ export default function Testimonials() {
         <div className="row">
           <div className="column">
             <div>
-              <img
+              <Image
                 className="smallpageimage"
                 src="/static/sponsorship/testimonials/oakbrook.png"
-                alt={`Image of the attendees of DDD East Midlands Conference 2019 seated in red auditorium seating.`}
+                alt={`Image of Oakbrook`}
+                height={200}
+                width={200}
+                layout="responsive"
               />
             </div>
           </div>
@@ -171,13 +181,8 @@ export default function Testimonials() {
           }
 
           .smallpageimage {
-            max-width: 100%;
-            height: 95%;
-            padding: 5px 5px;
-            display: block;
-            margin-left: auto;
-            margin-right: auto;
-            width: 95%;
+            width: 80%;
+            margin: 10px;
           }
 
           @media only screen and (max-width: 810px) {
