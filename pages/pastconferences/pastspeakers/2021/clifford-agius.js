@@ -23,7 +23,7 @@ export default function CliffordAgius() {
       </Head>
       <Header
         title={'Clifford Agius'}
-        banner="/static/banners/information/thencc.jpg"
+        banner="/static/banners/speakers.jpg"
       />
       <section>
         <PastSpeakersButton />

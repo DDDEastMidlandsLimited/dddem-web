@@ -23,7 +23,7 @@ export default function DylanBeattie() {
       </Head>
       <Header
         title={'Matt Brunt'}
-        banner="/static/banners/information/thencc.jpg"
+        banner="/static/banners/speakers.jpg"
       />
       <section>
         <PastSpeakersButton />

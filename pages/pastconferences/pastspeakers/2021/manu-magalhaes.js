@@ -23,7 +23,7 @@ export default function ManuMagalhaes() {
       </Head>
       <Header
         title={'Manu Magalhães'}
-        banner="/static/banners/information/thencc.jpg"
+        banner="/static/banners/speakers.jpg"
       />
       <section>
         <PastSpeakersButton />

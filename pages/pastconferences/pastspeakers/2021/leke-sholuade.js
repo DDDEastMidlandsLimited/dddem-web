@@ -23,7 +23,7 @@ export default function LekeSholuade() {
       </Head>
       <Header
         title={'Leke Sholuade'}
-        banner="/static/banners/information/thencc.jpg"
+        banner="/static/banners/speakers.jpg"
       />
       <section>
         <PastSpeakersButton />

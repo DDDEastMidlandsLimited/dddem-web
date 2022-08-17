@@ -23,7 +23,7 @@ export default function JoelHammondTurner() {
       </Head>
       <Header
         title={'Joel Hammond-Turner'}
-        banner="/static/banners/information/thencc.jpg"
+        banner="/static/banners/speakers.jpg"
       />
       <section>
         <PastSpeakersButton />

@@ -23,7 +23,7 @@ export default function IanCooper() {
       </Head>
       <Header
         title={'Ian Cooper'}
-        banner="/static/banners/information/thencc.jpg"
+        banner="/static/banners/speakers.jpg"
       />
       <section>
         <PastSpeakersButton />

@@ -23,7 +23,7 @@ export default function AnthonyDang() {
       </Head>
       <Header
         title={'Anthony Dang'}
-        banner="/static/banners/information/thencc.jpg"
+        banner="/static/banners/speakers.jpg"
       />
       <section>
         <PastSpeakersButton />
