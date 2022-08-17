@@ -23,7 +23,7 @@ export default function TaniaAllard() {
       </Head>
       <Header
         title={'Tania Allard'}
-        banner="/static/speakers/speakers.jpg"
+        banner="/static/banners/speakers.jpg"
       />
       <section>
         <PastSpeakersButton />

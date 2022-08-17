@@ -13,7 +13,7 @@ export default function CovidPrecautionsPage() {
       </Head>
       <Header
         title={'Covid Precautions'}
-        banner="/static/banners/information/covid.jpg"
+        banner="/static/banners/covid.jpg"
       />
 
       <section>

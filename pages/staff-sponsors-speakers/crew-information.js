@@ -21,7 +21,7 @@ export default function CrewInformation() {
       </Head>
       <Header
         title={'Crew Information'}
-        banner="/static/banners/information/crew.jpg"
+        banner="/static/banners/crew.jpg"
       />
 
       <section name="Contents">
