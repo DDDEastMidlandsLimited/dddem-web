@@ -63,7 +63,7 @@ export default function Sponsor() {
             allowFullScreen
             layout="responsive"
             display="block"
-            className='responsive'
+            className="responsive"
           ></iframe>
         </div>
       </section>
@@ -219,8 +219,8 @@ export default function Sponsor() {
           }
 
           @media only screen and (max-width: 810px) {
-            .responsive{
-              width:80%
+            .responsive {
+              width: 80%;
             }
 
             .picture {
