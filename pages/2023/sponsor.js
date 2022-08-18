@@ -51,6 +51,22 @@ export default function Sponsor() {
         </p>
       </section>
 
+      <section>
+        <div className="center">
+          <iframe
+            width="560"
+            height="315"
+            src="https://www.youtube.com/embed/e0ETxkb_gSk"
+            title="YouTube video player"
+            frameborder="0"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+            allowfullscreen
+            layout="responsive"
+            display="block"
+          ></iframe>
+        </div>
+      </section>
+
       <section id="sponsor-info">
         <h1 tabIndex="0">Want More Information?</h1>
         <p tabIndex="0">
@@ -195,6 +211,10 @@ export default function Sponsor() {
 
           .picture {
             border-radius: 50%;
+          }
+
+          .center {
+            text-align: center;
           }
 
           @media only screen and (max-width: 810px) {
