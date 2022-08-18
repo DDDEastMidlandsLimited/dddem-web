@@ -54,7 +54,7 @@ export default function Sponsor() {
       <section>
         <div className="center">
           <iframe
-            width="560"
+            width="540"
             height="315"
             src="https://www.youtube.com/embed/e0ETxkb_gSk"
             title="YouTube video player"
@@ -63,6 +63,7 @@ export default function Sponsor() {
             allowFullScreen
             layout="responsive"
             display="block"
+            className='responsive'
           ></iframe>
         </div>
       </section>
@@ -218,6 +219,10 @@ export default function Sponsor() {
           }
 
           @media only screen and (max-width: 810px) {
+            .responsive{
+              width:80%
+            }
+
             .picture {
               display: none;
             }
