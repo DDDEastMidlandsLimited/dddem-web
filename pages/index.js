@@ -10,7 +10,7 @@ import Image from 'next/image';
 export default function Index() {
   return (
     <Layout>
-      <Header banner="/static/banners/home.jpg" />
+      <Header banner="/static/banners/homepage.jpg" />
 
       <h3>Developer! Developer! Developer! East Midlands</h3>
 
