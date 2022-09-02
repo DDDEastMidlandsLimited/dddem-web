@@ -3,46 +3,79 @@ import Layout from '../../../components/Layout';
 import Header from '../../../components/Header';
 import theme from '../../../theme/theme';
 import Head from 'next/head';
+import Image from 'next/image';
 
-export default function Sponsor() {
+export default function Demographics() {
   return (
     <Layout>
       <Head>
-        <title>Why would my company sponsor</title>
+        <title>Demographics</title>
       </Head>
       <Header
-        title={'Sponsor'}
+        title={'Demographics'}
         banner="/static/banners/sponsor.jpg"
       />
 
-      <section id="why-sponsor">
-        <h1 tabIndex="0">
-          Why would my company sponsor? What’s in it for us?
-        </h1>
+      <section id="who-attends">
+        <h1 tabIndex="0">Who Attends?</h1>
 
-        <a name="sponsor" />
-        <p tabIndex="0">
-          There are many reasons to sponsor DDD East Midlands - Maybe
-          your company is well-established in the East Midlands and
-          you want to have a presence at the regions' only local tech
-          conference? Or maybe your tech teams are doing great things
-          & you want to shout about it? Maybe you're just starting up
-          & you want to get some exposure to some of the best techies
-          in the area? Whatever YOUR reason, previous sponsors have
-          sighted their main reasons for sponsoring as:
-        </p>
+        <a name="who-attends" />
+
+        <p tabIndex="0"></p>
       </section>
 
-      <section id="indicating-interest">
-        <a name="sponsor" />
-        <h2 tabIndex="0">Free training</h2>
-        <p tabIndex="0">
-          All of the sponsorship tiers include guaranteed tickets to
-          the event. The employees you send will be able to enjoy the
-          conference, learn from the talks and gain as much as an
-          attendee, saving some serious money out of your training
-          budgets & coming back with some new ideas to try!
-        </p>
+      <section id="jobs">
+        <h2 tabIndex="0">Job Titles</h2>
+
+        <a name="jobs" />
+        <p tabIndex="0"></p>
+        <div className="center-pic">
+          <Image
+            src="/static/demographics/2021-jobs.png"
+            alt="2021 Job Titles as a doughnut chart"
+            className="picture"
+            height="250"
+            width="500"
+            layout="responsive"
+          />
+        </div>
+        <div className="center-pic">
+          <Image
+            src="/static/demographics/2019-jobs.png"
+            alt="2019 Job Titles as a doughnut chart"
+            className="picture"
+            height="250"
+            width="500"
+            layout="responsive"
+          />
+        </div>
+      </section>
+
+      <section id="pronouns">
+        <h2 tabIndex="0">Pronouns</h2>
+
+        <a name="pronouns" />
+        <p tabIndex="0"></p>
+        <div className="center-pic">
+          <Image
+            src="/static/demographics/2021-pronoun.png"
+            alt="2021 Pronounss as a doughnut chart"
+            className="picture"
+            height="250"
+            width="500"
+            layout="responsive"
+          />
+        </div>
+        <div className="center-pic">
+          <Image
+            src="/static/demographics/2019-pronoun.png"
+            alt="2019 Pronouns as a doughnut chart"
+            className="picture"
+            height="250"
+            width="500"
+            layout="responsive"
+          />
+        </div>
       </section>
 
       <style jsx>
@@ -56,9 +89,14 @@ export default function Sponsor() {
             padding-bottom: 10px;
           }
 
-          .picture {
-            width: 150px;
-            border-radius: 50%;
+          .center-pic {
+            text-align: center;
+            padding: 5px;
+            width: 75%;
+          }
+
+          .picture-container {
+            margin: 10px;
           }
 
           @media only screen and (max-width: 810px) {
