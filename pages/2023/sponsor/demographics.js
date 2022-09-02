@@ -16,10 +16,43 @@ export default function Demographics() {
         banner="/static/banners/sponsor.jpg"
       />
 
-      <section id="who-attends">
-        <h1 tabIndex="0">Who Attends?</h1>
+<section name="Contents">
+        <h1 tabIndex="0">Contents</h1>
 
-        <a name="who-attends" />
+        <p tabIndex="0">
+          <strong>
+            <a href="#attendee-statistics">Attendee Statistics</a>
+          </strong>
+        </p>
+        <ul>
+          <li>
+            <a href="#job-titles">Job Titles</a>
+          </li>
+          <li>
+            <a href="#attendee-pronouns">Attendee Pronouns</a>
+          </li>
+        </ul>
+        <p tabIndex="0">
+          <strong>
+            <a href="#speaker-statistics">Speaker Statistics</a>
+          </strong>
+        </p>
+        <ul>
+          <li>
+            <a href="#speaker-pronouns">Speaker Pronouns</a>
+          </li>
+        </ul>
+        <p tabIndex="0">
+        <strong>
+        <a href="#talk-topics">Talk Topics</a>
+        </strong>
+        </p>
+      </section>
+
+      <section id="attendee-statistics">
+        <h1 tabIndex="0">Attendee Statistics</h1>
+
+        <a name="attendee-statistics" />
 
         <p tabIndex="0"></p>
       </section>
@@ -51,10 +84,10 @@ export default function Demographics() {
         </div>
       </section>
 
-      <section id="pronouns">
-        <h2 tabIndex="0">Pronouns</h2>
+      <section id="attendee-pronouns">
+        <h2 tabIndex="0">Attendee Pronouns</h2>
 
-        <a name="pronouns" />
+        <a name="attendee-pronouns" />
         <p tabIndex="0"></p>
         <div className="center-pic">
           <Image
@@ -76,6 +109,22 @@ export default function Demographics() {
             layout="responsive"
           />
         </div>
+      </section>
+
+      <section id="speaker-statistics">
+        <h1 tabIndex="0">Speaker Statistics</h1>
+
+        <a name="speaker-statistics" />
+
+        <p tabIndex="0"></p>
+      </section>
+
+      <section id="talk-topics">
+        <h1 tabIndex="0">Talk Topics</h1>
+
+        <a name="talk-topics" />
+
+        <p tabIndex="0"></p>
       </section>
 
       <style jsx>
