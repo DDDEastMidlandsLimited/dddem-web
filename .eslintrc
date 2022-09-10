@@ -33,7 +33,8 @@
                   "ignore": [
                     "jsx",
                     "global",
-                    "layout"
+                    "layout",
+                    "targe"
                   ]
                 }
               ]
