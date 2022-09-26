@@ -1,10 +1,9 @@
-const withPWA = require('next-pwa');
 const glob = require('glob');
+const withPWA = require('next-pwa')({
+  dest: 'public'
+})
 
 module.exports = withPWA({
-  pwa: {
-    dest: 'public',
-  },
   trailingSlash: true,
   exportPathMap: async function (
     defaultPathMap,
