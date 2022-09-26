@@ -12,7 +12,8 @@ export default function Header({ title, banner }) {
           className="image"
           src="/static/ddd_avatar_300.jpg"
           alt="DDD East Midlands Logo"
-          layout="fill"
+          width={300}
+          height={162}
         />
       </div>
 
