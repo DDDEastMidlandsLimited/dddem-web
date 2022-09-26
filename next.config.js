@@ -1,7 +1,7 @@
 const glob = require('glob');
 const withPWA = require('next-pwa')({
-  dest: 'public'
-})
+  dest: 'public',
+});
 
 module.exports = withPWA({
   trailingSlash: true,
@@ -27,10 +27,7 @@ module.exports = withPWA({
 
     return config;
   },
-  experimental: {
-    images: {
-      unoptimized: true,
-    },
-    allowFutureImage: true,
+  images: {
+    unoptimized: true,
   },
 });
