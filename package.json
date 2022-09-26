@@ -12,8 +12,8 @@
     "lint:fix": "eslint --fix .",
     "prettier:check": "prettier --check \"**/*.js\"",
     "prettier:fix": "prettier --write \"**/*.js\"",
-    "test": "jest",
-    "test:watch": "jest --watch",
+    "test": "jest --maxWorkers=1",
+    "test:watch": "jest --watch --maxWorkers=1",
     "test:coverage": "jest --ci --runInBand --reporters=default --reporters=jest-junit --collectCoverage=true",
     "pa11y": "node ./pa11y/index.mjs"
   },
