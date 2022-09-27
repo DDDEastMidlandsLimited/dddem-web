@@ -44,15 +44,39 @@ export default function Demographics() {
 
         <a name="attendee-statistics" />
 
-        <p tabIndex="0"></p>
+        <p tabIndex="0">
+          We have been asked about who comes to DDD East Midlands. All
+          tech professionals are welcome but below is a high level
+          view from Eventbrite information about who attends the
+          conference.
+        </p>
       </section>
 
       <section id="jobs">
         <h2 tabIndex="0">Job Titles</h2>
 
         <a name="jobs" />
-        <p tabIndex="0"></p>
+        <p tabIndex="0">
+          From the past two events it can be seen that the attendence
+          is very engineering heavy. There are all levels of a
+          business that attend, with a good showing from Directors and
+          Heads of department as well. 2021 had a wider range of
+          professions joining the conference, which is a trend we
+          would like to continue.
+        </p>
         <h3>2021</h3>
+        <h4>Top 5 Job Titles</h4>
+        <div className="center-pic">
+          <Image
+            src="/static/demographics/2021-jobs.png"
+            alt="2021 Talk Topic Votes"
+            className="picture"
+            height="250"
+            width="500"
+            layout="responsive"
+          />
+        </div>
+        <h4>Further breakdown</h4>
         <div>
           <table>
             <tr className="header">
@@ -115,6 +139,16 @@ export default function Demographics() {
         </div>
 
         <h3>2019</h3>
+        <div className="center-pic">
+          <Image
+            src="/static/demographics/2019-jobs.png"
+            alt="2021 Talk Topic Votes"
+            className="picture"
+            height="250"
+            width="500"
+            layout="responsive"
+          />
+        </div>
         <div>
           <table>
             <tr className="header">
@@ -200,15 +234,27 @@ export default function Demographics() {
         </p>
       </section>
 
-      <section id="talk-topics">
-        <h1 tabIndex="0">Talk Topics</h1>
+      <section id="talk-stats">
+        <h1 tabIndex="0">Talk Statistics</h1>
 
-        <a name="talk-topics" />
+        <a name="talk-stats" />
 
-        <p tabIndex="0"></p>
+        <p tabIndex="0">
+          We collect statistics from Sessionize about the talks
+          submitted, the level of "entry" for each talk and the
+          speakers past experience / whether they request extra
+          support. These stats help us notice trends in popular
+          topics.
+        </p>
 
         <h3>2021</h3>
-        <p tabIndex="0"></p>
+        <p tabIndex="0">
+          Quite possibly because of the effects of the pandemic, but
+          there was a larger sway towards the topics of management and
+          core skills. People focused topics. Cloud was still high
+          ranking as with the previous event, and there was a good mix
+          of topics from different disciplines.
+        </p>
         <div className="center-pic">
           <Image
             src="/static/demographics/2021-topics.png"
@@ -219,7 +265,11 @@ export default function Demographics() {
             layout="responsive"
           />
         </div>
-        <p tabIndex="0"></p>
+        <p tabIndex="0">
+          Like the previous event, most of the talks submitted were at
+          a beginners level. For the next event we will try to support
+          potential speakers on submitting more advanced talk levels.
+        </p>
         <div className="center-pic">
           <Image
             src="/static/demographics/2021-level.png"
