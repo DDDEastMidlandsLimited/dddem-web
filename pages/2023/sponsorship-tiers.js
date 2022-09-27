@@ -6,43 +6,13 @@ import Layout from '../../components/Layout';
 export default function SponsorshipPack() {
   return (
     <Layout>
-      <Header banner="/static/banners/home.jpg" />
+      <Header banner="/static/banners/sponsorship-tiers.png" />
 
       <section>
-        <h1>Sponsor 2023</h1>
-      </section>
-      <section>
-        <div className="row">
-          <div className="column">
-            <div className="platinum">
-              <iframe
-                width="560"
-                height="315"
-                src="https://www.youtube.com/embed/1ATh2PbQx1Q"
-                title="YouTube video player"
-                frameBorder="0"
-                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-                allowFullScreen
-              ></iframe>
-            </div>
-          </div>
-          <div className="column info-text">
-            <p tabIndex="0">
-              DDD East Midlands is an inclusive, not-for-profit
-              technology conference happening on{' '}
-              <b>7th October 2023</b>.
-            </p>
-            <p tabIndex="0">
-              There are talks, exhibition spaces, hacktober support,
-              coffee, food, networking and MORE. See{' '}
-              <a>our testimony page</a> to hear more from our
-              attendees, sponsors and speakers about past events.
-            </p>
-          </div>
-        </div>
+        <h1>Sponsorship Tiers 2023</h1>
       </section>
 
-      {/*       <section>
+     <section>
             <div className="platinum">
               <iframe
                 width="560"
@@ -55,22 +25,19 @@ export default function SponsorshipPack() {
               ></iframe>
             </div>
             <div>
-          <p tabIndex="0">
-            Bacon ipsum dolor amet turducken chuck andouille pork pork
-            loin. Hamburger kevin frankfurter shankle meatball doner.
-            Spare ribs salami turkey ribeye, biltong capicola t-bone
-            pastrami. Filet mignon alcatra ham jerky cow doner. Ground
-            round fatback pork belly biltong spare ribs strip steak.
-            Leberkas andouille landjaeger drumstick bresaola, corned
-            beef tenderloin frankfurter strip steak ground round pork
-            loin picanha pig spare ribs short ribs. Short ribs salami
-            cupim beef, shankle fatback pig hamburger drumstick
-            tri-tip. Tongue doner drumstick pork chop. Beef ribs pig
-            t-bone, cupim pork loin doner alcatra leberkas pork chop
-            buffalo ribeye spare ribs.
-          </p>
+            <p tabIndex="0">
+              DDD East Midlands is an inclusive, not-for-profit
+              technology conference happening on{' '}
+              <b>7th October 2023</b>.
+            </p>
+            <p tabIndex="0">
+              There are talks, exhibition spaces, hacktober support,
+              coffee, food, networking and MORE. See{' '}
+              <a>our testimony page</a> to hear more from our
+              attendees, sponsors and speakers about past events.
+            </p>
         </div>
-      </section> */}
+      </section>
 
       <section>
         <h2>Platinum Sponsor</h2>
