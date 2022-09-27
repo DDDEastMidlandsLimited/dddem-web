@@ -13,7 +13,7 @@ export default function YourStayInNotts() {
       </Head>
       <Header
         title={'Your Stay In Nottinghams'}
-        banner="/static/banners/activities.jpg"
+        banner="/static/banners/coffee.png"
       />
 
       <section>
