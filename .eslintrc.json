@@ -1,0 +1,43 @@
+{
+  "settings": {
+    "react": {
+      "version": "detect"
+    }
+  },
+  "env": {
+    "browser": true,
+    "jest": true,
+    "es6": true
+  },
+  "plugins": ["import", "react"],
+  "extends": [
+    "plugin:@next/next/recommended",
+    "plugin:react/recommended",
+    "plugin:prettier/recommended",
+    "plugin:react/jsx-runtime"
+  ],
+  "parserOptions": {
+    "ecmaVersion": 2020,
+    "sourceType": "module",
+    "jsx": true
+  },
+  "rules": {
+    "no-console": "warn",
+    "no-eval": "error",
+    "import/first": "error",
+    "prettier/prettier": [
+      "error",
+      {
+        "endOfLine": "auto"
+      }
+    ],
+    "react/no-unescaped-entities": "off",
+    "react/prop-types": "off",
+    "react/no-unknown-property": [
+      2,
+      {
+        "ignore": ["jsx", "layout", "global"]
+      }
+    ]
+  }
+}
