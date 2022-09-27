@@ -1,6 +1,5 @@
 import React from 'react';
 import Head from 'next/head';
-import Script from 'next/script';
 
 export default function HeadComponent() {
   return (
@@ -117,8 +116,8 @@ export default function HeadComponent() {
         href="/static/favicon/favicon-16x16.png"
       />
       <link rel="manifest" href="/manifest.json" />
-      <Script src="/static/client/object-assign-auto.min.js"></Script>
-      <Script src="/static/client/sessionize.js"></Script>
+      <script src="/static/client/object-assign-auto.min.js"></script>
+      <script src="/static/client/sessionize.js"></script>
     </Head>
   );
 }
