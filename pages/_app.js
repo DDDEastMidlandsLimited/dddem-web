@@ -1,5 +1,6 @@
 import React from 'react';
 import '@fortawesome/fontawesome-svg-core/styles.css';
+import '../styles/main.scss';
 import '../theme/bootstrap.css';
 import SSRProvider from 'react-bootstrap/SSRProvider';
 

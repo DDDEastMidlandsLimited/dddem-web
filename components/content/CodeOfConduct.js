@@ -1,9 +1,8 @@
 import React from 'react';
-import ContentSection from '../../styles/ContentSection';
 
 export default function CodeOfConduct() {
   return (
-    <section id="code-of-conduct">
+    <section className="content-section" id="code-of-conduct">
       <h1 tabIndex="0">Code of Conduct</h1>
       <a name="code-of-conduct" />
       <h2 tabIndex="0">
@@ -31,7 +30,6 @@ export default function CodeOfConduct() {
           contact page for information.
         </a>
       </p>
-      <style jsx>{ContentSection}</style>
     </section>
   );
 }

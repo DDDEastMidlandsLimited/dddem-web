@@ -1,0 +1,35 @@
+.content-section {
+  max-width: $maxContentWidth;
+  padding: $contentPadding;
+  margin: auto;
+  > div {
+    padding-bottom: 10px;
+  }
+
+  .green {
+    color: green;
+  }
+
+  .yellow {
+    color: orange;
+  }
+
+  .red {
+    color: red;
+  }
+
+  .picture {
+    width: 95%;
+  }
+
+  table {
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+    text-align: center;
+  }
+
+  tr th {
+    background-color: #dddddd;
+  }
+}
