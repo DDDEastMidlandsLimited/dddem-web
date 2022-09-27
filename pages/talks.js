@@ -1,6 +1,5 @@
 import React from 'react';
 import Layout from '../components/Layout';
-import theme from '../theme/theme';
 import Header from '../components/Header';
 import Head from 'next/head';
 import TalksComponent from '../components/talks/TalksComponent';
@@ -11,14 +10,10 @@ export default function Talks() {
       <Head>
         <title>Talks</title>
       </Head>
-      <Header
-        title={'Talks'}
-        banner="
-    /static/banners/talks.jpg"
-      />
+      <Header title={'Talks'} banner="/static/banners/talks.jpg" />
 
-      <section>
-        <h2>
+      <section className="content-section">
+        <h2 className="highlight">
           We advise using this page on desktop for a good experience.
         </h2>
         <h3>Filtering</h3>
@@ -54,23 +49,9 @@ export default function Talks() {
         <hr />
       </section>
 
-      <section>
+      <section className="content-section">
         <TalksComponent />
       </section>
-
-      <style jsx>
-        {`
-          section {
-            max-width: ${theme.sizes.maxContentWidth};
-            padding: ${theme.sizes.contentPadding};
-            margin: auto;
-          }
-          section h2 {
-            text-align: center;
-            padding-bottom: 15px;
-          }
-        `}
-      </style>
     </Layout>
   );
 }
