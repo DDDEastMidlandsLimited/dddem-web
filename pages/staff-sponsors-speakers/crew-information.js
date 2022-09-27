@@ -1,7 +1,6 @@
 import React from 'react';
 import Layout from '../../components/Layout';
 import Header from '../../components/Header';
-import theme from '../../theme/theme';
 import Head from 'next/head';
 import CovidPrecautions from '../../components/content/CovidPrecautions';
 import {
@@ -24,7 +23,7 @@ export default function CrewInformation() {
         banner="/static/banners/crew.jpg"
       />
 
-      <section name="Contents">
+      <section className="content-section" name="Contents">
         <h1>Contents</h1>
 
         <p>
@@ -132,7 +131,7 @@ export default function CrewInformation() {
 
       <CodeOfConduct />
 
-      <section id="where-and-when">
+      <section className="content-section" id="where-and-when">
         <a name="when-and-where" />
         <h1>When and Where?</h1>
         <h2>When</h2>
@@ -156,7 +155,7 @@ export default function CrewInformation() {
         </p>
       </section>
 
-      <section id="absence">
+      <section className="content-section" id="absence">
         <a name="absence" />
         <h1>Absence</h1>
         <p>
@@ -172,42 +171,6 @@ export default function CrewInformation() {
       <Wifi />
 
       <SocialMedia />
-
-      <style jsx>
-        {`
-          section {
-            max-width: ${theme.sizes.maxContentWidth};
-            padding: ${theme.sizes.contentPadding};
-            margin: auto;
-          }
-          section div {
-            padding-bottom: 10px;
-          }
-
-          .green {
-            color: green;
-          }
-
-          .yellow {
-            color: orange;
-          }
-
-          .red {
-            color: red;
-          }
-
-          table {
-            font-family: arial, sans-serif;
-            border-collapse: collapse;
-            width: 100%;
-            text-align: center;
-          }
-
-          tr th {
-            background-color: #dddddd;
-          }
-        `}
-      </style>
     </Layout>
   );
 }
