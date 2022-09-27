@@ -23,13 +23,13 @@ export default function SteveCollins() {
       </Head>
       <Header
         title={'Steve Collins'}
-        banner="/static/banners/information/thencc.jpg"
+        banner="/static/banners/speakers.jpg"
       />
       <section>
         <PastSpeakersButton />
         <div className="speakerpic-container">
           <Image
-            src="/static/speakers/2021/Steve_Collins.png"
+            src="/static/speakers/2021/Steve_C.jpg"
             alt="Picture of Steve Collins"
             className="speakerpic"
             height={250}

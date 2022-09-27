@@ -23,13 +23,13 @@ export default function GaliyaWarrier() {
       </Head>
       <Header
         title={'Galiya Warrier'}
-        banner="/static/banners/information/thencc.jpg"
+        banner="/static/banners/speakers.jpg"
       />
       <section>
         <PastSpeakersButton />
         <div className="speakerpic-container">
           <Image
-            src="/static/speakers/2019/Galiya_Warrier.png"
+            src="/static/speakers/2019/Galiya_W.jpg"
             alt="Picture of Galiya Warrier"
             className="speakerpic"
             height={250}

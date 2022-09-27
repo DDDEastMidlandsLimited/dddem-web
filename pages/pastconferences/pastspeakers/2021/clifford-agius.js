@@ -23,13 +23,13 @@ export default function CliffordAgius() {
       </Head>
       <Header
         title={'Clifford Agius'}
-        banner="/static/banners/information/thencc.jpg"
+        banner="/static/banners/speakers.jpg"
       />
       <section>
         <PastSpeakersButton />
         <div className="speakerpic-container">
           <Image
-            src="/static/speakers/2021/Clifford_Agius.png"
+            src="/static/speakers/2021/Clifford_A.jpg"
             alt="Picture of Clifford Agius"
             className="speakerpic"
             height={250}

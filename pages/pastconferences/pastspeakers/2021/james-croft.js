@@ -23,13 +23,13 @@ export default function JamesCroft() {
       </Head>
       <Header
         title={'James Croft'}
-        banner="/static/banners/information/thencc.jpg"
+        banner="/static/banners/speakers.jpg"
       />
       <section>
         <PastSpeakersButton />
         <div className="speakerpic-container">
           <Image
-            src="/static/speakers/2021/James_Croft.png"
+            src="/static/speakers/2021/James_C.jpg"
             alt="Picture of James Croft"
             className="speakerpic"
             height={250}

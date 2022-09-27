@@ -37,7 +37,7 @@ const dates = [
   {
     id: 8,
     date: '7th October 2023',
-    name: 'The 2021 Conference',
+    name: 'The 2023 Conference',
   },
 ];
 

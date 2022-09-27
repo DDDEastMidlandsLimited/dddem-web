@@ -23,13 +23,13 @@ export default function NeilOConnor() {
       </Head>
       <Header
         title={"Neil O'Connor"}
-        banner="/static/banners/information/thencc.jpg"
+        banner="/static/banners/speakers.jpg"
       />
       <section>
         <PastSpeakersButton />
         <div className="speakerpic-container">
           <Image
-            src="/static/speakers/2019/Neil_OConnor.png"
+            src="/static/speakers/2019/Neil_OC.jpg"
             alt="Picture of Neil O'Connor"
             className="speakerpic"
             height={250}

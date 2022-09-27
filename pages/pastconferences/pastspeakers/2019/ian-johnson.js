@@ -23,13 +23,13 @@ export default function IanJohnson() {
       </Head>
       <Header
         title={'Ian Johnson'}
-        banner="/static/banners/information/thencc.jpg"
+        banner="/static/banners/speakers.jpg"
       />
       <section>
         <PastSpeakersButton />
         <div className="speakerpic-container">
           <Image
-            src="/static/speakers/2019/Ian_Johnson.png"
+            src="/static/speakers/2019/Ian_J.jpg"
             alt="Picture of Ian Johnson"
             className="speakerpic"
             height={250}

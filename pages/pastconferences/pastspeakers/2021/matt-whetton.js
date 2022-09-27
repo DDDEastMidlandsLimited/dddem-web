@@ -23,13 +23,13 @@ export default function MattWhetton() {
       </Head>
       <Header
         title={'Matt Whetton'}
-        banner="/static/banners/information/thencc.jpg"
+        banner="/static/banners/speakers.jpg"
       />
       <section>
         <PastSpeakersButton />
         <div className="speakerpic-container">
           <Image
-            src="/static/speakers/2021/Matt_Whetton.png"
+            src="/static/speakers/2021/Matt_W.jpg"
             alt="Picture of Matt Whetton"
             className="speakerpic"
             height={250}

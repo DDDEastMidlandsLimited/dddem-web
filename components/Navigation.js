@@ -68,7 +68,7 @@ export default function Navigation() {
               <NavDropdown.Item
                 id="covid-precautions"
                 tabIndex="0"
-                href="/2023/covid-precautions"
+                href="/information/covid-precautions"
                 title="Link to Covid Precautions Page"
               >
                 Covid Precautions

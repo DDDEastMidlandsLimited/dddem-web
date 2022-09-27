@@ -23,13 +23,13 @@ export default function SamathyBarratt() {
       </Head>
       <Header
         title={'Samathy Barratt'}
-        banner="/static/banners/information/thencc.jpg"
+        banner="/static/banners/speakers.jpg"
       />
       <section>
         <PastSpeakersButton />
         <div className="speakerpic-container">
           <Image
-            src="/static/speakers/2019/Samathy_Barratt.png"
+            src="/static/speakers/2019/Samathy_B.jpg"
             alt="Picture of Samathy Barratt"
             className="speakerpic"
             height={250}

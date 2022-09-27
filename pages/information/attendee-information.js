@@ -20,7 +20,7 @@ export default function AttendeeInformation() {
       </Head>
       <Header
         title={'Attendee Information'}
-        banner="/static/banners/information/attendee.jpg"
+        banner="/static/banners/attendee.jpg"
       />
 
       <section name="Contents">
@@ -152,7 +152,7 @@ export default function AttendeeInformation() {
           accessibility concerns{' '}
           <a
             href="/information/accessibility-information"
-            targe="_blank"
+            target="_blank"
           >
             see the accessibility page for more information.
           </a>

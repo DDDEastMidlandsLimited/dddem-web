@@ -23,13 +23,13 @@ export default function LekeSholuade() {
       </Head>
       <Header
         title={'Leke Sholuade'}
-        banner="/static/banners/information/thencc.jpg"
+        banner="/static/banners/speakers.jpg"
       />
       <section>
         <PastSpeakersButton />
         <div className="speakerpic-container">
           <Image
-            src="/static/speakers/2021/Leke_Sholuade.png"
+            src="/static/speakers/2021/Leke_S.jpg.png"
             alt="Picture of Leke Sholuade"
             className="speakerpic"
             height={250}

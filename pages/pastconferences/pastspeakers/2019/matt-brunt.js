@@ -23,13 +23,13 @@ export default function DylanBeattie() {
       </Head>
       <Header
         title={'Matt Brunt'}
-        banner="/static/banners/information/thencc.jpg"
+        banner="/static/banners/speakers.jpg"
       />
       <section>
         <PastSpeakersButton />
         <div className="speakerpic-container">
           <Image
-            src="/static/speakers/2019/Matt_Brunt.png"
+            src="/static/speakers/2019/Matt_B.jpg"
             alt="Picture of Matt Brunt"
             className="speakerpic"
             height={250}

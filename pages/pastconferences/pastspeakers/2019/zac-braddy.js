@@ -23,13 +23,13 @@ export default function ZacBraddy() {
       </Head>
       <Header
         title={'Zac Braddy'}
-        banner="/static/banners/information/thencc.jpg"
+        banner="/static/banners/speakers.jpg"
       />
       <section>
         <PastSpeakersButton />
         <div className="speakerpic-container">
           <Image
-            src="/static/speakers/2019/Zac_Braddy.png"
+            src="/static/speakers/2019/Zac_B.jpg"
             alt="Picture of Zac Braddy"
             className="speakerpic"
             height={250}

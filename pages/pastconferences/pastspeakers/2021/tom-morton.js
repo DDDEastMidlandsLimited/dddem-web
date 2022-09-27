@@ -23,13 +23,13 @@ export default function TomMorton() {
       </Head>
       <Header
         title={'Tom Morton'}
-        banner="/static/banners/information/thencc.jpg"
+        banner="/static/banners/speakers.jpg"
       />
       <section>
         <PastSpeakersButton />
         <div className="speakerpic-container">
           <Image
-            src="/static/speakers/2021/Tom_Morton.png"
+            src="/static/speakers/2021/Tom_M.jpg"
             alt="Picture of Tom Morton"
             className="speakerpic"
             height={250}

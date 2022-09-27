@@ -23,13 +23,13 @@ export default function MarkTowndrow() {
       </Head>
       <Header
         title={'Mark Towndrow'}
-        banner="/static/banners/information/thencc.jpg"
+        banner="/static/banners/speakers.jpg"
       />
       <section>
         <PastSpeakersButton />
         <div className="speakerpic-container">
           <Image
-            src="/static/speakers/2019/Mark_Towndrow.png"
+            src="/static/speakers/2019/Mark_T.jpg"
             alt="Picture of Mark Towndrow"
             className="speakerpic"
             height={250}

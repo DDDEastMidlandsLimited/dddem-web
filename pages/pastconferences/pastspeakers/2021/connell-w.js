@@ -23,13 +23,13 @@ export default function ConnellW() {
       </Head>
       <Header
         title={'Connell W'}
-        banner="/static/banners/information/thencc.jpg"
+        banner="/static/banners/speakers.jpg"
       />
       <section>
         <PastSpeakersButton />
         <div className="speakerpic-container">
           <Image
-            src="/static/speakers/2021/Connell_W.png"
+            src="/static/speakers/2021/Connell_W.jpg"
             alt="Picture of Connell"
             className="speakerpic"
             height={250}

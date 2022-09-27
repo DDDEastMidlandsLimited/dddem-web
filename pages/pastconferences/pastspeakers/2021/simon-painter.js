@@ -23,13 +23,13 @@ export default function SimonPainter() {
       </Head>
       <Header
         title={'Simon Painter'}
-        banner="/static/banners/information/thencc.jpg"
+        banner="/static/banners/speakers.jpg"
       />
       <section>
         <PastSpeakersButton />
         <div className="speakerpic-container">
           <Image
-            src="/static/speakers/2021/Simon_Painter.png"
+            src="/static/speakers/2021/Simon_P.jpg"
             alt="Picture of Simon Painter"
             className="speakerpic"
             height={250}

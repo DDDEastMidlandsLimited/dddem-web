@@ -23,7 +23,7 @@ export default function JessicaWhite() {
       </Head>
       <Header
         title={'Jessica White'}
-        banner="/static/banners/generic.jpg"
+        banner="/static/banners/organisers/jess.jpg"
       />
       <section>
         <h1 tabIndex="0">Director/ Co-Founder / Co-Organiser</h1>

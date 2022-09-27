@@ -23,13 +23,13 @@ export default function HelenJoy() {
       </Head>
       <Header
         title={'Helen Joy'}
-        banner="/static/banners/information/thencc.jpg"
+        banner="/static/banners/speakers.jpg"
       />
       <section>
         <PastSpeakersButton />
         <div className="speakerpic-container">
           <Image
-            src="/static/speakers/2019/Helen_Joy.png"
+            src="/static/speakers/2019/Helen_J.jpg"
             alt="Picture of Helen Joy"
             className="speakerpic"
             height={250}

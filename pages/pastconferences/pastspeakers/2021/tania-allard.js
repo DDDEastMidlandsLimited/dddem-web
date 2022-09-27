@@ -23,13 +23,13 @@ export default function TaniaAllard() {
       </Head>
       <Header
         title={'Tania Allard'}
-        banner="/static/banners/information/thencc.jpg"
+        banner="/static/banners/speakers.jpg"
       />
       <section>
         <PastSpeakersButton />
         <div className="speakerpic-container">
           <Image
-            src="/static/speakers/2021/Tania_Allard.png"
+            src="/static/speakers/2021/Tania_A.jpg"
             alt="Picture of Tania Allard"
             className="speakerpic"
             height={250}

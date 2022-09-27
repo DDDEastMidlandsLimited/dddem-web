@@ -23,13 +23,13 @@ export default function JessicaSalisbury() {
       </Head>
       <Header
         title={'Jessica Salisbury'}
-        banner="/static/banners/information/thencc.jpg"
+        banner="/static/banners/speakers.jpg"
       />
       <section>
         <PastSpeakersButton />
         <div className="speakerpic-container">
           <Image
-            src="/static/speakers/2019/Jessica_Salisbury.png"
+            src="/static/speakers/2019/Jessica_S.jpg"
             alt="Picture of Jessica Salisbury"
             className="speakerpic"
             height={250}

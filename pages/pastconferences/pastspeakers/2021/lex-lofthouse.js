@@ -23,13 +23,13 @@ export default function LexLofthouse() {
       </Head>
       <Header
         title={'Lex Lofthouse'}
-        banner="/static/banners/information/thencc.jpg"
+        banner="/static/banners/speakers.jpg"
       />
       <section>
         <PastSpeakersButton />
         <div className="speakerpic-container">
           <Image
-            src="/static/speakers/2021/Lex_Lofthouse.png"
+            src="/static/speakers/2021/Lex_L.jpg"
             alt="Picture of Lex Lofthouse"
             className="speakerpic"
             height="250"

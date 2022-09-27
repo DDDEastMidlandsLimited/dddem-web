@@ -23,13 +23,13 @@ export default function StephenJackson() {
       </Head>
       <Header
         title={'Stephen Jackson'}
-        banner="/static/banners/information/thencc.jpg"
+        banner="/static/banners/speakers.jpg"
       />
       <section>
         <PastSpeakersButton />
         <div className="speakerpic-container">
           <Image
-            src="/static/speakers/2021/Stephen_Jackson.png"
+            src="/static/speakers/2021/Stephen_J.jpg"
             alt="Picture of Stephen Jackson"
             className="speakerpic"
             height={250}

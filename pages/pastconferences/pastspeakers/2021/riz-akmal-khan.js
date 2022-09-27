@@ -23,13 +23,13 @@ export default function RizwanaAkmalKhan() {
       </Head>
       <Header
         title={'Rizwana Akmal Khan'}
-        banner="/static/banners/information/thencc.jpg"
+        banner="/static/banners/speakers.jpg"
       />
       <section>
         <PastSpeakersButton />
         <div className="speakerpic-container">
           <Image
-            src="/static/speakers/2021/Rizwana_Akmal_Khan.png"
+            src="/static/speakers/2021/Rizwana_A.jpg"
             alt="Picture of Rizwana Akmal Khan"
             className="speakerpic"
             height={250}

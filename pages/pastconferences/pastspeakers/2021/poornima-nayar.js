@@ -23,13 +23,13 @@ export default function PoornimaNayar() {
       </Head>
       <Header
         title={'Poornima Nayar'}
-        banner="/static/banners/information/thencc.jpg"
+        banner="/static/banners/speakers.jpg"
       />
       <section>
         <PastSpeakersButton />
         <div className="speakerpic-container">
           <Image
-            src="/static/speakers/2021/Poornima_Nayar.png"
+            src="/static/speakers/2021/Poornima_N.jpg"
             alt="Picture of Poornima Nayar"
             className="speakerpic"
             height={250}

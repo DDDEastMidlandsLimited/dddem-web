@@ -54,13 +54,14 @@ export default function SpeakerGridItemComponent(props) {
             min-width: 180px;
             height: 180px;
             overflow: hidden;
+            margin: 10px;
           }
 
           .hover-pop {
             width: 175px;
             background-color: #1a7d87;
             position: relative;
-            top: -22px;
+            top: -28px;
             margin-left: 5px;
             animation: floatOut 0.2s normal ease-out;
           }

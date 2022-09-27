@@ -12,7 +12,7 @@ export default function SocialResponsibility() {
       </Head>
       <Header
         title={'Social Responsibility'}
-        banner="/static/banners/sponsor.jpg"
+        banner="/static/banners/hacktober.jpg"
       />
 
       <section id="intro-to-social-responsibility">

@@ -23,13 +23,13 @@ export default function JoelHammondTurner() {
       </Head>
       <Header
         title={'Joel Hammond-Turner'}
-        banner="/static/banners/information/thencc.jpg"
+        banner="/static/banners/speakers.jpg"
       />
       <section>
         <PastSpeakersButton />
         <div className="speakerpic-container">
           <Image
-            src="/static/speakers/2019/Joel_Hammond-Turner.jpg"
+            src="/static/speakers/2019/Joel_HT.jpg"
             alt="Picture of Joel Hammond-Turner"
             className="speakerpic"
             height={250}

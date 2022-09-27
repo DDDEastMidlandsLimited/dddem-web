@@ -23,13 +23,13 @@ export default function StephenHaunts() {
       </Head>
       <Header
         title={'Stephen Haunts'}
-        banner="/static/banners/information/thencc.jpg"
+        banner="/static/banners/speakers.jpg"
       />
       <section>
         <PastSpeakersButton />
         <div className="speakerpic-container">
           <Image
-            src="/static/speakers/2021/Stephen_Haunts.png"
+            src="/static/speakers/2021/Stephen_H.jpg"
             alt="Picture of Stephen Haunts"
             className="speakerpic"
             height={250}

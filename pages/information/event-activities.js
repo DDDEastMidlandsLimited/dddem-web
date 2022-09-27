@@ -13,7 +13,11 @@ export default function EventActivities() {
       </Head>
       <Header
         title={'Event Activities'}
+<<<<<<< HEAD
         banner="/static/banners/sponsor.jpg"
+=======
+        banner="/static/banners/activities.jpg"
+>>>>>>> main
       />
 
       <section id="activities-intro">

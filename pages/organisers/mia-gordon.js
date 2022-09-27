@@ -23,7 +23,7 @@ export default function MiaGordon() {
       </Head>
       <Header
         title={'Mia Gordon'}
-        banner="/static/banners/mia_banner.jpg"
+        banner="/static/banners/organisers/mia.jpg"
       />
       <section>
         <h1 tabIndex="0">Social Responsibility Manager</h1>

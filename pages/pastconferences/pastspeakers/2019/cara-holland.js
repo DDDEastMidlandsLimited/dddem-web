@@ -23,13 +23,13 @@ export default function CaraHolland() {
       </Head>
       <Header
         title={'Cara Holland'}
-        banner="/static/banners/information/thencc.jpg"
+        banner="/static/banners/speakers.jpg"
       />
       <section>
         <PastSpeakersButton />
         <div className="speakerpic-container">
           <Image
-            src="/static/speakers/2019/Cara_Holland.png"
+            src="/static/speakers/2019/Cara_H.jpg"
             alt="Picture of Cara Holland"
             className="speakerpic"
             height={250}
