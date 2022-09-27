@@ -3,8 +3,32 @@
   padding: $contentPadding;
   margin: auto;
 
+  h2 {
+    text-align: center;
+    &.highlight {
+      padding-bottom: 15px;
+    }
+  }
+
+  h3 {
+    &.highlight {
+      text-align: center;
+      color: $primary;
+    }
+  }
+
   div {
     padding-bottom: 10px;
+  }
+
+  .pageimage {
+    object-fit: contain;
+    text-align: center;
+    max-width: 100%;
+    padding: 5px 5px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
   }
 
   .green {
