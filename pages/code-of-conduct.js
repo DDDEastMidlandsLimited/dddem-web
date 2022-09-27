@@ -1,7 +1,6 @@
 import React from 'react';
 import Layout from '../components/Layout';
 import Header from '../components/Header';
-import theme from '../theme/theme';
 import Head from 'next/head';
 
 export default function CodeOfConduct() {
@@ -14,7 +13,7 @@ export default function CodeOfConduct() {
         title={'Code of Conduct'}
         banner="/static/banners/coc.jpg"
       />
-      <section>
+      <section className="content-section">
         <h2 tabIndex="0">TL;DR</h2>
         <p tabIndex="0">
           Treat everyone in a respectful and kind manner. Harassment
@@ -155,15 +154,6 @@ export default function CodeOfConduct() {
           out more and apply.
         </p>
       </section>
-      <style jsx>
-        {`
-          section {
-            max-width: ${theme.sizes.maxContentWidth};
-            padding: ${theme.sizes.contentPadding};
-            margin: auto;
-          }
-        `}
-      </style>
     </Layout>
   );
 }
