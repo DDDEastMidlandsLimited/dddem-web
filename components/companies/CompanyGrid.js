@@ -9,61 +9,24 @@ export default function CompanyGrid() {
 
   return (
     <div>
-      <div>
-        <CompanyDetails />
-        <div className="companyContainer">
-          {companiesList &&
-            companiesList.map((company, index) => (
-              <div className="companyItem" key={index}>
-                <CompanyInfo
-                  key={company.id}
-                  partner={company}
-                  image={company.image}
+      <CompanyDetails />
+      <div className="company-container">
+        {companiesList &&
+          companiesList.map((company, index) => (
+            <div className="company-item" key={index}>
+              <CompanyInfo
+                key={company.id}
+                partner={company}
+                image={company.image}
+              />
+              {company.description && (
+                <CompanyDetailsButton
+                  companyDescription={company.description}
                 />
-                {company.description && (
-                  <CompanyDetailsButton
-                    companyDescription={company.description}
-                  />
-                )}
-              </div>
-            ))}
-        </div>
+              )}
+            </div>
+          ))}
       </div>
-      <style jsx>
-        {`
-          div.companyContainer {
-            display: flex;
-            flex-direction: row;
-            justify-content: center;
-            align-items: baseline;
-            flex-wrap: wrap;
-          }
-          div.companyItem {
-            width: 45%;
-            padding: 5px 5px;
-            display: flex;
-            flex: 0 1 auto;
-            flex-direction: column;
-            justify-content: center;
-            align-items: center;
-            justify-content: space-between;
-            text-align: center;
-          }
-          @media (max-width: 768px) {
-            div.companyItem {
-              width: 70%;
-              padding: 5px 5px;
-              display: flex;
-              flex: 0 1 auto;
-              flex-direction: column;
-              justify-content: center;
-              align-items: center;
-              justify-content: space-between;
-              text-align: center;
-            }
-          }
-        `}
-      </style>
     </div>
   );
 }
