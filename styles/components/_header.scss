@@ -1,0 +1,42 @@
+.header {
+  .background {
+    width: 100vw;
+    background-color: $primary;
+    height: 300px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+
+    @media (min-width: 600px) {
+      .background {
+        height: 350px;
+      }
+    }
+  }
+
+  .logo {
+    text-align: center;
+
+    .image {
+      margin-top: -80px;
+      padding: 20px 30px;
+      background-color: $primary;
+      width: 250px;
+      border-radius: $borderRadiusMobile;
+      background-color: $primary;
+    }
+
+    h1 {
+      font-size: $desktopHeadline1;
+      color: $primary;
+    }
+    @media (min-width: 600px) {
+      .image {
+        margin-top: -80px;
+        padding: 20px 30px;
+        background-color: $primary;
+        width: 250px;
+      }
+    }
+  }
+}
