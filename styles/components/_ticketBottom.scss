@@ -1,0 +1,27 @@
+.contact-button-container {
+  text-align: center;
+
+  .contact-button {
+    text-align: $quaternary;
+    font-weight: bold;
+    font-size: $mobileSubtitle1;
+    flex-grow: 1;
+    border-radius: 12px;
+    padding: 10px 30px;
+    margin: 20px;
+    color: $primary;
+    border: 2px solid $secondary;
+    background-color: $light;
+    box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2),
+      0 6px 20px 0 rgba(0, 0, 0, 0.19);
+
+    a {
+      color: $secondary;
+      text-decoration: none;
+    }
+
+    &:hover {
+      background-color: $quaternary;
+    }
+  }
+}
