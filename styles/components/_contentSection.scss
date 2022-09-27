@@ -31,6 +31,19 @@
     margin-right: auto;
   }
 
+  .crew-image {
+    width: 80%;
+    text-align: center;
+  }
+
+  .qrcode {
+    width: 250px;
+  }
+
+  .img-center {
+    text-align: center;
+  }
+
   .green {
     color: green;
   }
@@ -43,8 +56,18 @@
     color: red;
   }
 
-  .picture {
-    width: 95%;
+  img {
+    &.picture {
+      width: 95%;
+    }
+
+    &.profile {
+      width: 200px;
+      border-radius: 50%;
+      @media only screen and (max-width: 810px) {
+        display: none;
+      }
+    }
   }
 
   table {
