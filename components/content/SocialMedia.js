@@ -1,9 +1,8 @@
 import React from 'react';
-import ContentSection from '../../styles/ContentSection';
 
 export default function SocialMedia() {
   return (
-    <section id="social-media">
+    <section className="content-section" id="social-media">
       <h1 tabIndex="0">Social Media and Photos</h1>
       <p tabIndex="0">
         Feel free to take photos and post on social media before,
@@ -68,7 +67,6 @@ export default function SocialMedia() {
           @dddeastmidlands
         </a>
       </ul>
-      <style jsx>{ContentSection}</style>
     </section>
   );
 }

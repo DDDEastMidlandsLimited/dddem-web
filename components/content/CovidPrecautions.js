@@ -1,9 +1,8 @@
 import React from 'react';
-import ContentSection from '../../styles/ContentSection';
 
 export default function CovidPrecautions() {
   return (
-    <section id="covid-precautions">
+    <section className="content-section" id="covid-precautions">
       <h1 tabIndex="0">Covid Precautions</h1>
       <p tabIndex="0">
         Having spoken to several of our ticket holders we have found
@@ -109,8 +108,6 @@ export default function CovidPrecautions() {
         understand we are taking these precautions so that everyone
         feels safe and relaxed and can enjoy the event.
       </p>
-
-      <style jsx>{ContentSection}</style>
     </section>
   );
 }
