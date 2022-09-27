@@ -35,11 +35,51 @@ export default function YourStayInNotts() {
 
         <a name="hotels" />
         <ul tabIndex="0">
-          <li>Crowne Plaza</li>
-          <li>Travel Lodge</li>
-          <li>Ibis</li>
-          <li>Best Western</li>
-          <li>Mercure</li>
+          <li>
+            <a
+              href="https://www.ihg.com/crowneplaza/hotels/gb/en/nottingham/notws/hoteldetail"
+              target="_blank"
+              rel="noreferrer"
+            >
+              Crowne Plaza
+            </a>
+          </li>
+          <li>
+            <a
+              href="https://www.travelodge.co.uk/hotels/290/Nottingham-Central-hotel"
+              target="_blank"
+              rel="noreferrer"
+            >
+              Travel Lodge
+            </a>
+          </li>
+          <li>
+            <a
+              href="https://all.accor.com/hotel/6160/index.en.shtml?dateIn=&nights=&compositions=1&stayplus=false#origin=ibis"
+              target="_blank"
+              rel="noreferrer"
+            >
+              Ibis
+            </a>
+          </li>
+          <li>
+            <a
+              href="https://www.bwnottinghamcitycentre.co.uk/"
+              target="_blank"
+              rel="noreferrer"
+            >
+              Best Western
+            </a>
+          </li>
+          <li>
+            <a
+              href="https://all.accor.com/hotel/8061/index.en.shtml?dateIn=&nights=&compositions=1&stayplus=false#origin=ibis"
+              target="_blank"
+              rel="noreferrer"
+            >
+              Mercure
+            </a>
+          </li>
         </ul>
       </section>
 
@@ -50,12 +90,42 @@ export default function YourStayInNotts() {
         <a name="breakfast" />
 
         <ul tabIndex="0">
-          <li>Annies</li>
-          <li>Pudding Pantry</li>
-          <li>Delilahs</li>
-          <li>Yolk</li>
-          <li>Clean Cut Kitchen</li>
-          <li>Cartwheel Coffeehouse</li>
+          <li>
+            <a
+              href="https://anniesburgershack.com/menu/breakfast-menu"
+              target="_blank"
+              rel="noreferrer"
+            >
+              Annies
+            </a>
+          </li>
+          <li>
+            <a
+              href="https://www.thepuddingpantry.co.uk/"
+              target="_blank"
+              rel="noreferrer"
+            >
+              Pudding Pantry
+            </a>
+          </li>
+          <li>
+            <a
+              href="https://www.yolknotts.com/breakfast"
+              target="_blank"
+              rel="noreferrer"
+            >
+              Yolk
+            </a>
+          </li>
+          <li>
+            <a
+              href="https://cartwheelcoffee.com/pages/nottingham-cafe"
+              target="_blank"
+              rel="noreferrer"
+            >
+              Cartwheel Coffeehouse
+            </a>
+          </li>
           <li></li>
         </ul>
 
