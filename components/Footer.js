@@ -1,6 +1,5 @@
 import React from 'react';
 import Link from 'next/link';
-import theme from '../theme/theme';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { library } from '@fortawesome/fontawesome-svg-core';
 import {
@@ -16,7 +15,7 @@ library.add(faInstagram, faTwitter, faGithub, faLinkedin);
 
 export default function Footer() {
   return (
-    <footer>
+    <footer className="footer">
       <div className="row">
         <div className="col-3">
           <Link href="/code-of-conduct">
@@ -84,34 +83,6 @@ export default function Footer() {
           </Link>
         </div>
       </div>
-      <style jsx>
-        {`
-          footer {
-            width: 100vw;
-            background-color: ${theme.palette.primary};
-            padding: 20px 0;
-            margin-top: 30px;
-            text-align: center;
-          }
-          div.row {
-            display: flex;
-            flex-wrap: wrap;
-            margin-right: -15px;
-            margin-left: -15px;
-            justify-content: center;
-          }
-          div.col-3 {
-            flex: 0 0 25%;
-            max-width: 25%;
-          }
-          a {
-            text-decoration: none;
-            font-family: ${theme.font.default};
-            color: ${theme.palette.light};
-            margin-left: 5%;
-          }
-        `}
-      </style>
     </footer>
   );
 }

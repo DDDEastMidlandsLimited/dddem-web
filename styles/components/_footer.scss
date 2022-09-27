@@ -1,0 +1,26 @@
+.footer {
+  width: 100vw;
+  background-color: $primary;
+  padding: 20px 0;
+  margin-top: 30px;
+  text-align: center;
+
+  .row {
+    display: flex;
+    flex-wrap: wrap;
+    margin-right: -15px;
+    margin-left: -15px;
+    justify-content: center;
+
+    .col-3 {
+      flex: 0 0 25%;
+      max-width: 25%;
+
+      a {
+        text-decoration: none;
+        color: $light;
+        margin-left: 5%;
+      }
+    }
+  }
+}
