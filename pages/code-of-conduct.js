@@ -34,7 +34,7 @@ export default function CodeOfConduct() {
           .
         </p>
       </section>
-      <section>
+      <section className="content-section">
         <h2 tabIndex="0">The Full Version</h2>
         <p tabIndex="0">
           Inclusivity is a core value of DDD East Midlands. We believe
@@ -114,7 +114,7 @@ export default function CodeOfConduct() {
           law enforcement.
         </p>
       </section>
-      <section>
+      <section className="content-section">
         <h2 tabIndex="0">Reporting Code Of Conduct Violations</h2>
         <p tabIndex="0">
           If there is any circumstance where want to report a code of
@@ -140,7 +140,7 @@ export default function CodeOfConduct() {
           messages will be dealt with in a timely manner on the day.
         </p>
       </section>
-      <section>
+      <section className="content-section">
         <h2 tabIndex="0">Approaching People About Jobs</h2>
         <p tabIndex="0">
           At our events and on our online community it is not
