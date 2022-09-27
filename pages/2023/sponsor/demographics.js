@@ -208,9 +208,7 @@ export default function Demographics() {
         <p tabIndex="0"></p>
 
         <h3>2021</h3>
-        <p tabIndex="0">
-          
-        </p>
+        <p tabIndex="0"></p>
         <div className="center-pic">
           <Image
             src="/static/demographics/2021-topics.png"
@@ -221,9 +219,7 @@ export default function Demographics() {
             layout="responsive"
           />
         </div>
-        <p tabIndex="0">
-          
-        </p>
+        <p tabIndex="0"></p>
         <div className="center-pic">
           <Image
             src="/static/demographics/2021-level.png"
