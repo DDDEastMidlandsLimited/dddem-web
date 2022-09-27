@@ -2,7 +2,6 @@ import React from 'react';
 import Layout from '../../components/Layout';
 import Header from '../../components/Header';
 import CovidPrecautions from '../../components/content/CovidPrecautions';
-import theme from '../../theme/theme';
 import Head from 'next/head';
 import FullWidthImage from '../../components/FullWidthImage';
 import {
@@ -22,7 +21,7 @@ export default function SpeakerInformation() {
         banner="/static/banners/speaker-info.jpg"
       />
 
-      <section name="Contents">
+      <section className="content-section" name="Contents">
         <h1 tabIndex="0">Contents</h1>
         <p>
           <strong>
@@ -149,7 +148,7 @@ export default function SpeakerInformation() {
 
       <CodeOfConduct />
 
-      <section id="general">
+      <section className="content-section" id="general">
         <h1 tabIndex="0">General</h1>
         <a name="rooms" />
         <h2 tabIndex="0">Rooms</h2>
@@ -200,7 +199,7 @@ export default function SpeakerInformation() {
         </p>
       </section>
 
-      <section id="before">
+      <section className="content-section" id="before">
         <h1 tabIndex="0">Before The Conference</h1>
 
         <a name="we-need-to-know" />
@@ -221,7 +220,7 @@ export default function SpeakerInformation() {
         </li>
       </section>
 
-      <section id="day-of">
+      <section className="content-section" id="day-of">
         <h1 tabIndex="0">The Day Of The Conference</h1>
         <a name="conference-arrival" />
         <h2 tabIndex="0">Letting us know you have arrived</h2>
@@ -353,7 +352,7 @@ export default function SpeakerInformation() {
 
       <SocialMedia />
 
-      <section id="after">
+      <section className="content-section" id="after">
         <h1 tabIndex="0">After The Conference Media</h1>
         <a name="talk-videos" />
         <h2 tabIndex="0">Videoed Talks</h2>
@@ -377,7 +376,7 @@ export default function SpeakerInformation() {
 
       {/* <PubConf /> */}
 
-      <section id="checklist">
+      <section className="content-section" id="checklist">
         <h1 tabIndex="0">Suggested Checklist</h1>
         <li tabIndex="0">Twitter handle on slides</li>
         <li tabIndex="0">Clicker</li>
@@ -418,7 +417,7 @@ export default function SpeakerInformation() {
 
       <Transport />
 
-      <section id="nottingham">
+      <section className="content-section" id="nottingham">
         <h1 tabIndex="0">Staying in Nottingham</h1>
 
         <a name="important-contacts" />
@@ -584,28 +583,6 @@ export default function SpeakerInformation() {
           in the direction of some great ones.
         </p>
       </section>
-
-      <style jsx>
-        {`
-          section {
-            max-width: ${theme.sizes.maxContentWidth};
-            padding: ${theme.sizes.contentPadding};
-            margin: auto;
-          }
-          section div {
-            padding-bottom: 10px;
-          }
-          .green {
-            color: green;
-          }
-          .yellow {
-            color: orange;
-          }
-          .red {
-            color: red;
-          }
-        `}
-      </style>
     </Layout>
   );
 }
