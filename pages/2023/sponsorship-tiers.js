@@ -12,30 +12,30 @@ export default function SponsorshipPack() {
         <h1>Sponsorship Tiers 2023</h1>
       </section>
 
-     <section>
-            <div className="platinum">
-              <iframe
-                width="560"
-                height="315"
-                src="https://www.youtube.com/embed/1ATh2PbQx1Q"
-                title="YouTube video player"
-                frameborder="0"
-                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-                allowfullscreen
-              ></iframe>
-            </div>
-            <div>
-            <p tabIndex="0">
-              DDD East Midlands is an inclusive, not-for-profit
-              technology conference happening on{' '}
-              <b>7th October 2023</b>.
-            </p>
-            <p tabIndex="0">
-              There are talks, exhibition spaces, hacktober support,
-              coffee, food, networking and MORE. See{' '}
-              <a>our testimony page</a> to hear more from our
-              attendees, sponsors and speakers about past events.
-            </p>
+      <section>
+        <div className="platinum">
+          <iframe
+            width="560"
+            height="315"
+            src="https://www.youtube.com/embed/1ATh2PbQx1Q"
+            title="YouTube video player"
+            frameborder="0"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+            allowfullscreen
+          ></iframe>
+        </div>
+        <div>
+          <p tabIndex="0">
+            DDD East Midlands is an inclusive, not-for-profit
+            technology conference happening on <b>7th October 2023</b>
+            .
+          </p>
+          <p tabIndex="0">
+            There are talks, exhibition spaces, hacktober support,
+            coffee, food, networking and MORE. See{' '}
+            <a>our testimony page</a> to hear more from our attendees,
+            sponsors and speakers about past events.
+          </p>
         </div>
       </section>
 
