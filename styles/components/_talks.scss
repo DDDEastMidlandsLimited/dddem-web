@@ -1,0 +1,80 @@
+.talks-container {
+  display: flex;
+  flex-direction: row;
+
+  .talks-filter {
+    margin-right: 2%;
+    float: left;
+    width: 30%;
+  }
+
+  .talks-list {
+    float: right;
+    width: 70%;
+
+    .talk-title {
+      padding: 10px;
+      border-radius: 12px;
+      color: $dark;
+      display: inline-block;
+      border: 2px solid $quaternary;
+      border-radius: 5px;
+      margin-bottom: 5px;
+      width: 100%;
+
+      &:hover {
+        background-color: $quaternary;
+      }
+    }
+
+    .tags-or-lengths {
+      display: inline-flex;
+      flex-direction: row;
+    }
+
+    .tags-or-lengths {
+      display: inline-flex;
+      flex-direction: row;
+    }
+
+    .tag-or-lengths {
+      padding-left: 5px;
+      padding-right: 5px;
+    }
+
+    .render-paragraph {
+      padding-top: 10px;
+    }
+
+    .description-level-tags-length {
+      padding-top: 10px;
+
+      .sub-title {
+        color: $secondary;
+      }
+    }
+  }
+}
+
+.filter-item {
+  border-radius: 12px;
+  border: none;
+  color: $tertiary;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  background-color: $quaternary;
+  margin-bottom: 15px;
+  width: 70%;
+
+  &:hover {
+    box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2),
+      0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  }
+
+  &.selected {
+    background-color: $primary;
+  }
+}

@@ -1,6 +1,7 @@
 import React from 'react';
 import theme from '../../theme/theme';
-export default class TalkList extends React.PureComponent {
+
+export default class Talk extends React.PureComponent {
   constructor(props, context) {
     super(props, context);
 
@@ -38,26 +39,6 @@ export default class TalkList extends React.PureComponent {
               talk.lengths,
             )
           : null}
-        <style jsx>
-          {`
-            div {
-              padding: 10px;
-            }
-
-            .talk-title {
-              border-radius: 12px;
-              color: ${theme.palette.dark};
-              display: inline-block;
-              border: 2px solid ${theme.palette.quaternary};
-              border-radius: 5px;
-              margin-bottom: 5px;
-              width: 100%;
-            }
-            .talk-title:hover {
-              background-color: ${theme.palette.quaternary};
-            }
-          `}
-        </style>
       </div>
     );
   }
@@ -83,33 +64,13 @@ export default class TalkList extends React.PureComponent {
       return this._renderTagOrLength(index, item);
     });
 
-    return (
-      <div>
-        {itemElements}
-        <style jsx>
-          {`
-            div {
-              display: inline-flex;
-              flex-direction: row;
-            }
-          `}
-        </style>
-      </div>
-    );
+    return <div className="tags-or-lengths">{itemElements}</div>;
   }
 
   _renderTagOrLength(index, item) {
     return (
-      <div key={index}>
+      <div className="tag-or-lengths" key={index}>
         {item}
-        <style jsx>
-          {`
-            div {
-              padding-left: 5px;
-              padding-right: 5px;
-            }
-          `}
-        </style>
       </div>
     );
   }
@@ -128,7 +89,7 @@ export default class TalkList extends React.PureComponent {
       });
 
     return (
-      <div>
+      <div className="description-level-tags-length">
         <hr />
         <div className="sub-title">Level: {level}</div>
         <div className="sub-title">
@@ -141,31 +102,14 @@ export default class TalkList extends React.PureComponent {
           <strong>Description:</strong>
         </div>
         {paragraphs}
-        <style jsx>
-          {`
-            div {
-              padding-top: 10px;
-            }
-            .sub-title {
-              color: ${theme.palette.secondary};
-            }
-          `}
-        </style>
       </div>
     );
   }
 
   _renderParagraph(index, paragraph) {
     return (
-      <div key={index}>
+      <div className="render-paragraph" key={index}>
         {paragraph}
-        <style jsx>
-          {`
-            div {
-              padding-top: 10px;
-            }
-          `}
-        </style>
       </div>
     );
   }

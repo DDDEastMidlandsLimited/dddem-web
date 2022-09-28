@@ -1,0 +1,71 @@
+.sponsorship-tiers {
+  .top {
+    color: $tertiary;
+    font-weight: bold;
+    font-size: $mobileSubtitle1;
+    flex-grow: 1;
+  }
+
+  .bottom {
+    color: $light;
+    margin-left: -30px;
+  }
+
+  .strikeBottom {
+    color: $light;
+    margin-left: -30px;
+    text-decoration: line-through;
+  }
+
+  .bottomBackground {
+    background-color: $primary;
+    padding: 5px 0px 5px 30px;
+    width: 100%;
+    margin-left: -15px;
+  }
+
+  .pastBottomBackground {
+    background-color: $secondary;
+    padding: 5px 0px 5px 30px;
+    width: 100%;
+    margin-left: -15px;
+  }
+}
+
+.sponsorship-description {
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  height: 90px;
+
+  .top {
+    color: $tertiary;
+    font-weight: bold;
+    font-size: $mobileSubtitle1;
+    flex-grow: 1;
+  }
+  .bottomBackground {
+    background-color: $primary;
+    padding: 5px 0px 5px 30px;
+    width: 100%;
+    margin-left: -15px;
+
+    .bottom {
+      color: $light;
+      margin-left: -25px;
+    }
+  }
+}
+
+.sponsorship-image {
+  position: absolute;
+  top: 0;
+  left: 0;
+  border: 20px solid white;
+  background: white;
+
+  img {
+    width: 95%;
+    margin-top: 4px;
+  }
+}
