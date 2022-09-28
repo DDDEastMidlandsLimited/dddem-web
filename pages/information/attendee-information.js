@@ -23,7 +23,7 @@ export default function AttendeeInformation() {
         banner="/static/banners/attendee.jpg"
       />
 
-      <section name="Contents">
+      <section className="content-section" name="Contents">
         <h1 tabIndex="0">Contents</h1>
         <p>
           <strong>
@@ -132,7 +132,7 @@ export default function AttendeeInformation() {
 
       <CodeOfConduct />
 
-      <section id="age-restrictions">
+      <section className="content-section" id="age-restrictions">
         <a name="age" />
         <h1 tabIndex="0">Age Restrictions</h1>
         <p tabIndex="0">
@@ -144,7 +144,7 @@ export default function AttendeeInformation() {
         </p>
       </section>
 
-      <section id="accessibility">
+      <section className="content-section" id="accessibility">
         <a name="accessibility" />
         <h1 tabIndex="0">Accessibility Concerns</h1>
         <p tabIndex="0">
@@ -159,7 +159,7 @@ export default function AttendeeInformation() {
         </p>
       </section>
 
-      <section id="tickets">
+      <section className="content-section" id="tickets">
         <a name="tickets" />
         <h1 tabIndex="0">Tickets</h1>
         <a name="using-tickets" />
@@ -195,7 +195,7 @@ export default function AttendeeInformation() {
         </p>
       </section>
 
-      <section id="before-the-day">
+      <section className="content-section" id="before-the-day">
         <a name="before-the-day" />
         <h1 tabIndex="0">Before The Day</h1>
         <a name="pat-before" />
@@ -222,7 +222,7 @@ export default function AttendeeInformation() {
 
       <Transport />
 
-      <section id="registration">
+      <section className="content-section" id="registration">
         <a name="registration" />
         <h1 tabIndex="0">Coming To The Event</h1>
         <a name="coffee-meet" />
@@ -255,42 +255,6 @@ export default function AttendeeInformation() {
       <Wifi />
 
       <SocialMedia />
-
-      <style jsx>
-        {`
-          section {
-            max-width: ${theme.sizes.maxContentWidth};
-            padding: ${theme.sizes.contentPadding};
-            margin: auto;
-          }
-          section div {
-            padding-bottom: 10px;
-          }
-
-          .green {
-            color: green;
-          }
-
-          .yellow {
-            color: orange;
-          }
-
-          .red {
-            color: red;
-          }
-
-          table {
-            font-family: arial, sans-serif;
-            border-collapse: collapse;
-            width: 100%;
-            text-align: center;
-          }
-
-          tr th {
-            background-color: #dddddd;
-          }
-        `}
-      </style>
     </Layout>
   );
 }

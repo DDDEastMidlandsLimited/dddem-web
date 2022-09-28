@@ -1,6 +1,5 @@
 import React from 'react';
 import Layout from '../../components/Layout';
-import theme from '../../theme/theme';
 import Header from '../../components/Header';
 import Head from 'next/head';
 
@@ -12,7 +11,7 @@ export default function VenueInformation() {
       </Head>
       <Header title={'Venue'} banner="/static/banners/venue.jpg" />
 
-      <section>
+      <section className="content-section">
         <h1 tabIndex="0">How to find DDD East Midlands</h1>
         <p>
           The venue for DDD is now part of{' '}
@@ -49,7 +48,8 @@ export default function VenueInformation() {
           Gate URC Church.
         </p>
       </section>
-      <section>
+
+      <section className="content-section">
         <h2 tabIndex="0">By rail</h2>
         <p tabIndex="0">
           Nottingham Station is the mainline train station close to
@@ -67,7 +67,8 @@ export default function VenueInformation() {
           University Newton &amp; Arkwright".
         </p>
       </section>
-      <section>
+
+      <section className="content-section">
         <h2 tabIndex="0">By air</h2>
         <p tabIndex="0">
           The closest airport to Nottingham is East Midlands Airport
@@ -80,7 +81,7 @@ export default function VenueInformation() {
         </p>
       </section>
 
-      <section>
+      <section className="content-section">
         <h2 tabIndex="0">By car</h2>
         <p tabIndex="0">
           From the north, exit the M1 at junction 26 and follow the
@@ -115,7 +116,7 @@ export default function VenueInformation() {
         </p>
       </section>
 
-      <section>
+      <section className="content-section">
         <h4 tabIndex="0">Car parking</h4>
         <p tabIndex="0">
           Car parks in the city centre are clearly signposted from all
@@ -153,15 +154,6 @@ export default function VenueInformation() {
           co-ordinates 52.956143,-1.154433
         </p>
       </section>
-      <style jsx>
-        {`
-          section {
-            max-width: ${theme.sizes.maxContentWidth};
-            padding: ${theme.sizes.contentPadding};
-            margin: auto;
-          }
-        `}
-      </style>
     </Layout>
   );
 }
