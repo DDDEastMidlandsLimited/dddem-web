@@ -1,6 +1,5 @@
 import React from 'react';
 import Layout from '../../../components/Layout';
-import theme from '../../../theme/theme';
 import Header from '../../../components/Header';
 import SpeakerGridItemComponent from '../../../components/speakers/speakergriditem';
 import Head from 'next/head';
@@ -15,16 +14,18 @@ export default function Speaker2021Component() {
         title={'Past Speakers'}
         banner="/static/banners/speakers.jpg"
       />
-      <section>
+      <section className="content-section">
         <p>
           Click on the images of our wonderful speakers to find out
           more about them and what they will be talking about.
         </p>
       </section>
-      <section>
+
+      <section className="content-section">
         <h2>2021</h2>
       </section>
-      <section className="speaker-grid">
+
+      <section className="speaker-grid content-section">
         <SpeakerGridItemComponent
           speakername="Tania Allard"
           pic="/static/speakers/2021/Tania_A.jpg"
@@ -32,7 +33,8 @@ export default function Speaker2021Component() {
           talkbrief="KEYNOTE: Open source for fun and for profit"
         />
       </section>
-      <section className="speaker-grid">
+
+      <section className="speaker-grid content-section">
         <SpeakerGridItemComponent
           speakername="Lex Lofthouse"
           pic="/static/speakers/2021/Lex_L.jpg"
@@ -136,10 +138,12 @@ export default function Speaker2021Component() {
           talkbrief="How to ruin kid's games with machine learning"
         />
       </section>
-      <section>
+
+      <section className="content-section">
         <h2>2019</h2>
       </section>
-      <section className="speaker-grid">
+
+      <section className="speaker-grid content-section">
         <SpeakerGridItemComponent
           speakername="Dylan Beattie"
           pic="/static/speakers/2019/Dylan_B.jpg"
@@ -147,7 +151,8 @@ export default function Speaker2021Component() {
           talkbrief="The Art of Code"
         />
       </section>
-      <section className="speaker-grid">
+
+      <section className="speaker-grid content-section">
         <SpeakerGridItemComponent
           speakername="Matt Brunt"
           pic="/static/speakers/2019/Matt_B.jpg"
@@ -239,27 +244,6 @@ export default function Speaker2021Component() {
           talkbrief="Hacking C#: Development for the Truly Lazy"
         />
       </section>
-
-      <style jsx>
-        {`
-          section {
-            max-width: ${theme.sizes.maxContentWidth};
-            padding: ${theme.sizes.contentPadding};
-            margin: auto;
-          }
-
-          .grid-container {
-            text-align: center;
-          }
-
-          .speaker-grid {
-            display: flex;
-            flex-direction: row;
-            flex-wrap: wrap;
-            justify-content: center;
-          }
-        `}
-      </style>
     </Layout>
   );
 }

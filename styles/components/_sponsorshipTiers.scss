@@ -1,0 +1,94 @@
+.sponsorship-tiers-section {
+  @include content-spacing;
+
+  h1 {
+    text-align: center;
+    color: $primary;
+  }
+  h2 {
+    text-align: center;
+  }
+  h3 {
+    text-align: center;
+    color: $primary;
+  }
+
+  .row {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 100%;
+  }
+  .column {
+    display: flex;
+    flex-direction: column;
+    flex-basis: 80%;
+    flex: 1;
+    padding: 5px 5px;
+    margin-left: 15px;
+  }
+
+  .subheader {
+    margin: 0px;
+    padding-bottom: 15px;
+  }
+
+  .banner {
+    text-align: center;
+    padding: 5px 5px;
+    background: $primary;
+    color: $light;
+  }
+  .banner a {
+    text-align: center;
+    color: $light;
+  }
+
+  .platinum {
+    text-align: center;
+    padding: 5px 5px;
+  }
+
+  .pageimage {
+    text-align: center;
+    max-width: 100%;
+    height: auto;
+    padding: 5px 5px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 95%;
+  }
+
+  .smallpageimage {
+    max-width: 100%;
+    height: auto;
+    padding: 5px 5px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 95%;
+  }
+
+  .iframe {
+    text-align: center;
+    display: block;
+  }
+
+  .info-text {
+    padding: 1% 5%;
+  }
+
+  .silver {
+    margin: auto;
+    width: 35%;
+  }
+
+  .infolink {
+    margin: 10px;
+  }
+  .silver {
+    text-align: center;
+    width: 70%;
+  }
+}

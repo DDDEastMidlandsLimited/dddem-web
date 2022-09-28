@@ -1,7 +1,6 @@
 import React from 'react';
 import Layout from '../../../components/Layout';
 import Header from '../../../components/Header';
-import theme from '../../../theme/theme';
 import Head from 'next/head';
 
 export default function Sponsor() {
@@ -15,7 +14,7 @@ export default function Sponsor() {
         banner="/static/banners/sponsor.jpg"
       />
 
-      <section id="why-sponsor">
+      <section className="content-section" id="why-sponsor">
         <h1 tabIndex="0">
           Why would my company sponsor? What’s in it for us?
         </h1>
@@ -33,7 +32,7 @@ export default function Sponsor() {
         </p>
       </section>
 
-      <section id="indicating-interest">
+      <section className="content-section" id="indicating-interest">
         <a name="sponsor" />
         <h2 tabIndex="0">Free training</h2>
         <p tabIndex="0">
@@ -44,30 +43,6 @@ export default function Sponsor() {
           budgets & coming back with some new ideas to try!
         </p>
       </section>
-
-      <style jsx>
-        {`
-          section {
-            max-width: ${theme.sizes.maxContentWidth};
-            padding: ${theme.sizes.contentPadding};
-            margin: auto;
-          }
-          section div {
-            padding-bottom: 10px;
-          }
-
-          .picture {
-            width: 150px;
-            border-radius: 50%;
-          }
-
-          @media only screen and (max-width: 810px) {
-            .picture {
-              display: none;
-            }
-          }
-        `}
-      </style>
     </Layout>
   );
 }

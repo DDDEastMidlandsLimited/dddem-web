@@ -1,7 +1,6 @@
 import React from 'react';
 import Layout from '../../../components/Layout';
 import Header from '../../../components/Header';
-import theme from '../../../theme/theme';
 import Head from 'next/head';
 
 export default function WhySponsor() {
@@ -15,7 +14,7 @@ export default function WhySponsor() {
         banner="/static/banners/why-sponsor.jpg"
       />
 
-      <section id="indicating-interest">
+      <section className="content-section" id="indicating-interest">
         <h1 tabIndex="0">
           Why would my company sponsor? What is in it for us?
         </h1>
@@ -57,7 +56,7 @@ export default function WhySponsor() {
         </li>
       </section>
 
-      <section id="recruitment">
+      <section className="content-section" id="recruitment">
         <a name="recruitment" />
         <h2 tabIndex="0">
           Recruitment and building connections across the community
@@ -79,7 +78,7 @@ export default function WhySponsor() {
         </p>
       </section>
 
-      <section id="free-training">
+      <section className="content-section" id="free-training">
         <a name="free-training" />
         <h2 tabIndex="0">Free training</h2>
         <p tabIndex="0">
@@ -91,7 +90,7 @@ export default function WhySponsor() {
         </p>
       </section>
 
-      <section id="marketing">
+      <section className="content-section" id="marketing">
         <a name="marketing" />
         <h2 tabIndex="0">Marketing - Reaching a wider audience</h2>
         <p tabIndex="0">
@@ -101,7 +100,7 @@ export default function WhySponsor() {
         </p>
       </section>
 
-      <section id="exhibition">
+      <section className="content-section" id="exhibition">
         <a name="exhibition" />
         <h2 tabIndex="0">Exhibition booth</h2>
         <p tabIndex="0">
@@ -131,7 +130,7 @@ export default function WhySponsor() {
         </p>
       </section>
 
-      <section id="community">
+      <section className="content-section" id="community">
         <a name="community" />
         <h2 tabIndex="0">
           Supporting and endorsing the local tech community
@@ -151,30 +150,6 @@ export default function WhySponsor() {
           providing your support.
         </p>
       </section>
-
-      <style jsx>
-        {`
-          section {
-            max-width: ${theme.sizes.maxContentWidth};
-            padding: ${theme.sizes.contentPadding};
-            margin: auto;
-          }
-          section div {
-            padding-bottom: 10px;
-          }
-
-          .picture {
-            width: 150px;
-            border-radius: 50%;
-          }
-
-          @media only screen and (max-width: 810px) {
-            .picture {
-              display: none;
-            }
-          }
-        `}
-      </style>
     </Layout>
   );
 }

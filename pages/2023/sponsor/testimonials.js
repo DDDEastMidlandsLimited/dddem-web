@@ -1,7 +1,6 @@
 import React from 'react';
 import Layout from '../../../components/Layout';
 import Header from '../../../components/Header';
-import theme from '../../../theme/theme';
 import Head from 'next/head';
 import Image from 'next/image';
 
@@ -16,7 +15,7 @@ export default function Testimonials() {
         banner="/static/banners/testimonials.jpg"
       />
 
-      <section id="intro">
+      <section className="content-section" id="intro">
         <a name="intro" />
         <p tabIndex="0">
           Don't take our word for it, hear from our past sponsors,
@@ -25,11 +24,11 @@ export default function Testimonials() {
         </p>
       </section>
 
-      <section id="sponsor-testimonials">
+      <section className="content-section" id="sponsor-testimonials">
         <h2 tabIndex="0">From our past sponsors</h2>
       </section>
 
-      <section>
+      <section className="content-section">
         <div className="row">
           <div className="column">
             <div>
@@ -66,7 +65,7 @@ export default function Testimonials() {
         </div>
       </section>
 
-      <section>
+      <section className="content-section">
         <div className="row">
           <div className="column">
             <div>
@@ -101,7 +100,7 @@ export default function Testimonials() {
         </div>
       </section>
 
-      <section>
+      <section className="content-section">
         <div className="row">
           <div className="column">
             <div>
@@ -139,59 +138,6 @@ export default function Testimonials() {
           </div>
         </div>
       </section>
-
-      <style jsx>
-        {`
-          section {
-            max-width: ${theme.sizes.maxContentWidth};
-            padding: ${theme.sizes.contentPadding};
-            margin: auto;
-          }
-
-          section div {
-            padding-bottom: 10px;
-          }
-
-          .row {
-            display: flex;
-            flex-direction: row;
-            flex-wrap: wrap;
-            width: 100%;
-          }
-          .column {
-            display: flex;
-            flex-direction: column;
-            flex-basis: 80%;
-            flex: 1;
-            padding: 5px 5px;
-            margin-left: 15px;
-          }
-
-          .picture {
-            width: 150px;
-            border-radius: 50%;
-          }
-
-          .pink {
-            color: ${theme.palette.secondary};
-          }
-
-          .grey {
-            color: ${theme.palette.quaternary};
-          }
-
-          .smallpageimage {
-            width: 80%;
-            margin: 10px;
-          }
-
-          @media only screen and (max-width: 810px) {
-            .picture {
-              display: none;
-            }
-          }
-        `}
-      </style>
     </Layout>
   );
 }

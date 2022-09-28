@@ -1,5 +1,4 @@
 import React from 'react';
-import theme from '../../theme/theme';
 
 export default class FilterItem extends React.PureComponent {
   constructor(props, context) {

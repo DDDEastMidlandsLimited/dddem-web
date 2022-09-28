@@ -1,0 +1,5 @@
+@mixin content-spacing {
+  max-width: $maxContentWidth;
+  padding: $contentPadding;
+  margin: auto;
+}

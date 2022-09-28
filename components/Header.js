@@ -19,8 +19,6 @@ export default function Header({ title, banner }) {
       <div className="logo">
         <h1 tabIndex="0">{title}</h1>
       </div>
-
-      <style jsx>{``}</style>
     </section>
   );
 }

@@ -1,5 +1,4 @@
 import React from 'react';
-import theme from '../../theme/theme';
 
 export default class Talk extends React.PureComponent {
   constructor(props, context) {
@@ -47,14 +46,6 @@ export default class Talk extends React.PureComponent {
     return (
       <div>
         <div onClick={this._toggleVisibility()}>{title}</div>
-        <style jsx>
-          {`
-            div {
-              display: flex;
-              flex-direction: row;
-            }
-          `}
-        </style>
       </div>
     );
   }

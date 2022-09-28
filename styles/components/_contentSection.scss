@@ -1,7 +1,5 @@
 .content-section {
-  max-width: $maxContentWidth;
-  padding: $contentPadding;
-  margin: auto;
+  @include content-spacing;
 
   h2 {
     text-align: center;
@@ -43,6 +41,17 @@
     display: block;
     margin-left: auto;
     margin-right: auto;
+  }
+
+  .picture-150 {
+    width: 150px;
+    border-radius: 50%;
+  }
+
+  @media only screen and (max-width: 810px) {
+    .picture-150 {
+      display: none;
+    }
   }
 
   .sponsors {
@@ -92,6 +101,14 @@
     color: red;
   }
 
+  .pink {
+    color: $secondary;
+  }
+
+  .grey {
+    color: $quaternary;
+  }
+
   img {
     &.picture {
       width: 95%;
@@ -115,5 +132,20 @@
 
   tr th {
     background-color: #dddddd;
+  }
+
+  .row {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 100%;
+  }
+  .column {
+    display: flex;
+    flex-direction: column;
+    flex-basis: 80%;
+    flex: 1;
+    padding: 5px 5px;
+    margin-left: 15px;
   }
 }

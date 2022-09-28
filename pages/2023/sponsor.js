@@ -1,7 +1,6 @@
 import React from 'react';
 import Layout from '../../components/Layout';
 import Header from '../../components/Header';
-import theme from '../../theme/theme';
 import Head from 'next/head';
 import SponsorButton from '../../components/sponsorship/SponsorButton';
 import SponsorshipTiersList from '../../components/sponsorship/SponsorshipTiersList';

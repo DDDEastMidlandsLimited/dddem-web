@@ -1,5 +1,4 @@
 import React from 'react';
-import theme from '../../theme/theme';
 import Header from '../../components/Header';
 import Layout from '../../components/Layout';
 
@@ -8,10 +7,10 @@ export default function SponsorshipPack() {
     <Layout>
       <Header banner="/static/banners/home.jpg" />
 
-      <section>
+      <section className="sponsorship-tiers-section">
         <h1>Sponsor 2023</h1>
       </section>
-      <section>
+      <section className="sponsorship-tiers-section">
         <div className="row">
           <div className="column">
             <div className="platinum">
@@ -72,10 +71,10 @@ export default function SponsorshipPack() {
         </div>
       </section> */}
 
-      <section>
+      <section className="sponsorship-tiers-section">
         <h2>Platinum Sponsor</h2>
       </section>
-      <section>
+      <section className="sponsorship-tiers-section">
         <div>
           <img
             className="pageimage"
@@ -120,10 +119,10 @@ export default function SponsorshipPack() {
         </div>
       </section>
 
-      <section>
+      <section className="sponsorship-tiers-section">
         <h2>Gold</h2>
       </section>
-      <section>
+      <section className="sponsorship-tiers-section">
         <div className="row">
           <div className="column">
             <div className="platinum">
@@ -143,106 +142,6 @@ export default function SponsorshipPack() {
           </div>
         </div>
       </section>
-
-      <style jsx>
-        {`
-          section {
-            max-width: ${theme.sizes.maxContentWidth};
-            padding: ${theme.sizes.contentPadding};
-            margin: auto;
-          }
-          h1 {
-            text-align: center;
-            color: ${theme.palette.primary};
-          }
-          h2 {
-            text-align: center;
-          }
-          h3 {
-            text-align: center;
-            color: ${theme.palette.primary};
-          }
-
-          .row {
-            display: flex;
-            flex-direction: row;
-            flex-wrap: wrap;
-            width: 100%;
-          }
-          .column {
-            display: flex;
-            flex-direction: column;
-            flex-basis: 80%;
-            flex: 1;
-            padding: 5px 5px;
-            margin-left: 15px;
-          }
-
-          .subheader {
-            margin: 0px;
-            padding-bottom: 15px;
-          }
-
-          .banner {
-            text-align: center;
-            padding: 5px 5px;
-            background: ${theme.palette.primary};
-            color: ${theme.palette.light};
-          }
-          .banner a {
-            text-align: center;
-            color: ${theme.palette.light};
-          }
-
-          .platinum {
-            text-align: center;
-            padding: 5px 5px;
-          }
-
-          .pageimage {
-            text-align: center;
-            max-width: 100%;
-            height: auto;
-            padding: 5px 5px;
-            display: block;
-            margin-left: auto;
-            margin-right: auto;
-            width: 95%;
-          }
-
-          .smallpageimage {
-            max-width: 100%;
-            height: auto;
-            padding: 5px 5px;
-            display: block;
-            margin-left: auto;
-            margin-right: auto;
-            width: 95%;
-          }
-
-          . iframe {
-            align: center;
-            display: block;
-          }
-
-          .info-text {
-            padding: 1% 5%;
-          }
-
-          .silver {
-            margin: auto;
-            width: 35%;
-          }
-
-          .infolink {
-            margin: 10px;
-          }
-          .silver {
-            text-align: center;
-            width: 70%;
-          }
-        `}
-      </style>
     </Layout>
   );
 }
