@@ -1,9 +1,8 @@
 import React from 'react';
-import theme from '../../theme/theme';
 
 export default function SponsorButton() {
   return (
-    <div>
+    <div className="sponsor-button">
       <br />
       <button>
         <a
@@ -14,35 +13,6 @@ export default function SponsorButton() {
           Contact Us About Sponsorship
         </a>
       </button>
-      <style jsx>
-        {`
-          div {
-            text-align: center;
-          }
-
-          button {
-            border-radius: 12px;
-            border: none;
-            color: ${theme.palette.light};
-            padding: 15px 32px;
-            text-align: center;
-            text-decoration: none;
-            display: inline-block;
-            font-size: 18px;
-            background-color: ${theme.palette.primary};
-            margin-bottom: 15px;
-          }
-
-          button a {
-            color: ${theme.palette.light};
-          }
-
-          button:hover {
-            box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2),
-              0 6px 20px 0 rgba(0, 0, 0, 0.19);
-          }
-        `}
-      </style>
     </div>
   );
 }
