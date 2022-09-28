@@ -21,6 +21,16 @@
     padding-bottom: 10px;
   }
 
+  .smallpageimage {
+    max-width: 100%;
+    height: 95%;
+    padding: 5px 5px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 95%;
+  }
+
   .pageimage {
     object-fit: contain;
     text-align: center;
