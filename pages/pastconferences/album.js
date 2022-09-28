@@ -1,6 +1,5 @@
 import React from 'react';
 import Layout from '../../components/Layout';
-import theme from '../../theme/theme';
 import Header from '../../components/Header';
 import Head from 'next/head';
 
@@ -62,23 +61,6 @@ export default function Album() {
           title="2019 Album"
         ></iframe>
       </section>
-
-      <style jsx>
-        {`
-          section {
-            max-width: ${theme.sizes.maxContentWidth};
-            padding: ${theme.sizes.contentPadding};
-            margin: auto;
-            text-align: center;
-          }
-          h2 {
-            text-align: center;
-          }
-          h3 {
-            text-align: center;
-          }
-        `}
-      </style>
     </Layout>
   );
 }

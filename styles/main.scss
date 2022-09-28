@@ -1,4 +1,5 @@
 @import "theme";
+@import "utils/mixins";
 @import "base";
 
 @import "components/contentSection";
@@ -18,3 +19,5 @@
 @import "components/talks";
 @import "components/hacktober";
 @import "components/sponsorPage";
+@import "components/pastSpeakers";
+@import "components/sponsorshipTiers";
