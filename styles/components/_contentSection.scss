@@ -21,6 +21,10 @@
     padding-bottom: 10px;
   }
 
+  .align-center {
+    text-align: center;
+  }
+
   .smallpageimage {
     max-width: 100%;
     height: 95%;
@@ -41,6 +45,16 @@
     margin-right: auto;
   }
 
+  .sponsors {
+    margin: auto;
+    width: 80%;
+  }
+
+  .partners {
+    margin: auto;
+    width: 75%;
+  }
+
   .crew-image {
     width: 80%;
     text-align: center;
@@ -52,6 +66,14 @@
 
   .img-center {
     text-align: center;
+  }
+
+  .hacktoberlogo {
+    width: 95%;
+  }
+
+  .codesnip {
+    width: 100%;
   }
 
   .screenshot {

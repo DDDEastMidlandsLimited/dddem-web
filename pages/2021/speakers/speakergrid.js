@@ -1,6 +1,5 @@
 import React from 'react';
 import Layout from '../../../components/Layout';
-import theme from '../../../theme/theme';
 import Header from '../../../components/Header';
 import SpeakerGridItemComponent from '../../../components/speakers/speakergriditem';
 import Head from 'next/head';
@@ -15,13 +14,13 @@ export default function Speaker2021Component() {
         title={'Speakers 2021'}
         banner="/static/banners/notable.jpg"
       />
-      <section>
+      <section className="content-section">
         <p tabIndex="0">
           Click on the images of our wonderful speakers to find out
           more about them and what they will be talking about.
         </p>
       </section>
-      <section className="speaker-grid">
+      <section className="speaker-grid content-section">
         <SpeakerGridItemComponent
           speakername="Tania Allard"
           pic="/static/speakers/2021/Tania_Allard.jpg"
@@ -29,7 +28,7 @@ export default function Speaker2021Component() {
           talkbrief="KEYNOTE: Open source for fun and for profit"
         />
       </section>
-      <section className="speaker-grid">
+      <section className="speaker-grid content-section">
         <SpeakerGridItemComponent
           speakername="Lex Lofthouse"
           pic="/static/speakers/2021/Lex_Lofthouse.png"
@@ -133,23 +132,6 @@ export default function Speaker2021Component() {
           talkbrief="How to ruin kid's games with machine learning"
         />
       </section>
-
-      <style jsx>
-        {`
-          section {
-            max-width: ${theme.sizes.maxContentWidth};
-            padding: ${theme.sizes.contentPadding};
-            margin: auto;
-          }
-
-          .speaker-grid {
-            display: flex;
-            flex-direction: row;
-            flex-wrap: wrap;
-            justify-content: center;
-          }
-        `}
-      </style>
     </Layout>
   );
 }
