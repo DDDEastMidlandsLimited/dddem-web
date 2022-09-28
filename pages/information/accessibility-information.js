@@ -1,7 +1,6 @@
 import React from 'react';
 import Layout from '../../components/Layout';
 import Header from '../../components/Header';
-import theme from '../../theme/theme';
 import Head from 'next/head';
 
 export default function AccessibilityInformation() {
@@ -15,7 +14,7 @@ export default function AccessibilityInformation() {
         banner="/static/banners/accessibility.jpg"
       />
 
-      <section name="Contents">
+      <section className="content-section" name="Contents">
         <h1 tabIndex="0">Contents</h1>
         <p tabIndex="0">
           <strong>Multi-faith/Quiet Contemplation Room</strong>
@@ -124,7 +123,7 @@ export default function AccessibilityInformation() {
         </ul>
       </section>
 
-      <section id="prayerroom">
+      <section className="content-section" id="prayerroom">
         <h1 tabIndex="0">Multi-faith/Quiet Contemplation Room</h1>
 
         <a name="prayerroom" />
@@ -136,7 +135,7 @@ export default function AccessibilityInformation() {
         </p>
       </section>
 
-      <section id="childcare">
+      <section className="content-section" id="childcare">
         <h1 tabIndex="0">Childcare</h1>
 
         <a name="childcare" />
@@ -150,7 +149,7 @@ export default function AccessibilityInformation() {
         </p>
       </section>
 
-      <section id="genderbathrooms">
+      <section className="content-section" id="genderbathrooms">
         <h1 tabIndex="0">Gendered Bathrooms</h1>
         <a name="genderbathrooms" />
         <h2 tabIndex="0">Are bathrooms gender neutral?</h2>
@@ -166,7 +165,7 @@ export default function AccessibilityInformation() {
         </p>
       </section>
 
-      <section id="wheelchairaccess">
+      <section className="content-section" id="wheelchairaccess">
         <h1 tabIndex="0">Wheelchair Access</h1>
 
         <a name="wheelchairaccessoutside" />
@@ -196,7 +195,7 @@ export default function AccessibilityInformation() {
         <p tabIndex="0">There are on each level.</p>
       </section>
 
-      <section id="audio-visual">
+      <section className="content-section" id="audio-visual">
         <h1 tabIndex="0">Audio/Visual</h1>
 
         <a name="largeprint" />
@@ -225,7 +224,7 @@ export default function AccessibilityInformation() {
         </p>
       </section>
 
-      <section id="dietary">
+      <section className="content-section" id="dietary">
         <h1 tabIndex="0">Dietary/Alcohol Concerns</h1>
 
         <a name="diet-reqs" />
@@ -256,7 +255,7 @@ export default function AccessibilityInformation() {
         </p>
       </section>
 
-      <section id="assistanceanimals">
+      <section className="content-section" id="assistanceanimals">
         <h1 tabIndex="0">Assistance Animals</h1>
 
         <a name="assistanceanimals" />
@@ -267,19 +266,6 @@ export default function AccessibilityInformation() {
           They are yes - but only official assistance dogs.
         </p>
       </section>
-
-      <style jsx>
-        {`
-          section {
-            max-width: ${theme.sizes.maxContentWidth};
-            padding: ${theme.sizes.contentPadding};
-            margin: auto;
-          }
-          section div {
-            padding-bottom: 10px;
-          }
-        `}
-      </style>
     </Layout>
   );
 }

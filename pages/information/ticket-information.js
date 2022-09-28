@@ -1,7 +1,6 @@
 import React from 'react';
 import Layout from '../../components/Layout';
 import Header from '../../components/Header';
-import theme from '../../theme/theme';
 import Head from 'next/head';
 
 export default function TicketInformation() {
@@ -15,7 +14,7 @@ export default function TicketInformation() {
         banner="/static/banners/ticket.jpg"
       />
 
-      <section name="Contents">
+      <section className="content-section" name="Contents">
         <h1 tabIndex="0">Contents</h1>
 
         <p>
@@ -39,7 +38,7 @@ export default function TicketInformation() {
         </p>
       </section>
 
-      <section id="cost">
+      <section className="content-section" id="cost">
         <a name="ticketcost" />
         <h1 tabIndex="0">How much do tickets cost?</h1>
         <p tabIndex="0">
@@ -49,7 +48,7 @@ export default function TicketInformation() {
         </p>
       </section>
 
-      <section>
+      <section className="content-section">
         <a name="ticketrelease" />
         <h1 tabIndex="0">When will tickets be released?</h1>
         <p tabIndex="0">
@@ -65,7 +64,7 @@ export default function TicketInformation() {
         </ul>
       </section>
 
-      <section>
+      <section className="content-section">
         <a name="return" />
         <h1 tabIndex="0">
           What do if I can&apos;t come to the event anymore?
@@ -87,19 +86,6 @@ export default function TicketInformation() {
           </li>
         </ul>
       </section>
-
-      <style jsx>
-        {`
-          section {
-            max-width: ${theme.sizes.maxContentWidth};
-            padding: ${theme.sizes.contentPadding};
-            margin: auto;
-          }
-          section div {
-            padding-bottom: 10px;
-          }
-        `}
-      </style>
     </Layout>
   );
 }

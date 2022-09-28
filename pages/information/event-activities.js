@@ -16,7 +16,7 @@ export default function EventActivities() {
         banner="/static/banners/activities.jpg"
       />
 
-      <section id="activities-intro">
+      <section className="content-section" id="activities-intro">
         <a name="activities-intro" />
         <p tabIndex="0">
           Each year we kick off the day with a keynote speaker to set
@@ -68,7 +68,7 @@ export default function EventActivities() {
         </p>
       </section>
 
-      <section>
+      <section className="content-section">
         <div>
           <Image
             className="pageimage"
@@ -81,7 +81,7 @@ export default function EventActivities() {
         </div>
       </section>
 
-      <section id="exhibition-space">
+      <section className="content-section" id="exhibition-space">
         <a name="exhibition-space" />
         <h2 tabIndex="0">Exhibition Space</h2>
         <p tabIndex="0">
@@ -100,7 +100,7 @@ export default function EventActivities() {
         </p>
       </section>
 
-      <section id="hacktoberfest">
+      <section className="content-section" id="hacktoberfest">
         <a name="hacktoberfest" />
         <h2 tabIndex="0">Hacktoberfest</h2>
         <p tabIndex="0">
@@ -125,7 +125,7 @@ export default function EventActivities() {
         </p>
       </section>
 
-      <section>
+      <section className="content-section">
         <div>
           <Image
             className="pageimage"
@@ -138,7 +138,7 @@ export default function EventActivities() {
         </div>
       </section>
 
-      <section id="cloud-skills">
+      <section className="content-section" id="cloud-skills">
         <a name="cloud-skills" />
         <h2 tabIndex="0">Cloud Skills Challenge</h2>
         <p tabIndex="0">
@@ -161,7 +161,7 @@ export default function EventActivities() {
         </p>
       </section>
 
-      <section id="coffee">
+      <section className="content-section" id="coffee">
         <a name="cofeee" />
         <h2 tabIndex="0">Coffee and Catering</h2>
         <p tabIndex="0">
@@ -184,40 +184,6 @@ export default function EventActivities() {
           eating requirements; nobody will go hungry.
         </p>
       </section>
-
-      <style jsx>
-        {`
-          section {
-            max-width: ${theme.sizes.maxContentWidth};
-            padding: ${theme.sizes.contentPadding};
-            margin: auto;
-          }
-          section div {
-            padding-bottom: 10px;
-          }
-
-          .picture {
-            width: 150px;
-            border-radius: 50%;
-          }
-
-          .smallpageimage {
-            max-width: 100%;
-            height: 95%;
-            padding: 5px 5px;
-            display: block;
-            margin-left: auto;
-            margin-right: auto;
-            width: 95%;
-          }
-
-          @media only screen and (max-width: 810px) {
-            .picture {
-              display: none;
-            }
-          }
-        `}
-      </style>
     </Layout>
   );
 }
