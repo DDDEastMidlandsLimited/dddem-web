@@ -14,6 +14,7 @@ describe('Given the Header is rendered', () => {
     expect(getByText('DDD East Midlands')).toBeInTheDocument();
     expect(getByAltText('DDD East Midlands Logo')).toHaveAttribute(
       'src',
+      '/static/ddd_avatar_300.jpg',
     );
   });
 });

@@ -1,7 +1,7 @@
 import React from 'react';
 import Head from 'next/head';
 
-export default function HeadComponent({ children }) {
+export default function HeadComponent() {
   return (
     <Head>
       <meta httpEquiv="x-ua-compatible" content="ie=edge" />
@@ -41,6 +41,11 @@ export default function HeadComponent({ children }) {
         name="description"
         content="A technology conference for the community, by the community. Celebrates the East Midlands tech community, businesses and talent have to offer through collaboration & innovation."
       />
+      <link
+        href="https://fonts.googleapis.com/css?family=Raleway:400,700"
+        rel="stylesheet"
+      />
+      <link href="/static/client/sessionize.css" rel="stylesheet" />
       <link
         rel="apple-touch-icon"
         sizes="57x57"
@@ -111,7 +116,8 @@ export default function HeadComponent({ children }) {
         href="/static/favicon/favicon-16x16.png"
       />
       <link rel="manifest" href="/manifest.json" />
-      {children}
+      <script src="/static/client/object-assign-auto.min.js"></script>
+      <script src="/static/client/sessionize.js"></script>
     </Head>
   );
 }

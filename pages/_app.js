@@ -1,7 +1,6 @@
 import React from 'react';
 import '@fortawesome/fontawesome-svg-core/styles.css';
 import '../theme/bootstrap.css';
-import '../public/static/client/sessionize.css';
 import SSRProvider from 'react-bootstrap/SSRProvider';
 
 function MyApp({ Component, pageProps }) {
