@@ -59,6 +59,14 @@ export default function Navigation() {
                 Social Responsibility
               </NavDropdown.Item>
               <NavDropdown.Item
+                id="demographics"
+                tabIndex="0"
+                href="/2023/sponsor/demographics"
+                title="Link to Demographics Page"
+              >
+                Demographics
+              </NavDropdown.Item>
+              <NavDropdown.Item
                 id="about-the-conference-crew"
                 tabIndex="0"
                 href="/2023/sponsor/testimonials"
