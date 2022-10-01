@@ -18,7 +18,7 @@ class MyDocument extends Document {
       <Html lang={'en'}>
         <Head>
           <link
-            href="https://fonts.googleapis.com/css?family=Raleway:400,700&display=optional"
+            href="https://fonts.googleapis.com/css?family=Raleway:400,700&display=swap"
             rel="stylesheet"
           />
           <Script src="../public/static/client/object-assign-auto.min.js"></Script>
