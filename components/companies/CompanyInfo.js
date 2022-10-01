@@ -1,5 +1,4 @@
 import React from 'react';
-import Image from 'next/image';
 import theme from '../../theme/theme';
 import ExternalLink from '../ExternalLink';
 
@@ -13,7 +12,7 @@ export default function CompanyInfo({ partner, image }) {
         eventType={partner.name}
         rel="noopener noreferrer"
       >
-        <Image
+        <img
           src={image}
           alt={`Click to go to the ${partner.name} site`}
         />
