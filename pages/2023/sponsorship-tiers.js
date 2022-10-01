@@ -1,5 +1,4 @@
 import React from 'react';
-import Image from 'next/image';
 import theme from '../../theme/theme';
 import Header from '../../components/Header';
 import Layout from '../../components/Layout';
@@ -78,7 +77,7 @@ export default function SponsorshipPack() {
       </section>
       <section>
         <div>
-          <Image
+          <img
             className="pageimage"
             src="/static/pageimage/happy.jpg"
             alt={`Image of the attendees of DDD East Midlands Conference 2019 seated in red auditorium seating.`}
@@ -136,7 +135,7 @@ export default function SponsorshipPack() {
             </div>
           </div>
           <div className="column info-text">
-            <Image
+            <img
               className="pageimage"
               src="/static/sponsorship/gold.jpg"
               alt={`Image of the attendees of DDD East Midlands Conference 2019 seated in red auditorium seating.`}
