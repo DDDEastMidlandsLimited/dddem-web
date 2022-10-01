@@ -1,4 +1,5 @@
-.sponsorship-tiers {
+.sponsorship-tiers,
+.boxed-items {
   .top {
     color: $tertiary;
     font-weight: bold;
@@ -17,14 +18,14 @@
     text-decoration: line-through;
   }
 
-  .bottomBackground {
+  .bottom-background {
     background-color: $primary;
     padding: 5px 0px 5px 30px;
     width: 100%;
     margin-left: -15px;
   }
 
-  .pastBottomBackground {
+  .pastbottom-background {
     background-color: $secondary;
     padding: 5px 0px 5px 30px;
     width: 100%;
@@ -44,7 +45,7 @@
     font-size: $mobileSubtitle1;
     flex-grow: 1;
   }
-  .bottomBackground {
+  .bottom-background {
     background-color: $primary;
     padding: 5px 0px 5px 30px;
     width: 100%;

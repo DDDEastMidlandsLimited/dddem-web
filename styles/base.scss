@@ -48,7 +48,7 @@ li {
   margin-right: 15px;
 }
 
-.boxedItems {
+.boxed-items {
   display: flex;
   margin: 0;
   padding: 20px;
@@ -58,7 +58,7 @@ li {
   justify-content: center;
 }
 
-.boxItem {
+.box-item {
   width: 170px;
   height: 90px;
   text-align: center;
@@ -72,7 +72,7 @@ li {
   position: relative;
 }
 
-.emphasisItem {
+.emphasis-item {
   text-align: center;
   margin: 5px;
   display: flex;
@@ -81,7 +81,7 @@ li {
 }
 
 @media (min-width: 600px) {
-  .boxItem {
+  .box-item {
     border-radius: $borderRadius;
   }
 }

@@ -1,10 +1,16 @@
 .boxed-items {
   .box-item {
-    display: flex;
-    flex: 1 1 0;
-    flex-direction: column;
-    align-items: center;
-    justify-content: space-between;
+    width: 170px;
+  height: 90px;
+  text-align: center;
+  border-radius: $borderRadiusMobile;
+  border: #b5c6c4;
+  border-style: dotted;
+  padding: 40px 15px;
+  margin: 10px;
+  display: flex;
+  flex-direction: column;
+  position: relative;
 
     .bottom-background {
       background-color: $primary;

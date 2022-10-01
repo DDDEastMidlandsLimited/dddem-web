@@ -16,7 +16,7 @@ export default function Album() {
         banner="/static/banners/album.jpg"
       />
 
-      <section>
+      <section className="content-section">
         <p tabIndex="0">
           Please do not use the images for any marketing or commercial
           purposes.
@@ -36,7 +36,7 @@ export default function Album() {
         </p>
       </section>
 
-      <section>
+      <section className="content-section">
         <h1 tabIndex="0">2021</h1>
         <iframe
           src="https://albumizr.com/a/I3q0"
@@ -49,7 +49,7 @@ export default function Album() {
         ></iframe>
       </section>
 
-      <section>
+      <section className="content-section">
         <h1 tabIndex="0">2019</h1>
         <iframe
           src="https://albumizr.com/a/K2Ti"

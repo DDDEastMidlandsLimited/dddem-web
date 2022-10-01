@@ -4,7 +4,7 @@ import SponsorDescription from './SponsorDescription';
 
 export default function Sponsor({ sponsor }) {
   return (
-    <div className="boxItem">
+    <div className="box-item">
       {sponsor.soldOutImage ? (
         <SponsorImage image={sponsor.soldOutImage} />
       ) : (
