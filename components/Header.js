@@ -1,4 +1,5 @@
 import React from 'react';
+import Image from 'next/future/image';
 import theme from '../theme/theme';
 
 export default function Header({ title, banner }) {
@@ -7,10 +8,12 @@ export default function Header({ title, banner }) {
       <div className="background"></div>
 
       <div className="logo">
-        <img
-          className="image"
+        <Image
+          className="logoImageTemp"
           src="/static/ddd_avatar_300.jpg"
           alt="DDD East Midlands Logo"
+          width={310}
+          height={130}
         />
       </div>
 
@@ -41,14 +44,6 @@ export default function Header({ title, banner }) {
           }
           .logo {
             text-align: center;
-          }
-          .image {
-            margin-top: -80px;
-            padding: 20px 30px;
-            background-color: #1a7d87;
-            width: 250px;
-            border-radius: ${theme.sizes.borderRadiusMobile};
-            background-color: ${theme.palette.primary};
           }
           .covid {
             text-align: center;
