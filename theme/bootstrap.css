@@ -8977,4 +8977,13 @@ a.text-dark:focus {
     border: 1px solid #000;
   }
 }
+/* Here until the SCSS change */
+.logoImageTemp {
+  margin-top: -80px;
+  padding: 20px 30px;
+  background-color: #1a7d87;
+  width: 250px;
+  border-radius: 15px;
+  background-color: #1A7D87;
+}
 /*# sourceMappingURL=bootstrap.css.map */
