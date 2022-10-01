@@ -2,15 +2,7 @@ import React from 'react';
 import Link from 'next/link';
 import theme from '../theme/theme';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { library } from '@fortawesome/fontawesome-svg-core';
-import {
-  faInstagram,
-  faTwitter,
-  faGithub,
-  faLinkedin,
-} from '@fortawesome/free-brands-svg-icons';
-
-library.add(faInstagram, faTwitter, faGithub, faLinkedin);
+import { brands } from '@fortawesome/fontawesome-svg-core/import.macro';
 
 /* enabled prettier*/
 
@@ -35,7 +27,7 @@ export default function Footer() {
               aria-label="Twitter"
               rel="noopener noreferrer"
             >
-              <FontAwesomeIcon icon={['fab', 'twitter']} size="sm" />
+              <FontAwesomeIcon icon={brands('twitter')} size="sm" />
             </a>
           </Link>
           <Link
@@ -47,7 +39,7 @@ export default function Footer() {
               aria-label="GitHub"
               rel="noopener noreferrer"
             >
-              <FontAwesomeIcon icon={['fab', 'github']} size="sm" />
+              <FontAwesomeIcon icon={brands('github')} size="sm" />
             </a>
           </Link>
           <Link
@@ -59,10 +51,7 @@ export default function Footer() {
               aria-label="Instagram"
               rel="noopener noreferrer"
             >
-              <FontAwesomeIcon
-                icon={['fab', 'instagram']}
-                size="sm"
-              />
+              <FontAwesomeIcon icon={brands('instagram')} size="sm" />
             </a>
           </Link>
           <Link
@@ -74,7 +63,7 @@ export default function Footer() {
               aria-label="LinkedIn"
               rel="noopener noreferrer"
             >
-              <FontAwesomeIcon icon={['fab', 'linkedin']} size="sm" />
+              <FontAwesomeIcon icon={brands('linkedin')} size="sm" />
             </a>
           </Link>
         </div>
