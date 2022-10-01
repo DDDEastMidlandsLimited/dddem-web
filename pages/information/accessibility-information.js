@@ -154,7 +154,9 @@ export default function AccessibilityInformation() {
       <section className="content-section" id="genderbathrooms">
         <h1 tabIndex="0">Gendered Bathrooms</h1>
         <a name="genderbathrooms" />
-        <h2 className="left" tabIndex="0">Are bathrooms gender neutral?</h2>
+        <h2 className="left" tabIndex="0">
+          Are bathrooms gender neutral?
+        </h2>
         <p tabIndex="0">
           Unfortunately, this isn&apos;t the case at this years event.
           The NCC is converting some of it&apos;s toilets to be gender
@@ -211,14 +213,18 @@ export default function AccessibilityInformation() {
         </p>
 
         <a name="audiodescribed" />
-        <h2 className="left" tabIndex="0">Will you have audio-described resources?</h2>
+        <h2 className="left" tabIndex="0">
+          Will you have audio-described resources?
+        </h2>
         <p tabIndex="0">
           No. Unfortunately, with this being our first event, this is
           one level of complexity we won&apos;t be covering this year.
         </p>
 
         <a name="captionedtalks" />
-        <h2 className="left" tabIndex="0">Will talks be captioned?</h2>
+        <h2 className="left" tabIndex="0">
+          Will talks be captioned?
+        </h2>
         <p tabIndex="0">
           Currently unconfirmed. If the Inclusivity sponsorship option
           is paid for, then we will be providing captioning, but this
@@ -230,7 +236,9 @@ export default function AccessibilityInformation() {
         <h1 tabIndex="0">Dietary/Alcohol Concerns</h1>
 
         <a name="diet-reqs" />
-        <h2 className="left" tabIndex="0">Will dietary requirements be catered to?</h2>
+        <h2 className="left" tabIndex="0">
+          Will dietary requirements be catered to?
+        </h2>
         <p tabIndex="0">
           If you have indicated your dietary requirements in your
           Eventbrite registration, we will do our best to cater
