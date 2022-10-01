@@ -1,4 +1,5 @@
 import React from 'react';
+import Image from 'next/image';
 import theme from '../theme/theme';
 
 export default function Header({ title, banner }) {
@@ -7,10 +8,11 @@ export default function Header({ title, banner }) {
       <div className="background"></div>
 
       <div className="logo">
-        <img
+        <Image
           className="image"
           src="/static/ddd_avatar_300.jpg"
           alt="DDD East Midlands Logo"
+          layout="fill"
         />
       </div>
 
