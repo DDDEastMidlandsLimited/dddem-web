@@ -31,7 +31,7 @@ export default function JamesHayward() {
       <section className="past-speakers-section">
         <div className="speakerpic-container">
           <Image
-            src="/static/organisers/album.png"
+            src="/static/organisers/james.png"
             alt="Picture of James Hayward"
             className="speakerpic"
             height={250}

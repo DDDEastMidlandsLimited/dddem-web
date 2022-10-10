@@ -10,7 +10,7 @@ export default function YourStayInNotts() {
         <title>Your Stay In Nottingham</title>
       </Head>
       <Header
-        title={'Your Stay In Nottinghams'}
+        title={'Your Stay In Nottingham'}
         banner="/static/banners/coffee.png"
       />
 

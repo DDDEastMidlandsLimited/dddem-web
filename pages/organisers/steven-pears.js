@@ -31,7 +31,7 @@ export default function StevenPears() {
       <section className="past-speakers-section">
         <div className="speakerpic-container">
           <Image
-            src="/static/organisers/steven.jpg"
+            src="/static/organisers/steven.png"
             alt="Picture of Steven Pears"
             className="speakerpic"
             height={250}
