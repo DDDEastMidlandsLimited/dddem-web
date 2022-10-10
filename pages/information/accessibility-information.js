@@ -1,7 +1,6 @@
 import React from 'react';
 import Layout from '../../components/Layout';
 import Header from '../../components/Header';
-import theme from '../../theme/theme';
 import Head from 'next/head';
 
 export default function AccessibilityInformation() {
@@ -15,7 +14,7 @@ export default function AccessibilityInformation() {
         banner="/static/banners/accessibility.jpg"
       />
 
-      <section name="Contents">
+      <section className="content-section" name="Contents">
         <h1 tabIndex="0">Contents</h1>
         <p tabIndex="0">
           <strong>Multi-faith/Quiet Contemplation Room</strong>
@@ -124,7 +123,7 @@ export default function AccessibilityInformation() {
         </ul>
       </section>
 
-      <section id="prayerroom">
+      <section className="content-section" id="prayerroom">
         <h1 tabIndex="0">Multi-faith/Quiet Contemplation Room</h1>
 
         <a name="prayerroom" />
@@ -136,11 +135,13 @@ export default function AccessibilityInformation() {
         </p>
       </section>
 
-      <section id="childcare">
+      <section className="content-section" id="childcare">
         <h1 tabIndex="0">Childcare</h1>
 
         <a name="childcare" />
-        <h2 tabIndex="0">Will childcare be available?</h2>
+        <h2 className="left" tabIndex="0">
+          Will childcare be available?
+        </h2>
         <p tabIndex="0">
           Unfortunately we will not be able to provide childcare at
           this first event. The overhead and cost were too high on
@@ -150,10 +151,12 @@ export default function AccessibilityInformation() {
         </p>
       </section>
 
-      <section id="genderbathrooms">
+      <section className="content-section" id="genderbathrooms">
         <h1 tabIndex="0">Gendered Bathrooms</h1>
         <a name="genderbathrooms" />
-        <h2 tabIndex="0">Are bathrooms gender neutral?</h2>
+        <h2 className="left" tabIndex="0">
+          Are bathrooms gender neutral?
+        </h2>
         <p tabIndex="0">
           Unfortunately, this isn&apos;t the case at this years event.
           The NCC is converting some of it&apos;s toilets to be gender
@@ -166,11 +169,11 @@ export default function AccessibilityInformation() {
         </p>
       </section>
 
-      <section id="wheelchairaccess">
+      <section className="content-section" id="wheelchairaccess">
         <h1 tabIndex="0">Wheelchair Access</h1>
 
         <a name="wheelchairaccessoutside" />
-        <h2 tabIndex="0">
+        <h2 className="left" tabIndex="0">
           What is wheelchair access like outside the venue?
         </h2>
         <p tabIndex="0">
@@ -181,7 +184,7 @@ export default function AccessibilityInformation() {
         </p>
 
         <a name="wheelchairaccessinside" />
-        <h2 tabIndex="0">
+        <h2 className="left" tabIndex="0">
           What is wheelchair access like inside the venue?
         </h2>
         <p tabIndex="0">
@@ -190,17 +193,17 @@ export default function AccessibilityInformation() {
         </p>
 
         <a name="wheelchairbathrooms" />
-        <h2 tabIndex="0">
+        <h2 className="left" tabIndex="0">
           Are there accessible bathrooms for wheelchair users?
         </h2>
         <p tabIndex="0">There are on each level.</p>
       </section>
 
-      <section id="audio-visual">
+      <section className="content-section" id="audio-visual">
         <h1 tabIndex="0">Audio/Visual</h1>
 
         <a name="largeprint" />
-        <h2 tabIndex="0">
+        <h2 className="left" tabIndex="0">
           Do you have large print versions of your materials, flyers,
           resources etc?
         </h2>
@@ -210,14 +213,18 @@ export default function AccessibilityInformation() {
         </p>
 
         <a name="audiodescribed" />
-        <h2 tabIndex="0">Will you have audio-described resources?</h2>
+        <h2 className="left" tabIndex="0">
+          Will you have audio-described resources?
+        </h2>
         <p tabIndex="0">
           No. Unfortunately, with this being our first event, this is
           one level of complexity we won&apos;t be covering this year.
         </p>
 
         <a name="captionedtalks" />
-        <h2 tabIndex="0">Will talks be captioned?</h2>
+        <h2 className="left" tabIndex="0">
+          Will talks be captioned?
+        </h2>
         <p tabIndex="0">
           Currently unconfirmed. If the Inclusivity sponsorship option
           is paid for, then we will be providing captioning, but this
@@ -225,11 +232,13 @@ export default function AccessibilityInformation() {
         </p>
       </section>
 
-      <section id="dietary">
+      <section className="content-section" id="dietary">
         <h1 tabIndex="0">Dietary/Alcohol Concerns</h1>
 
         <a name="diet-reqs" />
-        <h2 tabIndex="0">Will dietary requirements be catered to?</h2>
+        <h2 className="left" tabIndex="0">
+          Will dietary requirements be catered to?
+        </h2>
         <p tabIndex="0">
           If you have indicated your dietary requirements in your
           Eventbrite registration, we will do our best to cater
@@ -237,7 +246,7 @@ export default function AccessibilityInformation() {
         </p>
 
         <a name="food" />
-        <h2 tabIndex="0">
+        <h2 className="left" tabIndex="0">
           Are people welcome to bring their own food?
         </h2>
         <p tabIndex="0">
@@ -248,7 +257,7 @@ export default function AccessibilityInformation() {
         </p>
 
         <a name="alcohol" />
-        <h2 tabIndex="0">
+        <h2 className="left" tabIndex="0">
           Are people going to be drinking/serving alcohol?
         </h2>
         <p tabIndex="0">
@@ -256,30 +265,17 @@ export default function AccessibilityInformation() {
         </p>
       </section>
 
-      <section id="assistanceanimals">
+      <section className="content-section" id="assistanceanimals">
         <h1 tabIndex="0">Assistance Animals</h1>
 
         <a name="assistanceanimals" />
-        <h2 tabIndex="0">
+        <h2 className="left" tabIndex="0">
           Are assistance animals allowed in the venue?
         </h2>
         <p tabIndex="0">
           They are yes - but only official assistance dogs.
         </p>
       </section>
-
-      <style jsx>
-        {`
-          section {
-            max-width: ${theme.sizes.maxContentWidth};
-            padding: ${theme.sizes.contentPadding};
-            margin: auto;
-          }
-          section div {
-            padding-bottom: 10px;
-          }
-        `}
-      </style>
     </Layout>
   );
 }

@@ -1,6 +1,5 @@
 import React from 'react';
 import Layout from '../../components/Layout';
-import theme from '../../theme/theme';
 import Header from '../../components/Header';
 import Head from 'next/head';
 
@@ -17,7 +16,7 @@ export default function Album() {
         banner="/static/banners/album.jpg"
       />
 
-      <section>
+      <section className="content-section">
         <p tabIndex="0">
           Please do not use the images for any marketing or commercial
           purposes.
@@ -37,7 +36,7 @@ export default function Album() {
         </p>
       </section>
 
-      <section>
+      <section className="content-section">
         <h1 tabIndex="0">2021</h1>
         <iframe
           src="https://albumizr.com/a/I3q0"
@@ -50,7 +49,7 @@ export default function Album() {
         ></iframe>
       </section>
 
-      <section>
+      <section className="content-section">
         <h1 tabIndex="0">2019</h1>
         <iframe
           src="https://albumizr.com/a/K2Ti"
@@ -62,23 +61,6 @@ export default function Album() {
           title="2019 Album"
         ></iframe>
       </section>
-
-      <style jsx>
-        {`
-          section {
-            max-width: ${theme.sizes.maxContentWidth};
-            padding: ${theme.sizes.contentPadding};
-            margin: auto;
-            text-align: center;
-          }
-          h2 {
-            text-align: center;
-          }
-          h3 {
-            text-align: center;
-          }
-        `}
-      </style>
     </Layout>
   );
 }

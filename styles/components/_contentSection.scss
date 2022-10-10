@@ -1,0 +1,154 @@
+.content-section {
+  @include content-spacing;
+
+  h2 {
+    text-align: center;
+    &.highlight {
+      padding-bottom: 15px;
+    }
+    &.left {
+      text-align: left;
+    }
+  }
+
+  h3 {
+    &.highlight {
+      text-align: center;
+      color: $primary;
+    }
+  }
+
+  div {
+    padding-bottom: 10px;
+  }
+
+  .align-center {
+    text-align: center;
+  }
+
+  .smallpageimage {
+    max-width: 100%;
+    height: 95%;
+    padding: 5px 5px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 95%;
+  }
+
+  .pageimage {
+    object-fit: contain;
+    text-align: center;
+    max-width: 100%;
+    padding: 5px 5px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .picture-150 {
+    width: 150px;
+    border-radius: 50%;
+  }
+
+  @media only screen and (max-width: 810px) {
+    .picture-150 {
+      display: none;
+    }
+  }
+
+  .sponsors {
+    margin: auto;
+    width: 80%;
+  }
+
+  .partners {
+    margin: auto;
+    width: 75%;
+  }
+
+  .crew-image {
+    width: 80%;
+    text-align: center;
+  }
+
+  .qrcode {
+    width: 250px;
+  }
+
+  .img-center {
+    text-align: center;
+  }
+
+  .hacktoberlogo {
+    width: 95%;
+  }
+
+  .codesnip {
+    width: 100%;
+  }
+
+  .screenshot {
+    width: 70%;
+  }
+
+  .green {
+    color: green;
+  }
+
+  .yellow {
+    color: orange;
+  }
+
+  .red {
+    color: red;
+  }
+
+  .pink {
+    color: $secondary;
+  }
+
+  .grey {
+    color: $quaternary;
+  }
+
+  img {
+    &.picture {
+      width: 95%;
+    }
+
+    &.profile {
+      width: 200px;
+      border-radius: 50%;
+      @media only screen and (max-width: 810px) {
+        display: none;
+      }
+    }
+  }
+
+  table {
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+    text-align: center;
+  }
+
+  tr th {
+    background-color: #dddddd;
+  }
+
+  .row {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 100%;
+  }
+  .column {
+    display: flex;
+    flex-direction: column;
+    flex-basis: 80%;
+    flex: 1;
+    padding: 5px 5px;
+    margin-left: 15px;
+  }
+}

@@ -1,7 +1,6 @@
 import React from 'react';
 import Layout from '../components/Layout';
 import Header from '../components/Header';
-import theme from '../theme/theme';
 import Head from 'next/head';
 import Image from 'next/image';
 import Link from 'next/link';
@@ -16,7 +15,7 @@ export default function ConferenceInformation() {
         title={'About DDDEM'}
         banner="/static/banners/about.jpg"
       />
-      <section className="section-style" name="Contents">
+      <section className="content-section" name="Contents">
         <h1 tabIndex="0">Contents</h1>
         <p>
           <strong>
@@ -69,7 +68,7 @@ export default function ConferenceInformation() {
         </ul>
       </section>
 
-      <section className="section-style" id="about">
+      <section className="content-section" id="about">
         <a name="about" />
         <h1 tabIndex="0">What Is DDD East Midlands?</h1>
         <p tabIndex="0">A Conference Celebrating the East Midlands</p>
@@ -105,7 +104,7 @@ export default function ConferenceInformation() {
         </ul>
       </section>
 
-      <section className="section-style" id="ddd">
+      <section className="content-section" id="ddd">
         <a name="ddd" />
         <h1 tabIndex="0">What does the DDD stand for?</h1>
         <p tabIndex="0">
@@ -142,7 +141,7 @@ export default function ConferenceInformation() {
         </p>
       </section>
 
-      <section className="section-style" id="principles">
+      <section className="content-section" id="principles">
         <a name="principles" />
         <h1 tabIndex="0">The Conference Principles</h1>
         <a name="ddd-principles" />
@@ -168,7 +167,7 @@ export default function ConferenceInformation() {
         </ul>
       </section>
 
-      <section className="section-style" id="organisers">
+      <section className="content-section" id="organisers">
         <a name="organisers" />
         <h1 tabIndex="0">The Organisation Committee</h1>
         <p tabIndex="0">
@@ -180,8 +179,8 @@ export default function ConferenceInformation() {
         </p>
       </section>
 
-      <section className="section-style volunteer-grid">
-        <article className="volunteer-grid-item picture-container">
+      <section className="content-section volunteer-grid">
+        <article className="volunteer-grid-item">
           <a
             tabIndex="0"
             href="../organisers/jessica-white"
@@ -197,7 +196,7 @@ export default function ConferenceInformation() {
             />
           </a>
         </article>
-        <article className="volunteer-grid-item picture-container">
+        <article className="volunteer-grid-item">
           <a
             tabIndex="0"
             href="../organisers/moreton-brockley"
@@ -213,7 +212,7 @@ export default function ConferenceInformation() {
             />
           </a>
         </article>
-        <article className="volunteer-grid-item picture-container">
+        <article className="volunteer-grid-item">
           <a
             tabIndex="0"
             href="../organisers/rachel-watson"
@@ -229,7 +228,7 @@ export default function ConferenceInformation() {
             />
           </a>
         </article>
-        <article className="volunteer-grid-item picture-container">
+        <article className="volunteer-grid-item">
           <a
             tabIndex="0"
             href="../organisers/mia-gordon"
@@ -245,7 +244,7 @@ export default function ConferenceInformation() {
             />
           </a>
         </article>
-        <article className="volunteer-grid-item picture-container">
+        <article className="volunteer-grid-item">
           <a
             tabIndex="0"
             href="../organisers/steven-pears"
@@ -261,7 +260,7 @@ export default function ConferenceInformation() {
             />
           </a>
         </article>
-        <article className="volunteer-grid-item picture-container">
+        <article className="volunteer-grid-item">
           <a
             tabIndex="0"
             href="../organisers/james-hayward"
@@ -279,7 +278,7 @@ export default function ConferenceInformation() {
         </article>
       </section>
 
-      <section className="section-style">
+      <section className="content-section">
         <p tabIndex="0">
           Give them a follow on Twitter, say hi at the local events,
           offer them a coffee or some chocolate if they look in need.
@@ -289,7 +288,7 @@ export default function ConferenceInformation() {
         </p>
       </section>
 
-      <section className="section-style" id="event-crew">
+      <section className="content-section" id="event-crew">
         <a name="event-crew" />
         <h1 tabIndex="0">The Event Crew</h1>
         <p tabIndex="0">
@@ -311,7 +310,7 @@ export default function ConferenceInformation() {
         <br />
       </section>
 
-      <section className="section-style" id="inclusivity">
+      <section className="content-section" id="inclusivity">
         <a name="inclusivity" />
         <h1 tabIndex="0">Promoting Inclusivity</h1>
         <p tabIndex="0">
@@ -415,52 +414,6 @@ export default function ConferenceInformation() {
           </p>
         </ul>
       </section>
-
-      <style jsx global>
-        {`
-          .section-style {
-            max-width: ${theme.sizes.maxContentWidth};
-            padding: ${theme.sizes.contentPadding};
-            margin: auto;
-          }
-
-          .center-image {
-            text-align: center;
-          }
-
-          .crew-image {
-            width: 80%;
-          }
-
-          .volunteer-image {
-            width: 150px;
-            height: 150px;
-          }
-
-          .volunteer-grid {
-            display: flex;
-            flex-direction: row;
-            flex-wrap: wrap;
-            justify-content: center;
-          }
-
-          .volunteer-grid-item {
-            min-width: 180px;
-          }
-
-          .picture-container {
-            margin: 10px;
-          }
-
-          .picture {
-            border-radius: 50%;
-          }
-
-          a .picture:hover {
-            filter: drop-shadow(5px 5px 5px rgb(26 125 135 / 0.75));
-          }
-        `}
-      </style>
     </Layout>
   );
 }

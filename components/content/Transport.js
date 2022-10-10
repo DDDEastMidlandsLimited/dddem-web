@@ -1,9 +1,8 @@
 import React from 'react';
-import ContentSection from '../../styles/ContentSection';
 
 export default function Transport() {
   return (
-    <section id="transport">
+    <section className="content-section" id="transport">
       <h1 tabIndex="0">Transport On The Day</h1>
       <a name="train" />
       <h2 tabIndex="0">Taking the train</h2>
@@ -94,7 +93,6 @@ export default function Transport() {
         <br />
         co-ordinates 52.956143,-1.154433
       </p>
-      <style jsx>{ContentSection}</style>
     </section>
   );
 }

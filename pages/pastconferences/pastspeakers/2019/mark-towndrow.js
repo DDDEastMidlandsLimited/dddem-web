@@ -1,7 +1,6 @@
 import React from 'react';
 import Layout from '../../../../components/Layout';
 import Header from '../../../../components/Header';
-import theme from '../../../../theme/theme';
 import Head from 'next/head';
 import Image from 'next/image';
 import PastSpeakersButton from '../../../../components/speakers/PastSpeakersButton';
@@ -25,7 +24,7 @@ export default function MarkTowndrow() {
         title={'Mark Towndrow'}
         banner="/static/banners/speakers.jpg"
       />
-      <section>
+      <section className="past-speakers-section">
         <PastSpeakersButton />
         <div className="speakerpic-container">
           <Image
@@ -77,7 +76,7 @@ export default function MarkTowndrow() {
         </p>
       </section>
 
-      <section>
+      <section className="past-speakers-section">
         <h2 tabIndex="0">About Mark</h2>
         <p tabIndex="0">
           <b>Head of Engineering at OpenWrks</b>
@@ -90,7 +89,7 @@ export default function MarkTowndrow() {
         </p>
       </section>
 
-      <section>
+      <section className="past-speakers-section">
         <h2 tabIndex="0">Links</h2>
         <li>
           <a
@@ -103,110 +102,6 @@ export default function MarkTowndrow() {
           </a>
         </li>
       </section>
-
-      <style jsx>
-        {`
-          section {
-            max-width: ${theme.sizes.maxContentWidth};
-            padding: ${theme.sizes.contentPadding};
-            margin: auto;
-          }
-
-          .row:after {
-            content: '';
-            display: table;
-            clear: both;
-          }
-
-          .speakerpic {
-            display: block;
-          }
-
-          .speakerpic-container {
-            margin-top: 8%;
-            margin-bottom: 5%;
-            width: 250px;
-            border-radius: 50%;
-            display: block;
-            margin-left: auto;
-            margin-right: auto;
-          }
-
-          .iframe-container {
-            position: relative;
-            overflow: hidden;
-            padding-top: 56.25%;
-            margin: 10px 10px;
-          }
-          .iframe-container iframe {
-            position: absolute;
-            top: 0;
-            left: 0;
-            width: 100%;
-            height: 100%;
-            border: 0;
-          }
-          ul {
-            display: flex;
-            margin: 0;
-            padding: 5px;
-            flex-flow: row;
-            flex-wrap: nowrap;
-            justify-content: center;
-          }
-          li {
-            margin: 0;
-            padding: 10px;
-            list-style: none;
-            list-style-type: none;
-            text-align: left;
-            flex-basis: 0;
-            flex-grow: 1;
-          }
-
-          .video-frame {
-            text-align: center;
-          }
-          .center-link {
-            text-align: center;
-          }
-
-          .contactButton {
-            align: ${theme.palette.quaternary};
-            font-weight: bold;
-            font-size: ${theme.font.sizes.mobile.subtitle1};
-            flex-grow: 1;
-            border-radius: 12px;
-            padding: 10px 10px 10px 10px;
-            color: ${theme.palette.primary};
-            border: 2px solid ${theme.palette.primary};
-            background-color: ${theme.palette.light};
-            box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2),
-              0 6px 20px 0 rgba(0, 0, 0, 0.19);
-          }
-          .contactButton a {
-            text-decoration: none;
-          }
-
-          .contactButton:hover {
-            background-color: ${theme.palette.primary};
-          }
-
-          .contactButton a:hover {
-            color: ${theme.palette.light};
-          }
-
-          @media only screen and (max-width: 1081px) {
-            section {
-              padding: 3% 12%;
-            }
-
-            .video-frame {
-              display: none;
-            }
-          }
-        `}
-      </style>
     </Layout>
   );
 }
