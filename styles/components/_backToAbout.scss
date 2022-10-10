@@ -21,8 +21,8 @@
     a {
       text-decoration: none;
 
-      :hover {
-        color: $light;
+      &:hover {
+        color: white;
       }
     }
   }

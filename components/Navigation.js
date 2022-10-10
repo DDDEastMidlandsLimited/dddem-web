@@ -51,6 +51,14 @@ export default function Navigation() {
                 Social Responsibility
               </NavDropdown.Item>
               <NavDropdown.Item
+                id="demographics"
+                tabIndex="0"
+                href="/2023/sponsor/demographics"
+                title="Link to Demographics Page"
+              >
+                Demographics
+              </NavDropdown.Item>
+              <NavDropdown.Item
                 id="about-the-conference-crew"
                 tabIndex="0"
                 href="/2023/sponsor/testimonials"
@@ -106,12 +114,20 @@ export default function Navigation() {
                 Tickets
               </NavDropdown.Item>
               <NavDropdown.Item
-                id="venue-informaation"
+                id="venue-information"
                 tabIndex="0"
                 href="/information/venue-information"
                 title="Link to Venue Information Page"
               >
                 Venue
+              </NavDropdown.Item>
+              <NavDropdown.Item
+                id="stay-in-notts"
+                tabIndex="0"
+                href="/information/your-stay-in-notts"
+                title="Link to Your Stay In Nottingham Page"
+              >
+                Your Stay In Nottingham
               </NavDropdown.Item>
             </NavDropdown>
 

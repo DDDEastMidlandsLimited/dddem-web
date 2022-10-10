@@ -1,6 +1,5 @@
 import React from 'react';
 import Image from 'next/image';
-import theme from '../../theme/theme';
 import ExternalLink from '../ExternalLink';
 
 export default function CompanyInfo({ partner, image }) {

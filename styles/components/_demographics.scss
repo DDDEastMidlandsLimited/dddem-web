@@ -1,0 +1,16 @@
+.demographics {
+  th {
+    background-color: $primary !important;
+    color: white;
+  }
+
+  table,
+  th,
+  td {
+    border: 1px solid;
+    border-collapse: collapse;
+    padding: 10px 15px;
+    text-align: center;    
+    width: auto;
+  }
+}

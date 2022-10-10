@@ -5,6 +5,10 @@
   justify-content: center;
 
   .speaker-grid-item {
+    min-width: 180px;
+    height: 180px;
+    overflow: hidden;
+    margin: 10px;
     h4 {
       margin-top: 3px;
       margin-bottom: 4px;
@@ -23,13 +27,8 @@
       margin: 5px;
     }
 
-    .speaker-grid-item {
-      min-width: 180px;
-      height: 180px;
-      overflow: hidden;
-      margin: 10px;
-
-      &:hover .hover-pop {
+    &:hover {
+      .hover-pop {
         top: -175px;
         height: 175px;
         padding: 7px;
