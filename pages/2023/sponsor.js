@@ -128,13 +128,13 @@ export default function Sponsor() {
         <section className="content-section" id="get-in-touch">
           {/* Rachel pic and links */}
           <div className="row">
-            <div className="columnleft picture-container">
+            <div className="columnleft">
               <Image
                 src="/static/organisers/rachel.png"
                 alt="Picture of Rachel smiling"
                 className="picture"
-                height="250"
-                width="250"
+                height="200"
+                width="200"
               />
             </div>
             <div className="columnright">
@@ -172,7 +172,6 @@ export default function Sponsor() {
               </ul>
             </div>
           </div>
-          <br />
         </section>
 
         <section className="content-section">

@@ -1,18 +1,21 @@
 import React from 'react';
-import Image from 'next/image';
-import Header from '../../components/Header';
 import Layout from '../../components/Layout';
+import Header from '../../components/Header';
+import Head from 'next/head';
+import Image from 'next/image';
 
 export default function SponsorshipPack() {
   return (
-    <Layout>
-      <Header banner="/static/banners/sponsorship-tiers.png" />
-      
-      <section>
-        <h1>Sponsorship Tiers 2023</h1>
-      </section>
+<Layout>
+      <Head>
+        <title>Sponsorship Tiers 2023</title>
+      </Head>
+      <Header
+        title={'Sponsorship Tiers 2023'}
+        banner="/static/banners/sponsorship-tiers.png"
+      />
 
-      <section name="Contents">
+      <section className="content-section" name="Contents">
         <h1 tabIndex="0">Contents</h1>
         <ul>
           <li>
@@ -32,7 +35,7 @@ export default function SponsorshipPack() {
         </ul>
       </section>
 
-      <section>
+      <section className="sponsorship-tiers-section">
         <h2 tabIndex="0">How to Sponsor</h2>
         <p tabIndex="0">
           If any of the below peaks your interest, head to the{' '}
@@ -47,12 +50,12 @@ export default function SponsorshipPack() {
         </p>
       </section>
 
-      <section>
+      <section className="sponsorship-tiers-section">
         <h2 tabIndex="0" id="platinum-sponsor">
           Platinum Sponsor
         </h2>
       </section>
-      <section>
+      <section className="sponsorship-tiers-section">
         <div tabIndex="0" className="pageimage">
           <Image
             src="/static/sponsorship/tiers/platinum.jpg"
@@ -213,19 +216,20 @@ export default function SponsorshipPack() {
         </div>
       </section>
 
-      <section>
+      <section className="sponsorship-tiers-section">
         <h2 tabIndex="0" id="gold-sponsor">
           Gold Sponsor
         </h2>
       </section>
-      <section>
-        <div tabIndex="0" className="pageimage-small ">
+      <section className="sponsorship-tiers-section">
+        <div tabIndex="0" className="pageimage-small">
           <Image
             src="/static/sponsorship/tiers/gold.jpg"
             alt={`Image of the attendees of DDD East Midlands Conference 2019 seated in red auditorium seating.`}
             height="75"
             width="100"
             layout="responsive"
+            className="pageimage-small"
           />
         </div>
         <div>
@@ -306,12 +310,12 @@ export default function SponsorshipPack() {
         </div>
       </section>
 
-      <section>
+      <section className="sponsorship-tiers-section">
         <h2 tabIndex="0" id="booth-sponsor">
           Booth Sponsor
         </h2>
       </section>
-      <section>
+      <section className="sponsorship-tiers-section">
         <div tabIndex="0" className="pageimage-small ">
           <Image
             src="/static/sponsorship/tiers/booth.jpg"
@@ -384,12 +388,12 @@ export default function SponsorshipPack() {
         </div>
       </section>
 
-      <section>
+      <section className="sponsorship-tiers-section">
         <h2 tabIndex="0" id="other-sponsorship">
           Other Sponsorship Opportunities
         </h2>
       </section>
-      <section>
+      <section className="sponsorship-tiers-section">
         <div>
           <p tabIndex="0">
             Any of the below can be purchased seperately OR if you are
@@ -451,96 +455,6 @@ export default function SponsorshipPack() {
           </li>
         </div>
       </section>
-
-      <style jsx>
-        {`
-          section {
-            max-width: ${theme.sizes.maxContentWidth};
-            padding: ${theme.sizes.contentPadding};
-            margin: auto;
-          }
-          h1 {
-            text-align: center;
-            color: ${theme.palette.primary};
-          }
-          h2 {
-            text-align: center;
-          }
-          h3 {
-            text-align: center;
-            color: ${theme.palette.primary};
-          }
-
-          .row {
-            display: flex;
-            flex-direction: row;
-            flex-wrap: wrap;
-            width: 100%;
-          }
-          .column {
-            display: flex;
-            flex-direction: column;
-            flex-basis: 80%;
-            flex: 1;
-            padding: 5px 5px;
-            margin-left: 15px;
-          }
-
-          .subheader {
-            margin: 0px;
-            padding-bottom: 15px;
-          }
-
-          .banner {
-            text-align: center;
-            padding: 5px 5px;
-            background: ${theme.palette.primary};
-            color: ${theme.palette.light};
-          }
-          .banner a {
-            text-align: center;
-            color: ${theme.palette.light};
-          }
-
-          .tier-point {
-            margin-bottom: 5px;
-          }
-
-          .pageimage {
-            text-align: center;
-            max-width: 100%;
-            height: auto;
-            padding: 5px 5px 15px 5px;
-            display: block;
-            margin-left: auto;
-            margin-right: auto;
-            width: 95%;
-          }
-
-          .pageimage-small {
-            text-align: center;
-            max-width: 50%;
-            height: auto;
-            padding: 5px 5px;
-            display: block;
-            margin-left: auto;
-            margin-right: auto;
-            width: 50%;
-          }
-
-          . iframe {
-            align: center;
-            display: block;
-          }
-
-          .info-text {
-            padding: 1% 5%;
-          }
-          .infolink {
-            margin: 10px;
-          }
-        `}
-      </style>
     </Layout>
   );
 }
