@@ -53,21 +53,22 @@
     text-align: center;
     max-width: 100%;
     height: auto;
-    padding: 5px 5px;
+    padding: 5px 5px 15px 5px;
     display: block;
     margin-left: auto;
     margin-right: auto;
     width: 95%;
   }
 
-  .smallpageimage {
-    max-width: 100%;
+  .pageimage-small {
+    text-align: center;
+    max-width: 50%;
     height: auto;
     padding: 5px 5px;
     display: block;
     margin-left: auto;
     margin-right: auto;
-    width: 95%;
+    width: 50%;
   }
 
   .iframe {
@@ -79,16 +80,7 @@
     padding: 1% 5%;
   }
 
-  .silver {
-    margin: auto;
-    width: 35%;
-  }
-
   .infolink {
     margin: 10px;
-  }
-  .silver {
-    text-align: center;
-    width: 70%;
   }
 }

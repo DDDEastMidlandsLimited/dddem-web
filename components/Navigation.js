@@ -35,6 +35,14 @@ export default function Navigation() {
                 Sponsor the event
               </NavDropdown.Item>
               <NavDropdown.Item
+                id="about-sponsorship-tiers"
+                tabIndex="0"
+                href="/2023/sponsorship-tiers"
+                title="Link to Sponsorship Tiers Page"
+              >
+                Sponsorship Tiers
+              </NavDropdown.Item>
+              <NavDropdown.Item
                 id="why-sponsor"
                 tabIndex="0"
                 href="/2023/sponsor/why-sponsor"
