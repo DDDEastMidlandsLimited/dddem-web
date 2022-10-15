@@ -6,7 +6,7 @@ import Image from 'next/image';
 
 export default function SponsorshipPack() {
   return (
-<Layout>
+    <Layout>
       <Head>
         <title>Sponsorship Tiers 2023</title>
       </Head>
