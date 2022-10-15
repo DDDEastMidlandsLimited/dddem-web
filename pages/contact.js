@@ -1,7 +1,6 @@
 import React from 'react';
 import Layout from '../components/Layout';
 import Header from '../components/Header';
-import theme from '../theme/theme';
 import Head from 'next/head';
 import Image from 'next/image';
 
@@ -16,7 +15,7 @@ export default function Contact() {
         banner="/static/banners/contact.jpg"
       />
 
-      <section name="Contents">
+      <section className="content-section" name="Contents">
         <h1 tabIndex="0">Contents</h1>
 
         <p tabIndex="0">
@@ -46,7 +45,7 @@ export default function Contact() {
         </p>
       </section>
 
-      <section id="ontheday">
+      <section className="content-section" id="ontheday">
         <h1 tabIndex="0">On The Day</h1>
         <a name="dddem" />
         <p tabIndex="0">
@@ -72,7 +71,7 @@ export default function Contact() {
         </p>
       </section>
 
-      <section id="dddem">
+      <section className="content-section" id="dddem">
         <h1 tabIndex="0">DDD East Midlands Accounts</h1>
         <a name="dddem" />
         <h2 tabIndex="0">Accounts Run By The Co-Organisers</h2>
@@ -113,7 +112,7 @@ export default function Contact() {
         </ul>
       </section>
 
-      <section id="rachelwatson">
+      <section className="content-section" id="rachelwatson">
         <h1 tabIndex="0">Rachel Watson</h1>
         <a name="rachelwatson" />
         <div className="row">
@@ -121,7 +120,9 @@ export default function Contact() {
             <Image
               src="/static/organisers/rachel.jpg"
               alt=""
-              className="picture"
+              className="profile"
+              width={200}
+              height={200}
             />
           </div>
           <div className="columnright">
@@ -162,7 +163,7 @@ export default function Contact() {
         </div>
       </section>
 
-      <section id="jessicawhite">
+      <section className="content-section" id="jessicawhite">
         <h1>Jessica White</h1>
 
         <a name="jessicawhite" />
@@ -171,7 +172,9 @@ export default function Contact() {
             <Image
               src="/static/organisers/jess.jpg"
               alt=""
-              className="picture"
+              className="profile"
+              width={200}
+              height={200}
             />
           </div>
           <div className="columnright">
@@ -212,7 +215,7 @@ export default function Contact() {
         </div>
       </section>
 
-      <section id="moretonbrockley">
+      <section className="content-section" id="moretonbrockley">
         <h1 tabIndex="0">Moreton Brockley</h1>
         <a name="moretonbrockley" />
         <div className="row">
@@ -220,7 +223,9 @@ export default function Contact() {
             <Image
               src="/static/organisers/mort.jpg"
               alt=""
-              className="picture"
+              className="profile"
+              width={200}
+              height={200}
             />
           </div>
           <div className="columnright">
@@ -260,39 +265,6 @@ export default function Contact() {
           </div>
         </div>
       </section>
-
-      <style jsx>
-        {`
-          section {
-            max-width: ${theme.sizes.maxContentWidth};
-            padding: ${theme.sizes.contentPadding};
-            margin: auto;
-          }
-          section div {
-            padding-bottom: 10px;
-          }
-          .green {
-            color: green;
-          }
-          .yellow {
-            color: orange;
-          }
-          .red {
-            color: red;
-          }
-
-          .picture {
-            width: 200px;
-            border-radius: 50%;
-          }
-
-          @media only screen and (max-width: 810px) {
-            .picture {
-              display: none;
-            }
-          }
-        `}
-      </style>
     </Layout>
   );
 }

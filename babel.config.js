@@ -5,7 +5,6 @@ module.exports = {
       {
         'preset-env': {},
         'transform-runtime': {},
-        'styled-jsx': {},
         'class-properties': {},
       },
     ],

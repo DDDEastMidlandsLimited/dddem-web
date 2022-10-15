@@ -1,0 +1,18 @@
+.externalLink {
+  text-decoration: none;
+  color: $light;
+  display: block;
+  padding: 0.75em 15px;
+  line-height: 1em;
+  font-size: 1em;
+
+  &:hover {
+    color: $light;
+    text-decoration: underline;
+  }
+  @media (min-width: 768px) {
+    color: $primary;
+    border: 0 !important;
+    border-bottom: none;
+  }
+}

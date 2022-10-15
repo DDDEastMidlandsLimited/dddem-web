@@ -14,19 +14,7 @@ export default class TalkList extends React.PureComponent {
       return this._renderTalk(talk);
     });
 
-    return (
-      <div className="column">
-        {talkElements}
-        <style jsx>
-          {`
-            .column {
-              float: right;
-              width: 70%;
-            }
-          `}
-        </style>
-      </div>
-    );
+    return <div className="column talks-list">{talkElements}</div>;
   }
 
   _renderTalk(talk) {

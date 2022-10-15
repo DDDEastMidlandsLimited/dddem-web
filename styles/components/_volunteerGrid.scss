@@ -1,0 +1,20 @@
+.volunteer-grid {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+
+  .volunteer-grid-item {
+    min-width: 180px;
+    margin: 10px;
+
+    a {
+      .picture {
+        border-radius: 50%;
+        &:hover {
+          filter: drop-shadow(5px 5px 5px rgb(26 125 135 / 0.75));
+        }
+      }
+    }
+  }
+}

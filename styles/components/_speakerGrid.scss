@@ -1,0 +1,83 @@
+.speaker-grid {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+
+  .speaker-grid-item {
+    min-width: 180px;
+    height: 180px;
+    overflow: hidden;
+    margin: 10px;
+    h4 {
+      margin-top: 3px;
+      margin-bottom: 4px;
+      text-decoration: none;
+      color: white;
+    }
+
+    p {
+      margin: 3px 0px;
+      color: white;
+    }
+
+    .speaker-image {
+      width: 175px;
+      height: 175px;
+      margin: 5px;
+    }
+
+    &:hover {
+      .hover-pop {
+        top: -175px;
+        height: 175px;
+        padding: 7px;
+        box-sizing: border-box;
+        animation: floatIn 0.3s normal ease-in;
+      }
+    }
+
+    .hover-pop {
+      width: 175px;
+      background-color: $primary;
+      position: relative;
+      top: -28px;
+      margin-left: 5px;
+      animation: floatOut 0.2s normal ease-out;
+    }
+
+    @-webkit-keyframes floatIn {
+      0% {
+        top: -22px;
+      }
+      100% {
+        top: -175px;
+      }
+    }
+    @keyframes floatIn {
+      0% {
+        top: -22px;
+      }
+      100% {
+        top: -175px;
+      }
+    }
+
+    @-webkit-keyframes floatOut {
+      0% {
+        top: -175px;
+      }
+      100% {
+        top: -22px;
+      }
+    }
+    @keyframes floatOut {
+      0% {
+        top: -135px;
+      }
+      100% {
+        top: -22px;
+      }
+    }
+  }
+}

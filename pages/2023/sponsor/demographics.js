@@ -1,7 +1,6 @@
 import React from 'react';
 import Layout from '../../../components/Layout';
 import Header from '../../../components/Header';
-import theme from '../../../theme/theme';
 import Head from 'next/head';
 import Image from 'next/image';
 
@@ -16,7 +15,10 @@ export default function Demographics() {
         banner="/static/banners/sponsor.jpg"
       />
 
-      <section name="Contents">
+      <section
+        className="demographics content-section"
+        name="Contents"
+      >
         <h1 tabIndex="0">Contents</h1>
 
         <p tabIndex="0">
@@ -39,7 +41,10 @@ export default function Demographics() {
         </p>
       </section>
 
-      <section id="attendee-statistics">
+      <section
+        className="demographics content-section"
+        id="attendee-statistics"
+      >
         <h1 tabIndex="0">Attendee Statistics</h1>
 
         <a name="attendee-statistics" />
@@ -52,7 +57,7 @@ export default function Demographics() {
         </p>
       </section>
 
-      <section id="jobs">
+      <section className="demographics content-section" id="jobs">
         <h2 tabIndex="0">Job Titles</h2>
 
         <a name="jobs" />
@@ -79,7 +84,7 @@ export default function Demographics() {
         <h4>Further breakdown</h4>
         <div>
           <table>
-            <tr className="header">
+            <tr>
               <th>Job Title</th>
               <th>Percentage %</th>
             </tr>
@@ -211,7 +216,10 @@ export default function Demographics() {
         </div>
       </section>
 
-      <section id="attendee-pronouns">
+      <section
+        className="demographics content-section"
+        id="attendee-pronouns"
+      >
         <h2 tabIndex="0">Attendee Pronouns</h2>
 
         <h3>2021</h3>
@@ -234,7 +242,10 @@ export default function Demographics() {
         </p>
       </section>
 
-      <section id="talk-stats">
+      <section
+        className="demographics content-section"
+        id="talk-stats"
+      >
         <h1 tabIndex="0">Talk Statistics</h1>
 
         <a name="talk-stats" />
@@ -320,49 +331,6 @@ export default function Demographics() {
           />
         </div>
       </section>
-
-      <style jsx>
-        {`
-          section {
-            max-width: ${theme.sizes.maxContentWidth};
-            padding: ${theme.sizes.contentPadding};
-            margin: auto;
-          }
-          section div {
-            padding-bottom: 10px;
-          }
-
-          .center-pic {
-            text-align: center;
-            padding: 5px;
-            width: 75%;
-          }
-
-          .picture-container {
-            margin: 10px;
-          }
-
-          .header {
-            background-color: ${theme.palette.primary};
-            color: white;
-          }
-
-          table,
-          th,
-          td {
-            border: 1px solid;
-            border-collapse: collapse;
-            padding: 10px 15px;
-            text-align: center;
-          }
-
-          @media only screen and (max-width: 810px) {
-            .picture {
-              display: none;
-            }
-          }
-        `}
-      </style>
     </Layout>
   );
 }

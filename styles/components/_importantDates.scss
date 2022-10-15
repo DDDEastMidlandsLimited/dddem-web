@@ -1,0 +1,40 @@
+.boxed-items {
+  .box-item {
+    width: 170px;
+  height: 90px;
+  text-align: center;
+  border-radius: $borderRadiusMobile;
+  border: #b5c6c4;
+  border-style: dotted;
+  padding: 40px 15px;
+  margin: 10px;
+  display: flex;
+  flex-direction: column;
+  position: relative;
+
+    .bottom-background {
+      background-color: $primary;
+      padding: 5px 0px 5px 30px;
+      width: 100%;
+      margin-left: -15px;
+    }
+
+    .past-bottom-background {
+      background-color: $secondary;
+      padding: 5px 0px 5px 30px;
+      width: 100%;
+      margin-left: -15px;
+    }
+
+    .bottom {
+      color: $light;
+      margin-left: -30px;
+    }
+
+    .strike-bottom {
+      color: $light;
+      margin-left: -30px;
+      text-decoration: line-through;
+    }
+  }
+}

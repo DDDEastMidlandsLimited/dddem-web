@@ -1,7 +1,6 @@
 import React from 'react';
 import Layout from '../../components/Layout';
 import Header from '../../components/Header';
-import theme from '../../theme/theme';
 import Head from 'next/head';
 import Image from 'next/image';
 import CovidPrecautions from '../../components/content/CovidPrecautions';
@@ -22,7 +21,7 @@ export default function SponsorInformation() {
         banner="/static/banners/sponsor.jpg"
       />
 
-      <section name="Contents">
+      <section className="content-section" name="Contents">
         <h1 tabIndex="0">Contents</h1>
         <p>
           <strong>
@@ -164,7 +163,7 @@ export default function SponsorInformation() {
       <CodeOfConduct />
 
       <a name="before-the-conference" />
-      <section id="before-the-conference">
+      <section className="content-section" id="before-the-conference">
         <h1 tabIndex="0">Before The Conference</h1>
         <a name="tickets" />
         <h2 tabIndex="0">Tickets</h2>
@@ -236,7 +235,7 @@ export default function SponsorInformation() {
           Click where it says "Enter promo code" (see the image below)
           and enter the code we have provided to you.
         </li>
-        <div className="imagecenter">
+        <div className="img-center">
           <br />
           <Image
             src="/static/info/sponsors/promo.png"
@@ -295,7 +294,7 @@ export default function SponsorInformation() {
       </section>
 
       <a name="day-before" />
-      <section id="day-before">
+      <section className="content-section" id="day-before">
         <h1 tabIndex="0">Setup The Day Before Conference</h1>
 
         <a name="setup-time" />
@@ -363,7 +362,7 @@ export default function SponsorInformation() {
       <Transport />
 
       <a name="setup-on-day" />
-      <section id="setup-on-day">
+      <section className="content-section" id="setup-on-day">
         <h1 tabIndex="0">Setup On The Day</h1>
 
         <a name="arrival" />
@@ -391,7 +390,7 @@ export default function SponsorInformation() {
       </section>
 
       <a name="general" />
-      <section id="general">
+      <section className="content-section" id="general">
         <h1 tabIndex="0">General Conference Day Information</h1>
         <a name="power" />
         <h2 tabIndex="0">Power</h2>
@@ -474,7 +473,7 @@ export default function SponsorInformation() {
       </section>
 
       <a name="stalls" />
-      <section id="stalls">
+      <section className="content-section" id="stalls">
         <h1 tabIndex="0">Exhibition Stalls</h1>
 
         <a name="space" />
@@ -525,7 +524,7 @@ export default function SponsorInformation() {
       <SocialMedia />
 
       <a name="packing-up" />
-      <section id="packing-up">
+      <section className="content-section" id="packing-up">
         <h1 tabIndex="0">Packing Up Day Of The Conference</h1>
         <a name="teardown-time" />
         <h2 tabIndex="0">Collecting your exhibition items.</h2>
@@ -548,7 +547,7 @@ export default function SponsorInformation() {
         </p>
       </section>
 
-      <section id="contact">
+      <section className="content-section" id="contact">
         <a name="contact" />
         <h1 tabIndex="0">Contact</h1>
         <p tabIndex="0">
@@ -558,46 +557,6 @@ export default function SponsorInformation() {
         </p>
         <br />
       </section>
-
-      <style jsx>
-        {`
-          section {
-            max-width: ${theme.sizes.maxContentWidth};
-            padding: ${theme.sizes.contentPadding};
-            margin: auto;
-          }
-          section div {
-            padding-bottom: 10px;
-          }
-
-          .green {
-            color: green;
-          }
-
-          .red {
-            color: red;
-          }
-
-          .screenshot {
-            width: 70%;
-          }
-
-          .imagecenter {
-            text-align: center;
-          }
-
-          table {
-            font-family: arial, sans-serif;
-            border-collapse: collapse;
-            width: 100%;
-            text-align: center;
-          }
-
-          tr th {
-            background-color: #dddddd;
-          }
-        `}
-      </style>
     </Layout>
   );
 }

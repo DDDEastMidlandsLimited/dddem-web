@@ -1,9 +1,7 @@
 import React from 'react';
 import Layout from '../../components/Layout';
 import Header from '../../components/Header';
-import theme from '../../theme/theme';
 import Head from 'next/head';
-import Image from 'next/image';
 
 export default function YourStayInNotts() {
   return (
@@ -12,11 +10,11 @@ export default function YourStayInNotts() {
         <title>Your Stay In Nottingham</title>
       </Head>
       <Header
-        title={'Your Stay In Nottinghams'}
+        title={'Your Stay In Nottingham'}
         banner="/static/banners/coffee.png"
       />
 
-      <section>
+      <section className="content-section">
         <h1 tabIndex="0">
           Where to stay, see and eat in Nottingham.
         </h1>
@@ -30,7 +28,7 @@ export default function YourStayInNotts() {
         </p>
       </section>
 
-      <section>
+      <section className="content-section">
         <h2 tabIndex="0">Hotels</h2>
         <a name="hotels" />
         <ul tabIndex="0">
@@ -82,7 +80,7 @@ export default function YourStayInNotts() {
         </ul>
       </section>
 
-      <section>
+      <section className="content-section">
         <h2 tabIndex="0">Food</h2>
         <a name="food" />
         <h4 tabIndex="0">Breakfast</h4>
@@ -241,7 +239,7 @@ export default function YourStayInNotts() {
         </ul>
       </section>
 
-      <section>
+      <section className="content-section">
         <h2 tabIndex="0">Coffee</h2>
         <a name="coffee" />
         <ul tabIndex="0">
@@ -293,7 +291,7 @@ export default function YourStayInNotts() {
         </ul>
       </section>
 
-      <section>
+      <section className="content-section">
         <h2 tabIndex="0">Ales</h2>
         <a name="ales" />
         <p tabIndex="0">
@@ -310,7 +308,7 @@ export default function YourStayInNotts() {
         </p>
       </section>
 
-      <section>
+      <section className="content-section">
         <h2 tabIndex="0">Cocktails</h2>
         <a name="cocktails" />
         <ul tabIndex="0">
@@ -398,7 +396,7 @@ export default function YourStayInNotts() {
         </ul>
       </section>
 
-      <section>
+      <section className="content-section">
         <h2 tabIndex="0">Escape Rooms</h2>
         <a name="escape-rooms" />
         <ul tabIndex="0">
@@ -441,7 +439,7 @@ export default function YourStayInNotts() {
         </ul>
       </section>
 
-      <section>
+      <section className="content-section">
         <h2 tabIndex="0">Boardgame Cafes</h2>
         <a name="boardgame-cafe" />
         <ul tabIndex="0">
@@ -466,7 +464,7 @@ export default function YourStayInNotts() {
         </ul>
       </section>
 
-      <section>
+      <section className="content-section">
         <h2 tabIndex="0">Other Activities</h2>
         <a name="other-activities" />
         <ul tabIndex="0">
@@ -509,7 +507,7 @@ export default function YourStayInNotts() {
         </ul>
       </section>
 
-      <section>
+      <section className="content-section">
         <h2 tabIndex="0">Independent Book Stores</h2>
         <a name="book-stores" />
         <ul tabIndex="0">
@@ -533,40 +531,6 @@ export default function YourStayInNotts() {
           </li>
         </ul>
       </section>
-
-      <style jsx>
-        {`
-          section {
-            max-width: ${theme.sizes.maxContentWidth};
-            padding: ${theme.sizes.contentPadding};
-            margin: auto;
-          }
-          section div {
-            padding-bottom: 10px;
-          }
-
-          .picture {
-            width: 150px;
-            border-radius: 50%;
-          }
-
-          .smallpageimage {
-            max-width: 100%;
-            height: 95%;
-            padding: 5px 5px;
-            display: block;
-            margin-left: auto;
-            margin-right: auto;
-            width: 95%;
-          }
-
-          @media only screen and (max-width: 810px) {
-            .picture {
-              display: none;
-            }
-          }
-        `}
-      </style>
     </Layout>
   );
 }

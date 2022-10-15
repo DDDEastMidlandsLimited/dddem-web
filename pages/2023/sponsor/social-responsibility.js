@@ -1,7 +1,6 @@
 import React from 'react';
 import Layout from '../../../components/Layout';
 import Header from '../../../components/Header';
-import theme from '../../../theme/theme';
 import Head from 'next/head';
 
 export default function SocialResponsibility() {
@@ -15,7 +14,10 @@ export default function SocialResponsibility() {
         banner="/static/banners/hacktober.jpg"
       />
 
-      <section id="intro-to-social-responsibility">
+      <section
+        className="content-section"
+        id="intro-to-social-responsibility"
+      >
         <a name="intro" />
         <p tabIndex="0">
           DDD East Midlands Conference is a not-for-profit
@@ -25,7 +27,7 @@ export default function SocialResponsibility() {
         </p>
       </section>
 
-      <section id="accessibility">
+      <section className="content-section" id="accessibility">
         <a name="accessibility" />
         <h2 tabIndex="0">Accessibility Efforts</h2>
         <p tabIndex="0">
@@ -84,7 +86,7 @@ export default function SocialResponsibility() {
         <li tabIndex="0">Event is free.</li>
       </section>
 
-      <section id="education">
+      <section className="content-section" id="education">
         <a name="education" />
         <h2 tabIndex="0">Working with Educational Facilities</h2>
         <p tabIndex="0">
@@ -108,7 +110,7 @@ export default function SocialResponsibility() {
         </p>
       </section>
 
-      <section id="diversity">
+      <section className="content-section" id="diversity">
         <a name="diversity" />
         <h2 tabIndex="0">Diversity</h2>
         <p tabIndex="0">
@@ -136,40 +138,6 @@ export default function SocialResponsibility() {
         </li>
         <li tabIndex="0">Anonymous submission process.</li>
       </section>
-
-      <style jsx>
-        {`
-          section {
-            max-width: ${theme.sizes.maxContentWidth};
-            padding: ${theme.sizes.contentPadding};
-            margin: auto;
-          }
-          section div {
-            padding-bottom: 10px;
-          }
-
-          .picture {
-            width: 150px;
-            border-radius: 50%;
-          }
-
-          .smallpageimage {
-            max-width: 100%;
-            height: 95%;
-            padding: 5px 5px;
-            display: block;
-            margin-left: auto;
-            margin-right: auto;
-            width: 95%;
-          }
-
-          @media only screen and (max-width: 810px) {
-            .picture {
-              display: none;
-            }
-          }
-        `}
-      </style>
     </Layout>
   );
 }

@@ -1,0 +1,29 @@
+.back-to-about-button-container {
+  text-align-last: center;
+
+  .back-to-about-button {
+    text-align: $quaternary;
+    font-weight: bold;
+    font-size: $mobileSubtitle1;
+    flex-grow: 1;
+    border-radius: 12px;
+    padding: 10px 10px 10px 10px;
+    color: $primary;
+    border: 2px solid $primary;
+    background-color: $light;
+    box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2),
+      0 6px 20px 0 rgba(0, 0, 0, 0.19);
+
+    &:hover {
+      background-color: $primary;
+    }
+
+    a {
+      text-decoration: none;
+
+      &:hover {
+        color: white;
+      }
+    }
+  }
+}

@@ -13,24 +13,13 @@ export default class TalkFilter extends React.PureComponent {
 
   render() {
     return (
-      <div className="column">
+      <div className="column talks-filter">
         <h2>Level</h2>
         {this._renderItems(this.props.levels, this._renderLevel)}
         <h2>Length</h2>
         {this._renderItems(this.props.lengths, this._renderLength)}
         <h2>Topic</h2>
         {this._renderItems(this.props.tags, this._renderTag)}
-        <style jsx>
-          {`
-            div {
-              margin-right: 2%;
-            }
-            .column {
-              float: left;
-              width: 30%;
-            }
-          `}
-        </style>
       </div>
     );
   }

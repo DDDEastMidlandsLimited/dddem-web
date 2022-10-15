@@ -1,9 +1,8 @@
 import React from 'react';
-import ContentSection from '../../styles/ContentSection';
 
 export default function Catering() {
   return (
-    <section id="catering">
+    <section className="content-section" id="catering">
       <h1 tabIndex="0">Catering</h1>
       <a name="food" />
       <h2>Food and Dietary Requirements</h2>
@@ -62,7 +61,6 @@ export default function Catering() {
         </a>
         , thanks to our Sponsors UNiDAYS.
       </p>
-      <style jsx>{ContentSection}</style>
     </section>
   );
 }

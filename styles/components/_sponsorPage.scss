@@ -1,0 +1,40 @@
+.sponsor-page {
+  .row {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 100%;
+  }
+
+  .columnright {
+    float: right;
+    width: 60%;
+  }
+
+  .columnleft {
+    float: left;
+    width: 35%;
+  }
+
+  .picture-container {
+    margin: 10px;
+  }
+
+  .picture {
+    border-radius: 50%;
+  }
+
+  .center {
+    text-align: center;
+  }
+
+  @media only screen and (max-width: 810px) {
+    .responsive {
+      width: 80%;
+    }
+
+    .picture {
+      display: none;
+    }
+  }
+}

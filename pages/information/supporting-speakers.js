@@ -1,7 +1,6 @@
 import React from 'react';
 import Layout from '../../components/Layout';
 import Header from '../../components/Header';
-import theme from '../../theme/theme';
 import Head from 'next/head';
 
 export default function SupportingSpeakers() {
@@ -15,7 +14,7 @@ export default function SupportingSpeakers() {
         banner="/static/banners/support.jpg"
       />
 
-      <section id="supporting-speakers">
+      <section className="content-section" id="supporting-speakers">
         <a name="speakers" />
         <p tabIndex="0">
           DDD East Midlands will continue to make efforts for the
@@ -38,7 +37,7 @@ export default function SupportingSpeakers() {
         </p>
       </section>
 
-      <section id="call-for-papers">
+      <section className="content-section" id="call-for-papers">
         <a name="call-for-papers" />
         <h2 tabIndex="0">
           Talks at local meetups on how to write a high-quality CFP
@@ -74,7 +73,7 @@ export default function SupportingSpeakers() {
         </p>
       </section>
 
-      <section id="speakers-workshop">
+      <section className="content-section" id="speakers-workshop">
         <a name="speakers-workshop" />
         <h2 tabIndex="0">Speakers Workshop</h2>
         <p tabIndex="0">
@@ -108,40 +107,6 @@ export default function SupportingSpeakers() {
           </a>
         </p>
       </section>
-
-      <style jsx>
-        {`
-          section {
-            max-width: ${theme.sizes.maxContentWidth};
-            padding: ${theme.sizes.contentPadding};
-            margin: auto;
-          }
-          section div {
-            padding-bottom: 10px;
-          }
-
-          .picture {
-            width: 150px;
-            border-radius: 50%;
-          }
-
-          .smallpageimage {
-            max-width: 100%;
-            height: 95%;
-            padding: 5px 5px;
-            display: block;
-            margin-left: auto;
-            margin-right: auto;
-            width: 95%;
-          }
-
-          @media only screen and (max-width: 810px) {
-            .picture {
-              display: none;
-            }
-          }
-        `}
-      </style>
     </Layout>
   );
 }

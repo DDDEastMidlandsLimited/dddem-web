@@ -1,6 +1,5 @@
 import React from 'react';
 import Image from 'next/image';
-import theme from '../../theme/theme';
 import Header from '../../components/Header';
 import Layout from '../../components/Layout';
 
@@ -8,7 +7,7 @@ export default function SponsorshipPack() {
   return (
     <Layout>
       <Header banner="/static/banners/sponsorship-tiers.png" />
-
+      
       <section>
         <h1>Sponsorship Tiers 2023</h1>
       </section>

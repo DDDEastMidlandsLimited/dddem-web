@@ -1,7 +1,6 @@
 import React from 'react';
 import Layout from '../components/Layout';
 import Header from '../components/Header';
-import theme from '../theme/theme';
 import Head from 'next/head';
 
 export default function CodeOfConduct() {
@@ -14,7 +13,7 @@ export default function CodeOfConduct() {
         title={'Code of Conduct'}
         banner="/static/banners/coc.jpg"
       />
-      <section>
+      <section className="content-section">
         <h2 tabIndex="0">TL;DR</h2>
         <p tabIndex="0">
           Treat everyone in a respectful and kind manner. Harassment
@@ -35,7 +34,7 @@ export default function CodeOfConduct() {
           .
         </p>
       </section>
-      <section>
+      <section className="content-section">
         <h2 tabIndex="0">The Full Version</h2>
         <p tabIndex="0">
           Inclusivity is a core value of DDD East Midlands. We believe
@@ -115,7 +114,7 @@ export default function CodeOfConduct() {
           law enforcement.
         </p>
       </section>
-      <section>
+      <section className="content-section">
         <h2 tabIndex="0">Reporting Code Of Conduct Violations</h2>
         <p tabIndex="0">
           If there is any circumstance where want to report a code of
@@ -141,7 +140,7 @@ export default function CodeOfConduct() {
           messages will be dealt with in a timely manner on the day.
         </p>
       </section>
-      <section>
+      <section className="content-section">
         <h2 tabIndex="0">Approaching People About Jobs</h2>
         <p tabIndex="0">
           At our events and on our online community it is not
@@ -155,15 +154,6 @@ export default function CodeOfConduct() {
           out more and apply.
         </p>
       </section>
-      <style jsx>
-        {`
-          section {
-            max-width: ${theme.sizes.maxContentWidth};
-            padding: ${theme.sizes.contentPadding};
-            margin: auto;
-          }
-        `}
-      </style>
     </Layout>
   );
 }

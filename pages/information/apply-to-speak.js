@@ -1,7 +1,6 @@
 import React from 'react';
 import Layout from '../../components/Layout';
 import Header from '../../components/Header';
-import theme from '../../theme/theme';
 import Head from 'next/head';
 
 export default function ApplicationInformation() {
@@ -15,7 +14,7 @@ export default function ApplicationInformation() {
         banner="/static/banners/attendee.jpg"
       />
 
-      <section name="Contents">
+      <section className="content-section" name="Contents">
         <h1 tabIndex="0">Contents</h1>
 
         <p tabIndex="0">
@@ -56,13 +55,13 @@ export default function ApplicationInformation() {
         </ul>
       </section>
 
-      <section id="title">
+      <section className="content-section" id="title">
         <h1 tabIndex="0">
           Frequently asked questions about submission.
         </h1>
       </section>
 
-      <section id="cfp">
+      <section className="content-section" id="cfp">
         <a name="cfp" />
         <h2 tabIndex="0"> What is a CFP?</h2>
         <p tabIndex="0">
@@ -72,19 +71,19 @@ export default function ApplicationInformation() {
         </p>
       </section>
 
-      <section id="applicationopen">
+      <section className="content-section" id="applicationopen">
         <a name="applicationopen" />
         <h2 tabIndex="0">When does the CFP Open?</h2>
         <p tabIndex="0">2nd April 2021</p>
       </section>
 
-      <section id="applicationclose">
+      <section className="content-section" id="applicationclose">
         <a name="applicationclose" />
         <h2 tabIndex="0">When does the CFP Close?</h2>
         <p tabIndex="0">30th April 2021.</p>
       </section>
 
-      <section id="applicationhow">
+      <section className="content-section" id="applicationhow">
         <a name="applicationhow" />
         <h2 tabIndex="0">How do I apply to talk?</h2>
         <p tabIndex="0">
@@ -130,7 +129,7 @@ export default function ApplicationInformation() {
         </p>
       </section>
 
-      <section id="talklength">
+      <section className="content-section" id="talklength">
         <a name="talklength" />
         <h2 tabIndex="0">What are the options for talk length?</h2>
         <p tabIndex="0">
@@ -152,13 +151,13 @@ export default function ApplicationInformation() {
         </p>
       </section>
 
-      <section id="cospeaker">
+      <section className="content-section" id="cospeaker">
         <a name="cospeaker" />
         <h2 tabIndex="0">Can I present with a co-speaker?</h2>
         <p tabIndex="0">Yes you can!</p>
       </section>
 
-      <section id="multiple">
+      <section className="content-section" id="multiple">
         <a name="multiple" />
         <h2 tabIndex="0">Can I submit more than one talk?</h2>
         <p tabIndex="0">
@@ -172,7 +171,7 @@ export default function ApplicationInformation() {
         </p>
       </section>
 
-      <section id="tande">
+      <section className="content-section" id="tande">
         <a name="tande" />
         <h2 tabIndex="0">
           Are travel and accommodation expenses provided for speakers?
@@ -183,19 +182,6 @@ export default function ApplicationInformation() {
           accommodation costs) to speakers.
         </p>
       </section>
-
-      <style jsx>
-        {`
-          section {
-            max-width: ${theme.sizes.maxContentWidth};
-            padding: ${theme.sizes.contentPadding};
-            margin: auto;
-          }
-          section div {
-            padding-bottom: 10px;
-          }
-        `}
-      </style>
     </Layout>
   );
 }

@@ -3,7 +3,7 @@ import ImportantDate from './ImportantDate';
 
 export default function ImportantDatesList({ dates }) {
   return (
-    <section className="boxedItems">
+    <section className="boxed-items">
       {dates.map((date) => (
         <ImportantDate key={date.id} dates={date} />
       ))}

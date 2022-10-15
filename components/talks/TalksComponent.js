@@ -75,7 +75,7 @@ export default class TalksComponent extends React.PureComponent {
       this._filterLengths(filteredTalks);
 
     return (
-      <div>
+      <div className="talks-container">
         <TalkFilter
           tags={projectedFilteredAndOrderedTags}
           levels={projectedLevels}
@@ -88,14 +88,6 @@ export default class TalksComponent extends React.PureComponent {
           removeLength={this.removeLength}
         />
         <TalkList talks={filteredTalks} />
-        <style jsx>
-          {`
-            div {
-              display: flex;
-              flex-direction: row;
-            }
-          `}
-        </style>
       </div>
     );
   }

@@ -3,7 +3,7 @@ import Sponsor from './Sponsor';
 
 export default function SponsorList({ sponsors }) {
   return (
-    <section className="boxedItems">
+    <section className="boxed-items">
       {sponsors.map((sponsor) => (
         <Sponsor key={sponsor.id} sponsor={sponsor} />
       ))}
