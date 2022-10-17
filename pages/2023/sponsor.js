@@ -71,6 +71,14 @@ export default function Sponsor() {
         <section className="content-section" id="sponsor-info">
           <h1 tabIndex="0">Want More Information?</h1>
           <p tabIndex="0">
+            For more information on the sponsorship tiers available,
+            head to the{' '}
+            <a href="/2023/sponsorship-tiers" rel="noreferrer">
+              {' '}
+              sponsorship tier page
+            </a>
+          </p>
+          <p tabIndex="0">
             Here are some pages with more information relating to
             sponsoring the event.
           </p>
