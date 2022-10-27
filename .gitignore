@@ -3,6 +3,7 @@ node_modules
 .idea
 .public/
 _site/
+coverage
 test-results/*
 out/sitemap.xml
 
