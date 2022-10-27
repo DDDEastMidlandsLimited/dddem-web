@@ -32,5 +32,6 @@ jobs:
       - name: Coverage Report
         uses: lucassabreu/comment-coverage-clover@main
         with:
-          file: clover.xml
-          base-file: "coverage/clover.xml"
+          file: "coverage/clover.xml"
+          min-line-coverage: 20
+          min-method-coverage: 20
