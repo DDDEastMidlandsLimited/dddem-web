@@ -79,4 +79,3 @@ We use ESLinting rules to maintain an unopinionated codebase. You can set this u
 We also use `pretty-quick` via a `husky` git hook which will fix your formatting automatically or warn you if it can't before you commit your work so even if you don't have it on save then this will prevent any errors.
 
 If you manage to push changes bypassing the above then it will also check at the build pipeline to help prevent any mistakes.
-

@@ -28,10 +28,3 @@ jobs:
         with:
           check_name: "Unit Test Results"
           junit_files: test-results/junit/results.xml
-
-      - name: Coverage Report
-        uses: lucassabreu/comment-coverage-clover@main
-        with:
-          file: "coverage/clover.xml"
-          min-line-coverage: 20
-          min-method-coverage: 20
