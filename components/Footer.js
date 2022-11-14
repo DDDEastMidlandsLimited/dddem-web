@@ -65,6 +65,15 @@ export default function Footer() {
               <FontAwesomeIcon icon={brands('linkedin')} size="sm" />
             </a>
           </Link>
+          <Link href="https://mastodon.me.uk/@dddem" prefetch={false}>
+            <a
+              target="_blank"
+              aria-label="Mastodon"
+              rel="noopener noreferrer me"
+            >
+              <FontAwesomeIcon icon={brands('mastodon')} size="sm" />
+            </a>
+          </Link>
         </div>
         <div className="col-3">
           <Link href="/contact">
