@@ -6,6 +6,7 @@ import SponsorButton from '../../components/sponsorship/SponsorButton';
 import SponsorshipTiersList from '../../components/sponsorship/SponsorshipTiersList';
 import sponsorship from '../../data/sponsorship/sponsorship';
 import Image from 'next/image';
+import Link from 'next/link';
 
 export default function Sponsor() {
   return (
@@ -73,40 +74,40 @@ export default function Sponsor() {
           <p tabIndex="0">
             For more information on the sponsorship tiers available,
             head to the{' '}
-            <a href="/2023/sponsorship-tiers" rel="noreferrer">
+            <Link href="/2023/sponsorship-tiers" rel="noreferrer">
               {' '}
               sponsorship tier page
-            </a>
+            </Link>
           </p>
           <p tabIndex="0">
             Here are some pages with more information relating to
             sponsoring the event.
           </p>
           <li tabIndex="0">
-            <a href="../sponsor/why-sponsor" rel="noreferrer">
+            <Link href="../sponsor/why-sponsor" rel="noreferrer">
               Why Sponsor?
-            </a>
+            </Link>
           </li>
           <li tabIndex="0">
-            <a
+            <Link
               href="../../information/event-activities/"
               rel="noreferrer"
             >
               Event Activities
-            </a>
+            </Link>
           </li>
           <li tabIndex="0">
-            <a href="../sponsor/testimonials" rel="noreferrer">
+            <Link href="../sponsor/testimonials" rel="noreferrer">
               Testimonials
-            </a>
+            </Link>
           </li>
           <li tabIndex="0">
-            <a
+            <Link
               href="../sponsor/social-responsibility"
               rel="noreferrer"
             >
               Social Responsibility
-            </a>
+            </Link>
           </li>
         </section>
 
