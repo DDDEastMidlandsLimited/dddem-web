@@ -3,6 +3,7 @@ import Layout from '../../components/Layout';
 import Header from '../../components/Header';
 import Head from 'next/head';
 import Image from 'next/image';
+import Link from 'next/link';
 
 export default function SponsorshipPack() {
   return (
@@ -39,13 +40,13 @@ export default function SponsorshipPack() {
         <h2 tabIndex="0">How to Sponsor</h2>
         <p tabIndex="0">
           If any of the below peaks your interest, head to the{' '}
-          <a
+          <Link
             tabIndex="0"
             href="/2023/sponsor"
             rel="noopener noreferrer"
           >
             Sponsor the Event
-          </a>
+          </Link>
           page to find out more.
         </p>
       </section>
