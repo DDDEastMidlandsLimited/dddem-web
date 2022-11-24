@@ -141,7 +141,7 @@ export default function Sponsor() {
               <Image
                 src="/static/organisers/rachel.png"
                 alt="Picture of Rachel smiling"
-                className="picture"
+                className="picture-small"
                 height="200"
                 width="200"
               />
