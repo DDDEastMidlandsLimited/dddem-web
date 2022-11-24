@@ -17,9 +17,5 @@ describe('Given the Footer is rendered', () => {
     );
     expect(getByText('Test Link')).toBeInTheDocument();
     expect(getByText('Test Link')).toHaveAttribute('href', '/home');
-    expect(getByText('Test Link')).toHaveAttribute(
-      'target',
-      '_blank',
-    );
   });
 });

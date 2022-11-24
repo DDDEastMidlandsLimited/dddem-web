@@ -1,5 +1,5 @@
 import React from 'react';
 
-export function FontAwesomeIcon(props) {
-  return <i className={`fa ${props.icon}`} />;
-}
+export const FontAwesomeIcon = React.forwardRef(({props}, ref) => (
+  <i ref={ref} className={`fa fa-test-icon`} />
+));
