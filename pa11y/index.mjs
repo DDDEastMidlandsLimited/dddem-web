@@ -14,7 +14,6 @@ const runPa11y = async (page) => {
       'WCAG2AA.Principle1.Guideline1_3.1_3_1.H42.2',
       'WCAG2AA.Principle4.Guideline4_1.4_1_2.H91.A.NoContent',
       'WCAG2AA.Principle4.Guideline4_1.4_1_2.H91.A.EmptyNoId',
-      'WCAG2AA.Principle4.Guideline4_1.4_1_2.H91.A.NoContent',
     ],
   });
 };
