@@ -1,4 +1,5 @@
 import React from 'react';
+import Link from 'next/link';
 import { withRouter } from 'next/router';
 import { logEvent } from '../utils/analytics';
 
@@ -15,7 +16,7 @@ function ExternalLink({
   };
 
   return (
-    <a
+    <Link
       className="externalLink"
       href={href}
       onClick={handleClick}
@@ -23,7 +24,7 @@ function ExternalLink({
       rel={rel}
     >
       {children}
-    </a>
+    </Link>
   );
 }
 
