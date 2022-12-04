@@ -4,7 +4,7 @@ import pa11y from 'pa11y';
 // Every pa11y call create a remote socket connection and in node this limit is 10.
 // Setting this to 50 will silence a memory leak false positive warning when running
 // and enable the script to run correctly.
-process.setMaxListeners(100);
+process.setMaxListeners(150);
 
 const runPa11y = async (page) => {
   return pa11y(`./${page}`, {
