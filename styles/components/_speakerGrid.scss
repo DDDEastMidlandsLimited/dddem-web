@@ -29,7 +29,7 @@
 
     &:hover {
       .hover-pop {
-        top: -175px;
+        top: -170px;
         height: 175px;
         padding: 7px;
         box-sizing: border-box;
@@ -38,11 +38,11 @@
     }
 
     .hover-pop {
-      width: 175px;
+      width: 170px;
       background-color: $primary;
       position: relative;
-      top: -28px;
-      margin-left: 5px;
+      top: -45px;
+      margin-left: 10px;
       animation: floatOut 0.2s normal ease-out;
     }
 

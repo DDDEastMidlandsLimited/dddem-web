@@ -115,6 +115,10 @@
   img {
     &.picture {
       width: 95%;
+      height: 95%;
+    }
+    &.picture-small {
+      width: 95%;
     }
 
     &.profile {
