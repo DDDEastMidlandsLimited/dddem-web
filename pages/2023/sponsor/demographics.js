@@ -76,9 +76,8 @@ export default function Demographics() {
             src="/static/demographics/2021-jobs.png"
             alt="2021 Talk Topic Votes"
             className="picture"
-            height="250"
+            height="470"
             width="500"
-            layout="responsive"
           />
         </div>
         <h4>Further breakdown</h4>
@@ -149,9 +148,8 @@ export default function Demographics() {
             src="/static/demographics/2019-jobs.png"
             alt="2021 Talk Topic Votes"
             className="picture"
-            height="250"
+            height="470"
             width="500"
-            layout="responsive"
           />
         </div>
         <div>
@@ -271,9 +269,8 @@ export default function Demographics() {
             src="/static/demographics/2021-topics.png"
             alt="2021 Talk Topic Votes"
             className="picture"
-            height="250"
+            height="500"
             width="500"
-            layout="responsive"
           />
         </div>
         <p tabIndex="0">
@@ -288,7 +285,6 @@ export default function Demographics() {
             className="picture"
             height="250"
             width="400"
-            layout="responsive"
           />
         </div>
 
@@ -308,7 +304,6 @@ export default function Demographics() {
             className="picture"
             height="250"
             width="500"
-            layout="responsive"
           />
         </div>
         <p tabIndex="0">
@@ -327,7 +322,6 @@ export default function Demographics() {
             className="picture"
             height="250"
             width="500"
-            layout="responsive"
           />
         </div>
       </section>

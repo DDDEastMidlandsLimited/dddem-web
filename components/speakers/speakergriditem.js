@@ -1,5 +1,6 @@
 import React from 'react';
 import Image from 'next/image';
+import Link from 'next/link';
 
 export default function SpeakerGridItemComponent(props) {
   let hovering = () => false;
@@ -11,14 +12,13 @@ export default function SpeakerGridItemComponent(props) {
   return (
     <div>
       <article className="speaker-grid-item">
-        <a tabIndex="0" href={props.link} title={Title()}>
+        <Link tabIndex="0" href={props.link} title={Title()}>
           <Image
             className="speaker-image"
             src={props.pic}
             alt="Picture of Connell"
             height={250}
             width={250}
-            layout="responsive"
           />
           <div
             className={`hover-pop ${
@@ -28,7 +28,7 @@ export default function SpeakerGridItemComponent(props) {
             <h4>{props.speakername}</h4>
             <p>{props.talkbrief}</p>
           </div>
-        </a>
+        </Link>
       </article>
     </div>
   );
