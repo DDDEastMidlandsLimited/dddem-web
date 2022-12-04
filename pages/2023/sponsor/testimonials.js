@@ -38,7 +38,6 @@ export default function Testimonials() {
                 alt={`Image of BJSS.`}
                 height={200}
                 width={200}
-                layout="responsive"
               />
             </div>
           </div>
@@ -94,7 +93,6 @@ export default function Testimonials() {
               alt={`Image of ERT.`}
               height={200}
               width={200}
-              layout="responsive"
             />
           </div>
         </div>
@@ -110,7 +108,6 @@ export default function Testimonials() {
                 alt={`Image of Oakbrook`}
                 height={200}
                 width={200}
-                layout="responsive"
               />
             </div>
           </div>
