@@ -1,0 +1,26 @@
+{
+  "defaults": {
+    "standard": "WCAG2AA",
+    "timeout": 5000,
+    "concurrency": 1,
+    "runners": [
+      "axe"
+    ],
+    "reporters": [
+      "cli",
+      [
+        "json",
+        {
+          "fileName": "./pa11y-output.json"
+        }
+      ]
+    ],
+    "chromeLaunchConfig": {
+      "args": [
+        "--no-sandbox",
+        "--disable-setuid-sandbox",
+        "--disable-dev-shm-usage"
+      ]
+    }
+  }
+}
