@@ -15,7 +15,15 @@ jobs:
         with:
           node-version-file: '.nvmrc'
 
-      - name: Install packages
+      - name: Cache npm dependencies
+        id: cache
+        uses: actions/cache@v3
+        with:
+          path: ./node_modules
+          key: modules-${{ hashFiles('package-lock.json') }}
+
+      - name: Install dependencies
+        if: steps.cache.outputs.cache-hit != 'true'
         run: npm install
 
       - name: Run Jest
