@@ -1,7 +1,7 @@
 import React from 'react';
 import { initGA, logPageView } from '../utils/analytics';
 
-if (!window.GA_INITIALIZED) {
+if (typeof window !== 'undefined' && !window.GA_INITIALIZED) {
   initGA();
   window.GA_INITIALIZED = true;
 }
