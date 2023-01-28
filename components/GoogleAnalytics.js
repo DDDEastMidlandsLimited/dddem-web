@@ -1,12 +1,16 @@
 import React from 'react';
 import { initGA, logPageView } from '../utils/analytics';
 
-if (typeof window !== 'undefined' && !window.GA_INITIALIZED) {
-  initGA();
-  window.GA_INITIALIZED = true;
-}
+const isBrowser = () => typeof window !== 'undefined';
 
-logPageView();
+if (isBrowser) {
+  if (!window.GA_INITIALIZED) {
+    initGA();
+    window.GA_INITIALIZED = true;
+  }
+
+  logPageView();
+}
 
 export default function GoogleAnalytics() {
   return <span></span>;
