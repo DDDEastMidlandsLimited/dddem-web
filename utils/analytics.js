@@ -5,10 +5,8 @@ export const initGA = () => {
 };
 
 export const logPageView = () => {
-  if (typeof window !== 'undefined') {
     ReactGA.set({ page: window.location.pathname });
     ReactGA.pageview(window.location.pathname);
-  }
 };
 
 export const logEvent = (category = '', action = '') => {
