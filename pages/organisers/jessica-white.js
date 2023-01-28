@@ -41,7 +41,9 @@ export default function JessicaWhite() {
         </div>
         <div>
           <ul>
-            <b>Pronouns: </b> She/Her
+            <li>
+              <b>Pronouns: </b> She/Her
+            </li>
           </ul>
         </div>
         <br />
@@ -69,47 +71,51 @@ export default function JessicaWhite() {
 
       <section className="past-speakers-section">
         <h2 tabIndex="0">Jessica's Responsibilities</h2>
-        <li tabIndex="0">Partner Agreements and outreach</li>
-        <li tabIndex="0">Scheduling</li>
-        <li tabIndex="0">Contracts</li>
-        <li tabIndex="0">Social Media</li>
-        <li tabIndex="0">Staffing</li>
-        <li tabIndex="0">Managing the Open Source Repositories</li>
-        <li tabIndex="0">Speaker Management</li>
+        <ul>
+          <li tabIndex="0">Partner Agreements and outreach</li>
+          <li tabIndex="0">Scheduling</li>
+          <li tabIndex="0">Contracts</li>
+          <li tabIndex="0">Social Media</li>
+          <li tabIndex="0">Staffing</li>
+          <li tabIndex="0">Managing the Open Source Repositories</li>
+          <li tabIndex="0">Speaker Management</li>
+        </ul>
       </section>
 
       <section className="past-speakers-section">
         <h2 tabIndex="0">Links</h2>
-        <li tabIndex="0">
-          <a
-            href="mailto:jessica@dddeastmidlands.com"
-            target="_blank"
-            rel="noreferrer"
-            aria-label="Jessica White: Email"
-          >
-            Email
-          </a>
-        </li>
-        <li tabIndex="0">
-          <a
-            href="https://twitter.com/JessPWhite"
-            target="_blank"
-            rel="noreferrer"
-            aria-label="Jessica White: Twitter"
-          >
-            Twitter
-          </a>
-        </li>
-        <li tabIndex="0">
-          <a
-            href="https://www.linkedin.com/in/jessica-white-67917883/"
-            target="_blank"
-            rel="noreferrer"
-            aria-label="Jessica White: LinkedIn"
-          >
-            LinkedIn
-          </a>
-        </li>
+        <ul>
+          <li tabIndex="0">
+            <a
+              href="mailto:jessica@dddeastmidlands.com"
+              target="_blank"
+              rel="noreferrer"
+              aria-label="Jessica White: Email"
+            >
+              Email
+            </a>
+          </li>
+          <li tabIndex="0">
+            <a
+              href="https://twitter.com/JessPWhite"
+              target="_blank"
+              rel="noreferrer"
+              aria-label="Jessica White: Twitter"
+            >
+              Twitter
+            </a>
+          </li>
+          <li tabIndex="0">
+            <a
+              href="https://www.linkedin.com/in/jessica-white-67917883/"
+              target="_blank"
+              rel="noreferrer"
+              aria-label="Jessica White: LinkedIn"
+            >
+              LinkedIn
+            </a>
+          </li>
+        </ul>
       </section>
 
       <section className="past-speakers-section">

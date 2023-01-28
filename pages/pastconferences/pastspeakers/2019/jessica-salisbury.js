@@ -38,10 +38,12 @@ export default function JessicaSalisbury() {
         </div>
         <div>
           <ul>
-            <b>Pronouns: </b> She/Her
-          </ul>
-          <ul>
-            <b>Talk Length: </b> 60 minute
+            <li>
+              <b>Pronouns: </b> She/Her
+            </li>
+            <li>
+              <b>Talk Length: </b> 60 minute
+            </li>
           </ul>
         </div>
         <br />
@@ -118,26 +120,28 @@ export default function JessicaSalisbury() {
 
       <section className="past-speakers-section">
         <h2 tabIndex="0">Links</h2>
-        <li>
-          <a
-            target="_blank"
-            rel="noreferrer"
-            aria-label="Jessica Salisbury: Twitter"
-            href="https://twitter.com/JessSalisburyy"
-          >
-            Twitter
-          </a>
-        </li>
-        <li>
-          <a
-            target="_blank"
-            rel="noreferrer"
-            aria-label="Jessica Salisbury: LinkedIn"
-            href="https://www.linkedin.com/in/jessica-salisbury-2a0920102/"
-          >
-            LinkedIn
-          </a>
-        </li>
+        <ul>
+          <li>
+            <a
+              target="_blank"
+              rel="noreferrer"
+              aria-label="Jessica Salisbury: Twitter"
+              href="https://twitter.com/JessSalisburyy"
+            >
+              Twitter
+            </a>
+          </li>
+          <li>
+            <a
+              target="_blank"
+              rel="noreferrer"
+              aria-label="Jessica Salisbury: LinkedIn"
+              href="https://www.linkedin.com/in/jessica-salisbury-2a0920102/"
+            >
+              LinkedIn
+            </a>
+          </li>
+        </ul>
       </section>
     </Layout>
   );

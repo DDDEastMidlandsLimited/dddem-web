@@ -38,10 +38,12 @@ export default function LekeSholuade() {
         </div>
         <div>
           <ul>
-            <b>Pronouns: </b> He/Him
-          </ul>
-          <ul>
-            <b>Talk Length: </b> 15 mins
+            <li>
+              <b>Pronouns: </b> He/Him
+            </li>
+            <li>
+              <b>Talk Length: </b> 15 mins
+            </li>
           </ul>
         </div>
         <br />
@@ -94,26 +96,28 @@ export default function LekeSholuade() {
 
       <section className="past-speakers-section">
         <h2 tabIndex="0">Links</h2>
-        <li>
-          <a
-            target="_blank"
-            rel="noreferrer"
-            aria-label="Leke Sholuade: Twitter"
-            href="https://twitter.com/lekeshow"
-          >
-            Twitter
-          </a>
-        </li>
-        <li>
-          <a
-            target="_blank"
-            rel="noreferrer"
-            aria-label="Leke Sholuade: LinkedIn"
-            href="https://www.linkedin.com/in/leke-sholuade-74042875/"
-          >
-            LinkedIn
-          </a>
-        </li>
+        <ul>
+          <li>
+            <a
+              target="_blank"
+              rel="noreferrer"
+              aria-label="Leke Sholuade: Twitter"
+              href="https://twitter.com/lekeshow"
+            >
+              Twitter
+            </a>
+          </li>
+          <li>
+            <a
+              target="_blank"
+              rel="noreferrer"
+              aria-label="Leke Sholuade: LinkedIn"
+              href="https://www.linkedin.com/in/leke-sholuade-74042875/"
+            >
+              LinkedIn
+            </a>
+          </li>
+        </ul>
       </section>
     </Layout>
   );

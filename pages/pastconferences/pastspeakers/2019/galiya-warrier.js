@@ -38,10 +38,12 @@ export default function GaliyaWarrier() {
         </div>
         <div>
           <ul>
-            <b>Pronouns: </b> She/Her
-          </ul>
-          <ul>
-            <b>Talk Length: </b> 60 minute
+            <li>
+              <b>Pronouns: </b> She/Her
+            </li>
+            <li>
+              <b>Talk Length: </b> 60 minute
+            </li>
           </ul>
         </div>
         <br />
@@ -75,26 +77,28 @@ export default function GaliyaWarrier() {
 
       <section className="past-speakers-section">
         <h2 tabIndex="0">Links</h2>
-        <li>
-          <a
-            target="_blank"
-            rel="noreferrer"
-            aria-label="Galiya Warrier: Twitter"
-            href="https://twitter.com/galiyawarrier"
-          >
-            Twitter
-          </a>
-        </li>
-        <li>
-          <a
-            target="_blank"
-            rel="noreferrer"
-            aria-label="Galiya Warrier: LinkedIn"
-            href="https://www.linkedin.com/in/galiyawarrier/"
-          >
-            LinkedIn
-          </a>
-        </li>
+        <ul>
+          <li>
+            <a
+              target="_blank"
+              rel="noreferrer"
+              aria-label="Galiya Warrier: Twitter"
+              href="https://twitter.com/galiyawarrier"
+            >
+              Twitter
+            </a>
+          </li>
+          <li>
+            <a
+              target="_blank"
+              rel="noreferrer"
+              aria-label="Galiya Warrier: LinkedIn"
+              href="https://www.linkedin.com/in/galiyawarrier/"
+            >
+              LinkedIn
+            </a>
+          </li>
+        </ul>
       </section>
     </Layout>
   );

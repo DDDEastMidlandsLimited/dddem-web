@@ -378,41 +378,43 @@ export default function ConferenceInformation() {
         </p>
         <ul>
           <li tabIndex="0">
-            <b>
+            <strong>
               Offering mentors for speakers that are selected and
               request extra help.
-            </b>
+            </strong>
           </li>
-          <p tabIndex="0">
-            Speaking in front of a crowd of people isn&apos;t easy and
-            we know it. There will be the option to highlight that you
-            would like extra support, as a first-time speaker, or even
-            just as someone who feels that they would benefit from it.
-          </p>
-          <p tabIndex="0">
-            The East Midlands is lucky to host some amazing (and
-            incredibly generous) international and experienced
-            speakers. Some of these fine people are donating their
-            time to any speakers that indicate they want extra
-            support. This support covers ways to address nerves,
-            timing a talk, structuring the content of a talk, making
-            sure your talk aligns to its description and more.
-          </p>
+        </ul>
+        <p tabIndex="0">
+          Speaking in front of a crowd of people isn&apos;t easy and
+          we know it. There will be the option to highlight that you
+          would like extra support, as a first-time speaker, or even
+          just as someone who feels that they would benefit from it.
+        </p>
+        <p tabIndex="0">
+          The East Midlands is lucky to host some amazing (and
+          incredibly generous) international and experienced speakers.
+          Some of these fine people are donating their time to any
+          speakers that indicate they want extra support. This support
+          covers ways to address nerves, timing a talk, structuring
+          the content of a talk, making sure your talk aligns to its
+          description and more.
+        </p>
+        <ul>
           <li tabIndex="0">
-            <b>
+            <strong>
               Arranging an optional workshop for all speakers to help
               them construct their talk.
-            </b>
+            </strong>
           </li>
-          <p tabIndex="0">
-            All selected speakers will be invited to an optional
-            workshop before the event. This contains advise on
-            subjects such as talk structure, presentation styles,
-            designing your slides. This is made possible by our very
-            kind Workshop Sponsor. More details will be described here
-            closer to the event.
-          </p>
         </ul>
+        <p tabIndex="0">
+          All selected speakers will be invited to an optional
+          workshop before the event. This contains advise on subjects
+          such as talk structure, presentation styles, designing your
+          slides. This is made possible by our very kind Workshop
+          Sponsor. More details will be described here closer to the
+          event.
+        </p>
       </section>
     </Layout>
   );

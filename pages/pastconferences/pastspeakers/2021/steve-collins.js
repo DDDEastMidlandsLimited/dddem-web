@@ -38,10 +38,12 @@ export default function SteveCollins() {
         </div>
         <div>
           <ul>
-            <b>Pronouns: </b> He/Him
-          </ul>
-          <ul>
-            <b>Talk Length: </b> 60 mins
+            <li>
+              <b>Pronouns: </b> He/Him
+            </li>
+            <li>
+              <b>Talk Length: </b> 60 mins
+            </li>
           </ul>
         </div>
         <br />
@@ -63,23 +65,28 @@ export default function SteveCollins() {
           The remainder of the talk will focus on the source
           generators introduced with .NET 5, covering
         </p>
-        <li tabIndex="0">
-          How they differ from traditional template based code
-          generation
-        </li>
-        <li tabIndex="0">Tooling to help debugging</li>
-        <li tabIndex="0">Gotchas with the tooling!</li>
-        <li tabIndex="0">Unit testing</li>
-        <p tabIndex="0">
-          Lastly, we will look at where source generators may go in
-          the future
-        </p>
-        <li tabIndex="0">
-          More out of the box use, such as System.Text.Json in .NET 6
-        </li>
-        <li tabIndex="0">
-          Potential for Intellicode and Github Copilot integration
-        </li>
+        <ul>
+          <li tabIndex="0">
+            How they differ from traditional template based code
+            generation
+          </li>
+          <li tabIndex="0">Tooling to help debugging</li>
+          <li tabIndex="0">Gotchas with the tooling!</li>
+          <li tabIndex="0">Unit testing</li>
+        </ul>
+        <ul>
+          <p tabIndex="0">
+            Lastly, we will look at where source generators may go in
+            the future
+          </p>
+          <li tabIndex="0">
+            More out of the box use, such as System.Text.Json in .NET
+            6
+          </li>
+          <li tabIndex="0">
+            Potential for Intellicode and Github Copilot integration
+          </li>
+        </ul>
       </section>
 
       <section className="past-speakers-section">
@@ -165,26 +172,28 @@ export default function SteveCollins() {
 
       <section className="past-speakers-section">
         <h2 tabIndex="0">Links</h2>
-        <li>
-          <a
-            target="_blank"
-            rel="noreferrer"
-            aria-label="Steve Collins: Twitter"
-            href="https://twitter.com/stevetalkscode"
-          >
-            Twitter
-          </a>
-        </li>
-        <li>
-          <a
-            target="_blank"
-            rel="noreferrer"
-            aria-label="Steve Collins: Website"
-            href="https://stevetalkscode.co.uk/"
-          >
-            Website
-          </a>
-        </li>
+        <ul>
+          <li>
+            <a
+              target="_blank"
+              rel="noreferrer"
+              aria-label="Steve Collins: Twitter"
+              href="https://twitter.com/stevetalkscode"
+            >
+              Twitter
+            </a>
+          </li>
+          <li>
+            <a
+              target="_blank"
+              rel="noreferrer"
+              aria-label="Steve Collins: Website"
+              href="https://stevetalkscode.co.uk/"
+            >
+              Website
+            </a>
+          </li>
+        </ul>
       </section>
     </Layout>
   );

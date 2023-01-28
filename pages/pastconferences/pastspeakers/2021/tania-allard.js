@@ -38,10 +38,12 @@ export default function TaniaAllard() {
         </div>
         <div>
           <ul>
-            <b>Pronouns: </b> She/Her
-          </ul>
-          <ul>
-            <b>Talk Length: </b> 60 minute Keynote
+            <li>
+              <b>Pronouns: </b> She/Her
+            </li>
+            <li>
+              <b>Talk Length: </b> 60 minute Keynote
+            </li>
           </ul>
         </div>
         <br />
@@ -126,36 +128,38 @@ export default function TaniaAllard() {
 
       <section className="past-speakers-section">
         <h2 tabIndex="0">Links</h2>
-        <li>
-          <a
-            target="_blank"
-            rel="noreferrer"
-            aria-label="Tania Allard: Twitter"
-            href="https://twitter.com/ixek"
-          >
-            Twitter
-          </a>
-        </li>
-        <li>
-          <a
-            target="_blank"
-            rel="noreferrer"
-            aria-label="Tania Allard: Website"
-            href="https://www.trallard.dev/pensieve/trallard.dev"
-          >
-            Website
-          </a>
-        </li>
-        <li>
-          <a
-            target="_blank"
-            rel="noreferrer"
-            aria-label="Tania Allard: LinkedIn"
-            href="https://www.linkedin.com/in/taniaallard/"
-          >
-            LinkedIn
-          </a>
-        </li>
+        <ul>
+          <li>
+            <a
+              target="_blank"
+              rel="noreferrer"
+              aria-label="Tania Allard: Twitter"
+              href="https://twitter.com/ixek"
+            >
+              Twitter
+            </a>
+          </li>
+          <li>
+            <a
+              target="_blank"
+              rel="noreferrer"
+              aria-label="Tania Allard: Website"
+              href="https://www.trallard.dev/pensieve/trallard.dev"
+            >
+              Website
+            </a>
+          </li>
+          <li>
+            <a
+              target="_blank"
+              rel="noreferrer"
+              aria-label="Tania Allard: LinkedIn"
+              href="https://www.linkedin.com/in/taniaallard/"
+            >
+              LinkedIn
+            </a>
+          </li>
+        </ul>
       </section>
     </Layout>
   );

@@ -38,10 +38,12 @@ export default function LexLofthouse() {
         </div>
         <div>
           <ul>
-            <b>Pronouns: </b> She/Her
-          </ul>
-          <ul>
-            <b>Talk Length: </b> 60 mins
+            <li>
+              <b>Pronouns: </b> She/Her
+            </li>
+            <li>
+              <b>Talk Length: </b> 60 mins
+            </li>
           </ul>
         </div>
         <br />
@@ -133,36 +135,38 @@ export default function LexLofthouse() {
 
       <section className="past-speakers-section">
         <h2 tabIndex="0">Links</h2>
-        <li>
-          <a
-            target="_blank"
-            rel="noreferrer"
-            aria-label="Lex Lofthouse: Twitter"
-            href="https://twitter.com/Loftio"
-          >
-            Twitter
-          </a>
-        </li>
-        <li>
-          <a
-            target="_blank"
-            rel="noreferrer"
-            aria-label="Lex Lofthouse: Website"
-            href="https://loftio.co.uk/"
-          >
-            Website
-          </a>
-        </li>
-        <li>
-          <a
-            target="_blank"
-            rel="noreferrer"
-            aria-label="Lex Lofthouse: LinkedIn"
-            href="https://www.linkedin.com/in/alexandra-lofthouse-76a6b355/"
-          >
-            LinkedIn
-          </a>
-        </li>
+        <ul>
+          <li>
+            <a
+              target="_blank"
+              rel="noreferrer"
+              aria-label="Lex Lofthouse: Twitter"
+              href="https://twitter.com/Loftio"
+            >
+              Twitter
+            </a>
+          </li>
+          <li>
+            <a
+              target="_blank"
+              rel="noreferrer"
+              aria-label="Lex Lofthouse: Website"
+              href="https://loftio.co.uk/"
+            >
+              Website
+            </a>
+          </li>
+          <li>
+            <a
+              target="_blank"
+              rel="noreferrer"
+              aria-label="Lex Lofthouse: LinkedIn"
+              href="https://www.linkedin.com/in/alexandra-lofthouse-76a6b355/"
+            >
+              LinkedIn
+            </a>
+          </li>
+        </ul>
       </section>
     </Layout>
   );

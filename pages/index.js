@@ -1,5 +1,6 @@
 import React from 'react';
 import Header from '../components/Header';
+import Head from 'next/head';
 import Layout from '../components/Layout';
 import ImportantDatesList from '../components/home/ImportantDatesList';
 import dates from '../data/dates';
@@ -9,6 +10,9 @@ import Image from 'next/image';
 export default function Index() {
   return (
     <Layout>
+      <Head>
+        <title>DDD East Midlands</title>
+      </Head>
       <Header banner="/static/banners/homepage.jpg" />
 
       <section className="content-section">

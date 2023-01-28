@@ -41,7 +41,9 @@ export default function MoretonBrockley() {
         </div>
         <div>
           <ul>
-            <b>Pronouns: </b> He/Him
+            <li>
+              <b>Pronouns: </b> He/Him
+            </li>
           </ul>
         </div>
         <br />
@@ -60,33 +62,37 @@ export default function MoretonBrockley() {
 
       <section className="past-speakers-section">
         <h2 tabIndex="0">Moreton's Responsibilities</h2>
-        <li tabIndex="0">Accountancy</li>
-        <li tabIndex="0">Budgeting</li>
-        <li tabIndex="0">Scheduling</li>
+        <ul>
+          <li tabIndex="0">Accountancy</li>
+          <li tabIndex="0">Budgeting</li>
+          <li tabIndex="0">Scheduling</li>
+        </ul>
       </section>
 
       <section className="past-speakers-section">
         <h2 tabIndex="0">Links</h2>
-        <li tabIndex="0">
-          <a
-            target="_blank"
-            rel="noreferrer"
-            aria-label="Moreton Brockley: Twitter"
-            href="https://twitter.com/allmobro"
-          >
-            Twitter
-          </a>
-        </li>
-        <li tabIndex="0">
-          <a
-            target="_blank"
-            rel="noreferrer"
-            aria-label="Moreton Brockley: LinkedIn"
-            href="https://www.linkedin.com/in/moreton-brockley-06253538/"
-          >
-            LinkedIn
-          </a>
-        </li>
+        <ul>
+          <li tabIndex="0">
+            <a
+              target="_blank"
+              rel="noreferrer"
+              aria-label="Moreton Brockley: Twitter"
+              href="https://twitter.com/allmobro"
+            >
+              Twitter
+            </a>
+          </li>
+          <li tabIndex="0">
+            <a
+              target="_blank"
+              rel="noreferrer"
+              aria-label="Moreton Brockley: LinkedIn"
+              href="https://www.linkedin.com/in/moreton-brockley-06253538/"
+            >
+              LinkedIn
+            </a>
+          </li>
+        </ul>
       </section>
 
       <section className="past-speakers-section">

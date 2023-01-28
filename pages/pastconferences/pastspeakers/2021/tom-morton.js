@@ -38,10 +38,12 @@ export default function TomMorton() {
         </div>
         <div>
           <ul>
-            <b>Pronouns: </b> He/Him
-          </ul>
-          <ul>
-            <b>Talk Length: </b> 30 mins
+            <li>
+              <b>Pronouns: </b> He/Him
+            </li>
+            <li>
+              <b>Talk Length: </b> 30 mins
+            </li>
           </ul>
         </div>
         <br />
@@ -99,36 +101,38 @@ export default function TomMorton() {
 
       <section className="past-speakers-section">
         <h2 tabIndex="0">Links</h2>
-        <li>
-          <a
-            target="_blank"
-            rel="noreferrer"
-            aria-label="Tom Morton: Twitter"
-            href="https://twitter.com/errantx"
-          >
-            Twitter
-          </a>
-        </li>
-        <li>
-          <a
-            target="_blank"
-            rel="noreferrer"
-            aria-label="Tom Morton: Website"
-            href="https://errant.me.uk/"
-          >
-            Website
-          </a>
-        </li>
-        <li>
-          <a
-            target="_blank"
-            rel="noreferrer"
-            aria-label="Tom Morton: LinkedIn"
-            href="https://www.linkedin.com/in/errantx/"
-          >
-            LinkedIn
-          </a>
-        </li>
+        <ul>
+          <li>
+            <a
+              target="_blank"
+              rel="noreferrer"
+              aria-label="Tom Morton: Twitter"
+              href="https://twitter.com/errantx"
+            >
+              Twitter
+            </a>
+          </li>
+          <li>
+            <a
+              target="_blank"
+              rel="noreferrer"
+              aria-label="Tom Morton: Website"
+              href="https://errant.me.uk/"
+            >
+              Website
+            </a>
+          </li>
+          <li>
+            <a
+              target="_blank"
+              rel="noreferrer"
+              aria-label="Tom Morton: LinkedIn"
+              href="https://www.linkedin.com/in/errantx/"
+            >
+              LinkedIn
+            </a>
+          </li>
+        </ul>
       </section>
     </Layout>
   );
