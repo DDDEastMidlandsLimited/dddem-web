@@ -54,15 +54,17 @@ export default function HacktoberFest() {
           </p>
           <div className="align-center">
             <br />
-            <button>
-              <a
-                href="https://hacktoberfest.digitalocean.com/"
-                target="_blank"
-                rel="noreferrer"
-              >
-                Sign Up Here
-              </a>
-            </button>
+            <div className="back-to-about-button-container">
+              <div className="back-to-about-button">
+                <a
+                  href="https://hacktoberfest.digitalocean.com/"
+                  target="_blank"
+                  rel="noreferrer"
+                >
+                  Sign Up Here
+                </a>
+              </div>
+            </div>
           </div>
         </section>
 
@@ -140,13 +142,11 @@ export default function HacktoberFest() {
         </section>
 
         <section className="content-section" id="first-pr">
-          <h1 tabIndex="10">First PR?</h1>
+          <h1>First PR?</h1>
           <a name="first-pr" />
-          <h2 tabIndex="11">Add your selfie!</h2>
-          <p tabIndex="12">
-            Take a photo of yourself and add it to this page.
-          </p>
-          <h2 tabIndex="13">How to do this?</h2>
+          <h2>Add your selfie!</h2>
+          <p>Take a photo of yourself and add it to this page.</p>
+          <h2>How to do this?</h2>
           <p>
             Some information about HacktoberFest and how to contribute
             can be read about{' '}
@@ -160,7 +160,7 @@ export default function HacktoberFest() {
             Below are some instructions on how to make changes to this
             page.
           </p>
-          <h3 tabIndex="14">Fork the repository</h3>
+          <h3>Fork the repository</h3>
           <p>
             <ul>
               <li>
@@ -215,7 +215,7 @@ export default function HacktoberFest() {
               </li>
             </ul>
           </p>
-          <h3 tabIndex="15">Create a branch</h3>
+          <h3>Create a branch</h3>
           <p>
             <ul>
               <li>
@@ -236,7 +236,7 @@ export default function HacktoberFest() {
               </li>
             </ul>
           </p>
-          <h3 tabIndex="16">Add your change to this page</h3>
+          <h3>Add your change to this page</h3>
           <p>
             <ul>
               <li>
@@ -263,13 +263,13 @@ export default function HacktoberFest() {
               alt="Picture of the code snip you need to use"
             />
           </p>
-          <h3 tabIndex="17">Run prettier</h3>
+          <h3>Run prettier</h3>
           <p>
             In your terminal of choice (command line, bash etc) run
             the command `npm run prettier:fix`. This will fix the
             formatting in your changes.
           </p>
-          <h3 tabIndex="18">Commit, push and raise a Pull Request</h3>
+          <h3>Commit, push and raise a Pull Request</h3>
           <p>
             <ul>
               <li>
@@ -305,7 +305,7 @@ export default function HacktoberFest() {
               </li>
             </ul>
           </p>
-          <h3 tabIndex="19">Ask for Help!</h3>
+          <h3>Ask for Help!</h3>
           <p>
             If you need some help, ask any one of our fantastic
             Hacktoberfest volunteers!
@@ -313,7 +313,7 @@ export default function HacktoberFest() {
         </section>
 
         <section className="content-section" id="list">
-          <h1 tabIndex="20">Hacktoberfest Corner Contributors!</h1>
+          <h1>Hacktoberfest Corner Contributors!</h1>
           <section className="speaker-grid">
             <article className="speaker-grid-item">
               <Image

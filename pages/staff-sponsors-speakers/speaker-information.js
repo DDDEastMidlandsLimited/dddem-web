@@ -433,13 +433,13 @@ export default function SpeakerInformation() {
           <li tabIndex="0">
             <strong>Co-organiser Jessica White:</strong>
           </li>
-          <p tabIndex="0">Tel: number will be emailed to you </p>
-          <p tabIndex="0">Email: jessica@dddeastmidlands.com </p>
-          <p tabIndex="0">
-            <strong>Co-organiser Moreton Brockley:</strong>
-          </p>
-          <p tabIndex="0">Email: moreton@dddeastmidlands.com</p>
         </ul>
+        <p tabIndex="0">Tel: number will be emailed to you </p>
+        <p tabIndex="0">Email: jessica@dddeastmidlands.com </p>
+        <p tabIndex="0">
+          <strong>Co-organiser Moreton Brockley:</strong>
+        </p>
+        <p tabIndex="0">Email: moreton@dddeastmidlands.com</p>
 
         <a name="hotels" />
         <h2 tabIndex="0">Hotels</h2>

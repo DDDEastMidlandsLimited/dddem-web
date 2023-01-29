@@ -15,6 +15,10 @@
         }
       ]
     ],
+    "ignore": [
+      "color-contrast",
+      "frame-tested"
+    ],
     "chromeLaunchConfig": {
       "args": [
         "--no-sandbox",

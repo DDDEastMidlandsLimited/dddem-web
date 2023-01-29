@@ -15,7 +15,8 @@
     "test": "jest --maxWorkers=1",
     "test:watch": "jest --watch --maxWorkers=1",
     "test:coverage": "jest --ci --runInBand --reporters=default --reporters=jest-junit --collectCoverage=true",
-    "pa11y-ci": "pa11y-ci 'out/**/*.html'"
+    "pa11y-ci": "pa11y-ci 'out/**/*.html'",
+    "pa11y-ci-sitemap": "pa11y-ci --sitemap http://localhost:5000/sitemap.xml"
   },
   "keywords": [],
   "author": "",

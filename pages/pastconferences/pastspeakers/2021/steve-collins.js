@@ -74,11 +74,11 @@ export default function SteveCollins() {
           <li tabIndex="0">Gotchas with the tooling!</li>
           <li tabIndex="0">Unit testing</li>
         </ul>
+        <p tabIndex="0">
+          Lastly, we will look at where source generators may go in
+          the future
+        </p>
         <ul>
-          <p tabIndex="0">
-            Lastly, we will look at where source generators may go in
-            the future
-          </p>
           <li tabIndex="0">
             More out of the box use, such as System.Text.Json in .NET
             6
