@@ -16,7 +16,6 @@
       ]
     ],
     "ignore": [
-      "color-contrast",
       "frame-tested"
     ],
     "chromeLaunchConfig": {
