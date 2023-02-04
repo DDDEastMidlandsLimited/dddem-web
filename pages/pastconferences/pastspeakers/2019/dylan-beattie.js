@@ -38,10 +38,12 @@ export default function DylanBeattie() {
         </div>
         <div>
           <ul>
-            <b>Pronouns: </b> He/Him
-          </ul>
-          <ul>
-            <b>Talk Length: </b> 60 minute Keynote
+            <li>
+              <b>Pronouns: </b> He/Him
+            </li>
+            <li>
+              <b>Talk Length: </b> 60 minute Keynote
+            </li>
           </ul>
         </div>
         <br />
@@ -123,26 +125,28 @@ export default function DylanBeattie() {
 
       <section className="past-speakers-section">
         <h2 tabIndex="0">Links</h2>
-        <li>
-          <a
-            target="_blank"
-            rel="noreferrer"
-            aria-label="Dylan Beattie: Twitter"
-            href="https://twitter.com/dylanbeattie"
-          >
-            Twitter
-          </a>
-        </li>
-        <li>
-          <a
-            target="_blank"
-            rel="noreferrer"
-            aria-label="Dylan Beattie: Website"
-            href="https://www.dylanbeattie.net"
-          >
-            Website
-          </a>
-        </li>
+        <ul>
+          <li>
+            <a
+              target="_blank"
+              rel="noreferrer"
+              aria-label="Dylan Beattie: Twitter"
+              href="https://twitter.com/dylanbeattie"
+            >
+              Twitter
+            </a>
+          </li>
+          <li>
+            <a
+              target="_blank"
+              rel="noreferrer"
+              aria-label="Dylan Beattie: Website"
+              href="https://www.dylanbeattie.net"
+            >
+              Website
+            </a>
+          </li>
+        </ul>
       </section>
     </Layout>
   );

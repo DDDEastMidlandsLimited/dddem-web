@@ -38,10 +38,12 @@ export default function RizwanaAkmalKhan() {
         </div>
         <div>
           <ul>
-            <b>Pronouns: </b> She/Her
-          </ul>
-          <ul>
-            <b>Talk Length: </b> 30 mins
+            <li>
+              <b>Pronouns: </b> She/Her
+            </li>
+            <li>
+              <b>Talk Length: </b> 30 mins
+            </li>
           </ul>
         </div>
         <br />
@@ -99,36 +101,38 @@ export default function RizwanaAkmalKhan() {
 
       <section className="past-speakers-section">
         <h2 tabIndex="0">Links</h2>
-        <li>
-          <a
-            target="_blank"
-            rel="noreferrer"
-            aria-label="Rizwana Akmal Khan: Twitter"
-            href="https://twitter.com/rizbizkits"
-          >
-            Twitter
-          </a>
-        </li>
-        <li>
-          <a
-            target="_blank"
-            rel="noreferrer"
-            aria-label="Rizwana Akmal Khan: Website"
-            href="https://rizwanakhan.com/"
-          >
-            Website
-          </a>
-        </li>
-        <li>
-          <a
-            target="_blank"
-            rel="noreferrer"
-            aria-label="Rizwana Akmal Khan: LinkedIn"
-            href="https://www.linkedin.com/in/riz/"
-          >
-            LinkedIn
-          </a>
-        </li>
+        <ul>
+          <li>
+            <a
+              target="_blank"
+              rel="noreferrer"
+              aria-label="Rizwana Akmal Khan: Twitter"
+              href="https://twitter.com/rizbizkits"
+            >
+              Twitter
+            </a>
+          </li>
+          <li>
+            <a
+              target="_blank"
+              rel="noreferrer"
+              aria-label="Rizwana Akmal Khan: Website"
+              href="https://rizwanakhan.com/"
+            >
+              Website
+            </a>
+          </li>
+          <li>
+            <a
+              target="_blank"
+              rel="noreferrer"
+              aria-label="Rizwana Akmal Khan: LinkedIn"
+              href="https://www.linkedin.com/in/riz/"
+            >
+              LinkedIn
+            </a>
+          </li>
+        </ul>
       </section>
     </Layout>
   );

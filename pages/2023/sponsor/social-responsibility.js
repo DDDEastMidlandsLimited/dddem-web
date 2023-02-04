@@ -35,55 +35,57 @@ export default function SocialResponsibility() {
           committee. We want to enable people to be able to attend the
           event and feel safe and supported in doing so.
         </p>
-        <li tabIndex="0">
-          Ensuring a venue with accessible entrances.
-        </li>
-        <li tabIndex="0">
-          <a
-            tabIndex="0"
-            href="../../covid-precautions"
-            target="_blank"
-          >
-            Covid safety precautions.
-          </a>
-        </li>
-        <li tabIndex="0">
-          <a
-            tabIndex="0"
-            href="../../../information/accessibility-information"
-            target="_blank"
-          >
-            Accessibility page
-          </a>{' '}
-          with information for people with additional needs.
-        </li>
-        <li tabIndex="0">Catering for different dietary needs.</li>
-        <li tabIndex="0">
-          Nottingham "what to do and where to stay" guide for
-          delegates who have travelled for the event.
-        </li>
-        <li tabIndex="0">
-          Encouraging use of pronouns on attendee badges.
-        </li>
-        <li tabIndex="0">
-          Clear{' '}
-          <a
-            tabIndex="0"
-            href="../../../code-of-conduct"
-            target="_blank"
-          >
-            code of conduct
-          </a>{' '}
-          and who to ask for assistance.
-        </li>
-        <li tabIndex="0">Quiet room to reset.</li>
-        <li tabIndex="0">
-          Bathroom baskets with sanitary essentials.
-        </li>
-        <li tabIndex="0">
-          Date outside of school half terms and on a weekend.
-        </li>
-        <li tabIndex="0">Event is free.</li>
+        <ul>
+          <li tabIndex="0">
+            Ensuring a venue with accessible entrances.
+          </li>
+          <li tabIndex="0">
+            <a
+              tabIndex="0"
+              href="../../covid-precautions"
+              target="_blank"
+            >
+              Covid safety precautions.
+            </a>
+          </li>
+          <li tabIndex="0">
+            <a
+              tabIndex="0"
+              href="../../../information/accessibility-information"
+              target="_blank"
+            >
+              Accessibility page
+            </a>{' '}
+            with information for people with additional needs.
+          </li>
+          <li tabIndex="0">Catering for different dietary needs.</li>
+          <li tabIndex="0">
+            Nottingham "what to do and where to stay" guide for
+            delegates who have travelled for the event.
+          </li>
+          <li tabIndex="0">
+            Encouraging use of pronouns on attendee badges.
+          </li>
+          <li tabIndex="0">
+            Clear{' '}
+            <a
+              tabIndex="0"
+              href="../../../code-of-conduct"
+              target="_blank"
+            >
+              code of conduct
+            </a>{' '}
+            and who to ask for assistance.
+          </li>
+          <li tabIndex="0">Quiet room to reset.</li>
+          <li tabIndex="0">
+            Bathroom baskets with sanitary essentials.
+          </li>
+          <li tabIndex="0">
+            Date outside of school half terms and on a weekend.
+          </li>
+          <li tabIndex="0">Event is free.</li>
+        </ul>
       </section>
 
       <section className="content-section" id="education">
@@ -119,24 +121,26 @@ export default function SocialResponsibility() {
           representation in the selected speakers as well as ensuring
           the event space is a safe and inclusive space.
         </p>
-        <li tabIndex="0">
-          Representing and encouraging contributions from diversity
-          groups.
-        </li>
-        <li tabIndex="0">
-          Ensuring a diverse representation in our speakers.
-        </li>
-        <li tabIndex="0">
-          Recorded talks have captions when posted to YouTube.
-        </li>
-        <li tabIndex="0">
-          Ensuring there is information for diverse groups and groups
-          with extra needs.
-        </li>
-        <li tabIndex="0">
-          Multi-faith room for prayer and contemplation.
-        </li>
-        <li tabIndex="0">Anonymous submission process.</li>
+        <ul>
+          <li tabIndex="0">
+            Representing and encouraging contributions from diversity
+            groups.
+          </li>
+          <li tabIndex="0">
+            Ensuring a diverse representation in our speakers.
+          </li>
+          <li tabIndex="0">
+            Recorded talks have captions when posted to YouTube.
+          </li>
+          <li tabIndex="0">
+            Ensuring there is information for diverse groups and
+            groups with extra needs.
+          </li>
+          <li tabIndex="0">
+            Multi-faith room for prayer and contemplation.
+          </li>
+          <li tabIndex="0">Anonymous submission process.</li>
+        </ul>
       </section>
     </Layout>
   );

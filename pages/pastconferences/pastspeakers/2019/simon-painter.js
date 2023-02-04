@@ -38,10 +38,12 @@ export default function SimonPainter() {
         </div>
         <div>
           <ul>
-            <b>Pronouns: </b> He/Him
-          </ul>
-          <ul>
-            <b>Talk Length: </b> 60 minute
+            <li>
+              <b>Pronouns: </b> He/Him
+            </li>
+            <li>
+              <b>Talk Length: </b> 60 minute
+            </li>
           </ul>
         </div>
         <br />
@@ -152,26 +154,28 @@ export default function SimonPainter() {
 
       <section className="past-speakers-section">
         <h2 tabIndex="0">Links</h2>
-        <li>
-          <a
-            target="_blank"
-            rel="noreferrer"
-            aria-label="Simon Painter: Twitter"
-            href="https://twitter.com/madSimonJ"
-          >
-            Twitter
-          </a>
-        </li>
-        <li>
-          <a
-            target="_blank"
-            rel="noreferrer"
-            aria-label="Simon Painter: LinkedIn"
-            href="https://www.linkedin.com/in/simon-painter-45a05217/"
-          >
-            LinkedIn
-          </a>
-        </li>
+        <ul>
+          <li>
+            <a
+              target="_blank"
+              rel="noreferrer"
+              aria-label="Simon Painter: Twitter"
+              href="https://twitter.com/madSimonJ"
+            >
+              Twitter
+            </a>
+          </li>
+          <li>
+            <a
+              target="_blank"
+              rel="noreferrer"
+              aria-label="Simon Painter: LinkedIn"
+              href="https://www.linkedin.com/in/simon-painter-45a05217/"
+            >
+              LinkedIn
+            </a>
+          </li>
+        </ul>
       </section>
     </Layout>
   );

@@ -36,36 +36,38 @@ export default function SocialMedia() {
         that doesn’t align with our code of conduct.
       </p>
       <h3 tabIndex="0">DDD East Midlands on Social Media</h3>
-      <ul tabIndex="0">Hashtags: #DDDEM | #DDDEM2021</ul>
-      <ul tabIndex="0">
-        Twitter:{' '}
-        <a
-          href="https://twitter.com/dddeastmidlands"
-          target="_blank"
-          rel="noreferrer"
-        >
-          @dddeastmidlands
-        </a>
-      </ul>
-      <ul tabIndex="0">
-        LinkedIn:{' '}
-        <a
-          href="https://www.linkedin.com/company/ddd-east-midlands-limited/"
-          target="_blank"
-          rel="noreferrer"
-        >
-          DDD East Midlands Limited
-        </a>
-      </ul>
-      <ul tabIndex="0">
-        Instagram:{' '}
-        <a
-          href="https://www.instagram.com/dddeastmidlands/?hl=en"
-          target="_blank"
-          rel="noreferrer"
-        >
-          @dddeastmidlands
-        </a>
+      <p>Hashtags: #DDDEM | #DDDEM2021</p>
+      <ul>
+        <li tabIndex="0">
+          Twitter:{' '}
+          <a
+            href="https://twitter.com/dddeastmidlands"
+            target="_blank"
+            rel="noreferrer"
+          >
+            @dddeastmidlands
+          </a>
+        </li>
+        <li tabIndex="0">
+          LinkedIn:{' '}
+          <a
+            href="https://www.linkedin.com/company/ddd-east-midlands-limited/"
+            target="_blank"
+            rel="noreferrer"
+          >
+            DDD East Midlands Limited
+          </a>
+        </li>
+        <li tabIndex="0">
+          Instagram:{' '}
+          <a
+            href="https://www.instagram.com/dddeastmidlands/?hl=en"
+            target="_blank"
+            rel="noreferrer"
+          >
+            @dddeastmidlands
+          </a>
+        </li>
       </ul>
     </section>
   );

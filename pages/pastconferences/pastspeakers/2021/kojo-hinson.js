@@ -38,10 +38,12 @@ export default function KojoHinson() {
         </div>
         <div>
           <ul>
-            <b>Pronouns: </b> He/Him
-          </ul>
-          <ul>
-            <b>Talk Length: </b> 30 mins
+            <li>
+              <b>Pronouns: </b> He/Him
+            </li>
+            <li>
+              <b>Talk Length: </b> 30 mins
+            </li>
           </ul>
         </div>
         <br />
@@ -126,26 +128,28 @@ export default function KojoHinson() {
 
       <section className="past-speakers-section">
         <h2 tabIndex="0">Links</h2>
-        <li>
-          <a
-            target="_blank"
-            rel="noreferrer"
-            aria-label="Kojo Hinson: Twitter"
-            href="https://twitter.com/KojoHinson"
-          >
-            Twitter
-          </a>
-        </li>
-        <li>
-          <a
-            target="_blank"
-            rel="noreferrer"
-            aria-label="Kojo Hinson: LinkedIn"
-            href="https://www.linkedin.com/in/kojo-h-69a4074a/"
-          >
-            LinkedIn
-          </a>
-        </li>
+        <ul>
+          <li>
+            <a
+              target="_blank"
+              rel="noreferrer"
+              aria-label="Kojo Hinson: Twitter"
+              href="https://twitter.com/KojoHinson"
+            >
+              Twitter
+            </a>
+          </li>
+          <li>
+            <a
+              target="_blank"
+              rel="noreferrer"
+              aria-label="Kojo Hinson: LinkedIn"
+              href="https://www.linkedin.com/in/kojo-h-69a4074a/"
+            >
+              LinkedIn
+            </a>
+          </li>
+        </ul>
       </section>
     </Layout>
   );

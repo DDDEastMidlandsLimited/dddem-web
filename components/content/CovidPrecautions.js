@@ -71,12 +71,14 @@ export default function CovidPrecautions() {
         The wrist band will indicate if you are socially distancing or
         not.
       </p>
-      <li>
-        <b>Red band:</b> Please keep your distance.{' '}
-      </li>
-      <li>
-        <b>Green band:</b> I'm not socially distancing.
-      </li>
+      <ul>
+        <li>
+          <b>Red band:</b> Please keep your distance.{' '}
+        </li>
+        <li>
+          <b>Green band:</b> I'm not socially distancing.
+        </li>
+      </ul>
       <p tabIndex="0">
         We thank you in advance for being respectful about peoples
         choices around their social distancing requirements.

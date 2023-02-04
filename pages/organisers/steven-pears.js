@@ -41,7 +41,9 @@ export default function StevenPears() {
         </div>
         <div>
           <ul>
-            <b>Pronouns: </b> He/Him
+            <li>
+              <b>Pronouns: </b> He/Him
+            </li>
           </ul>
         </div>
         <br />
@@ -68,26 +70,28 @@ export default function StevenPears() {
 
       <section className="past-speakers-section">
         <h2 tabIndex="0">Links</h2>
-        <li tabIndex="0">
-          <a
-            target="_blank"
-            rel="noreferrer"
-            aria-label="Steven Pears: Twitter"
-            href="https://twitter.com/StevenPears"
-          >
-            Twitter
-          </a>
-        </li>
-        <li tabIndex="0">
-          <a
-            target="_blank"
-            rel="noreferrer"
-            aria-label="Steven Pears: LinkedIn"
-            href="https://www.linkedin.com/in/stevenpears/"
-          >
-            LinkedIn
-          </a>
-        </li>
+        <ul>
+          <li tabIndex="0">
+            <a
+              target="_blank"
+              rel="noreferrer"
+              aria-label="Steven Pears: Twitter"
+              href="https://twitter.com/StevenPears"
+            >
+              Twitter
+            </a>
+          </li>
+          <li tabIndex="0">
+            <a
+              target="_blank"
+              rel="noreferrer"
+              aria-label="Steven Pears: LinkedIn"
+              href="https://www.linkedin.com/in/stevenpears/"
+            >
+              LinkedIn
+            </a>
+          </li>
+        </ul>
       </section>
 
       <section className="past-speakers-section">

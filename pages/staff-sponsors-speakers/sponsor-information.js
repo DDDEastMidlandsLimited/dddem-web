@@ -184,57 +184,61 @@ export default function SponsorInformation() {
           There are a number of ways you can use your remaining
           tickets:
         </p>
-        <li tabIndex="0">
-          <i>Give them to internal employees.</i>
-          <p>
-            This conference is a great way for your employees to get
-            free training, take part in valuable networking and have a
-            lot of fun.
-          </p>
-        </li>
-        <li tabIndex="0">
-          <i>Run a competition.</i>
-          <p>
-            You could do this online using social media or something
-            else. Use this opportunity to promote your company and
-            give people a great impression.
-          </p>
-        </li>
-        <li tabIndex="0">
-          <i>Sponsor a diverse candidate.</i>
-          <p>
-            You could run a diversity scheme, to support people who
-            want to come to the conference but haven&apos;t been able
-            to get a ticket.
-          </p>
-        </li>
-        <li tabIndex="0">
-          <i>Donate to a meetup as a "sponsor prize".</i>
-          <p>
-            There are a multitude of meetups in the East Midlands who
-            would love to give tickets to their attendees. To promote
-            your own business and provide a great opportunity to
-            someone you could provide tickets to a meetup as a prize.
-          </p>
-        </li>
-
+        <ul>
+          <li tabIndex="0">
+            <i>Give them to internal employees.</i>
+            <p>
+              This conference is a great way for your employees to get
+              free training, take part in valuable networking and have
+              a lot of fun.
+            </p>
+          </li>
+          <li tabIndex="0">
+            <i>Run a competition.</i>
+            <p>
+              You could do this online using social media or something
+              else. Use this opportunity to promote your company and
+              give people a great impression.
+            </p>
+          </li>
+          <li tabIndex="0">
+            <i>Sponsor a diverse candidate.</i>
+            <p>
+              You could run a diversity scheme, to support people who
+              want to come to the conference but haven&apos;t been
+              able to get a ticket.
+            </p>
+          </li>
+          <li tabIndex="0">
+            <i>Donate to a meetup as a "sponsor prize".</i>
+            <p>
+              There are a multitude of meetups in the East Midlands
+              who would love to give tickets to their attendees. To
+              promote your own business and provide a great
+              opportunity to someone you could provide tickets to a
+              meetup as a prize.
+            </p>
+          </li>
+        </ul>
         <br />
         <a name="tickets" />
         <h4 tabIndex="0">How to access tickets</h4>
-        <li tabIndex="0">
-          <a
-            href="https://www.eventbrite.co.uk/e/ddd-east-midlands-2020-tickets-95834801471"
-            target="_blank"
-            rel="noreferrer"
-          >
-            Head to Eventbrite using this link
-          </a>
-        </li>
-        <li tabIndex="0">Click the Register button</li>
-        <li tabIndex="0">
-          Click where it says "Enter promo code" (see the image below)
-          and enter the code we have provided to you.
-        </li>
+        <ul>
+          <li tabIndex="0">
+            <a
+              href="https://www.eventbrite.co.uk/e/ddd-east-midlands-2020-tickets-95834801471"
+              target="_blank"
+              rel="noreferrer"
+            >
+              Head to Eventbrite using this link
+            </a>
+          </li>
+          <li tabIndex="0">Click the Register button</li>
+          <li tabIndex="0">
+            Click where it says "Enter promo code" (see the image
+            below) and enter the code we have provided to you.
+          </li>
+        </ul>
         <div className="img-center">
           <br />
           <Image
@@ -246,10 +250,13 @@ export default function SponsorInformation() {
             layout="responsive"
           />
         </div>
-        <li tabIndex="0">
-          A new category of ticket should be displayed to you. Select
-          the number you want and fill in the details on the form.
-        </li>
+        <ul>
+          <li tabIndex="0">
+            A new category of ticket should be displayed to you.
+            Select the number you want and fill in the details on the
+            form.
+          </li>
+        </ul>
         <p tabIndex="0">
           If you are giving away tickets away as part of a promotion,
           competition or donation to meetup; then you can pass this

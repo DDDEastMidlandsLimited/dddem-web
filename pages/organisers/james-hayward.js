@@ -41,7 +41,9 @@ export default function JamesHayward() {
         </div>
         <div>
           <ul>
-            <b>Pronouns: </b> He/Him
+            <li>
+              <b>Pronouns: </b> He/Him
+            </li>
           </ul>
         </div>
         <br />
@@ -70,26 +72,28 @@ export default function JamesHayward() {
 
       <section className="past-speakers-section">
         <h2 tabIndex="0">Links</h2>
-        <li tabIndex="0">
-          <a
-            target="_blank"
-            rel="noreferrer"
-            aria-label="James Hayward: Twitter"
-            href="https://twitter.com/geeksareforlife"
-          >
-            Twitter
-          </a>
-        </li>
-        <li tabIndex="0">
-          <a
-            target="_blank"
-            rel="noreferrer"
-            aria-label="James Hayward: LinkedIn"
-            href="https://www.linkedin.com/in/jhayward/"
-          >
-            LinkedIn
-          </a>
-        </li>
+        <ul>
+          <li tabIndex="0">
+            <a
+              target="_blank"
+              rel="noreferrer"
+              aria-label="James Hayward: Twitter"
+              href="https://twitter.com/geeksareforlife"
+            >
+              Twitter
+            </a>
+          </li>
+          <li tabIndex="0">
+            <a
+              target="_blank"
+              rel="noreferrer"
+              aria-label="James Hayward: LinkedIn"
+              href="https://www.linkedin.com/in/jhayward/"
+            >
+              LinkedIn
+            </a>
+          </li>
+        </ul>
       </section>
 
       <section className="past-speakers-section">

@@ -14,10 +14,19 @@ jobs:
         with:
           node-version-file: '.nvmrc'
 
+      - name: Cache npm dependencies
+        id: cache
+        uses: actions/cache@v3
+        with:
+          path: ./node_modules
+          key: modules-${{ hashFiles('package-lock.json') }}
+
+      - name: Install dependencies
+        if: steps.cache.outputs.cache-hit != 'true'
+        run: npm install
+
       - name: Run ESLint:Fix
-        run: |
-          npm install
-          npm run lint:fix
+        run: npm run lint:fix
 
       - name: Run build
         run: npm run build

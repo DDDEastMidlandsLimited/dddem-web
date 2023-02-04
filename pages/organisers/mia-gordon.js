@@ -41,7 +41,9 @@ export default function MiaGordon() {
         </div>
         <div>
           <ul>
-            <b>Pronouns: </b> She/Her
+            <li>
+              <b>Pronouns: </b> She/Her
+            </li>
           </ul>
         </div>
         <br />

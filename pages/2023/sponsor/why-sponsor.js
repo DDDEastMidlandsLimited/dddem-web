@@ -30,30 +30,34 @@ export default function WhySponsor() {
           techies in the area? Whatever YOUR reason, previous sponsors
           have sighted their main reasons for sponsoring as:
         </p>
-        <li tabIndex="0">
-          Improving brand-recognition within the local tech community
-        </li>
-        <li tabIndex="0">
-          <a href="#recruitment">
-            Recruitment and building connections across the community
-          </a>
-        </li>
-        <li tabIndex="0">
-          <a href="#free-training">Free training</a>
-        </li>
-        <li tabIndex="0">
-          <a href="#marketing">
-            Marketing - In and out of DDD East Midlands
-          </a>
-        </li>
-        <li tabIndex="0">
-          <a href="#exhibition">Exhibition booth</a>
-        </li>
-        <li tabIndex="0">
-          <a href="#community">
-            Supporting and endorsing the local tech community
-          </a>
-        </li>
+        <ul>
+          <li tabIndex="0">
+            Improving brand-recognition within the local tech
+            community
+          </li>
+          <li tabIndex="0">
+            <a href="#recruitment">
+              Recruitment and building connections across the
+              community
+            </a>
+          </li>
+          <li tabIndex="0">
+            <a href="#free-training">Free training</a>
+          </li>
+          <li tabIndex="0">
+            <a href="#marketing">
+              Marketing - In and out of DDD East Midlands
+            </a>
+          </li>
+          <li tabIndex="0">
+            <a href="#exhibition">Exhibition booth</a>
+          </li>
+          <li tabIndex="0">
+            <a href="#community">
+              Supporting and endorsing the local tech community
+            </a>
+          </li>
+        </ul>
       </section>
 
       <section className="content-section" id="recruitment">

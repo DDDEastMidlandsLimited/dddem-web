@@ -41,7 +41,9 @@ export default function RachelWatson() {
         </div>
         <div>
           <ul>
-            <b>Pronouns: </b> She/Her
+            <li>
+              <b>Pronouns: </b> She/Her
+            </li>
           </ul>
         </div>
         <br />
@@ -70,36 +72,38 @@ export default function RachelWatson() {
 
       <section className="past-speakers-section">
         <h2 tabIndex="0">Links</h2>
-        <li tabIndex="0">
-          <a
-            href="mailto:rachel@dddeastmidlands.com"
-            target="_blank"
-            rel="noreferrer"
-            aria-label="Rachel Watson: Email"
-          >
-            Email
-          </a>
-        </li>
-        <li tabIndex="0">
-          <a
-            href="https://twitter.com/missracheybaby"
-            target="_blank"
-            rel="noreferrer"
-            aria-label="Rachel Watson: Twitter"
-          >
-            Twitter
-          </a>
-        </li>
-        <li tabIndex="0">
-          <a
-            href="https://www.linkedin.com/in/rachelwatsondistinct/"
-            target="_blank"
-            rel="noreferrer"
-            aria-label="Rachel Watson: LinkedIn"
-          >
-            LinkedIn
-          </a>
-        </li>
+        <ul>
+          <li tabIndex="0">
+            <a
+              href="mailto:rachel@dddeastmidlands.com"
+              target="_blank"
+              rel="noreferrer"
+              aria-label="Rachel Watson: Email"
+            >
+              Email
+            </a>
+          </li>
+          <li tabIndex="0">
+            <a
+              href="https://twitter.com/missracheybaby"
+              target="_blank"
+              rel="noreferrer"
+              aria-label="Rachel Watson: Twitter"
+            >
+              Twitter
+            </a>
+          </li>
+          <li tabIndex="0">
+            <a
+              href="https://www.linkedin.com/in/rachelwatsondistinct/"
+              target="_blank"
+              rel="noreferrer"
+              aria-label="Rachel Watson: LinkedIn"
+            >
+              LinkedIn
+            </a>
+          </li>
+        </ul>
       </section>
 
       <section className="past-speakers-section">

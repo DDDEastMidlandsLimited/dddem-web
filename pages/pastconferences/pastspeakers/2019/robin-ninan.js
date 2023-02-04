@@ -38,10 +38,12 @@ export default function RobinNinan() {
         </div>
         <div>
           <ul>
-            <b>Pronouns: </b> He/Him
-          </ul>
-          <ul>
-            <b>Talk Length: </b> 30 minute
+            <li>
+              <b>Pronouns: </b> He/Him
+            </li>
+            <li>
+              <b>Talk Length: </b> 30 minute
+            </li>
           </ul>
         </div>
         <br />
