@@ -25,7 +25,7 @@ export default function JamesHayward() {
         banner="/static/banners/generic.jpg"
       />
       <section className="past-speakers-section">
-        <h1 tabIndex="0">Contracts and Finances Manager</h1>
+        <h1 tabIndex="0">Project Manager</h1>
       </section>
 
       <section className="past-speakers-section">
