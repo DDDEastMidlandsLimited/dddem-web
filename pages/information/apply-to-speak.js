@@ -109,7 +109,7 @@ export default function ApplicationInformation() {
           your submissions on social media to help keep this fair.
           More can be read about this process{' '}
           <a
-            href="https://blog.dddeastmidlands.com/2019/12/07/submission-process.html"
+            href="https://blog.dddeastmidlands.com/blog/sessionize-post/"
             target="_blank"
             rel="noreferrer"
           >
