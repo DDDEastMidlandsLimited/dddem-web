@@ -25,7 +25,9 @@ export default function MoretonBrockley() {
         banner="/static/banners/organisers/mort.jpg"
       />
       <section className="past-speakers-section">
-        <h1 tabIndex="0">Directior/ Co-Founder / Co-Organiser</h1>
+        <h1 tabIndex="0" className="align-center">
+          Directior/ Co-Founder / Co-Organiser
+        </h1>
       </section>
 
       <section className="past-speakers-section">

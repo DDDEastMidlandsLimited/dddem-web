@@ -4,7 +4,6 @@ import Head from 'next/head';
 import Layout from '../components/Layout';
 import ImportantDatesList from '../components/home/ImportantDatesList';
 import dates from '../data/dates';
-import SponsorButton from '../components/sponsorship/SponsorButton';
 import Image from 'next/image';
 
 export default function Index() {
@@ -51,10 +50,15 @@ export default function Index() {
         <TieredCompanies partners={gold} />
       </section> */}
 
-      {/* Silver Sponsors */}
       <section className="content-section">
         <h2>Sponsors</h2>
-        <SponsorButton />
+        <p tabIndex="0" className="align-center">
+          Email Rachel to find out about opportunities for
+          sponsorship:
+        </p>
+        <p tabIndex="0" className="align-center">
+          rachel@dddeastmidlands.com
+        </p>
       </section>
 
       {/* Important Dates */}
