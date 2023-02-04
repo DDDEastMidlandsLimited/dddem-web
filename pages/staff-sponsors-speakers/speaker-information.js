@@ -204,20 +204,23 @@ export default function SpeakerInformation() {
 
         <a name="we-need-to-know" />
         <h2 tabIndex="0">What we need to know</h2>
-        <li tabIndex="0">
-          Is there sound/video in your presentation?
-        </li>
-
+        <ul>
+          <li tabIndex="0">
+            Is there sound/video in your presentation?
+          </li>
+        </ul>
         <a name="what-to-prepare" />
         <h2 tabIndex="0">What to prepare</h2>
-        <li tabIndex="0">
-          A copy of your presentation on a usb stick
-        </li>
-        <li tabIndex="0">A clicker</li>
-        <li tabIndex="0">
-          If possible, get any electricals you will need on the day
-          PAT Tested.
-        </li>
+        <ul>
+          <li tabIndex="0">
+            A copy of your presentation on a usb stick
+          </li>
+          <li tabIndex="0">A clicker</li>
+          <li tabIndex="0">
+            If possible, get any electricals you will need on the day
+            PAT Tested.
+          </li>
+        </ul>
       </section>
 
       <section className="content-section" id="day-of">
@@ -362,38 +365,41 @@ export default function SpeakerInformation() {
           are available. There are a few reasons we are videoing the
           talks:
         </p>
-        <li tabIndex="0">
-          For future conference submissions. Often conference
-          submissions are strengthened with the evidence of your
-          presentation skills.
-        </li>
-        <li tabIndex="0">
-          To keep the conversation going after the conference. Your
-          talks can be shared with all those who might find them
-          useful.
-        </li>
+        <ul>
+          <li tabIndex="0">
+            For future conference submissions. Often conference
+            submissions are strengthened with the evidence of your
+            presentation skills.
+          </li>
+          <li tabIndex="0">
+            To keep the conversation going after the conference. Your
+            talks can be shared with all those who might find them
+            useful.
+          </li>
+        </ul>
       </section>
 
       {/* <PubConf /> */}
 
       <section className="content-section" id="checklist">
         <h1 tabIndex="0">Suggested Checklist</h1>
-        <li tabIndex="0">Twitter handle on slides</li>
-        <li tabIndex="0">Clicker</li>
-        <li tabIndex="0">Backup of slides</li>
-        <li tabIndex="0">Laptop charger</li>
-        <li tabIndex="0">Timer</li>
-        <li tabIndex="0">
-          The awesome{' '}
-          <a
-            href="https://open.spotify.com/playlist/0kTPxCiWN0kyYa8FSWpdi2?"
-            target="_blank"
-            rel="noreferrer"
-          >
-            Get Pumped Playlist
-          </a>
-        </li>
-
+        <ul>
+          <li tabIndex="0">Twitter handle on slides</li>
+          <li tabIndex="0">Clicker</li>
+          <li tabIndex="0">Backup of slides</li>
+          <li tabIndex="0">Laptop charger</li>
+          <li tabIndex="0">Timer</li>
+          <li tabIndex="0">
+            The awesome{' '}
+            <a
+              href="https://open.spotify.com/playlist/0kTPxCiWN0kyYa8FSWpdi2?"
+              target="_blank"
+              rel="noreferrer"
+            >
+              Get Pumped Playlist
+            </a>
+          </li>
+        </ul>
         <h4 tabIndex="0">Our favourite available list</h4>
         <p tabIndex="0">
           <a
@@ -427,13 +433,13 @@ export default function SpeakerInformation() {
           <li tabIndex="0">
             <strong>Co-organiser Jessica White:</strong>
           </li>
-          <p tabIndex="0">Tel: number will be emailed to you </p>
-          <p tabIndex="0">Email: jessica@dddeastmidlands.com </p>
-          <li tabIndex="0">
-            <strong>Co-organiser Moreton Brockley:</strong>
-          </li>
-          <p tabIndex="0">Email: moreton@dddeastmidlands.com</p>
         </ul>
+        <p tabIndex="0">Tel: number will be emailed to you </p>
+        <p tabIndex="0">Email: jessica@dddeastmidlands.com </p>
+        <p tabIndex="0">
+          <strong>Co-organiser Moreton Brockley:</strong>
+        </p>
+        <p tabIndex="0">Email: moreton@dddeastmidlands.com</p>
 
         <a name="hotels" />
         <h2 tabIndex="0">Hotels</h2>
@@ -441,141 +447,145 @@ export default function SpeakerInformation() {
           We don&apos;t have any partnerships or deals with any local
           hotels but here is a list of a few in City Center:
         </p>
-        <li>
-          <a
-            href="https://www.ihg.com/crowneplaza/hotels/gb/en/nottingham/notws/hoteldetail?cm_mmc=GoogleMaps-_-CP-_-GB-_-NOTWS"
-            target="_blank"
-            rel="noreferrer"
-          >
-            Crowne Plaza
-          </a>
-        </li>
-        <li>
-          <a
-            href="https://www.accorhotels.com/gb/hotel-6160-ibis-nottingham-centre/index.shtml"
-            target="_blank"
-            rel="noreferrer"
-          >
-            Ibis
-          </a>
-        </li>
-        <li>
-          <a
-            href="https://www.roomzzz.com/locations/nottingham/"
-            target="_blank"
-            rel="noreferrer"
-          >
-            Roomzzz
-          </a>
-        </li>
-        <li>
-          <a
-            href="https://www.mercurenottingham.com/"
-            target="_blank"
-            rel="noreferrer"
-          >
-            Mercure
-          </a>
-        </li>
-
+        <ul>
+          <li>
+            <a
+              href="https://www.ihg.com/crowneplaza/hotels/gb/en/nottingham/notws/hoteldetail?cm_mmc=GoogleMaps-_-CP-_-GB-_-NOTWS"
+              target="_blank"
+              rel="noreferrer"
+            >
+              Crowne Plaza
+            </a>
+          </li>
+          <li>
+            <a
+              href="https://www.accorhotels.com/gb/hotel-6160-ibis-nottingham-centre/index.shtml"
+              target="_blank"
+              rel="noreferrer"
+            >
+              Ibis
+            </a>
+          </li>
+          <li>
+            <a
+              href="https://www.roomzzz.com/locations/nottingham/"
+              target="_blank"
+              rel="noreferrer"
+            >
+              Roomzzz
+            </a>
+          </li>
+          <li>
+            <a
+              href="https://www.mercurenottingham.com/"
+              target="_blank"
+              rel="noreferrer"
+            >
+              Mercure
+            </a>
+          </li>
+        </ul>
         <a name="restaurants" />
         <h2 tabIndex="0">Restaurants</h2>
         <h4 tabIndex="0">Coffee</h4>
-        <li>
-          <a
-            href="https://www.cartwheelcoffee.com/"
-            target="_blank"
-            rel="noreferrer"
-          >
-            Cartwheel
-          </a>
-        </li>
-        <li>
-          <a
-            href="https://www.outpost.coffee/"
-            target="_blank"
-            rel="noreferrer"
-          >
-            Outpost
-          </a>
-        </li>
-        <li>
-          <a
-            href="https://200degs.com/"
-            target="_blank"
-            rel="noreferrer"
-          >
-            200 Degrees
-          </a>
-        </li>
-        <li>
-          <a
-            href="https://www.thespecialtycoffeeshop.com/"
-            target="_blank"
-            rel="noreferrer"
-          >
-            Speciality
-          </a>
-        </li>
-
+        <ul>
+          <li>
+            <a
+              href="https://www.cartwheelcoffee.com/"
+              target="_blank"
+              rel="noreferrer"
+            >
+              Cartwheel
+            </a>
+          </li>
+          <li>
+            <a
+              href="https://www.outpost.coffee/"
+              target="_blank"
+              rel="noreferrer"
+            >
+              Outpost
+            </a>
+          </li>
+          <li>
+            <a
+              href="https://200degs.com/"
+              target="_blank"
+              rel="noreferrer"
+            >
+              200 Degrees
+            </a>
+          </li>
+          <li>
+            <a
+              href="https://www.thespecialtycoffeeshop.com/"
+              target="_blank"
+              rel="noreferrer"
+            >
+              Speciality
+            </a>
+          </li>
+        </ul>
         <h4 tabIndex="0">Breakfast</h4>
-        <li>
-          <a
-            href="https://anniesburgershack.com/menu/breakfast-menu"
-            target="_blank"
-            rel="noreferrer"
-          >
-            Annies Burger Shack
-          </a>
-        </li>
-        <li>
-          <a
-            href="https://www.thepuddingpantry.co.uk/breakfast"
-            target="_blank"
-            rel="noreferrer"
-          >
-            Pudding Pantry
-          </a>
-        </li>
-
+        <ul>
+          <li>
+            <a
+              href="https://anniesburgershack.com/menu/breakfast-menu"
+              target="_blank"
+              rel="noreferrer"
+            >
+              Annies Burger Shack
+            </a>
+          </li>
+          <li>
+            <a
+              href="https://www.thepuddingpantry.co.uk/breakfast"
+              target="_blank"
+              rel="noreferrer"
+            >
+              Pudding Pantry
+            </a>
+          </li>
+        </ul>
         <h4 tabIndex="0">Dinner</h4>
-        <li>
-          <a
-            href="http://www.oscarandrosies.com/menu"
-            target="_blank"
-            rel="noreferrer"
-          >
-            Oscar And Rosies
-          </a>
-        </li>
-        <li>
-          <a
-            href="https://anniesburgershack.com/menu/main-menu"
-            target="_blank"
-            rel="noreferrer"
-          >
-            Annies Burger Shack
-          </a>
-        </li>
-        <li>
-          <a
-            href="https://www.tripadvisor.co.uk/Restaurant_Review-g186356-d11933005-Reviews-Sexy_Mamma_Love_Spaghetti-Nottingham_Nottinghamshire_England.html"
-            target="_blank"
-            rel="noreferrer"
-          >
-            Sexy Mama&apos;s Spaghetti
-          </a>
-        </li>
-        <li>
-          <a
-            href="http://bonzai-japaneserestaurant.co.uk/"
-            target="_blank"
-            rel="noreferrer"
-          >
-            Bonzai
-          </a>
-        </li>
-
+        <ul>
+          <li>
+            <a
+              href="http://www.oscarandrosies.com/menu"
+              target="_blank"
+              rel="noreferrer"
+            >
+              Oscar And Rosies
+            </a>
+          </li>
+          <li>
+            <a
+              href="https://anniesburgershack.com/menu/main-menu"
+              target="_blank"
+              rel="noreferrer"
+            >
+              Annies Burger Shack
+            </a>
+          </li>
+          <li>
+            <a
+              href="https://www.tripadvisor.co.uk/Restaurant_Review-g186356-d11933005-Reviews-Sexy_Mamma_Love_Spaghetti-Nottingham_Nottinghamshire_England.html"
+              target="_blank"
+              rel="noreferrer"
+            >
+              Sexy Mama&apos;s Spaghetti
+            </a>
+          </li>
+          <li>
+            <a
+              href="http://bonzai-japaneserestaurant.co.uk/"
+              target="_blank"
+              rel="noreferrer"
+            >
+              Bonzai
+            </a>
+          </li>
+        </ul>
         <h4 tabIndex="0">Extra Requirements?</h4>
         <p tabIndex="0">
           If you need to know about any vegan, vegetarian or

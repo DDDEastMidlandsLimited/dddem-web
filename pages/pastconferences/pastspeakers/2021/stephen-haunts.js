@@ -38,10 +38,12 @@ export default function StephenHaunts() {
         </div>
         <div>
           <ul>
-            <b>Pronouns: </b> He/Him
-          </ul>
-          <ul>
-            <b>Talk Length: </b> 60 mins
+            <li>
+              <b>Pronouns: </b> He/Him
+            </li>
+            <li>
+              <b>Talk Length: </b> 60 mins
+            </li>
           </ul>
         </div>
         <br />
@@ -116,26 +118,28 @@ export default function StephenHaunts() {
 
       <section className="past-speakers-section">
         <h2 tabIndex="0">Links</h2>
-        <li>
-          <a
-            target="_blank"
-            rel="noreferrer"
-            aria-label="Stephen Haunts: Twitter"
-            href="https://twitter.com/stephenhaunts"
-          >
-            Twitter
-          </a>
-        </li>
-        <li>
-          <a
-            target="_blank"
-            rel="noreferrer"
-            aria-label="Stephen Haunts: Website"
-            href="https://stephenhaunts.com/"
-          >
-            Website
-          </a>
-        </li>
+        <ul>
+          <li>
+            <a
+              target="_blank"
+              rel="noreferrer"
+              aria-label="Stephen Haunts: Twitter"
+              href="https://twitter.com/stephenhaunts"
+            >
+              Twitter
+            </a>
+          </li>
+          <li>
+            <a
+              target="_blank"
+              rel="noreferrer"
+              aria-label="Stephen Haunts: Website"
+              href="https://stephenhaunts.com/"
+            >
+              Website
+            </a>
+          </li>
+        </ul>
       </section>
     </Layout>
   );

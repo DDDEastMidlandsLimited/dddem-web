@@ -38,10 +38,12 @@ export default function NeilOConnor() {
         </div>
         <div>
           <ul>
-            <b>Pronouns: </b> He/Him
-          </ul>
-          <ul>
-            <b>Talk Length: </b> 60 minute
+            <li>
+              <b>Pronouns: </b> He/Him
+            </li>
+            <li>
+              <b>Talk Length: </b> 60 minute
+            </li>
           </ul>
         </div>
         <br />
@@ -141,16 +143,18 @@ export default function NeilOConnor() {
 
       <section className="past-speakers-section">
         <h2 tabIndex="0">Links</h2>
-        <li>
-          <a
-            target="_blank"
-            rel="noreferrer"
-            aria-label="Neil: Twitter"
-            href="https://twitter.com/1stmanonthesun"
-          >
-            Twitter
-          </a>
-        </li>
+        <ul>
+          <li>
+            <a
+              target="_blank"
+              rel="noreferrer"
+              aria-label="Neil: Twitter"
+              href="https://twitter.com/1stmanonthesun"
+            >
+              Twitter
+            </a>
+          </li>
+        </ul>
       </section>
     </Layout>
   );

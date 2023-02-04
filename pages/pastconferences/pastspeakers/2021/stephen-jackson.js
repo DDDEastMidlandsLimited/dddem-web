@@ -38,10 +38,12 @@ export default function StephenJackson() {
         </div>
         <div>
           <ul>
-            <b>Pronouns: </b> He/Him
-          </ul>
-          <ul>
-            <b>Talk Length: </b> 15 mins
+            <li>
+              <b>Pronouns: </b> He/Him
+            </li>
+            <li>
+              <b>Talk Length: </b> 15 mins
+            </li>
           </ul>
         </div>
         <br />
@@ -121,26 +123,28 @@ export default function StephenJackson() {
 
       <section className="past-speakers-section">
         <h2 tabIndex="0">Links</h2>
-        <li>
-          <a
-            target="_blank"
-            rel="noreferrer"
-            aria-label="Stephen Jackson: Twitter"
-            href="https://twitter.com/Dukeboxz"
-          >
-            Twitter
-          </a>
-        </li>
-        <li>
-          <a
-            target="_blank"
-            rel="noreferrer"
-            aria-label="Stephen Jackson: LinkedIn"
-            href="https://www.linkedin.com/in/stephenjjackson/"
-          >
-            LinkedIn
-          </a>
-        </li>
+        <ul>
+          <li>
+            <a
+              target="_blank"
+              rel="noreferrer"
+              aria-label="Stephen Jackson: Twitter"
+              href="https://twitter.com/Dukeboxz"
+            >
+              Twitter
+            </a>
+          </li>
+          <li>
+            <a
+              target="_blank"
+              rel="noreferrer"
+              aria-label="Stephen Jackson: LinkedIn"
+              href="https://www.linkedin.com/in/stephenjjackson/"
+            >
+              LinkedIn
+            </a>
+          </li>
+        </ul>
       </section>
     </Layout>
   );

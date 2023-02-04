@@ -83,32 +83,34 @@ export default function Sponsor() {
             Here are some pages with more information relating to
             sponsoring the event.
           </p>
-          <li tabIndex="0">
-            <a href="../sponsor/why-sponsor" rel="noreferrer">
-              Why Sponsor?
-            </a>
-          </li>
-          <li tabIndex="0">
-            <a
-              href="../../information/event-activities/"
-              rel="noreferrer"
-            >
-              Event Activities
-            </a>
-          </li>
-          <li tabIndex="0">
-            <a href="../sponsor/testimonials" rel="noreferrer">
-              Testimonials
-            </a>
-          </li>
-          <li tabIndex="0">
-            <a
-              href="../sponsor/social-responsibility"
-              rel="noreferrer"
-            >
-              Social Responsibility
-            </a>
-          </li>
+          <ul>
+            <li tabIndex="0">
+              <a href="../sponsor/why-sponsor" rel="noreferrer">
+                Why Sponsor?
+              </a>
+            </li>
+            <li tabIndex="0">
+              <a
+                href="../../information/event-activities/"
+                rel="noreferrer"
+              >
+                Event Activities
+              </a>
+            </li>
+            <li tabIndex="0">
+              <a href="../sponsor/testimonials" rel="noreferrer">
+                Testimonials
+              </a>
+            </li>
+            <li tabIndex="0">
+              <a
+                href="../sponsor/social-responsibility"
+                rel="noreferrer"
+              >
+                Social Responsibility
+              </a>
+            </li>
+          </ul>
         </section>
 
         <section className="content-section" id="indicating-interest">

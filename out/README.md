@@ -1,1 +1,0 @@
-This directory is used for outputting the sitemap.xml file for this project. To prevent permission issues locally, this folder and readme act as a way to ensure that the directory is created by default.

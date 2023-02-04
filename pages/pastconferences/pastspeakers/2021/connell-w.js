@@ -38,10 +38,12 @@ export default function ConnellW() {
         </div>
         <div>
           <ul>
-            <b>Pronouns: </b> Not Provided
-          </ul>
-          <ul>
-            <b>Talk Length: </b> 60 mins
+            <li>
+              <b>Pronouns: </b> Not Provided
+            </li>
+            <li>
+              <b>Talk Length: </b> 60 mins
+            </li>
           </ul>
         </div>
         <br />

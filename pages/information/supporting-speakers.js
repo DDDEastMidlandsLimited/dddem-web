@@ -21,12 +21,14 @@ export default function SupportingSpeakers() {
           event to be a positive and supportive experience for
           speakers.
         </p>
-        <li tabIndex="0">
-          Talks at local meetups on writing talk proposals and
-          biographies.
-        </li>
-        <li tabIndex="0">Speakers Workshop.</li>
-        <li tabIndex="0">Mentorship.</li>
+        <ul>
+          <li tabIndex="0">
+            Talks at local meetups on writing talk proposals and
+            biographies.
+          </li>
+          <li tabIndex="0">Speakers Workshop.</li>
+          <li tabIndex="0">Mentorship.</li>
+        </ul>
         <p tabIndex="0">
           From the organisers doing talks at local meetups on how to
           submit a good CFP through to a mentorship scheme for

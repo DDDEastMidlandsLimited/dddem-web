@@ -38,10 +38,12 @@ export default function SimonPainter() {
         </div>
         <div>
           <ul>
-            <b>Pronouns: </b> He/Him
-          </ul>
-          <ul>
-            <b>Talk Length: </b> 60 mins
+            <li>
+              <b>Pronouns: </b> He/Him
+            </li>
+            <li>
+              <b>Talk Length: </b> 60 mins
+            </li>
           </ul>
         </div>
         <br />
@@ -62,11 +64,13 @@ export default function SimonPainter() {
           In this talk, we're going to look at each of the 5 SOLID
           principles, these being:
         </p>
-        <li>Single Dependency Principle</li>
-        <li>Open/Close Principle</li>
-        <li>Liskov Substitution Principle</li>
-        <li>Interface Segregation Principle</li>
-        <li>Dependency Inversion Principle</li>
+        <ul>
+          <li>Single Dependency Principle</li>
+          <li>Open/Close Principle</li>
+          <li>Liskov Substitution Principle</li>
+          <li>Interface Segregation Principle</li>
+          <li>Dependency Inversion Principle</li>
+        </ul>
         <p tabIndex="0">See what he did there with the names?</p>
         <p tabIndex="0">
           We'll look at each in turn, with the help of some slightly
@@ -131,16 +135,18 @@ export default function SimonPainter() {
 
       <section className="past-speakers-section">
         <h2 tabIndex="0">Links</h2>
-        <li>
-          <a
-            target="_blank"
-            rel="noreferrer"
-            aria-label="Simon Painter: Twitter"
-            href="https://twitter.com/madSimonJ"
-          >
-            Twitter
-          </a>
-        </li>
+        <ul>
+          <li>
+            <a
+              target="_blank"
+              rel="noreferrer"
+              aria-label="Simon Painter: Twitter"
+              href="https://twitter.com/madSimonJ"
+            >
+              Twitter
+            </a>
+          </li>
+        </ul>
       </section>
     </Layout>
   );

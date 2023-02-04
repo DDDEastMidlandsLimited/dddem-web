@@ -38,10 +38,12 @@ export default function JenniferMackown() {
         </div>
         <div>
           <ul>
-            <b>Pronouns: </b> She/Her
-          </ul>
-          <ul>
-            <b>Talk Length: </b> 15 mins
+            <li>
+              <b>Pronouns: </b> She/Her
+            </li>
+            <li>
+              <b>Talk Length: </b> 15 mins
+            </li>
           </ul>
         </div>
         <br />
@@ -134,36 +136,38 @@ export default function JenniferMackown() {
 
       <section className="past-speakers-section">
         <h2 tabIndex="0">Links</h2>
-        <li>
-          <a
-            target="_blank"
-            rel="noreferrer"
-            aria-label="Jennifer Mackown: Twitter"
-            href="https://twitter.com/__jcmc__/"
-          >
-            Twitter
-          </a>
-        </li>
-        <li>
-          <a
-            target="_blank"
-            rel="noreferrer"
-            aria-label="Jennifer Mackown: Website"
-            href="https://www.jcmc.dev/"
-          >
-            Website
-          </a>
-        </li>
-        <li>
-          <a
-            target="_blank"
-            rel="noreferrer"
-            aria-label="Jennifer Mackown: LinkedIn"
-            href="https://www.linkedin.com/in/jennifer-mackown-4352aa37/"
-          >
-            LinkedIn
-          </a>
-        </li>
+        <ul>
+          <li>
+            <a
+              target="_blank"
+              rel="noreferrer"
+              aria-label="Jennifer Mackown: Twitter"
+              href="https://twitter.com/__jcmc__/"
+            >
+              Twitter
+            </a>
+          </li>
+          <li>
+            <a
+              target="_blank"
+              rel="noreferrer"
+              aria-label="Jennifer Mackown: Website"
+              href="https://www.jcmc.dev/"
+            >
+              Website
+            </a>
+          </li>
+          <li>
+            <a
+              target="_blank"
+              rel="noreferrer"
+              aria-label="Jennifer Mackown: LinkedIn"
+              href="https://www.linkedin.com/in/jennifer-mackown-4352aa37/"
+            >
+              LinkedIn
+            </a>
+          </li>
+        </ul>
       </section>
     </Layout>
   );

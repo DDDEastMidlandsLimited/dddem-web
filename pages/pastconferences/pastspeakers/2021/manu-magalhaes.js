@@ -38,10 +38,12 @@ export default function ManuMagalhaes() {
         </div>
         <div>
           <ul>
-            <b>Pronouns: </b> She/Her
-          </ul>
-          <ul>
-            <b>Talk Length: </b> 60 mins
+            <li>
+              <b>Pronouns: </b> She/Her
+            </li>
+            <li>
+              <b>Talk Length: </b> 60 mins
+            </li>
           </ul>
         </div>
         <br />
@@ -76,16 +78,18 @@ export default function ManuMagalhaes() {
 
       <section className="past-speakers-section">
         <h2 tabIndex="0">Links</h2>
-        <li>
-          <a
-            target="_blank"
-            rel="noreferrer"
-            aria-label="Manu Magalhães: LinkedIn"
-            href="https://www.linkedin.com/in/manumagalhaes/"
-          >
-            Twitter
-          </a>
-        </li>
+        <ul>
+          <li>
+            <a
+              target="_blank"
+              rel="noreferrer"
+              aria-label="Manu Magalhães: LinkedIn"
+              href="https://www.linkedin.com/in/manumagalhaes/"
+            >
+              Twitter
+            </a>
+          </li>
+        </ul>
       </section>
     </Layout>
   );

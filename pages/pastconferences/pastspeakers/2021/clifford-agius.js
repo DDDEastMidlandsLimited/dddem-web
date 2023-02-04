@@ -38,10 +38,12 @@ export default function CliffordAgius() {
         </div>
         <div>
           <ul>
-            <b>Pronouns: </b> He/Him
-          </ul>
-          <ul>
-            <b>Talk Length: </b> 60 mins
+            <li>
+              <b>Pronouns: </b> He/Him
+            </li>
+            <li>
+              <b>Talk Length: </b> 60 mins
+            </li>
           </ul>
         </div>
         <br />
@@ -66,46 +68,52 @@ export default function CliffordAgius() {
           alternative to the NHS prosthesis.
         </p>
         <p tabIndex="0">We'll discuss:</p>
-        <li tabIndex="0">
-          How 3D printing of parts for the hand can be much more
-          effective (cost and function) than fibre glass moulds{' '}
-        </li>
-        <li tabIndex="0">
-          Using home 3D printing we can create a viable articulated
-          hand
-        </li>
-        <li tabIndex="0">
-          Using off the shelf commodity IoT boards from Adafruit can
-          be used to program the hand (and how this is more viable
-          than alternative approaches) but more recently in the
-          project moving to the new WildernessLabs F7 board so that
-          the whole project in DotNet.
-        </li>
-        <li tabIndex="0">
-          Creating a Xamarin application to connect via Bluetooth and
-          provide customisation and control options for the hand and
-          the challenges of UI design for those with accessibility
-          issues.
-        </li>
-        <li tabIndex="0">
-          How this option can reduce the costs from £000's to several
-          hundred £s and is being done as an Open Source project which
-          will hopefully lead to designs and kits being available for
-          others around the world to build their own.
-        </li>
+        <ul>
+          <li tabIndex="0">
+            How 3D printing of parts for the hand can be much more
+            effective (cost and function) than fibre glass moulds{' '}
+          </li>
+          <li tabIndex="0">
+            Using home 3D printing we can create a viable articulated
+            hand
+          </li>
+          <li tabIndex="0">
+            Using off the shelf commodity IoT boards from Adafruit can
+            be used to program the hand (and how this is more viable
+            than alternative approaches) but more recently in the
+            project moving to the new WildernessLabs F7 board so that
+            the whole project in DotNet.
+          </li>
+          <li tabIndex="0">
+            Creating a Xamarin application to connect via Bluetooth
+            and provide customisation and control options for the hand
+            and the challenges of UI design for those with
+            accessibility issues.
+          </li>
+          <li tabIndex="0">
+            How this option can reduce the costs from £000's to
+            several hundred £s and is being done as an Open Source
+            project which will hopefully lead to designs and kits
+            being available for others around the world to build their
+            own.
+          </li>
+        </ul>
         <p tabIndex="0">
           Attendees will learn about and see demos of:
         </p>
-        <li tabIndex="0">
-          The 3D printed hand and related components{' '}
-        </li>
-        <li tabIndex="0">
-          Programming of the IoT board and sensors (In DotNet and C#)
-        </li>
-        <li tabIndex="0">
-          Creation of the Xamarin application to customise the hand.
-        </li>
-        <li tabIndex="0">Bluetooth connection options.</li>
+        <ul>
+          <li tabIndex="0">
+            The 3D printed hand and related components{' '}
+          </li>
+          <li tabIndex="0">
+            Programming of the IoT board and sensors (In DotNet and
+            C#)
+          </li>
+          <li tabIndex="0">
+            Creation of the Xamarin application to customise the hand.
+          </li>
+          <li tabIndex="0">Bluetooth connection options.</li>
+        </ul>
         <p tabIndex="0">
           Please note: Kayden and his family have given express
           permission to use his name and images for this talk.
@@ -194,26 +202,28 @@ export default function CliffordAgius() {
 
       <section className="past-speakers-section">
         <h2 tabIndex="0">Links</h2>
-        <li tabIndex="0">
-          <a
-            target="_blank"
-            rel="noreferrer"
-            aria-label="Clifford Agius: Twitter"
-            href="https://twitter.com/CliffordAgius"
-          >
-            Twitter
-          </a>
-        </li>
-        <li tabIndex="0">
-          <a
-            target="_blank"
-            rel="noreferrer"
-            aria-label="Clifford Agius: Website"
-            href="https://www.cliffordagius.co.uk/"
-          >
-            Website
-          </a>
-        </li>
+        <ul>
+          <li tabIndex="0">
+            <a
+              target="_blank"
+              rel="noreferrer"
+              aria-label="Clifford Agius: Twitter"
+              href="https://twitter.com/CliffordAgius"
+            >
+              Twitter
+            </a>
+          </li>
+          <li tabIndex="0">
+            <a
+              target="_blank"
+              rel="noreferrer"
+              aria-label="Clifford Agius: Website"
+              href="https://www.cliffordagius.co.uk/"
+            >
+              Website
+            </a>
+          </li>
+        </ul>
       </section>
     </Layout>
   );

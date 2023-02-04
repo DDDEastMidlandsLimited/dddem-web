@@ -38,10 +38,12 @@ export default function JoelHammondTurner() {
         </div>
         <div>
           <ul>
-            <b>Pronouns: </b> He/Him
-          </ul>
-          <ul>
-            <b>Talk Length: </b> 60 minute
+            <li>
+              <b>Pronouns: </b> He/Him
+            </li>
+            <li>
+              <b>Talk Length: </b> 60 minute
+            </li>
           </ul>
         </div>
         <br />
@@ -101,26 +103,28 @@ export default function JoelHammondTurner() {
 
       <section className="past-speakers-section">
         <h2 tabIndex="0">Links</h2>
-        <li>
-          <a
-            target="_blank"
-            rel="noreferrer"
-            aria-label="Joel Hammond-Turner: Twitter"
-            href="https://twitter.com/Rammesses"
-          >
-            Twitter
-          </a>
-        </li>
-        <li>
-          <a
-            target="_blank"
-            rel="noreferrer"
-            aria-label="Joel Hammond-Turner: LinkedIn"
-            href="https://www.linkedin.com/in/joelht/"
-          >
-            LinkedIn
-          </a>
-        </li>
+        <ul>
+          <li>
+            <a
+              target="_blank"
+              rel="noreferrer"
+              aria-label="Joel Hammond-Turner: Twitter"
+              href="https://twitter.com/Rammesses"
+            >
+              Twitter
+            </a>
+          </li>
+          <li>
+            <a
+              target="_blank"
+              rel="noreferrer"
+              aria-label="Joel Hammond-Turner: LinkedIn"
+              href="https://www.linkedin.com/in/joelht/"
+            >
+              LinkedIn
+            </a>
+          </li>
+        </ul>
       </section>
     </Layout>
   );

@@ -32,15 +32,32 @@ a:after {
   content: ' ';
 }
 
+ul {
+  margin: 0;
+  padding: 5px;
+  display: list-item;
+  list-style: none;
+  flex-flow: row;
+  flex-wrap: nowrap;
+  justify-content: center;
+}
+
 li {
-  line-height: 1.5;
+  margin: 0;
+  padding: 10px;
+  display: list-item;
+  list-style: inside;
+  list-style-type: disc;
+  text-align: left;
+  flex-basis: 0;
+  flex-grow: 1;
 }
 
 .container {
   width: 100vw;
 }
 
-.aligncenter {
+.align-center {
   text-align: center;
 }
 
