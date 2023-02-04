@@ -177,7 +177,7 @@ export default function EventActivities() {
         <p tabIndex="0">
           There are also snacks provided through the day and a fully
           catered lunch provided by the venues caterers. These aren't
-          dried sandwiches and patries, but cooked meals, salads and
+          dried sandwiches and pastries, but cooked meals, salads and
           delicious deserts. We ask for attendee catering needs before
           the event to ensure that no matter peoples intolerancies or
           eating requirements; nobody will go hungry.
