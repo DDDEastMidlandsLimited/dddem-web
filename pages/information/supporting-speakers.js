@@ -66,11 +66,11 @@ export default function SupportingSpeakers() {
           There are some blog posts around the content here:{' '}
           <a
             tabIndex="0"
-            href="https://blog.dddeastmidlands.com/category/how-to-talk/index.html"
+            href="https://blog.dddeastmidlands.com/tag/talking-tips"
             target="_blank"
             rel="noopener noreferrer"
           >
-            https://blog.dddeastmidlands.com/category/how-to-talk/index.html{' '}
+            https://blog.dddeastmidlands.com/tag/talking-tips{' '}
           </a>
         </p>
       </section>
