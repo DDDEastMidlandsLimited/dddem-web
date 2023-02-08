@@ -5394,7 +5394,7 @@ pend@~1.2.0:
   version "1.2.0"
   resolved "https://registry.npmjs.org/pend/-/pend-1.2.0.tgz"
 
-perfume.js@^8.3.0:
+perfume.js@^8.4.0:
   version "8.4.0"
   resolved "https://registry.yarnpkg.com/perfume.js/-/perfume.js-8.4.0.tgz#38355008faf9f2fe5e9896ed0a7419c0001a81de"
   dependencies:
