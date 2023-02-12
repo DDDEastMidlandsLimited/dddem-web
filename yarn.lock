@@ -871,11 +871,11 @@
   version "6.3.0"
   resolved "https://registry.yarnpkg.com/@fortawesome/fontawesome-common-types/-/fontawesome-common-types-6.3.0.tgz#51f734e64511dbc3674cd347044d02f4dd26e86b"
 
-"@fortawesome/fontawesome-svg-core@^6.2.1":
-  version "6.2.1"
-  resolved "https://registry.npmjs.org/@fortawesome/fontawesome-svg-core/-/fontawesome-svg-core-6.2.1.tgz"
+"@fortawesome/fontawesome-svg-core@^6.3.0":
+  version "6.3.0"
+  resolved "https://registry.yarnpkg.com/@fortawesome/fontawesome-svg-core/-/fontawesome-svg-core-6.3.0.tgz#b6a17d48d231ac1fad93e43fca7271676bf316cf"
   dependencies:
-    "@fortawesome/fontawesome-common-types" "6.2.1"
+    "@fortawesome/fontawesome-common-types" "6.3.0"
 
 "@fortawesome/free-brands-svg-icons@^6.3.0":
   version "6.3.0"
