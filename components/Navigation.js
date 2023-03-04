@@ -88,7 +88,7 @@ export default function Navigation() {
               <NavDropdown.Item
                 id="about-sponsorship"
                 tabIndex="0"
-                href="/2023/sponsor"
+                href="/2023/sponsor/sponsor-the-event"
                 title="Link to Sponsorship Page"
               >
                 Sponsor the event
@@ -96,7 +96,7 @@ export default function Navigation() {
               <NavDropdown.Item
                 id="about-sponsorship-tiers"
                 tabIndex="0"
-                href="/2023/sponsorship-tiers"
+                href="/2023/sponsor/sponsorship-tiers"
                 title="Link to Sponsorship Tiers Page"
               >
                 Sponsorship Tiers
