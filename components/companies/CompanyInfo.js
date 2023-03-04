@@ -4,7 +4,7 @@ import ExternalLink from '../ExternalLink';
 
 export default function CompanyInfo({ partner, image }) {
   return (
-    <div className="company-info">
+    <div className="company-div">
       <ExternalLink
         href={partner.link}
         target="_blank"
@@ -13,9 +13,12 @@ export default function CompanyInfo({ partner, image }) {
         rel="noopener noreferrer"
       >
         <Image
-          className="company-info-image"
+          className="company-logo"
           src={image}
           alt={`Click to go to the ${partner.name} site`}
+          height={150}
+          width={300}
+          layout="responsive"
         />
       </ExternalLink>
     </div>

@@ -1,0 +1,11 @@
+.company-logo {
+  width: 40% !important;
+}
+
+@media (max-width: 768px) {
+  .company-logo {
+    margin-left: 10%;
+    align-items: center;
+    width: 70% !important;
+  }
+}
