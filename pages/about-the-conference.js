@@ -357,14 +357,17 @@ export default function ConferenceInformation() {
         </p>
         <p tabIndex="0">
           We also ask that all talk submissions abide to the{' '}
-          <Link href="/code-of-conduct/">Code of Conduct</Link>. We
-          want all attendees to feel comfortable at the event, so ask
-          that no submissions or talks contain content of a graphic,
-          violent or sexual nature or contain any language that may be
-          considered marginalising or hateful. If you wouldn&apos;t
-          want to say it to someone you respect, please don&apos;t
-          include it in your submission. Organisers hold the right to
-          remove anything that may be thought to cause distress.
+          <Link href="https://dddeastmidlands.com/code-of-conduct/">
+            Code of Conduct
+          </Link>
+          . We want all attendees to feel comfortable at the event, so
+          ask that no submissions or talks contain content of a
+          graphic, violent or sexual nature or contain any language
+          that may be considered marginalising or hateful. If you
+          wouldn&apos;t want to say it to someone you respect, please
+          don&apos;t include it in your submission. Organisers hold
+          the right to remove anything that may be thought to cause
+          distress.
         </p>
 
         <a name="speaking" />
