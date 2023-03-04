@@ -1,8 +1,8 @@
 import React from 'react';
-import Layout from '../../../components/Layout';
-import Header from '../../../components/Header';
+import Layout from '../../components/Layout';
+import Header from '../../components/Header';
 import Head from 'next/head';
-import SponsorButton from '../../../components/sponsorship/SponsorButton';
+import SponsorButton from '../../components/sponsorship/SponsorButton';
 import Image from 'next/image';
 import Link from 'next/link';
 
