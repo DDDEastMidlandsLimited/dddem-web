@@ -10,10 +10,10 @@ export default function CompanyGrid() {
   return (
     <div>
       <CompanyDetails />
-      <div className="company-container">
+      <div>
         {companiesList &&
           companiesList.map((company, index) => (
-            <div className="company-item" key={index}>
+            <div key={index}>
               <CompanyInfo
                 key={company.id}
                 partner={company}
