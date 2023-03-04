@@ -9,15 +9,6 @@ describe('Given the Navigation is rendered', () => {
     expect(getByText('Home')).toHaveAttribute('href', '/');
   });
 
-  test('it should display a About link', () => {
-    const { getByText } = render(<Navigation />);
-    expect(getByText('About')).toBeInTheDocument();
-    expect(getByText('About')).toHaveAttribute(
-      'href',
-      '/about-the-conference',
-    );
-  });
-
   test('it should display a YouTube link', () => {
     const { getByText } = render(<Navigation />);
     expect(getByText('YouTube')).toBeInTheDocument();

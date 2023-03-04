@@ -17,9 +17,68 @@ export default function Navigation() {
               <Nav.Link href="/">Home</Nav.Link>
             </Nav.Item>
 
-            <Nav.Item>
-              <Nav.Link href="/about-the-conference">About</Nav.Link>
-            </Nav.Item>
+            <NavDropdown
+              tabIndex="0"
+              title="Information"
+              id="basic-information-nav-dropdown"
+            >
+              <NavDropdown.Item
+                id="about"
+                tabIndex="0"
+                href="/about-the-conference"
+                title="About the conference"
+              >
+                About Us
+              </NavDropdown.Item>
+              <NavDropdown.Item
+                id="covid-precautions"
+                tabIndex="0"
+                href="/information/covid-precautions"
+                title="Link to Covid Precautions Page"
+              >
+                Covid Precautions
+              </NavDropdown.Item>
+              <NavDropdown.Item
+                id="supporting-speakers"
+                tabIndex="0"
+                href="/information/supporting-speakers"
+                title="Link to Supporting Speakers Page"
+              >
+                Supporting Speakers
+              </NavDropdown.Item>
+              <NavDropdown.Item
+                id="accessibility-information"
+                tabIndex="0"
+                href="/information/event-activities"
+                title="Link to Event Activites Page"
+              >
+                Event Activities
+              </NavDropdown.Item>
+              <NavDropdown.Item
+                id="accessibility-information"
+                tabIndex="0"
+                href="/information/accessibility-information"
+                title="Link to Accessibility Information Page"
+              >
+                Accessibility
+              </NavDropdown.Item>
+              <NavDropdown.Item
+                id="ticket-information"
+                tabIndex="0"
+                href="/information/ticket-information"
+                title="Link to Ticket Information Page"
+              >
+                Tickets
+              </NavDropdown.Item>
+              <NavDropdown.Item
+                id="venue-information"
+                tabIndex="0"
+                href="/information/venue-information"
+                title="Link to Venue Information Page"
+              >
+                Venue
+              </NavDropdown.Item>
+            </NavDropdown>
 
             <NavDropdown
               tabIndex="0"
@@ -78,64 +137,32 @@ export default function Navigation() {
 
             <NavDropdown
               tabIndex="0"
-              title="Information"
-              id="basic-information-nav-dropdown"
+              title="Guides"
+              id="basic-guide-nav-dropdown"
             >
               <NavDropdown.Item
-                id="covid-precautions"
+                id="guide-for-sponsor"
                 tabIndex="0"
-                href="/information/covid-precautions"
-                title="Link to Covid Precautions Page"
+                href="/guides/sponsors"
+                title="Link to Sponsorship Guide"
               >
-                Covid Precautions
+                For Sponsors
               </NavDropdown.Item>
               <NavDropdown.Item
-                id="supporting-speakers"
+                id="guide-for-speakers"
                 tabIndex="0"
-                href="/information/supporting-speakers"
-                title="Link to Supporting Speakers Page"
+                href="/guides/speakers"
+                title="Link to Speakers Guide"
               >
-                Supporting Speakers
+                For Speakers
               </NavDropdown.Item>
               <NavDropdown.Item
-                id="accessibility-information"
+                id="guide-for-crew"
                 tabIndex="0"
-                href="/information/event-activities"
-                title="Link to Event Activites Page"
+                href="/guides/crew"
+                title="Link to Crew Guide"
               >
-                Event Activities
-              </NavDropdown.Item>
-              <NavDropdown.Item
-                id="accessibility-information"
-                tabIndex="0"
-                href="/information/accessibility-information"
-                title="Link to Accessibility Information Page"
-              >
-                Accessibility
-              </NavDropdown.Item>
-              <NavDropdown.Item
-                id="ticket-information"
-                tabIndex="0"
-                href="/information/ticket-information"
-                title="Link to Ticket Information Page"
-              >
-                Tickets
-              </NavDropdown.Item>
-              <NavDropdown.Item
-                id="venue-information"
-                tabIndex="0"
-                href="/information/venue-information"
-                title="Link to Venue Information Page"
-              >
-                Venue
-              </NavDropdown.Item>
-              <NavDropdown.Item
-                id="stay-in-notts"
-                tabIndex="0"
-                href="/information/your-stay-in-notts"
-                title="Link to Your Stay In Nottingham Page"
-              >
-                Your Stay In Nottingham
+                For Crew Members
               </NavDropdown.Item>
             </NavDropdown>
 
