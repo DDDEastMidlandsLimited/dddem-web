@@ -46,23 +46,27 @@ export default function Index() {
       </section>
 
       {/* Gold Sponsors */}
-      <section className="content-section">
-        <h2>Gold Sponsors</h2>
+      {/*       <section className="content-section">
+        <h2 className="center">Gold Sponsors</h2>
         <GoldSponsorLogos />
-      </section>
+      </section> */}
 
       {/* Important Dates */}
       <section className="content-section">
         <br />
         <br />
-        <h2 tabIndex="0">Important Dates</h2>
+        <h2 className="center" tabIndex="0">
+          Important Dates
+        </h2>
         <ImportantDatesList dates={dates} />
       </section>
 
       {/* Principles */}
       <section className="content-section">
         <br />
-        <h2 tabIndex="0">Principles</h2>
+        <h2 className="center" tabIndex="0">
+          Principles
+        </h2>
         <p tabIndex="0">
           This conference follows these DDD principles:
         </p>
