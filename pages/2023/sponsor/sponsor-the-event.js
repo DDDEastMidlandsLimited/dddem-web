@@ -1,10 +1,8 @@
 import React from 'react';
-import Layout from '../../components/Layout';
-import Header from '../../components/Header';
+import Layout from '../../../components/Layout';
+import Header from '../../../components/Header';
 import Head from 'next/head';
-import SponsorButton from '../../components/sponsorship/SponsorButton';
-import SponsorshipTiersList from '../../components/sponsorship/SponsorshipTiersList';
-import sponsorship from '../../data/sponsorship/sponsorship';
+import SponsorButton from '../../../components/sponsorship/SponsorButton';
 import Image from 'next/image';
 import Link from 'next/link';
 
@@ -183,13 +181,6 @@ export default function Sponsor() {
               </ul>
             </div>
           </div>
-        </section>
-
-        <section className="content-section">
-          {/* Sponsorship Status */}
-          <a name="sponsorship-status" />
-          <h2 tabIndex="0">Sponsorship Status</h2>
-          <SponsorshipTiersList sponsorship={sponsorship} />
         </section>
       </div>
     </Layout>
