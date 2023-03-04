@@ -2,8 +2,11 @@ import React from 'react';
 import Header from '../components/Header';
 import Head from 'next/head';
 import Layout from '../components/Layout';
+import GoldSponsorLogos from '../components/companies/GoldSponsorLogos';
+import TieredCompanies from '../components/companies/TieredCompanies';
 import ImportantDatesList from '../components/home/ImportantDatesList';
 import dates from '../data/dates';
+import gold from '../data/sponsors/gold';
 import Image from 'next/image';
 
 export default function Index() {
@@ -43,12 +46,10 @@ export default function Index() {
       </section>
 
       {/* Gold Sponsors */}
-      {/*       <section>
+      <section className="content-section">
         <h2>Gold Sponsors</h2>
-        <h3>To be confirmed</h3>
         <GoldSponsorLogos />
-        <TieredCompanies partners={gold} />
-      </section> */}
+      </section>
 
       <section className="content-section">
         <h2>Sponsors</h2>
