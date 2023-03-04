@@ -87,7 +87,7 @@ export default function TomMorton() {
             allowFullScreen
           ></iframe>
         </div>
-        <div className="center-link">
+        <div className="align-center">
           <a
             target="_blank"
             rel="noreferrer"

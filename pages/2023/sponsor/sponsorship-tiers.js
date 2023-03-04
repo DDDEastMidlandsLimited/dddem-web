@@ -1,6 +1,6 @@
 import React from 'react';
-import Layout from '../../components/Layout';
-import Header from '../../components/Header';
+import Layout from '../../../components/Layout';
+import Header from '../../../components/Header';
 import Head from 'next/head';
 import Image from 'next/image';
 import Link from 'next/link';
@@ -57,7 +57,7 @@ export default function SponsorshipPack() {
         </h2>
       </section>
       <section className="sponsorship-tiers-section">
-        <div tabIndex="0" className="pageimage">
+        <div tabIndex="0" className="pageimage-small">
           <Image
             src="/static/sponsorship/tiers/platinum.jpg"
             alt={`Image of the attendees of DDD East Midlands Conference 2019 seated in red auditorium seating.`}
@@ -232,10 +232,9 @@ export default function SponsorshipPack() {
           <Image
             src="/static/sponsorship/tiers/gold.jpg"
             alt={`Image of the attendees of DDD East Midlands Conference 2019 seated in red auditorium seating.`}
-            height="75"
-            width="100"
+            height="100"
+            width="200"
             layout="responsive"
-            className="pageimage-small"
           />
         </div>
         <div>
@@ -330,8 +329,8 @@ export default function SponsorshipPack() {
           <Image
             src="/static/sponsorship/tiers/booth.jpg"
             alt={`Image of the attendees of DDD East Midlands Conference 2019 seated in red auditorium seating.`}
-            height="75"
-            width="100"
+            height="100"
+            width="200"
             layout="responsive"
           />
         </div>

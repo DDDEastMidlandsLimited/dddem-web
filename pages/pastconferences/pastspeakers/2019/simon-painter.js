@@ -140,7 +140,7 @@ export default function SimonPainter() {
             allowFullScreen
           ></iframe>
         </div>
-        <div className="center-link">
+        <div className="align-center">
           <a
             target="_blank"
             rel="noreferrer"
