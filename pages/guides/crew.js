@@ -33,12 +33,7 @@ export default function CrewInformation() {
         </p>
         <p>
           <strong>
-            <a href="#covid-precautions">Covid Precautions</a>
-          </strong>
-        </p>
-        <p>
-          <strong>
-            <a href="#code-of-conduct">Code of Conduct</a>
+            <a href="#links">Important Links</a>
           </strong>
         </p>
         <p>
@@ -127,9 +122,30 @@ export default function CrewInformation() {
 
       <Introduction />
 
-      <CovidPrecautions />
-
-      <CodeOfConduct />
+      <a name="links" />
+      <section className="content-section" id="links">
+        <h1 tabIndex="0">Important Links</h1>
+        <ul>
+          <li tabIndex="0">
+            <a
+              href="https://dddeastmidlands.com/code-of-conduct/"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              Code of Conduct
+            </a>
+          </li>
+          <li tabIndex="0">
+            <a
+              href="https://dddeastmidlands.com/information/covid-precautions/"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              Covid Precautions
+            </a>
+          </li>
+        </ul>
+      </section>
 
       <section className="content-section" id="where-and-when">
         <a name="when-and-where" />
