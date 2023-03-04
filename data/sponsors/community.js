@@ -1,11 +1,3 @@
-const bronze = [
-  {
-    id: 1,
-    name: '',
-    image: '',
-    link: '',
-    description: '',
-  },
-];
+const bronze = [];
 
 export default bronze;

@@ -139,6 +139,12 @@ export default function Navigation() {
               </NavDropdown.Item>
             </NavDropdown>
 
+            <Nav.Item>
+              <Nav.Link href="/2023/notable-companies">
+                Notable Companies
+              </Nav.Link>
+            </Nav.Item>
+
             <NavDropdown
               tabIndex="0"
               title="Past Events"
