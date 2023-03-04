@@ -124,8 +124,8 @@ export default function CrewInformation() {
 
       <a name="links" />
       <section className="content-section" id="links">
-      <h1 tabIndex="0">Important Links</h1>
-      <ul>
+        <h1 tabIndex="0">Important Links</h1>
+        <ul>
           <li tabIndex="0">
             <a
               href="https://dddeastmidlands.com/code-of-conduct/"
