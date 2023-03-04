@@ -51,17 +51,6 @@ export default function Index() {
         <GoldSponsorLogos />
       </section>
 
-      <section className="content-section">
-        <h2>Sponsors</h2>
-        <p tabIndex="0" className="align-center">
-          Email Rachel to find out about opportunities for
-          sponsorship:
-        </p>
-        <p tabIndex="0" className="align-center">
-          rachel@dddeastmidlands.com
-        </p>
-      </section>
-
       {/* Important Dates */}
       <section className="content-section">
         <br />
