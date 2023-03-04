@@ -169,23 +169,17 @@ export default function SpeakerInformation() {
         <a name="rooms" />
         <h2 tabIndex="0">Rooms</h2>
 
-        <h4 tabIndex="0">Room 1 (Lecture Theatre 2)</h4>
+        <strong>Room 1 (Lecture Theatre 2)</strong>
         <FullWidthImage url={'/static/rooms/LT2.jpg'} />
-        <p tabIndex="0">
-          <strong>Seats:</strong> up to 470 people
-        </p>
+        <p tabIndex="0">Seats up to 470 people</p>
 
-        <h4 tabIndex="0">Room 2 (Lecture Theatre 4)</h4>
+        <strong>Room 2 (Lecture Theatre 4)</strong>
         <FullWidthImage url={'/static/rooms/LT4.jpg'} />
-        <p tabIndex="0">
-          <strong>Seats:</strong> up to 100 people
-        </p>
+        <p tabIndex="0">Seats up to 100 people</p>
 
-        <h4 tabIndex="0">Room 3 (Lecture Theatre 5)</h4>
+        <strong>Room 3 (Lecture Theatre 5)</strong>
         <FullWidthImage url={'/static/rooms/LT5.jpg'} />
-        <p tabIndex="0">
-          <strong>Seats:</strong> up to 100 people
-        </p>
+        <p tabIndex="0">Seats up to 100 people</p>
 
         <a name="tech" />
         <h2 tabIndex="0">Available Tech</h2>
@@ -245,11 +239,9 @@ export default function SpeakerInformation() {
         <h2 tabIndex="0">Letting us know you have arrived</h2>
         <h4 tabIndex="0">
           Check in at registration and come say hi at the information
-          desk. First we will measure your temperature. You then will
-          be asked to show that you have had at least one dose of a
-          COVID Vaccination, and to do a flow test on arrival. After
-          these checks you'll be offered a arm band to show if you are
-          social distancing or not and your lanyard.
+          desk. We will ask you to do a flow test on arrival. You'll
+          then be offered a arm band to show if you are social
+          distancing or not, and your lanyard.
         </h4>
         <p tabIndex="0">
           At least one of the organisers will be at the registration
@@ -434,179 +426,6 @@ export default function SpeakerInformation() {
             Brunty
           </a>{' '}
           for sharing this with us.
-        </p>
-      </section>
-
-      <Transport />
-
-      <section className="content-section" id="nottingham">
-        <h1 tabIndex="0">Staying in Nottingham</h1>
-
-        <a name="important-contacts" />
-        <h2 tabIndex="0">Important Contacts</h2>
-        <h4 tabIndex="0">Conference</h4>
-        <ul>
-          <li tabIndex="0">
-            <strong>Co-organiser Jessica White:</strong>
-          </li>
-        </ul>
-        <p tabIndex="0">Tel: number will be emailed to you </p>
-        <p tabIndex="0">Email: jessica@dddeastmidlands.com </p>
-        <p tabIndex="0">
-          <strong>Co-organiser Moreton Brockley:</strong>
-        </p>
-        <p tabIndex="0">Email: moreton@dddeastmidlands.com</p>
-
-        <a name="hotels" />
-        <h2 tabIndex="0">Hotels</h2>
-        <p tabIndex="0">
-          We don&apos;t have any partnerships or deals with any local
-          hotels but here is a list of a few in City Center:
-        </p>
-        <ul>
-          <li>
-            <a
-              href="https://www.ihg.com/crowneplaza/hotels/gb/en/nottingham/notws/hoteldetail?cm_mmc=GoogleMaps-_-CP-_-GB-_-NOTWS"
-              target="_blank"
-              rel="noreferrer"
-            >
-              Crowne Plaza
-            </a>
-          </li>
-          <li>
-            <a
-              href="https://www.accorhotels.com/gb/hotel-6160-ibis-nottingham-centre/index.shtml"
-              target="_blank"
-              rel="noreferrer"
-            >
-              Ibis
-            </a>
-          </li>
-          <li>
-            <a
-              href="https://www.roomzzz.com/locations/nottingham/"
-              target="_blank"
-              rel="noreferrer"
-            >
-              Roomzzz
-            </a>
-          </li>
-          <li>
-            <a
-              href="https://www.mercurenottingham.com/"
-              target="_blank"
-              rel="noreferrer"
-            >
-              Mercure
-            </a>
-          </li>
-        </ul>
-        <a name="restaurants" />
-        <h2 tabIndex="0">Restaurants</h2>
-        <h4 tabIndex="0">Coffee</h4>
-        <ul>
-          <li>
-            <a
-              href="https://www.cartwheelcoffee.com/"
-              target="_blank"
-              rel="noreferrer"
-            >
-              Cartwheel
-            </a>
-          </li>
-          <li>
-            <a
-              href="https://www.outpost.coffee/"
-              target="_blank"
-              rel="noreferrer"
-            >
-              Outpost
-            </a>
-          </li>
-          <li>
-            <a
-              href="https://200degs.com/"
-              target="_blank"
-              rel="noreferrer"
-            >
-              200 Degrees
-            </a>
-          </li>
-          <li>
-            <a
-              href="https://www.thespecialtycoffeeshop.com/"
-              target="_blank"
-              rel="noreferrer"
-            >
-              Speciality
-            </a>
-          </li>
-        </ul>
-        <h4 tabIndex="0">Breakfast</h4>
-        <ul>
-          <li>
-            <a
-              href="https://anniesburgershack.com/menu/breakfast-menu"
-              target="_blank"
-              rel="noreferrer"
-            >
-              Annies Burger Shack
-            </a>
-          </li>
-          <li>
-            <a
-              href="https://www.thepuddingpantry.co.uk/breakfast"
-              target="_blank"
-              rel="noreferrer"
-            >
-              Pudding Pantry
-            </a>
-          </li>
-        </ul>
-        <h4 tabIndex="0">Dinner</h4>
-        <ul>
-          <li>
-            <a
-              href="http://www.oscarandrosies.com/menu"
-              target="_blank"
-              rel="noreferrer"
-            >
-              Oscar And Rosies
-            </a>
-          </li>
-          <li>
-            <a
-              href="https://anniesburgershack.com/menu/main-menu"
-              target="_blank"
-              rel="noreferrer"
-            >
-              Annies Burger Shack
-            </a>
-          </li>
-          <li>
-            <a
-              href="https://www.tripadvisor.co.uk/Restaurant_Review-g186356-d11933005-Reviews-Sexy_Mamma_Love_Spaghetti-Nottingham_Nottinghamshire_England.html"
-              target="_blank"
-              rel="noreferrer"
-            >
-              Sexy Mama&apos;s Spaghetti
-            </a>
-          </li>
-          <li>
-            <a
-              href="http://bonzai-japaneserestaurant.co.uk/"
-              target="_blank"
-              rel="noreferrer"
-            >
-              Bonzai
-            </a>
-          </li>
-        </ul>
-        <h4 tabIndex="0">Extra Requirements?</h4>
-        <p tabIndex="0">
-          If you need to know about any vegan, vegetarian or
-          gluten-free restaurants, get in touch and we will point you
-          in the direction of some great ones.
         </p>
       </section>
     </Layout>
