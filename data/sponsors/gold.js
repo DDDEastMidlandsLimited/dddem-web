@@ -4,7 +4,7 @@ const motorpointdesc =
 const gold = [
   {
     id: 1,
-    name: 'Mindera',
+    name: 'Motorpoint',
     image: '/static/sponsors/2023/Motorpoint.png',
     link: 'https://careers.motorpoint.co.uk/',
     description: motorpointdesc,
