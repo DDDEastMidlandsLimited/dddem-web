@@ -46,10 +46,10 @@ export default function Index() {
       </section>
 
       {/* Gold Sponsors */}
-      {/*       <section className="content-section">
+      <section className="content-section">
         <h2 className="center">Gold Sponsors</h2>
         <GoldSponsorLogos />
-      </section> */}
+      </section>
 
       {/* Important Dates */}
       <section className="content-section">
