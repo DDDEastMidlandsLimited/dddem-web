@@ -4,7 +4,7 @@ import ExternalLink from '../ExternalLink';
 
 export default function CompanyInfo({ partner, image }) {
   return (
-    <div className="company-div">
+    <div className="company-div center">
       <ExternalLink
         href={partner.link}
         target="_blank"

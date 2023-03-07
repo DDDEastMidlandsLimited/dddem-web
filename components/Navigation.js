@@ -88,7 +88,7 @@ export default function Navigation() {
               <NavDropdown.Item
                 id="about-sponsorship"
                 tabIndex="0"
-                href="/2023/sponsor/sponsor-the-event"
+                href="/sponsor/sponsor-the-event"
                 title="Link to Sponsorship Page"
               >
                 Sponsor the event
@@ -96,7 +96,7 @@ export default function Navigation() {
               <NavDropdown.Item
                 id="about-sponsorship-tiers"
                 tabIndex="0"
-                href="/2023/sponsor/sponsorship-tiers"
+                href="/sponsor/sponsorship-tiers"
                 title="Link to Sponsorship Tiers Page"
               >
                 Sponsorship Tiers
@@ -104,7 +104,7 @@ export default function Navigation() {
               <NavDropdown.Item
                 id="why-sponsor"
                 tabIndex="0"
-                href="/2023/sponsor/why-sponsor"
+                href="/sponsor/why-sponsor"
                 title="Link to Why Sponsor Page"
               >
                 Why Sponsor?
@@ -112,7 +112,7 @@ export default function Navigation() {
               <NavDropdown.Item
                 id="social-responsibility"
                 tabIndex="0"
-                href="/2023/sponsor/social-responsibility"
+                href="/sponsor/social-responsibility"
                 title="Link to Social Responsibility Page"
               >
                 Social Responsibility
@@ -120,7 +120,7 @@ export default function Navigation() {
               <NavDropdown.Item
                 id="demographics"
                 tabIndex="0"
-                href="/2023/sponsor/demographics"
+                href="/sponsor/demographics"
                 title="Link to Demographics Page"
               >
                 Demographics
@@ -128,7 +128,7 @@ export default function Navigation() {
               <NavDropdown.Item
                 id="about-the-conference-crew"
                 tabIndex="0"
-                href="/2023/sponsor/testimonials"
+                href="/sponsor/testimonials"
                 title="Link to Testimonials Page"
               >
                 Testimonials
@@ -165,6 +165,12 @@ export default function Navigation() {
                 For Crew Members
               </NavDropdown.Item>
             </NavDropdown>
+
+            <Nav.Item>
+              <Nav.Link href="/2023/notable-companies">
+                Notable Companies
+              </Nav.Link>
+            </Nav.Item>
 
             <NavDropdown
               tabIndex="0"
