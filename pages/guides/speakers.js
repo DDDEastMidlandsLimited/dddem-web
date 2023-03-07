@@ -111,32 +111,6 @@ export default function SpeakerInformation() {
         <p tabIndex="0">
           <strong>Transport</strong>
         </p>
-        <ul>
-          <li>
-            <a href="#train">Taking the train</a>
-          </li>
-          <li>
-            <a href="#driving">Driving</a>
-          </li>
-          <li>
-            <a href="#air">By Air</a>
-          </li>
-        </ul>
-
-        <p tabIndex="0">
-          <strong>Staying in Nottingham</strong>
-        </p>
-        <ul>
-          <li>
-            <a href="#important-contacts">Important Contacts</a>
-          </li>
-          <li>
-            <a href="#hotels">Hotels</a>
-          </li>
-          <li>
-            <a href="#restaurants">Restaurants</a>
-          </li>
-        </ul>
       </section>
 
       <a name="links" />
@@ -387,47 +361,7 @@ export default function SpeakerInformation() {
         </ul>
       </section>
 
-      {/* <PubConf /> */}
-
-      <section className="content-section" id="checklist">
-        <h1 tabIndex="0">Suggested Checklist</h1>
-        <ul>
-          <li tabIndex="0">Twitter handle on slides</li>
-          <li tabIndex="0">Clicker</li>
-          <li tabIndex="0">Backup of slides</li>
-          <li tabIndex="0">Laptop charger</li>
-          <li tabIndex="0">Timer</li>
-          <li tabIndex="0">
-            The awesome{' '}
-            <a
-              href="https://open.spotify.com/playlist/0kTPxCiWN0kyYa8FSWpdi2?"
-              target="_blank"
-              rel="noreferrer"
-            >
-              Get Pumped Playlist
-            </a>
-          </li>
-        </ul>
-        <h4 tabIndex="0">Our favourite available list</h4>
-        <p tabIndex="0">
-          <a
-            href="https://csswizardry.com/2016/06/speakers-checklist-before-and-after-your-talk/"
-            target="_blank"
-            rel="noreferrer"
-          >
-            This list by csswizardry
-          </a>
-          is often used by us at other events. Thank you{' '}
-          <a
-            href="https://twitter.com/Brunty"
-            target="_blank"
-            rel="noreferrer"
-          >
-            Brunty
-          </a>{' '}
-          for sharing this with us.
-        </p>
-      </section>
+      <Transport />
     </Layout>
   );
 }

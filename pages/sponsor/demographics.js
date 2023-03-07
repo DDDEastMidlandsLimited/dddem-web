@@ -1,6 +1,6 @@
 import React from 'react';
-import Layout from '../../../components/Layout';
-import Header from '../../../components/Header';
+import Layout from '../../components/Layout';
+import Header from '../../components/Header';
 import Head from 'next/head';
 import Image from 'next/image';
 
@@ -12,7 +12,7 @@ export default function Demographics() {
       </Head>
       <Header
         title={'Demographics'}
-        banner="/static/banners/sponsor.jpg"
+        banner="/static/banners/about.jpg"
       />
 
       <section
