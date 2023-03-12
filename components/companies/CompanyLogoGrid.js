@@ -9,7 +9,7 @@ export default function CompanyLogoGrid() {
   return (
     <div>
       <CompanyDetails />
-      <div className="company-container">
+      <div className="company-container center">
         {companiesList &&
           companiesList.map((company, index) => (
             <div className="company-item-logo" key={index}>
