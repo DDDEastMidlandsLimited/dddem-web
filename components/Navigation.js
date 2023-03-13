@@ -63,6 +63,14 @@ export default function Navigation() {
                 Accessibility
               </NavDropdown.Item>
               <NavDropdown.Item
+                id="demographics"
+                tabIndex="0"
+                href="/information/demographics"
+                title="Link to Demographics Page"
+              >
+                Demographics
+              </NavDropdown.Item>
+              <NavDropdown.Item
                 id="ticket-information"
                 tabIndex="0"
                 href="/information/ticket-information"
@@ -116,14 +124,6 @@ export default function Navigation() {
                 title="Link to Social Responsibility Page"
               >
                 Social Responsibility
-              </NavDropdown.Item>
-              <NavDropdown.Item
-                id="demographics"
-                tabIndex="0"
-                href="/sponsor/demographics"
-                title="Link to Demographics Page"
-              >
-                Demographics
               </NavDropdown.Item>
               <NavDropdown.Item
                 id="about-the-conference-crew"
