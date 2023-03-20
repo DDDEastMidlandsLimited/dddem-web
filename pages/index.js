@@ -81,8 +81,9 @@ export default function Index() {
         <ul>
           <li tabIndex="0">All talk submissions are anonymous.</li>
           <li tabIndex="0">
-            There is a democratic selection process for talks
-            involving attendees voting for what they want to see.
+            There is a anonymised democratic selection process for
+            talks which involves attendees voting for what they want
+            to see.
           </li>
           <li tabIndex="0">
             The event is arranged with the community in mind.
