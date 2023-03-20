@@ -20,6 +20,15 @@ export default function Footer() {
         </div>
         <div className="col-3">
           <Link
+            href="https://www.youtube.com/channel/UC5TNH43dpYqmw3ggv9OGIKw"
+            prefetch={false}
+            target="_blank"
+            aria-label="youtube"
+            rel="noopener noreferrer"
+          >
+            <FontAwesomeIcon icon={brands('youtube')} size="sm" />
+          </Link>
+          <Link
             href="https://twitter.com/dddeastmidlands"
             prefetch={false}
             target="_blank"
