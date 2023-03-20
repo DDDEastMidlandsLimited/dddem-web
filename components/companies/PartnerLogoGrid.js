@@ -1,29 +1,23 @@
 import React, { useContext } from 'react';
-import CompanyInfo from './CompanyInfo';
-import CompanyDetailsButton from './CompanyDetailsButton';
+import PartnerInfo from './PartnerInfo';
 import CompaniesContext from './CompaniesContext';
 import CompanyDetails from './CompanyDetails';
 
-export default function CompanyGrid() {
+export default function PartnerLogoGrid() {
   const { companiesList } = useContext(CompaniesContext);
 
   return (
     <div>
       <CompanyDetails />
-      <div className="center">
+      <div className="company-container center">
         {companiesList &&
           companiesList.map((company, index) => (
-            <div key={index}>
-              <CompanyInfo
+            <div className="company-item-logo" key={index}>
+              <PartnerInfo
                 key={company.id}
                 partner={company}
                 image={company.image}
               />
-              {company.description && (
-                <CompanyDetailsButton
-                  companyDescription={company.description}
-                />
-              )}
             </div>
           ))}
       </div>
