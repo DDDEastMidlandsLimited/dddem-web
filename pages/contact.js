@@ -77,7 +77,7 @@ export default function Contact() {
         <h2 tabIndex="0">Accounts Run By The Co-Organisers</h2>
         <ul>
           <li tabIndex="0">
-            <strong>Hashtags:</strong> #DDDEM | #DDDEM2021
+            <strong>Hashtags:</strong> #DDDEM
           </li>
           <li tabIndex="0">
             <strong>Twitter:</strong>{' '}
@@ -87,6 +87,16 @@ export default function Contact() {
               rel="noreferrer"
             >
               @dddeastmidlands
+            </a>
+          </li>
+          <li tabIndex="0">
+            Mastodon:{' '}
+            <a
+              href="https://hachyderm.io/@dddem@mastodon.me.uk"
+              target="_blank"
+              rel="noreferrer"
+            >
+              @dddem@mastodon.me.uk
             </a>
           </li>
           <li tabIndex="0">
