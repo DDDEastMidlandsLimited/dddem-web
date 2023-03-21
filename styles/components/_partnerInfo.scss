@@ -1,0 +1,14 @@
+.partner-logo {
+  width: 30% !important;
+}
+
+.center {
+  text-align: center;
+}
+
+@media (max-width: 768px) {
+  .partner-logo {
+    align-items: center;
+    width: 50% !important;
+  }
+}

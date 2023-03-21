@@ -1,12 +1,12 @@
 import React from 'react';
 import PartnerCompaniesProvider from './PartnerCompaniesProvider';
-import CompanyLogoGrid from './CompanyLogoGrid';
+import PartnerLogoGrid from './PartnerLogoGrid';
 
 export default function PartnerSponsorLogos() {
   return (
     <PartnerCompaniesProvider>
       <div>
-        <CompanyLogoGrid />
+        <PartnerLogoGrid />
       </div>
     </PartnerCompaniesProvider>
   );
