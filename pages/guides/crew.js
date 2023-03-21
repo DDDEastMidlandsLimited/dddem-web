@@ -158,11 +158,11 @@ export default function CrewInformation() {
           down.
         </p>
         <h2>Setup and orienteering</h2>
-        <p>1st October 2021 6:00pm - 8:00pm.</p>
+        <p>6th October 2023 6:00pm - 8:00pm.</p>
         <h2>Morning shift</h2>
-        <p>2nd October 2021 8:30am - 1:00pm.</p>
+        <p>7th October 2023 8:30am - 1:00pm.</p>
         <h2>Afternoon shift</h2>
-        <p>2nd October 2021 1:00pm - 7:00pm.</p>
+        <p>7th October 2023 1:00pm - 7:00pm.</p>
         <h2>Where</h2>
         <p>
           <a href="http://www.nottinghamconferencecentre.co.uk/">
