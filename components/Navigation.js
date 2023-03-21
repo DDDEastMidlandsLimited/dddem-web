@@ -17,6 +17,20 @@ export default function Navigation() {
               <Nav.Link href="/">Home</Nav.Link>
             </Nav.Item>
 
+            <Nav.Item>
+              <Nav.Link
+                tabIndex="0"
+                rel="noopener noreferrer"
+                target="_blank"
+                href="https://sessionize.com/ddd-east-midlands-conference-2023/"
+                onSelect={() => {
+                  logEvent('navigation', 'sessionize');
+                }}
+              >
+                Apply To Speak
+              </Nav.Link>
+            </Nav.Item>
+
             <NavDropdown
               tabIndex="0"
               title="Information"
@@ -192,19 +206,6 @@ export default function Navigation() {
                 Past Photos
               </NavDropdown.Item>
             </NavDropdown>
-            <Nav.Item>
-              <Nav.Link
-                tabIndex="0"
-                rel="noopener noreferrer"
-                target="_blank"
-                href="https://www.youtube.com/channel/UC5TNH43dpYqmw3ggv9OGIKw"
-                onSelect={() => {
-                  logEvent('navigation', 'youtube');
-                }}
-              >
-                YouTube
-              </Nav.Link>
-            </Nav.Item>
 
             <Nav.Item>
               <Nav.Link
