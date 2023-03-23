@@ -1,0 +1,57 @@
+.speak-button-container {
+  text-align-last: center;
+
+  .speak-button {
+    text-align: $quaternary;
+    font-weight: bold;
+    font-size: $mobileSubtitle1;
+    width: max-content;
+    margin: auto;
+    flex-grow: 1;
+    border-radius: 12px;
+    padding: 10px 10px 10px 10px;
+    color: $primary;
+    border: 2px solid $primary;
+    background-color: $light;
+    box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2),
+      0 6px 20px 0 rgba(0, 0, 0, 0.19);
+
+    &:hover {
+      background-color: $primary;
+    }
+
+    a {
+      text-decoration: none;
+
+      &:hover {
+        color: white;
+      }
+    }
+  }
+}
+
+.speak-button {
+  text-align: center;
+
+  button {
+    border-radius: 12px;
+    border: none;
+    color: $light;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 18px;
+    background-color: $primary;
+    margin-bottom: 15px;
+
+    a {
+      color: $light;
+    }
+
+    &:hover {
+      box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2),
+        0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    }
+  }
+}

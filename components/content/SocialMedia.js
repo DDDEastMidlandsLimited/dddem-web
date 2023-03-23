@@ -36,7 +36,7 @@ export default function SocialMedia() {
         that doesn’t align with our code of conduct.
       </p>
       <h3 tabIndex="0">DDD East Midlands on Social Media</h3>
-      <p>Hashtags: #DDDEM | #DDDEM2021</p>
+      <p>Hashtags: #DDDEM</p>
       <ul>
         <li tabIndex="0">
           Twitter:{' '}
@@ -46,6 +46,16 @@ export default function SocialMedia() {
             rel="noreferrer"
           >
             @dddeastmidlands
+          </a>
+        </li>
+        <li tabIndex="0">
+          Mastodon:{' '}
+          <a
+            href="https://hachyderm.io/@dddem@mastodon.me.uk"
+            target="_blank"
+            rel="noreferrer"
+          >
+            @dddem@mastodon.me.uk
           </a>
         </li>
         <li tabIndex="0">
