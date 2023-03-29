@@ -3,16 +3,17 @@ const dates = [
     id: 1,
     date: '20th March 2023',
     name: 'Call For Speakers Opens',
+    past: true
   },
   {
     id: 2,
-    date: '3rd April 2023',
-    name: 'First Wave Of Tickets Released',
+    date: '10th April 2023',
+    name: 'Call For Speakers Closes',
   },
   {
     id: 3,
-    date: '10th April 2023',
-    name: 'Call For Speakers Closes',
+    date: '14th April 2023',
+    name: 'First Wave Of Tickets Released',
   },
   {
     id: 4,
@@ -21,21 +22,16 @@ const dates = [
   },
   {
     id: 5,
-    date: 'April 2023',
-    name: 'Second Wave Of Tickets Released',
-  },
-  {
-    id: 6,
-    date: 'April 2023',
+    date: '1st May 2023',
     name: 'Voting Closes',
   },
   {
-    id: 7,
-    date: 'May 2023',
+    id: 6,
+    date: 'Late May 2023',
     name: 'Agenda Published',
   },
   {
-    id: 8,
+    id: 7,
     date: '7th October 2023',
     name: 'The 2023 Conference',
   },
