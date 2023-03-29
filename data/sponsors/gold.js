@@ -9,6 +9,12 @@ const gold = [
     link: 'https://careers.motorpoint.co.uk/',
     description: motorpointdesc,
   },
+  {
+    id: 2,
+    name: 'BJSS',
+    image: '/static/sponsors/BJSS.png',
+    link: 'https://www.bjss.com/careers',
+  },
 ];
 
 export default gold;
