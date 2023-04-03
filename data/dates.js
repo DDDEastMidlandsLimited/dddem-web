@@ -3,7 +3,7 @@ const dates = [
     id: 1,
     date: '20th March 2023',
     name: 'Call For Speakers Opens',
-    past: true
+    past: true,
   },
   {
     id: 2,
