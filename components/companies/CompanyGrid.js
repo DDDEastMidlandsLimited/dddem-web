@@ -13,7 +13,7 @@ export default function CompanyGrid() {
       <div className="company-container center">
         {companiesList &&
           companiesList.map((company, index) => (
-            <div key={index}>
+            <div className="sponsor-item-logo" key={index}>
               <CompanyInfo
                 key={company.id}
                 partner={company}
