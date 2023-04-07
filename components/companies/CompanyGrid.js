@@ -10,10 +10,10 @@ export default function CompanyGrid() {
   return (
     <div>
       <CompanyDetails />
-      <div className="center">
+      <div className="company-container center">
         {companiesList &&
           companiesList.map((company, index) => (
-            <div key={index}>
+            <div className="sponsor-item-logo" key={index}>
               <CompanyInfo
                 key={company.id}
                 partner={company}
