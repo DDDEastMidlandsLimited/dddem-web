@@ -16,21 +16,7 @@ export default function Navigation() {
             <Nav.Item>
               <Nav.Link href="/">Home</Nav.Link>
             </Nav.Item>
-
-            <Nav.Item>
-              <Nav.Link
-                tabIndex="0"
-                rel="noopener noreferrer"
-                target="_blank"
-                href="https://sessionize.com/ddd-east-midlands-conference-2023/"
-                onSelect={() => {
-                  logEvent('navigation', 'sessionize');
-                }}
-              >
-                Apply To Speak
-              </Nav.Link>
-            </Nav.Item>
-
+            
             <NavDropdown
               tabIndex="0"
               title="Information"
