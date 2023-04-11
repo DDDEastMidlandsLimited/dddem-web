@@ -35,22 +35,6 @@ export default function Index() {
       </section>
 
       <section className="content-section">
-        <div className="speak-button">
-          <div className="speak-button-container">
-            <div className="speak-button">
-              <a
-                href="https://sessionize.com/ddd-east-midlands-conference-2023/"
-                target="_blank"
-                rel="noreferrer"
-              >
-                Apply To Speak
-              </a>
-            </div>
-          </div>
-        </div>
-      </section>
-
-      <section className="content-section">
         <Image
           className="pageimage"
           src="/static/pageimage/happy.jpg"

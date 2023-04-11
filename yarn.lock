@@ -1170,9 +1170,15 @@
   version "13.1.6"
   resolved "https://registry.npmjs.org/@next/env/-/env-13.1.6.tgz"
 
-"@next/eslint-plugin-next@13.2.4", "@next/eslint-plugin-next@^13.2.4":
+"@next/eslint-plugin-next@13.2.4":
   version "13.2.4"
   resolved "https://registry.yarnpkg.com/@next/eslint-plugin-next/-/eslint-plugin-next-13.2.4.tgz#3e124cd10ce24dab5d3448ce04104b4f1f4c6ca7"
+  dependencies:
+    glob "7.1.7"
+
+"@next/eslint-plugin-next@^13.3.0":
+  version "13.3.0"
+  resolved "https://registry.yarnpkg.com/@next/eslint-plugin-next/-/eslint-plugin-next-13.3.0.tgz#3a4742b0817575cc0dd4d152cb10363584c215ac"
   dependencies:
     glob "7.1.7"
 
@@ -6667,9 +6673,9 @@ webpack-sources@^3.2.3:
   version "3.2.3"
   resolved "https://registry.npmjs.org/webpack-sources/-/webpack-sources-3.2.3.tgz"
 
-webpack@^5.77.0:
-  version "5.77.0"
-  resolved "https://registry.yarnpkg.com/webpack/-/webpack-5.77.0.tgz#dea3ad16d7ea6b84aa55fa42f4eac9f30e7eb9b4"
+webpack@^5.78.0:
+  version "5.78.0"
+  resolved "https://registry.yarnpkg.com/webpack/-/webpack-5.78.0.tgz#836452a12416af2a7beae906b31644cb2562f9e6"
   dependencies:
     "@types/eslint-scope" "^3.7.3"
     "@types/estree" "^0.0.51"
