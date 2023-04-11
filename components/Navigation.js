@@ -16,7 +16,7 @@ export default function Navigation() {
             <Nav.Item>
               <Nav.Link href="/">Home</Nav.Link>
             </Nav.Item>
-            
+
             <NavDropdown
               tabIndex="0"
               title="Information"
