@@ -19,6 +19,12 @@ const gold = [
     link: 'https://www.cronofy.com/careers',
     description: cronofydesc,
   },
+  {
+    id: 3,
+    name: 'BJSS',
+    image: '/static/sponsors/BJSS.png',
+    link: 'https://www.bjss.com/careers',
+  }
 ];
 
 export default gold;
