@@ -3,7 +3,7 @@ const dates = [
     id: 1,
     date: '20th March 2023',
     name: 'Call For Speakers Opens',
-    past: true
+    past: true,
   },
   {
     id: 2,
@@ -12,7 +12,7 @@ const dates = [
   },
   {
     id: 3,
-    date: '14th April 2023',
+    date: '17th April 2023',
     name: 'First Wave Of Tickets Released',
   },
   {
@@ -22,7 +22,7 @@ const dates = [
   },
   {
     id: 5,
-    date: '1st May 2023',
+    date: '19th May 2023',
     name: 'Voting Closes',
   },
   {
