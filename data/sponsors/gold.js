@@ -24,7 +24,7 @@ const gold = [
     name: 'BJSS',
     image: '/static/sponsors/BJSS.png',
     link: 'https://www.bjss.com/careers',
-  }
+  },
 ];
 
 export default gold;
