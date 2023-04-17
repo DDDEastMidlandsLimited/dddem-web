@@ -24,7 +24,7 @@ export default function Navigation() {
                 target="_blank"
                 href="https://www.eventbrite.co.uk/e/ddd-east-midlands-2023-tickets-607213841947"
                 onSelect={() => {
-                  logEvent('navigation', 'blog');
+                  logEvent('navigation', 'eventbrite');
                 }}
               >
                 Tickets

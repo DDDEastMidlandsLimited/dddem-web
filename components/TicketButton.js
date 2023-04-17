@@ -9,6 +9,9 @@ export default function TicketButton() {
           target="_blank"
           download
           rel="noreferrer"
+          onSelect={() => {
+            logEvent('navigation', 'eventbrite');
+          }}
         >
           Get Your Ticket
         </a>
