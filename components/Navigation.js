@@ -17,6 +17,20 @@ export default function Navigation() {
               <Nav.Link href="/">Home</Nav.Link>
             </Nav.Item>
 
+            <Nav.Item>
+              <Nav.Link
+                tabIndex="0"
+                rel="noopener noreferrer"
+                target="_blank"
+                href="https://www.eventbrite.co.uk/e/ddd-east-midlands-2023-tickets-607213841947"
+                onSelect={() => {
+                  logEvent('navigation', 'blog');
+                }}
+              >
+                Tickets
+              </Nav.Link>
+            </Nav.Item>
+
             <NavDropdown
               tabIndex="0"
               title="Information"
