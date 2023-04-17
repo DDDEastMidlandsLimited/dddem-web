@@ -2,6 +2,7 @@ import React from 'react';
 import Layout from '../../components/Layout';
 import Header from '../../components/Header';
 import Head from 'next/head';
+import TicketButton from '../../components/TicketButton';
 
 export default function TicketInformation() {
   return (
@@ -51,17 +52,8 @@ export default function TicketInformation() {
       <section className="content-section">
         <a name="ticketrelease" />
         <h1 tabIndex="0">When will tickets be released?</h1>
-        <p tabIndex="0">
-          The 2021 event is now done. The next event will be in 2023.
-        </p>
-        <ul tabIndex="0">
-          <li>
-            <strong>First wave:</strong> To be confirmed
-          </li>
-          <li>
-            <strong>Second wave:</strong> To be confirmed
-          </li>
-        </ul>
+        <p tabIndex="0">Tickets are available now.</p>
+        <TicketButton />
       </section>
 
       <section className="content-section">
@@ -79,7 +71,10 @@ export default function TicketInformation() {
         </p>
         <ul>
           <li tabIndex="0">Return it through Eventbrite.</li>
-          <li>Contact Jessica and she can sort it out for you.</li>
+          <li>
+            Contact Jessica or James and they can sort it out for you.
+            Email - name @ dddeastmidlands . com
+          </li>
         </ul>
       </section>
     </Layout>
