@@ -8,6 +8,7 @@ import ImportantDatesList from '../components/home/ImportantDatesList';
 import dates from '../data/dates';
 import gold from '../data/sponsors/gold';
 import Image from 'next/image';
+import TicketButton from '../components/TicketButton';
 
 export default function Index() {
   return (
@@ -32,6 +33,10 @@ export default function Index() {
           members to promote collaboration and the amazing tech
           community that has already grown in the East Midlands.
         </p>
+      </section>
+
+      <section className="content-section">
+        <TicketButton />
       </section>
 
       <section className="content-section">
