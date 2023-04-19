@@ -4,6 +4,9 @@ const motorpointdesc =
 const cronofydesc =
   '<h1>Cronofy</h1><p>Cronofy is the worlds most powerful scheduling tool used by tens of thousands of businesses. We are the technology powering scheduling for market leading firms like Indeed, GoDaddy and Personio.With a Nottingham HQ, Cronofy has offices in London and Amsterdam, while supporting customers all over the world. Our workforce is currently 30 strong (and rapidly growing!), covering the UK, Netherlands, Spain and France.</p><p>We are a product-focused company led by a successful serial entrepreneur. We are at that exciting stage where every person that joins the team has a significant hand in our success, while having the opportunity to rapidly advance their careers along the way.</p>';
 
+const bjssdesc =
+  '<h1>BJSS</h1><p>BJSS is the leading technology and engineering consultancy for business. Trusted by our clients, we collaborate with some of the world’s leading organisations to deliver complex, innovative technology, engineering, and industry solutions that millions of people use every day.</p>';
+
 const gold = [
   {
     id: 1,
@@ -24,6 +27,7 @@ const gold = [
     name: 'BJSS',
     image: '/static/sponsors/BJSS.png',
     link: 'https://www.bjss.com/careers',
+    description: bjssdesc,
   },
 ];
 
