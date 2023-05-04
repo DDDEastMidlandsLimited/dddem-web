@@ -18,12 +18,15 @@ export default function NotableCompaniesComponent() {
 
       <section className="content-section">
         <div className="sponsors">
+          <h2 className="center">Sponsors</h2>
           <NotableCompanies />
         </div>
+        <hr />
       </section>
 
       <section className="content-section">
         <div className="partners">
+          <h2 className="center">Partners</h2>
           <PartnerSponsorLogos />
         </div>
       </section>
