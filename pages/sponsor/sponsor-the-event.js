@@ -148,8 +148,8 @@ export default function Sponsor() {
             <div className="columnright">
               <ul tabIndex="0">
                 <li tabIndex="0">
-                  <strong>Email:</strong>{' '}
-                    Rachel (At) DDD East Midlands . com
+                  <strong>Email:</strong> Rachel (At) DDD East
+                  Midlands . com
                 </li>
                 <li tabIndex="0">
                   <strong>Twitter:</strong>{' '}
