@@ -17,6 +17,12 @@ const partners = [
     image: '/static/partners/codebar.png',
     link: 'https://codebar.io/birmingham',
   },
+  {
+    id: 4,
+    name: 'Department of Computer Science, Nottingham Trent University',
+    image: '/static/partners/ntu.png',
+    link: 'https://www.ntu.ac.uk/study-and-courses/academic-schools/science-and-technology/Computer-Science',
+  },
 ];
 
 export default partners;
