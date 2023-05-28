@@ -131,7 +131,6 @@ export default function Sponsor() {
             benefits and price tags, so there should be something that
             is right for you.
           </p>
-          <SponsorButton />
         </section>
 
         <section className="content-section" id="get-in-touch">
@@ -149,14 +148,8 @@ export default function Sponsor() {
             <div className="columnright">
               <ul tabIndex="0">
                 <li tabIndex="0">
-                  <strong>Email:</strong>{' '}
-                  <a
-                    href="mailto:rachel@dddeastmidlands.com"
-                    target="_blank"
-                    rel="noreferrer"
-                  >
-                    Rachel At DDD East Midlands
-                  </a>
+                  <strong>Email:</strong> Rachel (At) DDD East
+                  Midlands . com
                 </li>
                 <li tabIndex="0">
                   <strong>Twitter:</strong>{' '}
