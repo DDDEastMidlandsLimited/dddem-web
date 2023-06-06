@@ -33,6 +33,7 @@ const dates = [
     id: 6,
     date: 'Late May 2023',
     name: 'Agenda Published',
+    past: true,
   },
   {
     id: 7,
