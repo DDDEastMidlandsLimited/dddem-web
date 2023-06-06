@@ -31,6 +31,10 @@ export default function Navigation() {
               </Nav.Link>
             </Nav.Item>
 
+            <Nav.Item>
+              <Nav.Link href="/agenda">Agenda</Nav.Link>
+            </Nav.Item>
+
             <NavDropdown
               tabIndex="0"
               title="Information"

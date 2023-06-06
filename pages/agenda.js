@@ -19,9 +19,9 @@ export default function Agenda() {
       >
         <div className="img-center">
           <p tabIndex="0">
-            Use the below QR code or head to{' '}
+            Head to{' '}
             <a
-              href="https://ddd-east-midlands-conference-2021.sessionize.com"
+              href="https://ddd-east-midlands-conference-2023.sessionize.com"
               target="_blank"
               rel="noreferrer"
             >
@@ -32,20 +32,13 @@ export default function Agenda() {
             then go to the three dots on your browser and use the "add
             to homescreen" option.
           </p>
-          <Image
-            src="/static/appqrcode.png"
-            alt="QR code"
-            className="qrcode"
-            width={200}
-            height={200}
-          />
         </div>
       </section>
 
       <section className="content-section" tabIndex="0" name="Agenda">
         <div
           className="sessionize-loader"
-          data-sessionize-load-url="https://sessionize.com/api/v2/tz5o91c3/view/GridSmart?under=True"
+          data-sessionize-load-url="https://sessionize.com/api/v2/37og4tf6/view/GridSmart?under=True"
         >
           <div className="sz-spinner"></div>
         </div>
