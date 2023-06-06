@@ -41,11 +41,13 @@ export default function HeadComponent({ children }) {
         name="description"
         content="A technology conference for the community, by the community. Celebrates the East Midlands tech community, businesses and talent have to offer through collaboration & innovation."
       />
+      <script src="/static/client/sessionize.js"></script>
       <link
         rel="apple-touch-icon"
         sizes="57x57"
         href="/static/favicon/apple-icon-57x57.png"
       />
+      <link href="/static/client/sessionize.css" rel="stylesheet" />
       <link
         rel="apple-touch-icon"
         sizes="60x60"
