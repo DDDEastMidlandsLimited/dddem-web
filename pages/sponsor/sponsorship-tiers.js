@@ -26,7 +26,7 @@ export default function SponsorshipPack() {
             <a href="#gold-sponsor">Gold</a>
           </li>
           <li>
-            <a href="#booth-sponsor">Booth</a>
+            <a href="#sillver-sponsor">Silver</a>
           </li>
           <li>
             <a href="#other-sponsorship">
@@ -336,7 +336,7 @@ export default function SponsorshipPack() {
         </div>
         <div>
           <p tabIndex="0">
-            <b>Benefits of Booth Sponsorship</b>
+            <b>Benefits of Silver Sponsorship</b>
           </p>
           <ul>
             <li tabIndex="0">
