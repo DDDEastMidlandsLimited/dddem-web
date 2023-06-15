@@ -321,7 +321,7 @@ export default function SponsorshipPack() {
 
       <section className="sponsorship-tiers-section">
         <h2 tabIndex="0" id="booth-sponsor">
-          Booth Sponsor
+          Silver Sponsor
         </h2>
       </section>
       <section className="sponsorship-tiers-section">
