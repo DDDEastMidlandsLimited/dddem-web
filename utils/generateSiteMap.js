@@ -1,4 +1,6 @@
 const fs = require('fs');
+const createDirIfNotExists = out =>
+  !fs.existsSync(out) ? fs.mkdirSync(out) : undefined;
 
 async function generateSiteMap() {
   const { globby } = await import('globby');
@@ -28,6 +30,7 @@ async function generateSiteMap() {
     </urlset>
 `;
 
+  createDirIfNotExists('out');
   fs.writeFileSync('out/sitemap.xml', sitemap);
 }
 
