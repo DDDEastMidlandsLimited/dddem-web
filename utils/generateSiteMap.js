@@ -1,5 +1,5 @@
 const fs = require('fs');
-const createDirIfNotExists = out =>
+const createDirIfNotExists = (out) =>
   !fs.existsSync(out) ? fs.mkdirSync(out) : undefined;
 
 async function generateSiteMap() {
