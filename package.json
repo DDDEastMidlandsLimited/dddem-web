@@ -33,7 +33,7 @@
     "perfume.js": "^8.4.0",
     "postcss": "^8.4.24",
     "react": "^18.2.0",
-    "react-bootstrap": "^2.7.4",
+    "react-bootstrap": "^2.8.0",
     "react-dom": "^18.2.0",
     "react-ga": "^3.3.1"
   },
@@ -53,7 +53,7 @@
     "eslint-plugin-import": "^2.27.5",
     "eslint-plugin-prettier": "^4.2.1",
     "eslint-plugin-react": "^7.32.2",
-    "glob": "^10.3.0",
+    "glob": "^10.3.1",
     "globby": "^13.2.0",
     "husky": "^8.0.3",
     "jest": "^29.5.0",
