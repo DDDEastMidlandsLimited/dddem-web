@@ -72,7 +72,7 @@ export default function Sponsor() {
           <p tabIndex="0">
             For more information on the sponsorship tiers available,
             head to the{' '}
-            <Link href="/sponsor/sponsorship-tiers" rel="noreferrer">
+            <Link href="../sponsorship-tiers" rel="noreferrer">
               {' '}
               sponsorship tier page
             </Link>
