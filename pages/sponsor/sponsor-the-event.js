@@ -101,10 +101,7 @@ export default function Sponsor() {
               </a>
             </li>
             <li tabIndex="0">
-              <a
-                href="../social-responsibility"
-                rel="noreferrer"
-              >
+              <a href="../social-responsibility" rel="noreferrer">
                 Social Responsibility
               </a>
             </li>
