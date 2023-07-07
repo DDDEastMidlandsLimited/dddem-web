@@ -72,7 +72,7 @@ export default function Sponsor() {
           <p tabIndex="0">
             For more information on the sponsorship tiers available,
             head to the{' '}
-            <Link href="/2023/sponsorship-tiers" rel="noreferrer">
+            <Link href="/sponsor/sponsorship-tiers" rel="noreferrer">
               {' '}
               sponsorship tier page
             </Link>
@@ -83,7 +83,7 @@ export default function Sponsor() {
           </p>
           <ul>
             <li tabIndex="0">
-              <a href="../sponsor/why-sponsor" rel="noreferrer">
+              <a href="../why-sponsor" rel="noreferrer">
                 Why Sponsor?
               </a>
             </li>
@@ -96,13 +96,13 @@ export default function Sponsor() {
               </a>
             </li>
             <li tabIndex="0">
-              <a href="../sponsor/testimonials" rel="noreferrer">
+              <a href="../testimonials" rel="noreferrer">
                 Testimonials
               </a>
             </li>
             <li tabIndex="0">
               <a
-                href="../sponsor/social-responsibility"
+                href="../social-responsibility"
                 rel="noreferrer"
               >
                 Social Responsibility
