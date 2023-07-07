@@ -20,7 +20,7 @@ export default function SponsorshipPack() {
         <h1 tabIndex="0">Contents</h1>
         <ul>
           <li>
-            <a href="#platinum-sponsor"> Platinum</a>
+            <a href="#platinum-sponsor">Platinum</a>
           </li>
           <li>
             <a href="#gold-sponsor">Gold</a>
@@ -42,7 +42,7 @@ export default function SponsorshipPack() {
           If any of the below peaks your interest, head to the{' '}
           <Link
             tabIndex="0"
-            href="/2023/sponsor"
+            href="../sponsor-the-event"
             rel="noopener noreferrer"
           >
             Sponsor the Event
