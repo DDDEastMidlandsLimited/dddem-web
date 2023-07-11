@@ -36,9 +36,9 @@ export default function Speaker2021Component() {
           talkbrief="Design for Developers"
         />
         <SpeakerGridItemComponent
-          speakername="Connell"
-          pic="/static/speakers/2021/Connell_W.png"
-          link="../connell-w"
+          speakername="Connell Sharp"
+          pic="/static/speakers/2021/Connell.png"
+          link="../connell-sharp"
           talkbrief="Onion Architecture with DDD and CQRS"
         />
         <SpeakerGridItemComponent
