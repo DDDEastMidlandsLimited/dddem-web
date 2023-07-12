@@ -14,21 +14,21 @@ import {
 
 library.add(faInstagram, faTwitter, faGithub, faLinkedin);
 
-export default function ConnellW() {
+export default function ConnellSharp() {
   return (
     <Layout>
       <Head>
-        <title>Connell W</title>
+        <title>Connell Sharp</title>
       </Head>
       <Header
-        title={'Connell W'}
+        title={'Connell Sharp'}
         banner="/static/banners/speakers.jpg"
       />
       <section className="past-speakers-section">
         <PastSpeakersButton />
         <div className="speakerpic-container">
           <Image
-            src="/static/speakers/2021/Connell_W.jpg"
+            src="/static/speakers/2021/Connell.jpg"
             alt="Picture of Connell"
             className="speakerpic"
             height={250}
@@ -39,7 +39,7 @@ export default function ConnellW() {
         <div>
           <ul>
             <li>
-              <b>Pronouns: </b> Not Provided
+              <b>Pronouns: </b> He/Him
             </li>
             <li>
               <b>Talk Length: </b> 60 mins
@@ -65,7 +65,7 @@ export default function ConnellW() {
       <section className="past-speakers-section">
         <h2 tabIndex="0">About Connell</h2>
         <p tabIndex="0">
-          <b>Lead Platform Engineer at Oakbrook Finance</b>
+          <b>Principal Platform Engineer at Oakbrook Finance</b>
         </p>
         <p tabIndex="0">
           Loves building software and making music. Coding since 2005.
@@ -97,6 +97,32 @@ export default function ConnellW() {
             Link to Youtube Recording
           </a>
         </div>
+      </section>
+
+      <section className="past-speakers-section">
+        <h2 tabIndex="0">Links</h2>
+        <ul>
+          <li>
+            <a
+              target="_blank"
+              rel="noreferrer"
+              aria-label="Connell: Twitter"
+              href="https://twitter.com/connellsharp"
+            >
+              Twitter
+            </a>
+          </li>
+          <li>
+            <a
+              target="_blank"
+              rel="noreferrer"
+              aria-label="Connell: Website"
+              href="https://www.connell.dev"
+            >
+              Website
+            </a>
+          </li>
+        </ul>
       </section>
     </Layout>
   );
