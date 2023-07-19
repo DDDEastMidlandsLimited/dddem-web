@@ -6,6 +6,8 @@ const cronofydesc =
 
 const bjssdesc =
   '<h1>BJSS</h1><p>BJSS is the leading technology and engineering consultancy for business. Trusted by our clients, we collaborate with some of the world’s leading organisations to deliver complex, innovative technology, engineering, and industry solutions that millions of people use every day.</p>';
+const mhrdesc =
+  '<h1>MHR</h1><p>MHR supports organisations wanting to strengthen their business resilience and reduce their operational complexity with the easiest to integrate, adopt and use, secure, cloud-based HR, payroll and finance systems available.</p><p>Over 1400 customers across the private and public sector have everything they need to address their people and planning needs across HR, talent management and learning, payroll, workforce management, analytics and reporting, enterprise planning, finance and accounting, and financial consolidation.</p><p>With a suite of innovative software solutions, built in-house utilising the latest technologies, MHR gives a single joined up view across all HR, payroll and finance, helping customers to make data-driven decisions.</p><p>We offer flexible end-to-end support and expertise, partnering with customers to deliver complete solutions to meet their changing business objectives.</p><p>Based in Nottinghamshire, MHR is a financially independent, privately-owned UK business with a track record of innovation in HR and payroll software since 1984. We manage 2000+ payrolls and make £9billion of payments per annum.</p><ul><li>Our website address is: <a href="https://mhrglobal.com/uk/en" target="_blank" rel="noopener noreferrer">https://mhrglobal.com/uk/en</a></li><li>LinkedIn: <a href="https://www.linkedin.com/company/mhr_solutions" target="_blank" rel="noopener noreferrer">https://www.linkedin.com/company/mhr_solutions</a></li><li>Twitter: <a href="https://twitter.com/mhr_solutions" target="_blank" rel="noopener noreferrer">https://twitter.com/mhr_solutions</a></li><li>Facebook: <a href="https://www.facebook.com/MHRSolutions" target="_blank" rel="noopener noreferrer">https://www.facebook.com/MHRSolutions</a></li><li>Youtube: <a href="https://www.youtube.com/c/MHR_solutions" target="_blank" rel="noopener noreferrer">https://www.youtube.com/c/MHR_solutions</a></li><li>Instagram: <a href="https://www.instagram.com/mhr_international/" target="_blank" rel="noopener noreferrer">https://www.instagram.com/mhr_international/</a></li></ul>';
 
 const gold = [
   {
@@ -28,6 +30,13 @@ const gold = [
     image: '/static/sponsors/BJSS.png',
     link: 'https://www.bjss.com/careers',
     description: bjssdesc,
+  },
+  {
+    id: 'MHR',
+    name: 'MHR',
+    image: '/static/sponsors/MHR.png',
+    link: 'https://mhrglobal.com/uk/en/about-us/careers',
+    description: mhrdesc,
   },
 ];
 
