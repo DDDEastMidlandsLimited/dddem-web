@@ -1193,9 +1193,9 @@
   dependencies:
     glob "7.1.7"
 
-"@next/eslint-plugin-next@^13.4.10":
-  version "13.4.10"
-  resolved "https://registry.yarnpkg.com/@next/eslint-plugin-next/-/eslint-plugin-next-13.4.10.tgz#ff19867396a7709ff75986645f2223787fbb2d9b"
+"@next/eslint-plugin-next@^13.4.11":
+  version "13.4.11"
+  resolved "https://registry.yarnpkg.com/@next/eslint-plugin-next/-/eslint-plugin-next-13.4.11.tgz#5a4f8147bdfe755b643ccb6ec74ec97067a16f06"
   dependencies:
     glob "7.1.7"
 
