@@ -4925,18 +4925,7 @@ jest-transform-css@^6.0.1:
     postcss-modules "4.3.1"
     style-inject "0.3.0"
 
-jest-util@^29.4.1, jest-util@^29.5.0, jest-util@^29.6.1, jest-util@^29.6.2:
-  version "29.6.2"
-  resolved "https://registry.yarnpkg.com/jest-util/-/jest-util-29.6.2.tgz#8a052df8fff2eebe446769fd88814521a517664d"
-  dependencies:
-    "@jest/types" "^29.6.1"
-    "@types/node" "*"
-    chalk "^4.0.0"
-    ci-info "^3.2.0"
-    graceful-fs "^4.2.9"
-    picomatch "^2.2.3"
-
-jest-util@^29.6.2:
+jest-util@^29.4.1, jest-util@^29.5.0, jest-util@^29.6.2:
   version "29.6.2"
   resolved "https://registry.yarnpkg.com/jest-util/-/jest-util-29.6.2.tgz#8a052df8fff2eebe446769fd88814521a517664d"
   dependencies:
@@ -6282,9 +6271,9 @@ safe-regex-test@^1.0.0:
   version "2.1.2"
   resolved "https://registry.npmjs.org/safer-buffer/-/safer-buffer-2.1.2.tgz"
 
-sass@^1.64.1:
-  version "1.64.1"
-  resolved "https://registry.yarnpkg.com/sass/-/sass-1.64.1.tgz#6a46f6d68e0fa5ad90aa59ce025673ddaa8441cf"
+sass@^1.64.2:
+  version "1.64.2"
+  resolved "https://registry.yarnpkg.com/sass/-/sass-1.64.2.tgz#0d9805ad6acf31c59c3acc725fcfb91b7fcc6909"
   dependencies:
     chokidar ">=3.0.0 <4.0.0"
     immutable "^4.0.0"
