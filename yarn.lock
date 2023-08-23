@@ -1191,9 +1191,15 @@
   version "13.4.13"
   resolved "https://registry.yarnpkg.com/@next/env/-/env-13.4.13.tgz#50250cec7626904b93a4a934933d6a747763259d"
 
-"@next/eslint-plugin-next@13.4.13", "@next/eslint-plugin-next@^13.4.13":
+"@next/eslint-plugin-next@13.4.13":
   version "13.4.13"
   resolved "https://registry.yarnpkg.com/@next/eslint-plugin-next/-/eslint-plugin-next-13.4.13.tgz#8b615032ab2cce94e13b3496c0cb5979a6078771"
+  dependencies:
+    glob "7.1.7"
+
+"@next/eslint-plugin-next@^13.4.19":
+  version "13.4.19"
+  resolved "https://registry.yarnpkg.com/@next/eslint-plugin-next/-/eslint-plugin-next-13.4.19.tgz#93d130c37b47fd120f6d111aee36a60611148df1"
   dependencies:
     glob "7.1.7"
 
