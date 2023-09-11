@@ -62,7 +62,7 @@ export default function Navigation() {
               >
                 Covid Precautions
               </NavDropdown.Item> */}
-{/*               <NavDropdown.Item
+              {/*               <NavDropdown.Item
                 id="supporting-speakers"
                 tabIndex="0"
                 href="/information/supporting-speakers"
@@ -112,7 +112,7 @@ export default function Navigation() {
               </NavDropdown.Item>
             </NavDropdown>
 
-{/*             <NavDropdown
+            {/*             <NavDropdown
               tabIndex="0"
               title="Sponsor"
               id="basic-sponsor-nav-dropdown"
