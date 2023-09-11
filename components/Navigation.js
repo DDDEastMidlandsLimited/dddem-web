@@ -35,6 +35,12 @@ export default function Navigation() {
               <Nav.Link href="/agenda">Agenda</Nav.Link>
             </Nav.Item>
 
+            <Nav.Item>
+              <Nav.Link href="/2023/notable-companies">
+                Sponsors and Partners
+              </Nav.Link>
+            </Nav.Item>
+
             <NavDropdown
               tabIndex="0"
               title="Information"
@@ -48,24 +54,24 @@ export default function Navigation() {
               >
                 About Us
               </NavDropdown.Item>
-              <NavDropdown.Item
+              {/* <NavDropdown.Item
                 id="covid-precautions"
                 tabIndex="0"
                 href="/information/covid-precautions"
                 title="Link to Covid Precautions Page"
               >
                 Covid Precautions
-              </NavDropdown.Item>
-              <NavDropdown.Item
+              </NavDropdown.Item> */}
+              {/*               <NavDropdown.Item
                 id="supporting-speakers"
                 tabIndex="0"
                 href="/information/supporting-speakers"
                 title="Link to Supporting Speakers Page"
               >
                 Supporting Speakers
-              </NavDropdown.Item>
+              </NavDropdown.Item> */}
               <NavDropdown.Item
-                id="accessibility-information"
+                id="activities"
                 tabIndex="0"
                 href="/information/event-activities"
                 title="Link to Event Activites Page"
@@ -106,7 +112,7 @@ export default function Navigation() {
               </NavDropdown.Item>
             </NavDropdown>
 
-            <NavDropdown
+            {/*             <NavDropdown
               tabIndex="0"
               title="Sponsor"
               id="basic-sponsor-nav-dropdown"
@@ -151,7 +157,7 @@ export default function Navigation() {
               >
                 Testimonials
               </NavDropdown.Item>
-            </NavDropdown>
+            </NavDropdown> */}
 
             <NavDropdown
               tabIndex="0"
@@ -183,12 +189,6 @@ export default function Navigation() {
                 For Crew Members
               </NavDropdown.Item>
             </NavDropdown>
-
-            <Nav.Item>
-              <Nav.Link href="/2023/notable-companies">
-                Notable Companies
-              </Nav.Link>
-            </Nav.Item>
 
             <NavDropdown
               tabIndex="0"
