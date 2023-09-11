@@ -9,10 +9,10 @@ export default function NotableCompaniesComponent() {
   return (
     <Layout>
       <Head>
-        <title>Notable Companies</title>
+        <title>Sponsors and Partners</title>
       </Head>
       <Header
-        title={'Notable Companies'}
+        title={'Sponsors and Partners'}
         banner="/static/banners/album.jpg"
       />
 
