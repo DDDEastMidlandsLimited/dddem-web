@@ -23,6 +23,18 @@ const partners = [
     image: '/static/partners/ntu.png',
     link: 'https://www.ntu.ac.uk/study-and-courses/academic-schools/science-and-technology/Computer-Science',
   },
+  {
+    id: 5,
+    name: 'NewDay',
+    image: '/static/partners/newday.png',
+    link: 'https://www.newday.co.uk/careers/',
+  },
+  {
+    id: 4,
+    name: 'NDC Conferences',
+    image: '/static/partners/ndc.png',
+    link: 'https://ndclondon.com/',
+  },
 ];
 
 export default partners;
