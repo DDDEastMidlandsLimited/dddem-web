@@ -117,11 +117,7 @@ export default function EventActivities() {
           sign up to GitHub, sign up to Hacktoberfest and open their
           first PR.
         </p>
-        <p tabIndex="0">
-          Last year our Hacktoberfest sponsor was Microsoft, who along
-          with providing PR support also engaged attendees in a Cloud
-          Skills Challenge.
-        </p>
+        <p tabIndex="0">This year the area is supported by NewDay.</p>
       </section>
 
       <section className="content-section">
@@ -135,29 +131,6 @@ export default function EventActivities() {
             layout="responsive"
           />
         </div>
-      </section>
-
-      <section className="content-section" id="cloud-skills">
-        <a name="cloud-skills" />
-        <h2 tabIndex="0">Cloud Skills Challenge</h2>
-        <p tabIndex="0">
-          The fantastic team at Microsoft set up a Cloud Skills
-          Challenge for any attendees of DDD East Midlands to take
-          part in. The Cloud Skills challenge is a list of short
-          Microsoft Learn modules that attendees were given access to
-          before the conference. If they completed 5 short courses,
-          they were entered into a prize draw.
-        </p>
-        <p tabIndex="0">
-          Our hope is it not only exposed the attendees to some cool
-          tech technologies available but also encouraged them to take
-          part in work-relevant training they otherwise might not have
-          done.
-        </p>
-        <p tabIndex="0">
-          The prizes provided by Microsoft were top drawer, including
-          Surface Pros, Headphones and Bit Boxes.
-        </p>
       </section>
 
       <section className="content-section" id="coffee">
