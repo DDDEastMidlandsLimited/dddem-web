@@ -117,9 +117,7 @@ export default function EventActivities() {
           sign up to GitHub, sign up to Hacktoberfest and open their
           first PR.
         </p>
-        <p tabIndex="0">
-          This year the area is supported by NewDay.
-        </p>
+        <p tabIndex="0">This year the area is supported by NewDay.</p>
       </section>
 
       <section className="content-section">
