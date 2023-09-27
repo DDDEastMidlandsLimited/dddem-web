@@ -113,31 +113,6 @@ export default function HacktoberFest() {
               </a>{' '}
             </li>
           </ul>
-          <h2>DDD East Midlands Blog Repository</h2>
-          <p></p>
-          <ul>
-            <li>
-              {' '}
-              <a
-                href="https://github.com/DDDEastMidlandsLimited/dddem-blog"
-                target="_blank"
-                rel="noreferrer"
-              >
-                See the Readme on the main GitHub page for
-                instructions on running the website locally.
-              </a>{' '}
-            </li>
-            <li>
-              {' '}
-              <a
-                href="https://github.com/DDDEastMidlandsLimited/dddem-blog/issues"
-                target="_blank"
-                rel="noreferrer"
-              >
-                Check out the GitHub issues here.
-              </a>{' '}
-            </li>
-          </ul>
           <br />
         </section>
 
