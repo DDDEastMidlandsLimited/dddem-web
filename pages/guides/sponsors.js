@@ -161,15 +161,6 @@ export default function SponsorInformation() {
               Code of Conduct
             </a>
           </li>
-          <li tabIndex="0">
-            <a
-              href="https://dddeastmidlands.com/information/covid-precautions/"
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              Covid Precautions
-            </a>
-          </li>
         </ul>
       </section>
 

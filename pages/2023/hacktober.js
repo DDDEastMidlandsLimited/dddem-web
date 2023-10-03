@@ -8,15 +8,36 @@ export default function HacktoberFest() {
   return (
     <Layout>
       <Head>
-        <title>HacktoberFest 2021</title>
+        <title>HacktoberFest 2023</title>
       </Head>
       <Header
-        title={'Hacktoberfest 2021 Information'}
+        title={'Hacktoberfest Corner 2023'}
         banner="/static/banners/hacktober.jpg"
       />
 
       <div className="hacktober">
         <section className="content-section" id="intro">
+          <a name="intro" />
+          <div className="row">
+            <div className="columnleft">
+              <Image
+                src="/static/partners/newday.png"
+                alt="Hacktoberfest 2020 Logo"
+                className="hacktoberlogo"
+                height="85"
+                width="200"
+                layout="responsive"
+              />
+            </div>
+            <div className="columnright">
+              <p>
+                This years Hacktoberfest corner is being supported by
+                NewDay. Head over to their area on the 7th October at
+                DDD East Midlands conference for more information on
+                how to take part.
+              </p>
+            </div>
+          </div>
           <h1>Introduction To Hacktoberfest</h1>
           <a name="intro" />
           <div className="row">
@@ -25,6 +46,9 @@ export default function HacktoberFest() {
                 src="/static/hacktoberfest/hacktoberfest.png"
                 alt="Hacktoberfest 2020 Logo"
                 className="hacktoberlogo"
+                height="85"
+                width="200"
+                layout="responsive"
               />
             </div>
             <div className="columnright">
@@ -33,10 +57,9 @@ export default function HacktoberFest() {
                 Open Source software during October, which is
                 organised by{' '}
                 <a href="https://www.digitalocean.com/">
-                  Digital Ocean
+                  Digital Ocean.
                 </a>{' '}
-                and sponsored by <a href="https://dev.to">DEV</a>, and
-                aims to get more folks dipping their toes in
+                It aims to get more folks dipping their toes in
                 contributing to Free and Open Source software, and
                 showing everyone that there&apos;s more to a project
                 than just code!
@@ -119,14 +142,14 @@ export default function HacktoberFest() {
         <section className="content-section" id="first-pr">
           <h1>First PR?</h1>
           <a name="first-pr" />
-          <h2>Add your selfie!</h2>
-          <p>Take a photo of yourself and add it to this page.</p>
+          <h2>Add your name!</h2>
+          <p>List yourself as someone who has taken part.</p>
           <h2>How to do this?</h2>
           <p>
             Some information about HacktoberFest and how to contribute
             can be read about{' '}
             <a
-              href="https://jesswhite.co.uk/2020/09/20/hacktober-post.html"
+              href="https://jessicabrentnall.co.uk/blog/hacktober-contributor-guide/"
               target="_blank"
               rel="noreferrer"
             >
@@ -215,28 +238,14 @@ export default function HacktoberFest() {
           <p>
             <ul>
               <li>
-                Add a photo of yourself to the{' '}
+                Add your name to
                 <b>
-                  <i>public/static/hacktoberfest/2021</i>
-                </b>{' '}
-                folder.
-              </li>
-              <li>
-                Add the following code to the{' '}
-                <b>
-                  <i>pages/2021/hacktoberfest.js</i>
+                  <i>pages/2023/hacktoberfest.js</i>
                 </b>{' '}
                 page under the "Hacktoberfest Corner Contributors!"
                 section.
               </li>
             </ul>
-          </p>
-          <p className="columnfullwidth">
-            <Image
-              className="codesnip img-center"
-              src="/static/hacktoberfest/codesnip.png"
-              alt="Picture of the code snip you need to use"
-            />
           </p>
           <h3>Run prettier</h3>
           <p>
@@ -287,38 +296,12 @@ export default function HacktoberFest() {
           </p>
         </section>
 
-        <section className="content-section" id="list">
+        <section className="content-section" id="intro">
           <h1>Hacktoberfest Corner Contributors!</h1>
-          <section className="speaker-grid">
-            <article className="speaker-grid-item">
-              <Image
-                className="speaker-image"
-                src="/static/hacktoberfest/2021/Jess_White.jpg"
-                alt="Picture of Jess White"
-              />
-            </article>
-            <article className="speaker-grid-item">
-              <Image
-                className="speaker-image"
-                src="/static/hacktoberfest/2021/Pete_Gallagher.jpg"
-                alt="Picture of Pete Gallagher"
-              />
-            </article>
-            <article className="speaker-grid-item">
-              <Image
-                className="speaker-image"
-                src="/static/hacktoberfest/2021/andystannard.jpg"
-                alt="Picture of Andy Stannard"
-              />
-            </article>
-            {/*       <article className="speaker-grid-item">
-            <Image
-              className="speaker-image"
-              src="/static/hacktoberfest/2021/FirstName_SecondName.jpg"
-              alt="Picture of FirstName LastName"
-            />
-          </article> */}
-          </section>
+          <a name="intro" />
+          <div className="row">
+            <li>Jessica Brentnall</li>
+          </div>
         </section>
       </div>
     </Layout>
