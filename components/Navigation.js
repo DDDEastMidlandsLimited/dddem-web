@@ -79,6 +79,14 @@ export default function Navigation() {
                 Event Activities
               </NavDropdown.Item>
               <NavDropdown.Item
+                id="hacktober"
+                tabIndex="0"
+                href="/2023/hacktober"
+                title="Link to Hacktoberfest Page"
+              >
+                HacktoberFest
+              </NavDropdown.Item>
+              <NavDropdown.Item
                 id="accessibility-information"
                 tabIndex="0"
                 href="/information/accessibility-information"
