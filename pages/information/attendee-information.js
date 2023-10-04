@@ -26,11 +26,6 @@ export default function AttendeeInformation() {
         <h1 tabIndex="0">Contents</h1>
         <p>
           <strong>
-            <a href="#covid-precautions">Covid Precautions</a>
-          </strong>
-        </p>
-        <p>
-          <strong>
             <a href="#code-of-conduct">Code of Conduct</a>
           </strong>
         </p>
@@ -126,8 +121,6 @@ export default function AttendeeInformation() {
           </li>
         </ul>
       </section>
-
-      <CovidPrecautions />
 
       <CodeOfConduct />
 

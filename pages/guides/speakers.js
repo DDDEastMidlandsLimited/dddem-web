@@ -126,15 +126,6 @@ export default function SpeakerInformation() {
               Code of Conduct
             </a>
           </li>
-          <li tabIndex="0">
-            <a
-              href="https://dddeastmidlands.com/information/covid-precautions/"
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              Covid Precautions
-            </a>
-          </li>
         </ul>
       </section>
 
@@ -197,7 +188,11 @@ export default function SpeakerInformation() {
         <h2 tabIndex="0">What to prepare</h2>
         <ul>
           <li tabIndex="0">
-            A copy of your presentation on a usb stick
+            The device (laptop/mac) your plan to present from.
+          </li>
+          <li tabIndex="0">
+            A copy of your presentation on a usb stick (in case of
+            emergency)
           </li>
           <li tabIndex="0">A clicker</li>
           <li tabIndex="0">

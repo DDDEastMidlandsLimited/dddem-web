@@ -36,7 +36,7 @@ export default function SocialMedia() {
         that doesn’t align with our code of conduct.
       </p>
       <h3 tabIndex="0">DDD East Midlands on Social Media</h3>
-      <p>Hashtags: #DDDEM</p>
+      <p>Hashtags: #dddeastmidlands</p>
       <ul>
         <li tabIndex="0">
           Twitter:{' '}
