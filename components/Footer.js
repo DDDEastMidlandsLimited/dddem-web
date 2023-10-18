@@ -35,7 +35,7 @@ export default function Footer() {
             aria-label="Twitter"
             rel="noopener noreferrer"
           >
-            <FontAwesomeIcon icon={brands('twitter')} size="sm" />
+            <FontAwesomeIcon icon={brands('x-twitter')} size="sm" />
           </Link>
           <Link
             href="https://github.com/DDDEastMidlandsLimited/dddem-web"
