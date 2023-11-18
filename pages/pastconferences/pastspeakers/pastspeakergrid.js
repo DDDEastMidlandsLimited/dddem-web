@@ -80,7 +80,7 @@ export default function PastSpeakers() {
         <SpeakerGridItemComponent
           speakername="Gosia Borzęcka"
           pic="/static/speakers/2023/Gosia_B.jpg"
-          link="2023/gosia-borzęcka"
+          link="2023/gosia-borzecka"
           talkbrief="Don't panic - AI will not take your job"
         />
         <SpeakerGridItemComponent

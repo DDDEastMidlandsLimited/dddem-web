@@ -14,22 +14,22 @@ import {
 
 library.add(faInstagram, faTwitter, faGithub, faLinkedin);
 
-export default function AshleySmith() {
+export default function MarkGoodwin() {
   return (
     <Layout>
       <Head>
-        <title>Ashley Smith</title>
+        <title>Mark Goodwin</title>
       </Head>
       <Header
-        title={'Ashley Smith'}
+        title={'Mark Goodwin'}
         banner="/static/banners/speakers.jpg"
       />
       <section className="past-speakers-section">
         <PastSpeakersButton />
         <div className="speakerpic-container">
           <Image
-            src="/static/speakers/2023/Ashley_S.jpg"
-            alt="Picture of Ashley Smith"
+            src="/static/speakers/2023/Mark_G.jpg"
+            alt="Picture of Mark Goodwin"
             className="speakerpic"
             height={250}
             width={250}
@@ -39,31 +39,30 @@ export default function AshleySmith() {
         <div>
           <ul>
             <li>
-              <b>Pronouns: </b> She/Her
+              <b>Pronouns: </b> He/Him
             </li>
             <li>
-              <b>Talk Length: </b> 30 mins
+              <b>Talk Length: </b> 60 mins
             </li>
           </ul>
         </div>
         <br />
-        <h2 tabIndex="0">Don't go chasing waterfall</h2>
+        <h2 tabIndex="0">Building Robots for Complete Beginners</h2>
         <p tabIndex="0">
-          I've been working in testing for about 10 years, and whilst
-          the best practice and ddmethodolgies have moved on, us
-          testers are facing the same problems! We're the bottlenecks,
-          the under pressure, and dare I say the under-valued!
-        </p>
-        <p tabIndex="0">
-          A quick talk about showing your testers some love and
-          embracing best practice to achieve awesomeness together.
+        An introduction to building robots for complete beginners. Includes wires, microcontrollers, lego... and much, much more!
         </p>
       </section>
 
       <section className="past-speakers-section">
-        <h2 tabIndex="0">About Ashley</h2>
+        <h2 tabIndex="0">About Mark Goodwin</h2>
         <p tabIndex="0">
-          <b>She's awesome and works for BJSS.</b>
+          <b>Maker. Hacker. Breaker of things.</b>
+        </p>
+        <p tabIndex="0">
+        Mark is a security specialist and software developer with years of experience in building and securing business critical, Internet facing systems. Mark has been privileged to work on many kinds of systems including banking applications, embedded devices and web browsers.
+        </p>
+        <p tabIndex="0">
+        Mark currently leads AppSec for Matillion.
         </p>
       </section>
 
@@ -74,8 +73,8 @@ export default function AshleySmith() {
             <a
               target="_blank"
               rel="noreferrer"
-              aria-label="Ashley Smith: Twitter"
-              href="https://www.linkedin.com/in/ashley-smith-a48381127/"
+              aria-label="Mark Goodwin: LinkedIn"
+              href="https://www.linkedin.com/in/mark4security/"
             >
               LinkedIn
             </a>

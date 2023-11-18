@@ -14,22 +14,22 @@ import {
 
 library.add(faInstagram, faTwitter, faGithub, faLinkedin);
 
-export default function AshleySmith() {
+export default function ConnellSharp() {
   return (
     <Layout>
       <Head>
-        <title>Ashley Smith</title>
+        <title>Connell Sharp</title>
       </Head>
       <Header
-        title={'Ashley Smith'}
+        title={'Connell Sharp'}
         banner="/static/banners/speakers.jpg"
       />
       <section className="past-speakers-section">
         <PastSpeakersButton />
         <div className="speakerpic-container">
           <Image
-            src="/static/speakers/2023/Ashley_S.jpg"
-            alt="Picture of Ashley Smith"
+            src="/static/speakers/2023/Connell_S.jpg"
+            alt="Picture of Connell Sharp"
             className="speakerpic"
             height={250}
             width={250}
@@ -39,31 +39,32 @@ export default function AshleySmith() {
         <div>
           <ul>
             <li>
-              <b>Pronouns: </b> She/Her
+              <b>Pronouns: </b> He/Him
             </li>
             <li>
-              <b>Talk Length: </b> 30 mins
+              <b>Talk Length: </b> 60 mins
             </li>
           </ul>
         </div>
         <br />
-        <h2 tabIndex="0">Don't go chasing waterfall</h2>
+        <h2 tabIndex="0">Good Microservice Boundaries</h2>
         <p tabIndex="0">
-          I've been working in testing for about 10 years, and whilst
-          the best practice and ddmethodolgies have moved on, us
-          testers are facing the same problems! We're the bottlenecks,
-          the under pressure, and dare I say the under-valued!
-        </p>
-        <p tabIndex="0">
-          A quick talk about showing your testers some love and
-          embracing best practice to achieve awesomeness together.
+          Deciding which things belong in which service can make or
+          break your architecture. How big should services be? How
+          many developers per service, or service per developers? Tips
+          on how to find the right boundaries using ideas from
+          Domain-Driven Design and Team Topologies, with some common
+          mistakes to avoid.
         </p>
       </section>
 
       <section className="past-speakers-section">
-        <h2 tabIndex="0">About Ashley</h2>
+        <h2 tabIndex="0">About Connell Sharp</h2>
         <p tabIndex="0">
-          <b>She's awesome and works for BJSS.</b>
+          <b>Software Engineer at Stack Overflow</b>
+        </p>
+        <p tabIndex="0">
+          Coding since 2005. Every day learning and sharing knowledge.
         </p>
       </section>
 
@@ -74,10 +75,20 @@ export default function AshleySmith() {
             <a
               target="_blank"
               rel="noreferrer"
-              aria-label="Ashley Smith: Twitter"
-              href="https://www.linkedin.com/in/ashley-smith-a48381127/"
+              aria-label="Connell Sharp: X"
+              href="https://www.twitter.com/connellsharp"
             >
-              LinkedIn
+              X
+            </a>
+          </li>
+          <li tabIndex="0">
+            <a
+              target="_blank"
+              rel="noreferrer"
+              aria-label="Connell Sharp: Website"
+              href="https://www.connell.dev/"
+            >
+              Website
             </a>
           </li>
         </ul>
