@@ -52,8 +52,7 @@ export default function TicketInformation() {
       <section className="content-section">
         <a name="ticketrelease" />
         <h1 tabIndex="0">When will tickets be released?</h1>
-        <p tabIndex="0">Tickets are available now.</p>
-        <TicketButton />
+        <p tabIndex="0">Before the next 2025 event.</p>
       </section>
 
       <section className="content-section">
@@ -72,8 +71,8 @@ export default function TicketInformation() {
         <ul>
           <li tabIndex="0">Return it through Eventbrite.</li>
           <li>
-            Contact Jessica or James and they can sort it out for you.
-            Email - name @ dddeastmidlands . com
+            Contact James and he can sort it out for you. Email - name
+            @ dddeastmidlands . com
           </li>
         </ul>
       </section>

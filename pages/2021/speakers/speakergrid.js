@@ -4,7 +4,7 @@ import Header from '../../../components/Header';
 import SpeakerGridItemComponent from '../../../components/speakers/speakergriditem';
 import Head from 'next/head';
 
-export default function Speaker2021Component() {
+export default function PastSpeakers() {
   return (
     <Layout>
       <Head>
