@@ -3,12 +3,9 @@ import Header from '../components/Header';
 import Head from 'next/head';
 import Layout from '../components/Layout';
 import GoldSponsorLogos from '../components/companies/GoldSponsorLogos';
-import TieredCompanies from '../components/companies/TieredCompanies';
 import ImportantDatesList from '../components/home/ImportantDatesList';
 import dates from '../data/dates';
-import gold from '../data/sponsors/gold';
 import Image from 'next/image';
-import TicketButton from '../components/TicketButton';
 
 export default function Index() {
   return (
@@ -27,16 +24,11 @@ export default function Index() {
       <section className="content-section">
         <p tabIndex="0">
           DDD East Midlands is an inclusive, not-for-profit technology
-          conference happening on <b>7th October 2023</b> that
-          celebrates the unique tech, talent and companies that the
+          conference that celebrates the unique tech, talent and companies that the
           East Midlands has to offer. This event is run by community
           members to promote collaboration and the amazing tech
           community that has already grown in the East Midlands.
         </p>
-      </section>
-
-      <section className="content-section">
-        <TicketButton />
       </section>
 
       <section className="content-section">
@@ -77,8 +69,7 @@ export default function Index() {
         </p>
         <ul>
           <li tabIndex="0">
-            The event is hosted on a Saturday so that attendees do not
-            have to take time from work.
+            The event is hosted on a Saturdayk.
           </li>
           <li tabIndex="0">Tickets to attend the event are free.</li>
         </ul>
