@@ -30,7 +30,7 @@ export default function Album() {
         <iframe
           src="https://albumizr.com/a/J-0W"
           scrolling="no"
-          frameborder="0"
+          frameBorder="0"
           allowfullscreen
           width="80%"
           height="500"

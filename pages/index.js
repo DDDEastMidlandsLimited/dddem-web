@@ -38,7 +38,7 @@ export default function Index() {
         <iframe
           src="https://albumizr.com/a/J-0W"
           scrolling="no"
-          frameborder="0"
+          frameBorder="0"
           allowFullScreen
           width="80%"
           height="500"
