@@ -4,7 +4,7 @@ import Header from '../../../components/Header';
 import SpeakerGridItemComponent from '../../../components/speakers/speakergriditem';
 import Head from 'next/head';
 
-export default function Speaker2021Component() {
+export default function PastSpeakers() {
   return (
     <Layout>
       <Head>
@@ -19,6 +19,124 @@ export default function Speaker2021Component() {
           Click on the images of our wonderful speakers to find out
           more about them and what they will be talking about.
         </p>
+      </section>
+
+      <section className="content-section">
+        <h2>2023</h2>
+      </section>
+
+      <section className="speaker-grid content-section">
+        <SpeakerGridItemComponent
+          speakername="Matt Brunt"
+          pic="/static/speakers/2023/Matt_B.jpg"
+          link="2023/matt-brunt"
+          talkbrief="KEYNOTE: Dungeons, Dragons & Developers"
+        />
+      </section>
+
+      <section className="speaker-grid content-section">
+        <SpeakerGridItemComponent
+          speakername="Soumaya Erradi"
+          pic="/static/speakers/2023/Soumaya_E.jpg"
+          link="2023/soumaya-erradi"
+          talkbrief="Evergreen skills for software developers"
+        />
+        <SpeakerGridItemComponent
+          speakername="Marcus Noble"
+          pic="/static/speakers/2023/Marcus_N.jpg"
+          link="2023/marcus-noble"
+          talkbrief="Managing Kubernetes without losing your cool"
+        />
+        <SpeakerGridItemComponent
+          speakername="Matt Hunt"
+          pic="/static/speakers/2023/Matt_H.jpg"
+          link="2023/matt-hunt"
+          talkbrief="Microservice Mistakes I Made and Survived"
+        />
+        <SpeakerGridItemComponent
+          speakername="Eli Holderness"
+          pic="/static/speakers/2023/Eli_H.jpg"
+          link="2023/eli-holderness"
+          talkbrief="You Shall Not Password: Modern Authentication for Web Apps"
+        />
+        <SpeakerGridItemComponent
+          speakername="Martyn Kilbryde"
+          pic="/static/speakers/2023/Martyn_K.jpg"
+          link="2023/martyn-kilbryde"
+          talkbrief="The Art of the Bad Code Review"
+        />
+        <SpeakerGridItemComponent
+          speakername="Dan Clarke"
+          pic="/static/speakers/2023/Dan_C.jpg"
+          link="2023/dan-clarke"
+          talkbrief="Git - Under the Covers"
+        />
+        <SpeakerGridItemComponent
+          speakername="Jamie Tanna"
+          pic="/static/speakers/2023/Jamie_T.jpg"
+          link="2023/jamie-tanna"
+          talkbrief="This talk could've been a blog post"
+        />
+        <SpeakerGridItemComponent
+          speakername="Gosia Borzęcka"
+          pic="/static/speakers/2023/Gosia_B.jpg"
+          link="2023/gosia-borzęcka"
+          talkbrief="Don't panic - AI will not take your job"
+        />
+        <SpeakerGridItemComponent
+          speakername="Ashley Smith"
+          pic="/static/speakers/2023/Ashley_S.jpg"
+          link="2023/ashley-smith"
+          talkbrief="Don't go chasing waterfalls"
+        />
+        <SpeakerGridItemComponent
+          speakername="Paul Bailey"
+          pic="/static/speakers/2023/Paul_B.jpg"
+          link="2023/paul-bailey"
+          talkbrief="How to create the conditions where happy people do their best work"
+        />
+        <SpeakerGridItemComponent
+          speakername="Marc Steele"
+          pic="/static/speakers/2023/Marc_S.jpg"
+          link="2023/marc-steele"
+          talkbrief="Hacking Your Home Network from a TV Broadcast"
+        />
+        <SpeakerGridItemComponent
+          speakername="Connell Sharp"
+          pic="/static/speakers/2023/Connell_S.jpg"
+          link="2023/connell-sharp"
+          talkbrief="Good Microservice Boundaries"
+        />
+        <SpeakerGridItemComponent
+          speakername="Rachel Breeze"
+          pic="/static/speakers/2023/Rachel_B.jpg"
+          link="2023/rachel-breeze"
+          talkbrief="Accessibility: Building and Deploying Accessible sites"
+        />
+        <SpeakerGridItemComponent
+          speakername="Shaun Lawrence"
+          pic="/static/speakers/2023/Shaun_L.jpg"
+          link="2023/shaun-lawrence"
+          talkbrief="Choose your own adventure"
+        />
+        <SpeakerGridItemComponent
+          speakername="Sean Farmar"
+          pic="/static/speakers/2023/Sean_F.jpg"
+          link="2023/sean-farmar"
+          talkbrief="Choose your own adventure"
+        />
+        <SpeakerGridItemComponent
+          speakername="Poornima Nayar"
+          pic="/static/speakers/2023/Poornima_N.jpg"
+          link="2023/poornima-nayar"
+          talkbrief="Minimal APIs in .NET"
+        />
+        <SpeakerGridItemComponent
+          speakername="Mark Goodwin"
+          pic="/static/speakers/2023/Mark_G.jpg"
+          link="2023/mark-goodwin"
+          talkbrief="Building Robots for Complete Beginners"
+        />
       </section>
 
       <section className="content-section">
