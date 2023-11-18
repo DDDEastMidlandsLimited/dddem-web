@@ -18,24 +18,6 @@ export default function Navigation() {
             </Nav.Item>
 
             <Nav.Item>
-              <Nav.Link
-                tabIndex="0"
-                rel="noopener noreferrer"
-                target="_blank"
-                href="https://www.eventbrite.co.uk/e/ddd-east-midlands-2023-tickets-607213841947"
-                onSelect={() => {
-                  logEvent('navigation', 'eventbrite');
-                }}
-              >
-                Tickets
-              </Nav.Link>
-            </Nav.Item>
-
-            <Nav.Item>
-              <Nav.Link href="/agenda">Agenda</Nav.Link>
-            </Nav.Item>
-
-            <Nav.Item>
               <Nav.Link href="/2023/notable-companies">
                 Sponsors and Partners
               </Nav.Link>
@@ -54,22 +36,6 @@ export default function Navigation() {
               >
                 About Us
               </NavDropdown.Item>
-              {/* <NavDropdown.Item
-                id="covid-precautions"
-                tabIndex="0"
-                href="/information/covid-precautions"
-                title="Link to Covid Precautions Page"
-              >
-                Covid Precautions
-              </NavDropdown.Item> */}
-              {/*               <NavDropdown.Item
-                id="supporting-speakers"
-                tabIndex="0"
-                href="/information/supporting-speakers"
-                title="Link to Supporting Speakers Page"
-              >
-                Supporting Speakers
-              </NavDropdown.Item> */}
               <NavDropdown.Item
                 id="activities"
                 tabIndex="0"
@@ -77,14 +43,6 @@ export default function Navigation() {
                 title="Link to Event Activites Page"
               >
                 Event Activities
-              </NavDropdown.Item>
-              <NavDropdown.Item
-                id="hacktober"
-                tabIndex="0"
-                href="/2023/hacktober"
-                title="Link to Hacktoberfest Page"
-              >
-                HacktoberFest
               </NavDropdown.Item>
               <NavDropdown.Item
                 id="accessibility-information"
@@ -117,84 +75,6 @@ export default function Navigation() {
                 title="Link to Venue Information Page"
               >
                 Venue
-              </NavDropdown.Item>
-            </NavDropdown>
-
-            {/*             <NavDropdown
-              tabIndex="0"
-              title="Sponsor"
-              id="basic-sponsor-nav-dropdown"
-            >
-              <NavDropdown.Item
-                id="about-sponsorship"
-                tabIndex="0"
-                href="/sponsor/sponsor-the-event"
-                title="Link to Sponsorship Page"
-              >
-                Sponsor the event
-              </NavDropdown.Item>
-              <NavDropdown.Item
-                id="about-sponsorship-tiers"
-                tabIndex="0"
-                href="/sponsor/sponsorship-tiers"
-                title="Link to Sponsorship Tiers Page"
-              >
-                Sponsorship Tiers
-              </NavDropdown.Item>
-              <NavDropdown.Item
-                id="why-sponsor"
-                tabIndex="0"
-                href="/sponsor/why-sponsor"
-                title="Link to Why Sponsor Page"
-              >
-                Why Sponsor?
-              </NavDropdown.Item>
-              <NavDropdown.Item
-                id="social-responsibility"
-                tabIndex="0"
-                href="/sponsor/social-responsibility"
-                title="Link to Social Responsibility Page"
-              >
-                Social Responsibility
-              </NavDropdown.Item>
-              <NavDropdown.Item
-                id="about-the-conference-crew"
-                tabIndex="0"
-                href="/sponsor/testimonials"
-                title="Link to Testimonials Page"
-              >
-                Testimonials
-              </NavDropdown.Item>
-            </NavDropdown> */}
-
-            <NavDropdown
-              tabIndex="0"
-              title="Guides"
-              id="basic-guide-nav-dropdown"
-            >
-              <NavDropdown.Item
-                id="guide-for-sponsor"
-                tabIndex="0"
-                href="/guides/sponsors"
-                title="Link to Sponsorship Guide"
-              >
-                For Sponsors
-              </NavDropdown.Item>
-              <NavDropdown.Item
-                id="guide-for-speakers"
-                tabIndex="0"
-                href="/guides/speakers"
-                title="Link to Speakers Guide"
-              >
-                For Speakers
-              </NavDropdown.Item>
-              <NavDropdown.Item
-                id="guide-for-crew"
-                tabIndex="0"
-                href="/guides/crew"
-                title="Link to Crew Guide"
-              >
-                For Crew Members
               </NavDropdown.Item>
             </NavDropdown>
 
