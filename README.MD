@@ -38,7 +38,6 @@ environment run:
 Run the following 2 commands
 
 `npm run build`
-`npm run export`
 
 This will build all assets and pages followed by exporting all to the
 `out` folder.

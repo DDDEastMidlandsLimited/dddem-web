@@ -7,7 +7,6 @@
     "dev": "next",
     "build": "next build",
     "start": "next start",
-    "export": "next export",
     "lint": "eslint .",
     "lint:fix": "eslint --fix .",
     "prettier:check": "prettier --check \"**/*.js\"",

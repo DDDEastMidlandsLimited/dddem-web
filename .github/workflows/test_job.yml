@@ -46,9 +46,6 @@ jobs:
       - name: Run build
         run: npm run build
 
-      - name: Run Export
-        run: npm run export
-
       - name: Upload Site Build Artifacts
         uses: actions/upload-artifact@v3
         with:

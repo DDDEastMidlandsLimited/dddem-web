@@ -27,6 +27,7 @@ module.exports = withPWA({
 
     return config;
   },
+  output: 'export',
   images: {
     unoptimized: true,
   },
