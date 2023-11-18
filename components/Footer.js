@@ -29,15 +29,6 @@ export default function Footer() {
             <FontAwesomeIcon icon={brands('youtube')} size="sm" />
           </Link>
           <Link
-            href="https://twitter.com/dddeastmidlands"
-            prefetch={false}
-            target="_blank"
-            aria-label="Twitter"
-            rel="noopener noreferrer"
-          >
-            <FontAwesomeIcon icon={brands('x-twitter')} size="sm" />
-          </Link>
-          <Link
             href="https://github.com/DDDEastMidlandsLimited/dddem-web"
             prefetch={false}
             target="_blank"
