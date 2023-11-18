@@ -71,8 +71,8 @@ export default function TicketInformation() {
         <ul>
           <li tabIndex="0">Return it through Eventbrite.</li>
           <li>
-            Contact James and he can sort it out for you.
-            Email - name @ dddeastmidlands . com
+            Contact James and he can sort it out for you. Email - name
+            @ dddeastmidlands . com
           </li>
         </ul>
       </section>

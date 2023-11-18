@@ -49,7 +49,9 @@ export default function MarkGoodwin() {
         <br />
         <h2 tabIndex="0">Building Robots for Complete Beginners</h2>
         <p tabIndex="0">
-        An introduction to building robots for complete beginners. Includes wires, microcontrollers, lego... and much, much more!
+          An introduction to building robots for complete beginners.
+          Includes wires, microcontrollers, lego... and much, much
+          more!
         </p>
       </section>
 
@@ -59,11 +61,13 @@ export default function MarkGoodwin() {
           <b>Maker. Hacker. Breaker of things.</b>
         </p>
         <p tabIndex="0">
-        Mark is a security specialist and software developer with years of experience in building and securing business critical, Internet facing systems. Mark has been privileged to work on many kinds of systems including banking applications, embedded devices and web browsers.
+          Mark is a security specialist and software developer with
+          years of experience in building and securing business
+          critical, Internet facing systems. Mark has been privileged
+          to work on many kinds of systems including banking
+          applications, embedded devices and web browsers.
         </p>
-        <p tabIndex="0">
-        Mark currently leads AppSec for Matillion.
-        </p>
+        <p tabIndex="0">Mark currently leads AppSec for Matillion.</p>
       </section>
 
       <section className="past-speakers-section">
