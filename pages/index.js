@@ -3,12 +3,8 @@ import Header from '../components/Header';
 import Head from 'next/head';
 import Layout from '../components/Layout';
 import GoldSponsorLogos from '../components/companies/GoldSponsorLogos';
-import TieredCompanies from '../components/companies/TieredCompanies';
 import ImportantDatesList from '../components/home/ImportantDatesList';
 import dates from '../data/dates';
-import gold from '../data/sponsors/gold';
-import Image from 'next/image';
-import TicketButton from '../components/TicketButton';
 
 export default function Index() {
   return (
@@ -27,32 +23,45 @@ export default function Index() {
       <section className="content-section">
         <p tabIndex="0">
           DDD East Midlands is an inclusive, not-for-profit technology
-          conference happening on <b>7th October 2023</b> that
-          celebrates the unique tech, talent and companies that the
-          East Midlands has to offer. This event is run by community
-          members to promote collaboration and the amazing tech
-          community that has already grown in the East Midlands.
+          conference that celebrates the unique tech, talent and
+          companies that the East Midlands has to offer. This event is
+          run by community members to promote collaboration and the
+          amazing tech community that has already grown in the East
+          Midlands.
         </p>
       </section>
 
-      <section className="content-section">
-        <TicketButton />
-      </section>
-
-      <section className="content-section">
-        <Image
-          className="pageimage"
-          src="/static/pageimage/happy.jpg"
-          alt={`Image of the attendees of DDD East Midlands Conference 2019 seated in red auditorium seating.`}
-          height="85"
-          width="200"
-          layout="responsive"
-        />
+      <section className="content-section center">
+        <h2 className="center" tabIndex="0">
+          Photos from 2023
+        </h2>
+        <iframe
+          src="https://albumizr.com/a/J-0W"
+          scrolling="no"
+          frameBorder="0"
+          allowFullScreen
+          width="80%"
+          height="500"
+          title="2021 Album"
+        ></iframe>
+        <p tabIndex="0">
+          <i>
+            Photographs by{' '}
+            <a
+              href="https://kirstyrockett.com/"
+              target="_blank"
+              rel="noreferrer"
+              tabIndex="0"
+            >
+              Kirsty Rocket.
+            </a>
+          </i>
+        </p>
       </section>
 
       {/* Gold Sponsors */}
       <section className="content-section">
-        <h2 className="center">Gold Sponsors</h2>
+        <h2 className="center">2023 Sponsors</h2>
         <GoldSponsorLogos />
       </section>
 
@@ -76,10 +85,7 @@ export default function Index() {
           This conference follows these DDD principles:
         </p>
         <ul>
-          <li tabIndex="0">
-            The event is hosted on a Saturday so that attendees do not
-            have to take time from work.
-          </li>
+          <li tabIndex="0">The event is hosted on a Saturdayk.</li>
           <li tabIndex="0">Tickets to attend the event are free.</li>
         </ul>
         <p tabIndex="0">As well as these following principles:</p>
