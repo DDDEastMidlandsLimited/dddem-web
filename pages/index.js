@@ -5,7 +5,6 @@ import Layout from '../components/Layout';
 import GoldSponsorLogos from '../components/companies/GoldSponsorLogos';
 import ImportantDatesList from '../components/home/ImportantDatesList';
 import dates from '../data/dates';
-import Image from 'next/image';
 
 export default function Index() {
   return (
@@ -45,6 +44,19 @@ export default function Index() {
           height="500"
           title="2021 Album"
         ></iframe>
+        <p tabIndex="0">
+          <i>
+            Photographs by{' '}
+            <a
+              href="https://kirstyrockett.com/"
+              target="_blank"
+              rel="noreferrer"
+              tabIndex="0"
+            >
+              Kirsty Rocket.
+            </a>
+          </i>
+        </p>
       </section>
 
       {/* Gold Sponsors */}
