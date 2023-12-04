@@ -1076,11 +1076,6 @@
   resolved "https://registry.yarnpkg.com/@eslint/js/-/js-8.53.0.tgz#bea56f2ed2b5baea164348ff4d5a879f6f81f20d"
   integrity sha512-Kn7K8dx/5U6+cT1yEhpX1w4PCSg0M+XyRILPgvwcEBjerFWCwQj5sbr3/VmxqV0JGHCBCzyd6LxypEuehypY1w==
 
-"@fortawesome/fontawesome-common-types@6.4.2":
-  version "6.4.2"
-  resolved "https://registry.npmjs.org/@fortawesome/fontawesome-common-types/-/fontawesome-common-types-6.4.2.tgz"
-  integrity sha512-1DgP7f+XQIJbLFCTX1V2QnxVmpLdKdzzo2k8EmvDOePfchaIGQ9eCHj2up3/jNEbZuBqel5OxiaOJf37TWauRA==
-
 "@fortawesome/fontawesome-common-types@6.5.0":
   version "6.5.0"
   resolved "https://registry.yarnpkg.com/@fortawesome/fontawesome-common-types/-/fontawesome-common-types-6.5.0.tgz#5d3912d28a2fb3e6c867320eb27a71f23e7bcb29"
@@ -6488,12 +6483,12 @@ pend@~1.2.0:
   resolved "https://registry.npmjs.org/pend/-/pend-1.2.0.tgz"
   integrity sha512-F3asv42UuXchdzt+xXqfW1OGlVBe+mxa2mqI0pg5yAHZPvFmY3Y6drSf/GQ1A86WgWEN9Kzh/WrgKa6iGcHXLg==
 
-perfume.js@^8.4.0:
-  version "8.4.0"
-  resolved "https://registry.npmjs.org/perfume.js/-/perfume.js-8.4.0.tgz"
-  integrity sha512-UuHPvQkHlNmS4yqbd/DHijsTR65ull1Mlp4RackwddFTluo4gUWVTXVgHz1WStr9en7kG3FAk/0c6+2BMEnhlg==
+perfume.js@^9.1.0:
+  version "9.1.0"
+  resolved "https://registry.yarnpkg.com/perfume.js/-/perfume.js-9.1.0.tgz#533dfdedb4ca077ce1c728f406ecb6af0b88b9ff"
+  integrity sha512-GM4rGk9Iw1BuM7r47ImLnfJ9WG+YH68CpglU2yEbJePKwyoVD2S1LJtdgUxK4jTbu+WIycjX4hZDjdkqTzLNCA==
   dependencies:
-    web-vitals "^3.1.0"
+    web-vitals "^3.5.0"
 
 picocolors@^1.0.0:
   version "1.0.0"
@@ -7959,10 +7954,10 @@ watchpack@2.4.0, watchpack@^2.4.0:
     glob-to-regexp "^0.4.1"
     graceful-fs "^4.1.2"
 
-web-vitals@^3.1.0:
-  version "3.1.0"
-  resolved "https://registry.npmjs.org/web-vitals/-/web-vitals-3.1.0.tgz"
-  integrity sha512-zCeQ+bOjWjJbXv5ZL0r8Py3XP2doCQMZXNKlBGfUjPAVZWokApdeF/kFlK1peuKlCt8sL9TFkKzyXE9/cmNJQA==
+web-vitals@^3.5.0:
+  version "3.5.0"
+  resolved "https://registry.yarnpkg.com/web-vitals/-/web-vitals-3.5.0.tgz#3a5571f00743ecd059394b61e0adceec7fac2634"
+  integrity sha512-f5YnCHVG9Y6uLCePD4tY8bO/Ge15NPEQWtvm3tPzDKygloiqtb4SVqRHBcrIAqo2ztqX5XueqDn97zHF0LdT6w==
 
 webidl-conversions@^3.0.0:
   version "3.0.1"
