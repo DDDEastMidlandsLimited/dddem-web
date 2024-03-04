@@ -6478,10 +6478,10 @@ pend@~1.2.0:
   resolved "https://registry.npmjs.org/pend/-/pend-1.2.0.tgz"
   integrity sha512-F3asv42UuXchdzt+xXqfW1OGlVBe+mxa2mqI0pg5yAHZPvFmY3Y6drSf/GQ1A86WgWEN9Kzh/WrgKa6iGcHXLg==
 
-perfume.js@^9.2.0:
-  version "9.2.0"
-  resolved "https://registry.yarnpkg.com/perfume.js/-/perfume.js-9.2.0.tgz#4021c3d8f476a939979ed2a6b728866216415952"
-  integrity sha512-nQfWzedTZgeWyy2d8up0DN1TziydR9C1VfQcpF9UaHPYILQtvTrArvnQoAVsa34sT/nD7D94bzy5vJHIGcTM4A==
+perfume.js@^9.3.0:
+  version "9.3.0"
+  resolved "https://registry.yarnpkg.com/perfume.js/-/perfume.js-9.3.0.tgz#70d7b8b5814600e133c365dc3ce9d7d8bd6bcbd7"
+  integrity sha512-o1lFfyC2RbwixIBs1DcwMvvaAe2Q8QYM6rbdxK9DWTxsk/EUrq4KEcPb8gepywJu+7X9gtm3WCH9J0o5J/WnTw==
   dependencies:
     web-vitals "^3.5.0"
 
