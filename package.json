@@ -33,7 +33,7 @@
     "perfume.js": "^9.3.0",
     "postcss": "^8.4.35",
     "react": "^18.2.0",
-    "react-bootstrap": "^2.10.1",
+    "react-bootstrap": "^2.10.2",
     "react-dom": "^18.2.0",
     "react-ga": "^3.3.1"
   },
@@ -65,7 +65,7 @@
     "pa11y-ci": "^3.1.0",
     "prettier": "^3.2.5",
     "pretty-quick": "^4.0.0",
-    "sass": "^1.71.1",
+    "sass": "^1.72.0",
     "webpack": "^5.90.3",
     "webpack-cli": "^5.1.4"
   },
