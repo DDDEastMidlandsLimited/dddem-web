@@ -33,7 +33,7 @@
     "perfume.js": "^9.3.0",
     "postcss": "^8.4.36",
     "react": "^18.2.0",
-    "react-bootstrap": "^2.10.1",
+    "react-bootstrap": "^2.10.2",
     "react-dom": "^18.2.0",
     "react-ga": "^3.3.1"
   },
