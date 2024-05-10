@@ -3,6 +3,7 @@ const withPWA = require('next-pwa')({
   dest: 'public',
 });
 
+
 module.exports = withPWA({
   trailingSlash: true,
   exportPathMap: async function (
@@ -27,6 +28,7 @@ module.exports = withPWA({
 
     return config;
   },
+  output: 'export',
   images: {
     unoptimized: true,
   },
