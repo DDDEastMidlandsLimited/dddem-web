@@ -1365,7 +1365,7 @@
   dependencies:
     glob "10.3.10"
 
-"@next/eslint-plugin-next@^14.2.7":
+"@next/eslint-plugin-next@^14.2.8":
   version "14.2.8"
   resolved "https://registry.yarnpkg.com/@next/eslint-plugin-next/-/eslint-plugin-next-14.2.8.tgz#eccae5b08b323b2be24cced6188394e8716890ed"
   integrity sha512-ue5vcq9Fjk3asACRDrzYjcGMEN7pMMDQ5zUD+FenkqvlPCVUD1x7PxBNOLfPYDZOrk/Vnl4GHmjj2mZDqPW8TQ==
