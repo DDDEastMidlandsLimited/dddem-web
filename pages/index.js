@@ -26,10 +26,12 @@ export default function Index() {
           amazing tech community that has already grown in the East
           Midlands.
         </p>
-      </section> 
-      
+      </section>
+
       <section className="content-section">
-        <h2 className="center" tabIndex="0">Event on hold</h2>
+        <h2 className="center" tabIndex="0">
+          Event on hold
+        </h2>
         <p tabIndex="0">
           The event is being transferred to new ownership. This
           requires some effort but currently plans are for the event
@@ -37,7 +39,7 @@ export default function Index() {
         </p>
       </section>
 
-{/*       <section className="content-section center">
+      {/*       <section className="content-section center">
         <h2 className="center" tabIndex="0">
           Photos from 2023
         </h2>
