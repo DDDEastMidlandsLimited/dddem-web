@@ -17,11 +17,11 @@ export default function Navigation() {
               <Nav.Link href="/">Home</Nav.Link>
             </Nav.Item>
 
-            <Nav.Item>
+            {/*             <Nav.Item>
               <Nav.Link href="/2023/notable-companies">
                 Sponsors and Partners
               </Nav.Link>
-            </Nav.Item>
+            </Nav.Item> */}
 
             <NavDropdown
               tabIndex="0"
@@ -59,22 +59,6 @@ export default function Navigation() {
                 title="Link to Demographics Page"
               >
                 Demographics
-              </NavDropdown.Item>
-              <NavDropdown.Item
-                id="ticket-information"
-                tabIndex="0"
-                href="/information/ticket-information"
-                title="Link to Ticket Information Page"
-              >
-                Tickets
-              </NavDropdown.Item>
-              <NavDropdown.Item
-                id="venue-information"
-                tabIndex="0"
-                href="/information/venue-information"
-                title="Link to Venue Information Page"
-              >
-                Venue
               </NavDropdown.Item>
             </NavDropdown>
 

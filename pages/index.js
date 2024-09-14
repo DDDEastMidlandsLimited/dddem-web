@@ -2,9 +2,6 @@ import React from 'react';
 import Header from '../components/Header';
 import Head from 'next/head';
 import Layout from '../components/Layout';
-import GoldSponsorLogos from '../components/companies/GoldSponsorLogos';
-import ImportantDatesList from '../components/home/ImportantDatesList';
-import dates from '../data/dates';
 
 export default function Index() {
   return (
@@ -31,7 +28,18 @@ export default function Index() {
         </p>
       </section>
 
-      <section className="content-section center">
+      <section className="content-section">
+        <h2 className="center" tabIndex="0">
+          Event on hold
+        </h2>
+        <p tabIndex="0">
+          The event is being transferred to new ownership. This
+          requires some effort but currently plans are for the event
+          to return with a new team in 2026.
+        </p>
+      </section>
+
+      {/*       <section className="content-section center">
         <h2 className="center" tabIndex="0">
           Photos from 2023
         </h2>
@@ -57,23 +65,23 @@ export default function Index() {
             </a>
           </i>
         </p>
-      </section>
+      </section> */}
 
       {/* Gold Sponsors */}
-      <section className="content-section">
+      {/*       <section className="content-section">
         <h2 className="center">2023 Sponsors</h2>
         <GoldSponsorLogos />
       </section>
-
+ */}
       {/* Important Dates */}
-      <section className="content-section">
+      {/*       <section className="content-section">
         <br />
         <br />
         <h2 className="center" tabIndex="0">
           Important Dates
         </h2>
         <ImportantDatesList dates={dates} />
-      </section>
+      </section> */}
 
       {/* Principles */}
       <section className="content-section">
