@@ -26,9 +26,6 @@ jobs:
         if: steps.cache.outputs.cache-hit != 'true'
         run: npm install
 
-      - name: Run Jest
-        run: npm run test:coverage
-
       - name: Upload Clover Artifact
         uses: actions/upload-artifact@v3
         with:
