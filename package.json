@@ -64,7 +64,7 @@
     "pa11y-ci": "^3.1.0",
     "prettier": "^3.3.3",
     "pretty-quick": "^4.0.0",
-    "sass": "^1.81.0",
+    "sass": "^1.81.1",
     "webpack": "^5.96.1",
     "webpack-cli": "^5.1.4"
   },
