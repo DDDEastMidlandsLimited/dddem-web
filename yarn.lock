@@ -1052,10 +1052,10 @@
     minimatch "^3.1.2"
     strip-json-comments "^3.1.1"
 
-"@eslint/js@9.16.0":
-  version "9.16.0"
-  resolved "https://registry.yarnpkg.com/@eslint/js/-/js-9.16.0.tgz#3df2b2dd3b9163056616886c86e4082f45dbf3f4"
-  integrity sha512-tw2HxzQkrbeuvyj1tG2Yqq+0H9wGoI2IMk4EOsQeX+vmd75FtJAzf+gTA69WF+baUKRYQ3x2kbLE08js5OsTVg==
+"@eslint/js@9.17.0":
+  version "9.17.0"
+  resolved "https://registry.yarnpkg.com/@eslint/js/-/js-9.17.0.tgz#1523e586791f80376a6f8398a3964455ecc651ec"
+  integrity sha512-Sxc4hqcs1kTu0iID3kcZDW3JHq2a77HO9P8CP6YEA/FpH3Ll8UXE2r/86Rz9YJLKme39S9vU5OWNjC6Xl0Cr3w==
 
 "@eslint/object-schema@^2.1.4":
   version "2.1.4"
@@ -1079,6 +1079,11 @@
   resolved "https://registry.yarnpkg.com/@fortawesome/fontawesome-common-types/-/fontawesome-common-types-6.7.1.tgz#6201640f39fdcf8e41cd9d1a92b2da3a96817fa4"
   integrity sha512-gbDz3TwRrIPT3i0cDfujhshnXO9z03IT1UKRIVi/VEjpNHtSBIP2o5XSm+e816FzzCFEzAxPw09Z13n20PaQJQ==
 
+"@fortawesome/fontawesome-common-types@6.7.2":
+  version "6.7.2"
+  resolved "https://registry.yarnpkg.com/@fortawesome/fontawesome-common-types/-/fontawesome-common-types-6.7.2.tgz#7123d74b0c1e726794aed1184795dbce12186470"
+  integrity sha512-Zs+YeHUC5fkt7Mg1l6XTniei3k4bwG/yo3iFUtZWd/pMx9g3fdvkSK9E0FOC+++phXOka78uJcYb8JaFkW52Xg==
+
 "@fortawesome/fontawesome-svg-core@^6.5.2":
   version "6.5.2"
   resolved "https://registry.npmjs.org/@fortawesome/fontawesome-svg-core/-/fontawesome-svg-core-6.5.2.tgz"
@@ -1093,12 +1098,12 @@
   dependencies:
     "@fortawesome/fontawesome-common-types" "6.7.1"
 
-"@fortawesome/free-solid-svg-icons@^6.7.1":
-  version "6.7.1"
-  resolved "https://registry.yarnpkg.com/@fortawesome/free-solid-svg-icons/-/free-solid-svg-icons-6.7.1.tgz#c1f9a6c25562a12c283e87e284f9d82a5b0dbcc0"
-  integrity sha512-BTKc0b0mgjWZ2UDKVgmwaE0qt0cZs6ITcDgjrti5f/ki7aF5zs+N91V6hitGo3TItCFtnKg6cUVGdTmBFICFRg==
+"@fortawesome/free-solid-svg-icons@^6.7.2":
+  version "6.7.2"
+  resolved "https://registry.yarnpkg.com/@fortawesome/free-solid-svg-icons/-/free-solid-svg-icons-6.7.2.tgz#fe25883b5eb8464a82918599950d283c465b57f6"
+  integrity sha512-GsBrnOzU8uj0LECDfD5zomZJIjrPhIlWU82AHwa2s40FKH+kcxQaBvBo3Z4TxyZHIyX8XTDxsyA33/Vx9eFuQA==
   dependencies:
-    "@fortawesome/fontawesome-common-types" "6.7.1"
+    "@fortawesome/fontawesome-common-types" "6.7.2"
 
 "@fortawesome/react-fontawesome@^0.2.2":
   version "0.2.2"
@@ -1513,14 +1518,7 @@
   resolved "https://registry.yarnpkg.com/@next/env/-/env-15.1.0.tgz#35b00a5f60ff10dc275182928c325d25c29379ae"
   integrity sha512-UcCO481cROsqJuszPPXJnb7GGuLq617ve4xuAyyNG4VSSocJNtMU5Fsx+Lp6mlN8c7W58aZLc5y6D/2xNmaK+w==
 
-"@next/eslint-plugin-next@15.0.4":
-  version "15.0.4"
-  resolved "https://registry.yarnpkg.com/@next/eslint-plugin-next/-/eslint-plugin-next-15.0.4.tgz#8bca5d39e39d172d64d9c36af55c1b49ef60b684"
-  integrity sha512-rbsF17XGzHtR7SDWzWpavSfum3/UdnF8bAaisnKwP//si3KWPTedVUsflAdjyK1zW3rweBjbALfKcavFneLGvg==
-  dependencies:
-    fast-glob "3.3.1"
-
-"@next/eslint-plugin-next@^15.1.1":
+"@next/eslint-plugin-next@15.1.1", "@next/eslint-plugin-next@^15.1.1":
   version "15.1.1"
   resolved "https://registry.yarnpkg.com/@next/eslint-plugin-next/-/eslint-plugin-next-15.1.1.tgz#983d70cc09b0160be67e8819e98681ee3765d0ad"
   integrity sha512-yACipsS2HI9ktcfz/1UsO0/sDbVjXWKDE/fzzMLnYES+K4KJyqHChyBQeaxiK7/NDnxrdk7Ow2i9LRm3ZTAWow==
@@ -1707,10 +1705,10 @@
   dependencies:
     dequal "^2.0.3"
 
-"@restart/ui@^1.9.0":
-  version "1.9.1"
-  resolved "https://registry.yarnpkg.com/@restart/ui/-/ui-1.9.1.tgz#f0f22d255470e02f6fee6dcc449e56f0f1b8ebc1"
-  integrity sha512-qghR21ynHiUrpcIkKCoKYB+3rJtezY5Y7ikrwradCL+7hZHdQ2Ozc5ffxtpmpahoAGgc31gyXaSx2sXXaThmqA==
+"@restart/ui@^1.9.2":
+  version "1.9.2"
+  resolved "https://registry.yarnpkg.com/@restart/ui/-/ui-1.9.2.tgz#dad8f084e6a56f87f9799dbc248af04168ffc03b"
+  integrity sha512-MWWqJqSyqUWWPBOOiRQrX57CBc/9CoYONg7sE+uag72GCAuYrHGU5c49vU5s4BUSBgiKNY6rL7TULqGDrouUaA==
   dependencies:
     "@babel/runtime" "^7.26.0"
     "@popperjs/core" "^2.11.8"
@@ -2005,10 +2003,10 @@
   resolved "https://registry.npmjs.org/@types/parse-json/-/parse-json-4.0.2.tgz"
   integrity sha512-dISoDXWWQwUquiKsyZ4Ng+HX2KsPL7LyHKHQwgGFEA3IaKac4Obd+h2a/a6waisAoepJlBcx9paWqjA8/HVjCw==
 
-"@types/prop-types@*":
-  version "15.7.12"
-  resolved "https://registry.npmjs.org/@types/prop-types/-/prop-types-15.7.12.tgz"
-  integrity sha512-5zvhXYtRNRluoE/jAp4GVsSduVUzNWKkOZrCDBWYtE7biZywwdC2AcEzg+cSMLFRfVgeAFqpfNabiPjxFddV1Q==
+"@types/prop-types@*", "@types/prop-types@^15.7.12":
+  version "15.7.14"
+  resolved "https://registry.yarnpkg.com/@types/prop-types/-/prop-types-15.7.14.tgz#1433419d73b2a7ebfc6918dcefd2ec0d5cd698f2"
+  integrity sha512-gNMvNH49DJ7OJYv+KAKn0Xp45p8PLl6zo2YnvDIbTd4J6MER2BmWN49TG7n9LvkyihINxeKW8+3bfS2yDC9dzQ==
 
 "@types/react-dom@^18.0.0":
   version "18.3.0"
@@ -3744,10 +3742,10 @@ cross-spawn@7.0.3:
     shebang-command "^2.0.0"
     which "^2.0.1"
 
-cross-spawn@^7.0.0, cross-spawn@^7.0.3, cross-spawn@^7.0.5:
-  version "7.0.5"
-  resolved "https://registry.yarnpkg.com/cross-spawn/-/cross-spawn-7.0.5.tgz#910aac880ff5243da96b728bc6521a5f6c2f2f82"
-  integrity sha512-ZVJrKKYunU38/76t0RMOulHOnUcbU9GbpWKAOZ0mhjr7CX6FVrH+4FrAapSOekrgFQ3f/8gwMEuIft0aKq6Hug==
+cross-spawn@^7.0.0, cross-spawn@^7.0.3, cross-spawn@^7.0.6:
+  version "7.0.6"
+  resolved "https://registry.yarnpkg.com/cross-spawn/-/cross-spawn-7.0.6.tgz#8a58fe78f00dcd70c370451759dfbfaf03e8ee9f"
+  integrity sha512-uV2QOWP2nWzsy2aMp8aRibhi9dlzF5Hgh5SHaB9OiTGEyDTiJJyx0uy51QXdyWbtAHNua4XJzUKca3OzKUd3vA==
   dependencies:
     path-key "^3.1.0"
     shebang-command "^2.0.0"
@@ -4416,17 +4414,17 @@ eslint-visitor-keys@^4.2.0:
   resolved "https://registry.yarnpkg.com/eslint-visitor-keys/-/eslint-visitor-keys-4.2.0.tgz#687bacb2af884fcdda8a6e7d65c606f46a14cd45"
   integrity sha512-UyLnSehNt62FFhSwjZlHmeokpRK59rcz29j+F1/aDgbkbRTk7wIc9XzdoasMUbRNKDM0qQt/+BJ4BrpFeABemw==
 
-eslint@^9.16.0:
-  version "9.16.0"
-  resolved "https://registry.yarnpkg.com/eslint/-/eslint-9.16.0.tgz#66832e66258922ac0a626f803a9273e37747f2a6"
-  integrity sha512-whp8mSQI4C8VXd+fLgSM0lh3UlmcFtVwUQjyKCFfsp+2ItAIYhlq/hqGahGqHE6cv9unM41VlqKk2VtKYR2TaA==
+eslint@^9.17.0:
+  version "9.17.0"
+  resolved "https://registry.yarnpkg.com/eslint/-/eslint-9.17.0.tgz#faa1facb5dd042172fdc520106984b5c2421bb0c"
+  integrity sha512-evtlNcpJg+cZLcnVKwsai8fExnqjGPicK7gnUtlNuzu+Fv9bI0aLpND5T44VLQtoMEnI57LoXO9XAkIXwohKrA==
   dependencies:
     "@eslint-community/eslint-utils" "^4.2.0"
     "@eslint-community/regexpp" "^4.12.1"
     "@eslint/config-array" "^0.19.0"
     "@eslint/core" "^0.9.0"
     "@eslint/eslintrc" "^3.2.0"
-    "@eslint/js" "9.16.0"
+    "@eslint/js" "9.17.0"
     "@eslint/plugin-kit" "^0.2.3"
     "@humanfs/node" "^0.16.6"
     "@humanwhocodes/module-importer" "^1.0.1"
@@ -4435,7 +4433,7 @@ eslint@^9.16.0:
     "@types/json-schema" "^7.0.15"
     ajv "^6.12.4"
     chalk "^4.0.0"
-    cross-spawn "^7.0.5"
+    cross-spawn "^7.0.6"
     debug "^4.3.2"
     escape-string-regexp "^4.0.0"
     eslint-scope "^8.2.0"
@@ -7020,14 +7018,15 @@ randombytes@^2.1.0:
   dependencies:
     safe-buffer "^5.1.0"
 
-react-bootstrap@^2.10.6:
-  version "2.10.6"
-  resolved "https://registry.yarnpkg.com/react-bootstrap/-/react-bootstrap-2.10.6.tgz#cb8b6f3604480b99b1e3cfa09cf53446e760bba7"
-  integrity sha512-fNvKytSp0nHts1WRnRBJeBEt+I9/ZdrnhIjWOucEduRNvFRU1IXjZueDdWnBiqsTSJ7MckQJi9i/hxGolaRq+g==
+react-bootstrap@^2.10.7:
+  version "2.10.7"
+  resolved "https://registry.yarnpkg.com/react-bootstrap/-/react-bootstrap-2.10.7.tgz#63954e8faa6f0d28d9c755e5f8fbd27b5b09764a"
+  integrity sha512-w6mWb3uytB5A18S2oTZpYghcOUK30neMBBvZ/bEfA+WIF2dF4OGqjzoFVMpVXBjtyf92gkmRToHlddiMAVhQqQ==
   dependencies:
     "@babel/runtime" "^7.24.7"
     "@restart/hooks" "^0.4.9"
-    "@restart/ui" "^1.9.0"
+    "@restart/ui" "^1.9.2"
+    "@types/prop-types" "^15.7.12"
     "@types/react-transition-group" "^4.4.6"
     classnames "^2.3.2"
     dom-helpers "^5.2.1"
