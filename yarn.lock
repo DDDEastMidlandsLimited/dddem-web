@@ -1568,10 +1568,12 @@
   resolved "https://registry.yarnpkg.com/@next/env/-/env-15.3.2.tgz#7143eafa9b11cfdf3d3c7318b0facb9dfdb2948f"
   integrity sha512-xURk++7P7qR9JG1jJtLzPzf0qEvqCN0A/T3DXf8IPMKo9/6FfjxtEffRJIIew/bIL4T3C2jLLqBor8B/zVlx6g==
 
-"@next/eslint-plugin-next@15.3.0", "@next/eslint-plugin-next@^15.3.0":
-  version "15.3.0"
-  resolved "https://registry.yarnpkg.com/@next/swc-darwin-arm64/-/swc-darwin-arm64-15.3.0.tgz#804660ea060920ed9835d079a0af64552771ccf4"
-  integrity sha512-PDQcByT0ZfF2q7QR9d+PNj3wlNN4K6Q8JoHMwFyk252gWo4gKt7BF8Y2+KBgDjTFBETXZ/TkBEUY7NIIY7A/Kw==
+"@next/eslint-plugin-next@15.3.2", "@next/eslint-plugin-next@^15.3.2":
+  version "15.3.2"
+  resolved "https://registry.yarnpkg.com/@next/eslint-plugin-next/-/eslint-plugin-next-15.3.2.tgz#6a371b022d6de47f2bafc868c7c2220f4e6a2903"
+  integrity sha512-ijVRTXBgnHT33aWnDtmlG+LJD+5vhc9AKTJPquGG5NKXjpKNjc62woIhFtrAcWdBobt8kqjCoaJ0q6sDQoX7aQ==
+  dependencies:
+    fast-glob "3.3.1"
 
 "@next/swc-darwin-arm64@15.3.2":
   version "15.3.2"
@@ -4629,6 +4631,17 @@ fast-diff@^1.1.2:
   resolved "https://registry.npmjs.org/fast-diff/-/fast-diff-1.3.0.tgz"
   integrity sha512-VxPP4NqbUjj6MaAOafWeUn2cXWLcCtljklUtZf0Ind4XQ+QPtmA0b18zZy0jIQx+ExRVCR/ZQpBmik5lXshNsw==
 
+fast-glob@3.3.1:
+  version "3.3.1"
+  resolved "https://registry.yarnpkg.com/fast-glob/-/fast-glob-3.3.1.tgz#784b4e897340f3dbbef17413b3f11acf03c874c4"
+  integrity sha512-kNFPyjhh5cKjrUltxs+wFx+ZkbRaxxmZ+X0ZU31SOsxCEtP9VPgtq2teZw1DebupL5GmDaNQ6yKMMVcM41iqDg==
+  dependencies:
+    "@nodelib/fs.stat" "^2.0.2"
+    "@nodelib/fs.walk" "^1.2.3"
+    glob-parent "^5.1.2"
+    merge2 "^1.3.0"
+    micromatch "^4.0.4"
+
 fast-glob@^3.2.9, fast-glob@^3.3.1, fast-glob@^3.3.2, fast-glob@^3.3.3:
   version "3.3.3"
   resolved "https://registry.yarnpkg.com/fast-glob/-/fast-glob-3.3.3.tgz#d06d585ce8dba90a16b0505c543c3ccfb3aeb818"
@@ -5938,10 +5951,10 @@ jest-snapshot@^29.7.0:
     pretty-format "^29.7.0"
     semver "^7.5.3"
 
-jest-transform-css@^6.0.2:
-  version "6.0.2"
-  resolved "https://registry.npmjs.org/jest-transform-css/-/jest-transform-css-6.0.2.tgz"
-  integrity sha512-lT+8PzgsRivRT1SWHvkJPeYhDk7nffyZZOgpp+mPAt+25djBp1ensSOeyaO7QWucVqPzBFyDU++syRDOf52H0w==
+jest-transform-css@^6.0.3:
+  version "6.0.3"
+  resolved "https://registry.yarnpkg.com/jest-transform-css/-/jest-transform-css-6.0.3.tgz#9969a6172f7b4a46f97a6ce3ed89068faaa0b823"
+  integrity sha512-ui/mHweqM6S526cqvEoMszy3njrNmqDzDhOROe58/GTMYdrBNJT35vxwIg/6c52Y7lPMJgJ5XG3qea/RWIpEug==
   dependencies:
     common-tags "1.8.2"
     cross-spawn "^7.0.6"
