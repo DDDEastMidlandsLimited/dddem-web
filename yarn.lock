@@ -5951,10 +5951,10 @@ jest-snapshot@^29.7.0:
     pretty-format "^29.7.0"
     semver "^7.5.3"
 
-jest-transform-css@^6.0.2:
-  version "6.0.2"
-  resolved "https://registry.npmjs.org/jest-transform-css/-/jest-transform-css-6.0.2.tgz"
-  integrity sha512-lT+8PzgsRivRT1SWHvkJPeYhDk7nffyZZOgpp+mPAt+25djBp1ensSOeyaO7QWucVqPzBFyDU++syRDOf52H0w==
+jest-transform-css@^6.0.3:
+  version "6.0.3"
+  resolved "https://registry.yarnpkg.com/jest-transform-css/-/jest-transform-css-6.0.3.tgz#9969a6172f7b4a46f97a6ce3ed89068faaa0b823"
+  integrity sha512-ui/mHweqM6S526cqvEoMszy3njrNmqDzDhOROe58/GTMYdrBNJT35vxwIg/6c52Y7lPMJgJ5XG3qea/RWIpEug==
   dependencies:
     common-tags "1.8.2"
     cross-spawn "^7.0.6"
