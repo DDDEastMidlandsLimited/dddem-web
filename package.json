@@ -46,7 +46,7 @@
     "babel-jest": "^29.7.0",
     "babel-preset-env": "^1.7.0",
     "babel-preset-react": "^6.24.1",
-    "eslint": "^9.27.0",
+    "eslint": "^9.29.0",
     "eslint-config-next": "^15.3.0",
     "eslint-config-prettier": "^10.1.5",
     "eslint-config-next": "^15.3.3",
