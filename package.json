@@ -57,7 +57,7 @@
     "glob": "^11.0.3",
     "globby": "^14.1.0",
     "husky": "^9.1.7",
-    "jest": "^30.0.0",
+    "jest": "^30.0.4",
     "jest-environment-jsdom": "^30.0.4",
     "jest-junit": "^16.0.0",
     "jest-transform-css": "^6.0.3",
