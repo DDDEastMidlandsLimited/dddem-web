@@ -60,6 +60,15 @@ export default function Navigation() {
               >
                 Demographics
               </NavDropdown.Item>
+              <NavDropdown.Divider />
+              <NavDropdown.Item
+                id="app-settings"
+                tabIndex="0"
+                href="/app-settings"
+                title="App Settings & Notifications"
+              >
+                App Settings
+              </NavDropdown.Item>
             </NavDropdown>
 
             <NavDropdown
