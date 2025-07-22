@@ -10,4 +10,4 @@ pa11y-output.json
 
 public/sw.js
 public/sw.js.map
-public/workbox*
+public/workbox*out/
