@@ -55,7 +55,8 @@ export default function DylanBeattie() {
           organisations. Whether you think it&apos;s sensitive or not,
           it has value. Whether an attacker wants data for profit, a
           grudge, or just for fun we need to ensure that we don&apos;t
-          just leave the door open for them to take what they want.{' '}
+          just leave the door open for them to take what they
+          want.{' '}
         </p>
         <p tabIndex="0">
           In this session we&apos;ll start to think like a hacker. The

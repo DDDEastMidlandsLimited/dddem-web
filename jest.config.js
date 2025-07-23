@@ -1,7 +1,11 @@
 module.exports = {
   testEnvironment: 'jsdom',
   testMatch: ['**/*.(test|spec).(js)', '**/__tests__/**/*.(js)'],
-  testPathIgnorePatterns: ['<rootDir>/.next/', '<rootDir>/out/', '/tests/sitemap-validation.test.js'],
+  testPathIgnorePatterns: [
+    '<rootDir>/.next/',
+    '<rootDir>/out/',
+    '/tests/sitemap-validation.test.js',
+  ],
   setupFilesAfterEnv: ['<rootDir>/setupTests.js'],
   transform: {
     '^.+\\.js$': 'babel-jest',

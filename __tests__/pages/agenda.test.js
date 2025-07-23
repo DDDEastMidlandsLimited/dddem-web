@@ -50,7 +50,9 @@ describe('Agenda Page', () => {
 
   test('should display sessionize loader element', () => {
     const { container } = render(<Agenda />);
-    const sessionizeLoader = container.querySelector('.sessionize-loader');
+    const sessionizeLoader = container.querySelector(
+      '.sessionize-loader',
+    );
     expect(sessionizeLoader).toBeInTheDocument();
     expect(sessionizeLoader).toHaveAttribute(
       'data-sessionize-load-url',
