@@ -13,6 +13,10 @@ const GoogleAnalytics = dynamic(() => import('./GoogleAnalytics'), {
   ssr: false,
 });
 
+const PWAFeatures = dynamic(() => import('./PWAFeatures'), {
+  ssr: false,
+});
+
 export default function Layout({ children }) {
   return (
     <div className="container">
@@ -20,6 +24,7 @@ export default function Layout({ children }) {
       <Navigation />
       <PerformanceAnalytics />
       <GoogleAnalytics />
+      <PWAFeatures />
       {children}
       <Footer />
     </div>
