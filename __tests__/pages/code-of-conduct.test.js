@@ -56,8 +56,12 @@ describe('Code of Conduct Page', () => {
 
   test('should display reporting section', () => {
     const { getByText } = render(<CodeOfConduct />);
-    expect(getByText('Reporting Code Of Conduct Violations')).toBeInTheDocument();
-    expect(getByText(/The volunteers of the conference/)).toBeInTheDocument();
+    expect(
+      getByText('Reporting Code Of Conduct Violations'),
+    ).toBeInTheDocument();
+    expect(
+      getByText(/The volunteers of the conference/),
+    ).toBeInTheDocument();
     expect(
       getByText(/The conference organisers \(Jessica \/ Moreton\)/),
     ).toBeInTheDocument();
@@ -65,6 +69,8 @@ describe('Code of Conduct Page', () => {
 
   test('should display job approaching guidelines', () => {
     const { getByText } = render(<CodeOfConduct />);
-    expect(getByText('Approaching People About Jobs')).toBeInTheDocument();
+    expect(
+      getByText('Approaching People About Jobs'),
+    ).toBeInTheDocument();
   });
 });
