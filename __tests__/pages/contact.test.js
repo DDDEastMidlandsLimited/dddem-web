@@ -35,7 +35,9 @@ describe('Contact Page', () => {
     const { getAllByText, getByText } = render(<Contact />);
     expect(getAllByText('On The Day')[0]).toBeInTheDocument();
     expect(
-      getByText(/The two best ways to get in contact with the organisers/),
+      getByText(
+        /The two best ways to get in contact with the organisers/,
+      ),
     ).toBeInTheDocument();
   });
 
@@ -47,10 +49,14 @@ describe('Contact Page', () => {
 
   test('should display social media information', () => {
     const { getAllByText, getByText } = render(<Contact />);
-    expect(getAllByText('DDD East Midlands Accounts')[0]).toBeInTheDocument();
+    expect(
+      getAllByText('DDD East Midlands Accounts')[0],
+    ).toBeInTheDocument();
     expect(getByText('#DDDEM')).toBeInTheDocument();
     expect(getAllByText('@dddeastmidlands')[0]).toBeInTheDocument();
-    expect(getByText('DDD East Midlands Limited')).toBeInTheDocument();
+    expect(
+      getByText('DDD East Midlands Limited'),
+    ).toBeInTheDocument();
   });
 
   test('should display organiser contact information', () => {

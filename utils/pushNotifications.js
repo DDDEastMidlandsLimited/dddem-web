@@ -189,7 +189,9 @@ export function showLocalNotification(title, options = {}) {
   if (getNotificationPermission() !== 'granted') {
     if (process.env.NODE_ENV === 'development') {
       // eslint-disable-next-line no-console
-      console.warn('Cannot show notification: permission not granted');
+      console.warn(
+        'Cannot show notification: permission not granted',
+      );
     }
     return;
   }
