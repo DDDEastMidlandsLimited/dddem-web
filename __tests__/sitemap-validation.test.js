@@ -39,8 +39,13 @@ describe('Sitemap URL Validation', () => {
   // Helper function to convert remote URLs to local file paths
   const getLocalFilePath = (url) => {
     const baseUrl = 'https://www.dddeastmidlands.com';
-    if (!url.startsWith(baseUrl)) {
-      return null;
+    try {
+      const parsedUrl = new URL(url);
+      if (parsedUrl.host !== 'www.dddeastmidlands.com') {
+        return null;
+      }
+    } catch (e) {
+      return null; // Return null for invalid URLs
     }
 
     let relativePath = url.replace(baseUrl, '');
