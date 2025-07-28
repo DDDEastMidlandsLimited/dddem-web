@@ -37,16 +37,16 @@ describe('Homepage (Index)', () => {
     const { getByText } = render(<Index />);
     expect(
       getByText(
-        /DDD East Midlands is an inclusive, not-for-profit technology conference/,
+        /DDD East Midlands was an inclusive, not-for-profit technology conference/,
       ),
     ).toBeInTheDocument();
   });
 
   test('should display event status information', () => {
     const { getByText } = render(<Index />);
-    expect(getByText('Event on hold')).toBeInTheDocument();
+    expect(getByText('Event on hold indefinitely')).toBeInTheDocument();
     expect(
-      getByText(/The event is being transferred to new ownership/),
+      getByText(/We are incredibly proud of the events we ran/),
     ).toBeInTheDocument();
   });
 
@@ -61,23 +61,23 @@ describe('Homepage (Index)', () => {
   test('should display DDD principles', () => {
     const { getByText } = render(<Index />);
     expect(
-      getByText(/The event is hosted on a Saturdayk/),
+      getByText(/The event was hosted on a Saturday/),
     ).toBeInTheDocument();
     expect(
-      getByText(/Tickets to attend the event are free/),
+      getByText(/Tickets to attend the event were free/),
     ).toBeInTheDocument();
   });
 
   test('should display additional principles', () => {
     const { getByText } = render(<Index />);
     expect(
-      getByText(/All talk submissions are anonymous/),
+      getByText(/All talk submissions were anonymous/),
     ).toBeInTheDocument();
     expect(
-      getByText(/There is a anonymised democratic selection process/),
+      getByText(/There was an anonymised, democratic selection process/),
     ).toBeInTheDocument();
     expect(
-      getByText(/The event is arranged with the community in mind/),
+      getByText(/The event was arranged with the community in mind/),
     ).toBeInTheDocument();
   });
 });

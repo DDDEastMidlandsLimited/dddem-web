@@ -158,7 +158,6 @@ export default function Contact() {
             <h2 tabIndex="0">Co-Founder and Co-Organiser</h2>
             <ul tabIndex="0">
               <li tabIndex="0">
-              <li tabIndex="0">
                 <strong>LinkedIn:</strong>{' '}
                 <a
                   href="https://www.linkedin.com/in/jessica-brentnall/"
