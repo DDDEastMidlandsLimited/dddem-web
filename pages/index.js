@@ -19,8 +19,8 @@ export default function Index() {
 
       <section className="content-section">
         <p tabIndex="0">
-          DDD East Midlands is an inclusive, not-for-profit technology
-          conference that celebrates the unique tech, talent and
+          DDD East Midlands was an inclusive, not-for-profit technology
+          conference that celebrated the unique tech, talent and
           companies that the East Midlands has to offer. This event is
           run by community members to promote collaboration and the
           amazing tech community that has already grown in the East
@@ -30,82 +30,46 @@ export default function Index() {
 
       <section className="content-section">
         <h2 className="center" tabIndex="0">
-          Event on hold
+          Event on hold indefinitely.
         </h2>
         <p tabIndex="0">
-          The event is being transferred to new ownership. This
-          requires some effort but currently plans are for the event
-          to return with a new team in 2026.
+          Sadly, new ownership could not be found for the event.
+        </p>
+        <p tabIndex="0">
+          We are incredibly proud of the events we ran, the speakers 
+          who presented, the fantastic crew and the community. 
+          If we could have found new owners or more help, we would have continued, 
+          but it wasn't meant to be.
+        </p>
+        <p tabIndex="0">
+          This website will stay hosted as a memorial to the conference. 
+          Who knows, maybe some day someone will pick up where we left off.
+          We would be in full support of that, and would help where possible.
         </p>
       </section>
 
-      {/*       <section className="content-section center">
-        <h2 className="center" tabIndex="0">
-          Photos from 2023
-        </h2>
-        <iframe
-          src="https://albumizr.com/a/J-0W"
-          scrolling="no"
-          frameBorder="0"
-          allowFullScreen
-          width="80%"
-          height="500"
-          title="2021 Album"
-        ></iframe>
-        <p tabIndex="0">
-          <i>
-            Photographs by{' '}
-            <a
-              href="https://kirstyrockett.com/"
-              target="_blank"
-              rel="noreferrer"
-              tabIndex="0"
-            >
-              Kirsty Rocket.
-            </a>
-          </i>
-        </p>
-      </section> */}
-
-      {/* Gold Sponsors */}
-      {/*       <section className="content-section">
-        <h2 className="center">2023 Sponsors</h2>
-        <GoldSponsorLogos />
-      </section>
- */}
-      {/* Important Dates */}
-      {/*       <section className="content-section">
-        <br />
-        <br />
-        <h2 className="center" tabIndex="0">
-          Important Dates
-        </h2>
-        <ImportantDatesList dates={dates} />
-      </section> */}
-
-      {/* Principles */}
       <section className="content-section">
         <br />
         <h2 className="center" tabIndex="0">
           Principles
         </h2>
         <p tabIndex="0">
-          This conference follows these DDD principles:
+          This conference followed these DDD principles:
         </p>
         <ul>
-          <li tabIndex="0">The event is hosted on a Saturdayk.</li>
-          <li tabIndex="0">Tickets to attend the event are free.</li>
+          <li tabIndex="0">The event was hosted on a Saturday.</li>
+          <li tabIndex="0">Tickets to attend the event were free.</li>
         </ul>
         <p tabIndex="0">As well as these following principles:</p>
         <ul>
-          <li tabIndex="0">All talk submissions are anonymous.</li>
+          <li tabIndex="0">All talk submissions were anonymous.</li>
           <li tabIndex="0">
-            There is a anonymised democratic selection process for
-            talks which involves attendees voting for what they want
+            There was an anonymised, democratic selection process for
+            talks which involved attendees voting for what they wanted
             to see.
           </li>
           <li tabIndex="0">
-            The event is arranged with the community in mind.
+            The event was arranged with the community in mind.
           </li>
         </ul>
         <br />

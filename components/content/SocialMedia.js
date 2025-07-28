@@ -39,26 +39,6 @@ export default function SocialMedia() {
       <p>Hashtags: #dddeastmidlands</p>
       <ul>
         <li tabIndex="0">
-          Twitter:{' '}
-          <a
-            href="https://twitter.com/dddeastmidlands"
-            target="_blank"
-            rel="noreferrer"
-          >
-            @dddeastmidlands
-          </a>
-        </li>
-        <li tabIndex="0">
-          Mastodon:{' '}
-          <a
-            href="https://hachyderm.io/@dddem@mastodon.me.uk"
-            target="_blank"
-            rel="noreferrer"
-          >
-            @dddem@mastodon.me.uk
-          </a>
-        </li>
-        <li tabIndex="0">
           LinkedIn:{' '}
           <a
             href="https://www.linkedin.com/company/ddd-east-midlands-limited/"

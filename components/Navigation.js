@@ -17,12 +17,6 @@ export default function Navigation() {
               <Nav.Link href="/">Home</Nav.Link>
             </Nav.Item>
 
-            {/*             <Nav.Item>
-              <Nav.Link href="/2023/notable-companies">
-                Sponsors and Partners
-              </Nav.Link>
-            </Nav.Item> */}
-
             <NavDropdown
               tabIndex="0"
               title="Information"
