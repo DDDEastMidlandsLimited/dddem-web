@@ -35,12 +35,16 @@ export default function Contact() {
         </p>
         <p tabIndex="0">
           <strong>
-            <a href="#jessicawhite">Jessica Brentnall (prev. White)</a>
+            <a href="#jessicawhite">
+              Jessica Brentnall (prev. White)
+            </a>
           </strong>
         </p>
         <p tabIndex="0">
           <strong>
-            <a href="#moretonbrockley">Moreton Brentnall (prev. Brockley)</a>
+            <a href="#moretonbrockley">
+              Moreton Brentnall (prev. Brockley)
+            </a>
           </strong>
         </p>
       </section>

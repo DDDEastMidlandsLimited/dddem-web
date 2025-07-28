@@ -44,7 +44,9 @@ describe('Homepage (Index)', () => {
 
   test('should display event status information', () => {
     const { getByText } = render(<Index />);
-    expect(getByText('Event on hold indefinitely.')).toBeInTheDocument();
+    expect(
+      getByText('Event on hold indefinitely.'),
+    ).toBeInTheDocument();
     expect(
       getByText(/We are incredibly proud of the events we ran/),
     ).toBeInTheDocument();
@@ -74,7 +76,9 @@ describe('Homepage (Index)', () => {
       getByText(/All talk submissions were anonymous/),
     ).toBeInTheDocument();
     expect(
-      getByText(/There was an anonymised, democratic selection process/),
+      getByText(
+        /There was an anonymised, democratic selection process/,
+      ),
     ).toBeInTheDocument();
     expect(
       getByText(/The event was arranged with the community in mind/),
