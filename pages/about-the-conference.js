@@ -19,12 +19,12 @@ export default function ConferenceInformation() {
         <h1 tabIndex="0">Contents</h1>
         <p>
           <strong>
-            <a href="#about">What Is DDD East Midlands?</a>
+            <a href="#about">What Was DDD East Midlands?</a>
           </strong>
         </p>
         <p>
           <strong>
-            <a href="#ddd">What does the DDD stand for?</a>
+            <a href="#ddd">What did the DDD stand for?</a>
           </strong>
         </p>
         <p>
@@ -70,33 +70,36 @@ export default function ConferenceInformation() {
 
       <section className="content-section" id="about">
         <a name="about" />
-        <h1 tabIndex="0">What Is DDD East Midlands?</h1>
-        <p tabIndex="0">A Conference Celebrating the East Midlands</p>
+        <h1 tabIndex="0">What Was DDD East Midlands?</h1>
         <p tabIndex="0">
-          The East Midlands tech scene is incredibly diverse - it is
+          A Conference That Celebrated the East Midlands
+        </p>
+        <p tabIndex="0">
+          The East Midlands tech scene was incredibly diverse - it was
           the perfect blend of professional corporates, innovative
           independents, and well-funded start ups. This unique and
-          perfect mix of traditional and contemporary is reflected in
-          the DDD East Midlands Conference. We are part of the
+          perfect mix of traditional and contemporary was reflected in
+          the DDD East Midlands Conference. We were part of the
           multi-national DDD conference community, but with a focus on
           promoting the talent, companies and the amazing tech
-          community that the East Midlands has to offer.
+          community that the East Midlands had to offer.
         </p>
         <ul>
           <li tabIndex="0">
-            We want to promote inclusivity, support and camaraderie.
+            We wanted to promote inclusivity, support and camaraderie.
           </li>
           <li tabIndex="0">
-            We want to encourage members of the local tech community
+            We wanted to encourage members of the local tech community
             to do a talk
           </li>
           <li tabIndex="0">
-            Hosted in a beautiful, modern building, which is one of
+            Hosted in a beautiful, modern building, which was one of
             the largest educational buildings in Nottingham City
             Centre.
           </li>
           <li tabIndex="0">
-            Talks submitted anonymously and voted on by attendees.
+            Talks were submitted anonymously and voted on by
+            attendees.
           </li>
           <li tabIndex="0">
             A keynote and a range of talks split into 3 tracks.
@@ -106,20 +109,20 @@ export default function ConferenceInformation() {
 
       <section className="content-section" id="ddd">
         <a name="ddd" />
-        <h1 tabIndex="0">What does the DDD stand for?</h1>
+        <h1 tabIndex="0">What did the DDD stand for?</h1>
         <p tabIndex="0">
-          DDD stands for (in this case){' '}
+          DDD stood for (in this case){' '}
           <b>Developer! Developer! Developer!</b>
         </p>
         <p tabIndex="0">
-          Developer! Developer! Developer! is an umbrella, open-source
-          conference format. By naming ourselves DDD, and associating
-          ourselves with similar events, we abide by certain
-          principles. Other than that, this conference is by the East
-          Midlands community for the East Midlands community and is
-          unique in its own right. There is more information about
-          Developer! Developer! Developer! further down this page for
-          those interested.
+          Developer! Developer! Developer! was an umbrella,
+          open-source conference format. By naming ourselves DDD, and
+          associating ourselves with similar events, we abided by
+          certain principles. Other than that, this conference was by
+          the East Midlands community for the East Midlands community
+          and was unique in its own right. There was more information
+          about Developer! Developer! Developer! further down this
+          page for those interested.
         </p>
         <p tabIndex="0">
           DDD was first formed as a conference in 2005, the first
@@ -127,17 +130,16 @@ export default function ConferenceInformation() {
           many spin-off events across the world.
         </p>
         <p tabIndex="0">
-          The aims of the original DDD was to provide free technical
-          education. During it’s more than 10-year history, it has
-          nurtured talented speakers, who have gone on to become
-          Microsoft Most Valuable Professionals, Microsoft FTEs and to
-          present at National and International Conferences.
+          The aims of the original DDD were to provide free technical
+          education. During its more than 10-year history, it nurtured
+          nurtured talented speakers, who went on to become Microsoft
+          Most Valuable Professionals, Microsoft FTEs and to present
+          at National and International Conferences.
         </p>
         <p tabIndex="0">
-          Though the original DDD conference is focused on .NET, DDD
-          East Midlands is going to be open to a range of talks within
-          the field of technology. It is language and technology
-          agnostic.
+          Though the original DDD conference was focused on .NET, DDD
+          East Midlands was open to a range of talks within the field
+          of technology. It was language and technology agnostic.
         </p>
       </section>
 
@@ -145,24 +147,24 @@ export default function ConferenceInformation() {
         <a name="principles" />
         <h1 tabIndex="0">The Conference Principles</h1>
         <a name="ddd-principles" />
-        <h2 tabIndex="0">The event follows these DDD Principles:</h2>
+        <h2 tabIndex="0">The event followed these DDD Principles:</h2>
         <ul>
           <li tabIndex="0">
-            The event is hosted on a Saturday so that attendees do not
-            have to take time from work.
+            The event was hosted on a Saturday so that attendees did
+            not have to take time from work.
           </li>
-          <li tabIndex="0">Tickets to attend the event are free.</li>
+          <li tabIndex="0">Tickets to attend the event were free.</li>
         </ul>
         <a name="our-principles" />
-        <h2 tabIndex="0">As well as our own following principles:</h2>
+        <h2 tabIndex="0">As well as our own principles:</h2>
         <ul>
-          <li tabIndex="0">All talk submissions are anonymous.</li>
+          <li tabIndex="0">All talk submissions were anonymous.</li>
           <li tabIndex="0">
-            There is a democratic selection process for talks
-            involving attendees voting for what they want to see.
+            There was a democratic selection process for talks
+            involving attendees voting for what they wanted to see.
           </li>
           <li tabIndex="0">
-            The event is arranged with the community in mind.
+            The event was arranged with the community in mind.
           </li>
         </ul>
       </section>
@@ -172,10 +174,10 @@ export default function ConferenceInformation() {
         <h1 tabIndex="0">The Organisation Committee</h1>
         <p tabIndex="0">
           The very first DDD East Midlands was organised by Moreton
-          and Jessica. Since then we have grown to have an
-          organisation committee. Rachel joined us to help organise
-          the 2021 event, and now we have a full roster of organisers
-          for 2023 including Steven, James and Mia.
+          and Jessica. Since then we grew to have an organisation
+          committee. Rachel joined us to help organise the 2021 event,
+          and we had a full roster of organisers for 2023 including
+          Steven, James and Mia.
         </p>
       </section>
 
@@ -281,10 +283,10 @@ export default function ConferenceInformation() {
       <section className="content-section">
         <p tabIndex="0">
           Give them a follow on Twitter, say hi at the local events,
-          offer them a coffee or some chocolate if they look in need.
-          They will both be running around on the day of the event
-          making sure your experience of it is the best they can
-          possibly make it.
+          offer them a coffee or some chocolate if they looked in
+          need. They ran around on the day of the event making sure
+          your experience of it was the best they could possibly make
+          it.
         </p>
       </section>
 
@@ -292,10 +294,10 @@ export default function ConferenceInformation() {
         <a name="event-crew" />
         <h1 tabIndex="0">The Event Crew</h1>
         <p tabIndex="0">
-          We could not run the event without the support our fantastic
-          event crew. They help with set-up, with looking after
-          attendees and speakers during the day and cleaning up after
-          the event.
+          We could not run the event without the support of our
+          fantastic event crew. They helped with set-up, with looking
+          after attendees and speakers during the day and cleaning up
+          after the event.
         </p>
         <div className="center-image">
           <Image
@@ -315,15 +317,15 @@ export default function ConferenceInformation() {
         <h1 tabIndex="0">Promoting Inclusivity</h1>
         <p tabIndex="0">
           As an embodiment of the East Midlands tech community, we
-          want to promote inclusivity, support and camaraderie. Here
-          are just a few of the ways we ai to do this:
+          wanted to promote inclusivity, support and camaraderie. Here
+          were just a few of the ways we aimed to do this:
         </p>
 
         <a name="accessibility" />
         <h2 tabIndex="0">Accessibility Page</h2>
         <p tabIndex="0">
-          In order to remain transparent, we have tried to answer as
-          many accessibility related questions as we could on our{' '}
+          In order to remain transparent, we tried to answer as many
+          accessibility related questions as we could on our{' '}
           <a
             href="/information/accessibility-information"
             target="_blank"
@@ -336,36 +338,36 @@ export default function ConferenceInformation() {
         <a name="selection" />
         <h2 tabIndex="0">Submission And Selection Process</h2>
         <p tabIndex="0">
-          The submission process is anonymous and the selection
-          process democratic. This is a conference for the community,
-          by the community. All talks that are submitted are
-          anonymous. When the attendees vote on which talks they want
-          to see, and when the organisers are sorting out the agenda,
-          identifiable information about those who have submitted
-          can&apos;t bee seen. This is to keep the process as fair as
-          possible and ensure talks are picked on their advertised
-          content, not by who is presenting.
+          The submission process was anonymous and the selection
+          process democratic. This was a conference for the community,
+          by the community. All talks that were submitted were
+          anonymous. When the attendees voted on which talks they
+          wanted to see, and when the organisers were sorting out the
+          agenda, identifiable information about those who had
+          submitted couldn&apos;t be seen. This was to keep the
+          process as fair as possible and ensure talks were picked on
+          their advertised content, not by who was presenting.
         </p>
         <p tabIndex="0">
-          As mentioned, attendees will get to vote on the talks they
-          wish to see. Talks will be selected by popular vote, but
-          with some discretion by the organisers of the conference.
-          The discretion is to ensure variety at the conference. If
-          two or more talks are nearly exactly the same, the most
-          popular will continue through and the next most popular,
-          different talk will replace the one with identical content.
+          As mentioned, attendees got to vote on the talks they wished
+          to see. Talks were selected by popular vote, but with some
+          discretion by the organisers of the conference. The
+          discretion was to ensure variety at the conference. If two
+          or more talks were nearly exactly the same, the most popular
+          continued through and the next most popular, different talk
+          replaced the one with identical content.
         </p>
         <p tabIndex="0">
-          We also ask that all talk submissions abide to the{' '}
+          We also asked that all talk submissions abide to the{' '}
           <Link href="https://dddeastmidlands.com/code-of-conduct/">
             Code of Conduct
           </Link>
-          . We want all attendees to feel comfortable at the event, so
-          ask that no submissions or talks contain content of a
+          . We wanted all attendees to feel comfortable at the event,
+          so asked that no submissions or talks contain content of a
           graphic, violent or sexual nature or contain any language
           that may be considered marginalising or hateful. If you
           wouldn&apos;t want to say it to someone you respect, please
-          don&apos;t include it in your submission. Organisers hold
+          don&apos;t include it in your submission. Organisers held
           the right to remove anything that may be thought to cause
           distress.
         </p>
@@ -373,33 +375,33 @@ export default function ConferenceInformation() {
         <a name="speaking" />
         <h2 tabIndex="0">Making speaking accessible</h2>
         <p tabIndex="0">
-          We would like to encourage more people to speak and to
-          encourage a diverse range of backgrounds, experiences and
-          tech related roles to come and share their learnings at our
-          event. There are a number of ways in which we are trying to
-          make speaking more accessible:
+          We wanted to encourage more people to speak and to encourage
+          a diverse range of backgrounds, experiences and tech related
+          roles to come and share their learnings at our event. There
+          were a number of ways in which we tried to make speaking
+          more accessible:
         </p>
         <ul>
           <li tabIndex="0">
             <strong>
-              Offering mentors for speakers that are selected and
-              request extra help.
+              Offering mentors for speakers that were selected and
+              requested extra help.
             </strong>
           </li>
         </ul>
         <p tabIndex="0">
-          Speaking in front of a crowd of people isn&apos;t easy and
-          we know it. There will be the option to highlight that you
-          would like extra support, as a first-time speaker, or even
-          just as someone who feels that they would benefit from it.
+          Speaking in front of a crowd of people wasn&apos;t easy and
+          we knew it. There was the option to highlight that you would
+          like extra support, as a first-time speaker, or even just as
+          someone who felt that they would benefit from it.
         </p>
         <p tabIndex="0">
-          The East Midlands is lucky to host some amazing (and
+          The East Midlands was lucky to host some amazing (and
           incredibly generous) international and experienced speakers.
-          Some of these fine people are donating their time to any
-          speakers that indicate they want extra support. This support
-          covers ways to address nerves, timing a talk, structuring
-          the content of a talk, making sure your talk aligns to its
+          Some of these fine people donated their time to any speakers
+          that indicated they wanted extra support. This support
+          covered ways to address nerves, timing a talk, structuring
+          the content of a talk, making sure your talk aligned to its
           description and more.
         </p>
         <ul>
@@ -411,12 +413,11 @@ export default function ConferenceInformation() {
           </li>
         </ul>
         <p tabIndex="0">
-          All selected speakers will be invited to an optional
-          workshop before the event. This contains advise on subjects
-          such as talk structure, presentation styles, designing your
-          slides. This is made possible by our very kind Workshop
-          Sponsor. More details will be described here closer to the
-          event.
+          All selected speakers were invited to an optional workshop
+          before the event. This contained advice on subjects such as
+          talk structure, presentation styles, designing your slides.
+          This was made possible by our very kind Workshop Sponsor.
+          More details were described here closer to the event.
         </p>
       </section>
     </Layout>
