@@ -1,7 +1,7 @@
 name: Run ESLint:Fix
 on:
   schedule:
-    - cron:  '0 06 * * 2'
+    - cron: '0 06 * * 2'
 jobs:
   update-dep:
     runs-on: ubuntu-latest

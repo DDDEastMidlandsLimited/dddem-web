@@ -70,9 +70,7 @@ export default function TicketInformation() {
         </p>
         <ul>
           <li tabIndex="0">Return it through Eventbrite.</li>
-          <li>
-            Contact James and he can sort it out for you.
-          </li>
+          <li>Contact James and he can sort it out for you.</li>
         </ul>
       </section>
     </Layout>

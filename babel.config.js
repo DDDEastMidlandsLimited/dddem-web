@@ -1,13 +1,4 @@
 module.exports = {
-  presets: [
-    [
-      'next/babel',
-      {
-        'preset-env': {},
-        'transform-runtime': {},
-        'class-properties': {},
-      },
-    ],
-  ],
+ presets: ['next/babel'],
   plugins: ['macros'],
 };

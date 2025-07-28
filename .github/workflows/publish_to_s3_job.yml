@@ -49,4 +49,3 @@ jobs:
           DISTRIBUTION_ID: ${{ secrets.aws_distribution_id_actions}}
         run: |
           aws cloudfront create-invalidation --distribution-id "$DISTRIBUTION_ID" --paths "/*"
-

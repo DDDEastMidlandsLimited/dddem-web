@@ -19,12 +19,12 @@ export default function Index() {
 
       <section className="content-section">
         <p tabIndex="0">
-          DDD East Midlands was an inclusive, not-for-profit technology
-          conference that celebrated the unique tech, talent and
-          companies that the East Midlands has to offer. This event is
-          run by community members to promote collaboration and the
-          amazing tech community that has already grown in the East
-          Midlands.
+          DDD East Midlands was an inclusive, not-for-profit
+          technology conference that celebrated the unique tech,
+          talent and companies that the East Midlands has to offer.
+          This event is run by community members to promote
+          collaboration and the amazing tech community that has
+          already grown in the East Midlands.
         </p>
       </section>
 
@@ -36,15 +36,16 @@ export default function Index() {
           Sadly, new ownership could not be found for the event.
         </p>
         <p tabIndex="0">
-          We are incredibly proud of the events we ran, the speakers 
-          who presented, the fantastic crew and the community. 
-          If we could have found new owners or more help, we would have continued, 
-          but it wasn't meant to be.
+          We are incredibly proud of the events we ran, the speakers
+          who presented, the fantastic crew and the community. If we
+          could have found new owners or more help, we would have
+          continued, but it wasn't meant to be.
         </p>
         <p tabIndex="0">
-          This website will stay hosted as a memorial to the conference. 
-          Who knows, maybe some day someone will pick up where we left off.
-          We would be in full support of that, and would help where possible.
+          This website will stay hosted as a memorial to the
+          conference. Who knows, maybe some day someone will pick up
+          where we left off. We would be in full support of that, and
+          would help where possible.
         </p>
       </section>
 
