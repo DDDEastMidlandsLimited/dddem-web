@@ -44,7 +44,7 @@ describe('Homepage (Index)', () => {
 
   test('should display event status information', () => {
     const { getByText } = render(<Index />);
-    expect(getByText('Event on hold indefinitely')).toBeInTheDocument();
+    expect(getByText('Event on hold indefinitely.')).toBeInTheDocument();
     expect(
       getByText(/We are incredibly proud of the events we ran/),
     ).toBeInTheDocument();
@@ -54,7 +54,7 @@ describe('Homepage (Index)', () => {
     const { getByText } = render(<Index />);
     expect(getByText('Principles')).toBeInTheDocument();
     expect(
-      getByText('This conference follows these DDD principles:'),
+      getByText('This conference followed these DDD principles:'),
     ).toBeInTheDocument();
   });
 
