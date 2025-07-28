@@ -20,19 +20,18 @@ jobs:
           name: build_artifacts
           path: out
 
-      - name: Upgrade Pip
-        run: sudo pip install --upgrade pip
-
       - name: Install AWS CLI
-        run: pip install --user awscli
+        run: |
+          pip install --user awscli
+          echo "$HOME/.local/bin" >> $GITHUB_PATH
 
       - name: Configure AWS
         env:
           AWS_ACCESS_KEY_ID: ${{ secrets.aws_access_key_actions }}
           AWS_SECRET_ACCESS_KEY: ${{ secrets.aws_secret_access_key_actions }}
         run: |
-          aws configure set aws_access_key_id "$AWS_ACCESS_KEY"
-          aws configure set aws_secret_access_key "$AWS_SECRET_KEY"
+          aws configure set aws_access_key_id "$AWS_ACCESS_KEY_ID"
+          aws configure set aws_secret_access_key "$AWS_SECRET_ACCESS_KEY"
           aws configure set region eu-west-2
           aws configure set output json
 
