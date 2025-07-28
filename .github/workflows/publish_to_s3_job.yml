@@ -20,16 +20,15 @@ jobs:
           name: build_artifacts
           path: out
 
-      - name: Upgrade Pip
-        run: sudo pip install --upgrade pip
-
       - name: Install AWS CLI
-        run: pip install --user awscli
+        run: |
+          pip install --user awscli
+          echo "$HOME/.local/bin" >> $GITHUB_PATH
 
       - name: Configure AWS
         env:
-          AWS_ACCESS_KEY_ID: ${{ secrets.aws_access_key_actions }}
-          AWS_SECRET_ACCESS_KEY: ${{ secrets.aws_secret_access_key_actions }}
+          AWS_ACCESS_KEY: ${{ secrets.aws_access_key_actions }}
+          AWS_SECRET_KEY: ${{ secrets.aws_secret_access_key_actions }}
         run: |
           aws configure set aws_access_key_id "$AWS_ACCESS_KEY"
           aws configure set aws_secret_access_key "$AWS_SECRET_KEY"
@@ -38,15 +37,15 @@ jobs:
 
       - name: Deploy To S3
         env:
-          AWS_ACCESS_KEY_ID: ${{ secrets.aws_access_key_actions }}
-          AWS_SECRET_ACCESS_KEY: ${{ secrets.aws_secret_access_key_actions }}
+          AWS_ACCESS_KEY: ${{ secrets.aws_access_key_actions }}
+          AWS_SECRET_KEY: ${{ secrets.aws_secret_access_key_actions }}
         run: |
           aws s3 sync ./out s3://www.dddeastmidlands.com --delete
 
       - name: Invalidate Cache
         env:
-          AWS_ACCESS_KEY_ID: ${{ secrets.aws_access_key_actions }}
-          AWS_SECRET_ACCESS_KEY: ${{ secrets.aws_secret_access_key_actions }}
+          AWS_ACCESS_KEY: ${{ secrets.aws_access_key_actions }}
+          AWS_SECRET_KEY: ${{ secrets.aws_secret_access_key_actions }}
           DISTRIBUTION_ID: ${{ secrets.aws_distribution_id_actions}}
         run: |
           aws cloudfront create-invalidation --distribution-id "$DISTRIBUTION_ID" --paths "/*"
