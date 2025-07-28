@@ -35,7 +35,9 @@ describe('Sitemap URL Validation', () => {
 
   test('sitemap should contain URLs', () => {
     if (!sitemapExists) {
-      console.log('Skipping sitemap test: Sitemap not found. Run "npm run build" first to generate the sitemap.');
+      console.log(
+        'Skipping sitemap test: Sitemap not found. Run "npm run build" first to generate the sitemap.',
+      );
       return;
     }
     expect(sitemapUrls.length).toBeGreaterThan(0);
@@ -91,10 +93,12 @@ describe('Sitemap URL Validation', () => {
 
   test('all URLs should have valid HTML structure and return 200 status equivalent', () => {
     if (!sitemapExists) {
-      console.log('Skipping sitemap test: Sitemap not found. Run "npm run build" first to generate the sitemap.');
+      console.log(
+        'Skipping sitemap test: Sitemap not found. Run "npm run build" first to generate the sitemap.',
+      );
       return;
     }
-    
+
     expect(sitemapUrls.length).toBeGreaterThan(0);
 
     const errors = [];
