@@ -35,12 +35,16 @@ export default function Contact() {
         </p>
         <p tabIndex="0">
           <strong>
-            <a href="#jessicawhite">Jessica White</a>
+            <a href="#jessicawhite">
+              Jessica Brentnall (prev. White)
+            </a>
           </strong>
         </p>
         <p tabIndex="0">
           <strong>
-            <a href="#moretonbrockley">Moreton Brockley</a>
+            <a href="#moretonbrockley">
+              Moreton Brentnall (prev. Brockley)
+            </a>
           </strong>
         </p>
       </section>
@@ -76,29 +80,6 @@ export default function Contact() {
         <a name="dddem" />
         <h2 tabIndex="0">Accounts Run By The Co-Organisers</h2>
         <ul>
-          <li tabIndex="0">
-            <strong>Hashtags:</strong> #DDDEM
-          </li>
-          <li tabIndex="0">
-            <strong>Twitter:</strong>{' '}
-            <a
-              href="https://twitter.com/dddeastmidlands"
-              target="_blank"
-              rel="noreferrer"
-            >
-              @dddeastmidlands
-            </a>
-          </li>
-          <li tabIndex="0">
-            Mastodon:{' '}
-            <a
-              href="https://hachyderm.io/@dddem@mastodon.me.uk"
-              target="_blank"
-              rel="noreferrer"
-            >
-              @dddem@mastodon.me.uk
-            </a>
-          </li>
           <li tabIndex="0">
             <strong>LinkedIn:</strong>{' '}
             <a
@@ -139,16 +120,6 @@ export default function Contact() {
             <h2 tabIndex="0">Co-Organiser</h2>
             <ul tabIndex="0">
               <li tabIndex="0">
-                <strong>Email:</strong>{' '}
-                <a
-                  href="mailto:rachel@dddeastmidlands.com"
-                  target="_blank"
-                  rel="noreferrer"
-                >
-                  Rachel At DDD East Midlands
-                </a>
-              </li>
-              <li tabIndex="0">
                 <strong>Twitter:</strong>{' '}
                 <a
                   href="https://twitter.com/missracheybaby"
@@ -174,7 +145,7 @@ export default function Contact() {
       </section>
 
       <section className="content-section" id="jessicawhite">
-        <h1>Jessica White</h1>
+        <h1>Jessica Brentnall (prev. White)</h1>
 
         <a name="jessicawhite" />
         <div className="row">
@@ -191,33 +162,13 @@ export default function Contact() {
             <h2 tabIndex="0">Co-Founder and Co-Organiser</h2>
             <ul tabIndex="0">
               <li tabIndex="0">
-                <strong>Email:</strong>{' '}
-                <a
-                  href="mailto:jessica@dddeastmidlands.com"
-                  target="_blank"
-                  rel="noreferrer"
-                >
-                  Jessica At DDD East Midlands
-                </a>
-              </li>
-              <li tabIndex="0">
-                <strong>Twitter:</strong>{' '}
-                <a
-                  href="https://twitter.com/JessPWhite"
-                  target="_blank"
-                  rel="noreferrer"
-                >
-                  @JessPWhite
-                </a>
-              </li>
-              <li tabIndex="0">
                 <strong>LinkedIn:</strong>{' '}
                 <a
-                  href="https://www.linkedin.com/in/jessica-white-67917883/"
+                  href="https://www.linkedin.com/in/jessica-brentnall/"
                   target="_blank"
                   rel="noreferrer"
                 >
-                  Jessica White
+                  Jessica Brentnall
                 </a>
               </li>
             </ul>
@@ -226,7 +177,7 @@ export default function Contact() {
       </section>
 
       <section className="content-section" id="moretonbrockley">
-        <h1 tabIndex="0">Moreton Brockley</h1>
+        <h1 tabIndex="0">Moreton Brentnall (prev. Brockley)</h1>
         <a name="moretonbrockley" />
         <div className="row">
           <div className="columnleft">
@@ -241,34 +192,14 @@ export default function Contact() {
           <div className="columnright">
             <h2 tabIndex="0">Co-Founder and Co-Organiser</h2>
             <ul tabIndex="0">
-              <li tabIndex="0">
-                <strong>Email:</strong>{' '}
-                <a
-                  href="mailto:moreton@dddeastmidlands.com"
-                  target="_blank"
-                  rel="noreferrer"
-                >
-                  Moreton At DDD East Midlands
-                </a>
-              </li>
-              <li>
-                <strong>Twitter:</strong>{' '}
-                <a
-                  href="https://twitter.com/allmobro"
-                  target="_blank"
-                  rel="noreferrer"
-                >
-                  @allmobro
-                </a>
-              </li>
               <li>
                 <strong>LinkedIn:</strong>{' '}
                 <a
-                  href="https://www.linkedin.com/in/moreton-brockley-06253538/"
+                  href="https://www.linkedin.com/in/moreton-brentnall/"
                   target="_blank"
                   rel="noreferrer"
                 >
-                  Moreton Brockley
+                  Moreton Brentnall
                 </a>
               </li>
             </ul>

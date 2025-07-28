@@ -47,22 +47,10 @@ describe('Contact Page', () => {
     expect(getByText(/Through the volunteers/)).toBeInTheDocument();
   });
 
-  test('should display social media information', () => {
-    const { getAllByText, getByText } = render(<Contact />);
-    expect(
-      getAllByText('DDD East Midlands Accounts')[0],
-    ).toBeInTheDocument();
-    expect(getByText('#DDDEM')).toBeInTheDocument();
-    expect(getAllByText('@dddeastmidlands')[0]).toBeInTheDocument();
-    expect(
-      getByText('DDD East Midlands Limited'),
-    ).toBeInTheDocument();
-  });
-
   test('should display organiser contact information', () => {
     const { getAllByText } = render(<Contact />);
     expect(getAllByText('Rachel Watson')[0]).toBeInTheDocument();
-    expect(getAllByText('Jessica White')[0]).toBeInTheDocument();
-    expect(getAllByText('Moreton Brockley')[0]).toBeInTheDocument();
+    expect(getAllByText('Jessica Brentnall')[0]).toBeInTheDocument();
+    expect(getAllByText('Moreton Brentnall')[0]).toBeInTheDocument();
   });
 });

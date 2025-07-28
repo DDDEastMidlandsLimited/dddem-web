@@ -18,7 +18,7 @@ export default function JessicaWhite() {
   return (
     <Layout>
       <Head>
-        <title>Jessica White</title>
+        <title>Jessica Brentnall (prev. White)</title>
       </Head>
       <Header
         title={'Jessica White'}
@@ -55,7 +55,7 @@ export default function JessicaWhite() {
         <h2 tabIndex="0">About Jessica</h2>
         <p tabIndex="0">
           Fully caffeinated, Jessica is more whirling dervish than
-          person. Professionally, she is a Technical Architect.
+          person. Professionally, she is a Head of Architecture.
           Outside of work she is a Microsoft MVP, Mentor, Organiser,
           Gamer and avid reader.
         </p>
@@ -89,30 +89,10 @@ export default function JessicaWhite() {
         <ul>
           <li tabIndex="0">
             <a
-              href="mailto:jessica@dddeastmidlands.com"
+              href="https://www.linkedin.com/in/jessica-brentnall/"
               target="_blank"
               rel="noreferrer"
-              aria-label="Jessica White: Email"
-            >
-              Email
-            </a>
-          </li>
-          <li tabIndex="0">
-            <a
-              href="https://twitter.com/JessPWhite"
-              target="_blank"
-              rel="noreferrer"
-              aria-label="Jessica White: Twitter"
-            >
-              Twitter
-            </a>
-          </li>
-          <li tabIndex="0">
-            <a
-              href="https://www.linkedin.com/in/jessica-white-67917883/"
-              target="_blank"
-              rel="noreferrer"
-              aria-label="Jessica White: LinkedIn"
+              aria-label="Jessica Brentnall: LinkedIn"
             >
               LinkedIn
             </a>

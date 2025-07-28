@@ -39,10 +39,10 @@ async function pa11yCheck() {
       console.log(issue.issues);
     }
     console.log(issue.issues);
-    console.error("pa11y Errors Found");
+    console.error('pa11y Errors Found');
     process.exit(2);
   } else {
-    console.log("No pa11y Errors Found");
+    console.log('No pa11y Errors Found');
     process.exit(0);
   }
 }

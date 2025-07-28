@@ -13,7 +13,7 @@ updates:
       interval: 'weekly'
 
   # Enable version updates for Github Actions
-  - package-ecosystem: "github-actions"
-    directory: "/"
+  - package-ecosystem: 'github-actions'
+    directory: '/'
     schedule:
-      interval: "daily"
+      interval: 'daily'

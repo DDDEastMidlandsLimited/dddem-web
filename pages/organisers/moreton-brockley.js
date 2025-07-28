@@ -18,7 +18,7 @@ export default function MoretonBrockley() {
   return (
     <Layout>
       <Head>
-        <title>Moreton Brockley</title>
+        <title>Moreton Brentnall (prev. Brockley)</title>
       </Head>
       <Header
         title={'Moreton Brockley'}
@@ -78,18 +78,8 @@ export default function MoretonBrockley() {
             <a
               target="_blank"
               rel="noreferrer"
-              aria-label="Moreton Brockley: Twitter"
-              href="https://twitter.com/allmobro"
-            >
-              Twitter
-            </a>
-          </li>
-          <li tabIndex="0">
-            <a
-              target="_blank"
-              rel="noreferrer"
               aria-label="Moreton Brockley: LinkedIn"
-              href="https://www.linkedin.com/in/moreton-brockley-06253538/"
+              href="https://www.linkedin.com/in/moreton-brentnall/"
             >
               LinkedIn
             </a>
