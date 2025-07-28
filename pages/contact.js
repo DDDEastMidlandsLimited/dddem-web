@@ -116,16 +116,6 @@ export default function Contact() {
             <h2 tabIndex="0">Co-Organiser</h2>
             <ul tabIndex="0">
               <li tabIndex="0">
-                <strong>Email:</strong>{' '}
-                <a
-                  href="mailto:rachel@dddeastmidlands.com"
-                  target="_blank"
-                  rel="noreferrer"
-                >
-                  Rachel At DDD East Midlands
-                </a>
-              </li>
-              <li tabIndex="0">
                 <strong>Twitter:</strong>{' '}
                 <a
                   href="https://twitter.com/missracheybaby"
