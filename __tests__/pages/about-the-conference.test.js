@@ -46,10 +46,10 @@ describe('About The Conference Page', () => {
   test('should display main section headings', () => {
     const { getAllByText } = render(<AboutTheConference />);
     expect(
-      getAllByText('What Is DDD East Midlands?')[0],
+      getAllByText('What Was DDD East Midlands?')[0],
     ).toBeInTheDocument();
     expect(
-      getAllByText('What does the DDD stand for?')[0],
+      getAllByText('What did the DDD stand for?')[0],
     ).toBeInTheDocument();
     expect(
       getAllByText('The Conference Principles')[0],
@@ -66,11 +66,13 @@ describe('About The Conference Page', () => {
   test('should display conference description', () => {
     const { getByText } = render(<AboutTheConference />);
     expect(
-      getByText(/The East Midlands tech scene is incredibly diverse/),
+      getByText(
+        /The East Midlands tech scene was incredibly diverse/,
+      ),
     ).toBeInTheDocument();
     expect(
       getByText(
-        /We want to promote inclusivity, support and camaraderie/,
+        /We wanted to promote inclusivity, support and camaraderie/,
       ),
     ).toBeInTheDocument();
   });
@@ -79,24 +81,24 @@ describe('About The Conference Page', () => {
     const { getByText } = render(<AboutTheConference />);
     expect(
       getByText(
-        /The event is hosted on a Saturday so that attendees do not have to take time from work/,
+        /The event was hosted on a Saturday so that attendees did not have to take time from work/,
       ),
     ).toBeInTheDocument();
     expect(
-      getByText(/Tickets to attend the event are free/),
+      getByText(/Tickets to attend the event were free/),
     ).toBeInTheDocument();
   });
 
   test('should display additional principles', () => {
     const { getByText } = render(<AboutTheConference />);
     expect(
-      getByText(/All talk submissions are anonymous/),
+      getByText(/All talk submissions were anonymous/),
     ).toBeInTheDocument();
     expect(
-      getByText(/There is a democratic selection process for talks/),
+      getByText(/There was a democratic selection process for talks/),
     ).toBeInTheDocument();
     expect(
-      getByText(/The event is arranged with the community in mind/),
+      getByText(/The event was arranged with the community in mind/),
     ).toBeInTheDocument();
   });
 
