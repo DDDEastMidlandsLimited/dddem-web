@@ -1682,10 +1682,10 @@
   resolved "https://registry.npmjs.org/@next/env/-/env-15.4.4.tgz"
   integrity sha512-SJKOOkULKENyHSYXE5+KiFU6itcIb6wSBjgM92meK0HVKpo94dNOLZVdLLuS7/BxImROkGoPsjR4EnuDucqiiA==
 
-"@next/eslint-plugin-next@15.4.4", "@next/eslint-plugin-next@^15.4.4":
-  version "15.4.4"
-  resolved "https://registry.npmjs.org/@next/eslint-plugin-next/-/eslint-plugin-next-15.4.4.tgz"
-  integrity sha512-1FDsyN//ai3Jd97SEd7scw5h1yLdzDACGOPRofr2GD3sEFsBylEEoL0MHSerd4n2dq9Zm/mFMqi4+NRMOreOKA==
+"@next/eslint-plugin-next@15.4.5", "@next/eslint-plugin-next@^15.4.4":
+  version "15.4.5"
+  resolved "https://registry.yarnpkg.com/@next/eslint-plugin-next/-/eslint-plugin-next-15.4.5.tgz#fa46b04406c0b0aea22413b336f32595cd7613b6"
+  integrity sha512-YhbrlbEt0m4jJnXHMY/cCUDBAWgd5SaTa5mJjzOt82QwflAFfW/h3+COp2TfVSzhmscIZ5sg2WXt3MLziqCSCw==
   dependencies:
     fast-glob "3.3.1"
 
@@ -1961,7 +1961,7 @@
 
 "@parcel/watcher-linux-x64-musl@2.4.1":
   version "2.4.1"
-  resolved "https://registry.yarnpkg.com/@parcel/watcher-linux-x64-musl/-/watcher-linux-x64-musl-2.4.1.tgz#d2ebbf60e407170bb647cd6e447f4f2bab19ad16"
+  resolved "https://registry.npmjs.org/@parcel/watcher-linux-x64-musl/-/watcher-linux-x64-musl-2.4.1.tgz"
   integrity sha512-L2nZTYR1myLNST0O632g0Dx9LyMNHrn6TOt76sYxWLdff3cB22/GZX2UPtJnaqQPdCRoszoY5rcOj4oMTtp5fQ==
 
 "@parcel/watcher-win32-arm64@2.4.1":
@@ -1978,11 +1978,6 @@
   version "2.4.1"
   resolved "https://registry.npmjs.org/@parcel/watcher-linux-x64-glibc/-/watcher-linux-x64-glibc-2.4.1.tgz"
   integrity sha512-s9O3fByZ/2pyYDPoLM6zt92yu6P4E39a03zvO0qCHOTjxmt3GHRMLuRZEWhWLASTMSrrnVNWdVI/+pUElJBBBg==
-
-"@parcel/watcher-linux-x64-musl@2.4.1":
-  version "2.4.1"
-  resolved "https://registry.npmjs.org/@parcel/watcher-linux-x64-musl/-/watcher-linux-x64-musl-2.4.1.tgz"
-  integrity sha512-L2nZTYR1myLNST0O632g0Dx9LyMNHrn6TOt76sYxWLdff3cB22/GZX2UPtJnaqQPdCRoszoY5rcOj4oMTtp5fQ==
 
 "@parcel/watcher@^2.4.1":
   version "2.4.1"
@@ -4219,12 +4214,12 @@ escodegen@^2.1.0:
   optionalDependencies:
     source-map "~0.6.1"
 
-eslint-config-next@^15.4.4:
-  version "15.4.4"
-  resolved "https://registry.npmjs.org/eslint-config-next/-/eslint-config-next-15.4.4.tgz"
-  integrity sha512-sK/lWLUVF5om18O5w76Jt3F8uzu/LP5mVa6TprCMWkjWHUmByq80iHGHcdH7k1dLiJlj+DRIWf98d5piwRsSuA==
+eslint-config-next@^15.4.5:
+  version "15.4.5"
+  resolved "https://registry.yarnpkg.com/eslint-config-next/-/eslint-config-next-15.4.5.tgz#a9b0fa6a91b4a95144b9c142232547a66b72a330"
+  integrity sha512-IMijiXaZ43qFB+Gcpnb374ipTKD8JIyVNR+6VsifFQ/LHyx+A9wgcgSIhCX5PYSjwOoSYD5LtNHKlM5uc23eww==
   dependencies:
-    "@next/eslint-plugin-next" "15.4.4"
+    "@next/eslint-plugin-next" "15.4.5"
     "@rushstack/eslint-patch" "^1.10.3"
     "@typescript-eslint/eslint-plugin" "^5.4.2 || ^6.0.0 || ^7.0.0 || ^8.0.0"
     "@typescript-eslint/parser" "^5.4.2 || ^6.0.0 || ^7.0.0 || ^8.0.0"
