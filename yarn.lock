@@ -1604,10 +1604,10 @@
     jest-haste-map "30.1.0"
     slash "^3.0.0"
 
-"@jest/transform@30.0.5":
-  version "30.0.5"
-  resolved "https://registry.npmjs.org/@jest/transform/-/transform-30.0.5.tgz"
-  integrity sha512-Vk8amLQCmuZyy6GbBht1Jfo9RSdBtg7Lks+B0PecnjI8J+PCLQPGh7uI8Q/2wwpW2gLdiAfiHNsmekKlywULqg==
+"@jest/transform@30.1.0":
+  version "30.1.0"
+  resolved "https://registry.yarnpkg.com/@jest/transform/-/transform-30.1.0.tgz#817966d1517ad33ee67a45bb114b492adfdf55ce"
+  integrity sha512-OvzganIbExZDS2jl37re14XSJXK3sREyGP641RL+Ek1galupCMLWHlxop+4wQnVX7e3fxF6C3W16VzWdl2ducQ==
   dependencies:
     "@babel/core" "^7.27.4"
     "@jest/types" "30.0.5"
@@ -1617,7 +1617,7 @@
     convert-source-map "^2.0.0"
     fast-json-stable-stringify "^2.1.0"
     graceful-fs "^4.2.11"
-    jest-haste-map "30.0.5"
+    jest-haste-map "30.1.0"
     jest-regex-util "30.0.1"
     jest-util "30.0.5"
     micromatch "^4.0.8"
@@ -1725,10 +1725,10 @@
   resolved "https://registry.yarnpkg.com/@next/env/-/env-15.5.0.tgz#5d66f1bf61a7e041ed0cb870923dc041a9be507f"
   integrity sha512-sDaprBAfzCQiOgo2pO+LhnV0Wt2wBgartjrr+dpcTORYVnnXD0gwhHhiiyIih9hQbq+JnbqH4odgcFWhqCGidw==
 
-"@next/eslint-plugin-next@15.5.0", "@next/eslint-plugin-next@^15.5.0":
-  version "15.5.0"
-  resolved "https://registry.yarnpkg.com/@next/eslint-plugin-next/-/eslint-plugin-next-15.5.0.tgz#bee716b8d435e3c8496391770c6eff5dcf848e51"
-  integrity sha512-+k83U/fST66eQBjTltX2T9qUYd43ntAe+NZ5qeZVTQyTiFiHvTLtkpLKug4AnZAtuI/lwz5tl/4QDJymjVkybg==
+"@next/eslint-plugin-next@15.5.2", "@next/eslint-plugin-next@^15.5.0":
+  version "15.5.2"
+  resolved "https://registry.yarnpkg.com/@next/eslint-plugin-next/-/eslint-plugin-next-15.5.2.tgz#6fa6b78687dbbb6f5726acd81bcdfd87dc26b6f3"
+  integrity sha512-lkLrRVxcftuOsJNhWatf1P2hNVfh98k/omQHrCEPPriUypR6RcS13IvLdIrEvkm9AH2Nu2YpR5vLqBuy6twH3Q==
   dependencies:
     fast-glob "3.3.1"
 
@@ -3137,19 +3137,6 @@ babel-jest@30.1.1:
     graceful-fs "^4.2.11"
     slash "^3.0.0"
 
-babel-jest@^30.0.5:
-  version "30.0.5"
-  resolved "https://registry.npmjs.org/babel-jest/-/babel-jest-30.0.5.tgz"
-  integrity sha512-mRijnKimhGDMsizTvBTWotwNpzrkHr+VvZUQBof2AufXKB8NXrL1W69TG20EvOz7aevx6FTJIaBuBkYxS8zolg==
-  dependencies:
-    "@jest/transform" "30.0.5"
-    "@types/babel__core" "^7.20.5"
-    babel-plugin-istanbul "^7.0.0"
-    babel-preset-jest "30.0.1"
-    chalk "^4.1.2"
-    graceful-fs "^4.2.11"
-    slash "^3.0.0"
-
 babel-jest@^30.1.0:
   version "30.1.0"
   resolved "https://registry.yarnpkg.com/babel-jest/-/babel-jest-30.1.0.tgz#e270e5852b5ed171fc146dcef97a022241515fce"
@@ -4273,12 +4260,12 @@ escodegen@^2.1.0:
   optionalDependencies:
     source-map "~0.6.1"
 
-eslint-config-next@^15.5.0:
-  version "15.5.0"
-  resolved "https://registry.yarnpkg.com/eslint-config-next/-/eslint-config-next-15.5.0.tgz#3b9ec8ceb175986a7781b4106646da6a8d09c08f"
-  integrity sha512-Yl4hlOdBqstAuHnlBfx2RimBzWQwysM2SJNu5EzYVa2qS2ItPs7lgxL0sJJDudEx5ZZHfWPZ/6U8+FtDFWs7/w==
+eslint-config-next@^15.5.2:
+  version "15.5.2"
+  resolved "https://registry.yarnpkg.com/eslint-config-next/-/eslint-config-next-15.5.2.tgz#9629ed1deaa131e8e80cbae20acf631c8595ca3e"
+  integrity sha512-3hPZghsLupMxxZ2ggjIIrat/bPniM2yRpsVPVM40rp8ZMzKWOJp2CGWn7+EzoV2ddkUr5fxNfHpF+wU1hGt/3g==
   dependencies:
-    "@next/eslint-plugin-next" "15.5.0"
+    "@next/eslint-plugin-next" "15.5.2"
     "@rushstack/eslint-patch" "^1.10.3"
     "@typescript-eslint/eslint-plugin" "^5.4.2 || ^6.0.0 || ^7.0.0 || ^8.0.0"
     "@typescript-eslint/parser" "^5.4.2 || ^6.0.0 || ^7.0.0 || ^8.0.0"
@@ -5779,24 +5766,6 @@ jest-get-type@^29.6.3:
   resolved "https://registry.npmjs.org/jest-get-type/-/jest-get-type-29.6.3.tgz"
   integrity sha512-zrteXnqYxfQh7l5FHyL38jL39di8H8rHoecLH3JNxH3BwOrBsNeabdap5e0I23lD4HHI8W5VFBZqG4Eaq5LNcw==
 
-jest-haste-map@30.0.5:
-  version "30.0.5"
-  resolved "https://registry.npmjs.org/jest-haste-map/-/jest-haste-map-30.0.5.tgz"
-  integrity sha512-dkmlWNlsTSR0nH3nRfW5BKbqHefLZv0/6LCccG0xFCTWcJu8TuEwG+5Cm75iBfjVoockmO6J35o5gxtFSn5xeg==
-  dependencies:
-    "@jest/types" "30.0.5"
-    "@types/node" "*"
-    anymatch "^3.1.3"
-    fb-watchman "^2.0.2"
-    graceful-fs "^4.2.11"
-    jest-regex-util "30.0.1"
-    jest-util "30.0.5"
-    jest-worker "30.0.5"
-    micromatch "^4.0.8"
-    walker "^1.0.8"
-  optionalDependencies:
-    fsevents "^2.3.3"
-
 jest-haste-map@30.1.0:
   version "30.1.0"
   resolved "https://registry.yarnpkg.com/jest-haste-map/-/jest-haste-map-30.1.0.tgz#e54d84e07fac15ea3a98903b735048e36d7d2ed3"
@@ -6082,17 +6051,6 @@ jest-watcher@30.1.1:
     emittery "^0.13.1"
     jest-util "30.0.5"
     string-length "^4.0.2"
-
-jest-worker@30.0.5:
-  version "30.0.5"
-  resolved "https://registry.npmjs.org/jest-worker/-/jest-worker-30.0.5.tgz"
-  integrity sha512-ojRXsWzEP16NdUuBw/4H/zkZdHOa7MMYCk4E430l+8fELeLg/mqmMlRhjL7UNZvQrDmnovWZV4DxX03fZF48fQ==
-  dependencies:
-    "@types/node" "*"
-    "@ungap/structured-clone" "^1.3.0"
-    jest-util "30.0.5"
-    merge-stream "^2.0.0"
-    supports-color "^8.1.1"
 
 jest-worker@30.1.0:
   version "30.1.0"
