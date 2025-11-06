@@ -9,7 +9,7 @@ jest.mock('next/dynamic', () => ({
     const RequiredComponent = dynamicActualComp(args[0]);
     RequiredComponent.preload
       ? RequiredComponent.preload()
-      : RequiredComponent.render.preload();
+      : RequiredComponent.render?.preload?.();
     return RequiredComponent;
   },
 }));
