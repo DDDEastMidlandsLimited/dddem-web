@@ -51,6 +51,7 @@ module.exports = withPWA({
 
     return config;
   },
+  turbopack: {},
   output: 'export',
   images: {
     unoptimized: true,
