@@ -1697,7 +1697,7 @@
   resolved "https://registry.yarnpkg.com/@next/env/-/env-16.0.2.tgz#1d932764284c91da3c91d2e0b3d4562dc4e556ac"
   integrity sha512-V2e9ITU6Ts9kxtTBX60qtWlKV+AeBNlz/hgAt0gkGA8aPgX27cRLjp7OEUMzYq4cY0QzOkOQ4CI/8IJh6kW/iw==
 
-"@next/eslint-plugin-next@16.0.1", "@next/eslint-plugin-next@^16.0.1":
+"@next/eslint-plugin-next@16.0.1":
   version "16.0.1"
   resolved "https://registry.npmjs.org/@next/eslint-plugin-next/-/eslint-plugin-next-16.0.1.tgz"
   integrity sha512-g4Cqmv/gyFEXNeVB2HkqDlYKfy+YrlM2k8AVIO/YQVEPfhVruH1VA99uT1zELLnPLIeOnx8IZ6Ddso0asfTIdw==
