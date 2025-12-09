@@ -42,7 +42,8 @@ export default function Talks() {
           <li>
             We advise reading the descriptions of talks, taking note
             of the titles you want to see, then using Control+F or
-            Command+F searching for those titles on the google form.{' '}
+            Command+F searching for those titles on the google
+            form.{' '}
           </li>
         </ul>
         <br />
