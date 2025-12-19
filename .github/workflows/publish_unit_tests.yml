@@ -10,14 +10,14 @@ jobs:
     steps:
       - name: Download Junit Artifact
         id: download_junit
-        uses: actions/download-artifact@v6
+        uses: actions/download-artifact@v7
         with:
           name: junit
           path: test-results/junit
 
       - name: Download Clover Artifact
         id: download_clover
-        uses: actions/download-artifact@v6
+        uses: actions/download-artifact@v7
         with:
           name: clover
           path: coverage/clover.xml
