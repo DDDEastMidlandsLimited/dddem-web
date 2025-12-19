@@ -1687,6 +1687,13 @@
   dependencies:
     fast-glob "3.3.1"
 
+"@next/eslint-plugin-next@^16.1.0":
+  version "16.1.0"
+  resolved "https://registry.yarnpkg.com/@next/eslint-plugin-next/-/eslint-plugin-next-16.1.0.tgz#f2c66d33d4bf7dc96eec33bf558d37781bc3942c"
+  integrity sha512-sooC/k0LCF4/jLXYHpgfzJot04lZQqsttn8XJpTguP8N3GhqXN3wSkh68no2OcZzS/qeGwKDFTqhZ8WofdXmmQ==
+  dependencies:
+    fast-glob "3.3.1"
+
 "@next/swc-darwin-arm64@15.5.7":
   version "15.5.7"
   resolved "https://registry.yarnpkg.com/@next/swc-darwin-arm64/-/swc-darwin-arm64-15.5.7.tgz#f0c9ccfec2cd87cbd4b241ce4c779a7017aed958"
