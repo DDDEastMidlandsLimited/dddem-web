@@ -185,12 +185,12 @@ export default function ConferenceInformation() {
         <article className="volunteer-grid-item">
           <a
             tabIndex="0"
-            href="../organisers/jessica-white"
+            href="../organisers/jessica-brentnall"
             title="Link to Information About Jessica"
           >
             <Image
               src="/static/organisers/jess.png"
-              alt="Picture of Jessica White"
+              alt="Picture of Jessica Brentnall"
               className="picture"
               height="100"
               width="100"
@@ -201,12 +201,12 @@ export default function ConferenceInformation() {
         <article className="volunteer-grid-item">
           <a
             tabIndex="0"
-            href="../organisers/moreton-brockley"
+            href="../organisers/moreton-brentnall"
             title="Link to Information About Moreton"
           >
             <Image
               src="/static/organisers/mort.png"
-              alt="Picture of Moreton Brockley"
+              alt="Picture of Moreton Brentnall"
               className="picture"
               height="100"
               width="100"

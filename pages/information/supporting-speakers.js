@@ -62,17 +62,6 @@ export default function SupportingSpeakers() {
           back in-person, this is something we hope to revive for
           2023, where relevant.
         </p>
-        <p tabIndex="0">
-          There are some blog posts around the content here:{' '}
-          <a
-            tabIndex="0"
-            href="https://blog.dddeastmidlands.com/tag/talking-tips"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            https://blog.dddeastmidlands.com/tag/talking-tips{' '}
-          </a>
-        </p>
       </section>
 
       <section className="content-section" id="speakers-workshop">
@@ -95,18 +84,6 @@ export default function SupportingSpeakers() {
           international speakers. They will help refine talk content
           and slides, as well as give feedback on how to improve the
           mentees presentation style.
-        </p>
-        <p tabIndex="0">
-          This workshop is run by Dylan Beattie and you can read about
-          our 2019 workshop here:{' '}
-          <a
-            tabIndex="0"
-            href="https://blog.dddeastmidlands.com/blog/recappin-post/"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            https://blog.dddeastmidlands.com/blog/recappin-post/
-          </a>
         </p>
       </section>
     </Layout>

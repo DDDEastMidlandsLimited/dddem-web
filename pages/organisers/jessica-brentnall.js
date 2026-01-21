@@ -14,27 +14,27 @@ import {
 
 library.add(faInstagram, faTwitter, faGithub, faLinkedin);
 
-export default function MoretonBrockley() {
+export default function JessicaBrentnall() {
   return (
     <Layout>
       <Head>
-        <title>Moreton Brentnall (prev. Brockley)</title>
+        <title>Jessica Brentnall (prev. White)</title>
       </Head>
       <Header
-        title={'Moreton Brockley'}
-        banner="/static/banners/organisers/mort.jpg"
+        title={'Jessica Brentnall'}
+        banner="/static/banners/organisers/jess.jpg"
       />
       <section className="past-speakers-section">
         <h1 tabIndex="0" className="align-center">
-          Directior/ Co-Founder / Co-Organiser
+          Director/ Co-Founder / Co-Organiser
         </h1>
       </section>
 
       <section className="past-speakers-section">
         <div className="speakerpic-container">
           <Image
-            src="/static/organisers/mort.png"
-            alt="Picture of Moreton Brockley"
+            src="/static/organisers/jess.png"
+            alt="Picture of Jessica Brentnall"
             className="speakerpic"
             height={250}
             width={250}
@@ -44,7 +44,7 @@ export default function MoretonBrockley() {
         <div>
           <ul>
             <li>
-              <b>Pronouns: </b> He/Him
+              <b>Pronouns: </b> She/Her
             </li>
           </ul>
         </div>
@@ -52,22 +52,30 @@ export default function MoretonBrockley() {
       </section>
 
       <section className="past-speakers-section">
-        <h2 tabIndex="0">About Moreton</h2>
+        <h2 tabIndex="0">About Jessica</h2>
         <p tabIndex="0">
-          A Principle Developer, Moreton is the sensible head of the
-          co-founders. He is the number whizz and the fashion guru.
-          Seriously, check out his Ninja Turtle Doc Martens. You may
-          (not) recognise Moreton from his performance at 2018&apos;s
-          Hack24 as Mr Blobby.
+          Fully caffeinated, Jessica is more whirling dervish than
+          person.
+        </p>
+        <p tabIndex="0">
+          Jessica has a lot of event organisation experience. Having
+          founded Women In Tech Nottingham
+          back in 2015, and running it for nearly 2 years, she has
+          previous experience with running an inclusive event. She
+          also co-organises the .NET Notts meetup in Nottingham.
         </p>
       </section>
 
       <section className="past-speakers-section">
-        <h2 tabIndex="0">Moreton's Responsibilities</h2>
+        <h2 tabIndex="0">Jessica's Responsibilities</h2>
         <ul>
-          <li tabIndex="0">Accountancy</li>
-          <li tabIndex="0">Budgeting</li>
+          <li tabIndex="0">Partner Agreements and outreach</li>
           <li tabIndex="0">Scheduling</li>
+          <li tabIndex="0">Contracts</li>
+          <li tabIndex="0">Social Media</li>
+          <li tabIndex="0">Staffing</li>
+          <li tabIndex="0">Managing the Open Source Repositories</li>
+          <li tabIndex="0">Speaker Management</li>
         </ul>
       </section>
 
@@ -76,10 +84,10 @@ export default function MoretonBrockley() {
         <ul>
           <li tabIndex="0">
             <a
+              href="https://www.linkedin.com/in/jessica-brentnall/"
               target="_blank"
               rel="noreferrer"
-              aria-label="Moreton Brockley: LinkedIn"
-              href="https://www.linkedin.com/in/moreton-brentnall/"
+              aria-label="Jessica Brentnall: LinkedIn"
             >
               LinkedIn
             </a>

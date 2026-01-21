@@ -14,27 +14,27 @@ import {
 
 library.add(faInstagram, faTwitter, faGithub, faLinkedin);
 
-export default function JessicaWhite() {
+export default function MoretonBrentnall() {
   return (
     <Layout>
       <Head>
-        <title>Jessica Brentnall (prev. White)</title>
+        <title>Moreton Brentnall</title>
       </Head>
       <Header
-        title={'Jessica White'}
-        banner="/static/banners/organisers/jess.jpg"
+        title={'Moreton Brentnall'}
+        banner="/static/banners/organisers/mort.jpg"
       />
       <section className="past-speakers-section">
         <h1 tabIndex="0" className="align-center">
-          Director/ Co-Founder / Co-Organiser
+          Directior/ Co-Founder / Co-Organiser
         </h1>
       </section>
 
       <section className="past-speakers-section">
         <div className="speakerpic-container">
           <Image
-            src="/static/organisers/jess.png"
-            alt="Picture of Jessica White"
+            src="/static/organisers/mort.png"
+            alt="Picture of Moreton Brentnall"
             className="speakerpic"
             height={250}
             width={250}
@@ -44,7 +44,7 @@ export default function JessicaWhite() {
         <div>
           <ul>
             <li>
-              <b>Pronouns: </b> She/Her
+              <b>Pronouns: </b> He/Him
             </li>
           </ul>
         </div>
@@ -52,35 +52,22 @@ export default function JessicaWhite() {
       </section>
 
       <section className="past-speakers-section">
-        <h2 tabIndex="0">About Jessica</h2>
+        <h2 tabIndex="0">About Moreton</h2>
         <p tabIndex="0">
-          Fully caffeinated, Jessica is more whirling dervish than
-          person. Professionally, she is a Head of Architecture.
-          Outside of work she is a Microsoft MVP, Mentor, Organiser,
-          Gamer and avid reader.
-        </p>
-        <p tabIndex="0">
-          Jessica has a lot of event organisation experience. Having
-          founded{' '}
-          <a href="https://www.technottingham.com/wit-notts">
-            Women In Tech Nottingham
-          </a>
-          back in 2015, and running it for nearly 2 years, she has
-          previous experience with running an inclusive event. She
-          also co-organises the .NET Notts meetup in Nottingham.
+          Moreton is the sensible head of the
+          co-founders. He is the number whizz and the fashion guru.
+          Seriously, check out his Ninja Turtle Doc Martens. You may
+          (not) recognise Moreton from his performance at 2018&apos;s
+          Hack24 as Mr Blobby.
         </p>
       </section>
 
       <section className="past-speakers-section">
-        <h2 tabIndex="0">Jessica's Responsibilities</h2>
+        <h2 tabIndex="0">Moreton's Responsibilities</h2>
         <ul>
-          <li tabIndex="0">Partner Agreements and outreach</li>
+          <li tabIndex="0">Accountancy</li>
+          <li tabIndex="0">Budgeting</li>
           <li tabIndex="0">Scheduling</li>
-          <li tabIndex="0">Contracts</li>
-          <li tabIndex="0">Social Media</li>
-          <li tabIndex="0">Staffing</li>
-          <li tabIndex="0">Managing the Open Source Repositories</li>
-          <li tabIndex="0">Speaker Management</li>
         </ul>
       </section>
 
@@ -89,10 +76,10 @@ export default function JessicaWhite() {
         <ul>
           <li tabIndex="0">
             <a
-              href="https://www.linkedin.com/in/jessica-brentnall/"
               target="_blank"
               rel="noreferrer"
-              aria-label="Jessica Brentnall: LinkedIn"
+              aria-label="Moreton Brentnall: LinkedIn"
+              href="https://www.linkedin.com/in/moreton-brentnall/"
             >
               LinkedIn
             </a>
