@@ -141,11 +141,6 @@ export default function SponsorInformation() {
             <a href="#teardown-time">Pick Up Time</a>
           </li>
         </ul>
-        <p>
-          <strong>
-            <a href="#contact">Contacts</a>
-          </strong>
-        </p>
       </section>
 
       <a name="links" />
@@ -405,13 +400,7 @@ export default function SponsorInformation() {
         <h2 tabIndex="0">Power</h2>
         <p tabIndex="0">
           There will be some electricity sockets available on the day.
-          DDD East Midlands will provide extension cables on request
-          if you will need multiple ports on the day. Please contact
-          Jessica:{' '}
-          <a href="mailto:jessica@dddeastmidlands.com">
-            jessica@dddeastmidlands.com
-          </a>{' '}
-          at least two weeks prior to the event.
+          DDD East Midlands will provide extension cables on request.
         </p>
         <p tabIndex="0">
           Due to the venues insurance policy we require that any
@@ -554,17 +543,6 @@ export default function SponsorInformation() {
           <strong>Location: </strong>We ask that you use the loading
           bay on South Sherwood Street.
         </p>
-      </section>
-
-      <section className="content-section" id="contact">
-        <a name="contact" />
-        <h1 tabIndex="0">Contact</h1>
-        <p tabIndex="0">
-          <a href="https://www.dddeastmidlands.com/contact/">
-            See the ways to contact the team on the Contact Us page.
-          </a>
-        </p>
-        <br />
       </section>
     </Layout>
   );

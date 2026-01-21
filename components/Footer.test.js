@@ -13,10 +13,4 @@ describe('Given the Footer is rendered', () => {
       '/code-of-conduct',
     );
   });
-
-  test('it should display the Contact Link', () => {
-    const { getByText } = render(<Footer />);
-    expect(getByText('Contact')).toBeInTheDocument();
-    expect(getByText('Contact')).toHaveAttribute('href', '/contact');
-  });
 });

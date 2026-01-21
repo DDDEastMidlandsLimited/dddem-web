@@ -1,4 +1,3 @@
-import React from 'react';
 import Link from 'next/link';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { brands } from '@fortawesome/fontawesome-svg-core/import.macro';
@@ -38,15 +37,6 @@ export default function Footer() {
             <FontAwesomeIcon icon={brands('github')} size="sm" />
           </Link>
           <Link
-            href="https://www.instagram.com/dddeastmidlands/?hl=en"
-            prefetch={false}
-            target="_blank"
-            aria-label="Instagram"
-            rel="noopener noreferrer"
-          >
-            <FontAwesomeIcon icon={brands('instagram')} size="sm" />
-          </Link>
-          <Link
             href="https://www.linkedin.com/company/ddd-east-midlands-limited/"
             prefetch={false}
             target="_blank"
@@ -55,18 +45,6 @@ export default function Footer() {
           >
             <FontAwesomeIcon icon={brands('linkedin')} size="sm" />
           </Link>
-          <Link
-            href="https://mastodon.me.uk/@dddem"
-            prefetch={false}
-            target="_blank"
-            aria-label="Mastodon"
-            rel="noopener noreferrer me"
-          >
-            <FontAwesomeIcon icon={brands('mastodon')} size="sm" />
-          </Link>
-        </div>
-        <div className="col-3">
-          <Link href="/contact">Contact</Link>
         </div>
       </div>
     </footer>

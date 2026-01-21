@@ -22,14 +22,6 @@ export default function CodeOfConduct() {
         all times to create the most inclusive and friendly event for
         all involved.
       </p>
-      <p tabIndex="0">
-        Should you have any concerns regarding the Code of Conduct
-        before, during or after the event, please contact the
-        organisers. See the{' '}
-        <a href="/contact" target="_blank">
-          contact page for information.
-        </a>
-      </p>
     </section>
   );
 }
