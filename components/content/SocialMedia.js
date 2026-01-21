@@ -1,5 +1,3 @@
-import React from 'react';
-
 export default function SocialMedia() {
   return (
     <section className="content-section" id="social-media">
@@ -46,16 +44,6 @@ export default function SocialMedia() {
             rel="noreferrer"
           >
             DDD East Midlands Limited
-          </a>
-        </li>
-        <li tabIndex="0">
-          Instagram:{' '}
-          <a
-            href="https://www.instagram.com/dddeastmidlands/?hl=en"
-            target="_blank"
-            rel="noreferrer"
-          >
-            @dddeastmidlands
           </a>
         </li>
       </ul>
