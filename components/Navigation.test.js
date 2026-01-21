@@ -9,15 +9,6 @@ describe('Given the Navigation is rendered', () => {
     expect(getByText('Home')).toHaveAttribute('href', '/');
   });
 
-  test('it should display a Blog link', () => {
-    const { getByText } = render(<Navigation />);
-    expect(getByText('Blog')).toBeInTheDocument();
-    expect(getByText('Blog')).toHaveAttribute(
-      'href',
-      'https://blog.dddeastmidlands.com/',
-    );
-  });
-
   test('it should display a Past Events link', async () => {
     const { getByText, findByText } = render(<Navigation />);
     const pastEventsLink = getByText('Past Events');

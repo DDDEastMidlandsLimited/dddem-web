@@ -107,15 +107,6 @@ export default function ApplicationInformation() {
           identifiable information in your titles and talks
           descriptions, and that you don&apos;t share the titles of
           your submissions on social media to help keep this fair.
-          More can be read about this process{' '}
-          <a
-            href="https://blog.dddeastmidlands.com/blog/sessionize-post/"
-            target="_blank"
-            rel="noreferrer"
-          >
-            in this blog post
-          </a>
-          .
         </p>
         <p tabIndex="0">
           We also ask that you ensure all submissions abide to our{' '}
