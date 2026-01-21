@@ -3,7 +3,6 @@ import { Container, Row, Col } from 'react-bootstrap';
 import Layout from '../components/Layout';
 import HeadComponent from '../components/Head';
 import Header from '../components/Header';
-import PWAFeatures from '../components/PWAFeatures';
 
 const title = 'App Settings';
 const description =
@@ -29,9 +28,6 @@ export default function AppSettings() {
                 notifications and app installation options.
               </p>
             </div>
-
-            {/* Show both install prompt and notification settings */}
-            <PWAFeatures showSettings={true} />
 
             <div className="mt-5">
               <h3>About Progressive Web App Features</h3>
