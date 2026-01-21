@@ -78,6 +78,20 @@ export default function Navigation() {
             </NavDropdown>
 
             <Nav.Item>
+              <Nav.Link
+                tabIndex="0"
+                rel="noopener noreferrer"
+                target="_blank"
+                href="https://blog.dddeastmidlands.com/"
+                onSelect={() => {
+                  logEvent('navigation', 'blog');
+                }}
+              >
+                Blog
+              </Nav.Link>
+            </Nav.Item>
+
+            <Nav.Item>
               <Nav.Link tabIndex="0" href="/code-of-conduct">
                 Code of Conduct
               </Nav.Link>

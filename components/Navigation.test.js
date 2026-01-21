@@ -26,6 +26,15 @@ describe('Given the Navigation is rendered', () => {
     );
   });
 
+  test('it should display a Blog link', () => {
+    const { getByText } = render(<Navigation />);
+    expect(getByText('Blog')).toBeInTheDocument();
+    expect(getByText('Blog')).toHaveAttribute(
+      'href',
+      'https://blog.dddeastmidlands.com/',
+    );
+  });
+
   test('it should display a Code of Conduct link', () => {
     const { getByText } = render(<Navigation />);
     expect(getByText('Code of Conduct')).toBeInTheDocument();
