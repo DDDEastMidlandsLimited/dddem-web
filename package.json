@@ -28,7 +28,7 @@
     "@fortawesome/react-fontawesome": "^3.1.1",
     "babel-plugin-macros": "^3.1.0",
     "bootstrap": "^5.3.8",
-    "next": "^15.5.9",
+    "next": "^16.1.4",
     "npm": "^11.8.0",
     "perfume.js": "^9.4.0",
     "postcss": "^8.5.6",
