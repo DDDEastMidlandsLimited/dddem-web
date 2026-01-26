@@ -8,11 +8,13 @@ import SSRProvider from 'react-bootstrap/SSRProvider';
 function MyApp({ Component, pageProps }) {
   useEffect(() => {
     if ('serviceWorker' in navigator) {
-      navigator.serviceWorker.getRegistrations().then((registrations) => {
-        registrations.forEach((registration) => {
-          registration.unregister();
+      navigator.serviceWorker
+        .getRegistrations()
+        .then((registrations) => {
+          registrations.forEach((registration) => {
+            registration.unregister();
+          });
         });
-      });
     }
   }, []);
   return (

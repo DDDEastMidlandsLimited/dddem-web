@@ -21,8 +21,8 @@ export default function CodeOfConduct() {
           that makes you uncomfortable at a DDD East Midlands event,
           if the event itself is creating an unsafe or inappropriate
           environment or you are made to feel uncomfortable by anyone
-          at any of our events or in our online communities, please let a member of the event team know or contact and
-          organiser
+          at any of our events or in our online communities, please
+          let a member of the event team know or contact and organiser
           .
         </p>
       </section>
@@ -77,8 +77,8 @@ export default function CodeOfConduct() {
         </p>
         <p tabIndex="0">
           If you are being harassed, notice that someone else is being
-          harassed, or have any other concerns, please let a member of the event team know or contact and
-          organiser          .
+          harassed, or have any other concerns, please let a member of
+          the event team know or contact and organiser .
         </p>
         <p tabIndex="0">
           DDD East Midlands representatives will be happy to help

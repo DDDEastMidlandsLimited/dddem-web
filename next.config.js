@@ -4,9 +4,9 @@ const nextConfig = {
   trailingSlash: true,
   turbopack: {},
   output: 'export',
-    images: {
+  images: {
     unoptimized: true,
-  }
-}
+  },
+};
 
 module.exports = nextConfig;

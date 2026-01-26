@@ -59,10 +59,10 @@ export default function JessicaBrentnall() {
         </p>
         <p tabIndex="0">
           Jessica has a lot of event organisation experience. Having
-          founded Women In Tech Nottingham
-          back in 2015, and running it for nearly 2 years, she has
-          previous experience with running an inclusive event. She
-          also co-organises the .NET Notts meetup in Nottingham.
+          founded Women In Tech Nottingham back in 2015, and running
+          it for nearly 2 years, she has previous experience with
+          running an inclusive event. She also co-organises the .NET
+          Notts meetup in Nottingham.
         </p>
       </section>
 

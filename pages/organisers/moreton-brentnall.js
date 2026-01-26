@@ -54,11 +54,10 @@ export default function MoretonBrentnall() {
       <section className="past-speakers-section">
         <h2 tabIndex="0">About Moreton</h2>
         <p tabIndex="0">
-          Moreton is the sensible head of the
-          co-founders. He is the number whizz and the fashion guru.
-          Seriously, check out his Ninja Turtle Doc Martens. You may
-          (not) recognise Moreton from his performance at 2018&apos;s
-          Hack24 as Mr Blobby.
+          Moreton is the sensible head of the co-founders. He is the
+          number whizz and the fashion guru. Seriously, check out his
+          Ninja Turtle Doc Martens. You may (not) recognise Moreton
+          from his performance at 2018&apos;s Hack24 as Mr Blobby.
         </p>
       </section>
 
