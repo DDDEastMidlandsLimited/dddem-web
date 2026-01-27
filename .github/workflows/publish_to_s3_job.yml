@@ -5,8 +5,6 @@ on:
         required: true
       aws_secret_access_key_actions:
         required: true
-      aws_distribution_id_actions:
-        required: true
 
 jobs:
   publish_to_s3:
