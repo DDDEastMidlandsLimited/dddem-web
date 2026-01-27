@@ -27,8 +27,8 @@ jobs:
 
       - name: Configure AWS
         env:
-          AWS_ACCESS_KEY: ${{ secrets.aws_access_key_actions }}
-          AWS_SECRET_KEY: ${{ secrets.aws_secret_access_key_actions }}
+          AWS_ACCESS_KEY: ${{ secrets.AWS_ACCESS_KEY_ID }}
+          AWS_SECRET_KEY: ${{ secrets.AWS_ACCESS_SECRET_KEY }}
         run: |
           aws configure set aws_access_key_id "$AWS_ACCESS_KEY_JB"
           aws configure set aws_secret_access_key "$AWS_SECRET_KEY_JB"
@@ -37,7 +37,7 @@ jobs:
 
       - name: Deploy To S3
         env:
-          AWS_ACCESS_KEY: ${{ secrets.aws_access_key_actions }}
-          AWS_SECRET_KEY: ${{ secrets.aws_secret_access_key_actions }}
+          AWS_ACCESS_KEY: ${{ secrets.AWS_ACCESS_KEY_ID }}
+          AWS_SECRET_KEY: ${{ secrets.AWS_ACCESS_SECRET_KEY }}
         run: |
           aws s3 sync ./out s3://temp.dddeastmidlands.com --delete
