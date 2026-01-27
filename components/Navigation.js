@@ -68,15 +68,13 @@ export default function Navigation() {
               title="Past Events"
               id="basic-past-event-nav-dropdown"
             >
-              <Nav.Item>
-                <Link href="/pastconferences/pastspeakers/pastspeakergrid">
-                  <NavDropdown.Item
-                    tabIndex="0"
-                  >
-                    Past Speakers
-                  </NavDropdown.Item>
-                </Link>
-              </Nav.Item>
+              <Link href="/pastconferences/pastspeakers/pastspeakergrid">
+                <NavDropdown.Item
+                  tabIndex="0"
+                >
+                  Past Speakers
+                </NavDropdown.Item>
+              </Link>
               <Link href="/pastconferences/album">
                 <NavDropdown.Item
                   tabIndex="0"
