@@ -1,5 +1,5 @@
 import React from 'react';
-import Perfume from 'perfume.js';
+import { initPerfume } from 'perfume.js';
 import ReactGA from 'react-ga';
 
 const metricNames = [
@@ -14,7 +14,7 @@ const metricNames = [
   'tbt10S',
   'tbtFinal',
 ];
-new Perfume({
+initPerfume({
   analyticsTracker: ({ metricName, data, navigatorInformation }) => {
     if (metricNames.includes(metricName)) {
       
