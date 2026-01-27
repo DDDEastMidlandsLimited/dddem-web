@@ -30,8 +30,8 @@ jobs:
           AWS_ACCESS_KEY: ${{ secrets.aws_access_key_actions }}
           AWS_SECRET_KEY: ${{ secrets.aws_secret_access_key_actions }}
         run: |
-          aws configure set aws_access_key_id "$AWS_ACCESS_KEY"
-          aws configure set aws_secret_access_key "$AWS_SECRET_KEY"
+          aws configure set aws_access_key_id "$AWS_ACCESS_KEY_JB"
+          aws configure set aws_secret_access_key "$AWS_SECRET_KEY_JB"
           aws configure set region eu-west-2
           aws configure set output json
 
@@ -40,12 +40,4 @@ jobs:
           AWS_ACCESS_KEY: ${{ secrets.aws_access_key_actions }}
           AWS_SECRET_KEY: ${{ secrets.aws_secret_access_key_actions }}
         run: |
-          aws s3 sync ./out s3://www.dddeastmidlands.com --delete
-
-      - name: Invalidate Cache
-        env:
-          AWS_ACCESS_KEY: ${{ secrets.aws_access_key_actions }}
-          AWS_SECRET_KEY: ${{ secrets.aws_secret_access_key_actions }}
-          DISTRIBUTION_ID: ${{ secrets.aws_distribution_id_actions}}
-        run: |
-          aws cloudfront create-invalidation --distribution-id "$DISTRIBUTION_ID" --paths "/*"
+          aws s3 sync ./out s3://temp.dddeastmidlands.com --delete
