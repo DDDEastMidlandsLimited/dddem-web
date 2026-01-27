@@ -5,8 +5,9 @@ import Navigation from './Navigation';
 describe('Given the Navigation is rendered', () => {
   test('it should display a Home link', () => {
     const { getByText } = render(<Navigation />);
-    expect(getByText('Home')).toBeInTheDocument();
-    expect(getByText('Home')).toHaveAttribute('href', '/');
+    const homeLink = getByText('Home');
+    expect(homeLink).toBeInTheDocument();
+    expect(homeLink.closest('a')).toHaveAttribute('href', '/');
   });
 
   test('it should display a Past Events link', async () => {
@@ -15,12 +16,12 @@ describe('Given the Navigation is rendered', () => {
     expect(pastEventsLink).toBeInTheDocument();
     fireEvent.click(pastEventsLink);
     const pastSpeakersLink = await findByText('Past Speakers');
-    expect(pastSpeakersLink).toHaveAttribute(
+    expect(pastSpeakersLink.closest('a')).toHaveAttribute(
       'href',
       '/pastconferences/pastspeakers/pastspeakergrid',
     );
     const pastPhotosLink = await findByText('Past Photos');
-    expect(pastPhotosLink).toHaveAttribute(
+    expect(pastPhotosLink.closest('a')).toHaveAttribute(
       'href',
       '/pastconferences/album',
     );
@@ -37,8 +38,9 @@ describe('Given the Navigation is rendered', () => {
 
   test('it should display a Code of Conduct link', () => {
     const { getByText } = render(<Navigation />);
-    expect(getByText('Code of Conduct')).toBeInTheDocument();
-    expect(getByText('Code of Conduct')).toHaveAttribute(
+    const codeOfConductLink = getByText('Code of Conduct');
+    expect(codeOfConductLink).toBeInTheDocument();
+    expect(codeOfConductLink.closest('a')).toHaveAttribute(
       'href',
       '/code-of-conduct',
     );
