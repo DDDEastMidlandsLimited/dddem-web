@@ -1,9 +1,5 @@
-name: Deploy to S3 (OIDC)
-
 on:
-  push:
-    branches:
-      - main
+  workflow_call:
 
 permissions:
   id-token: write   # REQUIRED for OIDC
@@ -39,7 +35,7 @@ jobs:
       - name: Upload Site Build Artifacts
         uses: actions/upload-artifact@v6
         with:
-          name: build_artifacts
+          name: build_deploy_artifacts
           path: |
             out
 
