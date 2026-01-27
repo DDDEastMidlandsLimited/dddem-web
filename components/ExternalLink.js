@@ -1,6 +1,5 @@
 import React from 'react';
 import Link from 'next/link';
-import { withRouter } from 'next/router';
 import { logEvent } from '../utils/analytics';
 
 function ExternalLink({
@@ -28,4 +27,4 @@ function ExternalLink({
   );
 }
 
-export default withRouter(ExternalLink);
+export default ExternalLink;

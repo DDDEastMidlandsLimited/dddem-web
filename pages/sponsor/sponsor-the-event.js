@@ -83,9 +83,9 @@ export default function Sponsor() {
           </p>
           <ul>
             <li tabIndex="0">
-              <a href="../why-sponsor" rel="noreferrer">
+              <Link href="/sponsor/why-sponsor">
                 Why Sponsor?
-              </a>
+              </Link>
             </li>
             <li tabIndex="0">
               <a
@@ -96,14 +96,14 @@ export default function Sponsor() {
               </a>
             </li>
             <li tabIndex="0">
-              <a href="../testimonials" rel="noreferrer">
+              <Link href="/sponsor/testimonials">
                 Testimonials
-              </a>
+              </Link>
             </li>
             <li tabIndex="0">
-              <a href="../social-responsibility" rel="noreferrer">
+              <Link href="/sponsor/social-responsibility">
                 Social Responsibility
-              </a>
+              </Link>
             </li>
           </ul>
         </section>
@@ -145,19 +145,9 @@ export default function Sponsor() {
             <div className="columnright">
               <ul tabIndex="0">
                 <li tabIndex="0">
-                  <strong>Twitter:</strong>{' '}
-                  <a
-                    href="https://twitter.com/missracheybaby"
-                    target="_blank"
-                    rel="noreferrer"
-                  >
-                    @missracheybaby
-                  </a>
-                </li>
-                <li tabIndex="0">
                   <strong>LinkedIn:</strong>{' '}
                   <a
-                    href="https://www.linkedin.com/in/rachelwatsondistinct/"
+                    href="https://www.linkedin.com/in/rachelwatsonta/"
                     target="_blank"
                     rel="noreferrer"
                   >

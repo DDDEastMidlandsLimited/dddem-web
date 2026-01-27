@@ -7,12 +7,11 @@ import PastSpeakersButton from '../../../../components/speakers/PastSpeakersButt
 import { library } from '@fortawesome/fontawesome-svg-core';
 import {
   faInstagram,
-  faTwitter,
   faGithub,
   faLinkedin,
 } from '@fortawesome/free-brands-svg-icons';
 
-library.add(faInstagram, faTwitter, faGithub, faLinkedin);
+library.add(faInstagram, faGithub, faLinkedin);
 
 export default function SimonPainter() {
   return (
@@ -159,16 +158,7 @@ export default function SimonPainter() {
             <a
               target="_blank"
               rel="noreferrer"
-              aria-label="Simon Painter: Twitter"
-              href="https://twitter.com/madSimonJ"
-            >
-              Twitter
-            </a>
-          </li>
-          <li>
-            <a
-              target="_blank"
-              rel="noreferrer"
+
               aria-label="Simon Painter: LinkedIn"
               href="https://www.linkedin.com/in/simon-painter-45a05217/"
             >

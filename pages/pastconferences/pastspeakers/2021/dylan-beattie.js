@@ -7,12 +7,11 @@ import PastSpeakersButton from '../../../../components/speakers/PastSpeakersButt
 import { library } from '@fortawesome/fontawesome-svg-core';
 import {
   faInstagram,
-  faTwitter,
   faGithub,
   faLinkedin,
 } from '@fortawesome/free-brands-svg-icons';
 
-library.add(faInstagram, faTwitter, faGithub, faLinkedin);
+library.add(faInstagram, faGithub, faLinkedin);
 
 export default function DylanBeattie() {
   return (
@@ -98,7 +97,7 @@ export default function DylanBeattie() {
           Dylan is the creator of the Rockstar programming language,
           and is known for his live music shows featuring
           software-themed parodies of classic rock songs. He’s online
-          at dylanbeattie.net and on Twitter as @dylanbeattie.
+          at dylanbeattie.net.
         </p>
       </section>
 
@@ -131,16 +130,6 @@ export default function DylanBeattie() {
       <section className="past-speakers-section">
         <h2 tabIndex="0">Links</h2>
         <ul>
-          <li>
-            <a
-              target="_blank"
-              rel="noreferrer"
-              aria-label="Dylan Beattie: Twitter"
-              href="https://twitter.com/dylanbeattie"
-            >
-              Twitter
-            </a>
-          </li>
           <li>
             <a
               target="_blank"

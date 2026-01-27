@@ -7,12 +7,11 @@ import PastSpeakersButton from '../../../../components/speakers/PastSpeakersButt
 import { library } from '@fortawesome/fontawesome-svg-core';
 import {
   faInstagram,
-  faTwitter,
   faGithub,
   faLinkedin,
 } from '@fortawesome/free-brands-svg-icons';
 
-library.add(faInstagram, faTwitter, faGithub, faLinkedin);
+library.add(faInstagram, faGithub, faLinkedin);
 
 export default function PaulBailey() {
   return (
@@ -138,20 +137,10 @@ export default function PaulBailey() {
             <a
               target="_blank"
               rel="noreferrer"
-              aria-label="Paul Bailey: Twitter"
+              aria-label="Paul Bailey: LinkedIn"
               href="https://www.linkedin.com/in/paul-bailey-68380715/"
             >
               LinkedIn
-            </a>
-          </li>
-          <li tabIndex="0">
-            <a
-              target="_blank"
-              rel="noreferrer"
-              aria-label="Paul Bailey: X"
-              href="https://twitter.com/paul_bailey_"
-            >
-              X
             </a>
           </li>
         </ul>

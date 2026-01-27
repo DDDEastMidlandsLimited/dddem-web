@@ -7,12 +7,11 @@ import PastSpeakersButton from '../../../../components/speakers/PastSpeakersButt
 import { library } from '@fortawesome/fontawesome-svg-core';
 import {
   faInstagram,
-  faTwitter,
   faGithub,
   faLinkedin,
 } from '@fortawesome/free-brands-svg-icons';
 
-library.add(faInstagram, faTwitter, faGithub, faLinkedin);
+library.add(faInstagram, faGithub, faLinkedin);
 
 export default function TaniaAllard() {
   return (
@@ -133,16 +132,7 @@ export default function TaniaAllard() {
             <a
               target="_blank"
               rel="noreferrer"
-              aria-label="Tania Allard: Twitter"
-              href="https://twitter.com/ixek"
-            >
-              Twitter
-            </a>
-          </li>
-          <li>
-            <a
-              target="_blank"
-              rel="noreferrer"
+
               aria-label="Tania Allard: Website"
               href="https://www.trallard.dev/pensieve/trallard.dev"
             >

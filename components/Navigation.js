@@ -1,4 +1,5 @@
 import React from 'react';
+import Link from 'next/link';
 import { Nav, Navbar, NavDropdown } from 'react-bootstrap';
 import { logEvent } from '../utils/analytics';
 
@@ -14,7 +15,9 @@ export default function Navigation() {
             defaultActiveKey="/home"
           >
             <Nav.Item>
-              <Nav.Link href="/">Home</Nav.Link>
+              <Link href="/" passHref legacyBehavior>
+                <Nav.Link>Home</Nav.Link>
+              </Link>
             </Nav.Item>
 
             <NavDropdown
@@ -22,38 +25,42 @@ export default function Navigation() {
               title="Information"
               id="basic-information-nav-dropdown"
             >
-              <NavDropdown.Item
-                id="about"
-                tabIndex="0"
-                href="/about-the-conference"
-                title="About the conference"
-              >
-                About Us
-              </NavDropdown.Item>
-              <NavDropdown.Item
-                id="activities"
-                tabIndex="0"
-                href="/information/event-activities"
-                title="Link to Event Activites Page"
-              >
-                Event Activities
-              </NavDropdown.Item>
-              <NavDropdown.Item
-                id="accessibility-information"
-                tabIndex="0"
-                href="/information/accessibility-information"
-                title="Link to Accessibility Information Page"
-              >
-                Accessibility
-              </NavDropdown.Item>
-              <NavDropdown.Item
-                id="demographics"
-                tabIndex="0"
-                href="/information/demographics"
-                title="Link to Demographics Page"
-              >
-                Demographics
-              </NavDropdown.Item>
+              <Link href="/about-the-conference" passHref legacyBehavior>
+                <NavDropdown.Item
+                  id="about"
+                  tabIndex="0"
+                  title="About the conference"
+                >
+                  About Us
+                </NavDropdown.Item>
+              </Link>
+              <Link href="/information/event-activities" passHref legacyBehavior>
+                <NavDropdown.Item
+                  id="activities"
+                  tabIndex="0"
+                  title="Link to Event Activites Page"
+                >
+                  Event Activities
+                </NavDropdown.Item>
+              </Link>
+              <Link href="/information/accessibility-information" passHref legacyBehavior>
+                <NavDropdown.Item
+                  id="accessibility-information"
+                  tabIndex="0"
+                  title="Link to Accessibility Information Page"
+                >
+                  Accessibility
+                </NavDropdown.Item>
+              </Link>
+              <Link href="/information/demographics" passHref legacyBehavior>
+                <NavDropdown.Item
+                  id="demographics"
+                  tabIndex="0"
+                  title="Link to Demographics Page"
+                >
+                  Demographics
+                </NavDropdown.Item>
+              </Link>
             </NavDropdown>
 
             <NavDropdown
@@ -61,20 +68,20 @@ export default function Navigation() {
               title="Past Events"
               id="basic-past-event-nav-dropdown"
             >
-              <Nav.Item>
+              <Link href="/pastconferences/pastspeakers/pastspeakergrid" passHref legacyBehavior>
                 <NavDropdown.Item
                   tabIndex="0"
-                  href="/pastconferences/pastspeakers/pastspeakergrid"
                 >
                   Past Speakers
                 </NavDropdown.Item>
-              </Nav.Item>
-              <NavDropdown.Item
-                tabIndex="0"
-                href="/pastconferences/album"
-              >
-                Past Photos
-              </NavDropdown.Item>
+              </Link>
+              <Link href="/pastconferences/album" passHref legacyBehavior>
+                <NavDropdown.Item
+                  tabIndex="0"
+                >
+                  Past Photos
+                </NavDropdown.Item>
+              </Link>
             </NavDropdown>
 
             <Nav.Item>
@@ -92,9 +99,11 @@ export default function Navigation() {
             </Nav.Item>
 
             <Nav.Item>
-              <Nav.Link tabIndex="0" href="/code-of-conduct">
-                Code of Conduct
-              </Nav.Link>
+              <Link href="/code-of-conduct" passHref legacyBehavior>
+                <Nav.Link tabIndex="0">
+                  Code of Conduct
+                </Nav.Link>
+              </Link>
             </Nav.Item>
           </Nav>
         </Navbar.Collapse>

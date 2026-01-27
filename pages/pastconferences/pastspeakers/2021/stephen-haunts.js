@@ -7,12 +7,11 @@ import PastSpeakersButton from '../../../../components/speakers/PastSpeakersButt
 import { library } from '@fortawesome/fontawesome-svg-core';
 import {
   faInstagram,
-  faTwitter,
   faGithub,
   faLinkedin,
 } from '@fortawesome/free-brands-svg-icons';
 
-library.add(faInstagram, faTwitter, faGithub, faLinkedin);
+library.add(faInstagram, faGithub, faLinkedin);
 
 export default function StephenHaunts() {
   return (
@@ -123,16 +122,7 @@ export default function StephenHaunts() {
             <a
               target="_blank"
               rel="noreferrer"
-              aria-label="Stephen Haunts: Twitter"
-              href="https://twitter.com/stephenhaunts"
-            >
-              Twitter
-            </a>
-          </li>
-          <li>
-            <a
-              target="_blank"
-              rel="noreferrer"
+
               aria-label="Stephen Haunts: Website"
               href="https://stephenhaunts.com/"
             >

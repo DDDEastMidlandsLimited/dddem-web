@@ -7,12 +7,11 @@ import PastSpeakersButton from '../../../../components/speakers/PastSpeakersButt
 import { library } from '@fortawesome/fontawesome-svg-core';
 import {
   faInstagram,
-  faTwitter,
   faGithub,
   faLinkedin,
 } from '@fortawesome/free-brands-svg-icons';
 
-library.add(faInstagram, faTwitter, faGithub, faLinkedin);
+library.add(faInstagram, faGithub, faLinkedin);
 
 export default function SteveCollins() {
   return (
@@ -110,15 +109,7 @@ export default function SteveCollins() {
             {' '}
             https://SteveTalksCode.co.uk{' '}
           </a>{' '}
-          and tweets
-          <a
-            target="_blank"
-            rel="noreferrer"
-            aria-label="Steve Collins: Twitter"
-            href="https://twitter.com/stevetalkscode"
-          >
-            @SteveTalksCode
-          </a>
+          and other platforms.
         </p>
         <p tabIndex="0">
           Steve has given talks about configuration at events and user
@@ -173,16 +164,6 @@ export default function SteveCollins() {
       <section className="past-speakers-section">
         <h2 tabIndex="0">Links</h2>
         <ul>
-          <li>
-            <a
-              target="_blank"
-              rel="noreferrer"
-              aria-label="Steve Collins: Twitter"
-              href="https://twitter.com/stevetalkscode"
-            >
-              Twitter
-            </a>
-          </li>
           <li>
             <a
               target="_blank"
