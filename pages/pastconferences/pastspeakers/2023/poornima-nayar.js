@@ -7,12 +7,11 @@ import PastSpeakersButton from '../../../../components/speakers/PastSpeakersButt
 import { library } from '@fortawesome/fontawesome-svg-core';
 import {
   faInstagram,
-  faTwitter,
   faGithub,
   faLinkedin,
 } from '@fortawesome/free-brands-svg-icons';
 
-library.add(faInstagram, faTwitter, faGithub, faLinkedin);
+library.add(faInstagram, faGithub, faLinkedin);
 
 export default function PoornimaNayar() {
   return (
@@ -94,16 +93,6 @@ export default function PoornimaNayar() {
       <section className="past-speakers-section">
         <h2 tabIndex="0">Links</h2>
         <ul>
-          <li tabIndex="0">
-            <a
-              target="_blank"
-              rel="noreferrer"
-              aria-label="Poornima Nayar: X"
-              href="https://twitter.com/PoornimaNayar"
-            >
-              X
-            </a>
-          </li>
         </ul>
       </section>
     </Layout>

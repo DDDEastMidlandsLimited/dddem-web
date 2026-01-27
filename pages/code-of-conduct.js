@@ -123,7 +123,7 @@ export default function CodeOfConduct() {
         </p>
         <p tabIndex="0">
           If you are uncomfortable speaking in person you can contact
-          us on Twitter or by email, but there is no guaruntee that
+          us by email, but there is no guaruntee that
           messages will be dealt with in a timely manner on the day.
         </p>
       </section>

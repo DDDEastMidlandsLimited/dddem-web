@@ -282,7 +282,7 @@ export default function ConferenceInformation() {
 
       <section className="content-section">
         <p tabIndex="0">
-          Give them a follow on Twitter, say hi at the local events,
+          Follow them on social media, say hi at the local events,
           offer them a coffee or some chocolate if they looked in
           need. They ran around on the day of the event making sure
           your experience of it was the best they could possibly make

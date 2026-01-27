@@ -7,12 +7,11 @@ import PastSpeakersButton from '../../../../components/speakers/PastSpeakersButt
 import { library } from '@fortawesome/fontawesome-svg-core';
 import {
   faInstagram,
-  faTwitter,
   faGithub,
   faLinkedin,
 } from '@fortawesome/free-brands-svg-icons';
 
-library.add(faInstagram, faTwitter, faGithub, faLinkedin);
+library.add(faInstagram, faGithub, faLinkedin);
 
 export default function MarcSteele() {
   return (
@@ -87,20 +86,10 @@ export default function MarcSteele() {
             <a
               target="_blank"
               rel="noreferrer"
-              aria-label="Marc Steele: Twitter"
+              aria-label="Marc Steele: LinkedIn"
               href="https://www.linkedin.com/in/technicallyminded/"
             >
               LinkedIn
-            </a>
-          </li>
-          <li tabIndex="0">
-            <a
-              target="_blank"
-              rel="noreferrer"
-              aria-label="Marc Steele: X"
-              href="https://twitter.com/steelegbr"
-            >
-              X
             </a>
           </li>
         </ul>

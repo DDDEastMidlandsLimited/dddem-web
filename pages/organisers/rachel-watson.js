@@ -7,12 +7,11 @@ import BackToAboutButton from '../../components/information/BackToAboutButton';
 import { library } from '@fortawesome/fontawesome-svg-core';
 import {
   faInstagram,
-  faTwitter,
   faGithub,
   faLinkedin,
 } from '@fortawesome/free-brands-svg-icons';
 
-library.add(faInstagram, faTwitter, faGithub, faLinkedin);
+library.add(faInstagram, faGithub, faLinkedin);
 
 export default function RachelWatson() {
   return (
@@ -85,17 +84,7 @@ export default function RachelWatson() {
           </li>
           <li tabIndex="0">
             <a
-              href="https://twitter.com/missracheybaby"
-              target="_blank"
-              rel="noreferrer"
-              aria-label="Rachel Watson: Twitter"
-            >
-              Twitter
-            </a>
-          </li>
-          <li tabIndex="0">
-            <a
-              href="https://www.linkedin.com/in/rachelwatsondistinct/"
+              href="https://www.linkedin.com/in/rachelwatsonta/"
               target="_blank"
               rel="noreferrer"
               aria-label="Rachel Watson: LinkedIn"

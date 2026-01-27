@@ -7,12 +7,11 @@ import BackToAboutButton from '../../components/information/BackToAboutButton';
 import { library } from '@fortawesome/fontawesome-svg-core';
 import {
   faInstagram,
-  faTwitter,
   faGithub,
   faLinkedin,
 } from '@fortawesome/free-brands-svg-icons';
 
-library.add(faInstagram, faTwitter, faGithub, faLinkedin);
+library.add(faInstagram, faGithub, faLinkedin);
 
 export default function StevenPears() {
   return (
@@ -71,16 +70,6 @@ export default function StevenPears() {
       <section className="past-speakers-section">
         <h2 tabIndex="0">Links</h2>
         <ul>
-          <li tabIndex="0">
-            <a
-              target="_blank"
-              rel="noreferrer"
-              aria-label="Steven Pears: Twitter"
-              href="https://twitter.com/StevenPears"
-            >
-              Twitter
-            </a>
-          </li>
           <li tabIndex="0">
             <a
               target="_blank"

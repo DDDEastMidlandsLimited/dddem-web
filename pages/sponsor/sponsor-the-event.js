@@ -145,19 +145,9 @@ export default function Sponsor() {
             <div className="columnright">
               <ul tabIndex="0">
                 <li tabIndex="0">
-                  <strong>Twitter:</strong>{' '}
-                  <a
-                    href="https://twitter.com/missracheybaby"
-                    target="_blank"
-                    rel="noreferrer"
-                  >
-                    @missracheybaby
-                  </a>
-                </li>
-                <li tabIndex="0">
                   <strong>LinkedIn:</strong>{' '}
                   <a
-                    href="https://www.linkedin.com/in/rachelwatsondistinct/"
+                    href="https://www.linkedin.com/in/rachelwatsonta/"
                     target="_blank"
                     rel="noreferrer"
                   >

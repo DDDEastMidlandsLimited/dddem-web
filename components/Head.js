@@ -15,28 +15,6 @@ export default function HeadComponent({ children }) {
         content="/static/favicon/ms-icon-144x144.png"
       />
       <meta name="theme-color" content="#ffffff" />
-      <meta name="twitter:card" content="summary" />
-      <meta
-        name="twitter:title"
-        content="DDD East Midlands Website"
-      />
-      <meta name="twitter:site" content="@dddeastmidlands" />
-      <meta
-        name="twitter:url"
-        content="https://www.dddeastmidlands.com"
-      />
-      <meta
-        name="twitter:description"
-        content="A technology conference for the community, by the community. Celebrates the East Midlands tech community, businesses and talent have to offer through collaboration & innovation."
-      />
-      <meta
-        name="twitter:image"
-        content="https://s3.eu-west-2.amazonaws.com/ddd-images/ddd_avatar_400x400.jpg"
-      />
-      <meta
-        name="twitter:image:alt"
-        content="The DDD East Midlands Logo"
-      />
       <meta
         name="description"
         content="A technology conference for the community, by the community. Celebrates the East Midlands tech community, businesses and talent have to offer through collaboration & innovation."
