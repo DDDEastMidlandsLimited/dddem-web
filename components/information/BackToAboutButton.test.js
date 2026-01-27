@@ -8,7 +8,7 @@ describe('Given the Back To Conference Crew button is rendered', () => {
     expect(getByText('Back To About')).toBeInTheDocument();
     expect(getByText('Back To About')).toHaveAttribute(
       'href',
-      '../../about-the-conference/#organisers',
+      '../../about-the-conference',
     );
   });
 });
