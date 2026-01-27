@@ -7,12 +7,11 @@ import PastSpeakersButton from '../../../../components/speakers/PastSpeakersButt
 import { library } from '@fortawesome/fontawesome-svg-core';
 import {
   faInstagram,
-  faTwitter,
   faGithub,
   faLinkedin,
 } from '@fortawesome/free-brands-svg-icons';
 
-library.add(faInstagram, faTwitter, faGithub, faLinkedin);
+library.add(faInstagram, faGithub, faLinkedin);
 
 export default function StephenJackson() {
   return (
@@ -128,16 +127,7 @@ export default function StephenJackson() {
             <a
               target="_blank"
               rel="noreferrer"
-              aria-label="Stephen Jackson: Twitter"
-              href="https://twitter.com/Dukeboxz"
-            >
-              Twitter
-            </a>
-          </li>
-          <li>
-            <a
-              target="_blank"
-              rel="noreferrer"
+
               aria-label="Stephen Jackson: LinkedIn"
               href="https://www.linkedin.com/in/stephenjjackson/"
             >
