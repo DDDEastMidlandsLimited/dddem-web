@@ -1,0 +1,40 @@
+name: Deploy to S3 (OIDC)
+
+on:
+  push:
+    branches:
+      - main
+
+permissions:
+  id-token: write   # REQUIRED for OIDC
+  contents: read
+
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: 18
+          cache: npm
+
+      - name: Install dependencies
+        run: npm ci
+      
+      - name: Build Next.js site
+        run: npm run build
+
+      - name: Configure AWS credentials (OIDC)
+        uses: aws-actions/configure-aws-credentials@v4
+        with:
+          role-to-assume: arn:aws:iam::735252638559:role/GitHubActionsS3Deploy
+          aws-region: eu-west-2
+
+      - name: Deploy to S3
+        run: |
+          aws s3 sync ./out s3://temp.dddeastmidlands.com --delete
