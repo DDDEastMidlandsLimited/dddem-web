@@ -23,19 +23,14 @@ jobs:
           pip install --user awscli
           echo "$HOME/.local/bin" >> $GITHUB_PATH
 
-      - name: Configure AWS
-        env:
-          AWS_ACCESS_KEY: ${{ secrets.AWS_ACCESS_KEY_JB }}
-          AWS_SECRET_KEY: ${{ secrets.AWS_SECRET_KEY_JB }}
-        run: |
-          aws configure set aws_access_key_id "$AWS_ACCESS_KEY_JB"
-          aws configure set aws_secret_access_key "$AWS_SECRET_KEY_JB"
-          aws configure set region eu-west-2
-          aws configure set output json
+      - name: Configure AWS CLI
+        uses: aws-actions/configure-aws-credentials@v5
+        with:
+          aws-access-key-id: ${{ secrets.AWS_ACCESS_KEY_JB }}
+          aws-secret-access-key: ${{ secrets.AWS_SECRET_KEY_JB }}
+          aws-region: eu-west-2
 
       - name: Deploy To S3
-        env:
-          AWS_ACCESS_KEY: ${{ secrets.AWS_ACCESS_KEY_JB }}
-          AWS_SECRET_KEY: ${{ secrets.AWS_SECRET_KEY_JB }}
         run: |
-          aws s3 sync ./out s3://temp.dddeastmidlands.com --delete
+          aws s3 sync ./out s3://temp.dddeastmidlands.com  --delete
+          echo "Deployed to S3"
