@@ -14,9 +14,14 @@ export default function VenueInformation() {
         <h1 tabIndex="0">How to find DDD East Midlands</h1>
         <p>
           The venue for DDD is now part of{' '}
-          <a href="https://www.ntueventsandconferencing.co.uk/">
+          <Link
+            href="https://www.ntueventsandconferencing.co.uk/"
+            rel="noreferrer"
+            passHref legacyBehavior
+            title="NTU Events and Conferencing Website"
+            tabIndex="0">
             NTU Events and Conferencing
-          </a>
+          </Link>
           , formerly known as Nottingham Conference Centre. DDD takes
           place in the{' '}
           <strong>
@@ -25,23 +30,6 @@ export default function VenueInformation() {
           buildings, whose entrance is at 10 Goldsmith St, Nottingham
           NG1 4BU.
         </p>
-        <h2>Useful links</h2>
-        <ul>
-          <li>
-            Google:{' '}
-            <a href="https://goo.gl/maps/87Vxkzg3DU64j9bb9">Maps</a>
-            &bull;
-            <a href="https://goo.gl/maps/zeA7UcHfwjtchpjP8">
-              StreetView
-            </a>{' '}
-          </li>
-          <li>
-            What3Words:{' '}
-            <a href="https://what3words.com/jazz.darker.wins">
-              {'///'}jazz.darker.wins
-            </a>
-          </li>
-        </ul>
         <p>
           The entrance is directly opposite St Andrews with Castle
           Gate URC Church.

@@ -165,9 +165,15 @@ export default function CrewInformation() {
         <p>7th October 2023 1:00pm - 7:00pm.</p>
         <h2>Where</h2>
         <p>
-          <a href="http://www.nottinghamconferencecentre.co.uk/">
+          <Link
+            href="http://www.nottinghamconferencecentre.co.uk/"
+            rel="noreferrer"
+            passHref legacyBehavior
+            title="Nottingham Conference Centre Website"
+            tabIndex="0"
+          >
             The Nottingham Conference Centre
-          </a>
+          </Link>
         </p>
       </section>
 
