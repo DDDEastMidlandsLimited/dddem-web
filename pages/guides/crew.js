@@ -1,8 +1,7 @@
-import React from 'react';
+import Link from 'next/link';
 import Layout from '../../components/Layout';
 import Header from '../../components/Header';
 import Head from 'next/head';
-import CovidPrecautions from '../../components/content/CovidPrecautions';
 import {
   CodeOfConduct,
   Introduction,

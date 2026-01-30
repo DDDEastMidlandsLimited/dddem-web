@@ -1,5 +1,6 @@
 import Layout from '../../../components/Layout';
 import Header from '../../../components/Header';
+import Link from 'next/link';
 import Head from 'next/head';
 
 export default function VenueInformation() {
