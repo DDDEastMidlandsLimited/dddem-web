@@ -52,6 +52,15 @@ export default function Navigation() {
                   Accessibility
                 </NavDropdown.Item>
               </Link>
+                <Link href="/information/supporting-speakers" passHref legacyBehavior>
+                <NavDropdown.Item
+                  id="supporting-speakers"
+                  tabIndex="0"
+                  title="Link to Supporting Speakers Page"
+                >
+                  Supporting Speakers
+                </NavDropdown.Item>
+              </Link>
               <Link href="/information/demographics" passHref legacyBehavior>
                 <NavDropdown.Item
                   id="demographics"
