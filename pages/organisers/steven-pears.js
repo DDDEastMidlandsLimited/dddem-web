@@ -62,7 +62,7 @@ export default function StevenPears() {
       <section className="past-speakers-section">
         <h2 tabIndex="0">Steven's Responsibilities</h2>
         <p tabIndex="0">
-          Will be working closely with Moreton to manage the events
+          Was working closely with Moreton to manage the events
           contracts, budgets, payments and anything else financial.
         </p>
       </section>

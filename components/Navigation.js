@@ -1,4 +1,3 @@
-import React from 'react';
 import Link from 'next/link';
 import { Nav, Navbar, NavDropdown } from 'react-bootstrap';
 import { logEvent } from '../utils/analytics';
@@ -50,6 +49,15 @@ export default function Navigation() {
                   title="Link to Accessibility Information Page"
                 >
                   Accessibility
+                </NavDropdown.Item>
+              </Link>
+                <Link href="/information/supporting-speakers" passHref legacyBehavior>
+                <NavDropdown.Item
+                  id="supporting-speakers"
+                  tabIndex="0"
+                  title="Link to Supporting Speakers Page"
+                >
+                  Supporting Speakers
                 </NavDropdown.Item>
               </Link>
               <Link href="/information/demographics" passHref legacyBehavior>

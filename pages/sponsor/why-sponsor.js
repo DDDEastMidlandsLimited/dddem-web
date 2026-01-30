@@ -86,8 +86,8 @@ export default function WhySponsor() {
         <a name="free-training" />
         <h2 tabIndex="0">Free training</h2>
         <p tabIndex="0">
-          All of the sponsorship tiers include guaranteed tickets to
-          the event. The employees you send will be able to enjoy the
+          All of the sponsorship tiers included guaranteed tickets to
+          the event. The employees you sent were able to enjoy the
           conference, learn from the talks and gain as much as an
           attendee, saving some serious money out of your training
           budgets and coming back with some new ideas to try!
@@ -114,11 +114,11 @@ export default function WhySponsor() {
           tablecloth, games, swag and more.
         </p>
         <p tabIndex="0">
-          Potential recruits will approach to find out if your company
-          is right for their next move, or you can have the
-          opportunity to turn the eye of some top talent that isn’t
-          even aware they are looking. Show off the parts of your
-          company and culture you are especially proud of.
+          Potential recruits approached to find out if your company
+          was right for their next move, or you could have the
+          opportunity to turn the eye of some top talent that wasn’t
+          even aware they were looking. Show off the parts of your
+          company and culture you were especially proud of.
         </p>
         <p tabIndex="0">
           Representatives from other companies may also come to find
@@ -146,11 +146,11 @@ export default function WhySponsor() {
           East Midlands.
         </p>
         <p tabIndex="0">
-          By sponsoring this event you will be supporting this amazing
-          community and helping DDD East Midlands to promote it
-          nationally, if not globally. We are sure you are as invested
+          By sponsoring this event you supported this amazing
+          community and helped DDD East Midlands to promote it
+          nationally, if not globally. We are sure you were as invested
           in the East Midlands tech community and the talent produced
-          by it as much as we are, and we thank you for considering
+          by it as much as we were, and we thank you for considering
           providing your support.
         </p>
       </section>

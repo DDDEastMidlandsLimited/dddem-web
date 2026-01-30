@@ -57,15 +57,15 @@ export default function AnthonyDang() {
           of date) content which you can’t explain.
         </p>
         <p tabIndex="0">
-          In this presentation we will demo and compare different
+          In this presentation we demoed and compared different
           caching methodologies, and their perceived real world uses.
-          We will discuss Donut cache, Memory cache, Redis, Varnish,
-          CDNs, and many more. We will dive into demos of real world
+          We discussed Donut cache, Memory cache, Redis, Varnish,
+          CDNs, and many more. We dove into demos of real world
           implementations which can cause unpredictable problems. Some
-          of these are horrible, and some are face-palm.
+          of these were horrible, and some were face-palm.
         </p>
         <p tabIndex="0">
-          At the end of this presentation you will be aware of the
+          At the end of this presentation you were aware of the
           different trade-offs with each caching methodology, and
           which might best for your situation.
         </p>
