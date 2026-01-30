@@ -17,7 +17,7 @@ export default function PastSpeakers() {
       <section className="content-section">
         <p>
           Click on the images of our wonderful speakers to find out
-          more about them and what they will be talking about.
+          more about them and what they talked about.
         </p>
       </section>
 

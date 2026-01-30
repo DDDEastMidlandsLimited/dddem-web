@@ -23,25 +23,25 @@ export default function Talks() {
             <strong>length</strong> or <strong>topic</strong>.
           </li>
           <li>
-            Tags are <strong>inclusive</strong>. If a talk contains
-            all the tags selected, it will be displayed. If it does
-            not contain one or more of the tags selected, it will not
-            be displayed.
+            Tags are <strong>inclusive</strong>. If a talk contained
+            all the tags selected, it was displayed. If it did
+            not contain one or more of the tags selected, it was not
+            displayed.
           </li>
         </ul>
         <h3>Voting</h3>
         <ul>
           <li>
-            If you are attending you will be emailed a link to your
-            Eventbrite registered email. This link leads to a google
-            form with all the titles that have been submitted.
+            If you attended you were emailed a link to your
+            Eventbrite registered email. This link led to a google
+            form with all the titles that had been submitted.
           </li>
           <li>
-            You can vote for up to 10 talks you would like to see.
+            You could vote for up to 10 talks you wanted to see.
           </li>
           <li>
-            We advise reading the descriptions of talks, taking note
-            of the titles you want to see, then using Control+F or
+            We advised reading the descriptions of talks, taking note
+            of the titles you wanted to see, then using Control+F or
             Command+F searching for those titles on the google
             form.{' '}
           </li>

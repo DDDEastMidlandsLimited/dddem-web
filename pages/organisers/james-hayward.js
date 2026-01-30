@@ -61,11 +61,11 @@ export default function JamesHayward() {
       <section className="past-speakers-section">
         <h2 tabIndex="0">James' Responsibilities</h2>
         <p tabIndex="0">
-          Will be working closely with Jessica, ensuring everything
-          happens on schedule and everyone knows what they need to do
+          Was working closely with Jessica, ensuring everything
+          happened on schedule and everyone knew what they needed to do
           and when. Timelines, coordination with the venue, keeping in
           mind things like accessibility needs. Coordinating
-          everything that makes the event a success.
+          everything that made the event a success.
         </p>
       </section>
 

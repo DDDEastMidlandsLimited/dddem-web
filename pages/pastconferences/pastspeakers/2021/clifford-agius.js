@@ -92,7 +92,7 @@ export default function CliffordAgius() {
           <li tabIndex="0">
             How this option can reduce the costs from £000's to
             several hundred £s and is being done as an Open Source
-            project which will hopefully lead to designs and kits
+            project which hopefully led to designs and kits
             being available for others around the world to build their
             own.
           </li>

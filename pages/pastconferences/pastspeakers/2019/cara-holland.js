@@ -60,14 +60,14 @@ export default function CaraHolland() {
           I&apos;m a business visualiser who draws, writes and trains.
         </p>
         <p tabIndex="0">
-          In this session I will show you how to use visual skills
+          In this session I showed you how to use visual skills
           throughout the UX journey, transforming your engagement and
           problem solving skills, and how you already have the
           functional drawing ability you need, even if you can barely
           draw a stick. Honest.
         </p>
         <p tabIndex="0">
-          By the end of this session you will understand WHY working
+          By the end of this session you understood WHY working
           visually is so effective, but more importantly you&apos;ll
           get to see HOW it works by trying out visual exericises
           yourself.
