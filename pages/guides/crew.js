@@ -1,8 +1,7 @@
-import React from 'react';
+import Link from 'next/link';
 import Layout from '../../components/Layout';
 import Header from '../../components/Header';
 import Head from 'next/head';
-import CovidPrecautions from '../../components/content/CovidPrecautions';
 import {
   CodeOfConduct,
   Introduction,
@@ -165,9 +164,15 @@ export default function CrewInformation() {
         <p>7th October 2023 1:00pm - 7:00pm.</p>
         <h2>Where</h2>
         <p>
-          <a href="http://www.nottinghamconferencecentre.co.uk/">
+          <Link
+            href="http://www.nottinghamconferencecentre.co.uk/"
+            rel="noreferrer"
+            passHref legacyBehavior
+            title="Nottingham Conference Centre Website"
+            tabIndex="0"
+          >
             The Nottingham Conference Centre
-          </a>
+          </Link>
         </p>
       </section>
 

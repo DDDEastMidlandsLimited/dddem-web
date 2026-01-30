@@ -1,6 +1,7 @@
 import Layout from '../../components/Layout';
 import Header from '../../components/Header';
 import Head from 'next/head';
+import Link from 'next/link';
 import Image from 'next/image';
 
 export default function HacktoberFest() {
@@ -55,9 +56,13 @@ export default function HacktoberFest() {
                 Hacktoberfest is a month-long celebration of Free and
                 Open Source software during October, which is
                 organised by{' '}
-                <a href="https://www.digitalocean.com/">
+                <Link 
+                  href="https://www.digitalocean.com/"
+                  passHref legacyBehavior
+                  title="Digital Ocean Website"
+                  tabIndex="0">
                   Digital Ocean.
-                </a>{' '}
+                </Link>{' '}
                 It aims to get more folks dipping their toes in
                 contributing to Free and Open Source software, and
                 showing everyone that there&apos;s more to a project
@@ -74,20 +79,6 @@ export default function HacktoberFest() {
             some awesome Hacktoberfest swag including t-shirts and
             stickers.
           </p>
-          <div className="align-center">
-            <br />
-            <div className="back-to-about-button-container">
-              <div className="back-to-about-button">
-                <a
-                  href="https://hacktoberfest.digitalocean.com/"
-                  target="_blank"
-                  rel="noreferrer"
-                >
-                  Sign Up Here
-                </a>
-              </div>
-            </div>
-          </div>
         </section>
 
         <section className="content-section" id="take-part">
@@ -115,24 +106,29 @@ export default function HacktoberFest() {
           <ul>
             <li>
               {' '}
-              <a
+              <Link
                 href="https://github.com/DDDEastMidlandsLimited/dddem-web"
-                target="_blank"
                 rel="noreferrer"
+                passHref legacyBehavior
+                title="GitHub Repository for DDD East Midlands Website"
+                tabIndex="0"
               >
                 See the Readme on the main GitHub page for
                 instructions on running the website locally.
-              </a>{' '}
+              </Link>{' '}
             </li>
             <li>
               {' '}
-              <a
+              <Link
                 href="https://github.com/DDDEastMidlandsLimited/dddem-web/issues"
                 target="_blank"
                 rel="noreferrer"
+                passHref legacyBehavior
+                title="GitHub Issues for DDD East Midlands Website"
+                tabIndex="0"
               >
                 Check out the GitHub issues here.
-              </a>{' '}
+              </Link>{' '}
             </li>
           </ul>
           <br />
@@ -147,13 +143,15 @@ export default function HacktoberFest() {
           <p>
             Some information about HacktoberFest and how to contribute
             can be read about{' '}
-            <a
+            <Link
               href="https://jessicabrentnall.co.uk/blog/hacktober-contributor-guide/"
-              target="_blank"
               rel="noreferrer"
+              passHref legacyBehavior
+              title="Hacktoberfest Contributor Guide"
+              tabIndex="0"
             >
               in this linked blog post.
-            </a>{' '}
+            </Link>{' '}
             Below are some instructions on how to make changes to this
             page.
           </p>
@@ -162,47 +160,55 @@ export default function HacktoberFest() {
             <ul>
               <li>
                 {' '}
-                <a
+                <Link
                   href="https://github.com/DDDEastMidlandsLimited/dddem-web"
-                  target="_blank"
                   rel="noreferrer"
+                  passHref legacyBehavior
+                  title="GitHub Repository for DDD East Midlands Website"
+                  tabIndex="0"
                 >
                   Fork the repository for this website here.
-                </a>
+                </Link>
               </li>
               <li>
                 {' '}
-                <a
+                <Link
                   href="https://guides.github.com/activities/forking/"
-                  target="_blank"
                   rel="noreferrer"
+                  passHref legacyBehavior
+                  title="Guide to Forking a Repository"
+                  tabIndex="0"
                 >
                   You can find some instructions on how to fork
                   repositories in this guide.
-                </a>
+                </Link>
               </li>
               <li>
                 {' '}
-                <a
+                <Link
                   href="https://docs.github.com/en/repositories/creating-and-managing-repositories/cloning-a-repository"
-                  target="_blank"
                   rel="noreferrer"
+                  passHref legacyBehavior
+                  title="Instructions for Cloning a Repository"
+                  tabIndex="0"
                 >
                   Clone the repository locally using these
                   instructions.
-                </a>
+                </Link>
               </li>
               <li>
                 {' '}
-                <a
+                <Link
                   href="https://docs.github.com/en/github/collaborating-with-issues-and-pull-requests/configuring-a-remote-for-a-fork"
-                  target="_blank"
                   rel="noreferrer"
+                  passHref legacyBehavior
+                  title="Configuring a Remote for a Fork"
+                  tabIndex="0"
                 >
                   Configure your remote fork to have the original
                   projects main branch as it’s upstream using these
                   instructions.
-                </a>
+                </Link>
               </li>
               <li>
                 If you regularly pull in changes from this remote
@@ -217,13 +223,15 @@ export default function HacktoberFest() {
             <ul>
               <li>
                 In your forked repository{' '}
-                <a
+                <Link
                   href="https://git-scm.com/book/en/v2/Git-Branching-Basic-Branching-and-Merging"
-                  target="_blank"
                   rel="noreferrer"
+                  passHref legacyBehavior
+                  title="Guide to Creating a Git Branch"
+                  tabIndex="0"
                 >
                   create a branch
-                </a>
+                </Link>
                 , which is named according to the contribution
                 guidelines for the repository.
               </li>
@@ -257,34 +265,40 @@ export default function HacktoberFest() {
             <ul>
               <li>
                 {' '}
-                <a
+                <Link
                   href="https://docs.github.com/en/repositories/working-with-files/managing-files/adding-a-file-to-a-repository#adding-a-file-to-a-repository-using-the-command-line"
-                  target="_blank"
                   rel="noreferrer"
+                  passHref legacyBehavior
+                  title="Guide to Committing Changes"
+                  tabIndex="0"
                 >
                   Commit your changes
-                </a>
+                </Link>
               </li>
               <li>
                 {' '}
-                <a
+                <Link
                   href="https://docs.github.com/en/get-started/using-git/pushing-commits-to-a-remote-repository"
-                  target="_blank"
                   rel="noreferrer"
+                  passHref legacyBehavior
+                  title="Guide to Pushing Changes"
+                  tabIndex="0"
                 >
                   Push your changes up.
-                </a>
+                </Link>
               </li>
               <li>
                 {' '}
-                <a
+                <Link
                   href="https://docs.github.com/en/github/collaborating-with-pull-requests/proposing-changes-to-your-work-with-pull-requests/creating-a-pull-request"
-                  target="_blank"
                   rel="noreferrer"
+                  passHref legacyBehavior
+                  title="Guide to Creating a Pull Request"
+                  tabIndex="0"
                 >
                   You can then raise a Pull Request using the GitHub
                   UI.
-                </a>
+                </Link>
               </li>
             </ul>
           </p>

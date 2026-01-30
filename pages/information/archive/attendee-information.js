@@ -50,9 +50,6 @@ export default function AttendeeInformation() {
           <li>
             <a href="#returning-tickets">Returning Tickets</a>
           </li>
-          <li>
-            <a href="#waiting-list">Waiting List</a>
-          </li>
         </ul>
         <p tabIndex="0">
           <strong>
@@ -168,20 +165,6 @@ export default function AttendeeInformation() {
           can claim the place. We do pay per person, so this will have
           an impact on us if you can no longer attend but don&apos;t
           return the ticket.
-        </p>
-
-        <a name="waiting-list" />
-        <h2 tabIndex="0">Waiting List</h2>
-        <p tabIndex="0">
-          The tickets for this event sold out within a day for both
-          releases. If you were not lucky enough to get a ticket,
-          please
-          <a href="https://www.eventbrite.co.uk/e/ddd-east-midlands-tickets-58629047058">
-            sign up to the waitlist here
-          </a>
-          . If a ticket becomes available, and you are next on the
-          waitlist you will recieve an email and given 24 hours to
-          claim your ticket.
         </p>
       </section>
 

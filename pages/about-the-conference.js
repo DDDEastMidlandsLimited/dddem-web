@@ -1,4 +1,3 @@
-import React from 'react';
 import Layout from '../components/Layout';
 import Header from '../components/Header';
 import Head from 'next/head';
@@ -183,10 +182,11 @@ export default function ConferenceInformation() {
 
       <section className="content-section volunteer-grid">
         <article className="volunteer-grid-item">
-          <a
-            tabIndex="0"
+          <Link
             href="../organisers/jessica-brentnall"
+            passHref legacyBehavior
             title="Link to Information About Jessica"
+            tabIndex="0"
           >
             <Image
               src="/static/organisers/jess.png"
@@ -196,13 +196,14 @@ export default function ConferenceInformation() {
               width="100"
               layout="responsive"
             />
-          </a>
+          </Link>
         </article>
         <article className="volunteer-grid-item">
-          <a
-            tabIndex="0"
+          <Link
             href="../organisers/moreton-brentnall"
+            passHref legacyBehavior
             title="Link to Information About Moreton"
+            tabIndex="0"
           >
             <Image
               src="/static/organisers/mort.png"
@@ -212,13 +213,14 @@ export default function ConferenceInformation() {
               width="100"
               layout="responsive"
             />
-          </a>
+          </Link>
         </article>
         <article className="volunteer-grid-item">
-          <a
-            tabIndex="0"
+          <Link
             href="../organisers/rachel-watson"
+            passHref legacyBehavior
             title="Link to Information About Rachel"
+            tabIndex="0"
           >
             <Image
               src="/static/organisers/rachel.png"
@@ -228,13 +230,14 @@ export default function ConferenceInformation() {
               width="100"
               layout="responsive"
             />
-          </a>
+          </Link>
         </article>
         <article className="volunteer-grid-item">
-          <a
-            tabIndex="0"
+          <Link
             href="../organisers/mia-gordon"
+            passHref legacyBehavior
             title="Link to Information About Mia"
+            tabIndex="0"
           >
             <Image
               src="/static/organisers/mia.png"
@@ -244,13 +247,14 @@ export default function ConferenceInformation() {
               width="100"
               layout="responsive"
             />
-          </a>
+          </Link>
         </article>
         <article className="volunteer-grid-item">
-          <a
-            tabIndex="0"
+          <Link
             href="../organisers/steven-pears"
+            passHref legacyBehavior
             title="Link to Information About Steve"
+            tabIndex="0"
           >
             <Image
               src="/static/organisers/steven.png"
@@ -260,13 +264,14 @@ export default function ConferenceInformation() {
               width="100"
               layout="responsive"
             />
-          </a>
+          </Link>
         </article>
         <article className="volunteer-grid-item">
-          <a
-            tabIndex="0"
+          <Link
             href="../organisers/james-hayward"
+            passHref legacyBehavior
             title="Link to Information About James"
+            tabIndex="0"
           >
             <Image
               src="/static/organisers/james.png"
@@ -276,7 +281,7 @@ export default function ConferenceInformation() {
               width="100"
               layout="responsive"
             />
-          </a>
+          </Link>
         </article>
       </section>
 
@@ -326,12 +331,13 @@ export default function ConferenceInformation() {
         <p tabIndex="0">
           In order to remain transparent, we tried to answer as many
           accessibility related questions as we could on our{' '}
-          <a
+          <Link
             href="/information/accessibility-information"
-            target="_blank"
-          >
+            passHref legacyBehavior
+            title="Accessibility Information"
+            tabIndex="0">
             Accessibility Page
-          </a>
+          </Link>
           .
         </p>
 
@@ -359,7 +365,11 @@ export default function ConferenceInformation() {
         </p>
         <p tabIndex="0">
           We also asked that all talk submissions abide to the{' '}
-          <Link href="https://dddeastmidlands.com/code-of-conduct/">
+          <Link 
+            href="https://dddeastmidlands.com/code-of-conduct/"
+            passHref legacyBehavior
+            title="Code of Conduct"
+            tabIndex="0">
             Code of Conduct
           </Link>
           . We wanted all attendees to feel comfortable at the event,

@@ -1,4 +1,4 @@
-import React from 'react';
+import Link from 'next/link';
 
 export default function CodeOfConduct() {
   return (
@@ -11,9 +11,13 @@ export default function CodeOfConduct() {
       <p tabIndex="0">
         All involved in the DDD East Midlands Conference are subject
         to{' '}
-        <a href="https://www.dddeastmidlands.com/code-of-conduct/">
+        <Link 
+            href="https://www.dddeastmidlands.com/code-of-conduct/"
+            passHref legacyBehavior
+            title="Code of Conduct"
+            tabIndex="0">
           Code Of Conduct Page.
-        </a>
+        </Link>
         This is not just for the day of the event, but for all
         presence of DDD East Midlands including Social Media.
       </p>
