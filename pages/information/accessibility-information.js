@@ -21,7 +21,7 @@ export default function AccessibilityInformation() {
         <ul>
           <li>
             <a href="#prayerroom">
-              Will be a place to pray available?
+              Was there a place to pray available?
             </a>
           </li>
         </ul>
@@ -31,7 +31,7 @@ export default function AccessibilityInformation() {
         </p>
         <ul>
           <li>
-            <a href="#childcare">Will childcare be available?</a>
+            <a href="#childcare">Was childcare available?</a>
           </li>
         </ul>
 
@@ -41,7 +41,7 @@ export default function AccessibilityInformation() {
         <ul>
           <li>
             <a href="#genderbathrooms">
-              Are bathrooms gender neutral?
+              Were bathrooms gender neutral?
             </a>
           </li>
         </ul>
@@ -52,19 +52,18 @@ export default function AccessibilityInformation() {
         <ul>
           <li>
             <a href="#wheelchairaccessoutside">
-              What is wheelchair access like outside the venue? I.e.
-              Are kerbs high?
+              What was wheelchair access like outside the venue?
             </a>
           </li>
           <li>
             <a href="#wheelchairaccessinside">
-              What is wheelchair access like inside the venue? Is it
+              What was wheelchair access like inside the venue? Was it
               easy to get in/around the building?
             </a>
           </li>
           <li>
             <a href="#wheelchairbathrooms">
-              Are there accessible bathrooms for wheelchair users?
+              Were there accessible bathrooms for wheelchair users?
             </a>
           </li>
         </ul>
@@ -75,17 +74,17 @@ export default function AccessibilityInformation() {
         <ul>
           <li>
             <a href="#largeprint">
-              Do you have large print versions of your materials,
+              Did you have large print versions of your materials,
               flyers, resources etc?
             </a>
           </li>
           <li>
             <a href="#audiodescribed">
-              Will you have audio-described resources?
+              Did you have audio-described resources?
             </a>
           </li>
           <li>
-            <a href="#captionedtalks">Will talks be captioned?</a>
+            <a href="#captionedtalks">Were talks captioned?</a>
           </li>
         </ul>
 
@@ -95,17 +94,17 @@ export default function AccessibilityInformation() {
         <ul>
           <li>
             <a href="#diet-reqs">
-              Will dietary requirements be catered to?
+              Were dietary requirements catered to?
             </a>
           </li>
           <li>
             <a href="#ownfood">
-              Are people welcome to bring their own food?
+              Were people welcome to bring their own food?
             </a>
           </li>
           <li>
             <a href="#alcohol">
-              Are people going to be using alcohol?
+              Were people going to be using alcohol?
             </a>
           </li>
         </ul>
@@ -116,7 +115,7 @@ export default function AccessibilityInformation() {
         <ul>
           <li>
             <a href="#assistanceanimals">
-              Are assistance animals allowed in the venue?
+              Were assistance animals allowed in the venue?
             </a>
           </li>
         </ul>
@@ -126,11 +125,11 @@ export default function AccessibilityInformation() {
         <h1 tabIndex="0">Multi-faith/Quiet Contemplation Room</h1>
 
         <a name="prayerroom" />
-        <h2 tabIndex="0">Will be a place to pray available?</h2>
+        <h2 tabIndex="0">Was there a place to pray available?</h2>
         <p tabIndex="0">
-          There will be a prayer room available on the day. It will be
-          marked on the maps and all volunteers will know where it
-          will be located.
+          There was a prayer room available on the day. It was
+          marked on the maps and all volunteers knew where it
+          was located.
         </p>
       </section>
 
@@ -139,14 +138,11 @@ export default function AccessibilityInformation() {
 
         <a name="childcare" />
         <h2 className="left" tabIndex="0">
-          Will childcare be available?
+          Was childcare available?
         </h2>
         <p tabIndex="0">
-          Unfortunately we will not be able to provide childcare at
-          this first event. The overhead and cost were too high on
-          this instance, but we would love to find a way in the
-          future. Accessibility is important to us and we would love
-          to make it easier for parents to attend the conference.
+          Unfortunately we were not be able to provide childcare.
+          The overhead and cost were too high.
         </p>
       </section>
 
@@ -154,16 +150,13 @@ export default function AccessibilityInformation() {
         <h1 tabIndex="0">Gendered Bathrooms</h1>
         <a name="genderbathrooms" />
         <h2 className="left" tabIndex="0">
-          Are bathrooms gender neutral?
+          Were bathrooms gender neutral?
         </h2>
         <p tabIndex="0">
-          Unfortunately, this isn&apos;t the case at this years event.
-          The NCC is converting some of it&apos;s toilets to be gender
-          neutral but this won&apos;t be in place until after the
-          event.
+          Some bathrooms were gender neutral, some were gendered.
         </p>
         <p tabIndex="0">
-          We ask that all attendees are respectful to other peoples
+          We asked that all attendees were respectful to other peoples
           gender identification and needs.
         </p>
       </section>
@@ -173,29 +166,29 @@ export default function AccessibilityInformation() {
 
         <a name="wheelchairaccessoutside" />
         <h2 className="left" tabIndex="0">
-          What is wheelchair access like outside the venue?
+          What was wheelchair access like outside the venue?
         </h2>
         <p tabIndex="0">
           Both the Goldsmith Street entrance and the Burton street
-          entrance are accessible and there are lifts to all levels.
-          The wheelchair door on Burton Street is a push button
+          entrance were accessible and there were lifts to all levels.
+          The wheelchair door on Burton Street had a push button
           entrance door.
         </p>
 
         <a name="wheelchairaccessinside" />
         <h2 className="left" tabIndex="0">
-          What is wheelchair access like inside the venue?
+          What was wheelchair access like inside the venue?
         </h2>
         <p tabIndex="0">
-          Wheelchair access is good. There are no steps/lips on doors
+          Wheelchair access was good. There were no steps/lips on doors
           to watch out for.
         </p>
 
         <a name="wheelchairbathrooms" />
         <h2 className="left" tabIndex="0">
-          Are there accessible bathrooms for wheelchair users?
+          Were there accessible bathrooms for wheelchair users?
         </h2>
-        <p tabIndex="0">There are on each level.</p>
+        <p tabIndex="0">There were on each level.</p>
       </section>
 
       <section className="content-section" id="audio-visual">
@@ -203,31 +196,29 @@ export default function AccessibilityInformation() {
 
         <a name="largeprint" />
         <h2 className="left" tabIndex="0">
-          Do you have large print versions of your materials, flyers,
+          Did you have large print versions of your materials, flyers,
           resources etc?
         </h2>
         <p tabIndex="0">
-          No. Unfortunately, with this being our first event, this is
-          one level of complexity we won&apos;t be covering this year.
+          No. Unfortunately, this was one level of complexity we couldn't cover.
         </p>
 
         <a name="audiodescribed" />
         <h2 className="left" tabIndex="0">
-          Will you have audio-described resources?
+          Were there audio-described resources?
         </h2>
         <p tabIndex="0">
-          No. Unfortunately, with this being our first event, this is
-          one level of complexity we won&apos;t be covering this year.
+          We asked participants if support was needed, and arranged support if it was needed.
+          There were no attendees that required sign langugage interpreters or
+          live audio description on the day.
         </p>
 
         <a name="captionedtalks" />
         <h2 className="left" tabIndex="0">
-          Will talks be captioned?
+          Were talks captioned?
         </h2>
         <p tabIndex="0">
-          Currently unconfirmed. If the Inclusivity sponsorship option
-          is paid for, then we will be providing captioning, but this
-          is currently still available.
+          Not during the event, but captions are available on the videos.
         </p>
       </section>
 
@@ -236,31 +227,30 @@ export default function AccessibilityInformation() {
 
         <a name="diet-reqs" />
         <h2 className="left" tabIndex="0">
-          Will dietary requirements be catered to?
+          Were dietary requirements catered to?
         </h2>
         <p tabIndex="0">
-          If you have indicated your dietary requirements in your
-          Eventbrite registration, we will do our best to cater
-          towards them.
+          Yes. We asked attendees to specify dietary requirements
+          when they registered, and catered accordingly.
         </p>
 
         <a name="food" />
         <h2 className="left" tabIndex="0">
-          Are people welcome to bring their own food?
+          Were people welcome to bring their own food?
         </h2>
         <p tabIndex="0">
-          Of course! We completely understand that there are various
+          Of course! We completely understood that there are various
           reasons people may want to bring their own food and drink.
-          We will be catering for vegetarian, vegan and celiac dietary
-          requirements at the event as far as we can.
+          We catered for vegetarian, vegan and celiac dietary
+          requirements at the event as far as we could.
         </p>
 
         <a name="alcohol" />
         <h2 className="left" tabIndex="0">
-          Are people going to be drinking/serving alcohol?
+          Were people going to be drinking/serving alcohol?
         </h2>
         <p tabIndex="0">
-          We won&apos;t be providing alcohol at the event.
+          No. It was an alcohol-free event.
         </p>
       </section>
 
@@ -269,10 +259,10 @@ export default function AccessibilityInformation() {
 
         <a name="assistanceanimals" />
         <h2 className="left" tabIndex="0">
-          Are assistance animals allowed in the venue?
+          Were assistance animals allowed in the venue?
         </h2>
         <p tabIndex="0">
-          They are yes - but only official assistance dogs.
+          Only official assistance dogs.
         </p>
       </section>
     </Layout>
