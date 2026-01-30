@@ -1,4 +1,3 @@
-import React from 'react';
 import Link from 'next/link';
 import { Nav, Navbar, NavDropdown } from 'react-bootstrap';
 import { logEvent } from '../utils/analytics';

@@ -1,15 +1,13 @@
-import React from 'react';
-import Layout from '../../components/Layout';
-import Header from '../../components/Header';
+import Layout from '../../../components/Layout';
+import Header from '../../../components/Header';
 import Head from 'next/head';
-import CovidPrecautions from '../../components/content/CovidPrecautions';
 import {
   CodeOfConduct,
   Transport,
   Catering,
   Wifi,
   SocialMedia,
-} from '../../components/content';
+} from '../../../components/content';
 
 export default function AttendeeInformation() {
   return (
