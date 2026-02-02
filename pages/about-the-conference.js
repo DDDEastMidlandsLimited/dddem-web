@@ -184,7 +184,8 @@ export default function ConferenceInformation() {
         <article className="volunteer-grid-item">
           <Link
             href="../organisers/jessica-brentnall"
-            passHref legacyBehavior
+            passHref
+            legacyBehavior
             title="Link to Information About Jessica"
             tabIndex="0"
           >
@@ -201,7 +202,8 @@ export default function ConferenceInformation() {
         <article className="volunteer-grid-item">
           <Link
             href="../organisers/moreton-brentnall"
-            passHref legacyBehavior
+            passHref
+            legacyBehavior
             title="Link to Information About Moreton"
             tabIndex="0"
           >
@@ -218,7 +220,8 @@ export default function ConferenceInformation() {
         <article className="volunteer-grid-item">
           <Link
             href="../organisers/rachel-watson"
-            passHref legacyBehavior
+            passHref
+            legacyBehavior
             title="Link to Information About Rachel"
             tabIndex="0"
           >
@@ -235,7 +238,8 @@ export default function ConferenceInformation() {
         <article className="volunteer-grid-item">
           <Link
             href="../organisers/mia-gordon"
-            passHref legacyBehavior
+            passHref
+            legacyBehavior
             title="Link to Information About Mia"
             tabIndex="0"
           >
@@ -252,7 +256,8 @@ export default function ConferenceInformation() {
         <article className="volunteer-grid-item">
           <Link
             href="../organisers/steven-pears"
-            passHref legacyBehavior
+            passHref
+            legacyBehavior
             title="Link to Information About Steve"
             tabIndex="0"
           >
@@ -269,7 +274,8 @@ export default function ConferenceInformation() {
         <article className="volunteer-grid-item">
           <Link
             href="../organisers/james-hayward"
-            passHref legacyBehavior
+            passHref
+            legacyBehavior
             title="Link to Information About James"
             tabIndex="0"
           >
@@ -333,9 +339,11 @@ export default function ConferenceInformation() {
           accessibility related questions as we could on our{' '}
           <Link
             href="/information/accessibility-information"
-            passHref legacyBehavior
+            passHref
+            legacyBehavior
             title="Accessibility Information"
-            tabIndex="0">
+            tabIndex="0"
+          >
             Accessibility Page
           </Link>
           .
@@ -365,11 +373,13 @@ export default function ConferenceInformation() {
         </p>
         <p tabIndex="0">
           We also asked that all talk submissions abide to the{' '}
-          <Link 
+          <Link
             href="https://dddeastmidlands.com/code-of-conduct/"
-            passHref legacyBehavior
+            passHref
+            legacyBehavior
             title="Code of Conduct"
-            tabIndex="0">
+            tabIndex="0"
+          >
             Code of Conduct
           </Link>
           . We wanted all attendees to feel comfortable at the event,

@@ -56,11 +56,13 @@ export default function HacktoberFest() {
                 Hacktoberfest is a month-long celebration of Free and
                 Open Source software during October, which is
                 organised by{' '}
-                <Link 
+                <Link
                   href="https://www.digitalocean.com/"
-                  passHref legacyBehavior
+                  passHref
+                  legacyBehavior
                   title="Digital Ocean Website"
-                  tabIndex="0">
+                  tabIndex="0"
+                >
                   Digital Ocean.
                 </Link>{' '}
                 It aims to get more folks dipping their toes in
@@ -109,7 +111,8 @@ export default function HacktoberFest() {
               <Link
                 href="https://github.com/DDDEastMidlandsLimited/dddem-web"
                 rel="noreferrer"
-                passHref legacyBehavior
+                passHref
+                legacyBehavior
                 title="GitHub Repository for DDD East Midlands Website"
                 tabIndex="0"
               >
@@ -123,7 +126,8 @@ export default function HacktoberFest() {
                 href="https://github.com/DDDEastMidlandsLimited/dddem-web/issues"
                 target="_blank"
                 rel="noreferrer"
-                passHref legacyBehavior
+                passHref
+                legacyBehavior
                 title="GitHub Issues for DDD East Midlands Website"
                 tabIndex="0"
               >
@@ -146,7 +150,8 @@ export default function HacktoberFest() {
             <Link
               href="https://jessicabrentnall.co.uk/blog/hacktober-contributor-guide/"
               rel="noreferrer"
-              passHref legacyBehavior
+              passHref
+              legacyBehavior
               title="Hacktoberfest Contributor Guide"
               tabIndex="0"
             >
@@ -163,7 +168,8 @@ export default function HacktoberFest() {
                 <Link
                   href="https://github.com/DDDEastMidlandsLimited/dddem-web"
                   rel="noreferrer"
-                  passHref legacyBehavior
+                  passHref
+                  legacyBehavior
                   title="GitHub Repository for DDD East Midlands Website"
                   tabIndex="0"
                 >
@@ -175,7 +181,8 @@ export default function HacktoberFest() {
                 <Link
                   href="https://guides.github.com/activities/forking/"
                   rel="noreferrer"
-                  passHref legacyBehavior
+                  passHref
+                  legacyBehavior
                   title="Guide to Forking a Repository"
                   tabIndex="0"
                 >
@@ -188,7 +195,8 @@ export default function HacktoberFest() {
                 <Link
                   href="https://docs.github.com/en/repositories/creating-and-managing-repositories/cloning-a-repository"
                   rel="noreferrer"
-                  passHref legacyBehavior
+                  passHref
+                  legacyBehavior
                   title="Instructions for Cloning a Repository"
                   tabIndex="0"
                 >
@@ -201,7 +209,8 @@ export default function HacktoberFest() {
                 <Link
                   href="https://docs.github.com/en/github/collaborating-with-issues-and-pull-requests/configuring-a-remote-for-a-fork"
                   rel="noreferrer"
-                  passHref legacyBehavior
+                  passHref
+                  legacyBehavior
                   title="Configuring a Remote for a Fork"
                   tabIndex="0"
                 >
@@ -226,7 +235,8 @@ export default function HacktoberFest() {
                 <Link
                   href="https://git-scm.com/book/en/v2/Git-Branching-Basic-Branching-and-Merging"
                   rel="noreferrer"
-                  passHref legacyBehavior
+                  passHref
+                  legacyBehavior
                   title="Guide to Creating a Git Branch"
                   tabIndex="0"
                 >
@@ -268,7 +278,8 @@ export default function HacktoberFest() {
                 <Link
                   href="https://docs.github.com/en/repositories/working-with-files/managing-files/adding-a-file-to-a-repository#adding-a-file-to-a-repository-using-the-command-line"
                   rel="noreferrer"
-                  passHref legacyBehavior
+                  passHref
+                  legacyBehavior
                   title="Guide to Committing Changes"
                   tabIndex="0"
                 >
@@ -280,7 +291,8 @@ export default function HacktoberFest() {
                 <Link
                   href="https://docs.github.com/en/get-started/using-git/pushing-commits-to-a-remote-repository"
                   rel="noreferrer"
-                  passHref legacyBehavior
+                  passHref
+                  legacyBehavior
                   title="Guide to Pushing Changes"
                   tabIndex="0"
                 >
@@ -292,7 +304,8 @@ export default function HacktoberFest() {
                 <Link
                   href="https://docs.github.com/en/github/collaborating-with-pull-requests/proposing-changes-to-your-work-with-pull-requests/creating-a-pull-request"
                   rel="noreferrer"
-                  passHref legacyBehavior
+                  passHref
+                  legacyBehavior
                   title="Guide to Creating a Pull Request"
                   tabIndex="0"
                 >

@@ -12,15 +12,21 @@ describe('Given the Navigation is rendered', () => {
 
   test('it should display a Past Events link', async () => {
     const { getByRole, findByRole } = render(<Navigation />);
-    const pastEventsLink = getByRole('button', { name: 'Past Events' });
+    const pastEventsLink = getByRole('button', {
+      name: 'Past Events',
+    });
     expect(pastEventsLink).toBeInTheDocument();
     fireEvent.click(pastEventsLink);
-    const pastSpeakersLink = await findByRole('link', { name: 'Past Speakers' });
+    const pastSpeakersLink = await findByRole('link', {
+      name: 'Past Speakers',
+    });
     expect(pastSpeakersLink).toHaveAttribute(
       'href',
       '/pastconferences/pastspeakers/pastspeakergrid',
     );
-    const pastPhotosLink = await findByRole('link', { name: 'Past Photos' });
+    const pastPhotosLink = await findByRole('link', {
+      name: 'Past Photos',
+    });
     expect(pastPhotosLink).toHaveAttribute(
       'href',
       '/pastconferences/album',
@@ -38,7 +44,9 @@ describe('Given the Navigation is rendered', () => {
 
   test('it should display a Code of Conduct link', () => {
     const { getByRole } = render(<Navigation />);
-    const codeOfConductLink = getByRole('link', { name: 'Code of Conduct' });
+    const codeOfConductLink = getByRole('link', {
+      name: 'Code of Conduct',
+    });
     expect(codeOfConductLink).toBeInTheDocument();
     expect(codeOfConductLink).toHaveAttribute(
       'href',

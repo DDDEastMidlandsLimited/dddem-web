@@ -12,9 +12,9 @@ export default function Introduction() {
         community.
       </p>
       <p tabIndex="0">
-        This was a great day full of amazing talks,
-        exhibition stalls and more. We were excited to meet you all
-        and hope you had a fantastic day.
+        This was a great day full of amazing talks, exhibition stalls
+        and more. We were excited to meet you all and hope you had a
+        fantastic day.
       </p>
     </section>
   );

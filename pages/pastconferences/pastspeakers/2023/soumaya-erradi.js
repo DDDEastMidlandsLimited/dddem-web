@@ -85,7 +85,6 @@ export default function SoumayaErradi() {
         <h2 tabIndex="0">Links</h2>
         <ul>
           <li tabIndex="0">
-
             <a
               target="_blank"
               rel="noreferrer"

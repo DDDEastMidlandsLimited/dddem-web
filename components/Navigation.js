@@ -24,7 +24,11 @@ export default function Navigation() {
               title="Information"
               id="basic-information-nav-dropdown"
             >
-              <Link href="/about-the-conference" passHref legacyBehavior>
+              <Link
+                href="/about-the-conference"
+                passHref
+                legacyBehavior
+              >
                 <NavDropdown.Item
                   id="about"
                   tabIndex="0"
@@ -33,7 +37,11 @@ export default function Navigation() {
                   About Us
                 </NavDropdown.Item>
               </Link>
-              <Link href="/information/event-activities" passHref legacyBehavior>
+              <Link
+                href="/information/event-activities"
+                passHref
+                legacyBehavior
+              >
                 <NavDropdown.Item
                   id="activities"
                   tabIndex="0"
@@ -42,7 +50,11 @@ export default function Navigation() {
                   Event Activities
                 </NavDropdown.Item>
               </Link>
-              <Link href="/information/accessibility-information" passHref legacyBehavior>
+              <Link
+                href="/information/accessibility-information"
+                passHref
+                legacyBehavior
+              >
                 <NavDropdown.Item
                   id="accessibility-information"
                   tabIndex="0"
@@ -51,7 +63,11 @@ export default function Navigation() {
                   Accessibility
                 </NavDropdown.Item>
               </Link>
-                <Link href="/information/supporting-speakers" passHref legacyBehavior>
+              <Link
+                href="/information/supporting-speakers"
+                passHref
+                legacyBehavior
+              >
                 <NavDropdown.Item
                   id="supporting-speakers"
                   tabIndex="0"
@@ -60,7 +76,11 @@ export default function Navigation() {
                   Supporting Speakers
                 </NavDropdown.Item>
               </Link>
-              <Link href="/information/demographics" passHref legacyBehavior>
+              <Link
+                href="/information/demographics"
+                passHref
+                legacyBehavior
+              >
                 <NavDropdown.Item
                   id="demographics"
                   tabIndex="0"
@@ -76,17 +96,21 @@ export default function Navigation() {
               title="Past Events"
               id="basic-past-event-nav-dropdown"
             >
-              <Link href="/pastconferences/pastspeakers/pastspeakergrid" passHref legacyBehavior>
-                <NavDropdown.Item
-                  tabIndex="0"
-                >
+              <Link
+                href="/pastconferences/pastspeakers/pastspeakergrid"
+                passHref
+                legacyBehavior
+              >
+                <NavDropdown.Item tabIndex="0">
                   Past Speakers
                 </NavDropdown.Item>
               </Link>
-              <Link href="/pastconferences/album" passHref legacyBehavior>
-                <NavDropdown.Item
-                  tabIndex="0"
-                >
+              <Link
+                href="/pastconferences/album"
+                passHref
+                legacyBehavior
+              >
+                <NavDropdown.Item tabIndex="0">
                   Past Photos
                 </NavDropdown.Item>
               </Link>
@@ -108,9 +132,7 @@ export default function Navigation() {
 
             <Nav.Item>
               <Link href="/code-of-conduct" passHref legacyBehavior>
-                <Nav.Link tabIndex="0">
-                  Code of Conduct
-                </Nav.Link>
+                <Nav.Link tabIndex="0">Code of Conduct</Nav.Link>
               </Link>
             </Nav.Item>
           </Nav>

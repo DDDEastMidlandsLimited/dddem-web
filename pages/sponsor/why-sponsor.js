@@ -148,10 +148,10 @@ export default function WhySponsor() {
         <p tabIndex="0">
           By sponsoring this event you supported this amazing
           community and helped DDD East Midlands to promote it
-          nationally, if not globally. We are sure you were as invested
-          in the East Midlands tech community and the talent produced
-          by it as much as we were, and we thank you for considering
-          providing your support.
+          nationally, if not globally. We are sure you were as
+          invested in the East Midlands tech community and the talent
+          produced by it as much as we were, and we thank you for
+          considering providing your support.
         </p>
       </section>
     </Layout>

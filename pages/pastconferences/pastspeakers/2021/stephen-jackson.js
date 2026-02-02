@@ -127,7 +127,6 @@ export default function StephenJackson() {
             <a
               target="_blank"
               rel="noreferrer"
-
               aria-label="Stephen Jackson: LinkedIn"
               href="https://www.linkedin.com/in/stephenjjackson/"
             >

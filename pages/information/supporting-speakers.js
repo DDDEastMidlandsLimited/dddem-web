@@ -16,9 +16,8 @@ export default function SupportingSpeakers() {
       <section className="content-section" id="supporting-speakers">
         <a name="speakers" />
         <p tabIndex="0">
-          DDD East Midlands made efforts for the
-          event to be a positive and supportive experience for
-          speakers.
+          DDD East Midlands made efforts for the event to be a
+          positive and supportive experience for speakers.
         </p>
         <ul>
           <li tabIndex="0">
@@ -50,10 +49,10 @@ export default function SupportingSpeakers() {
           offering their own support and time to realise this.
         </p>
         <p tabIndex="0">
-          Our organisers had toured around local
-          meetups and universities giving guidance on what a good
-          submission to speak should look like, and how to write one
-          with your own personal style.
+          Our organisers had toured around local meetups and
+          universities giving guidance on what a good submission to
+          speak should look like, and how to write one with your own
+          personal style.
         </p>
       </section>
 
@@ -61,21 +60,19 @@ export default function SupportingSpeakers() {
         <a name="speakers-workshop" />
         <h2 tabIndex="0">Speakers Workshop</h2>
         <p tabIndex="0">
-          All speakers were invited to attend
-          a workshop ahead of time, on how to structure and present a
-          talk as part of our mentorship scheme for first-time
-          speakers.
+          All speakers were invited to attend a workshop ahead of
+          time, on how to structure and present a talk as part of our
+          mentorship scheme for first-time speakers.
         </p>
         <p tabIndex="0">
           Encouraging people to do their very first talk was something
-          we were passionate about, so speakers can indicate
-          if they are first-time speakers and/or want additional
-          support.
+          we were passionate about, so speakers can indicate if they
+          are first-time speakers and/or want additional support.
         </p>
         <p tabIndex="0">
           We had some great mentors from the local community including
-          international speakers. They helped refine talk content
-          and slides, as well as gave feedback on how to improve the
+          international speakers. They helped refine talk content and
+          slides, as well as gave feedback on how to improve the
           mentees presentation style.
         </p>
       </section>

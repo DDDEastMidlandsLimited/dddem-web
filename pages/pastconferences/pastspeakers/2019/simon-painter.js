@@ -158,7 +158,6 @@ export default function SimonPainter() {
             <a
               target="_blank"
               rel="noreferrer"
-
               aria-label="Simon Painter: LinkedIn"
               href="https://www.linkedin.com/in/simon-painter-45a05217/"
             >

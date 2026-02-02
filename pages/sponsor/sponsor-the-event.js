@@ -81,9 +81,7 @@ export default function Sponsor() {
           </p>
           <ul>
             <li tabIndex="0">
-              <Link href="/sponsor/why-sponsor">
-                Why Sponsor?
-              </Link>
+              <Link href="/sponsor/why-sponsor">Why Sponsor?</Link>
             </li>
             <li tabIndex="0">
               <a
@@ -94,9 +92,7 @@ export default function Sponsor() {
               </a>
             </li>
             <li tabIndex="0">
-              <Link href="/sponsor/testimonials">
-                Testimonials
-              </Link>
+              <Link href="/sponsor/testimonials">Testimonials</Link>
             </li>
             <li tabIndex="0">
               <Link href="/sponsor/social-responsibility">

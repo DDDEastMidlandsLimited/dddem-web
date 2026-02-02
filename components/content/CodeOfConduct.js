@@ -11,11 +11,13 @@ export default function CodeOfConduct() {
       <p tabIndex="0">
         All involved in the DDD East Midlands Conference are subject
         to{' '}
-        <Link 
-            href="https://www.dddeastmidlands.com/code-of-conduct/"
-            passHref legacyBehavior
-            title="Code of Conduct"
-            tabIndex="0">
+        <Link
+          href="https://www.dddeastmidlands.com/code-of-conduct/"
+          passHref
+          legacyBehavior
+          title="Code of Conduct"
+          tabIndex="0"
+        >
           Code Of Conduct Page.
         </Link>
         This is not just for the day of the event, but for all
