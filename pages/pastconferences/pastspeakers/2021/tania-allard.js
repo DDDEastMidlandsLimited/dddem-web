@@ -132,7 +132,6 @@ export default function TaniaAllard() {
             <a
               target="_blank"
               rel="noreferrer"
-
               aria-label="Tania Allard: Website"
               href="https://www.trallard.dev/pensieve/trallard.dev"
             >

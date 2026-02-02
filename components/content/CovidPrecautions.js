@@ -5,8 +5,8 @@ export default function CovidPrecautions() {
     <section className="content-section" id="covid-precautions">
       <h1 tabIndex="0">Covid Precautions</h1>
       <p tabIndex="0">
-        Having spoken to several of our ticket holders we found
-        that we had several delegates with underlying health issues -
+        Having spoken to several of our ticket holders we found that
+        we had several delegates with underlying health issues -
         including one of our organising team - and a lot of nervous
         attendees.
       </p>
@@ -18,8 +18,8 @@ export default function CovidPrecautions() {
       </p>
       <p tabIndex="0">
         To ensure the event was as safe as possible for all in
-        attendance we took the following precautions and asked
-        that you help us by cooperating with them.
+        attendance we took the following precautions and asked that
+        you help us by cooperating with them.
       </p>
       <h2 tabIndex="0">On arrival at the event</h2>
       <p tabIndex="0">When you arrived we did the following:</p>
@@ -37,8 +37,7 @@ export default function CovidPrecautions() {
         the last 24-48 hours
       </h3>
       <p tabIndex="0">
-        We asked you to do this by entering your negative result
-        at
+        We asked you to do this by entering your negative result at
         <a
           href="https://test-for-coronavirus.service.gov.uk/report-result/login-choice"
           target="_blank"
@@ -52,11 +51,10 @@ export default function CovidPrecautions() {
         arrival.
       </p>
       <p tabIndex="0">
-        <b>If you could not prove a negative lateral flow result</b> we
-        had a testing area at the venue where you were asked
-        to do one in real time before joining the conference. Please
-        bear in mind this took 30 mins as a minimum so arrive
-        early!
+        <b>If you could not prove a negative lateral flow result</b>{' '}
+        we had a testing area at the venue where you were asked to do
+        one in real time before joining the conference. Please bear in
+        mind this took 30 mins as a minimum so arrive early!
       </p>
       <br />
       <h3 tabIndex="0">Ask you to choose a wrist band.</h3>
@@ -87,8 +85,8 @@ export default function CovidPrecautions() {
         </li>
 
         <li tabIndex="0">
-          Face mask wearing was optional, depending on your
-          comfort levels.
+          Face mask wearing was optional, depending on your comfort
+          levels.
         </li>
         <li tabIndex="0">
           We provided hand sanitiser around the venue for use
@@ -98,10 +96,10 @@ export default function CovidPrecautions() {
 
       <h2 tabIndex="0">Thank you for your patience</h2>
       <p tabIndex="0">
-        These additional checks meant it took a little longer to
-        check you in than we would usually like, but hoped you
-        understood we were taking these precautions so that everyone
-        felt safe and relaxed and could enjoy the event.
+        These additional checks meant it took a little longer to check
+        you in than we would usually like, but hoped you understood we
+        were taking these precautions so that everyone felt safe and
+        relaxed and could enjoy the event.
       </p>
     </section>
   );

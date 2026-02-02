@@ -7,8 +7,8 @@ export default function Wifi() {
       <h1 tabIndex="0">Wifi</h1>
       <h2 tabIndex="0">There was free Wifi on the day</h2>
       <p tabIndex="0">
-        This was provided by the venue and we gave out details on
-        the day.
+        This was provided by the venue and we gave out details on the
+        day.
       </p>
     </section>
   );

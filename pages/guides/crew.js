@@ -167,7 +167,8 @@ export default function CrewInformation() {
           <Link
             href="http://www.nottinghamconferencecentre.co.uk/"
             rel="noreferrer"
-            passHref legacyBehavior
+            passHref
+            legacyBehavior
             title="Nottingham Conference Centre Website"
             tabIndex="0"
           >

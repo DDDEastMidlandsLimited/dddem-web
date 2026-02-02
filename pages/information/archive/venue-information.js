@@ -18,9 +18,11 @@ export default function VenueInformation() {
           <Link
             href="https://www.ntueventsandconferencing.co.uk/"
             rel="noreferrer"
-            passHref legacyBehavior
+            passHref
+            legacyBehavior
             title="NTU Events and Conferencing Website"
-            tabIndex="0">
+            tabIndex="0"
+          >
             NTU Events and Conferencing
           </Link>
           , formerly known as Nottingham Conference Centre. DDD takes

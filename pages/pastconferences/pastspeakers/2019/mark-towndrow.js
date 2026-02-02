@@ -92,8 +92,7 @@ export default function MarkTowndrow() {
 
       <section className="past-speakers-section">
         <h2 tabIndex="0">Links</h2>
-        <ul>
-        </ul>
+        <ul></ul>
       </section>
     </Layout>
   );

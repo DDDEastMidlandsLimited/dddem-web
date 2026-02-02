@@ -7,15 +7,14 @@ export default function Catering() {
       <a name="food" />
       <h2>Food and Dietary Requirements</h2>
       <p tabIndex="0">
-        Lunch and snacks were provided on the day. This was a
-        hot buffet lunch and the options were chefs choice on the
-        day.
+        Lunch and snacks were provided on the day. This was a hot
+        buffet lunch and the options were chefs choice on the day.
       </p>
       <p tabIndex="0">
         All food is prepared in kitchens where nuts, gluten and other
         allergens could be present. As the menu descriptions cannot
-        include all ingredients, we tried to cater to the
-        requirements you listed as part of your ticket registration.
+        include all ingredients, we tried to cater to the requirements
+        you listed as part of your ticket registration.
       </p>
       <p tabIndex="0">
         <strong>
@@ -44,8 +43,8 @@ export default function Catering() {
       <a name="drink" />
       <h2 tabIndex="0">Alcohol</h2>
       <p tabIndex="0">
-        We did not serve alcohol as part of the event and asked
-        that you didn&apos;t bring any with you as we were not licenced.
+        We did not serve alcohol as part of the event and asked that
+        you didn&apos;t bring any with you as we were not licenced.
       </p>
 
       <a name="coffee" />

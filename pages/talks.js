@@ -24,17 +24,17 @@ export default function Talks() {
           </li>
           <li>
             Tags are <strong>inclusive</strong>. If a talk contained
-            all the tags selected, it was displayed. If it did
-            not contain one or more of the tags selected, it was not
+            all the tags selected, it was displayed. If it did not
+            contain one or more of the tags selected, it was not
             displayed.
           </li>
         </ul>
         <h3>Voting</h3>
         <ul>
           <li>
-            If you attended you were emailed a link to your
-            Eventbrite registered email. This link led to a google
-            form with all the titles that had been submitted.
+            If you attended you were emailed a link to your Eventbrite
+            registered email. This link led to a google form with all
+            the titles that had been submitted.
           </li>
           <li>
             You could vote for up to 10 talks you wanted to see.

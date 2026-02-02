@@ -127,9 +127,8 @@ export default function AccessibilityInformation() {
         <a name="prayerroom" />
         <h2 tabIndex="0">Was there a place to pray available?</h2>
         <p tabIndex="0">
-          There was a prayer room available on the day. It was
-          marked on the maps and all volunteers knew where it
-          was located.
+          There was a prayer room available on the day. It was marked
+          on the maps and all volunteers knew where it was located.
         </p>
       </section>
 
@@ -141,8 +140,8 @@ export default function AccessibilityInformation() {
           Was childcare available?
         </h2>
         <p tabIndex="0">
-          Unfortunately we were not be able to provide childcare.
-          The overhead and cost were too high.
+          Unfortunately we were not be able to provide childcare. The
+          overhead and cost were too high.
         </p>
       </section>
 
@@ -180,8 +179,8 @@ export default function AccessibilityInformation() {
           What was wheelchair access like inside the venue?
         </h2>
         <p tabIndex="0">
-          Wheelchair access was good. There were no steps/lips on doors
-          to watch out for.
+          Wheelchair access was good. There were no steps/lips on
+          doors to watch out for.
         </p>
 
         <a name="wheelchairbathrooms" />
@@ -200,7 +199,8 @@ export default function AccessibilityInformation() {
           resources etc?
         </h2>
         <p tabIndex="0">
-          No. Unfortunately, this was one level of complexity we couldn't cover.
+          No. Unfortunately, this was one level of complexity we
+          couldn't cover.
         </p>
 
         <a name="audiodescribed" />
@@ -208,9 +208,10 @@ export default function AccessibilityInformation() {
           Were there audio-described resources?
         </h2>
         <p tabIndex="0">
-          We asked participants if support was needed, and arranged support if it was needed.
-          There were no attendees that required sign langugage interpreters or
-          live audio description on the day.
+          We asked participants if support was needed, and arranged
+          support if it was needed. There were no attendees that
+          required sign langugage interpreters or live audio
+          description on the day.
         </p>
 
         <a name="captionedtalks" />
@@ -218,7 +219,8 @@ export default function AccessibilityInformation() {
           Were talks captioned?
         </h2>
         <p tabIndex="0">
-          Not during the event, but captions are available on the videos.
+          Not during the event, but captions are available on the
+          videos.
         </p>
       </section>
 
@@ -230,8 +232,8 @@ export default function AccessibilityInformation() {
           Were dietary requirements catered to?
         </h2>
         <p tabIndex="0">
-          Yes. We asked attendees to specify dietary requirements
-          when they registered, and catered accordingly.
+          Yes. We asked attendees to specify dietary requirements when
+          they registered, and catered accordingly.
         </p>
 
         <a name="food" />
@@ -249,9 +251,7 @@ export default function AccessibilityInformation() {
         <h2 className="left" tabIndex="0">
           Were people going to be drinking/serving alcohol?
         </h2>
-        <p tabIndex="0">
-          No. It was an alcohol-free event.
-        </p>
+        <p tabIndex="0">No. It was an alcohol-free event.</p>
       </section>
 
       <section className="content-section" id="assistanceanimals">
@@ -261,9 +261,7 @@ export default function AccessibilityInformation() {
         <h2 className="left" tabIndex="0">
           Were assistance animals allowed in the venue?
         </h2>
-        <p tabIndex="0">
-          Only official assistance dogs.
-        </p>
+        <p tabIndex="0">Only official assistance dogs.</p>
       </section>
     </Layout>
   );
