@@ -40,7 +40,7 @@ jobs:
             out
 
       - name: Configure AWS credentials (OIDC)
-        uses: aws-actions/configure-aws-credentials@v5
+        uses: aws-actions/configure-aws-credentials@v6
         with:
           role-to-assume: arn:aws:iam::735252638559:role/GitHubActionsS3Deploy
           aws-region: eu-west-2
