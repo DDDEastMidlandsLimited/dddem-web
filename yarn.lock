@@ -1226,10 +1226,10 @@
     treeverse "^3.0.0"
     walk-up-path "^4.0.0"
 
-"@npmcli/config@^10.8.0":
-  version "10.8.0"
-  resolved "https://registry.yarnpkg.com/@npmcli/config/-/config-10.8.0.tgz#41f982ecb96ca136e515faaf6feae3f303fbbd54"
-  integrity sha512-YkhoXZQU7zxyGi3V7J0zdK2pghzF9YXHiRdpRX8QNhsefk/zAJZJjRsbbw1hD67hlMp2gSygUGgW4y7FlrUThw==
+"@npmcli/config@^10.8.1":
+  version "10.8.1"
+  resolved "https://registry.yarnpkg.com/@npmcli/config/-/config-10.8.1.tgz#36dd459a03cda0fa9211df9f669bd1b2ac46497b"
+  integrity sha512-MAYk9IlIGiyC0c9fnjdBSQfIFPZT0g1MfeSiD1UXTq2zJOLX55jS9/sETJHqw/7LN18JjITrhYfgCfapbmZHiQ==
   dependencies:
     "@npmcli/map-workspaces" "^5.0.0"
     "@npmcli/package-json" "^7.0.0"
@@ -5935,14 +5935,14 @@ npm-user-validate@^4.0.0:
   resolved "https://registry.npmjs.org/npm-user-validate/-/npm-user-validate-4.0.0.tgz"
   integrity sha512-TP+Ziq/qPi/JRdhaEhnaiMkqfMGjhDLoh/oRfW+t5aCuIfJxIUxvwk6Sg/6ZJ069N/Be6gs00r+aZeJTfS9uHQ==
 
-npm@^11.12.0:
-  version "11.12.0"
-  resolved "https://registry.yarnpkg.com/npm/-/npm-11.12.0.tgz#b97efe05f16b9f4d31752aea58e2f0d66c6fbecf"
-  integrity sha512-xPhOap4ZbJWyd7DAOukP564WFwNSGu/2FeTRFHhiiKthcauxhH/NpkJAQm24xD+cAn8av5tQ00phi98DqtfLsg==
+npm@^11.12.1:
+  version "11.12.1"
+  resolved "https://registry.yarnpkg.com/npm/-/npm-11.12.1.tgz#432da55a9f0ca53c982740fabe2b081a38019fb1"
+  integrity sha512-zcoUuF1kezGSAo0CqtvoLXX3mkRqzuqYdL6Y5tdo8g69NVV3CkjQ6ZBhBgB4d7vGkPcV6TcvLi3GRKPDFX+xTA==
   dependencies:
     "@isaacs/string-locale-compare" "^1.1.0"
     "@npmcli/arborist" "^9.4.2"
-    "@npmcli/config" "^10.8.0"
+    "@npmcli/config" "^10.8.1"
     "@npmcli/fs" "^5.0.0"
     "@npmcli/map-workspaces" "^5.0.3"
     "@npmcli/metavuln-calculator" "^9.0.3"
