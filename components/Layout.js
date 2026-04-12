@@ -1,6 +1,5 @@
 import dynamic from 'next/dynamic';
 import Navigation from './Navigation';
-import Footer from './Footer';
 import GlobalHead from './Head';
 
 const PerformanceAnalytics = dynamic(
@@ -9,6 +8,10 @@ const PerformanceAnalytics = dynamic(
 );
 
 const GoogleAnalytics = dynamic(() => import('./GoogleAnalytics'), {
+  ssr: false,
+});
+
+const Footer = dynamic(() => import('./Footer'), {
   ssr: false,
 });
 
