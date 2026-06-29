@@ -31,7 +31,7 @@
     "next": "^16.2.9",
     "npm": "^11.17.0",
     "perfume.js": "^9.4.0",
-    "postcss": "^8.5.15",
+    "postcss": "^8.5.16",
     "react": "^18.3.1",
     "react-bootstrap": "^2.10.10",
     "react-dom": "^18.3.1",
