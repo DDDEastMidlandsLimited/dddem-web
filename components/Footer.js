@@ -1,6 +1,10 @@
 import Link from 'next/link';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { brands } from '@fortawesome/fontawesome-svg-core/import.macro';
+import {
+  faGithub,
+  faLinkedin,
+  faYoutube,
+} from '@fortawesome/free-brands-svg-icons';
 
 /* enabled prettier*/
 
@@ -25,7 +29,7 @@ export default function Footer() {
             aria-label="youtube"
             rel="noopener noreferrer"
           >
-            <FontAwesomeIcon icon={brands('youtube')} size="sm" />
+            <FontAwesomeIcon icon={faYoutube} size="sm" />
           </Link>
           <Link
             href="https://github.com/DDDEastMidlandsLimited/dddem-web"
@@ -34,7 +38,7 @@ export default function Footer() {
             aria-label="GitHub"
             rel="noopener noreferrer"
           >
-            <FontAwesomeIcon icon={brands('github')} size="sm" />
+            <FontAwesomeIcon icon={faGithub} size="sm" />
           </Link>
           <Link
             href="https://www.linkedin.com/company/ddd-east-midlands-limited/"
@@ -43,7 +47,7 @@ export default function Footer() {
             aria-label="LinkedIn"
             rel="noopener noreferrer"
           >
-            <FontAwesomeIcon icon={brands('linkedin')} size="sm" />
+            <FontAwesomeIcon icon={faLinkedin} size="sm" />
           </Link>
         </div>
       </div>
