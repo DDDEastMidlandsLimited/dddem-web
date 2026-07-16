@@ -496,11 +496,6 @@
     "@eslint/core" "^0.17.0"
     levn "^0.4.1"
 
-"@fortawesome/fontawesome-common-types@7.3.0":
-  version "7.3.0"
-  resolved "https://registry.npmjs.org/@fortawesome/fontawesome-common-types/-/fontawesome-common-types-7.3.0.tgz"
-  integrity sha512-X/vND0Y1l9fVJ9O79UgtZnXSpz4aNF3bXlDxiJAEAm6kgeSftp9wjjBPgqzazJV8YlmxfRoeXNfSCJ48sf/Hhw==
-
 "@fortawesome/fontawesome-common-types@7.3.1":
   version "7.3.1"
   resolved "https://registry.yarnpkg.com/@fortawesome/fontawesome-common-types/-/fontawesome-common-types-7.3.1.tgz#913fe0c0aed1184390efeec2546d78f9c4c8dc4a"
@@ -513,12 +508,12 @@
   dependencies:
     "@fortawesome/fontawesome-common-types" "7.3.1"
 
-"@fortawesome/free-brands-svg-icons@^7.3.0":
-  version "7.3.0"
-  resolved "https://registry.npmjs.org/@fortawesome/free-brands-svg-icons/-/free-brands-svg-icons-7.3.0.tgz"
-  integrity sha512-W6C9ZbPWpwcUycq6U90lVbvWTrEnr01Td2x5jlO8fOtvww4kqDBMSmZqXQCc6FIIJD4kTH6G1MBRExAaSXz3yg==
+"@fortawesome/free-brands-svg-icons@^7.3.1":
+  version "7.3.1"
+  resolved "https://registry.yarnpkg.com/@fortawesome/free-brands-svg-icons/-/free-brands-svg-icons-7.3.1.tgz#6ae4b0d6d3969e105989b43edb318cd20b561161"
+  integrity sha512-8eiNzycuFhy3mZsi5EVO8JpO3H8l7/kSCl4Gk4iUew9hJuzYFqAAD6kqgeEup3+YZ9hL+5cjjorGzrRLkYuURg==
   dependencies:
-    "@fortawesome/fontawesome-common-types" "7.3.0"
+    "@fortawesome/fontawesome-common-types" "7.3.1"
 
 "@fortawesome/free-solid-svg-icons@^7.3.1":
   version "7.3.1"
