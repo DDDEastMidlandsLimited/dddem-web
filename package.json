@@ -60,8 +60,8 @@
     "pa11y-ci": "^4.1.1",
     "prettier": "^3.9.6",
     "pretty-quick": "^4.2.2",
+    "webpack": "^5.109.0",
     "sass": "^1.101.7",
-    "webpack": "^5.108.4",
     "webpack-cli": "^7.2.1"
   },
   "repository": {
