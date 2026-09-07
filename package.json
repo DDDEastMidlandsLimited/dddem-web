@@ -62,7 +62,7 @@
     "pretty-quick": "^4.2.2",
     "webpack": "^5.110.3",
     "sass": "^1.103.1",
-    "webpack-cli": "^7.2.1"
+    "webpack-cli": "^7.2.3"
   },
   "repository": {
     "type": "git",
