@@ -4532,12 +4532,12 @@ next-compose-plugins@^2.2.1:
   resolved "https://registry.npmjs.org/next-compose-plugins/-/next-compose-plugins-2.2.1.tgz"
   integrity sha512-OjJ+fV15FXO2uQXQagLD4C0abYErBjyjE0I0FHpOEIB8upw0hg1ldFP6cqHTJBH1cZqy96OeR3u1dJ+Ez2D4Bg==
 
-next@^16.4.0:
-  version "16.4.3"
-  resolved "https://registry.npmjs.org/next/-/next-16.4.3.tgz"
-  integrity sha512-OqxKTGi9u80FydydsMNYNjnuje9Au+kvHlt2GZ//ftdpDHm1dxKqAaENoOOTX5wKzn+9vaKUNIfZeyZUuLhCnA==
+next@^16.4.1:
+  version "16.4.1"
+  resolved "https://registry.yarnpkg.com/next/-/next-16.4.1.tgz#a4e3397b5d2b1356950cb13be7e6a05d1a4e7545"
+  integrity sha512-uc657V62E34fOI6W5NtG9IzwsPcms0Z60grz2MJGtglgD+pTFnNt4Yw2PzaU622tfX4vhrDgLZzicE2YlhI20Q==
   dependencies:
-    "@next/env" "16.4.3"
+    "@next/env" "16.4.1"
     "@swc/helpers" "0.5.23"
     baseline-browser-mapping "^2.9.19"
     caniuse-lite "^1.0.30001579"
