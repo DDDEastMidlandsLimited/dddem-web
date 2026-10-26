@@ -1089,6 +1089,14 @@
     "@eslint-community/eslint-utils" "4.9.1"
     fast-glob "3.3.1"
 
+"@next/eslint-plugin-next@^16.4.3":
+  version "16.4.3"
+  resolved "https://registry.yarnpkg.com/@next/eslint-plugin-next/-/eslint-plugin-next-16.4.3.tgz#c89f39d4231ca5a3f15d956f98f958f1a834abd2"
+  integrity sha512-oxuC06wt/71h6ACYCV9GbKOfnf5a7VlRe/p80YHTut15TNgDEmynDnaq8t/xhy5rlvk7dhItIPs6H3rvIM4kyw==
+  dependencies:
+    "@eslint-community/eslint-utils" "4.9.1"
+    fast-glob "3.3.1"
+
 "@next/swc-darwin-arm64@16.4.3":
   version "16.4.3"
   resolved "https://registry.yarnpkg.com/@next/swc-darwin-arm64/-/swc-darwin-arm64-16.4.3.tgz#f1bfe04b838d021ac209c31627f4ca55970b0a55"
